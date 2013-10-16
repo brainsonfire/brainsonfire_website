@@ -16,6 +16,17 @@
         <script type="text/javascript">var switchTo5x=true;</script>
 		<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options({publisher: "ur-33f01021-9a7c-9a45-9dcd-e5c5e7da36dd", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+        <!--GA-->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-43012620-1', 'brainsonfire.com');
+            ga('send', 'pageview');
+        </script>
+        <!--/end GA-->
 	</head>
 	<body class="blog">
         <div id="wrapper">
