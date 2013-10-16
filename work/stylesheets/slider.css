@@ -1,0 +1,89 @@
+.wmuSlider,.wmuGallery {
+  margin-bottom: 5%;
+}
+
+.wmuSlider {
+  position: relative;
+  overflow: hidden;
+}
+
+.wmuSlider .wmuSliderWrapper article {
+  position: relative;
+  text-align: center;
+}
+
+.wmuSlider .wmuSliderWrapper article img {
+  width: auto;
+  height: auto;
+  padding-bottom: 3%;
+}
+
+.wmuSlider .wmuSliderWrapper article img#infograph {
+  max-width: 520px;
+  width: 95%;
+}
+
+.wmuSlider .wmuSliderWrapper article img#journey-slides,.wmuSlider .wmuSliderWrapper article img#stories-slides,.wmuSlider .wmuSliderWrapper article img#workout-sucks-slides {
+  max-width: 900px;
+  width: 95%;
+}
+
+.wmuSlider .wmuSliderWrapper article img#six-k-slides {
+  max-width: 860px;
+  width: 95%;
+}
+
+.wmuSliderPrev,.wmuSliderNext {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  text-indent: -9999px;
+  background: red;
+  top: 50%;
+  margin-top: -40px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.wmuSliderPrev {
+  background-position: 100% 0;
+  left: 20px;
+  background: url(/images/arrow-grey.png) no-repeat;
+  background-size: 31px;
+}
+
+.wmuSliderNext {
+  right: 20px;
+  background: url(/images/arrow-grey.png) no-repeat;
+  background-size: 31px;
+  background-position: 100% 97%;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.wmuSliderPagination {
+  z-index: 2;
+  position: absolute;
+  left: 11.5%;
+  bottom: 10px;
+}
+
+.wmuSliderPagination li {
+  float: left;
+  margin: 0 5px 0 0;
+  list-style-type: none;
+}
+
+.wmuSliderPagination a {
+  display: block;
+  text-indent: -9999px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: #333;
+}
+
+.wmuSliderPagination a.wmuActive {
+  background: #2eb6d0;
+}

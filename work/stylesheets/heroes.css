@@ -1,0 +1,773 @@
+
+section {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    width: 100%;
+    margin: 0;
+    background: url("../images/bg.gif") repeat;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+section.heroes-hero {
+    padding: 0 0 39% 0;
+    background: url("../images/heroes/heroes-hero.jpg") no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+section.backdrop#heroes-backdrop {
+    padding: 2% 9%;
+    text-align: center;
+}
+
+section.image-text-combo {
+    margin: 0 0 -4px 0;
+    padding: 0 9%;
+}
+
+section.graphic { text-align: center }
+
+section.graphic#hero-books { background: #dbdcdc }
+
+section.graphic#accordion-photos { background: #b6c1c7 }
+
+section.graphic#journey-book { background: #dbdcdc }
+
+section.graphic#six-k-photos { padding: 2% 9% }
+
+section.graphic#six-k-photos p { margin-top: 5% }
+
+section.graphic#six-k-photos .three-quarter-width-photo {
+    max-width: 868px;
+    width: 75%;
+    margin-bottom: 3%;
+    border: 23px solid black;
+}
+
+section.graphic#six-k-photos .half-width-photo {
+    max-width: 734px;
+    width: 50%;
+}
+
+section.graphic#six-k-photos .full-width-photo {
+    max-width: 1307px;
+    margin-top: -6%;
+}
+
+section.graphic#share-it-sticker {
+    background: #d65830;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #d65830), color-stop(50%, #d65830), color-stop(50%, #4e94a1), color-stop(100%, #4e94a1));
+    background: -webkit-linear-gradient(left, #d65830 0%, #d65830 50%, #4e94a1 50%, #4e94a1 100%);
+    background: -ms-linear-gradient(left, #d65830 0%, #d65830 50%, #4e94a1 50%, #4e94a1 100%);
+    background: linear-gradient(to right, #d65830 0%,#d65830 50%,#4e94a1 50%,#4e94a1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d65830', endColorstr='#4e94a1',GradientType=1 );
+}
+
+section.journeys {
+    padding: 2% 9%;
+    background-color: #FAFAFA;
+}
+
+	div.computer-monitor img{max-width:100%;}
+
+section.stickers {
+    margin-top: -5%;
+    padding: 3% 14%;
+    text-align: center;
+}
+
+section.journey-cards { padding: 3% 20% 6% 20% }
+
+section.journey-box { padding: 3% 10% }
+
+section.run-walk {
+    padding: 30% 0;
+    background: url("../images/heroes/run-walk-bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+section.poster-series {
+    margin: -6.5% 0 0 0;
+    padding: 3% 14%;
+    background: #b3512e;
+}
+
+section.share-it-stories {
+    margin: 6% 0 0% 0;
+    padding: 7% 9% 2% 9%;
+}
+
+.backdrop h2 {
+    margin: 0;
+    padding: 0 0 4% 0;
+}
+
+.image-text-combo .image,
+.image-text-combo .text {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+
+.image-text-combo#founder-feature .text,
+.image-text-combo#break-the-stigma .text {
+    margin: 0 0 20px 1%;
+    padding: 2% 0 2% 0;
+    text-align: left;
+}
+
+.image-text-combo#founder-feature { background: #ff871a }
+
+.image-text-combo#founder-feature .image {
+    position: relative;
+    width: 36.6667%;
+    max-width: 528px;
+}
+
+.image-text-combo#founder-feature .text {
+    width: 59%;
+    max-width: 911.999px;
+    margin-bottom: 20px;
+}
+
+.image-text-combo#break-the-stigma { background: #abb428 }
+
+.image-text-combo#break-the-stigma .image,
+.image-text-combo#break-the-stigma .text {
+    max-width: 569px;
+    width: 48%;
+}
+
+.image-text-combo#break-the-stigma .image img { width: 100% }
+
+.image-text-combo#break-the-stigma .text h2 { margin: 8% 0 2% 0; }
+
+.image-text-combo#six-k { background: #79b6b1 }
+
+.image-text-combo#six-k .image {
+    width: 34%;
+    max-width: 399px;
+}
+
+.image-text-combo#six-k img {
+    width: 100%;
+    background-color: #b3512e;
+}
+
+.image-text-combo#six-k .text {
+    width: 60%;
+    max-width: 713px;
+    margin: 2% 0 0 4%;
+    text-align: left;
+}
+
+.image-text-combo#six-k .text span.dark-text { color: #333 }
+
+.image-text-combo#quote {
+    background-color: #FAFAFA;
+    padding: 3% 12% 6% 12%;
+}
+
+.image-text-combo#quote .image {
+    width: 60%;
+    max-width: 526px;
+    margin: 0;
+}
+
+.image-text-combo#quote .image img {
+    width: 100%;
+    border: 13px solid black;
+}
+
+.image-text-combo#quote .text {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 40%;
+    max-width: 374px;
+    margin: 0 0 0 2.46%;
+    padding: 6% 5.5% 3% 4%;
+    background: #26a6cd;
+}
+
+.image-text-combo#quote .text p {
+    font-size: 1.35em;
+    text-align: left;
+}
+
+.image-text-combo#quote .text .byline {
+    width: 72%;
+    text-align: left;
+    padding: 15% 0 23.4% 38%;
+    line-height: 1.45;
+    font-weight: 500;
+}
+
+.image-text-combo p {
+    margin: 0;
+    padding: 1.5% 0 0 1.5%;
+    color: white;
+}
+
+.full-width-photo { width: 100% }
+
+.three-quarter-width-photo { width: 75% }
+
+.three-quarter-width-photo.bordered { border: 23px solid black }
+
+.half-width-photo { width: 50% }
+
+.half-width-photo.bordered { border: 13px solid black }
+
+.graphic img {
+    width: 100%;
+    max-width: 1376px;
+    margin: 0 auto;
+}
+
+h3#heroic {
+    display: block;
+    margin: 0 0 -1% 0;
+    padding: 2% 0 0 0;
+    color: white;
+}
+
+p#bold {
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+p#med {
+    font-weight: 400;
+}
+
+img#hero-books {
+    position: relative;
+    line-height: 0;
+    margin: 3% 0 -9% 0;
+}
+
+.stickers img {
+    width: 22%;
+    max-width: 213px;
+    margin: 0 3% 3% 0;
+}
+
+#accordion-photos { text-align: center }
+
+#accordion-photos img {
+    max-width: 1030px;
+    width: 88%;
+    margin: 0 0 -4px 0;
+}
+
+.journey-cards { text-align: center }
+
+.journey-cards p {
+    display: block;
+    padding: 0% 0% 1% 0%;
+}
+
+.journey-cards img {
+    width: 30%;
+    max-width: 252px;
+    margin: 0 3% 3% 0;
+}
+
+#journey-book { margin: 0% 0% -12% 0% }
+
+#journey-book img {
+    position: relative;
+    top: -77px;
+    width: 100%;
+    max-width: 1141px;
+}
+
+.journey-box p {
+    width: 76%;
+    text-align: left;
+}
+
+#journey-box-photo,
+#hero-buttons,
+#hero-cards-photo { width: 100% }
+
+#journey-box-photo,
+#hero-cards-photo { max-width: 879px }
+
+#hero-buttons { max-width: 1170px }
+
+.title {
+    width: 100%;
+    padding-left: 4%;
+    text-align: center;
+}
+
+.title h3 {
+    margin: 0;
+}
+
+.poster-series { text-align: left }
+
+.poster-series p {
+    display: block;
+    margin: 1% 0 2% 0;
+}
+
+.poster-series img {
+    width: 23%;
+    max-width: 279px;
+    margin: 0 2% 0 0;
+    box-shadow: 0 3px 21px rgba(0,0,0,0.5);
+}
+
+.quote-container {
+    background: #26a6cd;
+    text-align: left;
+}
+
+.quote {
+    background-color: #FAFAFA;
+    padding: 3% 18% 5% 18%;
+}
+
+.quote img {
+    width: 55%;
+    max-width: 503px;
+    margin: 0;
+    border: 13px solid black;
+    vertical-align: top;
+}
+
+.quote .quote-content {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 30%;
+    margin: 0 0 0 6%;
+    padding: 3% 3% 3% 3%;
+    font-size: 1.35em;
+    text-align: left;
+    vertical-align: top;
+}
+
+.quote p {
+    margin: 0;
+    color: white;
+    font-size: .8em;
+    line-height: 1.5;
+}
+
+.quote .byline { padding: 3% 0 }
+
+.quote .byline p {
+    color: #333;
+    font-size: .8em;
+    font-weight: 500;
+}
+
+#share-it-sticker { margin: 0% 0% -12% 0% }
+
+#share-it-sticker img {
+    position: relative;
+    width: 50%;
+    max-width: 698px;
+    top: -38px;
+}
+
+#large-badge {
+    width: 48%;
+    max-width: 510px;
+    margin: 0 2% 0 0;
+    padding: 5% 0 0 0;
+}
+
+.site-description {
+    display: inline-block;
+    max-width: 355px;
+    width: 30%;
+    margin: 5% 6% 0 0;
+    vertical-align: top;
+}
+
+.site-description img {
+    position: relative;
+    display: block;
+    top: -130px;
+}
+
+.site-description p {
+    width: 94%;
+    margin: -40% 0 0 0;
+    padding: 0 0 0 8%;
+    text-align: left;
+}
+
+#share-it-site {
+    margin: 5% 0 0 0;
+    max-width: 668px;
+    width: 57%;
+}
+
+#on-the-car {
+    display: block;
+    width: 100%;
+    max-width: 1057px;
+    margin: 0 auto;
+    padding: 5% 0;
+}
+
+@media (min-width: 941px) and (max-width: 1170px) { 
+    .image-text-combo#founder-feature { padding: 3.5% 9% }
+
+    .image-text-combo#founder-feature .image { 
+    	width: 42% 
+		margin: 3% 0 0 0;
+    }
+
+    .image-text-combo#founder-feature .text {
+        width: 54%;
+        margin: 0 0 20px 0;
+    }
+
+    .image-text-combo#six-k img { padding: 15% 0 8% 0 }
+
+    .image-text-combo#six-k .text { margin: 4% 0 0 4% }
+
+    .image-text-combo#quote .image { width: 55% }
+
+    .image-text-combo#quote .text { margin: 0 0 0 2.99% }
+
+    .image-text-combo#quote .text .byline { padding: 15% 0 13.7% 38% }
+
+    .site-description {
+        width: 33%;
+        margin: 5% 3% 0 0;
+    }
+
+    #share-it-site { width: 64% }
+
+    .name { right: -10px }
+
+    .name #heading { font-size: 1.4em }
+
+    .name #sub-heading { font-size: 1em }
+
+    .name #sub-heading ul { width: 46% }
+
+    section.quote { padding: 5% 10% }
+
+    section.quote .byline { padding: 3% 1% 3% 0 }
+}
+
+@media (max-width: 940px) { 
+    #founder-feature .image {
+        width: 45%;
+        padding: 3.5% 0 0 0;
+    }
+
+    #founder-feature .text {
+        width: 45%;
+        padding: 3% 0;
+    }
+
+    #founder-feature .name {
+        position: relative;
+        width: 100%;
+        top: 0;
+        right: 0;
+    }
+
+    #founder-feature #heading {
+        display: block;
+        font-size: 1.6em;
+        text-transform: uppercase;
+        letter-spacing: -1px;
+        font-weight: 500;
+    }
+
+    #founder-feature #sub-heading ul {
+        width: 100%;
+        margin: 0;
+        padding: 0 0 0 9px;
+    }
+
+    #founder-feature #sub-heading li {
+        display: inline;
+        padding: 0 7px 0 0px;
+        font-size: .75em;
+    }
+
+    .image-text-combo#break-the-stigma .text h2 { margin: 7% 0 2% 0 }
+
+    .image-text-combo#six-k .image img { padding: 27% 0 }
+
+    .image-text-combo#six-k .text {
+        width: 62%;
+        margin: 7% 0 0 4%;
+    }
+
+    .image-text-combo#quote .image { width: 57% }
+
+    .image-text-combo#quote .image img { border: 7px solid black }
+
+    .image-text-combo#quote .text {
+        margin: 0 0 0 2%;
+        padding: 4% 3% 7.1% 3%;
+    }
+
+    .image-text-combo#quote .text p { font-size: 1.15em }
+
+    .image-text-combo#quote .text .byline {
+        width: 198px;
+        padding: 15% 0 13.5% 10%;
+    }
+
+    .site-description p { padding: 0 }
+
+    .backdrop h2 { padding: 4% 0 0 0 }
+
+    .full-width-heading.teal p { width: 75% }
+
+    .journeys { padding: 0 12% }
+
+    .wmuSliderPrev,
+    .wmuSliderNext { display: none }
+
+    .wmuSliderPagination { bottom: 0 }
+
+    #journey-book img { top: -48px }
+
+    .journey-box p { width: 100% }
+
+    .title { padding-left: 0 }
+
+    section.graphic#six-k-photos p {
+        margin-top: 3%;
+        padding-bottom: 4%;
+    }
+
+    section.graphic#six-k-photos .three-quarter-width-photo { border: 10px solid black }
+
+    #share-it-sticker img { top: -28px }
+
+    #large-badge { padding: 10% 0 0 0 }
+
+    .site-description {
+        width: 100%;
+        max-width: 100%;
+        margin: 10% 0;
+    }
+
+    .site-description img {
+        float: left;
+        width: 41%;
+        top: 0;
+        margin: 0 auto;
+    }
+
+    .site-description p {
+        margin: 0;
+        display: inline;
+    }
+
+    #share-it-site {
+        width: 100%;
+        margin: 0;
+    }
+
+    .quote { padding: 3% 9% 5% 9% }
+
+    .quote img { max-width: 256px }
+
+    .quote .quote-content {
+        width: 47%;
+        font-size: 1.05em;
+    }
+}
+
+@media (max-width: 768px) { 
+    p { font-size: .8em }
+
+    .image-text-combo#founder-feature .image,
+    .image-text-combo#six-k .image,
+    .image-text-combo#break-the-stigma .image {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+    }
+
+	.image-text-combo p{
+		padding: 1.5% 0 0 0;
+	}
+
+    .image-text-combo#founder-feature .text,
+    .image-text-combo#six-k .text,
+    .image-text-combo#break-the-stigma .text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .image-text-combo#break-the-stigma .image { padding: 0 0 0 0 }
+
+    .image-text-combo#break-the-stigma .text { padding: 0 0 4% 0 }
+
+    .image-text-combo#break-the-stigma .text h2 { 
+    	padding: 0;
+    	margin: 2% 0 2% 0; 
+	}
+
+    .image-text-combo#six-k .image { padding: 4% 0 0 0 }
+
+    .image-text-combo#six-k .image img { padding: 0 }
+
+    .image-text-combo#six-k .text { padding: 4% 0 }
+
+    #founder-feature #sub-heading { font-size: .63em }
+
+    section.journey-cards { padding: 3% 12% 11% 12% }
+
+    .journey-cards img,
+    .poster-series img {
+        width: 48%;
+        max-width: 100%;
+        margin: 0 2% 1% 0;
+    }
+
+    .journey-cards img:nth-child(odd),
+    .poster-series img:nth-child(odd) { margin: 0 0 1% 0 }
+
+    #journey-book img { top: -27px }
+
+    .quote { padding: 5% 0 }
+
+    .quote img {
+        width: 38%;
+        max-width: 256px;
+    }
+
+    .quote .quote-content {
+        width: 47%;
+        font-size: 1.05em;
+    }
+}
+
+@media (max-width: 480px) { 
+    section.heroes-hero { padding: 30% 0 }
+
+    #sub-heading { font-size: .63em }
+
+    .image-text-combo#founder-feature .image,
+    .image-text-combo#six-k .image,
+    .image-text-combo#break-the-stigma .image { width: 100% }
+
+    .image-text-combo#founder-feature .text,
+    .image-text-combo#six-k .text,
+    .image-text-combo#break-the-stigma .text { padding: 5% 0 }
+
+    .image-text-combo#break-the-stigma .text h2 { margin: 0 0 2% 0 }
+
+    h3#heroic {
+        margin: 0 0 -3% 0;
+        padding: 6% 0 0 0;
+    }
+
+    img#hero-books { margin: 3% 0 4% 0 }
+
+    .image-text-combo#founder-feature .image { width: 100% }
+
+    .stickers img {
+        width: 48%;
+        max-width: 48%;
+        margin: 0 2% 2% 0;
+        padding: 0;
+    }
+
+    .stickers img:nth-child(even) { margin-right: 0 }
+
+    section.graphic#six-k-photos p { padding-bottom: 0 }
+
+    section.poster-series { margin: 0 }
+
+    #share-it-sticker img {
+        top: -10px;
+        width: 68%;
+    }
+
+    section.journeys { display: none }
+
+    .quote img {
+        width: 100%;
+        max-width: 90%;
+        margin: 3% 0 0 0;
+    }
+
+    .quote .quote-content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .quote .byline { width: 38% }
+
+    .quote-container {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) { 
+    .image-text-combo#founder-feature,
+    .image-text-combo#six-k,
+    .image-text-combo#break-the-stigma {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .image-text-combo#founder-feature .image,
+    .image-text-combo#six-k .image,
+    .image-text-combo#break-the-stigma .image {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .image-text-combo#founder-feature .text,
+    .image-text-combo#six-k .text,
+    .image-text-combo#break-the-stigma .text {
+        width: 100%;
+        margin: 0;
+    }
+
+    .full-width-heading.teal {
+        padding-top: 17%;
+        padding-bottom: 8%;
+    }
+
+    img#hero-books { margin: 7% 0 5% 0 }
+
+    section.graphic#accordion-photos { padding: 0 }
+
+    section.graphic#accordion-photos img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    section.journey-cards { padding: 3% 5% 11% 5% }
+
+    .journey-box p#bold,
+    .site-description p#bold { font-size: .85em }
+
+    .quote img { border: 5px solid black }
+
+    .quote .byline { width: 58% }
+
+    #share-it-sticker img { top: -5px }
+}
+Want more dev tools? Check out DevRef.
+
+  416
