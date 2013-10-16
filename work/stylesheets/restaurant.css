@@ -1,0 +1,325 @@
+section.restaurant-hero {
+  padding: 20% 0;
+  background: url(../images/restaurants/restaurants-hero.jpg) no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+/* ================== Section Classes ================== */
+
+.backdrop, .sobys, .sobys-on-side, .nosedive, .lazygoat, .papis {
+  width: 100%;
+  max-width: 1170;
+  margin: 0 auto;
+}
+
+#papis-section {
+  margin-top: -50px;
+}
+
+/* ================== Slideshows / Photos ================== */
+
+.photo-strip {
+  padding: 0;
+  height: 475px;
+  background-size: cover;
+  background-position: center top;
+}
+
+#lazygoat, #table-three-oh-one {
+  height: 425px;
+}
+
+.photos img, .carousel img {
+  width: 100%;
+}
+
+.photos {
+  width: 90%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.carousel {
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+}
+
+.carousel img {
+  border: 20px solid black;
+}
+
+#inside-sobys {
+  background: url("../images/restaurants/inside-photostrip.jpg") repeat-x;
+}
+
+#sos {
+  background: url("../images/restaurants/restaurant-shots-01.jpg") repeat-x;
+}
+
+#nosedive {
+  background: url("../images/restaurants/nosedive-hero.jpg") repeat-x;
+}
+
+#lazygoat {
+  background: url("../images/restaurants/lazygoat-hero.jpg") repeat-x;
+}
+
+#table-three-oh-one {
+  background: url("../images/restaurants/table301-hero.jpg") repeat-x;
+}
+
+#passerelle {
+  background: url("../images/restaurants/passerelle-hero.jpg") repeat-x;
+}
+
+#papis {
+  background: url("../images/restaurants/papis-hero.jpg") repeat-x;
+}
+
+/* ================== Backdrop ================== */
+
+.backdrop {
+  text-align: center;
+}
+
+.backdrop .photos, .backdrop .blurb {
+  max-width: 855px;
+  margin: 5% auto 0 auto;
+}
+
+.backdrop .blurb {
+  text-align: left;
+}
+
+/* ================== Sobys ================== */
+
+.sobys .photos {
+  max-width: 825px;
+  width: 70%;
+  margin: -80px 0 0 -90px;
+}
+
+#book1, #book2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#book1 {
+  margin-bottom: -170px;
+}
+
+.sobys .blurb {
+  display: inline-block;
+  width: 35%;
+  max-width: 430px;
+  margin: 0 0 0 auto;
+  vertical-align: top;
+}
+
+/* ================== Sobys On the Side ================== */
+
+.sobys-on-side {
+  margin: 2.5% 0;
+}
+
+.sobys-on-side .blurb {
+  max-width: 500px;
+  margin-right: 60px;
+  text-align: right;
+}
+
+.sobys-on-side .blurb h3 {
+  margin-top: 0;
+}
+
+.sobys-on-side .carousel {
+  max-width: 610px;
+}
+
+/* ================== Nosedive / Passerelle / Papis ================== */
+
+.nosedive .photos, .passerelle .photos, .papis .photos, .papis .carousel {
+  max-width: 464px;
+  width: 39%;
+  margin: -80px 5% 0 0;
+}
+
+.papis .carousel {
+  margin: 40px 0 0px 0;
+}
+
+.papis .photos {
+  margin-top: -140px;
+}
+
+.nosedive .blurb, .passerelle .blurb, .papis .blurb {
+  max-width: 646px;
+  width: 54%;
+}
+
+.nosedive .carousel, .passerelle .carousel {
+  display: block;
+  max-width: 905px;
+  margin: 5% auto;
+}
+
+.blurb-photos {
+  display: inline-block;
+  max-width: 646px;
+  width: 50%;
+}
+
+.blurb-photos .blurb {
+  width: 95%;
+  margin-left: 5%;
+}
+
+.papis .photos .carousel, .blurb-photos .carousel {
+  width: 100%;
+  margin-top: 0;
+}
+
+#mural {
+  width: 100%;
+  max-width: 1035px;
+  margin: 5% auto;
+}
+
+/* ================== Lazy Goat / Table 301 ================== */
+
+.lazygoat .photos, .table-three-oh-one .photos {
+  max-width: 785px;
+  margin: 0 0 0 -80px;
+}
+
+.lazygoat .blurb, .table-three-oh-one .blurb {
+  max-width: 405px;
+  margin-left: 60px;
+}
+
+#lazy-gif {
+  display: block;
+  width: 90%;
+  max-width: 843px;
+  margin: 0 auto 5% auto;
+}
+
+.lazygoat .carousel {
+  display: block;
+  max-width: 940px;
+  margin: 5% auto;
+}
+
+
+/* =========================================================== */
+/* ====================== Media Queries ====================== */
+
+@media screen and (max-width: 1024px) {
+
+  .sobys .photos {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sobys .photos img {
+    display: inline-block;
+  }
+
+  #book1, #book2 {
+    width: 44%;
+    margin: 0 2.5%;
+  }
+
+  #book1 {
+    margin-bottom: 0;
+  }
+
+  .sobys .blurb, .sobys-on-side .blurb {
+    width: 100%;
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .lazygoat .blurb, .table-three-oh-one .blurb {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .carousel img {
+    border: 11px solid black;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .backdrop, .sobys, .sobys-on-side, .nosedive, .lazygoat, .papis {
+    width: 95%;
+    max-width: 1170;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .backdrop .blurb, .sobys .blurb, .sobys-on-side .blurb, .nosedive .blurb, .lazygoat .blurb, .papis .blurb {
+    text-align: left;
+  }
+
+  .blurb h3 {
+    margin: 3.5% 0 2% 0;
+  }
+
+  .backdrop .blurb {
+    margin: -5% auto 0 auto;
+  }
+
+  .photo-strip {
+    height: 335px;
+    background-size: 100%;
+  }
+
+  .sobys .photos, .sobys .blurb {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #book1 { display: none; }
+
+  .sobys-on-side .blurb {
+    text-align: left;
+  }
+
+  .carousel img {
+    border: 5px solid black;
+  }
+
+  .nosedive {
+    text-align: center;
+  }
+
+  .nosedive .blurb {
+    text-align: left;
+  }
+
+  .nosedive .photos, .passerelle .photos, .papis .photos, .papis .carousel {
+    margin: 0 auto;
+  }
+
+  .lazygoat .photos, .table-three-oh-one .photos {
+    margin: 0 auto;
+  }
+
+  .lazygoat .blurb, .table-three-oh-one .blurb {
+    margin-left: auto;
+  }
+
+  .nosedive .photos, .passerelle .photos, .papis .photos, .papis .carousel {
+    text-align: center;
+  }
+
+}
