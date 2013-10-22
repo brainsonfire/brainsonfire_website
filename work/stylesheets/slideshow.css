@@ -153,6 +153,25 @@
 	right:64px;
 }
 
+
+.carousel {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.carousel .slideshow .slide {
+  padding: 0 7%;
+}
+
+.backdrop .carousel .slideshow .slide {
+	padding: 0 24%;
+}
+
+.carousel img {
+  width: 100%;
+}
+
 @media screen and (max-width: 1024px) {
 	.slideshow .slide{padding:0 17%;}
 	.btn-next,

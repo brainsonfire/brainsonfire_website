@@ -10,13 +10,15 @@
     <meta name="description" content="The Heroes in Recovery movement makes recovery – not addiction – the newsworthy story and topic of conversation. It helps break the stigma associated with addiction by celebrating everyday heroes and creating a new voice of hope.">
 	
     <link href="stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-    
+    <link href="stylesheets/slideshow.css" media="screen" rel="stylesheet" type="text/css">
     <link href="stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/defaults.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/slider.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/heroes.css" media="screen" rel="stylesheet" type="text/css" />
 
     <script src="javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="../js/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
     <script src="javascripts/jquery-1.10.2.min.js" type="text/javascript"></script>
     <script src="javascripts/jquery.wmuSlider.min.js" type="text/javascript"></script>
     <script src="javascripts/jquery.fittext.js" type="text/javascript"></script>
@@ -79,18 +81,39 @@
   <section class="heroes-hero"></section>
   <section class="backdrop" id="heroes-backdrop">
     <h3>BACKDROP</h3>
-    <div class="wmuSlider infograph-slideshow">
-      <div class="wmuSliderWrapper">
-        <article><img id="infograph" src="images/heroes/infograph-aids.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-breast-cancer.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-cancer-disease.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-substance-addiction-disease.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-substance-addiction.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-recieved-treatment.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-recieved-no-treatment.png" /></article>
-        <article><img id="infograph" src="images/heroes/infograph-want-to-reach.png" /></article>
+    <section class="carousel">
+      <div class="slideshow">
+        <div class="slideset">
+            
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-aids.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-breast-cancer.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-cancer-disease.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-substance-addiction-disease.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-substance-addiction.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-recieved-treatment.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-recieved-no-treatment.png" />
+          </div>
+          <div class="slide">
+            <img id="infograph" src="images/heroes/infograph-want-to-reach.png" />
+          </div>
+          <a class="btn-next" href="#">next</a>
+          <a class="btn-prev" href="#">previous</a>
+        </div>
       </div>
-    </div>
+    </section>
   </section>
   <section class="image-text-combo" id="founder-feature">
     <div class="image"><img class="full-width-photo" src="images/heroes/lee-pepper.jpg" /></div>
@@ -117,16 +140,36 @@
   </div>
   <section class="graphic"><img id="hero-books" src="images/heroes/hero-books.png" /></section>
   <section class="journeys" id="js-journeys">
-    <div class="wmuSlider journeys-slideshow">
-      <div class="wmuSliderWrapper">
-        <article><img id="journey-slides" src="images/heroes/morgans-journey.png" /></article>
-        <article><img id="journey-slides" src="images/heroes/allens-journey.png" /></article>
-        <article><img id="journey-slides" src="images/heroes/mikes-journey.png" /></article>
-        <article><img id="journey-slides" src="images/heroes/traceys-journey.png" /></article>
-        <article><img id="journey-slides" src="images/heroes/margarets-journey.png" /></article>
-        <article><img id="journey-slides" src="images/heroes/dianas-journey.png" /></article>
+
+    <section class="carousel">
+      <div class="slideshow">
+        <div class="slideset">
+            
+          <div class="slide">
+            <img id="journey-slides" src="images/heroes/morgans-journey.png" />
+          </div>
+          <div class="slide">
+            <img id="journey-slides" src="images/heroes/allens-journey.png" />
+          </div>
+          <div class="slide">
+            <img id="journey-slides" src="images/heroes/mikes-journey.png" />
+          </div>
+          <div class="slide">
+            <img id="journey-slides" src="images/heroes/traceys-journey.png" />
+          </div>
+          <div class="slide">
+            <img id="journey-slides" src="images/heroes/margarets-journey.png" />
+          </div>
+          <div class="slide">
+            <img id="journey-slides" src="images/heroes/dianas-journey.png" />
+          </div>
+          <a class="btn-next" href="#">next</a>
+          <a class="btn-prev" href="#">previous</a>
+        </div>
       </div>
-    </div>
+    </section>
+    
+      
   </section>
   <section class="stickers"><img src="images/heroes/hero-sticker-1.png" /><img src="images/heroes/hero-sticker-2.png" /><img src="images/heroes/hero-sticker-3.png" /><img src="images/heroes/hero-sticker-4.png" /><img src="images/heroes/hero-sticker-5.png" /><img src="images/heroes/hero-sticker-6.png" /><img src="images/heroes/hero-sticker-7.png" /><img src="images/heroes/hero-sticker-8.png" /></section>
   <section class="graphic" id="accordion-photos"><img src="images/heroes/accordion-back.jpg" /><img src="images/heroes/accordion-front.jpg" /></section>
@@ -150,23 +193,54 @@
     </div>
   </section>
   <section class="graphic" id="six-k-photos">
-    <div class="wmuSlider six-k-slideshow">
-      <div class="wmuSliderWrapper">
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/people-at-6k.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-01.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-02.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-03.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-05.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-06.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-07.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-08.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-09.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-10.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-11.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-12.jpg" /></article>
-        <article><img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-13.jpg" /></article>
+    <section class="carousel">
+      <div class="slideshow">
+        <div class="slideset">
+            
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/people-at-6k.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-01.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-02.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-03.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-05.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-06.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-07.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-08.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-09.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-10.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-11.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-12.jpg" />
+          </div>
+          <div class="slide">
+            <img class="three-quarter-width-photo bordered" src="images/heroes/k6-race-13.jpg" />
+          </div>
+          <a class="btn-next" href="#">next</a>
+          <a class="btn-prev" href="#">previous</a>
+        </div>
       </div>
-    </div>
+    </section>
     <img class="half-width-photo" src="images/heroes/hats-at-6k.jpg" /><img class="half-width-photo" src="images/heroes/people-at-6k-booth.jpg" />
     <p id="bold">HANDMADE AWARDS FOR RACE WINNERS</p>
     <img class="full-width-photo" src="images/heroes/6k-awards.png" />
@@ -188,17 +262,40 @@
   </section>
   <section class="graphic" id="share-it-sticker"><img src="images/heroes/share-it-sticker.png" /></section>
   <section class="share-it-stories">
-    <div class="wmuSlider share-it-stories-slideshow">
-      <div class="wmuSliderWrapper">
-        <article><img id="stories-slides" src="images/heroes/seans-story.jpg" /></article>
-        <article><img id="stories-slides" src="images/heroes/gregs-story.jpg" /></article>
-        <article><img id="stories-slides" src="images/heroes/ericas-story.jpg" /></article>
-        <article><img id="stories-slides" src="images/heroes/janiques-story.jpg" /></article>
-        <article><img id="stories-slides" src="images/heroes/erics-story.jpg" /></article>
-        <article><img id="stories-slides" src="images/heroes/otherseans-story.jpg" /></article>
-        <article><img id="stories-slides" src="images/heroes/tars-story.jpg" /></article>
+
+    <section class="carousel">
+      <div class="slideshow">
+        <div class="slideset">
+            
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/seans-story.jpg" />
+          </div>
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/gregs-story.jpg" />
+          </div>
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/ericas-story.jpg" />
+          </div>
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/janiques-story.jpg" />
+          </div>
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/erics-story.jpg" />
+          </div>
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/otherseans-story.jpg" />
+          </div>
+          <div class="slide">
+            <img id="stories-slides" src="images/heroes/tars-story.jpg" />
+          </div>
+          
+          <a class="btn-next" href="#">next</a>
+          <a class="btn-prev" href="#">previous</a>
+        </div>
       </div>
-    </div>
+    </section>
+    
+      
     <img id="large-badge" src="images/heroes/day-13.png" /><img id="large-badge" src="images/heroes/shared-my-journey.png" />
     <div class="site-description">
       <img id="share-it-pin" src="images/heroes/share-it-pin.png" />
@@ -213,31 +310,7 @@
       <a href="./fitnessrebellion.html" class="next"><img id="arrow-right" src="images/arrow-blue.png" /><span id="nav-text">next story</span></a>
     </div>
 </section>
-  <script type="text/javascript">var options = {
-    navigationControl: true,
-    animation: 'fade',
-    animationDuration: 1000,
-    slideshow: true,
-    slideshowSpeed: 5000
-    }
-    $(".share-it-stories-slideshow").wmuSlider(options);
-    $(".six-k-slideshow").wmuSlider(options);
-    $(".journeys-slideshow").wmuSlider(options);
-    $(".infograph-slideshow").wmuSlider(options);
-    
-    /* mediaCheck({
-    media: '(max-width: 480px)',
-    entry: function() {
-      $('#js-journeys').remove();
-      $('#js-share-it-stories').remove();
-      $('#js-six-k-photos').remove();
-    },
-    exit: function() {
-    },
-    both: function() {
-    }
-    }); */
-  </script>
+ 
   <footer id="footer">
       <div class="footer-top">
         <a class="go-top go-top-js" href="#wrapper">goto top</a>
