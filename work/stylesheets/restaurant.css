@@ -17,6 +17,8 @@ section.restaurant-hero {
   margin-top: -50px;
 }
 
+.blurb { display: inline-block; }
+
 /* ================== Slideshows / Photos ================== */
 
 .photo-strip {
@@ -126,6 +128,7 @@ section.restaurant-hero {
 }
 
 .sobys-on-side .blurb {
+  display: inline-block;
   max-width: 500px;
   margin-right: 60px;
   text-align: right;
@@ -136,7 +139,12 @@ section.restaurant-hero {
 }
 
 .sobys-on-side .carousel {
-  max-width: 610px;
+  max-width: 530px;
+  width: 45%;
+}
+
+.sobys-on-side .carousel .slideshow .slide {
+  padding: 0 17% 0 9%;
 }
 
 /* ================== Nosedive / Passerelle / Papis ================== */
@@ -164,6 +172,10 @@ section.restaurant-hero {
   display: block;
   max-width: 905px;
   margin: 5% auto;
+}
+
+.nosedive .carousel {
+  position: relative;
 }
 
 .blurb-photos {
@@ -247,6 +259,12 @@ section.restaurant-hero {
     width: 100%;
     max-width: 100%;
   }
+
+  .slideshow .slide{padding:0 17%;}
+  .btn-next,
+  .btn-prev{margin:-44px 0 0;}
+  .btn-next{right:7%;}
+  .btn-prev{left:7%;}
 }
 
 @media screen and (max-width: 768px) {
@@ -255,9 +273,15 @@ section.restaurant-hero {
     border: 11px solid black;
   }
 
+  .btn-next, .btn-prev{display:none;}
+
 }
 
 @media screen and (max-width: 480px) {
+
+  section {
+    text-align: center;
+  }
 
   .backdrop, .sobys, .sobys-on-side, .nosedive, .lazygoat, .papis {
     width: 95%;
@@ -266,8 +290,13 @@ section.restaurant-hero {
     text-align: center;
   }
 
-  .backdrop .blurb, .sobys .blurb, .sobys-on-side .blurb, .nosedive .blurb, .lazygoat .blurb, .papis .blurb {
+  .backdrop .blurb, .sobys .blurb, .passerelle .blurb, .sobys-on-side .blurb, .nosedive .blurb, .lazygoat .blurb, .papis .blurb {
     text-align: left;
+    width: 100%;
+  }
+
+  .blurb-photos {
+    width: 100%;
   }
 
   .blurb h3 {
@@ -292,6 +321,14 @@ section.restaurant-hero {
 
   .sobys-on-side .blurb {
     text-align: left;
+  }
+
+  .sobys-on-side .carousel, .nosedive .carousel, .lazygoat .carousel, .passerelle .carousel {
+    width: 100%;
+  }
+
+  .sobys-on-side .carousel .slideshow .slide, .nosedive .carousel .slideshow .slide, .lazygoat .carousel .slideshow .slide, .passerelle .carousel .slideshow .slide {
+    padding: 0;
   }
 
   .carousel img {
@@ -320,6 +357,7 @@ section.restaurant-hero {
 
   .nosedive .photos, .passerelle .photos, .papis .photos, .papis .carousel {
     text-align: center;
+    width: 50%;
   }
 
 }
