@@ -260,11 +260,7 @@ section.restaurant-hero {
     max-width: 100%;
   }
 
-  .slideshow .slide{padding:0 17%;}
-  .btn-next,
-  .btn-prev{margin:-44px 0 0;}
-  .btn-next{right:7%;}
-  .btn-prev{left:7%;}
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -273,7 +269,7 @@ section.restaurant-hero {
     border: 11px solid black;
   }
 
-  .btn-next, .btn-prev{display:none;}
+  
 
 }
 

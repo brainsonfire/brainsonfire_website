@@ -12,16 +12,15 @@
     <meta name="description" content="The Fitness Rebellion is Anytime Fitness's community created to reframe the fitness conversation by talking about Little Wins and celebrating everyday accomplishments.">
       
     <link href="stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css" />
-    
+    <link href="stylesheets/slideshow.css" media="screen" rel="stylesheet" type="text/css">
     <link href="stylesheets/normalize.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/defaults.css" media="screen" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/slider.css" media="screen" rel="stylesheet" type="text/css" />
     <link href="stylesheets/fitness.css" media="screen" rel="stylesheet" type="text/css" />
 
     <script src="javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript" src="../js/fancybox/source/jquery.fancybox.js?v=2.1.5"></script>
+    <link rel="stylesheet" type="text/css" href="../js/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen" />
     <script src="javascripts/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.wmuSlider.min.js" type="text/javascript"></script>
-    <script src="javascripts/jquery.fittext.js" type="text/javascript"></script>
     <script type="text/javascript" src="../js/jquery.main.js"></script>
     <!--[if IE]><script type="text/javascript" src="../js/ie.js"></script><![endif]-->
     <script>
@@ -141,11 +140,6 @@ After reading The Fitness Rebellion Manifesto and officially joining the communi
     <div class="more-photos" id="two-rows"><img src="images/fitness/girl-in-shirt.jpg" /><img src="images/fitness/girl-opening-package.jpg" /></div>
   </div>
 </section>
-<!--
-<section class="website">
-  <div class="computer-monitor"><img src="images/computer-monitor.png" /></div>
-</section>
--->
 <div class="full-width-heading black"><img id="kick-but" src="images/fitness/kick-your-but.png" /></div>
 <section class="whats-but">
   <img id="whats-but" src="images/fitness/whats-but.png" />
@@ -159,19 +153,42 @@ After reading The Fitness Rebellion Manifesto and officially joining the communi
   <img id="working-out" src="images/fitness/more-working-out.png" />
   <h3>WORK</h3>
 </div>
-<section class="workout-sucks-slideshow">
-  <div class="wmuSlider workout-sucks-slider">
-    <div class="wmuSliderWrapper">
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-01.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-02.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-03.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-04.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-05.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-06.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-07.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-08.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-09.jpg" /></article>
-      <article><img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-10.jpg" /></article>
+<section class="carousel">
+  <div class="slideshow">
+    <div class="slideset">
+        
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-01.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-02.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-03.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-04.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-05.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-06.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-07.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-08.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-09.jpg" />
+      </div>
+      <div class="slide">
+        <img id="workout-sucks-slides" src="images/fitness/workout-sucks-slide-10.jpg" />
+      </div>
+      <a class="btn-next" href="#">next</a>
+      <a class="btn-prev" href="#">previous</a>
     </div>
   </div>
 </section>
@@ -193,27 +210,6 @@ After reading The Fitness Rebellion Manifesto and officially joining the communi
   <a href="./tinkernation.html" class="next"><img id="arrow-right" src="images/arrow-blue.png" /><span id="nav-text">next story</span></a>
 </div>
 </section>
-<script type="text/javascript">var options = {
-  navigationControl: true,
-  animation: 'fade',
-  animationDuration: 1000,
-  slideshow: true,
-  slideshowSpeed: 5000
-  }
-  $(".workout-sucks-slider").wmuSlider(options);
-
-  mediaCheck({
-  media: '(max-width: 480px)',
-  entry: function() {
-  $('#js-journeys').remove();
-  $('#js-share-it-stories').remove();
-  $('#js-six-k-photos').remove();
-  },
-  exit: function() {
-  },
-  both: function() {
-  }
-  });</script>
   <footer id="footer">
       <div class="footer-top">
         <a class="go-top go-top-js" href="#wrapper">goto top</a>
