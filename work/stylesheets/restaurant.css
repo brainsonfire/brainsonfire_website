@@ -182,6 +182,10 @@ section.restaurant-hero {
   text-align: center;
 }
 
+.papis .photos {
+  float: left;
+}
+
 .papis .carousel {
   margin: 40px 0 0px 0;
 }
@@ -197,6 +201,7 @@ section.restaurant-hero {
 
 .papis .blurb-photos {
   float: right;
+  margin-right: 20px;
 }
 
 .papis .blurb-photos img {
@@ -256,6 +261,11 @@ section.restaurant-hero {
   max-width: 395px;
   width: 35%;
   text-align: left;
+}
+
+.table-three-oh-one .blurb {
+  max-width: 575px;
+  width: 50%;
 }
 
 #lazy-gif {
