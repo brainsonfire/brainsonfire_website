@@ -49,11 +49,20 @@ section.restaurant-hero {
   text-align: center;
 }
 
+.slideset {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lazygoat .btn-next { right: -40px; }
+.lazygoat .btn-prev { left: -40px; }
+
 .restaurants .carousel .slideshow .slide {
   padding: 0 50px;
 }
 
-.restaurants .carousel img {
+.restaurants .carousel img, .bordered {
   border: 20px solid black;
 }
 
@@ -62,8 +71,7 @@ section.restaurant-hero {
 }
 
 .restaurants .btn-next, .restaurants .btn-prev {
-  margin: 0;
-  top: 43%;
+  display: none;
 }
 
 #inside-sobys {
@@ -170,12 +178,29 @@ section.restaurant-hero {
   margin: -80px 5% 0 0;
 }
 
+.papis {
+  text-align: center;
+}
+
 .papis .carousel {
   margin: 40px 0 0px 0;
 }
 
 .papis .photos {
   margin-top: -140px;
+}
+
+.papis .blurb-photos .blurb {
+  text-align: left;
+  margin-left: 0;
+}
+
+.papis .blurb-photos {
+  float: right;
+}
+
+.papis .blurb-photos img {
+  width: 95%;
 }
 
 .nosedive .blurb, .passerelle .blurb, .papis .blurb {
