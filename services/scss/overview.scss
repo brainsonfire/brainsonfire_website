@@ -3,6 +3,7 @@
 .services-container {
 	width: 100%;
 	margin: 0 auto;
+	color: #333333;
 
 	em {
 		display: block;
@@ -39,7 +40,28 @@
 			}
 		}
 
-		p { padding: 0 0 35px 0; }
+		p {
+			padding: 0 0 35px 0;
+			font-weight: lighter;
+		}
+
+		span {
+			&.topic {
+				display: inline-block;
+				width: 48.5%;
+				margin: 0 1.5% 1.5% 0;
+				background: white;
+				font: {
+					family: $serif;
+					size: 1.2em;
+					style: italic;
+					weight: lighter;
+				}
+				text-align: center;
+				line-height: 2;
+				&:nth-child(even) { margin-right: 0;}
+			}
+		}
 
 		.thumbnail {
 			position: relative;

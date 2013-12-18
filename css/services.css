@@ -28,7 +28,8 @@
 
 .services-container {
   width: 100%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  color: #333333; }
   .services-container em {
     display: block;
     font-family: Georgia, serif;
@@ -56,7 +57,21 @@
         font-size: 42px;
         text-transform: uppercase; }
     .services-container section p {
-      padding: 0 0 35px 0; }
+      padding: 0 0 35px 0;
+      font-weight: lighter; }
+    .services-container section span.topic {
+      display: inline-block;
+      width: 48.5%;
+      margin: 0 1.5% 1.5% 0;
+      background: white;
+      font-family: Georgia, serif;
+      font-size: 1.2em;
+      font-style: italic;
+      font-weight: lighter;
+      text-align: center;
+      line-height: 2; }
+      .services-container section span.topic:nth-child(even) {
+        margin-right: 0; }
     .services-container section .thumbnail {
       position: relative;
       float: left;
