@@ -1,0 +1,144 @@
+@import 'variables';
+
+.services-container {
+	width: 100%;
+	margin: 0 auto;
+
+	em {
+		display: block;
+		font: {
+			family: $serif;
+			style: italic;
+			size: .85em;
+		}
+		line-height: 1.7;
+	}
+
+	section { 
+		width: 100%;
+		padding: 50px 0;
+		background: $background-1;
+		@include border-box;
+		&:nth-child(even) {
+			background: $background-2;
+		}
+
+		.section-content {
+			max-width: 1170px;
+			width: 81%;
+			margin: 0 auto;
+
+			@media screen and (max-width: 1499px) {
+				max-width: 942px;
+			}
+
+			h1 {
+				padding-bottom: 35px;
+				font-size: 42px;
+				text-transform: uppercase;
+			}
+		}
+
+		p { padding: 0 0 35px 0; }
+
+		.thumbnail {
+			position: relative;
+			float: left;
+			display: inline-block;
+			width: 350px;
+			height: 200px;
+			margin-right: 28px;
+			@include border-radius(3px);
+			overflow: hidden;
+
+			@media screen and (max-width: 1499px) {
+				width: 292px;
+				height: 167px;
+			}
+			&:last-child { margin-right: 0; }
+
+			a {
+				display: block;
+				padding-bottom: 57.142857142%;
+			}
+
+			img, h3 {
+				-webkit-transition: 175ms all ease-in-out;
+				transition: 175ms all ease-in-out;
+			}
+
+			img {
+				width: 100%;
+				-webkit-transform: translate3d(0, 0px, 0);
+				transform: translate3d(0, 0px, 0);
+			}
+
+			h3 {
+				position: absolute;
+				width: 100%;
+				padding: 18px 0;
+				bottom: 0;
+				text-align: center;
+				color: white;
+				text-transform: uppercase;
+				background: rgba(0, 170, 203, .75);
+				-webkit-transform: translate3d(0, 65px, 0);
+				transform: translate3d(0, 65px, 0);
+				z-index: 100;
+			}
+
+			&:hover, &:focus {
+				h3 {
+					-webkit-transform: translate3d(0, 0px, 0);
+					transform: translate3d(0, 0px, 0);
+				}
+
+				img {
+					-webkit-transform: translate3d(0, -27px, 0);
+					transform: translate3d(0, -27px, 0);
+				}
+			}
+		}
+	}
+	.left-block, .right-block { display: inline-block; vertical-align: top; }
+	.left-block { width: 65%; margin-right: 11%; }
+	.right-block { width: 23%; }
+}
+
+.learn-more-container {
+	text-align: center;
+	a, a.visited {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 28px 0;
+		background: $action-color;
+		color: white;
+		font: {
+			family: $serif;
+			style: italic;
+			size: 1.4em;
+		}
+		&:hover, &:focus {
+			background: darken($action-color,10%);
+			text-decoration: none;
+		}
+	}
+
+	em {
+		font: {
+			size: .7em;
+		}
+	}
+
+	big {
+		font: {
+			family: $serif;
+			size: 1.4em;
+			style: italic;
+			weight: bolder;
+		}
+		color: $main-color;
+		line-height: 1.2;
+	}
+}
