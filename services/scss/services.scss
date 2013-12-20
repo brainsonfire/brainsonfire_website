@@ -4,30 +4,65 @@
 // .left-block { float: left; }
 // .right-block { float: right; }
 
-.services-overview {
-	padding-top: 140px;
-	color: #333333;
+.services-overview { color: #333333; }
+
+.banner-block {
+	position:relative;
+	height: 164px;
+	color: #fff;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	z-index: 2;
+	padding: 155px 0 0;
 	text-transform: uppercase;
-	@include border-box;
+	overflow: hidden;
 
-	h1, h4 { color: white; text-align: center; }
-	h1 {
-		font: {
-			size: 2.5em;
+	@media only screen and (max-width: 980px) {
+		padding: 150px 0 0;
+	}
+
+	@media only screen and (max-width: 720px) {
+		padding: 143px 0 0;
+		height: 147px;
+	}
+
+	img {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin: 0 0 0 -750px;
+		z-index: -1;		
+	}
+
+	h2 {
+		font-size: 40px;
+		line-height: 42px;
+		margin: 0 0 4px;
+
+		@media screen and (max-width: 720px) {
+			font-size:32px;
+			line-height:33px;
+			margin:0 0 10px;
 		}
-		line-height: 1.55;
-	}
-	h4 {
-		font-size: .9em;
-		max-width: 600px;
-		width: 42%;
-		margin: 0 auto;
 	}
 
-	&.hero {
-		height: 320px;
-		background: url(../images/services/hero-bg.jpg) no-repeat center -20px;
-		@include background-size(cover, cover);
+	h3 {
+		max-width: 630px;
+		margin: 0 auto;
+		font-size: 19px;
+		line-height: 22px;
+
+		@media screen and (max-width: 720px) {
+			width: 60%;
+			font-size:15px;
+			line-height:17px;
+			margin: 0 auto 7px auto;
+		}
+
+		@media screen and (max-width: 480px) {
+			width: 90%;
+		}
 	}
 }
 
