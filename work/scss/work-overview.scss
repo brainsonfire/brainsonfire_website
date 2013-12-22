@@ -23,13 +23,14 @@ $serif: Georgia, serif;
 	margin: 0 24px 31px 0;
 	position:relative;
 	vertical-align:top;
-	width: 23.4%;
+	width: 23%;
 	height: 179px;
 	overflow: hidden;
 
 	&:nth-child(4n) { margin-right: 0; }
 
 	@media screen and (max-width: 1499px) {
+		width: 23.4%;
 		height: 155px;
 		margin: 0 15px 15px 0;
 	}
