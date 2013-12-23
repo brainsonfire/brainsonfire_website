@@ -1,0 +1,231 @@
+@import 'variables';
+
+.case-study {
+
+	em { margin: 10px 0; }
+
+	.banner-block {
+
+		&.large {
+			position: relative;
+			height: 510px;
+			top: 0px;
+			background: $main-color url(../../images/services/ncfl-hero-bg.jpg) no-repeat center -120px;
+			@include background-size(1440px, auto);
+
+			@media screen and (max-width: 720px) {
+				height: 400px !important;
+				background-size: 1150px auto;
+			}
+
+			@media screen and (max-width: 480px) {
+				height: 290px !important;
+				background-size: 950px auto;
+			}
+
+			img {
+				position: absolute;
+				width: 339px;
+				margin: 0;
+				top: 34%;
+				left: 10%;
+
+				@media screen and (max-width: 720px) {
+					width: 280px;
+					top: auto;
+					right: 10%;
+					bottom: 2%;
+					left: auto;
+				}
+
+				@media screen and (max-width: 480px) {
+					width: 230px;
+				}
+			}
+		}
+
+		&.apply {
+			height: 170px;
+			top: 0;
+			padding: 80px 0 00px 0;
+			background: $main-color url(../../images/services/bookcase-bg.jpg) no-repeat center -120px;
+			@include background-size(1440px, auto);
+
+			// @media screen and (max-width: 480px) {
+			// 	padding: 30px 0 0 0;
+			// }
+
+			a {
+				display: block;
+				max-width: 450px;
+				width: 90%;
+				margin: 0 auto;
+				padding: 15px 0;
+				font: {
+					family: $serif;
+					style: italic;
+				}
+				text-align: center;
+				text-transform: lowercase;
+				color: white;
+				background: #00aacb;
+				line-height: 3;
+				&:hover, &:focus { background: darken(#00aacb,10%); }
+
+				@media screen and (max-width: 720px) {
+					max-width: 85%;
+					width: auto;
+					padding: 8px;
+				}
+
+				@media screen and (max-width: 480px) {
+					line-height: 2;
+				}
+			}
+		}
+
+		@media screen and (max-width: 720px) {
+			padding-top: 105px;
+		}
+
+		@media screen and (max-width: 720px) {
+			height: 171px;
+		}
+
+		h2 {
+			line-height: 112px;
+
+			@media screen and (max-width: 720px) {
+				width: 76%;
+				// background: rgb(0, 0, 0);
+				margin: 0 auto;
+				line-height: 1.4;
+			}
+		}
+	}
+
+	.services-container {
+		.left-block { margin-right: 6%; }
+		.right-block {
+			width: 28%;
+
+			@media screen and (max-width: 720px) {
+				width: 100%;
+			}
+		}
+	}
+
+	.images-container {
+		width: 100%;
+		margin: 0 auto 25px auto;
+		background: white;
+		text-align: center;
+		box-sizing: border-box;
+
+		img {
+			max-width: 100%;
+			display: block;
+
+			@media screen and (max-width: 480px) {
+				max-width: 90%;
+			}
+		}
+		
+		&.org-logo {
+			padding: 65px 0;
+
+			img {
+				display: inline-block;
+				width: 319px;
+
+				@media screen and (max-width: 600px) {
+					width: 184px;
+				}
+			}
+		}
+
+		&.org-logos {
+			padding: 50px 0 0 0;
+
+			@media screen and (max-width: 600px) {
+				padding: 30px 0;
+			}
+
+			img {
+				display: inline-block;
+				width: 184px;
+				margin: 0 55px 55px 0;
+				&:nth-child(even) { margin-right: 0; }
+
+				@media screen and (max-width: 600px) {
+					display: block;
+					width: 100%;
+					max-width: 184px;
+					margin: 0 auto 10px auto;
+					&:nth-child(even) { margin-right: auto; }
+					&:last-child { margin-bottom: 0; }
+				}
+			}
+		}
+
+		&.logo-marks {
+			padding: 60px 0;
+
+			@media screen and (max-width: 1499px) {
+				padding: 40px 0;
+			}
+
+			img {
+				display: inline-block;
+				max-width: 98px;
+				width: 14%;
+				margin: 0 40px 0 0;
+				&:last-child { margin: 0; }
+
+				@media screen and (max-width: 1499px) {
+					max-width: 90px;
+					margin: 0 25px 0 0;
+				}
+
+				@media screen and (max-width: 880px) {
+					max-width: 70px;
+					margin: 0 20px 0 0;
+				}
+
+				@media screen and (max-width: 1499px) {
+					max-width: 55px;
+					margin: 0 10px 0 0;
+				}
+			}
+		}
+
+	}
+
+
+	.photos {
+		width: 100%;
+		margin: 0px 0 25px 0;
+	}
+
+	.learn-more-container {
+		text-align: left;
+
+		@media screen and (max-width: 720px) {
+			width: 100%;
+		}
+
+		h2 { font-size: 28px; }
+		em { margin: 25px 0; line-height: 1.75; }
+		.heading { display: block; }
+		a {
+			padding: 2%;
+			line-height: 1.5;
+			text-align: center;
+			box-sizing: border-box;
+
+			@media screen and (max-width: 1499px) {
+				font-size: 24px;
+			}
+		}
+	}
+}
