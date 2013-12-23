@@ -79,7 +79,8 @@
 .case-study .services-container .left-block {
   margin-right: 6%; }
 .case-study .services-container .right-block {
-  width: 28%; }
+  width: 28%;
+  margin-top: 48px; }
   @media screen and (max-width: 720px) {
     .case-study .services-container .right-block {
       width: 100%; } }

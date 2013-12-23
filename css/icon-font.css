@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'bof-icons';
-	src:url('fonts/bof-icons.eot');
-	src:url('fonts/bof-icons.eot?#iefix') format('embedded-opentype'),
-		url('fonts/bof-icons.ttf') format('truetype'),
-		url('fonts/bof-icons.woff') format('woff'),
-		url('fonts/bof-icons.svg#bof-icons') format('svg');
+	src:url('bof-icon-fonts/bof-icons.eot');
+	src:url('bof-icon-fonts/bof-icons.eot?#iefix') format('embedded-opentype'),
+		url('bof-icon-fonts/bof-icons.ttf') format('truetype'),
+		url('bof-icon-fonts/bof-icons.woff') format('woff'),
+		url('bof-icon-fonts/bof-icons.svg#bof-icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
