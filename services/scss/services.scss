@@ -1,8 +1,13 @@
 @import 'variables';
 
 .clear { clear: both; }
-// .left-block { float: left; }
-// .right-block { float: right; }
+
+.go-top { z-index: 10000; }
+
+a {
+	text-decoration: none;
+	&:hover, &:focus { text-decoration: none; }
+}
 
 .services-overview { color: #333333; }
 
@@ -32,7 +37,14 @@
 		top: 0;
 		left: 50%;
 		margin: 0 0 0 -750px;
-		z-index: -1;		
+		z-index: -1;	
+
+		&.smiley {
+			position: relative;
+			width: 26px;
+			left: 0;
+			margin: -9px 0 -7px 5px;
+		}	
 	}
 
 	h2 {
@@ -48,7 +60,7 @@
 	}
 
 	h3 {
-		max-width: 630px;
+		max-width: 640px;
 		margin: 0 auto;
 		font-size: 19px;
 		line-height: 22px;

@@ -1,6 +1,14 @@
 .clear {
   clear: both; }
 
+.go-top {
+  z-index: 10000; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
 .services-overview {
   color: #333333; }
 
@@ -28,6 +36,11 @@
     left: 50%;
     margin: 0 0 0 -750px;
     z-index: -1; }
+    .banner-block img.smiley {
+      position: relative;
+      width: 26px;
+      left: 0;
+      margin: -9px 0 -7px 5px; }
   .banner-block h2 {
     font-size: 40px;
     line-height: 42px;
@@ -38,7 +51,7 @@
         line-height: 33px;
         margin: 0 0 10px; } }
   .banner-block h3 {
-    max-width: 630px;
+    max-width: 640px;
     margin: 0 auto;
     font-size: 19px;
     line-height: 22px; }
