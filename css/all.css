@@ -349,7 +349,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	width:48.2%;
 	top:0;
 }
-.column .title{
+.column .title, .title{
 	color: #939f57;
 	display: block;
 	font: italic bold 24px/36px Georgia,"Times New Roman",Times,serif;
