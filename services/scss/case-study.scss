@@ -11,7 +11,13 @@
 			height: 510px;
 			top: 0px;
 			background: $main-color url(../../images/services/ncfl-hero-bg.jpg) no-repeat center -120px;
-			@include background-size(1440px, auto);
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			background-size: cover;
+
+			@media screen and (max-width: 1440px) {
+				@include background-size(1440px, auto);
+			}
 
 			@media screen and (max-width: 720px) {
 				height: 400px !important;
@@ -48,7 +54,7 @@
 			height: 170px;
 			top: 0;
 			padding: 80px 0 00px 0;
-			background: $main-color url(../../images/services/bookcase-bg.jpg) no-repeat center -120px;
+			background: #dd5521 url(../../images/services/bookcase-bg.jpg) no-repeat center -120px;
 			@include background-size(1440px, auto);
 
 			// @media screen and (max-width: 480px) {
@@ -57,11 +63,12 @@
 
 			a {
 				display: block;
-				max-width: 450px;
+				max-width: 500px;
 				width: 90%;
 				margin: 0 auto;
 				padding: 15px 0;
 				font: {
+					size: 23px;
 					family: $serif;
 					style: italic;
 				}
@@ -72,6 +79,11 @@
 				line-height: 3;
 				&:hover, &:focus { background: darken(#00aacb,10%); }
 
+				@media screen and (max-width: 1440px) {
+					max-width: 450px;
+					font-size: 100%;
+				}
+				
 				@media screen and (max-width: 720px) {
 					max-width: 85%;
 					width: auto;

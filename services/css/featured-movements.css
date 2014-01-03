@@ -10,16 +10,17 @@
   .featured-movements .banner-block.apply {
     top: 0;
     padding: 109px 0 0 0;
-    background: #00a9ca url(../../images/services/bookcase-bg.jpg) no-repeat center -120px;
+    background: #dd5521 url(../../images/services/bookcase-bg.jpg) no-repeat center -120px;
     -webkit-background-size: 1440px auto;
     -moz-background-size: 1440px auto;
     background-size: 1440px auto; }
     .featured-movements .banner-block.apply a {
       display: block;
-      max-width: 450px;
+      max-width: 500px;
       width: 85%;
       margin: 0 auto;
       padding: 15px 0;
+      font-size: 23px;
       font-family: Georgia, serif;
       font-style: italic;
       text-align: center;
@@ -32,6 +33,10 @@
       @media screen and (max-width: 1499px) {
         .featured-movements .banner-block.apply a {
           max-width: 400px; } }
+      @media screen and (max-width: 1440px) {
+        .featured-movements .banner-block.apply a {
+          max-width: 450px;
+          font-size: 100%; } }
       @media screen and (max-width: 720px) {
         .featured-movements .banner-block.apply a {
           max-width: 85%;
@@ -64,6 +69,7 @@
     margin: 40px auto;
     padding: 20px 0;
     font-family: Georgia, serif;
+    font-size: 23px;
     font-style: italic;
     color: white;
     text-decoration: none;
@@ -110,7 +116,7 @@
 .featured-movements .thumbnail {
   position: relative;
   display: inline-block;
-  width: 32%;
+  width: 31%;
   height: 202px;
   margin-right: 2%;
   -webkit-border-radius: 3px;
@@ -133,7 +139,7 @@
       margin-right: 10px; } }
   @media screen and (max-width: 720px) {
     .featured-movements .thumbnail {
-      width: 48.5%;
+      width: 48%;
       height: auto;
       margin-right: 1%;
       -webkit-tap-highlight-color: #00a9ca; } }
@@ -146,8 +152,13 @@
   @media screen and (max-width: 320px) {
     .featured-movements .thumbnail {
       height: 160px; } }
+  .featured-movements .thumbnail img, .featured-movements .thumbnail h3 {
+    -webkit-transition: 175ms all ease-in-out;
+    transition: 175ms all ease-in-out; }
   .featured-movements .thumbnail img {
-    width: 100%; }
+    width: 100%;
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0); }
   .featured-movements .thumbnail h3 {
     position: absolute;
     width: 100%;
@@ -157,6 +168,8 @@
     color: white;
     text-transform: uppercase;
     background: rgba(0, 170, 203, 0.75);
+    -webkit-transform: translate3d(0, 65px, 0);
+    transform: translate3d(0, 65px, 0);
     z-index: 100; }
     @media screen and (max-width: 1499px) {
       .featured-movements .thumbnail h3 {
@@ -168,13 +181,26 @@
       .featured-movements .thumbnail h3 {
         margin: 0px 0 8px 0;
         padding: 10px 0; } }
+    @media screen and (max-width: 420px) {
+      .featured-movements .thumbnail h3 {
+        -webkit-transform: translate3d(0, 0px, 0); } }
     @media screen and (max-width: 480px) {
       .featured-movements .thumbnail h3 {
         margin: 0; } }
-  @media screen and (max-width: 720px) {
-    .featured-movements .thumbnail:hover img, .featured-movements .thumbnail:focus img {
-      -webkit-transform: none;
-      transform: none; } }
+  .featured-movements .thumbnail:hover h3, .featured-movements .thumbnail:focus h3 {
+    -webkit-transform: translate3d(0, 0px, 0);
+    transform: translate3d(0, 0px, 0); }
+    @media screen and (max-width: 420px) {
+      .featured-movements .thumbnail:hover h3, .featured-movements .thumbnail:focus h3 {
+        -webkit-transform: none;
+        transform: none; } }
+  .featured-movements .thumbnail:hover img, .featured-movements .thumbnail:focus img {
+    -webkit-transform: translate3d(0, -27px, 0);
+    transform: translate3d(0, -27px, 0); }
+    @media screen and (max-width: 420px) {
+      .featured-movements .thumbnail:hover img, .featured-movements .thumbnail:focus img {
+        -webkit-transform: none;
+        transform: none; } }
 .featured-movements .learn-more-container {
   text-align: left; }
   .featured-movements .learn-more-container a {
