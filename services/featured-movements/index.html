@@ -16,6 +16,7 @@
   <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
   <script type="text/javascript" src="../../js/jquery.main.js"></script>
   <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+  <script src="../../js/affix.js"></script>
   <script type="text/javascript" src="//use.typekit.net/vnn2jfd.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <script>
@@ -110,9 +111,9 @@
       <a href="#0" class="button">See all of our work</a>
 
       <section>
-        <div class="section-content">
+        <div class="section-content wrapper">
 
-          <div class="left-block">
+          <div class="left-block" id="main">
             <p>What if you could spark deep and meaningful dialogue with the people you serve? What if you could add a volunteer sales team to your organization or rally a team of loud and proud advocates that will love you and support you in good times and in bad? What if you were FAMOUS for the people who love you…for the way YOU LOVE THEM? What if you and your team got out of bed each morning with a clear understanding that wasn’t limited to products, services and marketing goals, but encompassed the truly important things – like your cause, your purpose and your mission?</p>
             <p><b>It’s possible.</b></p>
             <p>At Brains on Fire, we believe that sparking conversation and creating momentum for the things you do, make or provide begins by finding and celebrating the shared passions between your company, your employees and your customers.</p>
@@ -143,7 +144,7 @@
 
           </div>
 
-          <div class="right-block">
+          <div class="right-block" id="sidebar">
             <div class="learn-more-container">
               <em>Now Accepting Applications for:</em>
               <big>February 2014</big>
@@ -231,6 +232,69 @@
       </div>
     </section>
   </footer>
+
+  <script>
+    $(document).ready(function() {
+      
+      // Make sidebar nav sticky
+      $(window).bind('scroll', function(){
+        var scroll = $(window).scrollTop();
+        var windowWidth = $( window ).width();
+
+        if (windowWidth > 1499 ) {
+          var mainWidth = $('#main').width();
+          // todo: add padding-right to main.width.
+          // replace 889 with mainWidth + padding-right width. 
+          // should make it work at any size.
+          var offset = $('#main').offset().left;
+          $('#sidebar').css("left", 889);
+
+          if ( scroll > 857) {
+            $('.right-block').addClass('sticky');
+            $('#sidebar').css("left", 889 + offset);
+          }
+          else {
+            $('.right-block').removeClass('sticky');
+            $('#sidebar').css("left", 889);
+          };
+
+          if ( scroll > 2388 ) {
+            $('.right-block').removeClass('sticky').addClass('sticky-bottom');
+            $('#sidebar').css("left", 889);
+          }
+          else {
+            $('.right-block').removeClass('sticky-bottom');
+
+          }
+        }
+
+        // if (windowWidth > 1499 ) {
+         
+        //   var offset = $('#main').offset().left;
+        //   $('#sidebar').css("left", 889);
+
+        //   if ( scroll > 857) {
+        //     $('.right-block').addClass('sticky');
+        //     $('#sidebar').css("left", 889 + offset);
+        //   }
+        //   else {
+        //     $('.right-block').removeClass('sticky');
+        //     $('#sidebar').css("left", 889);
+        //   };
+
+        //   if ( scroll > 2388 ) {
+        //     $('.right-block').removeClass('sticky').addClass('sticky-bottom');
+        //     $('#sidebar').css("left", 889);
+        //   }
+        //   else {
+        //     $('.right-block').removeClass('sticky-bottom');
+
+        //   }
+        // }
+      })
+      
+    });
+  </script>
 </body>
 
 </html>
