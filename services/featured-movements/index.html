@@ -10,7 +10,6 @@
   <link type="text/css" media="all" rel="stylesheet" href="../../css/all.css">
   <link type="text/css" media="all" rel="stylesheet" href="../../services/css/services.css">
   <link type="text/css" media="all" rel="stylesheet" href="../../services/css/featured-movements.css">
-  <!-- <link type="text/css" media="all" rel="stylesheet" href="../stylesheets/work-overview.css"> -->
   <!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
   <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
@@ -87,30 +86,41 @@
       <h1>Featured Movements</h1>
     
       <div class="section-content">
-        <div class="thumbnail">
-          <a href="#0">
-            <h3>Wonderopolis</h3>
-            <img src="../../images/services/banner-wonderopolis@2x.jpg">
-          </a>
-        </div>
-        <div class="thumbnail">
-          <a href="#0">
-            <h3>Wonderopolis</h3>
-            <img src="../../images/services/banner-wonderopolis@2x.jpg">
-          </a>
-        </div>
-        <div class="thumbnail">
-          <a href="#0">
-            <h3>Wonderopolis</h3>
-            <img src="../../images/services/banner-wonderopolis@2x.jpg">
-          </a>
-        </div>
 
+        <ul class="thumbnails-list">
+          <li>
+            <img src="../../images/services/banner-wonderopolis@2x.jpg">
+            <a href="./love146.html">
+              <span class="holder">
+                <strong class="title">Wonderopolis</strong>
+                <span class="txt">Wonderopolous saying or description could go here.</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <img src="../../images/services/banner-wonderopolis@2x.jpg">
+            <a href="./love146.html">
+              <span class="holder">
+                <strong class="title">Wonderopolis</strong>
+                <span class="txt">Wonderopolous saying or description could go here.</span>
+              </span>
+            </a>
+          </li>
+          <li>
+            <img src="../../images/services/banner-wonderopolis@2x.jpg">
+            <a href="./love146.html">
+              <span class="holder">
+                <strong class="title">Wonderopolis</strong>
+                <span class="txt">Wonderopolous saying or description could go here.</span>
+              </span>
+            </a>
+          </li>
+        </ul>
       </div>
       
       <a href="#0" class="button">See all of our work</a>
 
-      <section>
+      <section id="blox">
         <div class="section-content wrapper">
 
           <div class="left-block" id="main">
@@ -238,61 +248,36 @@
       
       // Make sidebar nav sticky
       $(window).bind('scroll', function(){
+
         var scroll = $(window).scrollTop();
-        var windowWidth = $( window ).width();
+        var windowWidth = $(window).width();
+        var mainWidth = $('#main').outerWidth();
+        var offset = $('#main').offset().left;
+        var bloxOffset = $('#blox').offset().top
+        var offsetTop = $('#blox').offset().top + $('#blox').height() - $('#sidebar').height() - 43
 
-        if (windowWidth > 1499 ) {
-          var mainWidth = $('#main').width();
-          // todo: add padding-right to main.width.
-          // replace 889 with mainWidth + padding-right width. 
-          // should make it work at any size.
-          var offset = $('#main').offset().left;
-          $('#sidebar').css("left", 889);
+        if (windowWidth > 720 ) {
+          $('#sidebar').css("left", mainWidth);
 
-          if ( scroll > 857) {
+          if ( scroll > bloxOffset) {
             $('.right-block').addClass('sticky');
-            $('#sidebar').css("left", 889 + offset);
+            $('#sidebar').css("left", mainWidth + offset);
           }
           else {
             $('.right-block').removeClass('sticky');
-            $('#sidebar').css("left", 889);
+            $('#sidebar').css("left", mainWidth);
           };
 
-          if ( scroll > 2388 ) {
+          if ( scroll > offsetTop ) {
             $('.right-block').removeClass('sticky').addClass('sticky-bottom');
-            $('#sidebar').css("left", 889);
+            $('#sidebar').css("left", mainWidth);
           }
           else {
             $('.right-block').removeClass('sticky-bottom');
 
           }
         }
-
-        // if (windowWidth > 1499 ) {
-         
-        //   var offset = $('#main').offset().left;
-        //   $('#sidebar').css("left", 889);
-
-        //   if ( scroll > 857) {
-        //     $('.right-block').addClass('sticky');
-        //     $('#sidebar').css("left", 889 + offset);
-        //   }
-        //   else {
-        //     $('.right-block').removeClass('sticky');
-        //     $('#sidebar').css("left", 889);
-        //   };
-
-        //   if ( scroll > 2388 ) {
-        //     $('.right-block').removeClass('sticky').addClass('sticky-bottom');
-        //     $('#sidebar').css("left", 889);
-        //   }
-        //   else {
-        //     $('.right-block').removeClass('sticky-bottom');
-
-        //   }
-        // }
       })
-      
     });
   </script>
 </body>

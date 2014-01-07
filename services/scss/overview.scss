@@ -5,7 +5,148 @@
 		background: $main-color url(../../images/services/hero-bg.jpg) no-repeat center -20px;
 		@include background-size(1440px, auto);
 	}
-}
+
+		.header-holder {
+			@media screen and (max-width: 1024px) {
+				margin: 0 40px;
+			}
+
+			@media screen and (max-width: 720px) {
+				margin: 0;
+			}
+		}
+
+		.thumbnails-list {
+			clear: both;
+			width: 100%;
+			margin: 25px auto 75px auto;
+			padding: 0;
+			list-style:none;
+			text-align: center;
+		}
+		.thumbnails-list li {
+			display:inline-block;
+			position:relative;
+			vertical-align:top;
+			height: 179px;
+			overflow: hidden;
+			-webkit-transition: 200ms all ease-in-out;
+			&:last-child { margin-right: 0; }
+
+
+			&.hover {
+
+			}
+
+			&:nth-child(4n) { margin-right: 0; }
+
+			@media screen and (max-width: 1499px) {
+				width: 48%;
+				margin: 0 2% 0px 0;
+				height: 155px;
+			}
+
+			@media screen and (max-width: 1199px) {
+				margin: 0 1.5% 15px 0;
+			}
+
+			@media screen and (max-width: 874px) {
+				height: 130px;
+				margin: 0 1% 15px 0;
+			}
+
+
+			@media screen and (max-width: 551px) {
+				width: 100%;
+				height: 250px;
+				margin: 0 0 15px 0;
+
+				&:nth-child(4n) { margin-right: 0%; }
+				&:nth-child(3n) { margin-right: 0%; }
+				&:nth-child(2n) { margin-right: 0%; }
+			}
+
+			@media screen and (max-width: 551px) {
+				height: 190px;
+			}
+		}
+		.thumbnails-list img{
+			border-radius:2px;
+			width:100%;
+			max-width:100%;
+			vertical-align:top;
+		}
+		.thumbnails-list a{
+			background:rgba(0, 170, 203, 0.9);
+			bottom:0;
+			color:#fff;
+			display:block;
+			font-size:18px;
+			left:0;
+			line-height:25px;
+			position:absolute;
+			text-align:center;
+			width:100%;
+		}
+		.thumbnails-list .holder{
+			display:block;
+			padding: 20px 0;
+		}
+		.thumbnails-list .title{
+			font-size: 20px;
+			font-weight: lighter;
+			line-height: 7px;
+
+			@media screen and (max-width: 551px) {
+				line-height: 25px;
+			}
+		}
+
+		.thumbnails-list .hover .title { line-height: 23px; }
+		.thumbnails-list a .txt{
+			font: {
+				size: 16px;
+				weight: lighter;
+			}
+		}
+		.thumbnails-list .hover a,
+		.thumbnails-list li:hover a{
+			display: table;
+			height: 179px;
+			text-decoration:none;
+			top:0;
+
+			@media screen and (max-width: 551px) {
+				height: 250px;
+			}
+		}
+		.thumbnails-list .hover .holder,
+		.thumbnails-list li:hover .holder{
+			display:table-cell;
+			padding: 30px 10px;
+			vertical-align: top;
+
+			@media screen and (max-width: 551px) {
+				padding: 90px 10px 0px 10px;
+			}
+
+			@media screen and (max-width: 551px) {
+				padding: 60px 10px 0px 10px;
+			}
+		}
+		.thumbnails-list .hover .title,
+		.thumbnails-list li:hover .title{margin:0 0 3px;}
+		.thumbnails-list .hover a .txt,
+		.thumbnails-list li:hover a .txt{display:block;}
+		.section-read.section-books .holder{padding:163px 0 98px;}
+		.section-books h1 span{
+			display:inline-block;
+			position:relative;	
+			vertical-align:top;
+			font-weight: 500;
+			letter-spacing: -1px;
+		}
+	}
 
 .services-container {
 	width: 100%;
@@ -36,15 +177,6 @@
 			background: $background-2;
 		}
 
-		.wrapper {
-			position: relative;
-			max-width: 942px;
-			height: 1870px;
-			margin: 0 auto;
-			clear: both;
-			border-bottom: 1px solid black;
-		}
-
 		.section-content {
 			max-width: 1170px;
 			width: 81%;
@@ -59,10 +191,7 @@
 				font-size: 40px;
 				text-transform: uppercase;
 
-				@media screen and (max-width: 767px) {
-					font-size: 39px;
-				}
-
+				@media screen and (max-width: 767px) { font-size: 39px; }
 				@media screen and (max-width: 700px) {
 					font-size: 27px;
 					line-height: 34px;
@@ -75,7 +204,6 @@
 			padding: 0 0 35px 0;
 			font-size: 17px;
 			line-height: 32px;
-			font-weight: lighter;
 
 			@media screen and (max-width: 700px) {
 				font-size: 15px;
@@ -224,16 +352,11 @@
 	.left-block, .right-block {
 		display: inline-block;
 		vertical-align: top;
-		clear: both;
 	}
 	
 	.left-block {
-		position: absolute;
-		top: 0;
-		left: 0;
 		width: 65%;
-		padding-right: 11%;
-		// margin-right: 11%;
+		margin-right: 11%;
 
 		@media screen and (max-width: 980px) {
 			margin-right: 7%;
@@ -247,23 +370,6 @@
 	
 	.right-block {
 		width: 23%;
-		max-width: 216px;
-		position: absolute;
-		top: 0;
-		// left: 889px;
-		right: auto;
-
-		&.sticky {
-			position: fixed;
-			top: 60px;
-			right: auto;
-			// left: 76%;
-		}
-
-		&.sticky-bottom {
-			top: auto;
-			bottom: 38px;
-		}
 
 		@media screen and (max-width: 980px) {
 			width: 27%;
