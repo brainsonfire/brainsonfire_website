@@ -252,7 +252,11 @@
       padding: 0 0 35px 0;
       font-size: 17px;
       line-height: 32px;
-      font-weight: lighter; }
+      font-weight: normal; }
+      @media screen and (max-width: 1199px) {
+        .featured-movements .services-container section p {
+          font-size: 16px;
+          line-height: 24px; } }
       @media screen and (max-width: 700px) {
         .featured-movements .services-container section p {
           font-size: 15px;

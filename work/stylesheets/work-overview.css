@@ -26,7 +26,7 @@
   margin: 25px auto 75px auto;
   padding: 0;
   list-style: none;
-  text-align: center; }
+  text-align: left; }
 .work-overview .thumbnails-list li {
   display: inline-block;
   margin: 0 24px 31px 0;
@@ -180,6 +180,10 @@
     .section-content .section-meta h4 {
       font-size: 18px;
       font-weight: normal; }
+      @media screen and (max-width: 765px) {
+        .section-content .section-meta h4 {
+          font-size: 15px;
+          line-height: 17px; } }
   .section-content h1 {
     padding-bottom: 35px;
     font-size: 40px;
@@ -187,9 +191,10 @@
     @media screen and (max-width: 1180px) {
       .section-content h1 {
         font-size: 40px; } }
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 765px) {
       .section-content h1 {
-        font-size: 39px; } }
+        font-size: 33px;
+        line-height: 35px; } }
     @media screen and (max-width: 700px) {
       .section-content h1 {
         font-size: 27px;

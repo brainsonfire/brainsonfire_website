@@ -43,19 +43,20 @@ a {
       margin: -9px 0 -7px 5px; }
   .banner-block h2 {
     font-size: 40px;
+    font-weight: 500;
     line-height: 42px;
     margin: 0 0 4px; }
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 765px) {
       .banner-block h2 {
-        font-size: 32px;
-        line-height: 33px;
+        font-size: 33px;
+        line-height: 35px;
         margin: 0 0 10px; } }
   .banner-block h3 {
     max-width: 640px;
     margin: 0 auto;
     font-size: 19px;
     line-height: 22px; }
-    @media screen and (max-width: 720px) {
+    @media screen and (max-width: 765px) {
       .banner-block h3 {
         width: 60%;
         font-size: 15px;
@@ -87,6 +88,7 @@ a {
   display: inline-block;
   position: relative;
   vertical-align: top;
+  width: 360px;
   height: 179px;
   overflow: hidden;
   -webkit-transition: 200ms all ease-in-out; }
@@ -222,6 +224,7 @@ a {
       .services-container section .section-content h1 {
         padding-bottom: 35px;
         font-size: 40px;
+        font-weight: 500;
         text-transform: uppercase; }
         @media screen and (max-width: 767px) {
           .services-container section .section-content h1 {
@@ -235,6 +238,10 @@ a {
       padding: 0 0 35px 0;
       font-size: 17px;
       line-height: 32px; }
+      @media screen and (max-width: 1199px) {
+        .services-container section p {
+          font-size: 16px;
+          line-height: 24px; } }
       @media screen and (max-width: 700px) {
         .services-container section p {
           font-size: 15px;

@@ -80,7 +80,7 @@ $serif: Georgia, serif;
 		margin: 25px auto 75px auto;
 		padding: 0;
 		list-style:none;
-		text-align: center;
+		text-align: left;
 	}
 	.thumbnails-list li {
 		display:inline-block;
@@ -256,7 +256,15 @@ $serif: Georgia, serif;
 			text-transform: uppercase;
 		}
 
-		h4 { font-size: 18px; font-weight: normal; }
+		h4 {
+			font-size: 18px;
+			font-weight: normal;
+
+			@media screen and (max-width: 765px) {
+				font-size: 15px;
+				line-height: 17px;
+			}
+		}
 	}
 
 	h1 {
@@ -268,8 +276,9 @@ $serif: Georgia, serif;
 			font-size: 40px;
 		}
 
-		@media screen and (max-width: 767px) {
-			font-size: 39px;
+		@media screen and (max-width: 765px) {
+			font-size: 33px;
+			line-height: 35px;
 		}
 
 		@media screen and (max-width: 700px) {
