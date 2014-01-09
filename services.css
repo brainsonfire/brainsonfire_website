@@ -1,0 +1,18 @@
+.services-overview {
+  color: white;
+  text-transform: uppercase; }
+  .services-overview h1, .services-overview h4 {
+    text-align: center; }
+  .services-overview h1 {
+    font-size: 3em; }
+  .services-overview.hero {
+    height: 320px;
+    background: url(../images/services/hero-bg.jpg) no-repeat center -20px;
+    -webkit-background-size: cover cover;
+    -moz-background-size: cover cover;
+    background-size: cover cover; }
+
+.services-container {
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto; }

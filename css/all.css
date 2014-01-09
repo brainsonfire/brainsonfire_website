@@ -225,6 +225,10 @@ input[type=submit]:hover{cursor:pointer;}
 	right:5%;
 	top:397px;
 }
+.application-caption-block{
+	width:535px;
+	left:15%;
+}
 .caption{
 	color:#fff;
 	text-transform:uppercase;
@@ -288,6 +292,9 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	margin:-10px 0 41px;
 	display:none;
 }
+.client-questions .passion-block{
+	background: #f18013;
+}
 .passion-block h2{
 	font-size: 25px;
 	line-height: 33px;
@@ -320,6 +327,20 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	position: relative;
 	top: 2px;
 }
+.questionnaire-wrapper{
+	background: #fff;
+	padding:60px 0;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 32px;
+	color:#333;
+}
+
+.client-questionnaire{
+	overflow:hidden;
+	max-width:800px;
+	margin:0 auto 64px;
+}
 .about-panel{
 	overflow:hidden;
 	max-width:1170px;
@@ -333,6 +354,15 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight: 500;
 	margin:0 0 40px;
 	text-transform:uppercase;
+}
+.single-centered-column{
+	margin: 0 auto;
+	width:48.5%;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 32px;
+	position:relative;
+	color:#333;
 }
 .two-columns{overflow:hidden;}
 .column{
@@ -349,7 +379,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	width:48.2%;
 	top:0;
 }
-.column .title{
+.column .title,{
 	color: #939f57;
 	display: block;
 	font: italic bold 24px/36px Georgia,"Times New Roman",Times,serif;
@@ -956,7 +986,8 @@ p.editor-note a{
 .section-work h2,
 .section-read h2,
 .section-author h2,
-.section-wares h2{
+.section-wares h2,
+{
 	color:#333;
 	font-size:18px;
 	font-weight:400;
@@ -1331,10 +1362,31 @@ p.editor-note a{
 	line-height:42px;
 	margin:0 0 5px;
 }
+.section-application{
+	background:#fff;
+	padding:69px 0 20px;
+}
+.section-application .holder{
+	overflow:hidden;
+	max-width:1170px;
+	margin:0 auto 64px;
+	padding:12px 0 6px;
+	position:relative;
+}
+	
+.section-contact .holder{
+	margin:0 auto;
+	overflow:hidden;
+	padding:12px 0 6px;
+	position:relative;
+	max-width:550px;
+}
+
 .section-contact{
 	background:#fff;
 	padding:69px 0;
 }
+
 .section-contact .holder{
 	margin:0 auto;
 	overflow:hidden;
@@ -1637,9 +1689,15 @@ p.editor-note a{
 	text-align: center;
 }
 
+.questionnaire-wrapper h2{
+	color: #666666;
+	font: 20px/29px hedley-new-web, Arial, Helvetica, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: none;
+}
+
 /* also see .books-list .btn-more, or section-blog-soon .btn-oldblog */
 /* also see .section-blog-soon h2 */
-
 
 /*************************************
 ****** LEGAL PAGE *******
@@ -1650,7 +1708,7 @@ p.editor-note a{
 	width:90%;
 	margin: 20px auto;
 }
-.legal h2{
+.legal h2, .questionnaire-wrapper h2{
 	text-align:center;
 	color:#333;
 	font-size:40px;
@@ -1742,10 +1800,13 @@ p.editor-note a{
 		
 }
 @media only screen and (max-width:1199px){
-	.header-holder{margin:0 40px;}
+	.header-holder{margin:0 auto;}
 	.caption-block{
 		top:250px;
 		right:12%;
+	}
+	.application-caption-block{
+		width:400px;
 	}
 	.caption h1{
 		font-size:30px;
@@ -1754,6 +1815,10 @@ p.editor-note a{
 	.caption p{
 		font-size:16px;
 		line-height:20px;
+	}
+	.client-questionnaire p{
+		font-size:14px;
+		line-height:24px;
 	}
 	.buy-now, .buy-now:active{
 		font-size:19px;
@@ -1792,7 +1857,7 @@ p.editor-note a{
 	}
 	
 	.block-reviews{margin:0 auto 65px;}
-	.review-header h2{font-size:32px;}
+	.review-header h2, .questionnaire-wrapper h2{font-size:32px;}
 	.review-header p{margin:0 50px 39px;}
 	.slideshow .slide{padding:0 17%;}
 	.slideshow .slide blockquote q{
@@ -2000,6 +2065,10 @@ p.editor-note a{
 	.books-list .buttons-holder .btn-more,
 	.section-blog-soon .btn-oldblog {width:121px;}
 	.section-author .tabset{margin:0 0 66px;}
+	
+	.client-questionnaire{
+		margin: 0 15%;
+	}
 }
 @media only screen and (max-width:955px){
 	.caption-block{top:202px;}
@@ -2007,6 +2076,10 @@ p.editor-note a{
 @media only screen and (max-width:939px){
 	.caption-holder{display:none;}
 	.passion-block{display:block;}
+	.client-questions .passion-block{
+		padding: 3% 0 2%;
+		text-align: center;
+	}
 	.visual{margin:0;}
 	.section-intro .txt-stories{
 		background-position:-150px -700px;
@@ -2075,7 +2148,8 @@ p.editor-note a{
 	.section-read h2,
 	.section-wares h2,
 	.section-author h2,
-	.section-work h2{
+	.section-work h2,
+	{
 		font-size:15px;
 		line-height:17px;
 		margin:0 0 50px;
@@ -2601,7 +2675,7 @@ p.editor-note a{
 	.thumbnails-list li:hover .holder{
 		padding:10px 5px;
 		vertical-align:middle;
-	}
+	}	
 	/***********************
 	TEMPORARY SPEAKING PAGE
 	***********************/
@@ -2616,6 +2690,10 @@ p.editor-note a{
 	.about-panel h2{
 		font-size:25px;
 		line-height:29px;
+	}
+	.client-questions .passion-block{
+		padding: 3% 15% 2%;
+		text-align: center;
 	}
 	.about-panel h2{margin:0 0 31px;}
 	.two-columns{padding:0 30px;}
@@ -2753,6 +2831,10 @@ p.editor-note a{
 	.thumbnails-list li:hover a{height:226px;}
 	.thumbnails-list .hover .holder,
 	.thumbnails-list li:hover .holder{padding:10px 25px;}
+	
+	.client-questionnaire{
+		margin: 0 15%;
+	}
 	
 		/***********************
 	TEMPORARY SPEAKING PAGE

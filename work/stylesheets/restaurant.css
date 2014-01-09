@@ -9,7 +9,7 @@ section.restaurant-hero {
 
 .backdrop, .sobys, .sobys-on-side, .nosedive, .lazygoat, .papis {
   width: 100%;
-  max-width: 1170;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -32,7 +32,7 @@ section.restaurant-hero {
   height: 425px;
 }
 
-.photos img, .carousel img {
+.photos img, .restaurants .carousel img {
   width: 100%;
 }
 
@@ -42,14 +42,36 @@ section.restaurant-hero {
   vertical-align: top;
 }
 
-.carousel {
+.restaurants .carousel {
   display: inline-block;
   width: 90%;
   vertical-align: top;
+  text-align: center;
 }
 
-.carousel img {
+.slideset {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.lazygoat .btn-next { right: -40px; }
+.lazygoat .btn-prev { left: -40px; }
+
+.restaurants .carousel .slideshow .slide {
+  padding: 0 50px;
+}
+
+.restaurants .carousel img, .bordered {
   border: 20px solid black;
+}
+
+.nosedive .carousel img {
+  max-width: 743px;
+}
+
+.restaurants .btn-next, .restaurants .btn-prev {
+  display: none;
 }
 
 #inside-sobys {
@@ -61,7 +83,8 @@ section.restaurant-hero {
 }
 
 #nosedive {
-  background: url("../images/restaurants/nosedive-hero.jpg") repeat-x;
+  background: url("../images/restaurants/nosedive-hero.jpg") no-repeat;
+  background-size: 100%;
 }
 
 #lazygoat {
@@ -124,7 +147,7 @@ section.restaurant-hero {
 /* ================== Sobys On the Side ================== */
 
 .sobys-on-side {
-  margin: 2.5% 0;
+  margin: 2.5% auto;
 }
 
 .sobys-on-side .blurb {
@@ -155,12 +178,34 @@ section.restaurant-hero {
   margin: -80px 5% 0 0;
 }
 
+.papis {
+  text-align: center;
+}
+
+.papis .photos {
+  float: left;
+}
+
 .papis .carousel {
   margin: 40px 0 0px 0;
 }
 
 .papis .photos {
   margin-top: -140px;
+}
+
+.papis .blurb-photos .blurb {
+  text-align: left;
+  margin-left: 0;
+}
+
+.papis .blurb-photos {
+  float: right;
+  margin-right: 20px;
+}
+
+.papis .blurb-photos img {
+  width: 95%;
 }
 
 .nosedive .blurb, .passerelle .blurb, .papis .blurb {
@@ -202,21 +247,32 @@ section.restaurant-hero {
 
 /* ================== Lazy Goat / Table 301 ================== */
 
+.lazygoat {
+  text-align: center;
+}
+
 .lazygoat .photos, .table-three-oh-one .photos {
-  max-width: 785px;
-  margin: 0 0 0 -80px;
+  max-width: 775px;
+  width: 55%;
+  margin: 0 0 0 -110px;
 }
 
 .lazygoat .blurb, .table-three-oh-one .blurb {
-  max-width: 405px;
-  margin-left: 60px;
+  max-width: 395px;
+  width: 35%;
+  text-align: left;
+}
+
+.table-three-oh-one .blurb {
+  max-width: 575px;
+  width: 50%;
 }
 
 #lazy-gif {
   display: block;
   width: 90%;
   max-width: 843px;
-  margin: 0 auto 5% auto;
+  margin: 45px auto 5% auto;
 }
 
 .lazygoat .carousel {
@@ -228,6 +284,22 @@ section.restaurant-hero {
 
 /* =========================================================== */
 /* ====================== Media Queries ====================== */
+
+@media screen and (min-width: 1441px) {
+
+  .lazygoat .photos, .table-three-oh-one .photos {
+    max-width: 775px;
+    width: 50%;
+    margin: 0 0 0 -110px;
+  }
+
+  .lazygoat .blurb, .table-three-oh-one .blurb {
+    max-width: 695px;
+    width: 49%;
+    float: right;
+  }
+
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -253,6 +325,11 @@ section.restaurant-hero {
     width: 100%;
     max-width: 100%;
     text-align: left;
+  }
+
+  .lazygoat .photos {
+    width: 75%;
+    margin: 0 auto;
   }
 
   .lazygoat .blurb, .table-three-oh-one .blurb {
@@ -281,7 +358,6 @@ section.restaurant-hero {
 
   .backdrop, .sobys, .sobys-on-side, .nosedive, .lazygoat, .papis {
     width: 95%;
-    max-width: 1170;
     margin: 0 auto;
     text-align: center;
   }

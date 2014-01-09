@@ -1,0 +1,109 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M572.266-1.845h450.407v450.407h-450.407v-450.407z",
+					"M1.327-1.845h450.407v450.407h-450.407v-450.407z",
+					"M572.266 575.438h450.407v450.407h-450.407v-450.407z",
+					"M1.327 575.438h450.407v450.407h-450.407v-450.407z"
+				],
+				"grid": 0,
+				"tags": [
+					"grid-view"
+				]
+			},
+			"properties": {
+				"order": 1,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "grid-view",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M174.024 844.559l-0.964 0.472 86.251 85.53 85.53 86.251 0.472-0.964 0.973 0.964 504.654-504.381-0.964-0.472 0.964-0.973-503.796-503.798-0.973 0.964-0.471-0.964-85.53 86.251-86.251 85.53 0.964 0.472-0.964 0.973 331.158 331.158-332.017 332.014 0.964 0.973zM512.057 678.786l-1.903 0.932 0.933-1.901 1.903-0.932-0.933 1.901zM512.914 345.214l0.932 1.903-1.901-0.933-0.933-1.903 1.902 0.933z"
+				],
+				"grid": 0,
+				"tags": [
+					"arrow-right"
+				]
+			},
+			"properties": {
+				"order": 2,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "arrow-right",
+				"ligatures": ""
+			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M849.976 179.441l0.964-0.472-86.251-85.53-85.53-86.251-0.472 0.964-0.973-0.964-504.654 504.381 0.964 0.472-0.964 0.973 503.796 503.798 0.973-0.964 0.472 0.964 85.53-86.251 86.251-85.53-0.964-0.472 0.964-0.973-331.159-331.158 332.017-332.015-0.964-0.972zM511.943 345.214l1.903-0.933-0.932 1.901-1.903 0.933 0.932-1.901zM511.087 678.786l-0.933-1.903 1.901 0.933 0.932 1.903-1.9-0.933z"
+				],
+				"grid": 0,
+				"tags": [
+					"arrow-left"
+				]
+			},
+			"properties": {
+				"order": 3,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "arrow-left",
+				"ligatures": ""
+			}
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "bof-icons"
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "bof-icons"
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 1024,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": {
+				"Untitled Project 1": "Mjk5ODdkZjIyZTA1NWQ0NGM5YzE2ZmZmYTc3MTZkMTcjMiMxMzgzODM2OTY2IyMj"
+			},
+			"showMetrics": true,
+			"showMetadata": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"quickUsageToken": {
+			"Untitled Project 1": "YjM5MDk2NmFlZDA1YTA2YWQzMDJiY2FiNzEzNTVjNWUjMiMxMzg2NzI3NzgzIyMj"
+		}
+	}
+}
