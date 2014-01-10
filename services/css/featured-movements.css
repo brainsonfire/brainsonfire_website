@@ -7,7 +7,7 @@
 .featured-movements .thumbnails-list {
   clear: both;
   width: 100%;
-  margin: 25px auto 75px auto;
+  margin: 25px auto 20px auto;
   padding: 0;
   list-style: none;
   text-align: center; }
@@ -135,7 +135,7 @@
       padding-top: 105px; } }
   .featured-movements .banner-block.apply {
     top: 0;
-    padding: 109px 0 0 0;
+    padding: 65px 0 0 0;
     background: #dd5521 url(../../images/services/bookcase-bg.jpg) no-repeat center -120px;
     -webkit-background-size: 1440px auto;
     -moz-background-size: 1440px auto;
@@ -186,7 +186,7 @@
   .featured-movements .services-container a.button {
     display: block;
     width: 300px;
-    margin: 40px auto;
+    margin: 0 auto 60px;
     padding: 20px 0;
     font-family: Georgia, serif;
     font-size: 23px;
@@ -484,6 +484,8 @@
         background: #939f57; }
       .featured-movements .section-content p.phase.three {
         background: #00aacb; }
+        .featured-movements .section-content p.phase.four {
+        background: #d9531e; }
 .featured-movements .thumbnail {
   position: relative;
   display: inline-block;
