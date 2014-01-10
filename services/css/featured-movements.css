@@ -126,10 +126,30 @@
   letter-spacing: -1px; }
 .featured-movements .banner-block {
   top: 78px;
-  background: #00a9ca url(../../images/services/woman-hero-bg.jpg) no-repeat center -120px;
+  /* background: #00a9ca url(../../images/services/woman-hero-bg.jpg) no-repeat center -120px; */
   -webkit-background-size: 1440px auto;
   -moz-background-size: 1440px auto;
   background-size: 1440px auto; }
+ 
+.featured-movements .banner-block.ambassadors{
+	background: #00a9ca url(../../images/services/header-woman-hero-bg.jpg) no-repeat center -120px;
+} 
+.featured-movements .banner-block.brand-identity{
+	background: #00a9ca url(../../images/services/header-branding-identity.jpg) no-repeat center -120px;
+} 
+.featured-movements .banner-block.firestarter{
+	background: #00a9ca url(../../images/services/header-firestarter-seminar.jpg) no-repeat center -120px;
+} 
+.featured-movements  .banner-block.twoxtwo{
+	background: #00a9ca url(../../images/services/header-2x2-workshop.jpg) no-repeat center -120px;
+} 
+.featured-movements .banner-block.startup-jumpstart{
+	background: #00a9ca url(../../images/services/header-startup-jumpstart.jpg) no-repeat center -120px;
+} 
+.featured-movements .banner-block.gut-check{
+	background: #00a9ca url(../../images/services/header-gut-check.jpg) no-repeat center -120px;
+} 
+  
   @media screen and (max-width: 720px) {
     .featured-movements .banner-block {
       padding-top: 105px; } }
