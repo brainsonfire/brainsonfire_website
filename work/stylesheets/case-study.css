@@ -11,6 +11,12 @@
   .case-study .banner-block.large.ncfl {
   background: #00a9ca url(../images/ncfl/ncfl-hero-bg.jpg) no-repeat center -120px; }
   
+  .case-study .banner-block.large.charleston-parks {
+  background: #5e8da0 url(../images/charleston-parks/charleston-hero-bg.jpg) no-repeat center -120px; }
+  
+  .case-study .banner-block.large.gadow {
+  background: #0c0a0aurl(../images/gadow/gadow-hero-bg.jpg) no-repeat center -120px; }
+  
   @media screen and (max-width: 1440px) {
     .case-study .banner-block.large {
       -webkit-background-size: 1440px auto;
@@ -115,6 +121,9 @@
     .case-study .images-container.org-logo img {
       display: inline-block;
       width: 319px; }
+     .case-study .images-container.org-logo img.vertical {
+      display: inline-block;
+      width: 219px; } 
       @media screen and (max-width: 600px) {
         .case-study .images-container.org-logo img {
           width: 184px; } }
