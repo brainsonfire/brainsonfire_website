@@ -14,15 +14,32 @@ a {
 
 .banner-block {
   position: relative;
-  height: 164px;
+  height: 154px;
   color: #fff;
   width: 100%;
   margin: 0 auto;
   text-align: center;
   z-index: 2;
-  padding: 155px 0 0;
+  padding: 165px 0 0;
   text-transform: uppercase;
   overflow: hidden; }
+
+.services-overview .intro{
+	width:100%;
+	padding:50px 0 50px;
+	background:url(../../images/bg-path.png) ;
+}
+
+.services-overview .intro p{
+	width:70%;
+	font-size: 17px;
+    line-height: 32px;
+	margin: 0 auto;
+	background:url(../../images/bg-path.png) ;
+	text-align: center; 
+}
+
+
   @media only screen and (max-width: 980px) {
     .banner-block {
       padding: 150px 0 0; } }
