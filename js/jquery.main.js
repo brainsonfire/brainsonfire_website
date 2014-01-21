@@ -125,6 +125,23 @@ function initCycleCarousel() {
 		switchTime: 4000,
 		animSpeed: 500
 	});
+	
+	
+	jQuery('.services-quotes').scrollAbsoluteGallery({
+		mask: 'div.mask',
+		slider: 'div.slideset',
+		slides: 'div.slide',
+		btnPrev: 'a.btn-prev',
+		btnNext: 'a.btn-next',
+		generatePagination: '.pagination',
+		stretchSlideToMask: true,
+		pauseOnHover: true,
+		maskAutoSize: true,
+		autoRotation: false,
+		switchTime: 4000,
+		animSpeed: 500
+	});
+	
 }
 
 // add classes on hover/touch
