@@ -24,21 +24,39 @@ a {
   text-transform: uppercase;
   overflow: hidden; }
 
-.services-overview .intro{
+.services-overview .intro, .client-questions .intro{
 	width:100%;
 	padding:50px 0 50px;
 	background:url(../../images/bg-path.png) ;
 }
 
-.services-overview .intro p{
+.client-questions .intro{
+	margin-top: -50px;
+}
+
+.client-questions.thanks-page .intro {
+	margin-top: -50px;
+	background: none;
+}
+
+.services-overview .intro p, .client-questions .intro p{
 	width:70%;
 	font-size: 17px;
     line-height: 32px;
 	margin: 0 auto;
-	background:url(../../images/bg-path.png) ;
 	text-align: center; 
 }
 
+.client-questions.thanks-page .intro h2{
+	width:70%;
+	margin: 0 auto 20px;
+	text-align: center;
+	color: #333;
+	font-size: 40px;
+	line-height: 44px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
 
   @media only screen and (max-width: 980px) {
     .banner-block {
@@ -420,3 +438,8 @@ a {
     @media screen and (max-width: 1024px) {
       .learn-more-container big {
         font-size: 1.2em; } }
+/* Nathan Added Queries */
+
+	@media only screen and (max-width: 1199px) {
+	  .client-questions.thanks-page .intro h2 {
+		font-size: 32px; } }

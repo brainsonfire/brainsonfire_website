@@ -1,0 +1,17 @@
+div.caption-block.application-caption-block.versionTeam{
+	width:35%;
+	top:200px;
+	color:#333;
+}
+
+div.caption-block.application-caption-block.versionTeam h1, div.caption-block.application-caption-block.versionTeam h2{
+	color:#333;
+}
+
+
+.passion-block.versionTeamSmall p{
+	font-size: 16px;
+	line-height: 24px;
+	width:80%;
+	margin: 0 auto 10px;
+}
