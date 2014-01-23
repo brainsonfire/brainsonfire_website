@@ -1,9 +1,22 @@
 .greenville .secondary-nav-top {
   position: absolute; }
 
-.full-width, .backdrop, .purpose .content {
+.full-width, .content, .backdrop {
   max-width: 970px;
   background: none; }
+
+.two-columns {
+  -moz-column-count: 2;
+  -moz-column-gap: 35px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 35px; }
+
+.content {
+  margin: 0 auto;
+  text-align: left;
+  color: white; }
+  .content h3 {
+    color: white; }
 
 p {
   color: #333333;
@@ -16,7 +29,9 @@ p {
   padding: 0;
   height: 725px;
   background: url("../../images/greenville/gvl-hero.jpg") no-repeat;
-  background-size: cover;
+  -webkit-background-size: cover cover;
+  -moz-background-size: cover cover;
+  background-size: cover cover;
   background-position: center top; }
 
 .backdrop {
@@ -25,6 +40,7 @@ p {
 .green {
   position: absolute;
   width: 100%;
+  top: 101px;
   background: #c3d600;
   height: 488px;
   z-index: 0; }
@@ -32,24 +48,90 @@ p {
 .purpose {
   position: relative;
   margin: 50px auto;
-  height: 588px;
+  height: 720px;
   background: none;
   overflow: visible; }
   .purpose .content-wrapper {
     position: relative;
+    padding-top: 85px;
     height: 100%;
     background: url(../../images/greenville/us-map.png) no-repeat center top;
-    background-size: 1168px auto;
-    z-index: 1; }
-  .purpose .content {
-    margin: 0 auto; }
+    -webkit-background-size: auto 720px;
+    -moz-background-size: auto 720px;
+    background-size: auto 720px;
+    z-index: 1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
   .purpose ul {
+    max-width: 670px;
     font-family: Georgia, serif;
     font-size: 24px;
     font-style: italic;
-    font-weight: bolder; }
+    font-weight: bold; }
   .purpose li {
-    display: block; }
+    display: block;
+    margin-bottom: 40px; }
+
+.action {
+  margin: -131px auto 0px auto;
+  padding: 60px 0;
+  background: #b7b7b7;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .action p {
+    margin-bottom: 40px;
+    color: white; }
+  .action img {
+    position: absolute;
+    right: -60px;
+    bottom: -120px; }
+  .action .two-columns {
+    position: relative;
+    height: 692px;
+    overflow: visible; }
+
+.photos {
+  max-width: 1170px;
+  margin: 50px auto 0 auto;
+  text-align: center; }
+  .photos img {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto; }
+
+.success {
+  position: relative;
+  background: #3f3a60 url(../../images/greenville/hands.png) no-repeat right top;
+  background-size: 758px auto;
+  box-shadow: 0 -137px 0 #554C85;
+  color: white;
+  text-align: left; }
+  .success h3 {
+    color: white; }
+  .success img {
+    max-width: 802px;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .success .content {
+    width: 1070px;
+    max-width: 1070px; }
+  .success ul {
+    display: inline-block;
+    max-width: 470px;
+    margin: 0 120px auto 0;
+    vertical-align: top; }
+    .success ul:nth-child(odd) {
+      margin-right: 0; }
+  .success li {
+    width: 100%;
+    margin-bottom: 40px; }
+
+.social {
+  height: 500px;
+  background: #b0b0b0 url(../../images/greenville/social-images.jpg) no-repeat center top; }
 
 h1 {
   font-size: 2.2em;
