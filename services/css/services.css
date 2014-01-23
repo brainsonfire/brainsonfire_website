@@ -20,7 +20,7 @@ a {
   margin: 0 auto;
   text-align: center;
   z-index: 2;
-  padding: 165px 0 0;
+  padding: 156px 0 0;
   text-transform: uppercase;
   overflow: hidden; }
 
@@ -56,6 +56,24 @@ a {
 	line-height: 44px;
 	font-weight: 500;
 	text-transform: uppercase;
+}
+
+div.caption-block.application-caption-block.versionTeam{
+	width:34%;
+	top:360px;
+}
+
+div.caption-block.application-caption-block.versionTeam h2{
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: none;
+}
+
+.passion-block.versionTeamSmall p{
+	font-size: 16px;
+	line-height: 24px;
+	width:80%;
+	margin: 0 auto 10px;
 }
 
   @media only screen and (max-width: 980px) {
