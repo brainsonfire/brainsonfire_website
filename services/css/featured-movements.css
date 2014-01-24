@@ -608,7 +608,7 @@
       -webkit-transform: none;
       transform: none; } }
 .featured-movements .learn-more-container {
-  text-align: left; }
+  text-align: center; }
   .featured-movements .learn-more-container a {
     margin: 25px 0;
     text-align: center; }
