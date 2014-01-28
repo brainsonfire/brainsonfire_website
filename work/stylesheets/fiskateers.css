@@ -1,7 +1,6 @@
 section {
   width: 100%;
   margin: 0;
-  background: #fafafa url("../images/bg.gif") repeat;
   padding: 0;
   text-align: center;
   -webkit-box-sizing: border-box;
@@ -11,6 +10,11 @@ section {
     margin: 0 auto 0 auto; }
     section.big-image img {
       max-width: 90%; }
+      section.big-image img.polaroid {
+        position: absolute;
+        max-width: 430px;
+        width: 36%;
+        margin: 0; }
   section.van img {
     width: 100%;
     max-width: 892px;
@@ -174,11 +178,70 @@ p {
     left: 12%;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.45); }
 
+.coasters {
+  position: relative; }
+  .coasters img {
+    max-width: 90%;
+    width: 1170px;
+    margin: 0 auto; }
+  .coasters p {
+    position: absolute;
+    left: 10%;
+    bottom: 5%;
+    text-transform: uppercase; }
+
+.web {
+  position: relative;
+  max-width: 1170px;
+  width: 90%;
+  margin: 100px auto 50px auto; }
+  .web .content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 100px; }
+  .web img {
+    max-width: 770px;
+    width: 90%;
+    margin: 0 auto; }
+    .web img.portal {
+      float: left;
+      display: inline-block;
+      width: 65%;
+      margin: 0 2% 0 0; }
+  .web p {
+    position: relative;
+    display: inline-block;
+    right: 0;
+    vertical-align: top; }
+    .web p big {
+      display: block;
+      font-weight: 700;
+      text-transform: uppercase; }
+
+.images {
+  position: relative;
+  max-width: 1170px;
+  width: 90%;
+  margin: 0 auto;
+  height: 1020px;
+  background: url(../../images/fiskateers/girls-in-hats.jpg) no-repeat center top;
+  background-size: 1170px auto; }
+  .images .one {
+    bottom: 18%;
+    left: -8%; }
+  .images .two {
+    bottom: 3%;
+    left: 19%; }
+  .images .three {
+    right: -2.3%;
+    bottom: 7.7%; }
+
 .sign-off {
+  clear: both;
   height: 490px;
   margin-top: 100px;
-  padding-top: 190px;
-  background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
+  padding-top: 100px;
+  background: url(../../images/fiskateers/pink-bg.jpg) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -192,7 +255,7 @@ p {
     margin: 0 auto; }
   .sign-off h2 {
     margin: 0;
-    line-height: .7;
+    line-height: 1.4;
     font-family: Georgia;
     font-weight: bold;
     font-size: 34px;
