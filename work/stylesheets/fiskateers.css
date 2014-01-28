@@ -1,0 +1,241 @@
+section {
+  width: 100%;
+  margin: 0;
+  background: #fafafa url("../images/bg.gif") repeat;
+  padding: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  section.big-image {
+    margin: 0 auto 0 auto; }
+    section.big-image img {
+      max-width: 90%; }
+  section.van img {
+    width: 100%;
+    max-width: 892px;
+    margin: 0 auto -205px auto; }
+
+.greenville .secondary-nav-top {
+  position: absolute; }
+
+.full-width, .content, .backdrop {
+  max-width: 970px;
+  background: none; }
+
+.two-columns {
+  -moz-column-count: 2;
+  -moz-column-gap: 35px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 35px; }
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  color: white; }
+  .content h3 {
+    color: white; }
+
+p {
+  color: #333333;
+  font-weight: 500;
+  text-align: left; }
+  p.caps {
+    width: 1000px;
+    margin: 0 auto;
+    text-transform: uppercase; }
+
+.gvl-hero {
+  position: relative;
+  margin-top: 78px;
+  padding: 0;
+  height: 745px;
+  background: url("../../images/fiskateers/fisk-hero.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center 100%; }
+  @media screen and (max-width: 1180px) {
+    .gvl-hero {
+      height: 595px; } }
+
+.backdrop {
+  margin: 60px auto 0 auto; }
+  .backdrop img {
+    float: left;
+    margin-top: -54px; }
+  .backdrop p {
+    max-width: 570px;
+    margin-left: 287px; }
+
+.purpose {
+  clear: both;
+  height: 400px;
+  margin: 50px auto 0px auto;
+  padding-top: 70px;
+  background: url(../../images/fiskateers/green-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .purpose .content-wrapper {
+    position: relative;
+    max-width: 1287px;
+    width: 90%;
+    margin: 0 auto; }
+  .purpose ul {
+    max-width: 670px;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; }
+    @media screen and (max-width: 1440px) {
+      .purpose ul {
+        width: 620px;
+        padding-left: 30px; } }
+
+.purpose h3, .success h3 {
+  text-align: center; }
+.purpose li, .success li {
+  position: relative;
+  display: block;
+  margin-bottom: 40px; }
+  .purpose li span, .success li span {
+    position: absolute;
+    opacity: .5;
+    font-size: 1.5em;
+    top: -2px;
+    left: -40px; }
+
+.action h3 {
+  color: #333333; }
+.action img {
+  position: relative;
+  top: -68px; }
+
+.success {
+  clear: both;
+  height: 650px;
+  padding-top: 145px;
+  background: url(../../images/fiskateers/orange-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .success .content {
+    max-width: 1090px; }
+  .success ul {
+    display: inline-block;
+    width: 47%;
+    max-width: 470px;
+    margin: 0 auto;
+    vertical-align: top; }
+    .success ul:nth-child(even) {
+      margin-right: 9%;
+      padding-left: 30px; }
+  .success li {
+    margin-bottom: 25px; }
+
+.welcome {
+  position: relative;
+  margin: 60px 0 0 0; }
+  .welcome img {
+    width: 100%;
+    max-width: 1550px;
+    margin: 0 auto; }
+    .welcome img.polaroids {
+      width: 90%;
+      max-width: 1114px;
+      margin-top: -80px; }
+  .welcome p {
+    position: absolute;
+    top: 490px;
+    right: 8%;
+    width: 40%;
+    max-width: 460px; }
+
+.business-cards {
+  position: relative;
+  padding-bottom: 38%;
+  background: url(../../images/fiskateers/biz-cards.jpg) no-repeat center top, url(../../images/fiskateers/crosshatch-bg.jpg) top left repeat;
+  background-size: auto 100%, 40px auto; }
+  .business-cards p {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    bottom: 25px;
+    left: 12%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.45); }
+
+.sign-off {
+  height: 490px;
+  margin-top: 100px;
+  padding-top: 190px;
+  background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .sign-off .content {
+    position: relative;
+    max-width: 830px;
+    height: 100%;
+    margin: 0 auto; }
+  .sign-off h2 {
+    margin: 0;
+    line-height: .7;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 34px;
+    font-style: italic;
+    text-align: center; }
+  .sign-off ul {
+    position: absolute;
+    width: auto;
+    bottom: 167px;
+    right: 0;
+    text-align: left; }
+  .sign-off li {
+    display: block;
+    font-size: 22px; }
+    .sign-off li:first-child {
+      text-indent: -12px; }
+
+h1 {
+  font-size: 2.2em;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 2.2em; }
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 25px; }
+
+.white {
+  color: #fff; }
+
+h4 {
+  margin: 1.15% 0;
+  font-size: 1.3em;
+  font-weight: 500; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 400; }
