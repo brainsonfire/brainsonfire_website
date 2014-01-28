@@ -13,7 +13,7 @@ section {
       section.big-image img.polaroid {
         position: absolute;
         max-width: 430px;
-        width: 36%;
+        width: 41%;
         margin: 0; }
   section.van img {
     width: 100%;
@@ -179,7 +179,8 @@ p {
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.45); }
 
 .coasters {
-  position: relative; }
+  position: relative;
+  margin-top: 70px; }
   .coasters img {
     max-width: 90%;
     width: 1170px;
@@ -227,20 +228,25 @@ p {
   background: url(../../images/fiskateers/girls-in-hats.jpg) no-repeat center top;
   background-size: 1170px auto; }
   .images .one {
-    bottom: 18%;
+    top: 36.6%;
     left: -8%; }
   .images .two {
-    bottom: 3%;
+    top: 51%;
     left: 19%; }
   .images .three {
     right: -2.3%;
-    bottom: 7.7%; }
+    top: 45.7%; }
+  .images .flowers {
+    position: absolute;
+    width: 20%;
+    max-width: 263px;
+    top: 62%;
+    left: 48%;
+    z-index: -1; }
 
 .sign-off {
   clear: both;
-  height: 490px;
   margin-top: 100px;
-  padding-top: 100px;
   background: url(../../images/fiskateers/pink-bg.jpg) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -252,7 +258,9 @@ p {
     position: relative;
     max-width: 830px;
     height: 100%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 8% 0;
+    text-align: right; }
   .sign-off h2 {
     margin: 0;
     line-height: 1.4;
@@ -262,16 +270,14 @@ p {
     font-style: italic;
     text-align: center; }
   .sign-off ul {
-    position: absolute;
-    width: auto;
-    bottom: 167px;
-    right: 0;
-    text-align: left; }
+    display: inline-block;
+    margin: 0 0 0 auto; }
   .sign-off li {
     display: block;
-    font-size: 22px; }
+    font-size: 22px;
+    text-align: left; }
     .sign-off li:first-child {
-      text-indent: -12px; }
+      text-indent: -15px; }
 
 h1 {
   font-size: 2.2em;

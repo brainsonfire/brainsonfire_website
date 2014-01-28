@@ -26,7 +26,7 @@ section {
   		&.polaroid {
   			position: absolute;
   			max-width: 430px;
-  			width: 36%;
+  			width: 41%;
   			margin: 0;
   		}
   	}
@@ -227,6 +227,8 @@ p {
 
 .coasters {
 	position: relative;
+	margin-top: 70px;
+	
 	img {
 		max-width: 90%;
 		width: 1170px;
@@ -280,26 +282,33 @@ p {
 	background-size: 1170px auto;
 
 	.one {
-		bottom: 18%;
+		top: 36.6%;
 		left: -8%;
 	}
 
 	.two {
-		bottom: 3%;
+		top: 51%;
 		left: 19%;
 	}
 
 	.three {
 		right: -2.3%;
-		bottom: 7.7%;
+		top: 45.7%;
+	}
+
+	.flowers {
+		position: absolute;
+		width: 20%;
+		max-width: 263px;
+		top: 62%;
+		left: 48%;
+		z-index: -1;
 	}
 }
 
 .sign-off {
 	clear: both;
-	height: 490px;
 	margin-top: 100px;
-	padding-top: 100px;
 	background: url(../../images/fiskateers/pink-bg.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -311,6 +320,8 @@ p {
 		max-width: 830px;
 		height: 100%;
 		margin: 0 auto;
+		padding: 8% 0;
+		text-align: right;
 	}
 
 	h2 {
@@ -326,11 +337,8 @@ p {
 	}
 
 	ul {
-		position: absolute;
-		width: auto;
-		bottom: 167px;
-		right: 0;
-		text-align: left;
+		display: inline-block;
+		margin: 0 0 0 auto;
 	}
 
 	li {
@@ -338,8 +346,9 @@ p {
 		font: {
 			size: 22px;
 		}
+		text-align: left;
 
-		&:first-child { text-indent: -12px; }
+		&:first-child { text-indent: -15px; }
 	}
 }
 
