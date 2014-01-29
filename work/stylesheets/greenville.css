@@ -33,6 +33,10 @@ p {
   color: #333333;
   font-weight: 500;
   text-align: left; }
+  @media screen and (max-width: 480px) {
+    p {
+      font-size: 15px;
+      line-height: 1.4; } }
   p.caps {
     width: 1000px;
     margin: 0 auto;
@@ -54,6 +58,8 @@ p {
 
 .backdrop {
   margin: 60px auto 0 auto; }
+  .backdrop .content h3 {
+    color: #333; }
 
 .green {
   position: absolute;
@@ -69,7 +75,10 @@ p {
   @media screen and (max-width: 1180px) {
     .green {
       top: 10%;
-      height: 50%; } }
+      height: 350px; } }
+  @media screen and (max-width: 1024px) {
+    .green {
+      display: none; } }
 
 .purpose {
   position: relative;
@@ -81,6 +90,14 @@ p {
     .purpose {
       margin-bottom: 0px;
       height: 672px; } }
+  @media screen and (max-width: 1180px) {
+    .purpose {
+      height: 580px; } }
+  @media screen and (max-width: 1024px) {
+    .purpose {
+      height: auto;
+      margin: 50px auto;
+      background: #c3d600; } }
   .purpose .content {
     max-width: 100%;
     -webkit-box-sizing: border-box;
@@ -88,34 +105,60 @@ p {
     box-sizing: border-box; }
     @media screen and (max-width: 1440px) {
       .purpose .content {
-        padding-left: 0%; } }
+        padding-left: 100px; } }
+    @media screen and (max-width: 1180px) {
+      .purpose .content {
+        padding-left: 60px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose .content {
+        padding-left: 0px; } }
   .purpose .content-wrapper {
     position: relative;
-    max-width: 1287px;
-    width: 90%;
+    width: 1287px;
     margin: 0 auto;
     padding-top: 85px;
     height: 100%;
     background: url(../../images/greenville/us-map.png) no-repeat center 5px;
-    background-size: 1287px auto;
+    background-size: 83% auto;
     z-index: 1;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-    @media screen and (max-width: 1440px) {
-      .purpose .content-wrapper {
-        background-size: 1070px auto; } }
     @media screen and (max-width: 1180px) {
       .purpose .content-wrapper {
-        background-size: 870px auto; } }
-    @media screen and (max-width: 980px) {
+        width: 1024px;
+        background-size: 90% auto;
+        padding-top: 45px; } }
+    @media screen and (max-width: 1024px) {
       .purpose .content-wrapper {
-        background-size: 670px auto; } }
+        width: 880px;
+        top: 30px;
+        left: 50%;
+        margin-left: -440px;
+        padding-top: 400px;
+        padding-bottom: 50px; } }
+    @media screen and (max-width: 880px) {
+      .purpose .content-wrapper {
+        width: 768px;
+        margin-left: -384px; } }
     @media screen and (max-width: 768px) {
       .purpose .content-wrapper {
-        background-size: 100% auto; } }
+        width: 580px;
+        margin-left: -290px;
+        padding-top: 270px; } }
+    @media screen and (max-width: 580px) {
+      .purpose .content-wrapper {
+        width: 480px;
+        margin-left: -240px;
+        padding-top: 230px; } }
+    @media screen and (max-width: 480px) {
+      .purpose .content-wrapper {
+        width: 320px;
+        margin-left: -160px;
+        padding-top: 105px; } }
   .purpose ul {
     max-width: 670px;
+    width: 670px;
     font-family: Georgia, serif;
     font-size: 24px;
     font-style: italic;
@@ -123,6 +166,26 @@ p {
     @media screen and (max-width: 1440px) {
       .purpose ul {
         width: 600px; } }
+    @media screen and (max-width: 1180px) {
+      .purpose ul {
+        width: 520px;
+        font-size: 21px; } }
+    @media screen and (max-width: 1180px) {
+      .purpose ul {
+        width: 450px;
+        font-size: 18px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose ul {
+        width: 100%;
+        max-width: 100%;
+        font-size: 21px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose ul {
+        font-size: 18px; } }
+    @media screen and (max-width: 480px) {
+      .purpose ul {
+        font-size: 15px;
+        line-height: 1.4; } }
   .purpose li {
     display: block;
     margin-bottom: 40px; }
@@ -132,7 +195,23 @@ p {
         .purpose li:nth-child(2n) {
           padding-left: 30px; }
         .purpose li:nth-child(3n) {
-          padding-left: 100px; } }
+          padding-left: 130px; } }
+        @media screen and (max-width: 1440px) and (max-width: 1180px) {
+          .purpose li:nth-child(2n) {
+            padding-left: 10px; } }
+        @media screen and (max-width: 1440px) and (max-width: 1180px) {
+          .purpose li:nth-child(3n) {
+            padding-left: 110px; } }
+    @media screen and (max-width: 1180px) {
+      .purpose li {
+        margin-bottom: 12px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose li {
+        margin-bottom: 8px; }
+        .purpose li:nth-child(2n) {
+          padding-left: 0px; }
+        .purpose li:nth-child(3n) {
+          padding-left: 0px; } }
 
 .action {
   margin: -131px auto 0px auto;
@@ -141,20 +220,43 @@ p {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  @media screen and (max-width: 1024px) {
+    .action {
+      margin: 50px auto; } }
   .action p {
     margin-bottom: 40px;
     color: white; }
+    @media screen and (max-width: 880px) {
+      .action p {
+        margin-bottom: 20px; } }
   .action .column {
     float: none;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center;
+    vertical-align: top; }
+    @media screen and (max-width: 1024px) {
+      .action .column {
+        margin: 0 0px 0px 0; } }
+    @media screen and (max-width: 768px) {
+      .action .column {
+        display: block;
+        width: 100%; } }
+    .action .column p {
+      text-align: left; }
     .action .column:first-child {
-      float: left;
-      margin-right: 30px; }
+      margin-right: 25px; }
+      @media screen and (max-width: 1024px) {
+        .action .column:first-child {
+          margin: 0 15px 0px 0; } }
   .action img {
     max-width: 560px;
     width: 100%;
     margin-top: -20px;
     margin-bottom: -140px; }
+    @media screen and (max-width: 768px) {
+      .action img {
+        width: 80%;
+        margin: 0 auto -140px auto; } }
 
 .photos {
   max-width: 1170px;
@@ -174,9 +276,22 @@ p {
   text-align: left; }
   @media screen and (max-width: 1180px) {
     .success {
+      margin-top: 50px;
+      padding-top: 55px;
       border-top-width: 100px; } }
+  @media screen and (max-width: 768px) {
+    .success {
+      border-top-width: 60px; } }
+  @media screen and (max-width: 580px) {
+    .success {
+      margin-top: 40px;
+      padding-top: 40px; } }
   .success h3 {
-    color: white; }
+    color: white;
+    text-align: left; }
+    @media screen and (max-width: 768px) {
+      .success h3 {
+        padding-left: 5%; } }
   .success img {
     max-width: 802px;
     width: 62%;
@@ -188,27 +303,68 @@ p {
         left: -7%; } }
     @media screen and (max-width: 1180px) {
       .success img {
-        top: -49%;
-        left: -4%; } }
+        top: -225px;
+        left: 0%; } }
+    @media screen and (max-width: 1180px) {
+      .success img {
+        top: -225px;
+        left: 0%; } }
+    @media screen and (max-width: 980px) {
+      .success img {
+        top: -188px; } }
+    @media screen and (max-width: 768px) {
+      .success img {
+        top: -155px;
+        left: 5%; } }
+    @media screen and (max-width: 580px) {
+      .success img {
+        top: -109px;
+        width: 300px; } }
   .success .content {
     position: relative;
     width: 1070px;
     max-width: 90%;
     background: #3f3a60 url(../../images/greenville/hands.png) no-repeat 90% 15px;
     background-size: 758px auto; }
+    @media screen and (max-width: 768px) {
+      .success .content {
+        max-width: 100%;
+        text-align: center;
+        background-size: auto 100%;
+        background-position: 90% bottom; } }
+    @media screen and (max-width: 480px) {
+      .success .content {
+        background-size: auto 60%; } }
   .success ul {
     display: inline-block;
     max-width: 470px;
+    width: 45%;
     margin: 0 120px auto 0;
-    vertical-align: top; }
+    vertical-align: top;
+    text-align: left; }
     .success ul:nth-child(even) {
       margin-right: 0; }
     @media screen and (max-width: 1440px) {
       .success ul {
-        margin-right: 9%; } }
+        margin-right: 8%; } }
+    @media screen and (max-width: 768px) {
+      .success ul {
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto; } }
   .success li {
     width: 100%;
+    display: block;
     margin-bottom: 40px; }
+    @media screen and (max-width: 1440px) {
+      .success li {
+        margin-bottom: 17px; } }
+    @media screen and (max-width: 1180px) {
+      .success li {
+        margin-bottom: 12px; } }
+    @media screen and (max-width: 1024px) {
+      .success li {
+        margin-bottom: 8px; } }
 
 .social {
   height: 590px;
@@ -345,10 +501,17 @@ h2 {
 
 h3 {
   font-size: 2em;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: uppercase;
   color: #333333;
   padding-bottom: 25px; }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.7em; } }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.4em;
+      padding-bottom: 15px; } }
 
 .white {
   color: #fff; }
