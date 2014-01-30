@@ -62,6 +62,8 @@ p {
 		width: 1000px;
 		margin: 0 auto;
 		text-transform: uppercase;
+
+		@media screen and (max-width: 880px) { font-size: .75em; line-height: 1; }
 	}
 }
 
@@ -76,14 +78,21 @@ p {
 	background-size: cover;
 	background-position: center 70%;
 
-	@media screen and (max-width: 1180px) {
-		height: 595px;
-	}
+	@media screen and (max-width: 1180px) { height: 595px; }
+	@media screen and (max-width: 1024px) { height: 425px; }
+	@media screen and (max-width: 768px) { height: 345px; }
+	@media screen and (max-width: 580px) { height: 250px; }
+	@media screen and (max-width: 480px) { height: 200px; }
+	@media screen and (max-width: 320px) { height: 180px; }
 }
 
 .backdrop {
 	@extend .full-width;
 	margin: 60px auto 0 auto;
+
+	@media screen and (max-width: 880px) {
+		margin: 30px auto 0 auto;
+	}
 
 	.content h3 {
 		color: #333;
@@ -440,6 +449,11 @@ p {
 		@media screen and (max-width: 1024px) {
 			margin-bottom: 8px;
 		}
+
+		@media screen and (max-width: 480px) {
+			font-size: 15px;
+			line-height: 1.4;
+		}
 	}
 }
 
@@ -447,12 +461,31 @@ p {
 	height: 590px;
 	margin: 60px auto 8px auto;
 	background: #B7B7B7 url(../../images/greenville/social-images.png) no-repeat center -5px;
-	@include background-size(1000px, auto);
+	@include background-size(996px, auto);
+
+	@media screen and (max-width: 996px) {
+		height: auto;
+		padding-bottom: 60%;
+		-moz-background-size: cover;
+		background-size: cover;
+	}
+
+	@media screen and (max-width: 1024px) {
+		+ p {
+			display: block;
+			width: auto;
+			margin-left: 5%;
+		}
+	}
 }
 
 .web {
 	position: relative;
 	margin: 60px auto 130px auto;
+
+	@media screen and (max-width: 880px) {
+		margin: 30px auto 40px auto;
+	}
 
 	p.caps {
 		width: 90%;
@@ -460,17 +493,32 @@ p {
 		-webkit-transform: translateY(-107px);
 		-moz-transform: translateY(-107px);
 		transform: translateY(-107px);
+
+		@media screen and (max-width: 880px) {
+			-webkit-transform: translateY(0px);
+			-moz-transform: translateY(0px);
+			transform: translateY(0px);		
+			text-align: center;	
+		}
 	}
 
 	img {
 		position: relative;
-		&.monitor { width: 725px; }
+		&.monitor { width: 90%; max-width: 725px; z-index: 1; }
 		&.mag-stack {
 			position: relative;
 			left: 19px;
 			float: left;
 			width: 538px;
 			margin: -20px 0px 0 -215px;
+
+			@media screen and (max-width: 880px) {
+				width: 450px;
+				margin: -20px 0 0 -65px;
+			}
+
+			@media screen and (max-width: 768px) { float: none; margin: 0 0px 0 -90px; width: 285px; }
+			@media screen and (max-width: 480px) { width: 180px; margin-left: -50px; }
 		}
 		&.lantern {
 			position: relative;
@@ -478,6 +526,14 @@ p {
 			float: right;
 			width: 220px;
 			margin: -250px -60px 0 0px;
+
+			@media screen and (max-width: 880px) {
+				width: 185px;
+				margin: -180px -40px 0 0px;
+			}
+
+			@media screen and (max-width: 768px) { float: none; margin: 0; width: 135px; }
+			@media screen and (max-width: 480px) { width: 100px; }
 		}
 	}
 
@@ -486,12 +542,27 @@ p {
 		width: 100%;
 		padding-top: 45px;
 		margin: 0px auto 60px auto;
+		text-align: center;
 		@include border-box;
+
+		@media screen and (max-width: 768px) { padding-top: 0; }
 
 		p {
 			width: 100%;
 			max-width: 490px;
 			margin: 0 0 105px 345px;
+			text-align: left;
+
+			@media screen and (max-width: 880px) {
+				width: 40%;
+				margin: 0 0 55px 420px;
+			}
+
+			@media screen and (max-width: 768px) {
+				width: 90%;
+				margin: 0 auto;
+				max-width: 90%;
+			}
 		}
 	}
 }
@@ -506,12 +577,39 @@ p {
 		color: #554c85;
 		background: #c3d600;
 		box-shadow: -900px 0 0 #c3d600, 900px 0 0 #c3d600;
+		@include border-box;
+
+		@media screen and (max-width: 1024px) {
+			width: 100%;
+			padding: 0 5%;
+		}
+
+		@media screen and (max-width: 880px) {
+			text-align: center;
+		}
 
 		h3 {
 			display: inline-block;
 			padding: 100px 0 20px 0;
 			color: #554c85;
 			font-weight: 700;
+
+			@media screen and (max-width: 1024px) {
+				display: block;
+				padding-bottom: 0;
+			}
+
+			@media screen and (max-width: 880px) {
+				padding-top: 50px;
+			}
+		}
+
+		small {
+			@media screen and (max-width: 1024px) {
+				display: block;
+				padding: 0 5% 0 0;
+				line-height: 1.2;
+			}
 		}
 	}
 
@@ -522,6 +620,7 @@ p {
 			padding: 0;
 			img {
 				max-width: 1030px;
+				width: 100%;
 			}
 		}
 	}
@@ -547,18 +646,38 @@ p {
 	img {
 		max-height: 200px;
 		width: auto;
-		margin: 0;
+		margin: 0 auto;
 		padding: 50px 50px 0 50px;
 		border-right: 2px solid #c3d600;
-
 		&:last-child { border-right: none; }
+
+		@media screen and (max-width: 1024px) { max-height: 180px; }
+		@media screen and (max-width: 880px) {
+			max-height: 140px;
+			padding: 25px 25px 0 25px;
+		}
+
+		@media screen and (max-width: 600px) {
+			max-height: 120px;
+			padding: 15px 15px 0 15px;
+		}
+
+		@media screen and (max-width: 480px) {
+			display: block;
+			max-height: 100%;
+			height: auto;
+			width: 35%;
+			padding: 15px;
+			border-right: none;
+			border-bottom: 1px solid #c3d600;
+			&:last-child { border-bottom: none; }
+		}
 	}
 }
 
 .sign-off {
-	height: 490px;
+	clear: both;
 	margin-top: 100px;
-	padding-top: 190px;
 	background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -570,11 +689,13 @@ p {
 		max-width: 830px;
 		height: 100%;
 		margin: 0 auto;
+		padding: 8% 0;
+		text-align: right;
 	}
 
 	h2 {
 		margin: 0;
-		line-height: .7;
+		line-height: 1.4;
 		font: {
 			family: Georgia;
 			weight: bold;
@@ -582,14 +703,15 @@ p {
 			style: italic;
 		}
 		text-align: center;
+
+		@media screen and (max-width: 880px) {
+			font-size: 30px;
+		}
 	}
 
 	ul {
-		position: absolute;
-		width: auto;
-		bottom: 167px;
-		right: 0;
-		text-align: left;
+		display: inline-block;
+		margin: 0 0 0 auto;
 	}
 
 	li {
@@ -597,8 +719,13 @@ p {
 		font: {
 			size: 22px;
 		}
+		text-align: left;
+		line-height: 1.4;
+		&:first-child { text-indent: -15px; }
 
-		&:first-child { text-indent: -12px; }
+		@media screen and (max-width: 880px) {
+			font-size: 16px;
+		}
 	}
 }
 

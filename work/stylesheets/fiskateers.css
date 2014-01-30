@@ -269,15 +269,22 @@ p {
     font-size: 34px;
     font-style: italic;
     text-align: center; }
+    @media screen and (max-width: 880px) {
+      .sign-off h2 {
+        font-size: 30px; } }
   .sign-off ul {
     display: inline-block;
     margin: 0 0 0 auto; }
   .sign-off li {
     display: block;
     font-size: 22px;
+    line-height: 1.4;
     text-align: left; }
     .sign-off li:first-child {
       text-indent: -15px; }
+    @media screen and (max-width: 880px) {
+      .sign-off li {
+        font-size: 16px; } }
 
 h1 {
   font-size: 2.2em;

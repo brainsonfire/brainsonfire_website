@@ -41,6 +41,10 @@ p {
     width: 1000px;
     margin: 0 auto;
     text-transform: uppercase; }
+    @media screen and (max-width: 880px) {
+      p.caps {
+        font-size: .75em;
+        line-height: 1; } }
 
 .gvl-hero {
   position: relative;
@@ -55,9 +59,27 @@ p {
   @media screen and (max-width: 1180px) {
     .gvl-hero {
       height: 595px; } }
+  @media screen and (max-width: 1024px) {
+    .gvl-hero {
+      height: 425px; } }
+  @media screen and (max-width: 768px) {
+    .gvl-hero {
+      height: 345px; } }
+  @media screen and (max-width: 580px) {
+    .gvl-hero {
+      height: 250px; } }
+  @media screen and (max-width: 480px) {
+    .gvl-hero {
+      height: 200px; } }
+  @media screen and (max-width: 320px) {
+    .gvl-hero {
+      height: 180px; } }
 
 .backdrop {
   margin: 60px auto 0 auto; }
+  @media screen and (max-width: 880px) {
+    .backdrop {
+      margin: 30px auto 0 auto; } }
   .backdrop .content h3 {
     color: #333; }
 
@@ -365,52 +387,117 @@ p {
     @media screen and (max-width: 1024px) {
       .success li {
         margin-bottom: 8px; } }
+    @media screen and (max-width: 480px) {
+      .success li {
+        font-size: 15px;
+        line-height: 1.4; } }
 
 .social {
   height: 590px;
   margin: 60px auto 8px auto;
   background: #b7b7b7 url(../../images/greenville/social-images.png) no-repeat center -5px;
-  -webkit-background-size: 1000px auto;
-  -moz-background-size: 1000px auto;
-  background-size: 1000px auto; }
+  -webkit-background-size: 996px auto;
+  -moz-background-size: 996px auto;
+  background-size: 996px auto; }
+  @media screen and (max-width: 996px) {
+    .social {
+      height: auto;
+      padding-bottom: 60%;
+      -moz-background-size: cover;
+      background-size: cover; } }
+  @media screen and (max-width: 1024px) {
+    .social + p {
+      display: block;
+      width: auto;
+      margin-left: 5%; } }
 
 .web {
   position: relative;
   margin: 60px auto 130px auto; }
+  @media screen and (max-width: 880px) {
+    .web {
+      margin: 30px auto 40px auto; } }
   .web p.caps {
     width: 90%;
     max-width: 725px;
     -webkit-transform: translateY(-107px);
     -moz-transform: translateY(-107px);
     transform: translateY(-107px); }
+    @media screen and (max-width: 880px) {
+      .web p.caps {
+        -webkit-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        transform: translateY(0px);
+        text-align: center; } }
   .web img {
     position: relative; }
     .web img.monitor {
-      width: 725px; }
+      width: 90%;
+      max-width: 725px;
+      z-index: 1; }
     .web img.mag-stack {
       position: relative;
       left: 19px;
       float: left;
       width: 538px;
       margin: -20px 0px 0 -215px; }
+      @media screen and (max-width: 880px) {
+        .web img.mag-stack {
+          width: 450px;
+          margin: -20px 0 0 -65px; } }
+      @media screen and (max-width: 768px) {
+        .web img.mag-stack {
+          float: none;
+          margin: 0 0px 0 -90px;
+          width: 285px; } }
+      @media screen and (max-width: 480px) {
+        .web img.mag-stack {
+          width: 180px;
+          margin-left: -50px; } }
     .web img.lantern {
       position: relative;
       left: 19px;
       float: right;
       width: 220px;
       margin: -250px -60px 0 0px; }
+      @media screen and (max-width: 880px) {
+        .web img.lantern {
+          width: 185px;
+          margin: -180px -40px 0 0px; } }
+      @media screen and (max-width: 768px) {
+        .web img.lantern {
+          float: none;
+          margin: 0;
+          width: 135px; } }
+      @media screen and (max-width: 480px) {
+        .web img.lantern {
+          width: 100px; } }
   .web .content {
     position: relative;
     width: 100%;
     padding-top: 45px;
     margin: 0px auto 60px auto;
+    text-align: center;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
+    @media screen and (max-width: 768px) {
+      .web .content {
+        padding-top: 0; } }
     .web .content p {
       width: 100%;
       max-width: 490px;
-      margin: 0 0 105px 345px; }
+      margin: 0 0 105px 345px;
+      text-align: left; }
+      @media screen and (max-width: 880px) {
+        .web .content p {
+          width: 40%;
+          margin: 0 0 55px 420px; } }
+      @media screen and (max-width: 768px) {
+        .web .content p {
+          width: 90%;
+          margin: 0 auto;
+          max-width: 90%; } }
 
 .numbers {
   max-width: 1220px;
@@ -421,18 +508,41 @@ p {
     margin: 0 auto;
     color: #554c85;
     background: #c3d600;
-    box-shadow: -900px 0 0 #c3d600, 900px 0 0 #c3d600; }
+    box-shadow: -900px 0 0 #c3d600, 900px 0 0 #c3d600;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media screen and (max-width: 1024px) {
+      .numbers .bar {
+        width: 100%;
+        padding: 0 5%; } }
+    @media screen and (max-width: 880px) {
+      .numbers .bar {
+        text-align: center; } }
     .numbers .bar h3 {
       display: inline-block;
       padding: 100px 0 20px 0;
       color: #554c85;
       font-weight: 700; }
+      @media screen and (max-width: 1024px) {
+        .numbers .bar h3 {
+          display: block;
+          padding-bottom: 0; } }
+      @media screen and (max-width: 880px) {
+        .numbers .bar h3 {
+          padding-top: 50px; } }
+    @media screen and (max-width: 1024px) {
+      .numbers .bar small {
+        display: block;
+        padding: 0 5% 0 0;
+        line-height: 1.2; } }
   .numbers .slideshow .slide {
     left: 50%;
     margin-left: -515px;
     padding: 0; }
     .numbers .slideshow .slide img {
-      max-width: 1030px; }
+      max-width: 1030px;
+      width: 100%; }
   .numbers .btn-next, .numbers .btn-prev {
     background: url(../../images/greenville/slider-arrow.png) no-repeat; }
   .numbers .btn-next {
@@ -448,16 +558,37 @@ p {
   .stats img {
     max-height: 200px;
     width: auto;
-    margin: 0;
+    margin: 0 auto;
     padding: 50px 50px 0 50px;
     border-right: 2px solid #c3d600; }
     .stats img:last-child {
       border-right: none; }
+    @media screen and (max-width: 1024px) {
+      .stats img {
+        max-height: 180px; } }
+    @media screen and (max-width: 880px) {
+      .stats img {
+        max-height: 140px;
+        padding: 25px 25px 0 25px; } }
+    @media screen and (max-width: 600px) {
+      .stats img {
+        max-height: 120px;
+        padding: 15px 15px 0 15px; } }
+    @media screen and (max-width: 480px) {
+      .stats img {
+        display: block;
+        max-height: 100%;
+        height: auto;
+        width: 35%;
+        padding: 15px;
+        border-right: none;
+        border-bottom: 1px solid #c3d600; }
+        .stats img:last-child {
+          border-bottom: none; } }
 
 .sign-off {
-  height: 490px;
+  clear: both;
   margin-top: 100px;
-  padding-top: 190px;
   background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -469,26 +600,33 @@ p {
     position: relative;
     max-width: 830px;
     height: 100%;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 8% 0;
+    text-align: right; }
   .sign-off h2 {
     margin: 0;
-    line-height: .7;
+    line-height: 1.4;
     font-family: Georgia;
     font-weight: bold;
     font-size: 34px;
     font-style: italic;
     text-align: center; }
+    @media screen and (max-width: 880px) {
+      .sign-off h2 {
+        font-size: 30px; } }
   .sign-off ul {
-    position: absolute;
-    width: auto;
-    bottom: 167px;
-    right: 0;
-    text-align: left; }
+    display: inline-block;
+    margin: 0 0 0 auto; }
   .sign-off li {
     display: block;
-    font-size: 22px; }
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.4; }
     .sign-off li:first-child {
-      text-indent: -12px; }
+      text-indent: -15px; }
+    @media screen and (max-width: 880px) {
+      .sign-off li {
+        font-size: 16px; } }
 
 h1 {
   font-size: 2.2em;
