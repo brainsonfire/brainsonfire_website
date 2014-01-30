@@ -8,6 +8,8 @@ section {
   box-sizing: border-box; }
   section.big-image {
     margin: 0 auto 0 auto; }
+    section.big-image.images img.polaroid {
+      position: relative; }
     section.big-image img {
       max-width: 90%; }
       section.big-image img.polaroid {
@@ -16,9 +18,18 @@ section {
         width: 41%;
         margin: 0; }
   section.van img {
-    width: 100%;
+    width: 75%;
     max-width: 892px;
     margin: 0 auto -205px auto; }
+    @media screen and (max-width: 880px) {
+      section.van img {
+        margin: 0 auto -175px auto; } }
+    @media screen and (max-width: 480px) {
+      section.van img {
+        margin: 0 auto -125px auto; } }
+    @media screen and (max-width: 320px) {
+      section.van img {
+        margin: 0 auto -75px auto; } }
 
 .greenville .secondary-nav-top {
   position: absolute; }
@@ -45,10 +56,18 @@ p {
   color: #333333;
   font-weight: 500;
   text-align: left; }
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 15px;
+      line-height: 1.4; } }
   p.caps {
     width: 1000px;
     margin: 0 auto;
     text-transform: uppercase; }
+    @media screen and (max-width: 880px) {
+      p.caps {
+        font-size: .75em;
+        line-height: 1; } }
 
 .gvl-hero {
   position: relative;
@@ -63,15 +82,38 @@ p {
   @media screen and (max-width: 1180px) {
     .gvl-hero {
       height: 595px; } }
+  @media screen and (max-width: 1024px) {
+    .gvl-hero {
+      height: 535px; } }
+  @media screen and (max-width: 880px) {
+    .gvl-hero {
+      height: 465px; } }
+  @media screen and (max-width: 768px) {
+    .gvl-hero {
+      height: 415px; } }
+  @media screen and (max-width: 720px) {
+    .gvl-hero {
+      height: 325px; } }
 
 .backdrop {
   margin: 60px auto 0 auto; }
   .backdrop img {
     float: left;
     margin-top: -54px; }
+    @media screen and (max-width: 768px) {
+      .backdrop img {
+        float: none;
+        margin: 0;
+        width: 80%;
+        max-width: 155px; } }
   .backdrop p {
     max-width: 570px;
     margin-left: 287px; }
+    @media screen and (max-width: 768px) {
+      .backdrop p {
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto; } }
 
 .purpose {
   clear: both;
@@ -85,11 +127,17 @@ p {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  @media screen and (max-width: 1024px) {
+    .purpose {
+      height: auto; } }
   .purpose .content-wrapper {
     position: relative;
     max-width: 1287px;
     width: 90%;
     margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+      .purpose .content-wrapper {
+        padding-bottom: 5%; } }
   .purpose ul {
     max-width: 670px;
     margin: 0 auto;
@@ -97,10 +145,20 @@ p {
     font-size: 24px;
     font-style: italic;
     font-weight: bold; }
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 1180px) {
       .purpose ul {
-        width: 620px;
-        padding-left: 30px; } }
+        font-size: 21px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose ul {
+        max-width: 100%;
+        font-size: 21px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose ul {
+        font-size: 18px; } }
+    @media screen and (max-width: 480px) {
+      .purpose ul {
+        font-size: 15px;
+        line-height: 1.4; } }
 
 .purpose h3, .success h3 {
   text-align: center; }
@@ -108,22 +166,40 @@ p {
   position: relative;
   display: block;
   margin-bottom: 40px; }
+  @media screen and (max-width: 1440px) {
+    .purpose li, .success li {
+      margin-bottom: 17px; } }
+  @media screen and (max-width: 1180px) {
+    .purpose li, .success li {
+      margin-bottom: 12px; } }
+  @media screen and (max-width: 1024px) {
+    .purpose li, .success li {
+      margin-bottom: 8px; } }
   .purpose li span, .success li span {
     position: absolute;
     opacity: .5;
     font-size: 1.5em;
     top: -2px;
     left: -40px; }
+    @media screen and (max-width: 768px) {
+      .purpose li span, .success li span {
+        font-size: 1.2em;
+        top: 2px;
+        left: -25px; } }
 
 .action h3 {
   color: #333333; }
 .action img {
   position: relative;
-  top: -68px; }
+  top: -68px;
+  max-width: 559px;
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    .action img {
+      top: -30px; } }
 
 .success {
   clear: both;
-  height: 650px;
   padding-top: 145px;
   background: url(../../images/fiskateers/orange-bg.jpg) no-repeat;
   -webkit-background-size: cover;
@@ -132,6 +208,15 @@ p {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  @media screen and (max-width: 580px) {
+    .success {
+      padding-top: 165px; } }
+  @media screen and (max-width: 480px) {
+    .success {
+      padding-top: 110px; } }
+  @media screen and (max-width: 320px) {
+    .success {
+      padding-top: 80px; } }
   .success .content {
     max-width: 1090px; }
   .success ul {
@@ -143,26 +228,93 @@ p {
     .success ul:nth-child(even) {
       margin-right: 9%;
       padding-left: 30px; }
+    @media screen and (max-width: 1440px) {
+      .success ul {
+        width: 43%; }
+        .success ul:nth-child(even) {
+          margin-right: 7%; } }
+    @media screen and (max-width: 768px) {
+      .success ul {
+        font-size: 15px;
+        line-height: 1.4; }
+        .success ul:last-child {
+          padding-bottom: 30px; } }
+    @media screen and (max-width: 580px) {
+      .success ul {
+        display: block;
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto; }
+        .success ul:nth-child(even) {
+          margin-right: auto;
+          padding-left: 0; } }
   .success li {
     margin-bottom: 25px; }
+    @media screen and (max-width: 580px) {
+      .success li {
+        margin-bottom: 15px; } }
 
 .welcome {
-  position: relative;
-  margin: 60px 0 0 0; }
+  margin: 60px auto; }
+  @media screen and (max-width: 768px) {
+    .welcome {
+      margin: 30px auto; } }
+  .welcome .content {
+    position: relative;
+    max-width: 1440px;
+    width: auto;
+    text-align: center; }
+    @media screen and (max-width: 1440px) {
+      .welcome .content {
+        max-width: 1180px; } }
+    @media screen and (max-width: 1180px) {
+      .welcome .content {
+        max-width: 1024px; } }
+    @media screen and (max-width: 1024px) {
+      .welcome .content {
+        max-width: 880px; } }
+    @media screen and (max-width: 880px) {
+      .welcome .content {
+        max-width: 768px; } }
+    @media screen and (max-width: 768px) {
+      .welcome .content {
+        max-width: 90%;
+        width: 90%;
+        margin: 0 auto; } }
   .welcome img {
-    width: 100%;
-    max-width: 1550px;
+    width: 1550px;
     margin: 0 auto; }
+    @media screen and (max-width: 1440px) {
+      .welcome img {
+        width: 100%; } }
     .welcome img.polaroids {
-      width: 90%;
-      max-width: 1114px;
-      margin-top: -80px; }
+      width: 95%;
+      margin: 0px auto; }
   .welcome p {
-    position: absolute;
-    top: 490px;
-    right: 8%;
-    width: 40%;
-    max-width: 460px; }
+    position: relative;
+    float: right;
+    margin-top: -350px;
+    width: 490px;
+    text-align: left; }
+    @media screen and (max-width: 1440px) {
+      .welcome p {
+        margin-top: -350px; } }
+    @media screen and (max-width: 1180px) {
+      .welcome p {
+        width: 450px;
+        margin-top: -300px; } }
+    @media screen and (max-width: 1024px) {
+      .welcome p {
+        width: 390px;
+        margin-top: -270px; } }
+    @media screen and (max-width: 880px) {
+      .welcome p {
+        width: 415px;
+        margin-top: -130px; } }
+    @media screen and (max-width: 768px) {
+      .welcome p {
+        width: 100%;
+        margin-top: 0px; } }
 
 .business-cards {
   position: relative;
@@ -174,9 +326,13 @@ p {
     text-transform: uppercase;
     color: white;
     font-weight: bold;
+    line-height: .7;
     bottom: 25px;
     left: 12%;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.45); }
+    @media screen and (max-width: 768px) {
+      .business-cards p {
+        bottom: 8px; } }
 
 .coasters {
   position: relative;
@@ -186,9 +342,9 @@ p {
     width: 1170px;
     margin: 0 auto; }
   .coasters p {
-    position: absolute;
-    left: 10%;
-    bottom: 5%;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
     text-transform: uppercase; }
 
 .web {
@@ -209,6 +365,9 @@ p {
       display: inline-block;
       width: 65%;
       margin: 0 2% 0 0; }
+      @media screen and (max-width: 768px) {
+        .web img.portal {
+          width: 55%; } }
   .web p {
     position: relative;
     display: inline-block;
@@ -221,28 +380,14 @@ p {
 
 .images {
   position: relative;
-  max-width: 1170px;
   width: 90%;
-  margin: 0 auto;
-  height: 1020px;
-  background: url(../../images/fiskateers/girls-in-hats.jpg) no-repeat center top;
-  background-size: 1170px auto; }
-  .images .one {
-    top: 36.6%;
-    left: -8%; }
-  .images .two {
-    top: 51%;
-    left: 19%; }
-  .images .three {
-    right: -2.3%;
-    top: 45.7%; }
-  .images .flowers {
-    position: absolute;
-    width: 20%;
-    max-width: 263px;
-    top: 62%;
-    left: 48%;
-    z-index: -1; }
+  margin: 0 auto; }
+  .images .content {
+    width: 100%;
+    max-width: 1356px; }
+    .images .content img {
+      width: 100%;
+      max-width: 100%; }
 
 .sign-off {
   clear: both;
@@ -301,6 +446,13 @@ h3 {
   text-transform: uppercase;
   color: #333333;
   padding-bottom: 25px; }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.7em; } }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.4em;
+      padding-bottom: 15px; } }
 
 .white {
   color: #fff; }

@@ -13,13 +13,14 @@
 section {
   width: 100%;
   margin: 0;
-  // background: #FAFAFA url("../images/bg.gif") repeat;
   padding: 0;
   text-align: center;
   @include border-box;
 
   &.big-image {
   	margin: 0 auto 0 auto;
+
+  	&.images img.polaroid { position: relative; }
   	img {
   		max-width: 90%;
 
@@ -34,9 +35,13 @@ section {
 
   &.van {
   	img {
-  		width: 100%;
+  		width: 75%;
   		max-width: 892px;
   		margin: 0 auto -205px auto;
+
+  		@media screen and (max-width: 880px) { margin: 0 auto -175px auto; }
+  		@media screen and (max-width: 480px) { margin: 0 auto -125px auto; }
+  		@media screen and (max-width: 320px) { margin: 0 auto -75px auto; }
   	}
   }
 }
@@ -74,10 +79,17 @@ p {
 	}
 	text-align: left;
 
+	@media screen and (max-width: 768px) {
+		font-size: 15px;
+		line-height: 1.4;
+	}
+
 	&.caps {
 		width: 1000px;
 		margin: 0 auto;
 		text-transform: uppercase;
+
+		@media screen and (max-width: 880px) { font-size: .75em; line-height: 1; }
 	}
 }
 
@@ -92,17 +104,38 @@ p {
 	background-size: cover;
 	background-position: center 100%;
 
-	@media screen and (max-width: 1180px) {
-		height: 595px;
-	}
+	@media screen and (max-width: 1180px) { height: 595px; }
+	@media screen and (max-width: 1024px) { height: 535px; }
+	@media screen and (max-width: 880px) { height: 465px; }
+	@media screen and (max-width: 768px) { height: 415px; }
+	@media screen and (max-width: 720px) { height: 325px; }
+	// @media screen and (max-width: 480px) { height: 200px; }
+	// @media screen and (max-width: 320px) { height: 180px; }
 }
 
 .backdrop {
 	@extend .full-width;
 	margin: 60px auto 0 auto;
 
-	img { float: left; margin-top: -54px; }
-	p { max-width: 570px; margin-left: 287px; }
+	img {
+		float: left;
+		margin-top: -54px;
+		@media screen and (max-width: 768px) {
+			float: none;
+			margin: 0;
+			width: 80%;
+			max-width: 155px;
+		}
+	}
+	p {
+		max-width: 570px;
+		margin-left: 287px;
+		@media screen and (max-width: 768px) {
+			width: 90%;
+			max-width: 90%;
+			margin: 0 auto;
+		}
+	}
 }
 
 .purpose {
@@ -116,11 +149,19 @@ p {
 	background-size: cover;
 	@include border-box;
 
+	@media screen and (max-width: 1024px) {
+		height: auto;
+	}
+
 	.content-wrapper {
 		position: relative;
 		max-width: 1287px;
 		width: 90%;
 		margin: 0 auto;
+
+		@media screen and (max-width: 1024px) {
+			padding-bottom: 5%;
+		}
 	}
 
 	ul {
@@ -133,21 +174,61 @@ p {
 			weight: bold;
 		}
 
-		@media screen and (max-width: 1440px) {
-			width: 620px;
-			padding-left: 30px;
+		@media screen and (max-width: 1180px) {
+			font-size: 21px;
+		}
+		@media screen and (max-width: 1180px) {
+			// font-size: 18px;
+		}
+		@media screen and (max-width: 1024px) {
+			max-width: 100%;
+			font-size: 21px;
+		}
+
+		@media screen and (max-width: 1024px) {
+			font-size: 18px;
+		}
+
+		@media screen and (max-width: 480px) {
+			font-size: 15px;
+			line-height: 1.4;
 		}
 	}
 }
 
 .purpose, .success {
 	h3 { text-align: center; }
+
 	li {
 		position: relative;
 		display: block;
 		margin-bottom: 40px;
 
-		span { position: absolute; opacity: .5; font-size: 1.5em; top: -2px; left: -40px; }
+		@media screen and (max-width: 1440px) {
+			margin-bottom: 17px;
+		}
+
+		@media screen and (max-width: 1180px) {
+			margin-bottom: 12px;
+		}
+
+		@media screen and (max-width: 1024px) {
+			margin-bottom: 8px;
+		}
+
+		span {
+			position: absolute;
+			opacity: .5;
+			font-size: 1.5em;
+			top: -2px;
+			left: -40px;
+
+			@media screen and (max-width: 768px) {
+				font-size: 1.2em;
+				top: 2px;
+				left: -25px;
+			}
+		}
 	}
 }
 
@@ -158,18 +239,27 @@ p {
 	img {
 		position: relative;
 		top: -68px;
+		max-width: 559px;
+		width: 100%;
+
+		@media screen and (max-width: 768px) {
+			top: -30px;
+		}
 	}
 }
 
 .success {
 	clear: both;
-	height: 650px;
 	padding-top: 145px;
 	background: url(../../images/fiskateers/orange-bg.jpg) no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	@include border-box;
+
+	@media screen and (max-width: 580px) { padding-top: 165px; }
+	@media screen and (max-width: 480px) { padding-top: 110px; }
+	@media screen and (max-width: 320px) { padding-top: 80px; }
 
 	.content {
 		max-width: 1090px;
@@ -185,27 +275,80 @@ p {
 		&:nth-child(even) { margin-right: 9%; padding-left: 30px; }
 
 		@media screen and (max-width: 1440px) {
+			width: 43%;
+			&:nth-child(even) { margin-right: 7%; }
+		}
+
+		@media screen and (max-width: 768px) {
+			font-size: 15px;
+			line-height: 1.4;
+
+			&:last-child { padding-bottom: 30px; }
+		}
+
+		@media screen and (max-width: 580px) {
+			display: block;
+			width: 90%;
+			max-width: 90%;
+			margin: 0 auto;
+			&:nth-child(even) { margin-right: auto; padding-left: 0; }
+		}
+
+	}
+
+	li {
+		margin-bottom: 25px;
+		@media screen and (max-width: 580px) {
+			margin-bottom: 15px;
 		}
 	}
-	li { margin-bottom: 25px; }
 }
 
 .welcome {
-	position: relative;
-	margin: 60px 0 0 0;
+	margin: 60px auto;
+
+	@media screen and (max-width: 768px) {
+		margin: 30px auto;
+	}
+
+	.content {
+		position: relative;
+		max-width: 1440px;
+		width: auto;
+		text-align: center;
+
+		@media screen and (max-width: 1440px) { max-width: 1180px; }
+		@media screen and (max-width: 1180px) { max-width: 1024px; }
+		@media screen and (max-width: 1024px) { max-width: 880px; }
+		@media screen and (max-width: 880px) { max-width: 768px; }
+		@media screen and (max-width: 768px) { max-width: 90%; width: 90%; margin: 0 auto; }
+	}
 
 	img {
-		width: 100%;
-		max-width: 1550px;
+		width: 1550px;
 		margin: 0 auto;
-		&.polaroids { width: 90%; max-width: 1114px; margin-top: -80px; }
+
+		@media screen and (max-width: 1440px) {
+			width: 100%;
+		}
+
+		&.polaroids {
+			width: 95%;
+			margin: 0px auto;
+		}
 	}
 	p {
-		position: absolute;
-		top: 490px;
-		right: 8%;
-		width: 40%;
-		max-width: 460px;
+		position: relative;
+		float: right;
+		margin-top: -350px;
+		width: 490px;
+		text-align: left;
+
+		@media screen and (max-width: 1440px) { margin-top: -350px; }
+		@media screen and (max-width: 1180px) { width: 450px; margin-top: -300px; }
+		@media screen and (max-width: 1024px) { width: 390px; margin-top: -270px; }
+		@media screen and (max-width: 880px) { width: 415px; margin-top: -130px; }
+		@media screen and (max-width: 768px) { width: 100%; margin-top: 0px; }
 	}
 }
 
@@ -214,14 +357,18 @@ p {
 	padding-bottom: 38%;
 	background: url(../../images/fiskateers/biz-cards.jpg) no-repeat center top, url(../../images/fiskateers/crosshatch-bg.jpg) top left repeat;
 	background-size: auto 100%, 40px auto;
+
 	p {
 		position: absolute;
 		text-transform: uppercase;
 		color: white;
 		font-weight: bold;
+		line-height: .7;
 		bottom: 25px;
 		left: 12%;
 		text-shadow: 0 0 5px rgba(0,0,0,.45);
+
+		@media screen and (max-width: 768px) { bottom: 8px; }
 	}
 }
 
@@ -234,7 +381,12 @@ p {
 		width: 1170px;
 		margin: 0 auto;
 	}
-	p { position: absolute; left: 10%; bottom: 5%; text-transform: uppercase; }
+	p {
+		width: 90%;
+		max-width: 1100px;
+		margin: 0 auto;
+		text-transform: uppercase;
+	}
 }
 
 .web {
@@ -255,6 +407,8 @@ p {
 			display: inline-block; 	
 			width: 65%;
 			margin: 0 2% 0 0;
+
+			@media screen and (max-width: 768px) { width: 55%; }
 		}
 	}
 
@@ -274,35 +428,17 @@ p {
 
 .images {
 	position: relative;
-	max-width: 1170px;
 	width: 90%;
 	margin: 0 auto;
-	height: 1020px;
-	background: url(../../images/fiskateers/girls-in-hats.jpg) no-repeat center top;
-	background-size: 1170px auto;
 
-	.one {
-		top: 36.6%;
-		left: -8%;
-	}
+	.content {
+		width: 100%;
+		max-width: 1356px;
 
-	.two {
-		top: 51%;
-		left: 19%;
-	}
-
-	.three {
-		right: -2.3%;
-		top: 45.7%;
-	}
-
-	.flowers {
-		position: absolute;
-		width: 20%;
-		max-width: 263px;
-		top: 62%;
-		left: 48%;
-		z-index: -1;
+		img {
+			width: 100%;
+			max-width: 100%;
+		}
 	}
 }
 
@@ -366,20 +502,34 @@ h1 {
 	margin: 0;
 	padding: 0;
 }
+
 h2 { font-size: 2.2em }
+
 h3 {
 	font-size: 2em;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #333333;
 	padding-bottom: 25px;
+
+	@media screen and (max-width: 768px) {
+		font-size: 1.7em;
+	}
+
+	@media screen and (max-width: 768px) {
+		font-size: 1.4em;
+		padding-bottom: 15px;
+	}
 }
+
 .white { color:#fff; }
+
 h4 {
 	margin: 1.15% 0;
 	font-size: 1.3em;
 	font-weight: 500;
 }
+
 h5 {
 	margin: 0;
 	padding: 0;
