@@ -105,7 +105,7 @@ input[type=submit]:hover{cursor:pointer;}
 	z-index:110;
 }
 .header-holder{
-	margin:0 40px;
+	margin:0 auto;
 	max-width:1170px;
 	padding:17px 0 15px;
 	position:relative;
@@ -1947,6 +1947,7 @@ p.editor-note a{
 
 }
 @media only screen and (max-width:1030px){
+	.header-holder{margin:0 40px;}
 	.about-panel,.block-reviews{padding:0 10px;}
 	.about-panel h2{font-size:34px;}
 	.block-author{padding:89px 10px 0;}
@@ -2106,6 +2107,7 @@ p.editor-note a{
 	}
 }
 @media only screen and (max-width:870px){
+
 	.books-list li{
 		margin:0 49px 0 48px;
 		width:249px;
@@ -2121,11 +2123,18 @@ p.editor-note a{
 	}
 }
 
-@media only screen and (max-width:808px){
+@media only screen and (max-width:810px){
 	#nav ul{
-	/* font-size: 16px;  *//* This is for the single line menu #SLM */
-	font-weight: 400;
+		/* font-size: 16px;  *//* This is for the single line menu #SLM */
+		font-weight: 400;
+		font-size: 16px;
+	}
 }
+
+@media only screen and (max-width:732px){
+	#nav ul{
+		font-size: 15px;
+	}
 }
 
 @media only screen and (max-width:794px){
