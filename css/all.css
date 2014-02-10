@@ -756,6 +756,9 @@ p.editor-note a{
 	overflow:hidden;
 	background:url(../images/ico-socail.png) no-repeat;
 }
+.social-networks li a:hover {
+	opacity: .8;
+}
 .social-networks li.instagram a{background-position:-38px 0;}
 .social-networks li.facebook a{background-position:-77px 0;}
 .social-networks li.rss a{background-position:-115px 0;}
