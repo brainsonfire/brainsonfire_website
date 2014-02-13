@@ -143,10 +143,6 @@
 	text-align:center;
 	text-transform:uppercase;
 }
-.people-holder h2 {
-	margin: 0 0 37px;
-	font: bold 38px/41px Tahoma, Geneva, sans-serif;
-}
 .people-holder ul {
 	margin: 0 -11px 0 -16px;
 	padding: 0;
@@ -161,11 +157,13 @@
 }
 .people-holder ul a {color:#666;}
 .people-holder ul a:hover {text-decoration:none;}
-.people-holder h3 {
+
+.people-holder h2 {
 	margin: 0;
 	padding: 10px 0 0;
-	font:11px/14px Tahoma, Geneva, sans-serif;
+	font:11px/14px;
 }
+
 .people-holder ul img {
 	width:101px;
 	display:block;
@@ -184,8 +182,13 @@
 	max-width: 976px;
 	margin:0 auto;
 	padding:63px 10px 69px;
-	font-size:19px;
+	/*
+font-size:19px;
 	line-height:30px;
+*/
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 32px;
 	color:#fff;
 }
 .mega-holder .about p {margin:0;}
@@ -220,7 +223,8 @@
 	padding-left:40px;
 }
 .paging .prev:hover,
-.paging .next:hover {text-decoration:none;}
+.paging .next:hover,
+.paging .back:hover {text-decoration:none;}
 .paging .next {
 	float:right;
 	margin-left: 40px;
@@ -263,6 +267,12 @@
 	top:0;
 	background-position:-72px 0;
 }
+.paging .back:hover:after {
+	width:24px;
+	height:24px;
+	top:0;
+	background-position:-72px -49px;
+}
 .people-post {
 	max-width:1170px;
 	margin:0 auto;
@@ -271,17 +281,16 @@
 	line-height:30px;
 }
 .people-post .heading {
-	font:bold 31px/34px Georgia, "Times New Roman", Times, serif;
 	text-align:center;
-	color:#939f57;
 	padding-bottom: 55px;
 }
-.people-post .heading h2 {
-	margin: 0 0 10px;
-	font: bold 38px/41px Tahoma, Geneva, sans-serif;
-	text-transform:uppercase;
+
+.people-post .job-title {
+	font:italic bold 31px/34px Georgia, "Times New Roman", Times, serif;
+	color:#939f57;	
+	line-height: 36px;
 }
-.people-post .heading h2 a {color:#333;}
+
 .people-post .cols-holder {
 	width: 100%;
 	display:table;
@@ -331,6 +340,12 @@
 	padding-left:43px;
 	color:#333;
 }
+
+.people-post .meta .social a:hover {
+	opacity: .8;
+	text-decoration: none;
+}
+
 .people-post .meta .social a:after {
 	width:34px;
 	height:33px;
@@ -365,13 +380,7 @@
 	padding: 104px 13px 123px 9px;
 	text-align:center;
 }
-.more-posts h3 {
-	margin: 0 0 53px;
-	font:bold 38px/41px Tahoma, Geneva, sans-serif;
-	color:#fff;
-	text-transform:uppercase;
-}
-.more-posts h3 a {color:#fff;}
+
 .more-posts ul {
 	display:table;
 	margin:0 auto;
@@ -393,6 +402,10 @@
 	font:18px/21px Tahoma, Geneva, sans-serif;
 }
 .more-posts ul a {color:#fff;}
+.more-posts ul a:hover {
+	opacity:.8;
+	text-decoration: none;
+	}
 .more-posts .view-all {
 	padding:25px 42px 23px 45px;
 	font:italic 28px/31px Georgia, "Times New Roman", Times, serif;
@@ -400,6 +413,12 @@
 	color:#fff;
 	background:#eb7e1f;
 }
+
+.more-posts .view-all:hover {
+	background:#d17327;
+	text-decoration: none;
+}
+
 @media only screen and (max-width: 1200px) {
 	.mega-holder {background-position:-2px 9px;}
 	.mega-banner {
@@ -475,10 +494,7 @@
 	.mega-banner {display:none;}
 	.mega-holder {background-position: 2px 4px;}
 	.people-holder {padding:0 0 41px;}
-	.people-holder h2 {
-		font-size:33px;
-		line-height:36px;
-		font-weight: normal;
+	.people-holder h1 {
 		margin-bottom: 64px;
 		padding: 179px 10px 105px;
 		color:#fff;
@@ -498,7 +514,8 @@
 		border-radius:84px;
 		-webkit-border-radius:84px;
 	}
-	.people-holder h3 {
+
+	.people-holder h2 {
 		margin: 0;
 		padding: 17px 0 0;
 		font-size:14px;
@@ -617,16 +634,18 @@
 		height:147px;
 		margin:0 0 56px;
 	}
-	.banner-block h2 {
+	.banner-block h1 {
 		font-size:32px;
 		line-height:33px;
 		margin:0 0 10px;
 	}
-	.banner-block h3 {
+	.banner-block h2 {
 		font-size:15px;
 		line-height:17px;
 		margin:0 0 7px;
 	}
+	
+
 	.banner-block .date {
 		font-size:16px;
 		line-height:18px;
@@ -646,7 +665,7 @@
 	}
 	.mega-holder {background-position: 1px 0;}
 	.people-holder {padding: 0 0 29px;}
-	.people-holder h2 {
+	.people-holder h1 {
 		margin-bottom: 59px;
 		padding: 180px 10px 104px;
 	}
@@ -791,7 +810,7 @@
 @media only screen and (max-width: 475px) {
 	.mega-holder {background-position:3px 1px;}
 	.people-holder {padding-bottom:30px;}
-	.people-holder h2 {
+	.people-holder h1 {
 		margin-bottom: 43px;
 		padding: 154px 20px 81px;
 		line-height: 40px;
@@ -804,7 +823,7 @@
 		border-radius:68px;
 		-webkit-border-radius:68px;
 	}
-	.people-holder h3 {padding-top:19px;}
+	.people-holder h2 {padding-top:19px;}
 	.mega-holder .about {background-position: -495px -106px;}
 	.mega-holder .about .holder {
 		max-width:none;
