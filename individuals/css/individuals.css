@@ -99,19 +99,22 @@
 	height:714px;
 	position:relative;
 	overflow: hidden;
-	background:url(../images/img-wall.jpg) repeat-x 50% 0;
+/***********************************************************	
+	DAY TIME LOBBY IMAGE
+***********************************************************/	
+	background:url(../images/lobby/Lobby-Day.jpg) #220409 no-repeat 50% 0;
+	/* background:url(../images/lobby/Lobby-Day.jpg) repeat-x 50% 0; */
+/***********************************************************	
+	END DAY TIME LOBBY IMAGE
+***********************************************************/
 }
-.mega-banner.night {background-image:url(../images/img-wall-night.jpg);}
-.mega-banner .window {
-	width: 100%;
-	height: 100%;
-	position:absolute;
-	top:0;
-	left:0;
-	background:url(../images/img-window.png) repeat-x 50% 0;
-	z-index:1;
-}
-.mega-banner.night .window {display:none;}
+/***********************************************************	
+	NIGHT TIME LOBBY IMAGE
+***********************************************************/
+.mega-banner.night {background-image:url(../images/lobby/Lobby-Night.jpg);}
+/***********************************************************	
+	END NIGHT TIME LOBBY IMAGE
+***********************************************************/
 .mega-banner .photo-container {
 	width:1170px;
 	height: 609px;
@@ -131,6 +134,221 @@
 	left: -61px;
 	display:block;
 }
+
+/*********************************************************** 
+
+FLOATING PEOPLE
+
+***********************************************************/
+
+#photo01 {
+	position:absolute;
+	bottom:0;
+	right:504px;
+}
+
+#night-photo01 {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+	display:block;
+}
+
+#cordell {
+	position:absolute;
+	bottom:-187px;
+	right:0px;
+}
+
+#night-cordell {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+
+#robbin {
+	position:absolute;
+	bottom:-58px;
+	right:349px;
+}
+
+#night-robbin {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#ramsey {
+	position:absolute;
+	bottom:-105px;
+	right:192px;
+}
+
+#night-ramsey {
+ 	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#geno {
+	position:absolute;
+	bottom:-28px;
+	right:949px;
+}
+
+#night-geno {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#john {
+	position:absolute;
+	bottom:-91px;
+	right:139px;
+}
+
+#night-john {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#megan {
+	position:absolute;
+	bottom:200px;
+	right:887px;
+}
+
+#night-megan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#alison {
+	position:absolute;
+	bottom:-105px;
+	right:579px;
+}
+
+#night-alison {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#amy {
+	position:absolute;
+	bottom:261px;
+	right:817px;
+}
+
+#night-amy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#brandy {
+	position:absolute;
+	bottom:-11px;
+	right:445px;
+}
+
+#night-brandy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#cathy {
+	position:absolute;
+	bottom:-35px;
+	right:393px;
+}
+
+#night-cathy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#emily {
+	position:absolute;
+	bottom:282px;
+	right:565px;
+}
+
+#night-emily {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#jack {
+	position:absolute;
+	bottom:80px;
+	right:300px;
+}
+
+#night-jack {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#marysusan {
+	position:absolute;
+	bottom:20px;
+	right:569px;
+}
+
+#night-marysusan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#moe {
+	position:absolute;
+	bottom:-108px;
+	right:164px;
+}
+
+#night-moe {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#nathan {
+	position:absolute;
+	bottom:-171px;
+	right:678px;
+}
+
+#night-nathan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#sean {
+	position:absolute;
+	bottom:74px;
+	right:31px;
+}
+
+#night-sean {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#shannon {
+	position:absolute;
+	bottom:280px;
+	right:493px;
+}
+
+#night-shannon {
+	position:absolute;
+	bottom: 280px;
+	left: -61px;
+}
+
+/*********************************************************** 
+
+END FLOATING PEOPLE
+
+***********************************************************/
+
 .mega-banner .photo-container img {
 	max-width:100%;
 	display:none;
@@ -146,7 +364,7 @@
 .people-holder ul {
 	margin: 0 -11px 0 -16px;
 	padding: 0;
-	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	/* font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; */
 }
 .people-holder ul li {
 	padding:0 6px 35px;
@@ -182,10 +400,6 @@
 	max-width: 976px;
 	margin:0 auto;
 	padding:63px 10px 69px;
-	/*
-font-size:19px;
-	line-height:30px;
-*/
 	font-weight: normal;
 	font-size: 17px;
 	line-height: 32px;
@@ -423,10 +637,23 @@ font-size:19px;
 	.mega-holder {background-position:-2px 9px;}
 	.mega-banner {
 		height:555px;
-		background-image:url(../images/img-wall02.jpg);
+/***********************************************************	
+	DAY TIME LOBBY IMAGE
+***********************************************************/	
+		background-image:url(../images/lobby/Lobby-Day_1200x555.jpg);
+/***********************************************************	
+	END DAY TIME LOBBY IMAGE
+***********************************************************/
 	}
-	.mega-banner.night {background-image:url(../images/img-wall-night02.jpg)}
-	.mega-banner .window {background-image:url(../images/img-window02.png);}
+/***********************************************************	
+	NIGHT TIME LOBBY IMAGE
+***********************************************************/	
+	.mega-banner.night {background-image:url(../images/lobby/Lobby-Night_1200x555.jpg);
+	/* .mega-banner .window {background-image:url(../images/img-window02.png);} */
+/***********************************************************	
+	END NIGHT TIME LOBBY IMAGE
+***********************************************************/	
+	}
 	.mega-banner .photo-container {
 		width:940px;
 		height: 474px;
@@ -434,9 +661,228 @@ font-size:19px;
 		position:relative;
 	}
 	.mega-banner .photo-container .holder {
-		width: 118px;
+		/* width: 35%; */
 		right:0;
 	}
+	
+/*********************************************************** 
+
+SMALLERFLOATING PEOPLE
+
+***********************************************************/
+
+#photo01 {
+	position:absolute;
+	bottom:0;
+	right:504px;
+}
+
+#night-photo01 {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+	display:block;
+}
+
+#cordell {
+	position:absolute;
+	width:399px;
+	bottom:-216px;
+	right:0px;
+}
+
+#night-cordell {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+
+#robbin {
+	position:absolute;
+	bottom:-58px;
+	right:349px;
+}
+
+#night-robbin {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#ramsey {
+	position:absolute;
+	bottom:-105px;
+	right:192px;
+}
+
+#night-ramsey {
+ 	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#geno {
+	position:absolute;
+	bottom:-19px;
+	right:742px;
+	width:205px;
+}
+
+#night-geno {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#john {
+	position:absolute;
+	bottom:-91px;
+	right:139px;
+}
+
+#night-john {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#megan {
+	position:absolute;
+	bottom:200px;
+	right:887px;
+}
+
+#night-megan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#alison {
+	position:absolute;
+	bottom:-105px;
+	right:579px;
+}
+
+#night-alison {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#amy {
+	position:absolute;
+	bottom:261px;
+	right:817px;
+}
+
+#night-amy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#brandy {
+	position:absolute;
+	bottom:-11px;
+	right:445px;
+}
+
+#night-brandy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#cathy {
+	position:absolute;
+	bottom:-35px;
+	right:393px;
+}
+
+#night-cathy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#emily {
+	position:absolute;
+	bottom:282px;
+	right:565px;
+}
+
+#night-emily {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#jack {
+	position:absolute;
+	bottom:80px;
+	right:300px;
+}
+
+#night-jack {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#marysusan {
+	position:absolute;
+	bottom:20px;
+	right:569px;
+}
+
+#night-marysusan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#moe {
+	position:absolute;
+	bottom:-108px;
+	right:164px;
+}
+
+#night-moe {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#nathan {
+	position:absolute;
+	bottom:-171px;
+	right:678px;
+}
+
+#night-nathan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#sean {
+	position:absolute;
+	bottom:74px;
+	right:31px;
+}
+
+#night-sean {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#shannon {
+	position:absolute;
+	bottom:228px;
+	right:376px;
+	width:199px;
+}
+
+#night-shannon {
+	position:absolute;
+	bottom: 280px;
+	left: -61px;
+}
+
+/*********************************************************** 
+
+END SMALLER FLOATING PEOPLE
+
+***********************************************************/
+	
+	
 	.mega-banner.night .photo-container .holder02 {
 		bottom: -24px;
 		left: -44px;
@@ -538,9 +984,22 @@ font-size:19px;
 	.paging+.mega-holder .mega-banner {
 		display:block;
 		height:452px;
-		background-image:url(../images/img-wall03.jpg);
+/***********************************************************	
+	DAY TIME LOBBY IMAGE
+***********************************************************/		
+		background-image:url(../images/lobby/Lobby-Day_940x447.jpg);
+/***********************************************************	
+	END DAY TIME LOBBY IMAGE
+***********************************************************/		
 	}
-	.paging+.mega-holder .mega-banner.night {background-image:url(../images/img-wall-night03.jpg);}
+/***********************************************************	
+	NIGHT TIME LOBBY IMAGE
+***********************************************************/	
+	.paging+.mega-holder .mega-banner.night {background-image:url(../images/lobby/Lobby-Night_940x447.jpg);
+/***********************************************************	
+	END NIGHT TIME LOBBY IMAGE
+***********************************************************/	
+	}
 	.mega-banner .photo-container {
 		width: 746px;
 		height: 392px;
@@ -551,7 +1010,7 @@ font-size:19px;
 		left: -30px;
 		width: 180px;
 	}
-	.mega-banner .window {background-image:url(../images/img-window03.png);}
+	/* .mega-banner .window {background-image:url(../images/img-window03.png);} */
 	.people-post .cols-holder,
 	.people-post .meta,
 	.people-post .cols {
