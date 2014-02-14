@@ -12,7 +12,7 @@ function initDayOrNight(){
 	var mega = jQuery('.mega-banner');
 
 	//check time
-	if(timeIndex >= 21 && timeIndex >=5) time = 'night';
+	if(timeIndex >= 24 && timeIndex >=5) time = 'night';
 	else time = 'day';
 	if (time == 'night') {
 		mega.addClass('night');

@@ -135,6 +135,8 @@
 	display:block;
 }
 
+.people-holder h1{display:none}
+
 /*********************************************************** 
 
 FLOATING PEOPLE
@@ -686,9 +688,9 @@ SMALLERFLOATING PEOPLE
 
 #cordell {
 	position:absolute;
-	width:399px;
-	bottom:-216px;
-	right:0px;
+	bottom:-182px;
+	right:-32px;
+	width:353px;
 }
 
 #night-cordell {
@@ -699,8 +701,9 @@ SMALLERFLOATING PEOPLE
 
 #robbin {
 	position:absolute;
-	bottom:-58px;
-	right:349px;
+	bottom:-43px;
+	right:262px;
+	width:455px
 }
 
 #night-robbin {
@@ -711,13 +714,14 @@ SMALLERFLOATING PEOPLE
 #ramsey {
 	position:absolute;
 	bottom:-105px;
-	right:192px;
+	right:139px;
+	width:320px;
 }
 
 #night-ramsey {
  	position:absolute;
-	bottom: -32px;
-	left: -61px;
+	bottom: -105px;
+	left: 139px;
 }
 #geno {
 	position:absolute;
@@ -733,8 +737,9 @@ SMALLERFLOATING PEOPLE
 }
 #john {
 	position:absolute;
-	bottom:-91px;
-	right:139px;
+	bottom: -80px;
+	right: 105px;	
+	width: 241px;
 }
 
 #night-john {
@@ -744,8 +749,9 @@ SMALLERFLOATING PEOPLE
 }
 #megan {
 	position:absolute;
-	bottom:200px;
-	right:887px;
+	bottom: 164px;
+	right: 693px;
+	width: 244px;
 }
 
 #night-megan {
@@ -755,19 +761,22 @@ SMALLERFLOATING PEOPLE
 }
 #alison {
 	position:absolute;
-	bottom:-105px;
-	right:579px;
+	bottom: -83px;
+	right: 448px;
+	width: 298px;
 }
 
 #night-alison {
 	position:absolute;
-	bottom: -32px;
-	left: -61px;
+	bottom: -83px;
+	right: 448px;
+	width: 298px;
 }
 #amy {
 	position:absolute;
-	bottom:261px;
-	right:817px;
+	bottom: 211px;
+	right: 650px;
+	width: 180px;
 }
 
 #night-amy {
@@ -777,8 +786,9 @@ SMALLERFLOATING PEOPLE
 }
 #brandy {
 	position:absolute;
-	bottom:-11px;
-	right:445px;
+	bottom: -6px;
+	right: 342px;
+	width: 240px;
 }
 
 #night-brandy {
@@ -788,8 +798,9 @@ SMALLERFLOATING PEOPLE
 }
 #cathy {
 	position:absolute;
-	bottom:-35px;
-	right:393px;
+	bottom: -25px;
+	right: 299px;
+	width: 314px;
 }
 
 #night-cathy {
@@ -799,8 +810,9 @@ SMALLERFLOATING PEOPLE
 }
 #emily {
 	position:absolute;
-	bottom:282px;
-	right:565px;
+	bottom: 231px;
+	right: 437px;
+	width: 168px;
 }
 
 #night-emily {
@@ -810,8 +822,9 @@ SMALLERFLOATING PEOPLE
 }
 #jack {
 	position:absolute;
-	bottom:80px;
-	right:300px;
+	bottom: 68px;
+	right: 224px;
+	width: 182px;
 }
 
 #night-jack {
@@ -821,8 +834,9 @@ SMALLERFLOATING PEOPLE
 }
 #marysusan {
 	position:absolute;
-	bottom:20px;
-	right:569px;
+	bottom: 18px;
+	right: 439px;
+	width: 398px;
 }
 
 #night-marysusan {
@@ -832,8 +846,9 @@ SMALLERFLOATING PEOPLE
 }
 #moe {
 	position:absolute;
-	bottom:-108px;
-	right:164px;
+	bottom: -84px;
+	right: 124px;
+	width: 346px;
 }
 
 #night-moe {
@@ -843,8 +858,9 @@ SMALLERFLOATING PEOPLE
 }
 #nathan {
 	position:absolute;
-	bottom:-171px;
-	right:678px;
+	bottom: -175px;
+	right: 573px;
+	width: 292px;
 }
 
 #night-nathan {
@@ -854,14 +870,16 @@ SMALLERFLOATING PEOPLE
 }
 #sean {
 	position:absolute;
-	bottom:74px;
-	right:31px;
+	bottom: 61px;
+	right: 9px;
+	width: 194px;
 }
 
 #night-sean {
 	position:absolute;
-	bottom: -32px;
-	left: -61px;
+	bottom: 61px;
+	right: 9px;
+	width: 194px;
 }
 #shannon {
 	position:absolute;
@@ -941,6 +959,7 @@ END SMALLER FLOATING PEOPLE
 	.mega-holder {background-position: 2px 4px;}
 	.people-holder {padding:0 0 41px;}
 	.people-holder h1 {
+		display:block;
 		margin-bottom: 64px;
 		padding: 179px 10px 105px;
 		color:#fff;
@@ -1093,10 +1112,12 @@ END SMALLER FLOATING PEOPLE
 		height:147px;
 		margin:0 0 56px;
 	}
+	
 	.banner-block h1 {
 		font-size:32px;
 		line-height:33px;
 		margin:0 0 10px;
+		
 	}
 	.banner-block h2 {
 		font-size:15px;
