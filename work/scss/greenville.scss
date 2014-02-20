@@ -1,0 +1,801 @@
+@mixin border-box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+@mixin background-size($width, $height) {
+	-webkit-background-size: $width $height;
+	-moz-background-size: $width $height;
+	background-size: $width $height;
+}
+
+section {
+  width: 100%;
+  margin: 0;
+  background: #FAFAFA url("../images/bg.gif") repeat;
+  padding: 0;
+  text-align: center;
+  @include border-box;
+}
+
+.greenville {
+	.secondary-nav-top { position: absolute; }
+}
+
+.full-width {
+	max-width: 970px;
+	background: none;
+}
+
+.two-columns {
+	-moz-column-count: 2;
+  -moz-column-gap: 35px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 35px;
+}
+
+.content {
+	@extend .full-width;
+	width: 90%;
+	margin: 0 auto;
+	text-align: left;
+	color: white;
+
+	h3 { color: white; }
+}
+
+p {
+	color: #333333;
+	font: {
+		weight: 500;
+	}
+	text-align: left;
+
+	@media screen and (max-width: 480px) {
+		font-size: 15px;
+		line-height: 1.4;
+	}
+
+	&.caps {
+		width: 1000px;
+		margin: 0 auto;
+		text-transform: uppercase;
+
+		@media screen and (max-width: 880px) { font-size: .75em; line-height: 1; }
+	}
+}
+
+.gvl-hero {
+	position: relative;
+	margin-top: 78px;
+	padding: 0;
+	height: 725px;
+	background: url("../../images/greenville/gvl-hero.jpg") no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center 70%;
+
+	@media screen and (max-width: 1180px) { height: 595px; }
+	@media screen and (max-width: 1024px) { height: 425px; }
+	@media screen and (max-width: 768px) { height: 345px; }
+	@media screen and (max-width: 580px) { height: 250px; }
+	@media screen and (max-width: 480px) { height: 200px; }
+	@media screen and (max-width: 320px) { height: 180px; }
+}
+
+.backdrop {
+	@extend .full-width;
+	margin: 60px auto 0 auto;
+
+	@media screen and (max-width: 880px) {
+		margin: 30px auto 0 auto;
+	}
+
+	.content h3 {
+		color: #333;
+	}
+}
+
+.green {
+	position: absolute;
+	width: 100%;
+	top: 101px;
+	background: #c3d600;
+	height: 393px;
+	z-index: 0;
+
+	@media screen and (max-width: 1440px) {
+		top: 96px;
+		height: 395px;
+	}
+
+	@media screen and (max-width: 1180px) {
+		top: 10%;
+		height: 350px;
+	}
+
+	@media screen and (max-width: 1024px) {
+		display: none;
+	}
+}
+
+.purpose {
+	position: relative;
+	margin: 50px auto;
+	height: 720px;
+	background: none;
+	overflow: visible;
+
+	@media screen and (max-width: 1440px) {
+		margin-bottom: 0px;
+		height: 672px;
+	}
+
+	@media screen and (max-width: 1180px) { height: 580px; }
+
+	@media screen and (max-width: 1024px) {
+		height: auto;
+		margin: 50px auto;
+		background: #c3d600;
+	}
+
+	.content {
+		max-width: 100%;
+		padding-left: 90px;
+		@include border-box;
+
+		@media screen and (max-width: 1440px) { padding-left: 100px; }
+		@media screen and (max-width: 1180px) { padding-left: 60px; }
+		@media screen and (max-width: 1024px) { padding-left: 0px; }
+	}
+
+	.content-wrapper {
+		position: relative;
+		width: 1287px;
+		margin: 0 auto;
+		padding-top: 85px;
+		height: 100%;
+		background: url(../../images/greenville/us-map.png) no-repeat center 5px;
+		background-size: 83% auto;
+		z-index: 1;
+		@include border-box;
+
+		@media screen and (max-width: 1180px) {
+			width: 1024px;
+			background-size: 90% auto;
+			padding-top: 45px;
+		}
+
+		@media screen and (max-width: 1024px) {
+			width: 880px;
+			top: 30px;
+			left: 50%;
+			margin-left: -440px;
+			padding-top: 400px;
+			padding-bottom: 50px;
+		}
+
+		@media screen and (max-width: 880px) {
+			width: 768px;
+			margin-left: -384px;
+		}
+
+		@media screen and (max-width: 768px) {
+			width: 580px;
+			margin-left: -290px;
+			padding-top: 270px;
+		}
+
+		@media screen and (max-width: 580px) {
+			width: 480px;
+			margin-left: -240px;
+			padding-top: 230px;
+		}
+
+		@media screen and (max-width: 480px) {
+			width: 320px;
+			margin-left: -160px;
+			padding-top: 105px;
+		}
+	}
+
+	ul {
+		max-width: 670px;
+		width: 590px;
+		font: {
+			family: Georgia, serif;
+			size: 24px;
+			style: italic;
+			weight: bold;
+		}
+
+		@media screen and (max-width: 1440px) { width: 600px; }
+		@media screen and (max-width: 1180px) {
+			width: 520px;
+			font-size: 21px;
+		}
+		@media screen and (max-width: 1180px) {
+			width: 450px;
+			font-size: 18px;
+		}
+		@media screen and (max-width: 1024px) {
+			width: 100%;
+			max-width: 100%;
+			font-size: 21px;
+		}
+
+		@media screen and (max-width: 1024px) {
+			font-size: 18px;
+		}
+
+		@media screen and (max-width: 480px) {
+			font-size: 15px;
+			line-height: 1.4;
+		}
+	}
+
+	li {
+		display: block;
+		margin-bottom: 20px;
+
+		&:nth-child(2n) {
+			padding-left: 30px;
+		}
+
+		&:nth-child(3n) {
+			padding-left: 140px;
+		}
+
+		@media screen and (max-width: 1440px) {
+			margin-bottom: 17px;
+
+			&:nth-child(2n) {
+				padding-left: 30px;
+				@media screen and (max-width: 1180px) {
+					padding-left: 10px;
+				}
+			}
+			&:nth-child(3n) {
+				padding-left: 130px;
+				@media screen and (max-width: 1180px) {
+					padding-left: 110px;
+				}
+			}
+		}
+
+		@media screen and (max-width: 1180px) {
+			margin-bottom: 12px;
+		}
+
+		@media screen and (max-width: 1024px) {
+			margin-bottom: 8px;
+
+			&:nth-child(2n) { padding-left: 0px; }
+			&:nth-child(3n) { padding-left: 0px; }
+		}
+	}
+}
+
+.action {
+	margin: -131px auto 0px auto;
+	padding: 60px 0;
+	background: #b7b7b7;
+	@include border-box;
+
+	@media screen and (max-width: 1024px) {
+		margin: 50px auto;
+	}
+
+	p {
+		margin-bottom: 40px;
+		color: white;
+		@media screen and (max-width: 880px) {
+			margin-bottom: 20px;
+		}
+	}
+
+	.column {
+		float: none;
+		display: inline-block;
+		text-align: center;
+		font-size: 100%;
+		vertical-align: top;
+
+		@media screen and (max-width: 1024px) {
+			margin: 0 0px 0px 0;
+		}
+
+		@media screen and (max-width: 768px) {
+			display: block;
+			width: 100%;
+		}
+
+		p { text-align: left; }
+
+		&:first-child {
+			margin-right: 25px;
+
+			@media screen and (max-width: 1024px) {
+				margin: 0 15px 0px 0;
+			}
+		}
+	}
+
+	img {
+		max-width: 560px;
+		width: 100%;
+		margin-top: -20px;
+		margin-bottom: -140px;
+
+		@media screen and (max-width: 768px) {
+			width: 80%;
+			margin: 0 auto -140px auto;
+		}
+	}
+}
+
+.photos {
+	max-width: 1170px;
+	margin: 50px auto 0 auto;
+	text-align: center;
+	img {
+		max-width: 1170px;
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+.success {
+	margin-top: 130px;
+	padding-top: 100px;
+	background: #3f3a60;
+	border-top: 137px solid #554C85;
+	color: white;
+	text-align: left;
+	
+	@media screen and (max-width: 1180px) { margin-top: 50px; padding-top: 55px; border-top-width: 100px; }
+	@media screen and (max-width: 768px) {
+		border-top-width: 60px;
+	}
+	@media screen and (max-width: 580px) { margin-top: 40px; padding-top: 40px; }
+
+	h3 {
+		color: white;
+		text-align: left;
+
+		@media screen and (max-width: 768px) {
+			padding-left: 5%;
+		}
+	}
+
+	img {
+		max-width: 802px;
+		width: 62%;
+		position: absolute;
+		left: -10%;
+		top: -58%;
+
+		@media screen and (max-width: 1440px) { left: -7%; }
+		@media screen and (max-width: 1180px) {
+			top: -225px;
+			left: 0%;
+		}
+
+		@media screen and (max-width: 1180px) {
+			top: -225px;
+			left: 0%;
+		}
+
+		@media screen and (max-width: 980px) {
+			top: -188px;
+		}
+
+		@media screen and (max-width: 768px) {
+			top: -155px;
+			left: 5%;
+		}
+
+		@media screen and (max-width: 580px) {
+			top: -109px;
+			width: 300px;
+		}
+	}
+
+	.content {
+		position: relative;
+		width: 1070px;
+		max-width: 90%;
+		background: #3f3a60 url(../../images/greenville/hands.png) no-repeat 90% 15px;
+		background-size: 758px auto;
+
+		@media screen and (max-width: 768px) {
+			max-width: 100%;
+			text-align: center;
+			background-size: auto 100%;
+			background-position: 90% bottom;
+		}
+
+		@media screen and (max-width: 480px) {
+			background-size: auto 60%;
+		}
+	}
+
+	ul {
+		display: inline-block;
+		max-width: 470px;
+		width: 45%;
+		margin: 0 120px auto 0;
+		vertical-align: top;
+		text-align: left;
+		&:nth-child(even) { margin-right: 0; }
+
+		@media screen and (max-width: 1440px) {
+			margin-right: 8%;
+		}
+
+		@media screen and (max-width: 768px) {
+			width: 90%;
+			max-width: 90%;
+			margin: 0 auto;
+
+			&:nth-child(2n) {
+				margin-bottom: 50px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			&:nth-child(2n) {
+				margin-bottom: 30px;
+			}
+		}
+
+	}
+
+	li {
+		width: 100%;
+		display: block;
+		margin-bottom: 40px;
+
+		@media screen and (max-width: 1440px) {
+			margin-bottom: 17px;
+		}
+
+		@media screen and (max-width: 1180px) {
+			margin-bottom: 12px;
+
+			&:last-child {
+				margin-bottom: 53px;
+			}
+		}
+
+		@media screen and (max-width: 1024px) {
+			margin-bottom: 8px;
+		}
+
+		@media screen and (max-width: 768px) {
+			&:last-child {
+				margin-bottom: 8px;
+			}
+		}
+
+		@media screen and (max-width: 480px) {
+			font-size: 15px;
+			line-height: 1.4;
+		}
+	}
+}
+
+.social {
+	height: 590px;
+	margin: 60px auto 8px auto;
+	background: #B7B7B7 url(../../images/greenville/social-images.png) no-repeat center -5px;
+	@include background-size(996px, auto);
+
+	@media screen and (max-width: 996px) {
+		height: auto;
+		padding-bottom: 60%;
+		-moz-background-size: cover;
+		background-size: cover;
+	}
+
+	@media screen and (max-width: 1024px) {
+		+ p {
+			display: block;
+			width: auto;
+			margin-left: 5%;
+		}
+	}
+}
+
+.web {
+	position: relative;
+	margin: 60px auto 130px auto;
+
+	@media screen and (max-width: 880px) {
+		margin: 30px auto 40px auto;
+	}
+
+	p.caps {
+		width: 90%;
+		max-width: 725px;
+		-webkit-transform: translateY(-107px);
+		-moz-transform: translateY(-107px);
+		transform: translateY(-107px);
+
+		@media screen and (max-width: 880px) {
+			-webkit-transform: translateY(0px);
+			-moz-transform: translateY(0px);
+			transform: translateY(0px);		
+			text-align: center;	
+		}
+	}
+
+	img {
+		position: relative;
+		&.monitor { width: 90%; max-width: 725px; z-index: 1; }
+		&.mag-stack {
+			position: relative;
+			left: 19px;
+			float: left;
+			width: 538px;
+			margin: -20px 0px 0 -215px;
+
+			@media screen and (max-width: 880px) {
+				width: 450px;
+				margin: -20px 0 0 -65px;
+			}
+
+			@media screen and (max-width: 768px) { float: none; margin: 0 0px 0 -90px; width: 285px; }
+			@media screen and (max-width: 480px) { width: 180px; margin-left: -50px; }
+		}
+		&.lantern {
+			position: relative;
+			left: 19px;
+			float: right;
+			width: 220px;
+			margin: -250px -60px 0 0px;
+
+			@media screen and (max-width: 880px) {
+				width: 185px;
+				margin: -180px -40px 0 0px;
+			}
+
+			@media screen and (max-width: 768px) { float: none; margin: 0; width: 135px; }
+			@media screen and (max-width: 480px) { width: 100px; }
+		}
+	}
+
+	.content {
+		position: relative;
+		width: 100%;
+		padding-top: 45px;
+		margin: 0px auto 60px auto;
+		text-align: center;
+		@include border-box;
+
+		@media screen and (max-width: 768px) { padding-top: 0; }
+
+		p {
+			width: 100%;
+			max-width: 490px;
+			margin: 0 0 105px 345px;
+			text-align: left;
+
+			@media screen and (max-width: 880px) {
+				width: 40%;
+				margin: 0 0 55px 420px;
+			}
+
+			@media screen and (max-width: 768px) {
+				width: 90%;
+				margin: 0 auto;
+				max-width: 90%;
+			}
+		}
+	}
+}
+
+.numbers {
+	max-width: 1220px;
+	margin: 0 auto;
+	text-align: left;
+	.bar {
+		width: 970px;
+		margin: 0 auto;
+		color: #554c85;
+		background: #c3d600;
+		box-shadow: -900px 0 0 #c3d600, 900px 0 0 #c3d600;
+		@include border-box;
+
+		@media screen and (max-width: 1024px) {
+			width: 100%;
+			padding: 0 5%;
+		}
+
+		@media screen and (max-width: 880px) {
+			text-align: center;
+		}
+
+		h3 {
+			display: inline-block;
+			padding: 100px 0 20px 0;
+			color: #554c85;
+			font-weight: 700;
+
+			@media screen and (max-width: 1024px) {
+				display: block;
+				padding-bottom: 0;
+			}
+
+			@media screen and (max-width: 880px) {
+				padding-top: 50px;
+			}
+		}
+
+		small {
+			@media screen and (max-width: 1024px) {
+				display: block;
+				padding: 0 5% 0 0;
+				line-height: 1.2;
+			}
+		}
+	}
+
+	.slideshow {
+		.slide {
+			left: 50%;
+			margin-left: -515px;
+			padding: 0;
+			img {
+				max-width: 1030px;
+				width: 100%;
+			}
+		}
+	}
+
+	.btn-next,.btn-prev {
+		background: url(../../images/greenville/slider-arrow.png) no-repeat;
+	}
+
+	.btn-next{
+		background-position:0 100%;
+		right:0;
+	}
+	.btn-prev{
+		background-position:0 0;
+		left:0;
+	}
+}
+
+.stats {
+	margin-bottom: 100px;
+	text-align: center;
+	
+	img {
+		max-height: 200px;
+		width: auto;
+		margin: 0 auto;
+		padding: 50px 50px 0 50px;
+		border-right: 2px solid #c3d600;
+		&:last-child { border-right: none; }
+
+		@media screen and (max-width: 1024px) { max-height: 180px; }
+		@media screen and (max-width: 880px) {
+			max-height: 140px;
+			padding: 25px 25px 0 25px;
+		}
+
+		@media screen and (max-width: 600px) {
+			max-height: 120px;
+			padding: 15px 15px 0 15px;
+		}
+
+		@media screen and (max-width: 480px) {
+			display: block;
+			max-height: 100%;
+			height: auto;
+			width: 35%;
+			padding: 15px;
+			border-right: none;
+			border-bottom: 1px solid #c3d600;
+			&:last-child { border-bottom: none; }
+		}
+	}
+}
+
+.sign-off {
+	clear: both;
+	margin-top: 100px;
+	background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	@include border-box;
+
+	.content {
+		position: relative;
+		max-width: 830px;
+		height: 100%;
+		margin: 0 auto;
+		padding: 8% 0;
+		text-align: right;
+	}
+
+	h2 {
+		margin: 0;
+		line-height: 1.4;
+		font: {
+			family: Georgia;
+			weight: bold;
+			size: 34px;
+			style: italic;
+		}
+		text-align: center;
+
+		@media screen and (max-width: 880px) {
+			font-size: 30px;
+		}
+	}
+
+	ul {
+		display: inline-block;
+		margin: 0 0 0 auto;
+	}
+
+	li {
+		display: block;
+		font: {
+			size: 22px;
+		}
+		text-align: left;
+		line-height: 1.4;
+		&:first-child { text-indent: -15px; }
+
+		@media screen and (max-width: 880px) {
+			font-size: 16px;
+		}
+	}
+}
+
+h1 {
+	font-size: 2.2em;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+h2 { font-size: 2.2em }
+
+h3 {
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #333333;
+	padding-bottom: 25px;
+
+	@media screen and (max-width: 768px) {
+		font-size: 1.7em;
+	}
+
+	@media screen and (max-width: 768px) {
+		font-size: 1.4em;
+		padding-bottom: 15px;
+	}
+}
+
+.white { color:#fff; }
+
+h4 {
+	margin: 1.15% 0;
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+h5 {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	font-weight: 400;
+}
