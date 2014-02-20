@@ -84,7 +84,7 @@
   text-align: center;
   width: 100%; }
 .featured-movements .thumbnails-list .holder {
-  display: block;
+  display: none;
   padding: 20px 0; }
 .featured-movements .thumbnails-list .title {
   font-size: 20px;
@@ -608,7 +608,7 @@
       -webkit-transform: none;
       transform: none; } }
 .featured-movements .learn-more-container {
-  text-align: left; }
+  text-align: center; }
   .featured-movements .learn-more-container a {
     margin: 25px 0;
     text-align: center; }

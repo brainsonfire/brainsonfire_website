@@ -192,7 +192,7 @@ div.caption-block.application-caption-block.versionTeam h2{
   text-align: center;
   width: 100%; }
 .services-overview .thumbnails-list .holder {
-  display: block;
+  display: none;
   padding: 20px 0; }
 .services-overview .thumbnails-list .title {
   font-size: 20px;
