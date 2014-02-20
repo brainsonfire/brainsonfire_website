@@ -10,6 +10,10 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
 	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHcRZfFwclEn4UrM0I1ZidDEtwdcQtFVI&sensor=false">
+    </script>
+	<script type="text/javascript" src="js/bof-custom-map.js"></script>
 	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
 	<script type="text/javascript" src="//use.typekit.net/vnn2jfd.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -114,8 +118,13 @@
 				<input type="submit" value="submit form">
 			</fieldset>
 		</form> -->
-		<footer id="footer">
-			<div class="map-holder"></div>
+		<!-- <footer id="footer"> -->
+
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.378903451665!2d-82.40440412619623!3d34.84670552539157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbb889464f3d40c27!2sBrains+On+Fire!5e0!3m2!1sen!2sus!4v1392398251837" width="100%" height="250" frameborder="0" style="border:0"></iframe> -->
+
+    <div id="map-canvas"></div>
+
+			<!-- <div class="map-holder"></div> -->
 			<section class="footer-bottom">
 				<div class="footer-holder">
 					<ul>
@@ -125,7 +134,7 @@
 					</ul>
 				</div>
 			</section>
-		</footer>
+		<!-- </footer> -->
 	</div>
 </body>
 </html>
