@@ -1479,12 +1479,15 @@ p.editor-note a{
 .form-contact input[type=email],
 .form-contact textarea{
 	background:#fff;
-	border:1px solid #e8e8e8;
-	border-radius:2px;
+	/*border:1px solid #e8e8e8;
+	border-radius:2px;*/ /*changed to match application form*/
+	border: 1px solid #cccccc;
+	border-radius: 6px;
 	color:#666;
 	display:inline-block;
 	font-size:17px;
 	height:21px;
+	/*height: 6px;*/ /*matches the size of input in application form*/
 	line-height:21px;
 	margin:0 24px 0 0;
 	padding:18px 10px;
@@ -1515,8 +1518,10 @@ p.editor-note a{
 }
 .select-area{
 	background:#fff;
-	border:1px solid #e8e8e8;
-	border-radius:2px;
+	/*border:1px solid #e8e8e8;
+	border-radius:2px;*/ /*changed to match application form*/
+	border: 1px solid #cccccc;
+	border-radius: 6px;
 	cursor:pointer;
 	display:inline-block;
 	vertical-align:middle;
@@ -1610,6 +1615,7 @@ p.editor-note a{
 	margin:-90px 0 0;
 }
 #map-canvas { height: 310px; }
+
 
 
 /*************************************

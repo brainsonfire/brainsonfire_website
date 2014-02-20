@@ -37,6 +37,7 @@ function highlight(el, depth){
 	if(depth == 2){var fieldContainer = el.parentNode.parentNode;}
 	if(depth == 3){var fieldContainer = el.parentNode.parentNode.parentNode;}
 	if(depth == 4){var fieldContainer = el.parentNode.parentNode.parentNode.parentNode;}
+	if(depth == 5){var fieldContainer = el.parentNode.parentNode.parentNode.parentNode.parentNode;}
 	
 	addClassName(fieldContainer, 'focused', true);
 	var focusedFields = getElementsByClassName(document, "*", "focused");
