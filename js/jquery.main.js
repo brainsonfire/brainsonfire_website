@@ -341,7 +341,7 @@ ResponsiveHelper = (function($){
 		}
 	}
 	win.bind('load', function(){
-		if(($.browser.mozilla || $.browser.opera || $.browser.msie) && window.addEventListener) {
+		if((jQuery.browser.mozilla || $.browser.opera || $.browser.msie) && window.addEventListener) {
 			scrollBarWidth = window.innerWidth - $('body').width();
 			resizeHandler();
 		}
