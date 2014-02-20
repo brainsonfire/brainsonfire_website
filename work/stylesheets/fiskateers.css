@@ -250,9 +250,13 @@ p {
           padding-left: 0; } }
   .success li {
     margin-bottom: 25px; }
+    .success li:last-child {
+      margin-bottom: 43px; }
     @media screen and (max-width: 580px) {
       .success li {
-        margin-bottom: 15px; } }
+        margin-bottom: 15px; }
+        .success li:last-child {
+          margin-bottom: 25px; } }
 
 .welcome {
   margin: 60px auto; }
