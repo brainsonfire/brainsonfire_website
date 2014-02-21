@@ -104,6 +104,7 @@ textarea.textarea {
 	font-size: 17px;
 	font-family: hedley-new-web, Arial, Helvetica, sans-serif;
 	color: #666;
+	padding: 2px 0px;
 }
 
 
@@ -188,7 +189,7 @@ ul {
 	height: 313px;
 	margin: 0;
 	overflow: auto;
-	padding: 18px 10px 0 10px;
+	/*padding: 18px 10px 0 10px;*/
 	resize: none;
 	width: 758px;
 }
