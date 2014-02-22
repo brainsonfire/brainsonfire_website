@@ -96,7 +96,8 @@
 }
 .mega-banner {
 	width: 100%;
-	height:714px;
+	/* height:714px; */
+	height:625px;
 	position:relative;
 	overflow: hidden;
 /***********************************************************	
@@ -126,6 +127,12 @@
 	bottom:0;
 	right:-23px;
 }
+.mega-banner .photo-container .holder img{	
+  -webkit-transition: all 0.3s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+     -moz-transition: all 0.3s ease-out;  /* Firefox 4-15 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.50–12.00 */
+          transition: all 0.3s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
 .mega-banner .photo-container .holder02,
 .mega-banner.night .photo-container .holder {display:none;}
 .mega-banner.night .photo-container .holder02 {
@@ -154,6 +161,18 @@ FLOATING PEOPLE
 	bottom: -32px;
 	left: -61px;
 	display:block;
+}
+
+#intro-handwriting {
+	position: absolute;
+	bottom: 232px;
+	left: -842px;
+}
+
+#night-intro-handwriting {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
 }
 
 #cordell {
