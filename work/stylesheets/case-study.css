@@ -16,6 +16,18 @@
   
   .case-study .banner-block.large.gadow {
   background: #0c0a0aurl(../images/gadow/gadow-hero-bg.jpg) no-repeat center -120px; }
+
+  .case-study .banner-block.large.confluence {
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg2.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg3.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg4.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/wilderness-display-2.jpg) no-repeat center 0px; }*/
+  background: #0c0a0a url(../images/cws/perception-display-2.jpg) no-repeat center 0px; }
+  /*background: #0c0a0a url(../images/cws/dagger-display-2.jpg) no-repeat center 0px; }*/
+  /*background: #0c0a0a url(../images/cws/madriver-display-2.jpg) no-repeat center 0px; }*/
+  /*background: #0c0a0a url(../images/cws/wavesport-display-2.jpg) no-repeat center 0px; }*/
+
   
   @media screen and (max-width: 1440px) {
     .case-study .banner-block.large {
@@ -29,7 +41,9 @@
   @media screen and (max-width: 480px) {
     .case-study .banner-block.large {
       height: 290px !important;
-      background-size: 950px auto; } }
+      background-size: 950px auto; } 
+    .case-study .banner-block.large.confluence {
+        background: #0c0a0a url(../images/cws/perception-display-2.jpg) no-repeat center -250px; } }
   .case-study .banner-block.large img {
     position: absolute;
     width: 339px;
@@ -123,7 +137,10 @@
       width: 319px; }
      .case-study .images-container.org-logo img.vertical {
       display: inline-block;
-      width: 219px; } 
+      width: 219px; }
+      .case-study .images-container.org-logo img.cws-logos {
+      display: inline-block;
+      width: 669px; } 
       @media screen and (max-width: 600px) {
         .case-study .images-container.org-logo img {
           width: 184px; } }
