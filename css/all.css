@@ -977,7 +977,10 @@ p.editor-note a{
 .section-read h1,
 .section-author h1,
 .section-wares h1,
-.form-contact h1{
+.form-contact h1,
+.people-holder h1,
+.people-post h1,
+.more-posts h1{
 	color:#333;
 	font-size:40px;
 	letter-spacing:-1px;	
@@ -990,7 +993,8 @@ p.editor-note a{
 .section-work h2,
 .section-read h2,
 .section-author h2,
-.section-wares h2
+.section-wares h2,
+.people-holder h2
 {
 	color:#333;
 	font-size:18px;
@@ -1004,6 +1008,22 @@ p.editor-note a{
 .section-author h2{
 	color:#fff;
 }
+.people-holder h1{
+	margin:0 0 30px;
+}
+.people-post h1 a{
+	color:#333;
+}
+.more-posts h1{
+	color:#fff;
+	margin: 0 0 53px;
+}
+.people-holder h2{
+	color:#666666;
+	font-size:12px;
+	margin-top: 8px;
+}
+
 .section-work .works-list{
 	font-size:0;
 	line-height:0;
@@ -2171,7 +2191,8 @@ p.editor-note a{
 	.section-read h1,
 	.section-wares h1,
 	.section-author h1,
-	.section-work h1{
+	.section-work h1,
+	.people-holder h1 {
 		font-size:33px;
 		line-height:35px;
 		margin:0 0 11px;
@@ -2179,7 +2200,8 @@ p.editor-note a{
 	.section-read h2,
 	.section-wares h2,
 	.section-author h2,
-	.section-work h2,
+	.section-work h2, 
+	.people-holder h2
 	{
 		font-size:15px;
 		line-height:17px;
@@ -2187,6 +2209,12 @@ p.editor-note a{
 	}
 	.section-blog-soon h2 {
 	margin: 0 25% 50px 25%;
+	}
+
+	.people-holder h2{
+	color:#666666;
+	font-size:12px;
+	margin-top: 8px;
 	}
 
 	.section-work .btn-view{
