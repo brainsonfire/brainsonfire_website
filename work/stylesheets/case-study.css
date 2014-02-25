@@ -28,7 +28,31 @@
   /*background: #0c0a0a url(../images/cws/madriver-display-2.jpg) no-repeat center 0px; }*/
   /*background: #0c0a0a url(../images/cws/wavesport-display-2.jpg) no-repeat center 0px; }*/
 
+  .case-study .banner-block.large.fgp {
+  background: #0c0a0a url(../images/fgp/fgp-header.jpg) no-repeat center -120px; }
   
+  .case-study .banner-block.large.grow {
+  /*background: #0c0a0a url(../images/grow/grow-header.jpg) no-repeat center -120px; }*/
+  background: #0c0a0a url(../images/grow/grow-header-hat.jpg) no-repeat center -120px; }
+
+  .case-study .banner-block.large.jasons-deli {
+  background: #0c0a0a url(../images/jasons-deli/jasons-deli-header.jpg) no-repeat center -120px; }
+
+  .case-study .banner-block.large.m33 {
+  background: #0c0a0a url(../images/m33/m33-header.jpg) no-repeat center -120px; }
+
+  .case-study .banner-block.large.new-carolina {
+  background: #0c0a0a url(../images/new-carolina/new-carolina-header1.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/new-carolina/new-carolina-header2.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/new-carolina/new-carolina-header3.jpg) no-repeat center -120px; }*/
+  .case-study .banner-block.large.ryobi {
+  background: #0c0a0a url(../images/ryobi/ryobi-header1.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/ryobi/ryobi-header2.jpg) no-repeat center -120px; }*/
+
+   .case-study .banner-block.large.schnackel {
+  background: #0c0a0a url(../images/schnackel/schnackel-header1.jpg) no-repeat center -120px; }
+
+
   @media screen and (max-width: 1440px) {
     .case-study .banner-block.large {
       -webkit-background-size: 1440px auto;
@@ -140,7 +164,41 @@
       width: 219px; }
       .case-study .images-container.org-logo img.cws-logos {
       display: inline-block;
+      width: 669px; }
+      .case-study .images-container.org-logo img.fgp-logo {
+      display: inline-block;
+      width: 519px; }
+      .case-study .images-container.org-logo img.grow-logo {
+      display: inline-block;
+      width: 669px; }
+      .case-study .images-container.org-logo img.jasons-logo {
+      display: inline-block;
+      width: 519px; }
+      .case-study .images-container.org-logo img.m33-logo {
+      display: inline-block;
+      width: 619px; }
+      .case-study .images-container.org-logo img.new-carolina-logo {
+      display: inline-block;
+      width: 619px; }
+      .case-study .images-container.org-logo img.ryobi-logo {
+      display: inline-block;
+      width: 619px; }
+      .case-study .images-container.org-logo img.schnackel-logo {
+      display: inline-block;
+      width: 619px; }
+
+  .case-study .images-container.indiv-logo {
+    padding: 25px 0; }
+    .case-study .images-container.indiv-logo img {
+      display: inline-block;
+      width: 319px; }
+     .case-study .images-container.indiv-logo img.vertical {
+      display: inline-block;
+      width: 219px; }
+      .case-study .images-container.indiv-logo img.cws-logos {
+      display: inline-block;
       width: 669px; } 
+
       @media screen and (max-width: 600px) {
         .case-study .images-container.org-logo img {
           width: 184px; } }

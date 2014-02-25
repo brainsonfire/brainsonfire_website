@@ -1,0 +1,23 @@
+/*Find Great People*/
+.services-container section p.fgp-summary {
+	padding: 0 0 5px 0;
+}
+
+.fgp-quote {
+	padding: 0px 20px;
+	margin-top: -10px;
+}
+
+/*Grow*/
+.services-container section p.grow-summary {
+	padding: 0 0 5px 0;
+}
+
+.grow-quote {
+	padding: 0px 20px;
+	margin-top: -10px;
+}
+
+.case-study .images-container.org-logo.grow-img-con {
+	padding: 45px 0;
+}
