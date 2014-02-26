@@ -49,8 +49,10 @@
   background: #0c0a0a url(../images/ryobi/ryobi-header1.jpg) no-repeat center -120px; }
   /*background: #0c0a0a url(../images/ryobi/ryobi-header2.jpg) no-repeat center -120px; }*/
 
-   .case-study .banner-block.large.schnackel {
+  .case-study .banner-block.large.schnackel {
   background: #0c0a0a url(../images/schnackel/schnackel-header1.jpg) no-repeat center -120px; }
+  .case-study .banner-block.large.hops {
+  background: #0c0a0a url(../images/hops/hops-header1.jpg) no-repeat center -120px; }
 
 
   @media screen and (max-width: 1440px) {
@@ -184,6 +186,9 @@
       display: inline-block;
       width: 619px; }
       .case-study .images-container.org-logo img.schnackel-logo {
+      display: inline-block;
+      width: 619px; }
+      .case-study .images-container.org-logo img.hops-logo {
       display: inline-block;
       width: 619px; }
 
