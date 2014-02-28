@@ -22,12 +22,11 @@
   /*background: #0c0a0a url(../images/cws/cws-hero-bg2.jpg) no-repeat center -120px; }*/
   /*background: #0c0a0a url(../images/cws/cws-hero-bg3.jpg) no-repeat center -120px; }*/
   /*background: #0c0a0a url(../images/cws/cws-hero-bg4.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/wilderness-display-2.jpg) no-repeat center 0px; }*/
-  /*background: #0c0a0a url(../images/cws/perception-display-2.jpg) no-repeat center 0px; }*/
-  /*background: #0c0a0a url(../images/cws/dagger-display-2.jpg) no-repeat center 0px; }*/
-  /*background: #0c0a0a url(../images/cws/madriver-display-2.jpg) no-repeat center 0px; }*/
-  /*background: #0c0a0a url(../images/cws/wavesport-display-2.jpg) no-repeat center 0px; }*/
-  background: #0c0a0a url(../images/cws/kayak-creative-commons.jpg) no-repeat center 0px; }
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg5.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg6.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg7.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg8.jpg) no-repeat center -120px; }*/
+  background: #0c0a0a url(../images/cws/cws-hero-bg9.jpg) no-repeat center -120px; }
 
   .case-study .banner-block.large.fgp {
   /*background: #0c0a0a url(../images/fgp/fgp-header.jpg) no-repeat center -120px; }*/
@@ -41,7 +40,9 @@
   background: #0c0a0a url(../images/jasons-deli/jasons-deli-header.jpg) no-repeat center -120px; }
 
   .case-study .banner-block.large.m33 {
-  background: #0c0a0a url(../images/m33/m33-header.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/m33/m33-header.jpg) no-repeat center -120px; }*/
+  /*background: #0c0a0a url(../images/m33/m33-header2.jpg) no-repeat center -120px; }*/
+  background: #0c0a0a url(../images/m33/m33-header3.jpg) no-repeat center -120px; }
 
   .case-study .banner-block.large.new-carolina {
   /*background: #0c0a0a url(../images/new-carolina/new-carolina-header1.jpg) no-repeat center -120px; }*/
@@ -79,13 +80,15 @@
   @media screen and (max-width: 720px) {
     .case-study .banner-block.large {
       height: 400px !important;
-      background-size: 1150px auto; } }
+      background-size: 1150px auto; } 
+    .case-study .banner-block.large.confluence {
+        background: #0c0a0a url(../images/cws/cws-hero-bg9.jpg) no-repeat center -260px; } }
   @media screen and (max-width: 480px) {
     .case-study .banner-block.large {
       height: 290px !important;
       background-size: 950px auto; } 
     .case-study .banner-block.large.confluence {
-        background: #0c0a0a url(../images/cws/perception-display-2.jpg) no-repeat center -250px; } }
+        background: #0c0a0a url(../images/cws/cws-hero-bg9.jpg) no-repeat center -260px; } }
   .case-study .banner-block.large img {
     position: absolute;
     width: 339px;
