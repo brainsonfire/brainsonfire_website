@@ -18,15 +18,8 @@
   background: #0c0a0aurl(../images/gadow/gadow-hero-bg.jpg) no-repeat center -120px; }
 
   .case-study .banner-block.large.confluence {
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg2.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg3.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg4.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg5.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg6.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg7.jpg) no-repeat center -120px; }*/
-  /*background: #0c0a0a url(../images/cws/cws-hero-bg8.jpg) no-repeat center -120px; }*/
-  background: #0c0a0a url(../images/cws/cws-hero-bg9.jpg) no-repeat center -120px; }
+  background: #0c0a0a url(../images/cws/cws-hero-bg10.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/cws/cws-hero-bg11.jpg) no-repeat center -120px; }*/
 
   .case-study .banner-block.large.fgp {
   /*background: #0c0a0a url(../images/fgp/fgp-header.jpg) no-repeat center -120px; }*/
@@ -37,7 +30,8 @@
   background: #0c0a0a url(../images/grow/grow-header-hat.jpg) no-repeat center -120px; }
 
   .case-study .banner-block.large.jasons-deli {
-  background: #0c0a0a url(../images/jasons-deli/jasons-deli-header.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/jasons-deli/jasons-deli-header.jpg) no-repeat center -120px; }*/
+  background: #0c0a0a url(../images/jasons-deli/jasons-deli-header2.jpg) no-repeat center -120px; }
 
   .case-study .banner-block.large.m33 {
   /*background: #0c0a0a url(../images/m33/m33-header.jpg) no-repeat center -120px; }*/
@@ -48,7 +42,9 @@
   /*background: #0c0a0a url(../images/new-carolina/new-carolina-header1.jpg) no-repeat center -120px; }*/
   /*background: #0c0a0a url(../images/new-carolina/new-carolina-header2.jpg) no-repeat center -120px; }*/
   /*background: #0c0a0a url(../images/new-carolina/new-carolina-header3.jpg) no-repeat center -120px; }*/
-  background: #0c0a0a url(../images/new-carolina/new-carolina-header4.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/new-carolina/new-carolina-header4.jpg) no-repeat center -120px; }*/
+  background: #0c0a0a url(../images/new-carolina/new-carolina-header5.jpg) no-repeat center -120px; }
+  /*background: #0c0a0a url(../images/new-carolina/new-carolina-header6.jpg) no-repeat center -120px; }*/
   
   .case-study .banner-block.large.ryobi {
   /*background: #0c0a0a url(../images/ryobi/ryobi-header1.jpg) no-repeat center -120px; }*/
@@ -82,13 +78,13 @@
       height: 400px !important;
       background-size: 1150px auto; } 
     .case-study .banner-block.large.confluence {
-        background: #0c0a0a url(../images/cws/cws-hero-bg9.jpg) no-repeat center -260px; } }
+        background: #0c0a0a url(../images/cws/cws-hero-bg10.jpg) no-repeat center -280px; } }
   @media screen and (max-width: 480px) {
     .case-study .banner-block.large {
       height: 290px !important;
       background-size: 950px auto; } 
     .case-study .banner-block.large.confluence {
-        background: #0c0a0a url(../images/cws/cws-hero-bg9.jpg) no-repeat center -260px; } }
+        background: #0c0a0a url(../images/cws/cws-hero-bg10.jpg) no-repeat center -260px; } }
   .case-study .banner-block.large img {
     position: absolute;
     width: 339px;
