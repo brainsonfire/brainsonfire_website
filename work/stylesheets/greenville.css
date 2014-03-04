@@ -88,7 +88,7 @@ p {
   width: 100%;
   top: 101px;
   background: #c3d600;
-  height: 488px;
+  height: 393px;
   z-index: 0; }
   @media screen and (max-width: 1440px) {
     .green {
@@ -122,6 +122,7 @@ p {
       background: #c3d600; } }
   .purpose .content {
     max-width: 100%;
+    padding-left: 90px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -180,7 +181,7 @@ p {
         padding-top: 105px; } }
   .purpose ul {
     max-width: 670px;
-    width: 670px;
+    width: 590px;
     font-family: Georgia, serif;
     font-size: 24px;
     font-style: italic;
@@ -210,7 +211,11 @@ p {
         line-height: 1.4; } }
   .purpose li {
     display: block;
-    margin-bottom: 40px; }
+    margin-bottom: 20px; }
+    .purpose li:nth-child(2n) {
+      padding-left: 30px; }
+    .purpose li:nth-child(3n) {
+      padding-left: 140px; }
     @media screen and (max-width: 1440px) {
       .purpose li {
         margin-bottom: 17px; }
@@ -255,6 +260,7 @@ p {
     float: none;
     display: inline-block;
     text-align: center;
+    font-size: 100%;
     vertical-align: top; }
     @media screen and (max-width: 1024px) {
       .action .column {
@@ -373,7 +379,12 @@ p {
       .success ul {
         width: 90%;
         max-width: 90%;
-        margin: 0 auto; } }
+        margin: 0 auto; }
+        .success ul:nth-child(2n) {
+          margin-bottom: 50px; } }
+    @media screen and (max-width: 480px) {
+      .success ul:nth-child(2n) {
+        margin-bottom: 30px; } }
   .success li {
     width: 100%;
     display: block;
@@ -383,9 +394,14 @@ p {
         margin-bottom: 17px; } }
     @media screen and (max-width: 1180px) {
       .success li {
-        margin-bottom: 12px; } }
+        margin-bottom: 12px; }
+        .success li:last-child {
+          margin-bottom: 53px; } }
     @media screen and (max-width: 1024px) {
       .success li {
+        margin-bottom: 8px; } }
+    @media screen and (max-width: 768px) {
+      .success li:last-child {
         margin-bottom: 8px; } }
     @media screen and (max-width: 480px) {
       .success li {

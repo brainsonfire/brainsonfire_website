@@ -636,6 +636,11 @@ p.editor-note a{
 	padding:90px 0 0;
 	background:url(../images/bg-path.png) ;
 }
+body#hello-section #footer{
+	width:100%;
+	padding:0 0 0;
+	background:url(../images/bg-path.png) ;
+}
 .footer-top{
 	margin:0 auto 80px;
 	max-width:1170px;

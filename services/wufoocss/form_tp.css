@@ -79,6 +79,7 @@
 	width: 348px;
 }
 
+
 .form-contact .select-area {
 	height: 44px;
 }
@@ -108,12 +109,12 @@ textarea.textarea {
 }
 
 
-ul {
+form ul {
 	color: #333;
 	font-size: 18px;
 	line-height: 20px;
 	margin: 0 auto;
-	padding: 73px 0 85px;
+	padding: 0;
 	text-align: center;
 	/*text-transform: uppercase;*/
 	max-width: 776px;
@@ -158,7 +159,7 @@ ul {
 }
 */
 
-#container h1 {
+.form-contact h1 {
 	font-family: hedley-new-web, Arial, Helvetica, sans-serif;
 	color:#333;
 	font-size:40px;
@@ -170,7 +171,10 @@ ul {
 	font-weight: 500;
 }
 
-#container p {
+.form-contact p {
+	font-family: hedley-new-web, Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	letter-spacing: 0;
 	text-align: center;
 }
 
@@ -185,11 +189,10 @@ ul {
 	line-height: 21px;
 	text-transform: none;
 	vertical-align: middle;
-	
 	height: 313px;
 	margin: 0;
 	overflow: auto;
-	/*padding: 18px 10px 0 10px;*/
+	/* padding: 16px 20px; */
 	resize: none;
 	width: 758px;
 }
