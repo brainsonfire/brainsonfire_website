@@ -365,20 +365,35 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	color:#333;
 }
 .two-columns{overflow:hidden;}
-.column{
-	float:right;
-	width:48.5%;
+.column {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 32px;
 	position:relative;
 	color:#333;
 }
-.column:first-child{
+.two-columns .column{
+	float:right;
+	width:48.5%;
+}
+.two-columns .column:first-child{
 	float:left;
 	width:48.2%;
 	top:0;
 }
+.three-columns .column{
+	float:left;
+	width:33.333333%;
+	max-width: 350px;
+	min-height: 250px;
+	margin-right: 55px;
+}
+.three-columns .column:nth-child(3n) { margin-right: 0; text-align: right; }
+.three-columns .column .title { margin: 0; }
+.temp-speaking-desc .block-buy { display: block; clear: both; }
+.temp-speaking-desc .speaking-call-block .email-us { width: 265px; background: #939f57; }
+.temp-speaking-desc .speaking-call-block .email-us:hover,
+.temp-speaking-desc .speaking-call-block .email-us:hover { background: #757E45; }
 .column .title{
 	color: #939f57;
 	display: block;
@@ -387,6 +402,74 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	word-spacing: 1px;
 }
 .column p{margin:0;}
+.column ul {
+	text-align: left;
+	float: right;
+	width: 61%;
+	list-style: disc;
+}
+.two-columns .column ul { width: 80%; }
+.subhead {
+	color: #333;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 20px;
+	margin: 0 0 58px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about-panel.fave-topics h2,
+.upcoming-events h2 {
+	line-height: 1;
+	margin-bottom: 0;
+}
+.upcoming-events h2 { color: white; }
+.fave-topics {
+	margin-bottom: 0;
+	padding: 4em 2em;
+	background: rgba(0, 0, 0, 0.05);
+	box-shadow: -900px 0 0 rgba(0, 0, 0, 0.05), 900px 0 0 rgba(0, 0, 0, 0.05);
+}
+.upcoming-events {
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 2em 0;
+	color: white;
+	background: #dc5420;
+	background: url(../images/events-bg.jpg) no-repeat center top;
+	background-size: cover;
+}
+
+.upcoming-events .about-panel {
+	width: 90%;
+}
+.upcoming-events .column p {
+	color: #FFF;
+	text-align: left;
+	line-height: 1.2;
+	font-size: 16px;
+	font-weight: 300;
+}
+.upcoming-events .column p.subhead {
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0;
+	line-height: 20px;
+	margin: 0;
+}
+.upcoming-events .column p.date { margin: 1em 0; }
+.spoken-at {
+	max-width: 100%;
+	width: 100%;
+	background: white;
+}
+.spoken-at .about-panel { width: 90%; margin: 0 auto; padding: 3em 0; }
+.spoken-at img {
+	width: 100%;
+}
+.white { color: white; }
 .author-container{
 	width:100%;
 	background:#0bb7cf url(../images/bg-author1.png) no-repeat 50% 0;
