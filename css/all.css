@@ -571,8 +571,8 @@ span.input-small p {
 	.speaker .banner-block img {
 		position: relative;
 		left: auto;
-		width: 100%;
-		margin: 0px auto 0 auto;
+		width: 110%;
+		margin: 0px auto 0 -10%;
 	}
 
 	.speaker-bio {
@@ -622,7 +622,7 @@ span.input-small p {
 	.in-action .about-panel { width: 90%; }
 
 	.in-action .video-container {
-		width: 66%;
+		width: 55%;
 		float: left;
 	  margin: 0;
 	  position: relative;
@@ -630,6 +630,11 @@ span.input-small p {
 	  height: 0;
 	  text-align: center;
 	}
+
+	@media screen and (max-width: 880px) {
+		.in-action .video-container { width: 55%; padding-bottom: 35%; }
+	}
+
 
 	.in-action .video-container iframe {
 	  position: absolute;
@@ -641,6 +646,7 @@ span.input-small p {
 
 	.in-action .list {
 		display: inline-block;
+		width: 40%;
 		margin-left: 5%;
 		color: white;
 	}
@@ -650,10 +656,118 @@ span.input-small p {
 		width: 100%;
 	}
 
+	@media screen and (max-width: 720px) {
+		.in-action .video-container { width: 65%; padding-bottom: 45%; }
+		.in-action .list { float: right; width: 30%; }
+	}
+
+	@media screen and (max-width: 480px) {
+		.in-action .video-container { width: 100%; padding-bottom: 55%; }
+		.in-action .list { float: none; width: 100%; margin: 1em 0 0 0; }
+		.column.list ul { text-align: center; }
+		.column.list ul li { background: rgba(0,0,0,.05); line-height: 2; }
+		.column.list ul li:nth-child(odd) { background: rgba(0,0,0,.0); }
+		.in-action .about-panel { margin-bottom: 0;}
+		.in-action .list .title { font-size: 18px; line-height: 3; }
+	}
+
 	.in-action .list .title { color: white; }
 
 	.speaker .block-reviews { padding: 4em 0 2em 0; }
 	.speaker .block-buy { padding: 2em 0; }
+
+	.quote {
+		position: absolute;
+		width: 615px;
+		right: 7.5%;
+		top: 45%;
+		text-align: left;
+	}
+
+	.quote p {
+		font: italic normal 34px/57px Georgia, "Times New Roman", Times, serif;
+		color: white;
+		text-transform: lowercase;
+	}
+
+	.quote .link-buy {
+		margin: 1em 0 0 0;
+		background: #eb7e1f;
+		text-transform: lowercase;
+	}
+
+	.quote .link-buy:hover,
+	.quote .link-buy:focus {
+		background: #E4720E;
+	}
+
+	@media screen and (max-width: 1120px) {
+		.quote {
+			width: 50%;
+		}
+
+		.quote p {
+			font-size: 28px;
+			line-height: 1.4;
+		}
+	}
+
+	@media screen and (max-width: 880px) {
+		.quote { top: 50%; }
+		.quote p { font-size: 22px; }
+
+		.snapshot img { float: left; }
+		.snapshot div {
+			width: 62%;
+			margin-top: 2em;
+			float: right;
+			text-align: left;
+		}
+
+		.headshot { max-width: 220px; width: 32%; }
+		
+		.column ul.networks { width: 100%; float: none; }
+		.networks li { line-height: 2.2; }
+		.snapshot.column p.title { font-size: 18px; }
+		.speaker-bio .three-columns .column { margin-bottom: 0; }
+		.speaker-bio .three-columns .column:last-child, .speaker-bio .three-columns .column:nth-child(3n) { margin-bottom: 1em; }
+		.about-panel.speaker-bio { margin: 1em auto;}
+	}
+
+	@media screen and (max-width: 720px) {
+		.quote { width: 40%; top: 42%; right: 15%; }
+		.quote .link-buy { padding: .65em .5em; }
+		.networks img { width: 25px; }
+		.networks li { line-height: 1.4; }
+		.snapshot div { margin-top: 1.5em; }
+	}
+
+	@media screen and (max-width: 620px) {
+		.quote {
+			position: relative;
+			display: block;
+			width: 100%;
+			top: auto;
+			right: auto;
+			background: #333;
+			padding: 1em;
+			margin: -8px auto 2em auto;
+			text-align: center;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.quote p { font-size: 18px; }
+		.quote .link-buy { font-size: 18px; }
+	}
+
+	@media screen and (max-width: 480px) {
+		.three-columns .column.snapshot { margin-top: 1em; }
+		.headshot { width: 45%; margin-bottom: .75em; }
+		.snapshot img { float: none; }
+		.snapshot div { width: 60%; margin: 0 auto; float: none; }
+	}
 
 /* End Speakers Pages */
 
@@ -2266,7 +2380,8 @@ p.editor-note a{
 	}
 
 	.about-panel.fave-topics,
-	.about-panel.contact-us
+	.about-panel.contact-us,
+	.about-panel.speaker-bio
 	 { padding: 3em 5%; }
 
 	.about-panel h2{font-size:34px;}
