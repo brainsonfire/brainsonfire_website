@@ -471,12 +471,20 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	background: white;
 }
 .spoken-at .about-panel { width: 90%; margin: 0 auto; padding: 3em 0; }
-.spoken-at img { width: 100%; }
-.contact-us { padding: 3em 0;}
-.contact-us-form {
-	width: 770px;
-	margin: 0 auto;
+.spoken-at ul { text-align: center; }
+.spoken-at ul li {
+	display: inline-block;
+	width: 15%;
+	max-width: 187px;
+	margin-top: -1.3em;
 }
+.spoken-at ul li a { opacity: .85; }
+.spoken-at ul li a:hover,
+.spoken-at ul li a:focus { opacity: 1; }
+.spoken-at ul li img {
+	width: 100%;
+}
+.contact-us { padding: 3em 0;}
 .submit,
 .submit:active{
 	display: block;
@@ -485,6 +493,7 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	margin: 2em auto 0 auto;
 	padding:25px 40px;
 	background: #d9531e;
+	border: 0;
 	text-decoration:none;
 	font-size: 28px;
 	font-family: "Georgia";
@@ -532,24 +541,31 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	padding-bottom: 0.5em;
 }
 .form-field textarea { min-height: 10em; }
-.form-field .input-small input {
-	width: 80%;
+.form-field .input-two input,
+.form-field .input-three input {
+	width: 100%;
 	text-align: center;
-	margin-right: 10%;
 	float: left;
 }
-.form-field span.input-small label {
+.symbol {
+	margin: 0 14px;
+	vertical-align: top;
+	line-height: 3.4;
+}
+.form-field span.input-two label,
+.form-field span.input-three label {
 	color: #CCC;
 	font-weight: lighter;
-	margin-left: -20%;
 	display: block;
 	text-align: center;
 }
-.form-field span.input-small {
+.form-field span.input-two,
+.form-field span.input-three {
 	position: relative;
 	display: inline-block;
-	width: 16.7%;
+	width: 83px;
 }
+.form-field span.input-three { width: 110px; }
 span.input-small p {
 	position: absolute;
 	top: 50%;
@@ -2044,9 +2060,9 @@ p.editor-note a{
 	font-weight: 400;
 }
 
-.speaking-call-block{
-	padding:50px 0 25px 0;	
-}
+.block-buy.speaking-call-block { padding:50px 0 25px 0; }
+
+.section-author .tabset a { text-transform: lowercase; }
 
 .speaking-call-block .tel{
 	color:#fff;
@@ -2388,6 +2404,10 @@ p.editor-note a{
 
 	.block-author{padding:89px 10px 0;}
 
+	.spoken-at ul li {
+		width: 20%;
+	}
+
 	.talk-panel{
 		float:none;
 		width:auto;
@@ -2640,6 +2660,9 @@ p.editor-note a{
 	.cycle-gallery .btn-next{
 		left:auto;
 		right:0;
+	}
+	.spoken-at ul li {
+		width: 30%;
 	}
 	.section-work .holder{padding:53px 0 66px;}
 	.section-read h1,
@@ -3416,6 +3439,9 @@ p.editor-note a{
 	      top: 168px;
 	      background: rgba(0, 0, 0, 0); } }
 	  @media screen and (max-width: 480px) {
+	  	.spoken-at ul li {
+	  		width: 45%;
+	  	}
 	  	.form-field span.input-small { width: 30%;}
 	    section.secondary-nav-top, section.secondary-nav-bottom {
 	      top: 58px; } }

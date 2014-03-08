@@ -1,0 +1,54 @@
+form.wufoo {
+	width: 770px;
+	margin: 0 auto;
+}
+
+.hide { display: none; }
+
+.desc, .form-field > div { display: inline-block; }
+.form-field > div { max-width: 370px; width: 48%; }
+.form-field > div input { width: 100%; }
+.desc {
+	float: right;
+	width: 50%;
+	line-height: 3.4;
+}
+
+.notranslate.form-field .chosen-container {
+	width: 100% !important;
+}
+
+.form-field.textarea > div { max-width: 100%; width: 100%; }
+.form-field.textarea label {
+	float: none;
+	display: block;
+	width: 100%;
+	margin-bottom: 1em;
+}
+.textarea textarea { max-width: 100%; width: 100%; }
+
+@media screen and (max-width: 880px) {
+	form.wufoo { width: 640px; }
+	form.wufoo ul { font-size: .9em; }
+	form.wufoo .chosen-container-single .chosen-single { font-size: 20px; }
+	.symbol { margin: 0; }
+	.form-field.textarea label { margin-bottom: 0; line-height: 2; }
+}
+
+@media screen and (max-width: 766px) {
+	form.wufoo { width: 90%; margin: 0 auto; }
+	.desc, .form-field > div {
+		float: none;
+		display: block;
+		width: 100%;
+		line-height: 1.5;
+	}
+	.form-field > div { max-width: 100%; width: 100%; }
+}
+
+@media screen and (max-width: 480px) {
+	form.wufoo ul { font-size: .75em; }
+	form.wufoo .chosen-container-single .chosen-single { font-size: 18px; }
+	.form-field span.input-two { width: 68px; }
+	.form-field span.input-three { width: 90px; }
+}
