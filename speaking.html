@@ -6,10 +6,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Brains on fire is a Word of Mouth Marketing company located in Greenville, SC. We speak about Word of Mouth Marketing and how to find your company's Passion Conversation.">
 	<link type="text/css" media="all" rel="stylesheet" href="css/all.css">
+	<link type="text/css" media="all" rel="stylesheet" href="js/chosen/chosen.css">
+	<link href="speaking-form/css/custom.css" rel="stylesheet">
 	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
 	<script type="text/javascript" src="js/jquery.main.js"></script>
+	<script type="text/javascript" src="js/chosen/chosen.jquery.min.js"></script>
+	<script src="speaking-form/scripts/wufoo.js"></script>
 	<!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
 	<script type="text/javascript" src="//use.typekit.net/vnn2jfd.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -24,7 +28,7 @@
 
 	</script>
 </head>
-<body>
+<body id="public">
 	<div id="wrapper">
 		<header id="header">
 			<div class="header-holder">
@@ -32,25 +36,26 @@
 				<div class="nav-area">
 					<div class="open-close">
 						<a class="opener" href="#">ReadMore</a>
-						<div class="slide">
+						<!-- <div class="slide"> -->
 							<div class="slide">
-							<nav id="nav">
-							<ul>
-								<li><a href="./services">Services</a></li>
-								<li><a href="./work">Work</a></li>
-								<li><a href="./books">Books</a></li>
-								<li class="active"><a href="./speaking.html">Speaking</a></li>
-								<li><a href="./blog">Blog</a></li>
-								<!-- <li class="last-child"><a href="./hello.html">Hello</a></li> -->
-								<!-- <li class="last-child"><a href="#">store</a></li> -->
-							</ul>
-						</nav>
-							<nav class="top-nav">
-								<ul>
-									<li><a href="http://brainsonfirenews.tumblr.com" target="_self">News &amp; Press</a></li>
-									<li class="last-child"><a href="./hello.html">hello</a></li>
-								</ul>
-							</nav>
+								<nav id="nav">
+									<ul>
+										<li><a href="./services">Services</a></li>
+										<li><a href="./work">Work</a></li>
+										<li><a href="./books">Books</a></li>
+										<li class="active"><a href="./speaking.html">Speaking</a></li>
+										<li><a href="./blog">Blog</a></li>
+										<!-- <li class="last-child"><a href="./hello.html">Hello</a></li> -->
+										<!-- <li class="last-child"><a href="#">store</a></li> -->
+									</ul>
+								</nav>
+								<nav class="top-nav">
+									<ul>
+										<li><a href="http://brainsonfirenews.tumblr.com" target="_self">News &amp; Press</a></li>
+										<li class="last-child"><a href="./hello.html">hello</a></li>
+									</ul>
+								</nav>
+							<!-- </div> -->
 						</div>
 					</div>
 				</div>
@@ -70,18 +75,27 @@
 								<img src="images/img2.jpg" alt="" />
 							</div>
 							Robbin Phillips
+							<div class="block-buy speaking-call-block">
+								<a href="mailto:amy@brainsonfire.com"><div class="link-buy email-us">learn more</div></a>
+							</div>
 					</li>
 					<li class="speaker-names">
 							<div class="img-holder">
 								<img src="images/img3.jpg" alt="">
 							</div>
 							Geno Church
+							<div class="block-buy speaking-call-block">
+								<a href="speaking/geno"><div class="link-buy email-us">learn more</div></a>
+							</div>
 					</li>
 					<li class="speaker-names">
 							<div class="img-holder">
 								<img src="images/img4.jpg" alt="">
 							</div>
 							*John Moore
+							<div class="block-buy speaking-call-block">
+								<a href="mailto:amy@brainsonfire.com"><div class="link-buy email-us">learn more</div></a>
+							</div>
 						
 					</li>
 					<li class="speaker-names">
@@ -89,7 +103,9 @@
 								<img src="images/img5.jpg" alt="">
 							</div>
 							Greg Cordell
-						<span class="note">as a Last resort</span>
+							<div class="block-buy speaking-call-block">
+								<a href="mailto:amy@brainsonfire.com"><div class="link-buy email-us">learn more</div></a>
+							</div>
 					</li>
 				</ul>
 				
@@ -97,26 +113,359 @@
 		</section>
 
 
-		<article class="about-panel temp-speaking-desc">
+		<article class="about-panel temp-speaking-desc how-it-works">
 			<h2>How it all works</h2>
-			<div class="two-columns">
+			<div class="three-columns">
 				<div class="column">
 					<p>We’ve spoken at conferences (big and small) spreading passion, inspiration, and oodles of marketing know-how around the globe. Our speakers can deliver presentations or workshops on how to spark love and passion from your biggest advocates as well as how to ignite powerful, meaningful, sustainable word of mouth movements.</p>
 				</div>
 				<div class="column">
-					<p>Our standard speaking fee is $2,500 + 100* books + travel expenses. If you’re interested in bringing a little of the Brains on Fire magic to your event, <a href="mailto:Amy@BrainsOnFire.com ">contact Amy</a> to get the ball rolling. Act fast, because this offer won’t last long. Our speaking schedule fills up quickly and we have a limited number of dates available. (Client work always comes first in our world!)</p>
-					
+					<p>Our standard speaking fee is $2,500 + 100* books + travel expenses. If you’re interested in bringing a little of the Brains on Fire magic to your event, <a href="mailto:Amy@BrainsOnFire.com ">contact Amy</a> to get the ball rolling. Act fast, because this offer won’t last long. Our speaking schedule fills up quickly and we have a limited number of dates available. (Client work always comes first in our world!)</p>		
+				</div>
+				<div class="column list">
+					<ul>
+					<p class="title">Audiences Include</p>
+						<li>Marketing Professionals</li>
+						<li>Entrepreneurs</li>
+						<li>Non-profits</li>
+						<li>Small Business Owners</li>
+						<li>Creative Professionals</li>
+						<li>C-level Executives for Fortune 500 Corporations</li>
+					</ul>
 				</div>
 			</div>
-			<p class="small-aside">
-					*John Moore only speaks pro-bono in the Greenville, SC area.<br />
-					**Minimum number varies based on estimated number of event attendees.
-				</p>
 			<div class="block-buy speaking-call-block">
-				<a href="mailto:amy@brainsonfire.com"><div class="link-buy email-us">email Amy to book</div></a>
+				<a href="mailto:amy@brainsonfire.com"><div class="link-buy email-us">book us now</div></a>
 			</div>
 		</article>
 
+		<article class="about-panel fave-topics">
+			<h2>Favorite Topics</h2>
+			<p class="subhead">Lorem ipsum dolow sit amet, consectetur adipiscing elit.</p>
+			<div class="two-columns">
+				<div class="column">
+					<div class="video-container">
+						<iframe width="560" height="315" src="//www.youtube.com/embed/hAjPOojI3q8?list=UUmnFg0G2CjtTlizjfs8vpTw" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="column">
+					<div class="two-columns topics-lists">
+						<div class="column">
+							<ul>
+								<li>Word of Mouth Marketing</li>
+								<li>WOM Movements</li>
+								<li>Social Signaling</li>
+								<li>Social Media</li>
+								<li>How to Get people to Talking Offline</li>
+								<li>Cause Marketing</li>
+							</ul>
+						</div>
+						<div class="column">
+							<ul>
+								<li>Identity &amp; Branding</li>
+								<li>WOM Crash Course</li>
+								<li>Dumbing Down WOMM</li>
+								<li>Womology</li>
+								<li>Community</li>
+								<li>Lessons Learned Igniting WOM Movements</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="upcoming-events">
+			<div class="about-panel">
+				<section>
+					<h2>Upcoming Dates</h2>
+					<p class="subhead white">Hope to see you soon.</p>
+					<div class="three-columns">
+						<div class="column">
+							<p class="subhead">Word of Mouth Marketing (WOMMA) Summit</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead">LifeMark Conference</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead underlined">Entrepreneurs’ Organization Las Vegas</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h2>Recent Dates</h2>
+					<p class="subhead white">Sorry we missed you.</p>
+					<div class="three-columns">
+						<div class="column">
+							<p class="subhead">Word of Mouth Marketing (WOMMA) Summit</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead">LifeMark Conference</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead underlined">Entrepreneurs’ Organization Las Vegas</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead">Word of Mouth Marketing (WOMMA) Summit</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead">LifeMark Conference</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+						<div class="column">
+							<p class="subhead underlined">Entrepreneurs’ Organization Las Vegas</p>
+							<p class="date">Nov. 17th-20th, 2013 | Nashville, TN</p>
+							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+						</div>
+					</div>
+				</section>
+			</div>
+		</article>
+
+		<article class="spoken-at">
+			<div class="about-panel">
+				<h2>Spoken At</h2>
+				<p class="subhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				<ul>
+					<li>
+						<a href="#0">
+							<img src="images/logos/01.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/02.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/03.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/04.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/05.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/06.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/07.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/08.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/09.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/10.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/11.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/12.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/13.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/14.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/15.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/16.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/17.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/18.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/19.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/20.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/21.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/22.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/23.jpg"></li>
+						</a>
+					<li>
+						<a href="#0">
+							<img src="images/logos/24.jpg"></li>
+						</a>
+				</ul>
+			</div>
+		</article>
+
+		<article class="about-panel contact-us">
+			<h2>Book Us</h2>
+			<p class="subhead">By typing away in the form below.</p>
+
+			<div id="container" class="ltr">
+			  <form id="form6" name="form6" class="wufoo rightLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://firesession.wufoo.com/forms/w1vlikfx0shln0y/#public">
+			    <ul>
+			      <li id="foli9" class="notranslate form-field     ">
+			        <label class="desc" id="title9" for="Field9">
+			        Name (required)
+			        <span id="req_9" class="req">*</span>
+			        </label>
+			        <div>
+			          <input id="Field9" name="Field9" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
+			        </div>
+			      </li>
+			      <li id="foli10" class="notranslate form-field     ">
+			        <label class="desc" id="title10" for="Field10">
+			        Email (required) - we'll keep this private
+			        <span id="req_10" class="req">*</span>
+			        </label>
+			        <div>
+			          <input id="Field10" name="Field10" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required /> 
+			        </div>
+			      </li>
+			      <li id="foli12" class="notranslate form-field     ">
+			        <label class="desc" id="title12" for="Field12">
+			        Phone Number
+			        </label>
+			        <div>
+			          <input id="Field12" name="Field12" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="" />
+			        </div>
+			      </li>
+			      <li id="foli13" class="notranslate form-field     ">
+			        <label class="desc" id="title13" for="Field13">
+			        Name of Event
+			        </label>
+			        <div>
+			          <input id="Field13" name="Field13" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" />
+			        </div>
+			      </li>
+			      <li id="foli14" class="notranslate form-field     ">
+			        <label class="desc" id="title14" for="Field14">
+			        Location
+			        </label>
+			        <div>
+			          <input id="Field14" name="Field14" type="text" class="field text medium" value="" maxlength="255" tabindex="5" onkeyup="" />
+			        </div>
+			      </li>
+			      <li id="foli15" class="date notranslate form-field">
+			        <label class="desc" id="title15" for="Field15">
+			        Date
+			        </label>
+			        <span class="input-two">
+			        <input id="Field15-1" name="Field15-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="6" />
+			        <label for="Field15-1">MM</label>
+			        </span> 
+			        <span class="symbol">/</span>
+			        <span class="input-two">
+			        <input id="Field15-2" name="Field15-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="7" />
+			        <label for="Field15-2">DD</label>
+			        </span>
+			        <span class="symbol">/</span>
+			        <span class="input-three">
+			        <input id="Field15" name="Field15" type="text" class="field text" value="" size="4" maxlength="4" tabindex="8" />
+			        <label for="Field15">YYYY</label>
+			        </span>
+			      </li>
+			      <li id="foli16" class="notranslate form-field">
+			        <label class="desc" id="title16" for="Field16">Time of Day</label>
+			        <div>
+			          <select id="Field16" name="Field16" class="chosen-select field select medium" tabindex="9" >
+			            <option value="-- Select a Time --" selected="selected">-- Select a Time --</option>
+			            <option value="Morning" >Morning</option>
+			            <option value="Afternoon" >Afternoon</option>
+			            <option value="Evening" >Evening</option>
+			          </select>
+			        </div>
+			      </li>
+			      <li id="foli17" class="notranslate form-field">
+			        <label class="desc" id="title17" for="Field17">Preferred Speaker</label>
+			        <div>
+			          <select id="Field17" name="Field17" class="chosen-select field select medium" tabindex="10" >
+			            <option value="-- Select a Speaker --" selected="selected">-- Select a Speaker --</option>
+			            <option value="Robbin Phillips" >Robbin Phillips</option>
+			            <option value="Geno Church" >Geno Church</option>
+			            <option value="John Moore" >John Moore</option>
+			            <option value="Greg Cordell" >Greg Cordell</option>
+			          </select>
+			        </div>
+			      </li>
+			      <li id="foli18" 
+			        class="notranslate form-field textarea">
+			        <label class="desc" id="title18" for="Field18">
+			        Brief description of the event &amp; link for registration (required)
+			        <span id="req_18" class="req">*</span>
+			        </label>
+			        <div>
+			          <textarea id="Field18" 
+			            name="Field18" 
+			            class="field textarea medium" 
+			            spellcheck="true" 
+			            rows="10" cols="50" 
+			            tabindex="11" 
+			            onkeyup=""
+			            required  ></textarea>
+			        </div>
+			      </li>
+			      <li class="buttons ">
+			        <div>
+			          <input id="saveForm" name="saveForm" class="btTxt submit" 
+			            type="submit" value="Submit Form" />
+			        </div>
+			      </li>
+			      <li class="hide">
+			        <label for="comment">Do Not Fill This Out</label>
+			        <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+			        <input type="hidden" id="idstamp" name="idstamp" value="xRV/T/SXj9wBwvjLiRPllDrTTTMf9ZFolYWH1SzAxjE=" />
+			      </li>
+			    </ul>
+			  </form>
+			</div> <!-- / wuffoo form -->
+
+		</article>
 
 		<footer id="footer">
 			<div class="footer-top">
@@ -162,5 +511,8 @@
 			</section>
 		</footer>
 	</div>
+	<script>
+		$('.chosen-select').chosen();
+	</script>
 </body>
 </html>
