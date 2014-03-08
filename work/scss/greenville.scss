@@ -103,7 +103,7 @@ p {
 	width: 100%;
 	top: 101px;
 	background: #c3d600;
-	height: 488px;
+	height: 393px;
 	z-index: 0;
 
 	@media screen and (max-width: 1440px) {
@@ -143,6 +143,7 @@ p {
 
 	.content {
 		max-width: 100%;
+		padding-left: 90px;
 		@include border-box;
 
 		@media screen and (max-width: 1440px) { padding-left: 100px; }
@@ -202,7 +203,7 @@ p {
 
 	ul {
 		max-width: 670px;
-		width: 670px;
+		width: 590px;
 		font: {
 			family: Georgia, serif;
 			size: 24px;
@@ -237,7 +238,15 @@ p {
 
 	li {
 		display: block;
-		margin-bottom: 40px;
+		margin-bottom: 20px;
+
+		&:nth-child(2n) {
+			padding-left: 30px;
+		}
+
+		&:nth-child(3n) {
+			padding-left: 140px;
+		}
 
 		@media screen and (max-width: 1440px) {
 			margin-bottom: 17px;
@@ -291,6 +300,7 @@ p {
 		float: none;
 		display: inline-block;
 		text-align: center;
+		font-size: 100%;
 		vertical-align: top;
 
 		@media screen and (max-width: 1024px) {
@@ -429,7 +439,18 @@ p {
 			width: 90%;
 			max-width: 90%;
 			margin: 0 auto;
+
+			&:nth-child(2n) {
+				margin-bottom: 50px;
+			}
 		}
+
+		@media screen and (max-width: 480px) {
+			&:nth-child(2n) {
+				margin-bottom: 30px;
+			}
+		}
+
 	}
 
 	li {
@@ -443,10 +464,20 @@ p {
 
 		@media screen and (max-width: 1180px) {
 			margin-bottom: 12px;
+
+			&:last-child {
+				margin-bottom: 53px;
+			}
 		}
 
 		@media screen and (max-width: 1024px) {
 			margin-bottom: 8px;
+		}
+
+		@media screen and (max-width: 768px) {
+			&:last-child {
+				margin-bottom: 8px;
+			}
 		}
 
 		@media screen and (max-width: 480px) {

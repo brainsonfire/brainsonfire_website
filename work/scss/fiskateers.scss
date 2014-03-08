@@ -298,8 +298,18 @@ p {
 
 	li {
 		margin-bottom: 25px;
+
+		&:last-child {
+			margin-bottom: 43px;
+		}
+
 		@media screen and (max-width: 580px) {
 			margin-bottom: 15px;
+
+			&:last-child {
+				margin-bottom: 25px;
+			}
+
 		}
 	}
 }
