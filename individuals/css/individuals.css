@@ -234,7 +234,7 @@ FLOATING PEOPLE
 #john {
 	position:absolute;
 	bottom:-91px;
-	right:139px;
+	right:21px;
 }
 
 #night-john {
@@ -244,8 +244,8 @@ FLOATING PEOPLE
 }
 #megan {
 	position:absolute;
-	bottom:200px;
-	right:887px;
+	bottom:-107px;
+	right:33px;
 }
 
 #night-megan {
@@ -256,7 +256,7 @@ FLOATING PEOPLE
 #alison {
 	position:absolute;
 	bottom:-105px;
-	right:579px;
+	right:438px;
 }
 
 #night-alison {
@@ -266,8 +266,8 @@ FLOATING PEOPLE
 }
 #amy {
 	position:absolute;
-	bottom:261px;
-	right:817px;
+	bottom:-100px;
+	right:-2px;
 }
 
 #night-amy {
@@ -299,8 +299,8 @@ FLOATING PEOPLE
 }
 #emily {
 	position:absolute;
-	bottom:282px;
-	right:565px;
+	bottom:153px;
+	right:507px;
 }
 
 #night-emily {
@@ -321,8 +321,8 @@ FLOATING PEOPLE
 }
 #marysusan {
 	position:absolute;
-	bottom:20px;
-	right:569px;
+	bottom:56px;
+	right:223px;
 }
 
 #night-marysusan {
@@ -333,7 +333,7 @@ FLOATING PEOPLE
 #moe {
 	position:absolute;
 	bottom:-108px;
-	right:164px;
+	right:-4px;
 }
 
 #night-moe {
@@ -343,8 +343,8 @@ FLOATING PEOPLE
 }
 #nathan {
 	position:absolute;
-	bottom:-171px;
-	right:678px;
+	bottom:-102px;
+	right:294px;
 }
 
 #night-nathan {
@@ -354,8 +354,8 @@ FLOATING PEOPLE
 }
 #sean {
 	position:absolute;
-	bottom:74px;
-	right:31px;
+	bottom:72px;
+	right:-79px;
 }
 
 #night-sean {
@@ -365,11 +365,23 @@ FLOATING PEOPLE
 }
 #shannon {
 	position:absolute;
-	bottom:280px;
+	bottom:170px;
 	right:493px;
 }
 
 #night-shannon {
+	position:absolute;
+	bottom: 280px;
+	left: -61px;
+}
+
+#wicket {
+	position:absolute;
+	bottom:74px;
+	right:462px;
+}
+
+#night-wicket {
 	position:absolute;
 	bottom: 280px;
 	left: -61px;
@@ -613,6 +625,8 @@ END FLOATING PEOPLE
 .people-post .meta .social .facebook:after {background-position:-140px 0;}
 .people-post .meta .social .pinterest:after {background-position:-179px 0;}
 .people-post .meta .social .instagram:after {background-position:-218px 0;}
+.people-post .meta .social .linkedin:after {background-position:-257px 0;}
+.people-post .meta .social .blog:after {background-position:-296px 0;}
 .people-post .cols .col {
 	height: 1%;
 	overflow: hidden;
@@ -728,6 +742,12 @@ SMALLERFLOATING PEOPLE
 	right:504px;
 }
 
+#intro-handwriting {
+position:absolute;
+bottom: 124px;
+left:-708px;
+}
+
 #night-photo01 {
 	position:absolute;
 	bottom: -32px;
@@ -739,7 +759,7 @@ SMALLERFLOATING PEOPLE
 	position:absolute;
 	bottom:-182px;
 	right:-32px;
-	width:353px;
+	width:585px;
 }
 
 #night-cordell {
@@ -750,7 +770,7 @@ SMALLERFLOATING PEOPLE
 
 #robbin {
 	position:absolute;
-	bottom:-43px;
+	bottom:-60px;
 	right:262px;
 	width:455px
 }
@@ -762,9 +782,9 @@ SMALLERFLOATING PEOPLE
 }
 #ramsey {
 	position:absolute;
-	bottom:-105px;
+	bottom:-122px;
 	right:139px;
-	width:320px;
+	width:485px;
 }
 
 #night-ramsey {
@@ -774,7 +794,7 @@ SMALLERFLOATING PEOPLE
 }
 #geno {
 	position:absolute;
-	bottom:-19px;
+	bottom:-36px;
 	right:742px;
 	width:205px;
 }
@@ -786,9 +806,9 @@ SMALLERFLOATING PEOPLE
 }
 #john {
 	position:absolute;
-	bottom: -80px;
-	right: 105px;	
-	width: 241px;
+	bottom: -96px;
+	right: 1px;	
+	width: 349px;
 }
 
 #night-john {
@@ -798,9 +818,9 @@ SMALLERFLOATING PEOPLE
 }
 #megan {
 	position:absolute;
-	bottom: 164px;
-	right: 693px;
-	width: 244px;
+	bottom: -103px;
+	right: 10px;
+	width: 580px;
 }
 
 #night-megan {
@@ -810,9 +830,9 @@ SMALLERFLOATING PEOPLE
 }
 #alison {
 	position:absolute;
-	bottom: -83px;
-	right: 448px;
-	width: 298px;
+	bottom: -100px;
+	right: 331px;
+	width: 413px;
 }
 
 #night-alison {
@@ -823,9 +843,9 @@ SMALLERFLOATING PEOPLE
 }
 #amy {
 	position:absolute;
-	bottom: 211px;
-	right: 650px;
-	width: 180px;
+	bottom: -95px;
+	right: -24px;
+	width: 571px;
 }
 
 #night-amy {
@@ -835,9 +855,9 @@ SMALLERFLOATING PEOPLE
 }
 #brandy {
 	position:absolute;
-	bottom: -6px;
+	bottom: -23px;
 	right: 342px;
-	width: 240px;
+	width: 328px;
 }
 
 #night-brandy {
@@ -847,9 +867,9 @@ SMALLERFLOATING PEOPLE
 }
 #cathy {
 	position:absolute;
-	bottom: -25px;
+	bottom: -42px;
 	right: 299px;
-	width: 314px;
+	width: 326px;
 }
 
 #night-cathy {
@@ -859,9 +879,9 @@ SMALLERFLOATING PEOPLE
 }
 #emily {
 	position:absolute;
-	bottom: 231px;
-	right: 437px;
-	width: 168px;
+	bottom: 109px;
+	right: 388px;
+	width: 223px;
 }
 
 #night-emily {
@@ -871,9 +891,9 @@ SMALLERFLOATING PEOPLE
 }
 #jack {
 	position:absolute;
-	bottom: 68px;
+	bottom: 51px;
 	right: 224px;
-	width: 182px;
+	width: 285px;
 }
 
 #night-jack {
@@ -883,9 +903,9 @@ SMALLERFLOATING PEOPLE
 }
 #marysusan {
 	position:absolute;
-	bottom: 18px;
-	right: 439px;
-	width: 398px;
+	bottom: 34px;
+	right: 161px;
+	width: 465px;
 }
 
 #night-marysusan {
@@ -895,9 +915,9 @@ SMALLERFLOATING PEOPLE
 }
 #moe {
 	position:absolute;
-	bottom: -84px;
-	right: 124px;
-	width: 346px;
+	bottom: -101px;
+	right: -22px;
+	width: 484px;
 }
 
 #night-moe {
@@ -907,9 +927,9 @@ SMALLERFLOATING PEOPLE
 }
 #nathan {
 	position:absolute;
-	bottom: -175px;
-	right: 573px;
-	width: 292px;
+	bottom: -100px;
+	right: 216px;
+	width: 469px;
 }
 
 #night-nathan {
@@ -919,9 +939,9 @@ SMALLERFLOATING PEOPLE
 }
 #sean {
 	position:absolute;
-	bottom: 61px;
-	right: 9px;
-	width: 194px;
+	bottom: 44px;
+	right: -81px;
+	width: 283px;
 }
 
 #night-sean {
@@ -932,7 +952,7 @@ SMALLERFLOATING PEOPLE
 }
 #shannon {
 	position:absolute;
-	bottom:228px;
+	bottom:123px;
 	right:376px;
 	width:199px;
 }
@@ -942,6 +962,20 @@ SMALLERFLOATING PEOPLE
 	bottom: 280px;
 	left: -61px;
 }
+
+#wicket {
+	position:absolute;
+	bottom:46px;
+	right:347px;
+	width:351px;
+}
+
+#night-wicket {
+	position:absolute;
+	bottom: 280px;
+	left: -61px;
+}
+
 
 /*********************************************************** 
 
@@ -971,7 +1005,7 @@ END SMALLER FLOATING PEOPLE
 		max-width: 780px;
 		padding: 58px 10px 70px;
 	}
-	.paging {margin-bottom: -104px;}
+	.paging {margin-bottom: -130px;}
 	.paging .holder {
 		max-width: 944px;
 		padding: 121px 10px 44px;
@@ -1043,7 +1077,7 @@ END SMALLER FLOATING PEOPLE
 		line-height:30px;
 		text-align:justify;
 	}
-	.paging {margin-bottom: -87px;}
+	.paging {margin-bottom: -113px;}
 	.paging .holder {
 		max-width: 728px;
 		padding: 113px 10px 34px;
@@ -1051,7 +1085,7 @@ END SMALLER FLOATING PEOPLE
 	.paging .next {margin-left: 40px;}
 	.paging+.mega-holder .mega-banner {
 		display:block;
-		height:452px;
+		height:447px;
 /***********************************************************	
 	DAY TIME LOBBY IMAGE
 ***********************************************************/		
@@ -1072,13 +1106,267 @@ END SMALLER FLOATING PEOPLE
 		width: 746px;
 		height: 392px;
 	}
-	.mega-banner .photo-container .holder {width:95px;}
+	/*.mega-banner .photo-container .holder {width:95px;}*/
 	.mega-banner.night .photo-container .holder02 {
 		bottom: -13px;
 		left: -30px;
 		width: 180px;
 	}
 	/* .mega-banner .window {background-image:url(../images/img-window03.png);} */
+	
+/*********************************************************** 
+
+SMALLEST FLOATING PEOPLE
+
+***********************************************************/
+
+#photo01 {
+	position:absolute;
+	bottom:0;
+	right:504px;
+}
+
+#intro-handwriting {
+position:absolute;
+bottom: 124px;
+left:-708px;
+}
+
+#night-photo01 {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+	display:block;
+}
+
+#cordell {
+	position:absolute;
+	bottom:-134px;
+	right:-2px;
+	width:456px;
+}
+
+#night-cordell {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+
+#robbin {
+	position:absolute;
+	bottom:-27px;
+	right:213px;
+	width:355px
+}
+
+#night-robbin {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#ramsey {
+	position:absolute;
+	bottom:-86px;
+	right:101px;
+	width:378px;
+}
+
+#night-ramsey {
+ 	position:absolute;
+	bottom: -105px;
+	left: 139px;
+}
+#geno {
+	position:absolute;
+	bottom:-7px;
+	right:586px;
+	width:161px;
+}
+
+#night-geno {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#john {
+	position:absolute;
+	bottom: -62px;
+	right: 8px;	
+	width: 267px;
+}
+
+#night-john {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#megan {
+	position:absolute;
+	bottom: -54px;
+	right: 10px;
+	width: 452px;
+}
+
+#night-megan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#alison {
+	position:absolute;
+	bottom: -54px;
+	right: 265px;
+	width: 322px;
+}
+
+#night-alison {
+	position:absolute;
+	bottom: -83px;
+	right: 448px;
+	width: 298px;
+}
+#amy {
+	position:absolute;
+	bottom: -53px;
+	right: -13px;
+	width: 445px;
+}
+
+#night-amy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#brandy {
+	position:absolute;
+	bottom: 3px;
+	right: 277px;
+	width: 256px;
+}
+
+#night-brandy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#cathy {
+	position:absolute;
+	bottom: -11px;
+	right: 240px;
+	width: 254px;
+}
+
+#night-cathy {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#emily {
+	position:absolute;
+	bottom: 107px;
+	right: 311px;
+	width: 174px;
+}
+
+#night-emily {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#jack {
+	position:absolute;
+	bottom: 61px;
+	right: 181px;
+	width: 222px;
+}
+
+#night-jack {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#marysusan {
+	position:absolute;
+	bottom: 48px;
+	right: 132px;
+	width: 362px;
+}
+
+#night-marysusan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#moe {
+	position:absolute;
+	bottom: -71px;
+	right: -12px;
+	width: 377px;
+}
+
+#night-moe {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#nathan {
+	position:absolute;
+	bottom: -55px;
+	right: 173px;
+	width: 366px;
+}
+
+#night-nathan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#sean {
+	position:absolute;
+	bottom: 56px;
+	right: -58px;
+	width: 221px;
+}
+
+#night-sean {
+	position:absolute;
+	bottom: 61px;
+	right: 9px;
+	width: 194px;
+}
+#shannon {
+	position:absolute;
+	bottom:117px;
+	right:302px;
+	width:155px;
+}
+
+#night-shannon {
+	position:absolute;
+	bottom: 280px;
+	left: -61px;
+}
+
+#wicket {
+	position:absolute;
+	bottom:58px;
+	right:278px;
+	width:274px;
+}
+
+#night-wicket {
+	position:absolute;
+	bottom: 280px;
+	left: -61px;
+}
+
+
+/*********************************************************** 
+
+END SMALLEST FLOATING PEOPLE
+
+***********************************************************/
+
 	.people-post .cols-holder,
 	.people-post .meta,
 	.people-post .cols {
@@ -1209,7 +1497,7 @@ END SMALLER FLOATING PEOPLE
 	.paging+.mega-holder .mega-banner,
 	.mega-holder .paging {display:none;}
 	.paging {
-		margin:0 0 -149px;
+		margin:0 0 -112px;
 		background:none;
 	}
 	.paging .holder {
