@@ -394,7 +394,7 @@ END FLOATING PEOPLE
 ***********************************************************/
 
 .mega-banner .photo-container img {
-	max-width:100%;
+	/* max-width:100%; */
 	display:none;
 }
 .mega-banner .photo-container .active {display:block;}
