@@ -1,0 +1,473 @@
+section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  section.big-image {
+    margin: 0 auto 0 auto; }
+    section.big-image.images img.polaroid {
+      position: relative; }
+    section.big-image img {
+      max-width: 90%; }
+      section.big-image img.polaroid {
+        position: absolute;
+        max-width: 430px;
+        width: 41%;
+        margin: 0; }
+  section.van img {
+    width: 75%;
+    max-width: 892px;
+    margin: 0 auto -205px auto; }
+    @media screen and (max-width: 880px) {
+      section.van img {
+        margin: 0 auto -175px auto; } }
+    @media screen and (max-width: 480px) {
+      section.van img {
+        margin: 0 auto -125px auto; } }
+    @media screen and (max-width: 320px) {
+      section.van img {
+        margin: 0 auto -75px auto; } }
+
+.greenville .secondary-nav-top {
+  position: absolute; }
+
+.full-width, .content, .backdrop {
+  max-width: 970px;
+  background: none; }
+
+.two-columns {
+  -moz-column-count: 2;
+  -moz-column-gap: 35px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 35px; }
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  color: white; }
+  .content h3 {
+    color: white; }
+
+p {
+  color: #333333;
+  font-weight: 500;
+  text-align: left; }
+  @media screen and (max-width: 768px) {
+    p {
+      font-size: 15px;
+      line-height: 1.4; } }
+  p.caps {
+    width: 1000px;
+    margin: 0 auto;
+    text-transform: uppercase; }
+    @media screen and (max-width: 880px) {
+      p.caps {
+        font-size: .75em;
+        line-height: 1; } }
+
+.gvl-hero {
+  position: relative;
+  margin-top: 78px;
+  padding: 0;
+  height: 745px;
+  background: url("../../images/fiskateers/fisk-hero.png") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center 100%; }
+  @media screen and (max-width: 1180px) {
+    .gvl-hero {
+      height: 595px; } }
+  @media screen and (max-width: 1024px) {
+    .gvl-hero {
+      height: 535px; } }
+  @media screen and (max-width: 880px) {
+    .gvl-hero {
+      height: 465px; } }
+  @media screen and (max-width: 768px) {
+    .gvl-hero {
+      height: 415px; } }
+  @media screen and (max-width: 720px) {
+    .gvl-hero {
+      height: 325px; } }
+
+.backdrop {
+  margin: 60px auto 0 auto; }
+  .backdrop img {
+    float: left;
+    margin-top: -54px; }
+    @media screen and (max-width: 768px) {
+      .backdrop img {
+        float: none;
+        margin: 0;
+        width: 80%;
+        max-width: 155px; } }
+  .backdrop p {
+    max-width: 570px;
+    margin-left: 287px; }
+    @media screen and (max-width: 768px) {
+      .backdrop p {
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto; } }
+
+.purpose {
+  clear: both;
+  height: 400px;
+  margin: 50px auto 0px auto;
+  padding-top: 70px;
+  background: url(../../images/fiskateers/green-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media screen and (max-width: 1024px) {
+    .purpose {
+      height: auto; } }
+  .purpose .content-wrapper {
+    position: relative;
+    max-width: 1287px;
+    width: 90%;
+    margin: 0 auto; }
+    @media screen and (max-width: 1024px) {
+      .purpose .content-wrapper {
+        padding-bottom: 5%; } }
+  .purpose ul {
+    max-width: 670px;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; }
+    @media screen and (max-width: 1180px) {
+      .purpose ul {
+        font-size: 21px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose ul {
+        max-width: 100%;
+        font-size: 21px; } }
+    @media screen and (max-width: 1024px) {
+      .purpose ul {
+        font-size: 18px; } }
+    @media screen and (max-width: 480px) {
+      .purpose ul {
+        font-size: 15px;
+        line-height: 1.4; } }
+
+.purpose h3, .success h3 {
+  text-align: center; }
+.purpose li, .success li {
+  position: relative;
+  display: block;
+  margin-bottom: 40px; }
+  @media screen and (max-width: 1440px) {
+    .purpose li, .success li {
+      margin-bottom: 17px; } }
+  @media screen and (max-width: 1180px) {
+    .purpose li, .success li {
+      margin-bottom: 12px; } }
+  @media screen and (max-width: 1024px) {
+    .purpose li, .success li {
+      margin-bottom: 8px; } }
+  .purpose li span, .success li span {
+    position: absolute;
+    opacity: .5;
+    font-size: 1.5em;
+    top: -2px;
+    left: -40px; }
+    @media screen and (max-width: 768px) {
+      .purpose li span, .success li span {
+        font-size: 1.2em;
+        top: 2px;
+        left: -25px; } }
+
+.action h3 {
+  color: #333333; }
+.action img {
+  position: relative;
+  top: -68px;
+  max-width: 559px;
+  width: 100%; }
+  @media screen and (max-width: 768px) {
+    .action img {
+      top: -30px; } }
+
+.success {
+  clear: both;
+  padding-top: 145px;
+  background: url(../../images/fiskateers/orange-bg.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media screen and (max-width: 580px) {
+    .success {
+      padding-top: 165px; } }
+  @media screen and (max-width: 480px) {
+    .success {
+      padding-top: 110px; } }
+  @media screen and (max-width: 320px) {
+    .success {
+      padding-top: 80px; } }
+  .success .content {
+    max-width: 1090px; }
+  .success ul {
+    display: inline-block;
+    width: 47%;
+    max-width: 470px;
+    margin: 0 auto;
+    vertical-align: top; }
+    .success ul:nth-child(even) {
+      margin-right: 9%;
+      padding-left: 30px; }
+    @media screen and (max-width: 1440px) {
+      .success ul {
+        width: 43%; }
+        .success ul:nth-child(even) {
+          margin-right: 7%; } }
+    @media screen and (max-width: 768px) {
+      .success ul {
+        font-size: 15px;
+        line-height: 1.4; }
+        .success ul:last-child {
+          padding-bottom: 30px; } }
+    @media screen and (max-width: 580px) {
+      .success ul {
+        display: block;
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto; }
+        .success ul:nth-child(even) {
+          margin-right: auto;
+          padding-left: 0; } }
+  .success li {
+    margin-bottom: 25px; }
+    .success li:last-child {
+      margin-bottom: 43px; }
+    @media screen and (max-width: 580px) {
+      .success li {
+        margin-bottom: 15px; }
+        .success li:last-child {
+          margin-bottom: 25px; } }
+
+.welcome {
+  margin: 60px auto; }
+  @media screen and (max-width: 768px) {
+    .welcome {
+      margin: 30px auto; } }
+  .welcome .content {
+    position: relative;
+    max-width: 1440px;
+    width: auto;
+    text-align: center; }
+    @media screen and (max-width: 1440px) {
+      .welcome .content {
+        max-width: 1180px; } }
+    @media screen and (max-width: 1180px) {
+      .welcome .content {
+        max-width: 1024px; } }
+    @media screen and (max-width: 1024px) {
+      .welcome .content {
+        max-width: 880px; } }
+    @media screen and (max-width: 880px) {
+      .welcome .content {
+        max-width: 768px; } }
+    @media screen and (max-width: 768px) {
+      .welcome .content {
+        max-width: 90%;
+        width: 90%;
+        margin: 0 auto; } }
+  .welcome img {
+    width: 1550px;
+    margin: 0 auto; }
+    @media screen and (max-width: 1440px) {
+      .welcome img {
+        width: 100%; } }
+    .welcome img.polaroids {
+      width: 95%;
+      margin: 0px auto; }
+  .welcome p {
+    position: relative;
+    float: right;
+    margin-top: -350px;
+    width: 490px;
+    text-align: left; }
+    @media screen and (max-width: 1440px) {
+      .welcome p {
+        margin-top: -350px; } }
+    @media screen and (max-width: 1180px) {
+      .welcome p {
+        width: 450px;
+        margin-top: -300px; } }
+    @media screen and (max-width: 1024px) {
+      .welcome p {
+        width: 390px;
+        margin-top: -270px; } }
+    @media screen and (max-width: 880px) {
+      .welcome p {
+        width: 415px;
+        margin-top: -130px; } }
+    @media screen and (max-width: 768px) {
+      .welcome p {
+        width: 100%;
+        margin-top: 0px; } }
+
+.business-cards {
+  position: relative;
+  padding-bottom: 38%;
+  background: url(../../images/fiskateers/biz-cards.jpg) no-repeat center top, url(../../images/fiskateers/crosshatch-bg.jpg) top left repeat;
+  background-size: auto 100%, 40px auto; }
+  .business-cards p {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    line-height: .7;
+    bottom: 25px;
+    left: 12%;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.45); }
+    @media screen and (max-width: 768px) {
+      .business-cards p {
+        bottom: 8px; } }
+
+.coasters {
+  position: relative;
+  margin-top: 70px; }
+  .coasters img {
+    max-width: 90%;
+    width: 1170px;
+    margin: 0 auto; }
+  .coasters p {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-transform: uppercase; }
+
+.web {
+  position: relative;
+  max-width: 1170px;
+  width: 90%;
+  margin: 100px auto 50px auto; }
+  .web .content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 100px; }
+  .web img {
+    max-width: 770px;
+    width: 90%;
+    margin: 0 auto; }
+    .web img.portal {
+      float: left;
+      display: inline-block;
+      width: 65%;
+      margin: 0 2% 0 0; }
+      @media screen and (max-width: 768px) {
+        .web img.portal {
+          width: 55%; } }
+  .web p {
+    position: relative;
+    display: inline-block;
+    right: 0;
+    vertical-align: top; }
+    .web p big {
+      display: block;
+      font-weight: 700;
+      text-transform: uppercase; }
+
+.images {
+  position: relative;
+  width: 90%;
+  margin: 0 auto; }
+  .images .content {
+    width: 100%;
+    max-width: 1356px; }
+    .images .content img {
+      width: 100%;
+      max-width: 100%; }
+
+.sign-off {
+  clear: both;
+  margin-top: 100px;
+  background: url(../../images/fiskateers/pink-bg.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .sign-off .content {
+    position: relative;
+    max-width: 830px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 8% 0;
+    text-align: right; }
+  .sign-off h2 {
+    margin: 0;
+    line-height: 1.4;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 34px;
+    font-style: italic;
+    text-align: center; }
+    @media screen and (max-width: 880px) {
+      .sign-off h2 {
+        font-size: 30px; } }
+  .sign-off ul {
+    display: inline-block;
+    margin: 0 0 0 auto; }
+  .sign-off li {
+    display: block;
+    font-size: 22px;
+    line-height: 1.4;
+    text-align: left; }
+    .sign-off li:first-child {
+      text-indent: -15px; }
+    @media screen and (max-width: 880px) {
+      .sign-off li {
+        font-size: 16px; } }
+
+h1 {
+  font-size: 2.2em;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 2.2em; }
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 25px; }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.7em; } }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.4em;
+      padding-bottom: 15px; } }
+
+.white {
+  color: #fff; }
+
+h4 {
+  margin: 1.15% 0;
+  font-size: 1.3em;
+  font-weight: 500; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 400; }
