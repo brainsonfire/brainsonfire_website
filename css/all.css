@@ -414,6 +414,20 @@ font-family: Georgia, "Times New Roman", Times, serif;
 	width: 67%;
 	list-style: disc;
 }
+
+#homepagevid {
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -100;
+	background: url(../images/video/Ram-at-his-Desk.jpg) no-repeat;
+	background-size: cover;
+}
+
 .video-container iframe {
 	width: 100%;
 }
@@ -1262,6 +1276,11 @@ body#hello-section #footer{
 	height:100%;
 	min-height:400px;
 }
+
+#gallery .bighome {
+	background-color: rgba(0,0,0,.4);
+}
+
 .cycle-gallery .txt{
 	height:100%;
 	left:50%;
