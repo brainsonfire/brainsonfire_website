@@ -2275,6 +2275,14 @@ body#hello-section #footer{
 	.temp-speaker-container .holder{
 	padding-bottom: 0;
 	}
+	
+	
+	.two-columns .column:first-child,
+	.two-columns .column {
+		width: 100%;
+		float: left;
+		margin: 0 2.5% 0em 2.5%;
+	}
 		
 }
 @media only screen and (max-width:1199px){
@@ -2314,7 +2322,7 @@ body#hello-section #footer{
 		line-height: 24px;
 		margin:0 0 3px;
 	}
-	.two-columns{padding:0 96px;}
+	.two-columns{padding:0;}
 	.block-author{padding:51px 86px 0;}
 	.heder-info p{margin:0 0 35px;}
 	.tabset li{
@@ -2847,6 +2855,16 @@ body#hello-section #footer{
 	.temp-speaker-container .holder{
 	padding-bottom: 10px;
 	}
+	.two-columns {
+		padding: 0 2%;
+		}
+	.two-columns .column:first-child,
+	.two-columns .column {
+		width: 90%;
+		float: left;
+		margin: 0 2.5% 0em 2.5%;
+	}
+
 }
 @media only screen and (max-width:720px){
 
@@ -3269,14 +3287,15 @@ body#hello-section #footer{
 		margin-bottom: 0;
 	}
 
-	.topics-lists.two-columns .column:first-child,
-	.topics-lists.two-columns .column {
-		width: 40%;
-		margin: 2em 5%;
+	.two-columns .column:first-child,
+	.two-columns .column {
+		width: 100%;
+		float: left;
+		margin: 0 5%;
 	}
 }
 
-@media only screen and (max-width:479px){
+@media only screen and (max-width:480px){
 	.open-close .opener{margin:12px 27px 0 0;}
 	.passion-block h2 span{display:block;}
 	.about-panel h2{
@@ -3440,11 +3459,11 @@ body#hello-section #footer{
 		margin: 0 15%;
 	}
 
-	.topics-lists.two-columns .column:first-child,
-	.topics-lists.two-columns .column {
+	.two-columns .column:first-child,
+	.two-columns .column {
 		width: 90%;
 		float: left;
-		margin: 2em 2.5% 0em 2.5%;
+		margin: 0 2.5% 0em 2.5%;
 	}
 
 	.topics-lists.two-columns .column:last-child {
