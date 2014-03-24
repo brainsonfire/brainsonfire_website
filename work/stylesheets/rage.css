@@ -1,0 +1,472 @@
+section:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+section {
+  display: inline-block; }
+
+* html section {
+  height: 1%; }
+
+section {
+  display: block; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+section {
+  clear: both;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.rage .secondary-nav-top {
+  position: absolute; }
+
+#wrapper > img {
+  width: 90%;
+  margin: 0 5%; }
+
+.full-width, .content, .backdrop {
+  max-width: 970px;
+  background: none; }
+
+.two-columns {
+  -moz-column-count: 2;
+  -moz-column-gap: 35px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 35px; }
+
+.col {
+  color: #333;
+  font-weight: 500;
+  line-height: 29px; }
+  .col img {
+    width: 100%; }
+
+.col2 .col {
+  float: left;
+  width: 48%;
+  margin-right: 4%; }
+  .col2 .col:nth-child(2n+0) {
+    margin-right: 0; }
+
+.content {
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  color: #333333; }
+
+p {
+  color: #333333;
+  font-weight: 500;
+  text-align: left; }
+  @media screen and (max-width: 480px) {
+    p {
+      font-size: 15px;
+      line-height: 1.4; } }
+  p.caps {
+    width: 1000px;
+    margin: 0 auto;
+    text-transform: uppercase; }
+    @media screen and (max-width: 880px) {
+      p.caps {
+        font-size: .75em;
+        line-height: 1; } }
+
+#photo-books {
+  max-width: 1365px; }
+
+.rage-hero {
+  position: relative;
+  margin-top: 78px;
+  padding: 0;
+  height: 725px;
+  background: url("../images/rage/rage-hero.jpg") no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center 70%; }
+  @media screen and (max-width: 1180px) {
+    .rage-hero {
+      height: 595px; } }
+  @media screen and (max-width: 1024px) {
+    .rage-hero {
+      height: 425px; } }
+  @media screen and (max-width: 768px) {
+    .rage-hero {
+      height: 345px; } }
+  @media screen and (max-width: 580px) {
+    .rage-hero {
+      height: 250px; } }
+  @media screen and (max-width: 480px) {
+    .rage-hero {
+      height: 200px; } }
+  @media screen and (max-width: 320px) {
+    .rage-hero {
+      height: 180px; } }
+
+.backdrop {
+  margin: 60px auto 0 auto; }
+  @media screen and (max-width: 880px) {
+    .backdrop {
+      margin: 30px auto 0 auto; } }
+  .backdrop .content h3 {
+    color: #333;
+    text-align: center; }
+  .backdrop .column ul {
+    list-style: none; }
+  .backdrop img {
+    float: right;
+    margin: -340px -170px -90px 0; }
+
+.green {
+  position: absolute;
+  width: 100%;
+  top: 101px;
+  background: #c3d600;
+  height: 393px;
+  z-index: 0; }
+  @media screen and (max-width: 1440px) {
+    .green {
+      top: 96px;
+      height: 395px; } }
+  @media screen and (max-width: 1180px) {
+    .green {
+      top: 10%;
+      height: 350px; } }
+  @media screen and (max-width: 1024px) {
+    .green {
+      display: none; } }
+
+.orange {
+  position: relative;
+  margin: -50px auto 0 auto;
+  background: #f6821f url(../images/rage/eagle.png) no-repeat -140px -288px;
+  background-size: 904px auto;
+  overflow: hidden; }
+  .orange .content {
+    padding: 0px;
+    text-align: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+  .orange iframe {
+    padding: 60px 0; }
+  .orange ul {
+    max-width: 670px;
+    width: 590px;
+    font-family: Georgia, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold; }
+    @media screen and (max-width: 1440px) {
+      .orange ul {
+        width: 600px; } }
+    @media screen and (max-width: 1180px) {
+      .orange ul {
+        width: 520px;
+        font-size: 21px; } }
+    @media screen and (max-width: 1180px) {
+      .orange ul {
+        width: 450px;
+        font-size: 18px; } }
+    @media screen and (max-width: 1024px) {
+      .orange ul {
+        width: 100%;
+        max-width: 100%;
+        font-size: 21px; } }
+    @media screen and (max-width: 1024px) {
+      .orange ul {
+        font-size: 18px; } }
+    @media screen and (max-width: 480px) {
+      .orange ul {
+        font-size: 15px;
+        line-height: 1.4; } }
+  .orange li {
+    display: block;
+    margin-bottom: 20px; }
+    .orange li:nth-child(2n) {
+      padding-left: 30px; }
+    .orange li:nth-child(3n) {
+      padding-left: 140px; }
+    @media screen and (max-width: 1440px) {
+      .orange li {
+        margin-bottom: 17px; }
+        .orange li:nth-child(2n) {
+          padding-left: 30px; }
+        .orange li:nth-child(3n) {
+          padding-left: 130px; } }
+        @media screen and (max-width: 1440px) and (max-width: 1180px) {
+          .orange li:nth-child(2n) {
+            padding-left: 10px; } }
+        @media screen and (max-width: 1440px) and (max-width: 1180px) {
+          .orange li:nth-child(3n) {
+            padding-left: 110px; } }
+    @media screen and (max-width: 1180px) {
+      .orange li {
+        margin-bottom: 12px; } }
+    @media screen and (max-width: 1024px) {
+      .orange li {
+        margin-bottom: 8px; }
+        .orange li:nth-child(2n) {
+          padding-left: 0px; }
+        .orange li:nth-child(3n) {
+          padding-left: 0px; } }
+
+.dum {
+  margin: 0 auto;
+  padding: 60px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .dum .col:nth-child(1) {
+    width: 58.7%; }
+    .dum .col:nth-child(1) img {
+      max-width: 569px; }
+  .dum .col:nth-child(2) {
+    width: 37.3%; }
+    .dum .col:nth-child(2) img {
+      max-width: 169px; }
+
+.viralmentalist {
+  margin: -30px auto 0px auto; }
+  .viralmentalist .col:nth-child(1) {
+    width: 41%; }
+  .viralmentalist .col:nth-child(2) {
+    width: 55%; }
+    .viralmentalist .col:nth-child(2) img {
+      max-width: 529px; }
+
+#viraphotos {
+  overflow: hidden;
+  margin: 1em auto 76px auto;
+  max-width: 1170px; }
+
+.leadership .col:nth-child(1) {
+  width: 40.1%; }
+.leadership .col:nth-child(2) {
+  width: 55.9%; }
+.leadership .content > img {
+  width: 100%;
+  margin-top: 1em; }
+
+.purple {
+  margin: 4em auto 1em auto;
+  background: #b4b6ce; }
+  .purple > img {
+    margin-top: -20px;
+    margin-bottom: -60px; }
+
+.couch h3 {
+  text-align: right; }
+.couch .col:first-of-type {
+  width: 42%;
+  margin-right: 4%;
+  text-align: right; }
+  .couch .col:first-of-type img {
+    max-width: 297px; }
+.couch .col:last-of-type {
+  width: 54%;
+  margin-right: 0%; }
+.couch .photos {
+  margin-top: 50px; }
+.couch .photos > img {
+  float: left;
+  max-width: 477px;
+  width: 100%;
+  margin-right: 16px;
+  margin-bottom: 16px; }
+  .couch .photos > img:nth-child(even) {
+    margin-right: 0px; }
+
+.rage-on-road {
+  margin: 2em 0; }
+  .rage-on-road > img {
+    width: 100%; }
+    .rage-on-road > img.trailers {
+      max-width: 1264px; }
+    .rage-on-road > img.myrtle {
+      max-width: 1017px; }
+  .rage-on-road .photos {
+    width: 90%;
+    max-width: 1170px;
+    margin: 2em auto 0em auto; }
+    .rage-on-road .photos img {
+      float: left;
+      width: 49%;
+      max-width: 578px;
+      margin-right: 2%; }
+      .rage-on-road .photos img:nth-child(even) {
+        margin-right: 0; }
+  .rage-on-road .content {
+    max-width: 1140px;
+    margin-top: 2em; }
+  .rage-on-road .rageville {
+    width: 26%;
+    max-width: 300px;
+    margin-top: -70px;
+    margin-right: -60px; }
+  .rage-on-road .ragefest {
+    width: 46%;
+    max-width: 523px; }
+  .rage-on-road .outrageous {
+    width: 32%;
+    max-width: 365px; }
+
+.fnr {
+  margin: 3em auto 2em auto;
+  text-align: center; }
+  .fnr img {
+    width: 100%; }
+
+.stats {
+  margin-bottom: 100px;
+  text-align: center; }
+  .stats img {
+    max-height: 200px;
+    width: auto;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+    border-right: 2px solid #c3d600; }
+    .stats img:last-child {
+      border-right: none; }
+    @media screen and (max-width: 1024px) {
+      .stats img {
+        max-height: 180px; } }
+    @media screen and (max-width: 880px) {
+      .stats img {
+        max-height: 140px;
+        padding: 25px 25px 0 25px; } }
+    @media screen and (max-width: 600px) {
+      .stats img {
+        max-height: 120px;
+        padding: 15px 15px 0 15px; } }
+    @media screen and (max-width: 480px) {
+      .stats img {
+        display: block;
+        max-height: 100%;
+        height: auto;
+        width: 35%;
+        padding: 15px;
+        border-right: none;
+        border-bottom: 1px solid #c3d600; }
+        .stats img:last-child {
+          border-bottom: none; } }
+
+.sign-off {
+  clear: both;
+  margin-top: 100px;
+  background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  .sign-off .content {
+    position: relative;
+    max-width: 830px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 8% 0;
+    text-align: right; }
+  .sign-off h2 {
+    margin: 0;
+    line-height: 1.4;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 34px;
+    font-style: italic;
+    text-align: center; }
+    @media screen and (max-width: 880px) {
+      .sign-off h2 {
+        font-size: 30px; } }
+  .sign-off ul {
+    display: inline-block;
+    margin: 0 0 0 auto; }
+  .sign-off li {
+    display: block;
+    font-size: 22px;
+    text-align: left;
+    line-height: 1.4; }
+    .sign-off li:first-child {
+      text-indent: -15px; }
+    @media screen and (max-width: 880px) {
+      .sign-off li {
+        font-size: 16px; } }
+
+h1 {
+  font-size: 2.2em;
+  color: white;
+  margin: 0;
+  padding: 0; }
+
+h2 {
+  font-size: 2.2em; }
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  padding-bottom: 25px; }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.7em; } }
+  @media screen and (max-width: 768px) {
+    h3 {
+      font-size: 1.4em;
+      padding-bottom: 15px; } }
+
+.white {
+  color: #fff; }
+
+h4 {
+  margin: 1.15% 0;
+  font-size: 1.3em;
+  font-weight: 500; }
+
+h5 {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 400; }
+
+.rage #viraphotos .slideshow .slide {
+  width: 970px;
+  max-width: 970px;
+  left: 50%;
+  margin-left: -485px;
+  padding: 0; }
+  @media screen and (max-width: 1000px) {
+    .rage #viraphotos .slideshow .slide {
+      width: 768px;
+      margin-left: -384px; } }
+  @media screen and (max-width: 768px) {
+    .rage #viraphotos .slideshow .slide {
+      width: 100%;
+      left: 0;
+      margin-left: auto; } }
+  .rage #viraphotos .slideshow .slide img {
+    width: 100%; }
+.rage .btn-next {
+  float: right; }
+.rage .btn-prev {
+  float: left; }
+@media screen and (max-width: 1199px) {
+  .rage .btn-next {
+    right: 0; }
+  .rage .btn-prev {
+    left: 0; } }
