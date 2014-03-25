@@ -31,12 +31,29 @@ section {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; }
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 .rage .secondary-nav-top {
   position: absolute; }
 
 #wrapper > img {
   width: 90%;
   margin: 0 5%; }
+  #wrapper > img#photo-books {
+    width: 100%;
+    max-width: 1365px;
+    margin: 0 auto; }
 
 .full-width, .content, .backdrop {
   max-width: 970px;
@@ -54,6 +71,10 @@ section {
   line-height: 29px; }
   .col img {
     width: 100%; }
+  @media screen and (max-width: 480px) {
+    .col li {
+      font-size: 15px;
+      line-height: 1.4; } }
 
 .col2 .col {
   float: left;
@@ -61,6 +82,13 @@ section {
   margin-right: 4%; }
   .col2 .col:nth-child(2n+0) {
     margin-right: 0; }
+  @media screen and (max-width: 767px) {
+    .col2 .col {
+      width: 100%;
+      float: none;
+      margin-right: 0; }
+      .col2 .col:nth-child(2n+0) {
+        margin-top: 1em; } }
 
 .content {
   width: 90%;
@@ -71,6 +99,7 @@ section {
 p {
   color: #333333;
   font-weight: 500;
+  line-height: 25px;
   text-align: left; }
   @media screen and (max-width: 480px) {
     p {
@@ -84,9 +113,6 @@ p {
       p.caps {
         font-size: .75em;
         line-height: 1; } }
-
-#photo-books {
-  max-width: 1365px; }
 
 .rage-hero {
   position: relative;
@@ -129,101 +155,47 @@ p {
     list-style: none; }
   .backdrop img {
     float: right;
-    margin: -340px -170px -90px 0; }
-
-.green {
-  position: absolute;
-  width: 100%;
-  top: 101px;
-  background: #c3d600;
-  height: 393px;
-  z-index: 0; }
-  @media screen and (max-width: 1440px) {
-    .green {
-      top: 96px;
-      height: 395px; } }
-  @media screen and (max-width: 1180px) {
-    .green {
-      top: 10%;
-      height: 350px; } }
-  @media screen and (max-width: 1024px) {
-    .green {
-      display: none; } }
+    max-width: 637px;
+    width: 73%;
+    margin: -340px -180px -90px 0; }
+    @media screen and (max-width: 880px) {
+      .backdrop img {
+        width: 60%;
+        margin: -50px -100px -90px 0; } }
+    @media screen and (max-width: 767px) {
+      .backdrop img {
+        display: block;
+        margin: 0 auto;
+        float: none; } }
 
 .orange {
   position: relative;
   margin: -50px auto 0 auto;
   background: #f6821f url(../images/rage/eagle.png) no-repeat -140px -288px;
   background-size: 904px auto;
-  overflow: hidden; }
+  overflow: hidden;
+  text-align: right; }
+  .orange .full-width, .orange .content, .orange .backdrop {
+    text-align: right; }
   .orange .content {
-    padding: 0px;
+    padding: 60px 0px;
     text-align: right;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
-  .orange iframe {
-    padding: 60px 0; }
-  .orange ul {
-    max-width: 670px;
-    width: 590px;
-    font-family: Georgia, serif;
-    font-size: 24px;
-    font-style: italic;
-    font-weight: bold; }
-    @media screen and (max-width: 1440px) {
-      .orange ul {
-        width: 600px; } }
-    @media screen and (max-width: 1180px) {
-      .orange ul {
-        width: 520px;
-        font-size: 21px; } }
-    @media screen and (max-width: 1180px) {
-      .orange ul {
-        width: 450px;
-        font-size: 18px; } }
-    @media screen and (max-width: 1024px) {
-      .orange ul {
+  .orange .video-container {
+    display: inline-block;
+    max-width: 560px;
+    width: 57.7%;
+    padding-top: 0;
+    padding-bottom: 30.25%; }
+  @media screen and (max-width: 767px) {
+    .orange {
+      margin: -30px auto 0 auto; }
+      .orange .video-container {
         width: 100%;
         max-width: 100%;
-        font-size: 21px; } }
-    @media screen and (max-width: 1024px) {
-      .orange ul {
-        font-size: 18px; } }
-    @media screen and (max-width: 480px) {
-      .orange ul {
-        font-size: 15px;
-        line-height: 1.4; } }
-  .orange li {
-    display: block;
-    margin-bottom: 20px; }
-    .orange li:nth-child(2n) {
-      padding-left: 30px; }
-    .orange li:nth-child(3n) {
-      padding-left: 140px; }
-    @media screen and (max-width: 1440px) {
-      .orange li {
-        margin-bottom: 17px; }
-        .orange li:nth-child(2n) {
-          padding-left: 30px; }
-        .orange li:nth-child(3n) {
-          padding-left: 130px; } }
-        @media screen and (max-width: 1440px) and (max-width: 1180px) {
-          .orange li:nth-child(2n) {
-            padding-left: 10px; } }
-        @media screen and (max-width: 1440px) and (max-width: 1180px) {
-          .orange li:nth-child(3n) {
-            padding-left: 110px; } }
-    @media screen and (max-width: 1180px) {
-      .orange li {
-        margin-bottom: 12px; } }
-    @media screen and (max-width: 1024px) {
-      .orange li {
-        margin-bottom: 8px; }
-        .orange li:nth-child(2n) {
-          padding-left: 0px; }
-        .orange li:nth-child(3n) {
-          padding-left: 0px; } }
+        padding-bottom: 54.25%; } }
 
 .dum {
   margin: 0 auto;
@@ -239,6 +211,23 @@ p {
     width: 37.3%; }
     .dum .col:nth-child(2) img {
       max-width: 169px; }
+  @media screen and (max-width: 880px) {
+    .dum {
+      padding-bottom: 20px; }
+      .dum .col:nth-child(1) {
+        width: 100%; }
+        .dum .col:nth-child(1) img {
+          max-width: 100%;
+          margin-bottom: 1em; }
+      .dum .col:nth-child(2) {
+        width: 100%; }
+        .dum .col:nth-child(2) img {
+          float: left;
+          margin-right: 1em; } }
+  @media screen and (max-width: 480px) {
+    .dum .col:nth-child(2) img {
+      max-width: 100px;
+      margin-right: 1.5%; } }
 
 .viralmentalist {
   margin: -30px auto 0px auto; }
@@ -248,11 +237,23 @@ p {
     width: 55%; }
     .viralmentalist .col:nth-child(2) img {
       max-width: 529px; }
+  @media screen and (max-width: 767px) {
+    .viralmentalist {
+      margin: 0 auto; }
+      .viralmentalist .col:nth-child(1) {
+        width: 100%; }
+      .viralmentalist .col:nth-child(2) {
+        width: 100%; }
+      .viralmentalist .col:nth-child(2) img {
+        max-width: 100%; } }
 
-#viraphotos {
+#viraphotos, #fnrphotos, #toolphotos {
   overflow: hidden;
   margin: 1em auto 76px auto;
   max-width: 1170px; }
+  @media screen and (max-width: 767px) {
+    #viraphotos, #fnrphotos, #toolphotos {
+      margin-bottom: 20px; } }
 
 .leadership .col:nth-child(1) {
   width: 40.1%; }
@@ -261,16 +262,32 @@ p {
 .leadership .content > img {
   width: 100%;
   margin-top: 1em; }
+@media screen and (max-width: 767px) {
+  .leadership .col:nth-child(1) {
+    width: 100%; }
+  .leadership .col:nth-child(2) {
+    width: 100%; } }
 
 .purple {
   margin: 4em auto 1em auto;
   background: #b4b6ce; }
+  @media screen and (max-width: 1000px) {
+    .purple {
+      margin-bottom: 4em; } }
   .purple > img {
-    margin-top: -20px;
-    margin-bottom: -60px; }
+    width: 90%;
+    max-width: 891px;
+    margin: -20px auto -60px auto; }
+    @media screen and (max-width: 480px) {
+      .purple > img {
+        width: 80%;
+        margin: -20px auto; } }
 
 .couch h3 {
   text-align: right; }
+  @media screen and (max-width: 1000px) {
+    .couch h3 {
+      text-align: center; } }
 .couch .col:first-of-type {
   width: 42%;
   margin-right: 4%;
@@ -285,19 +302,29 @@ p {
 .couch .photos > img {
   float: left;
   max-width: 477px;
-  width: 100%;
-  margin-right: 16px;
-  margin-bottom: 16px; }
+  width: 49.1%;
+  margin-right: 0.8%;
+  margin-bottom: 0.8%; }
   .couch .photos > img:nth-child(even) {
     margin-right: 0px; }
+@media screen and (max-width: 767px) {
+  .couch .col:first-of-type {
+    width: 100%;
+    margin-bottom: 1em;
+    text-align: center; }
+  .couch .col:last-of-type {
+    width: 100%; } }
+@media screen and (max-width: 480px) {
+  .couch .photos > img {
+    width: 100%; } }
 
 .rage-on-road {
   margin: 2em 0; }
-  .rage-on-road > img {
+  .rage-on-road img {
     width: 100%; }
-    .rage-on-road > img.trailers {
+    .rage-on-road img.trailers {
       max-width: 1264px; }
-    .rage-on-road > img.myrtle {
+    .rage-on-road img.myrtle {
       max-width: 1017px; }
   .rage-on-road .photos {
     width: 90%;
@@ -324,6 +351,25 @@ p {
   .rage-on-road .outrageous {
     width: 32%;
     max-width: 365px; }
+  @media screen and (max-width: 480px) {
+    .rage-on-road .photos {
+      margin-top: 1em;
+      margin-bottom: 1em; }
+      .rage-on-road .photos img {
+        width: 100%;
+        margin-bottom: .8%; }
+    .rage-on-road .content {
+      margin-top: 0em; }
+    .rage-on-road .rageville, .rage-on-road .ragefest, .rage-on-road .outrageous {
+      float: none;
+      display: block;
+      width: 90%;
+      max-width: 320px;
+      margin: 0 auto 1em auto; }
+    .rage-on-road .rageville {
+      margin: 0 auto;
+      margin-top: 0px;
+      margin-right: auto; } }
 
 .fnr {
   margin: 3em auto 2em auto;
@@ -331,81 +377,154 @@ p {
   .fnr img {
     width: 100%; }
 
-.stats {
-  margin-bottom: 100px;
-  text-align: center; }
-  .stats img {
-    max-height: 200px;
-    width: auto;
-    margin: 0 auto;
-    padding: 50px 50px 0 50px;
-    border-right: 2px solid #c3d600; }
-    .stats img:last-child {
-      border-right: none; }
-    @media screen and (max-width: 1024px) {
-      .stats img {
-        max-height: 180px; } }
-    @media screen and (max-width: 880px) {
-      .stats img {
-        max-height: 140px;
-        padding: 25px 25px 0 25px; } }
-    @media screen and (max-width: 600px) {
-      .stats img {
-        max-height: 120px;
-        padding: 15px 15px 0 15px; } }
-    @media screen and (max-width: 480px) {
-      .stats img {
-        display: block;
-        max-height: 100%;
-        height: auto;
-        width: 35%;
-        padding: 15px;
-        border-right: none;
-        border-bottom: 1px solid #c3d600; }
-        .stats img:last-child {
-          border-bottom: none; } }
+.night-rage .col:nth-child(1) {
+  width: 58.2%; }
+.night-rage .col:nth-child(2) {
+  width: 37.8%; }
+.night-rage .content > section {
+  margin-top: 2em; }
+  .night-rage .content > section > img {
+    width: 48.7%;
+    max-width: 473px; }
+@media screen and (max-width: 880px) {
+  .night-rage .col:nth-child(1), .night-rage .col:nth-child(2) {
+    width: 100%; }
+  .night-rage .col:nth-child(1) {
+    margin-bottom: 1em; }
+  .night-rage .content > section {
+    margin-top: 1em; }
+    .night-rage .content > section > img {
+      width: 90%;
+      max-width: 473px;
+      margin: 0 auto;
+      float: none; } }
 
-.sign-off {
-  clear: both;
-  margin-top: 100px;
-  background: url(../../images/greenville/greenville-bg.jpg) no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  .sign-off .content {
-    position: relative;
-    max-width: 830px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 8% 0;
+.rf2011 {
+  padding: 80px 0;
+  background: #9eb4b3; }
+  .rf2011 .col:nth-child(1) {
+    width: 49.6%;
+    margin-right: 0; }
+    .rf2011 .col:nth-child(1) img {
+      max-width: 569px;
+      border-top: 24px solid #9eb4b3; }
+  .rf2011 .col:nth-child(2) {
+    width: 50.4%;
     text-align: right; }
-  .sign-off h2 {
-    margin: 0;
-    line-height: 1.4;
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 34px;
-    font-style: italic;
+    .rf2011 .col:nth-child(2) img {
+      max-width: 478px;
+      border: 14px solid #3d332a; }
+    .rf2011 .col:nth-child(2) h3 {
+      margin-right: -31px;
+      line-height: 1.4; }
+  @media screen and (max-width: 767px) {
+    .rf2011 {
+      padding: 20px 0; }
+      .rf2011 .col:nth-child(1) {
+        width: 100%;
+        margin-right: 0; }
+        .rf2011 .col:nth-child(1) img {
+          border-top: 0;
+          margin: 0 auto;
+          float: none; }
+      .rf2011 .col:nth-child(2) {
+        width: 100%;
+        text-align: center; }
+        .rf2011 .col:nth-child(2) img {
+          float: none;
+          border: 7px solid #3d332a;
+          margin: 0 auto; }
+        .rf2011 .col:nth-child(2) h3 {
+          display: block;
+          margin-right: auto; } }
+
+.curriculum {
+  margin: 40px auto; }
+  .curriculum p {
+    text-align: justify; }
+  .curriculum h3 {
+    text-align: left; }
+  .curriculum .col img {
+    max-width: 481px; }
+  .curriculum .col:nth-child(1) {
+    width: 50%;
+    margin-right: 1.5%; }
+    .curriculum .col:nth-child(1) img:first-of-type {
+      width: 135%;
+      max-width: 655px;
+      margin-top: -50px;
+      margin-bottom: -75px;
+      margin-left: -87px; }
+      @media screen and (max-width: 1000px) {
+        .curriculum .col:nth-child(1) img:first-of-type {
+          margin-top: -17px;
+          margin-bottom: -45px; } }
+  .curriculum .col:nth-child(2) {
+    width: 48.5%;
+    margin-top: 62px; }
+    .curriculum .col:nth-child(2) img {
+      width: 105%; }
+  .curriculum .posters {
+    margin-top: 20px; }
+    .curriculum .posters img {
+      float: left;
+      width: 24.4%;
+      max-width: 237px;
+      margin-right: .8%; }
+      .curriculum .posters img:last-of-type {
+        margin-right: 0; }
+  @media screen and (max-width: 767px) {
+    .curriculum .col:nth-child(1), .curriculum .col:nth-child(2) {
+      width: 100%; }
+    .curriculum .col:nth-child(1) img:first-of-type {
+      width: 70%;
+      margin: 0 auto; }
+    .curriculum .col img.spread {
+      width: 49%;
+      float: left;
+      margin-right: 2%;
+      margin-bottom: 2%; }
+      .curriculum .col img.spread:nth-child(even) {
+        margin-right: 0; } }
+  @media screen and (max-width: 480px) {
+    .curriculum .posters img {
+      float: left;
+      width: 49%;
+      max-width: 49%;
+      margin-right: 2%;
+      margin-bottom: 2%; }
+      .curriculum .posters img:last-of-type, .curriculum .posters img:nth-child(even) {
+        margin-right: 0; } }
+
+.tool .content > img {
+  width: 100%;
+  max-width: 969px;
+  margin-top: 40px; }
+
+.buttons {
+  margin-top: -2.5em; }
+  @media screen and (min-width: 1440px) {
+    .buttons {
+      margin-top: -5em; } }
+  @media screen and (max-width: 480px) {
+    .buttons {
+      margin-top: -1.5em; } }
+  .buttons img {
+    width: 100%; }
+
+.effie {
+  margin: 60px auto 0 auto; }
+  .effie .content {
     text-align: center; }
-    @media screen and (max-width: 880px) {
-      .sign-off h2 {
-        font-size: 30px; } }
-  .sign-off ul {
-    display: inline-block;
-    margin: 0 0 0 auto; }
-  .sign-off li {
-    display: block;
-    font-size: 22px;
-    text-align: left;
-    line-height: 1.4; }
-    .sign-off li:first-child {
-      text-indent: -15px; }
-    @media screen and (max-width: 880px) {
-      .sign-off li {
-        font-size: 16px; } }
+    .effie .content h3, .effie .content p {
+      text-align: center; }
+    .effie .content img {
+      width: 100%;
+      max-width: 816px;
+      margin: 0 auto; }
+  @media screen and (max-width: 480px) {
+    .effie {
+      margin-top: 20px; } }
 
 h1 {
   font-size: 2.2em;
@@ -444,22 +563,22 @@ h5 {
   font-size: 1em;
   font-weight: 400; }
 
-.rage #viraphotos .slideshow .slide {
+.rage #viraphotos .slideshow .slide, .rage #fnrphotos .slideshow .slide, .rage #toolphotos .slideshow .slide {
   width: 970px;
   max-width: 970px;
   left: 50%;
   margin-left: -485px;
   padding: 0; }
   @media screen and (max-width: 1000px) {
-    .rage #viraphotos .slideshow .slide {
+    .rage #viraphotos .slideshow .slide, .rage #fnrphotos .slideshow .slide, .rage #toolphotos .slideshow .slide {
       width: 768px;
       margin-left: -384px; } }
   @media screen and (max-width: 768px) {
-    .rage #viraphotos .slideshow .slide {
+    .rage #viraphotos .slideshow .slide, .rage #fnrphotos .slideshow .slide, .rage #toolphotos .slideshow .slide {
       width: 100%;
       left: 0;
       margin-left: auto; } }
-  .rage #viraphotos .slideshow .slide img {
+  .rage #viraphotos .slideshow .slide img, .rage #fnrphotos .slideshow .slide img, .rage #toolphotos .slideshow .slide img {
     width: 100%; }
 .rage .btn-next {
   float: right; }
@@ -470,3 +589,7 @@ h5 {
     right: 0; }
   .rage .btn-prev {
     left: 0; } }
+.rage #toolphotos {
+  margin-bottom: 40px; }
+  .rage #toolphotos .btn-next, .rage #toolphotos .btn-prev {
+    margin-top: -22px; }
