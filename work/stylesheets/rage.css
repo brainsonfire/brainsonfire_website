@@ -67,7 +67,7 @@ section {
 
 .col {
   color: #333;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 29px; }
   .col img {
     width: 100%; }
@@ -98,7 +98,7 @@ section {
 
 p {
   color: #333333;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 25px;
   text-align: left; }
   @media screen and (max-width: 480px) {
