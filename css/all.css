@@ -2090,6 +2090,12 @@ body#hello-section #footer{
 	font-weight: 400;
 }
 
+.speakername{
+	text-transform: none;
+	line-height: 0;
+	margin-top: 20px;
+}
+
 .block-buy.speaking-call-block { padding:50px 0 25px 0; }
 
 .section-author .tabset a { text-transform: lowercase; }
@@ -3585,7 +3591,7 @@ body#hello-section #footer{
 	position: relative;
 	display: inline-block;
 	float: left;
-	width: 25%;
+	width: 33%;
 	margin: 0 0 70px 0;
 	padding: 0;
 	font-size: 18px;
@@ -3599,7 +3605,7 @@ body#hello-section #footer{
 	border-radius: 100%;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 900px) {
 	.speakers li {
 		width: 50%;
 	}
