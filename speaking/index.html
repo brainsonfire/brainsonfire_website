@@ -12,7 +12,6 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script src="../js/jquery-1.8.3.min.js"><\/script>')</script>
 	<script type="text/javascript" src="../js/jquery.main.js"></script>
-	<script type="text/javascript" src="../js/chosen/chosen.jquery.min.js"></script>
 	<script src="../speaking-form/scripts/wufoo.js"></script>
 	<!--[if IE]><script type="text/javascript" src="../js/ie.js"></script><![endif]-->
 	<script type="text/javascript" src="http://use.typekit.net/vnn2jfd.js"></script>
@@ -84,9 +83,11 @@
 								<img src="../images/speakers/geno-257x257.jpg" alt="">
 							</div>
 							Geno Church
-							<div class="block-buy speaking-call-block">
-								<a href="geno-speaker.html"><div class="link-buy email-us">learn more</div></a>
-							</div>
+							<a href="geno-speaker.html">
+								<div class="block-buy speaking-call-block">
+									<div class="link-buy email-us">learn more</div>
+								</div>
+							</a>
 					</li>
 					<li class="speaker-names">
 							<div class="img-holder">
@@ -135,7 +136,7 @@
 				</div>
 			</div>
 			<div class="block-buy speaking-call-block">
-				<a href="mailto:amy@brainsonfire.com"><div class="link-buy email-us">book us now</div></a>
+				<a href="#form"><div class="link-buy email-us">book us now</div></a>
 			</div>
 		</article>
 
@@ -339,7 +340,7 @@
 				</ul>
 			</div>
 		</article>
-
+<a name="form"></a> 
 		<article class="about-panel contact-us">
 			<h2>Book Us</h2>
 			<p class="subhead">Or just submit a speaking inquiry.</p>
@@ -411,7 +412,7 @@
 			      <li id="foli16" class="notranslate form-field">
 			        <label class="desc" id="title16" for="Field16">Time of Day</label>
 			        <div>
-			          <select id="Field16" name="Field16" class="chosen-select field select medium" tabindex="9" >
+			          <select id="Field16" name="Field16" class="chosen-select field select small" tabindex="9" >
 			            <option value="-- Select a Time --" selected="selected">-- Select a Time --</option>
 			            <option value="Morning" >Morning</option>
 			            <option value="Afternoon" >Afternoon</option>
@@ -422,7 +423,7 @@
 			      <li id="foli17" class="notranslate form-field">
 			        <label class="desc" id="title17" for="Field17">Preferred Speaker</label>
 			        <div>
-			          <select id="Field17" name="Field17" class="chosen-select field select medium" tabindex="10" >
+			          <select id="Field17" name="Field17" class="chosen-select field select small" tabindex="10" >
 			            <option value="-- Select a Speaker --" selected="selected">-- Select a Speaker --</option>
 			            <option value="Robbin Phillips" >Robbin Phillips</option>
 			            <option value="Geno Church" >Geno Church</option>
@@ -509,8 +510,6 @@
 			</section>
 		</footer>
 	</div>
-	<script>
-		$('.chosen-select').chosen();
-	</script>
+
 </body>
 </html>
