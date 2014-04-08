@@ -2124,6 +2124,8 @@ body#hello-section #footer{
 }
 
 .temp-speaker-container .holder{
+	/*display: table;
+	content: ' ';*/
 	padding-bottom: 48px;
 }
 
@@ -3570,3 +3572,45 @@ body#hello-section #footer{
 .retailers a.amazon { display:block; width:268px; height:65px; position:absolute; top:264px; left:6px; }
 .retailers a.bn { display:block; width:268px; height:50px; position:absolute; top:395px; left:4px; }
 .retailers a.indiebound { display:block; width:212px; height:200px; position:absolute; top:250px; left:340px; }
+
+
+.speakers {
+	display: table;
+	width: 90%;
+	margin: 0 auto;
+	content: ' ';
+}
+
+.speakers li {
+	position: relative;
+	display: inline-block;
+	float: left;
+	width: 25%;
+	margin: 0 0 70px 0;
+	padding: 0;
+	font-size: 18px;
+	text-align: center;
+	line-height: 20px;
+	list-style: none;
+	text-transform: lowercase;
+}
+
+.speakers img {
+	border-radius: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+	.speakers li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.speakers li {
+		width: 100%;
+	}
+
+	.speaking-call-block .email-us {
+		padding: 20px 50px;
+	}
+}
