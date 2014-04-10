@@ -31,7 +31,7 @@ section {
 
 p {
   color: #333333;
-  font-weight: 500;
+  /* font-weight: 500; */
   text-align: left; }
   @media screen and (max-width: 480px) {
     p {
@@ -572,13 +572,17 @@ p {
   margin-bottom: 100px;
   text-align: center; }
   .stats img {
-    max-height: 200px;
+    max-height: 95px;
     width: auto;
     margin: 0 auto;
-    padding: 50px 50px 0 50px;
+    padding: 50px 25px 0 25px;
     border-right: 2px solid #c3d600; }
     .stats img:last-child {
       border-right: none; }
+    @media screen and (max-width: 1051px) {
+      .stats img {
+         max-height: 180px;} }
+
     @media screen and (max-width: 1024px) {
       .stats img {
         max-height: 180px; } }
@@ -673,7 +677,7 @@ h3 {
 h4 {
   margin: 1.15% 0;
   font-size: 1.3em;
-  font-weight: 500; }
+  /* font-weight: 500; */ }
 
 h5 {
   margin: 0;
