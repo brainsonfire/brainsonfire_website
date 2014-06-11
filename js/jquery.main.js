@@ -7,7 +7,6 @@ jQuery(function(){
 	initSmoothScroll();
 	initDayOrNight();
 	initSlideShow();
-	initOpenClose();
 	initTeamAccordion();
 	initAnchorLinks();
 	initCycleCarousel();
