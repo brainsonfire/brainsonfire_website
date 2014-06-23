@@ -1822,6 +1822,19 @@ body#hello-section #footer{
 	line-height:42px;
 	margin:0 0 5px;
 }
+
+.section-intro.blue1{background:#19b1ce url(../images/bg-wildthings.jpg) repeat-x 50% 0;}
+.section-intro.blue1 .holder{padding:164px 0 86px;}
+.section-intro.blue1 h1{
+	font-size:40px;
+	font-weight:normal;
+	font-weight: 500;
+	letter-spacing:-1px;	
+	line-height:42px;
+	margin:0 0 5px;
+}
+
+
 .section-application{
 	background:#fff;
 	padding:69px 0 20px;

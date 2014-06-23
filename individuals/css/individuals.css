@@ -352,6 +352,17 @@ FLOATING PEOPLE
 	bottom: -32px;
 	left: -61px;
 }
+#sarah {
+	position:absolute;
+	bottom:-59px;
+	right:102px;
+}
+
+#night-sarah {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
 #sean {
 	position:absolute;
 	bottom:72px;
@@ -937,13 +948,24 @@ left:-708px;
 	bottom: -32px;
 	left: -61px;
 }
+#sarah {
+	position:absolute;
+	bottom:-60px;
+	right:67px;
+	width: 494px;	
+}
+
+#night-sarah {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
 #sean {
 	position:absolute;
 	bottom: 44px;
 	right: -81px;
 	width: 283px;
 }
-
 #night-sean {
 	position:absolute;
 	bottom: 61px;
@@ -1317,6 +1339,18 @@ left:-708px;
 }
 
 #night-nathan {
+	position:absolute;
+	bottom: -32px;
+	left: -61px;
+}
+#sarah {
+	position:absolute;
+	bottom:-26px;
+	right:58px;
+	width: 385px;	
+}
+
+#night-sarah {
 	position:absolute;
 	bottom: -32px;
 	left: -61px;
