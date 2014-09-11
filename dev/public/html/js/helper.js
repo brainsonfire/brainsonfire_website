@@ -1,0 +1,59 @@
+/*----------------------------------------
+    Avoid `console` errors in browsers that lack a console.
+------------------------------------------*/
+(function () {
+    var method;
+    var noop = function noop() {};
+    var methods = ["assert", "clear", "count", "debug", "dir", "dirxml", "error", "exception", "group", "groupCollapsed", "groupEnd", "info", "log", "markTimeline", "profile", "profileEnd", "table", "time", "timeEnd", "timeStamp", "trace", "warn"];
+    var length = methods.length;
+    var console = window.console = window.console || {};
+    while (length--) {
+        method = methods[length];
+        if (!console[method]) console[method] = noop
+    }
+})();
+
+$(document).ready(function () {
+
+    if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) {
+      var viewportmeta = document.querySelector('meta[name="viewport"]');
+      if (viewportmeta) {
+          viewportmeta.content = 'width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0';
+          document.body.addEventListener('gesturestart', function () {
+              viewportmeta.content = 'width=device-width, minimum-scale=0.25, maximum-scale=1.6';
+          }, false);
+      }
+  }
+
+  //Check Mobile Devices
+  var checkMobile = function(){
+    //Check Device
+    var isTouch = ('ontouchstart' in document.documentElement);
+    //Check Device //All Touch Devices
+    if ( isTouch ) {
+        $('html').addClass('touch');
+    }
+    else {
+        $('html').addClass('no-touch');
+    };
+  };
+  //Execute Check
+  checkMobile();
+
+    /*----------------------------------------
+        Placeholder
+    ------------------------------------------*/
+
+    $('input').focusin(function() {
+        input = $(this);
+        input.data('place-holder-text', input.attr('placeholder'))
+        input.attr('placeholder', '');
+    });
+
+    $('input').focusout(function() {
+        input = $(this);
+        input.attr('placeholder', input.data('place-holder-text'));
+    });
+
+});
+
