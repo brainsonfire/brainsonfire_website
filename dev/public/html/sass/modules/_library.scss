@@ -1,0 +1,118 @@
+.section-work h1,
+.section-read h1,
+.section-author h1,
+.section-wares h1,
+.form-contact h1,
+.people-holder h1,
+.people-post h1,
+.more-posts h1,
+.section-newsletter-band h1 {
+  color: #333;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 42px;
+  margin: 0 0 7px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.section-work h2,
+.section-read h2,
+.section-author h2,
+.section-wares h2,
+.people-holder h2,
+.section-newsletter-band h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0 0 58px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn-down,
+.btn-down:active{
+  background:#f18013;
+  bottom:0;
+  height:30px;
+  left:0;
+  overflow:hidden;
+  position:absolute;
+  text-indent:-9999px;
+  width:100%;
+  z-index:2;
+}
+.btn-down:before{
+  background:url(../images/library/sprite.png) no-repeat 0 -150px;
+  content:"";
+  height:16px;
+  left:50%;
+  margin:-8px 0 0 -11px;
+  position:absolute;
+  top:50%;
+  width:22px;
+}
+
+
+
+.orbit-subnav {
+  display: table;
+  position: relative;
+  margin: 0 auto 30px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  li {
+    display: inline;
+    margin: 0 15px;
+  }  
+
+}
+.orbit-container {
+  .orbit-prev,
+  .orbit-next,
+  .orbit-timer,
+  .orbit-slide-number,
+  .orbit-bullets-container {
+    display: none;
+  }
+}
+#blockquote .orbit-container {
+  .orbit-prev,
+  .orbit-next {
+    display: block;
+    opacity: 1;
+    border: 1px solid red;
+  }
+}
+.text-orbit {
+  strong {
+    display: block;
+  }
+}
+
+.circle-orbit-subnav {
+  display: table;
+  position: relative;
+  margin: 0 auto 30px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  li {
+    float: left;
+    width: 22%;
+    margin: 0 15px;
+    a {
+
+      display: table;
+      width: 100%;
+      background: red;
+    @include border-radius(50%);
+    }
+    
+  }  
+
+}

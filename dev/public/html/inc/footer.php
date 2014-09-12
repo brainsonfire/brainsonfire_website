@@ -1,7 +1,8 @@
 <footer id="footer">
+
 	<div class="row">
 		
-		<a class="go-top go-top-js" href="#header">goto top</a>
+		<a class="go-top btn-scroll" href="#header">goto top</a>
 		
 		<div class="block talk-block">
 			<strong class="title">Talk to US</strong>
@@ -10,7 +11,7 @@
 		
 		<div class="block call-block"> 
 			<span class="call">Give Us a Call!</span>
-			<a href="tel:864-676-9663" class="tel">864-676-9663</a>
+			<a class="tel fnc-tel" href="tel:864-676-9663">864-676-9663</a>
 		</div>
 
 		<div class="block email-block"> 
@@ -34,14 +35,20 @@
 		</div>
 
 	</div>
+
 	<div class="footer-bottom">
+
 		<div class="row">
+
 			<ul>
 				<li>Copyright Brains On Fire 2013</li>
 				<li><address>148 River Street, Suite 100 Greenville, SC 29601</address></li>
 				<li><a href="./legal">Legal Mumjum</a></li>
 				<li>Use Hedley Typeface</li>
 			</ul>
+
 		</div>
+
 	</div>
+
 </footer>

@@ -732,7 +732,133 @@ section:last-child {
   padding: 0 0 80px;
 }
 
-/* line 492, ../sass/modules/_layout.scss */
+/* line 1, ../sass/modules/_library.scss */
+.section-work h1,
+.section-read h1,
+.section-author h1,
+.section-wares h1,
+.form-contact h1,
+.people-holder h1,
+.people-post h1,
+.more-posts h1,
+.section-newsletter-band h1 {
+  color: #333;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 42px;
+  margin: 0 0 7px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 19, ../sass/modules/_library.scss */
+.section-work h2,
+.section-read h2,
+.section-author h2,
+.section-wares h2,
+.people-holder h2,
+.section-newsletter-band h2 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0 0 58px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 35, ../sass/modules/_library.scss */
+.btn-down,
+.btn-down:active {
+  background: #f18013;
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  width: 100%;
+  z-index: 2;
+}
+
+/* line 47, ../sass/modules/_library.scss */
+.btn-down:before {
+  background: url(../images/library/sprite.png) no-repeat 0 -150px;
+  content: "";
+  height: 16px;
+  left: 50%;
+  margin: -8px 0 0 -11px;
+  position: absolute;
+  top: 50%;
+  width: 22px;
+}
+
+/* line 60, ../sass/modules/_library.scss */
+.orbit-subnav {
+  display: table;
+  position: relative;
+  margin: 0 auto 30px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+/* line 67, ../sass/modules/_library.scss */
+.orbit-subnav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* line 74, ../sass/modules/_library.scss */
+.orbit-container .orbit-prev,
+.orbit-container .orbit-next,
+.orbit-container .orbit-timer,
+.orbit-container .orbit-slide-number,
+.orbit-container .orbit-bullets-container {
+  display: none;
+}
+
+/* line 83, ../sass/modules/_library.scss */
+#blockquote .orbit-container .orbit-prev,
+#blockquote .orbit-container .orbit-next {
+  display: block;
+  opacity: 1;
+  border: 1px solid red;
+}
+
+/* line 91, ../sass/modules/_library.scss */
+.text-orbit strong {
+  display: block;
+}
+
+/* line 96, ../sass/modules/_library.scss */
+.circle-orbit-subnav {
+  display: table;
+  position: relative;
+  margin: 0 auto 30px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+/* line 104, ../sass/modules/_library.scss */
+.circle-orbit-subnav li {
+  float: left;
+  width: 22%;
+  margin: 0 15px;
+}
+/* line 108, ../sass/modules/_library.scss */
+.circle-orbit-subnav li a {
+  display: table;
+  width: 100%;
+  background: red;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 1, ../sass/modules/_home.scss */
 #home-video {
   background: url("../images/video/Ram-at-his-Desk.jpg") no-repeat scroll 0 0/cover transparent;
   top: 0;
@@ -745,20 +871,21 @@ section:last-child {
   z-index: 1;
 }
 
-/* line 504, ../sass/modules/_layout.scss */
+/* line 12, ../sass/modules/_home.scss */
 #home-video + #gallery {
   min-height: 100vh;
+  margin: -83px 0 0;
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 509, ../sass/modules/_layout.scss */
+/* line 17, ../sass/modules/_home.scss */
 .videoHolder {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 514, ../sass/modules/_layout.scss */
+/* line 22, ../sass/modules/_home.scss */
 .videoHolder iframe,
 .videoHolder video,
 .videoHolder object,
@@ -771,7 +898,7 @@ section:last-child {
   height: 100%;
 }
 
-/* line 528, ../sass/modules/_layout.scss */
+/* line 34, ../sass/modules/_home.scss */
 .cycle-gallery .txt {
   position: absolute;
   margin: auto;
@@ -782,8 +909,8 @@ section:last-child {
   width: 100%;
   height: 50%;
 }
-/* line 538, ../sass/modules/_layout.scss */
-.cycle-gallery .txt p {
+/* line 43, ../sass/modules/_home.scss */
+.cycle-gallery .txt h1 {
   color: #fff;
   display: block;
   text-transform: uppercase;
@@ -792,4 +919,97 @@ section:last-child {
   font-size: 4.375rem;
   line-height: 75px;
   line-height: 4.6875rem;
+}
+
+/* line 52, ../sass/modules/_home.scss */
+.section-work {
+  background: url(../images/layout/bg-path.png);
+  color: #333;
+}
+/* line 55, ../sass/modules/_home.scss */
+.section-work .row {
+  margin: 0 auto;
+  padding: 66px 0 75px;
+  max-width: 1200px;
+}
+
+/* line 61, ../sass/modules/_home.scss */
+.works-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+  display: block;
+}
+/* line 69, ../sass/modules/_home.scss */
+.works-list li {
+  float: left;
+  display: inline-block;
+  margin: 0 14px 0 15px;
+}
+/* line 74, ../sass/modules/_home.scss */
+.works-list a {
+  position: relative;
+  opacity: 1;
+}
+/* line 78, ../sass/modules/_home.scss */
+.works-list a:hover {
+  opacity: 0.9;
+}
+/* line 81, ../sass/modules/_home.scss */
+.works-list img {
+  display: block;
+  max-width: 100%;
+  vertical-align: top;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 88, ../sass/modules/_home.scss */
+.section-work .btn-holder {
+  margin: 65px 0 0;
+}
+
+/* line 91, ../sass/modules/_home.scss */
+.section-work .btn-view {
+  background: #eb7e1f;
+  color: #fff;
+  display: table;
+  margin: 0 auto;
+  font: italic 28px/30px Georgia, serif;
+  padding: 26px 44px 23px 101px;
+  position: relative;
+  text-align: left;
+  vertical-align: top;
+}
+/* line 102, ../sass/modules/_home.scss */
+.section-work .btn-view:hover {
+  background: #d17327;
+  text-decoration: none;
+}
+/* line 106, ../sass/modules/_home.scss */
+.section-work .btn-view:before {
+  background: url("../images/library/sprite.png") no-repeat scroll 0 -180px transparent;
+  content: "";
+  height: 37px;
+  left: 43px;
+  position: absolute;
+  top: 21px;
+  width: 37px;
+}
+
+/* line 117, ../sass/modules/_home.scss */
+#tagboard-wrap {
+  background: #F3F3F3;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-top: 113px solid #f3f3f3;
+}
+/* line 123, ../sass/modules/_home.scss */
+#tagboard-wrap #tagboard-embed {
+  margin: -80px 0 -160px;
 }

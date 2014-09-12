@@ -1,11 +1,17 @@
 <header id="header">
+
 	<div class="row">
+		
 		<a id="logo" href="home.php"><img src="images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
+		
 		<div class="tab-bar">
 			<a class="right-off-canvas-toggle menu-icon" href="#"><span>Menu</span></a>
 		</div>
+
 	</div>
+
 	<nav class="right-off-canvas-menu">
+
 		<ul class="primary-nav">
 			<li>
 				<a href="">Home</a>
@@ -23,6 +29,7 @@
 				<a href="">Meet Our Tribe</a>
 			</li>
 		</ul>
+
 		<ul class="secondary-nav">
 			<li>
 				<a href="">Blog</a>
@@ -40,5 +47,7 @@
 				<a href="">Hello</a>
 			</li>
 		</ul>
+
 	</nav>
+
 </header>

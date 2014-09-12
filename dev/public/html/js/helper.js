@@ -55,5 +55,26 @@ $(document).ready(function () {
         input.attr('placeholder', input.data('place-holder-text'));
     });
 
+    // call links
+    $(".no-touch .fnc-tel").click(function(){
+        return false;
+    });
+
+
+    /*----------------------------------------
+        Scrollers
+    ------------------------------------------*/
+    $('.btn-scroll').click(function(event) {
+        event.preventDefault();
+        var full_url = this.href,
+            parts = full_url.split('#'),
+            trgt = parts[1],
+            target_offset = $('#' + trgt).offset(),
+            target_top = target_offset.top;
+        $('html, body').animate({
+            scrollTop: target_top
+        }, 800);
+    });
+
 });
 
