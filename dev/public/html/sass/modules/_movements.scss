@@ -1,18 +1,4 @@
-.orbit-subnav {
-  display: table;
-  position: relative;
-  margin: 0 auto 30px;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  li {
-    display: inline;
-    margin: 0 15px;
-  }  
-}
 .orbit-container {
-  .orbit-prev,
-  .orbit-next,
   .orbit-timer,
   .orbit-slide-number,
   .orbit-bullets-container {
@@ -32,6 +18,108 @@
     display: block;
   }
 }
+// SECTION BANNER
+#movement-banner {
+  padding: 90px 0;
+  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
+  h1 {
+    color: #FFF;
+  }
+  p {
+    color: #FFF;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    @include InfoMediumFont;
+    @include font-size(20);
+    @include line-height(25);
+  }
+}
+#movement-info {
+  background: rgba(#000,
+  0);
+  padding: 80px 0;
+  h1 {
+    margin: 0 0 30px;
+  }
+  .orbit-container {
+    ul {
+      overflow: hidden;
+      margin: 0 auto 50px;
+      width: 100%;
+      max-width: 770px;
+    }
+    .orbit-next,
+    .orbit-prev {
+      border: 1px solid red;
+    }
+    .orbit-next {
+    }
+    .orbit-prev {
+    }
+    li {
+      @include InfoMediumFont;
+      @include font-size(20);
+      @include line-height(30);
+      strong {
+        @include InfoSemiBoldFont;
+      }
+    }
+  }
+  p.hint {
+    margin: 13px 0 0;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia,
+    serif;
+    @include font-size(16);
+    @include line-height(28);
+    a {
+      font-weight: bold;
+      color: #00AACB;
+      @include font-size(28);
+    }
+  }
+}
+.orbit-subnav {
+  display: table;
+  position: relative;
+  margin: 0 auto 33px;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  li {
+    display: inline;
+    margin: 0 15px;
+  }
+  a {
+    color: #333;
+    text-transform: uppercase;
+    @include InfoMediumFont;
+    @include font-size(20);
+    @include line-height(25);
+    &:hover,
+    &.active {
+      color: #1fb7d3;
+    }
+  }
+}
+#how-we-work {
+  padding: 100px 0 114px;
+  background: #fff url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
+  @include background-size(100% auto);
+  h1 {
+    margin: 0 0 10px;
+    + p {
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 0 55px;
+      @include InfoMediumFont;
+      @include font-size(20);
+      @include line-height(25);
+    }
+  }
+}
 .circle-orbit-subnav {
   display: table;
   position: relative;
@@ -42,13 +130,71 @@
   width: 100%;
   li {
     float: left;
-    width: 22%;
-    margin: 0 15px;
+    width: 284px;
+    height: 284px;
+    margin: 0 2px;
     a {
-      display: table;
-      width: 100%;
-      background: red;
+      width: 284px;
+      height: 284px;
+      display: block;
+      vertical-align: middle;
+      padding: 13px;
       @include border-radius(50%);
     }
-  }  
+    a > span {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      width: 258px;
+      height: 258px;
+      color: #FFF;
+      @include border-radius(50%);
+      @include InfoMediumFont;
+      @include font-size(24);
+      @include line-height(30);
+    }
+    span span {
+      display: block;
+      font-style: italic;
+      font-family: Georgia, serif;
+      @include font-size(20);
+      @include line-height(30);
+    }
+  }
+  li a {
+    background-color: rgba(#fff, 0);
+    &.active {
+      background-color: rgba(#fff, 0.5);
+    }
+    > span {
+      background: #d9531e;
+    }
+  }
+  li:nth-child(2) a {
+    background-color: rgba(#0bb7cf, 0);
+    &.active {
+      background-color: rgba(#0bb7cf, 0.5);
+    }
+    > span {
+      background: #23bed4;
+    }
+  }
+  li:nth-child(3) a {
+    background-color: rgba(#939f57, 0);
+    &.active {
+      background-color: rgba(#939f57, 0.5);
+    }
+    > span {
+      background: #9ea867;
+    }
+  }
+  li:nth-child(4) a {
+    background-color: rgba(#eb7e1f, 0);
+    &.active {
+      background-color: rgba(#eb7e1f, 0.5);
+    }
+    > span {
+      background: #ec8a35;
+    }
+  }
 }

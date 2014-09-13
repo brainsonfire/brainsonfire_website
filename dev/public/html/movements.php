@@ -12,12 +12,12 @@
 
 
 
-
+<!-- 
 
 		<div class="temp">
 			<img src="images/library/TEMP.jpg" alt="">
 		</div>
-
+ -->
 
 
 
@@ -33,7 +33,7 @@
 
 
 
-				<section id="movement-slogan">
+				<section id="movement-banner">
 
 					<div class="row">
 
@@ -94,7 +94,7 @@
 
 						<div class="btn-holder">
 							
-							<a class="btn-view" href="#dummy">apply now</a>
+							<a class="button btn-orange" href="#dummy">apply now</a>
 							
 							<p class="hint">Now Accepting Applications for: <a href="#dummy">2014</a></p>
 						
@@ -106,7 +106,7 @@
 
 
 
-				<section>
+				<section id="how-we-work">
 
 					<div class="row">
 
@@ -117,19 +117,19 @@
 						<ul class="circle-orbit-subnav">
 							
 							<li>
-								<a data-orbit-link="circle-headline-1">Soul Mining / Participation / Getting Our Hands Dirty <span>60 days</span></a>
+								<a data-orbit-link="circle-headline-1"><span>Soul Mining /<br>Participation /<br>Getting Our Hands Dirty <span>60 days</span></span></a>
 							</li>
 							
 							<li>
-								<a data-orbit-link="circle-headline-2">Reframing the Passion Conversation <span>60 days</span></a>
+								<a data-orbit-link="circle-headline-2"><span>Reframing<br>the Passion<br>Conversation <span>60 days</span></span></a>
 							</li>
 							
 							<li>
-								<a data-orbit-link="circle-headline-3">Word of Mouth Plan <span>60 days</span></a>
+								<a data-orbit-link="circle-headline-3"><span>Word of Mouth Plan <span>60 days</span></span></a>
 							</li>
 							
 							<li>
-								<a data-orbit-link="circle-headline-4">Implementation <span>time/cost</span></a>
+								<a data-orbit-link="circle-headline-4"><span>Implementation <span>time/cost</span></span></a>
 							</li>
 						
 						</ul>
@@ -192,7 +192,7 @@
 
 						<div class="btn-holder">
 
-							<a class="btn-view" href="#dummy">see all of our case studies</a>
+							<a class="button btn-green" href="#dummy">see all of our case studies</a>
 						
 						</div>
 
@@ -261,7 +261,7 @@
 			<?php include("inc/footer.php"); ?>
 			
 
-			
+
 		</div>
 
 	</div>

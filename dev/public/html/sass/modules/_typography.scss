@@ -2,6 +2,7 @@ html {
   font-size: 16; 
 }
 body {
+  color: #333;
   @include font-size(16);
 }
 
@@ -9,11 +10,9 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-
 h1 {
   text-transform: uppercase;
   text-align: center;
-  color: #333;
   margin: 0;
   @include InfoSemiBoldFont;
   @include font-size(42);
@@ -22,7 +21,6 @@ h1 {
 h2 {
   text-transform: uppercase;
   text-align: center;
-  color: #333;
   margin: 0;
   @include InfoMediumFont;
   @include font-size(20);
@@ -41,7 +39,12 @@ h6 {
   
 }
 
-
+p {
+  // Info Normal Font
+  @include InfoMediumFont;
+  @include font-size(20);
+  @include line-height(30);
+}
 a:hover {
   @include transition-property(all);
   @include transition-timing-function(ease-in-out);
