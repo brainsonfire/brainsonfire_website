@@ -177,15 +177,15 @@
 						<ul class="works-list">
 							
 							<li>
-								<a href="#dummy"><img src="images/temp/example-1.jpg" alt=""></a>
+								<a href="#dummy"><img src="images/library/example-1.jpg" alt=""></a>
 							</li>
 							
 							<li>
-								<a href="#dummy"><img src="images/temp/example-2.jpg" alt=""></a>
+								<a href="#dummy"><img src="images/library/example-2.jpg" alt=""></a>
 							</li>
 							
 							<li>
-								<a href="#dummy"><img src="images/temp/example-3.jpg" alt=""></a>
+								<a href="#dummy"><img src="images/library/example-3.jpg" alt=""></a>
 							</li>
 						
 						</ul>

@@ -27,12 +27,6 @@
   }
   p {
     color: #FFF;
-    margin: 0;
-    text-align: center;
-    text-transform: uppercase;
-    @include InfoMediumFont;
-    @include font-size(20);
-    @include line-height(25);
   }
 }
 #movement-info {
@@ -110,12 +104,7 @@
   h1 {
     margin: 0 0 10px;
     + p {
-      text-transform: uppercase;
-      text-align: center;
       margin: 0 0 45px;
-      @include InfoMediumFont;
-      @include font-size(20);
-      @include line-height(25);
     }
   }
   .orbit-next,
@@ -230,12 +219,7 @@
   h1 {
     margin: 0 0 10px;
     + p {
-      text-transform: uppercase;
-      text-align: center;
       margin: 0 0 45px;
-      @include InfoMediumFont;
-      @include font-size(20);
-      @include line-height(25);
     }
   }
   .orbit-container {
@@ -271,5 +255,26 @@
     padding: 111px 0;
     background: url(../images/library/books1.jpg) no-repeat 50% 50%;
     @include background-size(100% auto);
+  }
+}
+
+.half-block {
+  float: left;
+  width: 43%;
+  padding: 0 5%;
+  margin: 0 0 0 7%;
+  + .half-block {
+    margin: 0 7% 0 0;
+  }
+  p {
+    text-align: center;
+  }
+  img {
+    display: block;
+    width: 100%;
+    max-width: 388px;
+    height: auto;
+    margin: 0 auto;
+    @include border-radius(50%);
   }
 }

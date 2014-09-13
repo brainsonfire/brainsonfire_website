@@ -39,6 +39,15 @@ h6 {
   
 }
 
+h1 + p:first-of-type {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  @include InfoMediumFont;
+  @include font-size(20);
+  @include line-height(25);
+}
+
 b, strong {
   font-weight: normal;
 }
