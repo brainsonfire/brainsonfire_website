@@ -19,15 +19,21 @@
   }
 }
 // SECTION BANNER
-#movement-banner {
+#movement-banner,
+#learn-banner {
   padding: 90px 0;
-  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
   h1 {
     color: #FFF;
   }
   p {
     color: #FFF;
   }
+}
+#movement-banner {
+  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
+}
+#learn-banner {
+  background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
 }
 #movement-info {
   background: rgba(#000, 0);
@@ -260,21 +266,37 @@
 
 .half-block {
   float: left;
-  width: 43%;
-  padding: 0 5%;
-  margin: 0 0 0 7%;
+  position: relative;
+  width: 44%;
+  padding: 95px 5% 0;
+  margin: 0 0 0 6%;
   + .half-block {
-    margin: 0 7% 0 0;
-  }
-  p {
-    text-align: center;
+    margin: 0 6% 0 0;
   }
   img {
     display: block;
     width: 100%;
     max-width: 388px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 auto 34px;
     @include border-radius(50%);
   }
+  h2 {
+    margin: 0 0 4px;
+  }
+  p {
+    text-align: center;
+    margin: 0 0 30px;
+  }
+}
+#help,
+#other-way {
+  padding: 96px 0;
+}
+#help {
+  background: #fff;
+}
+#other-way {
+  background: url(../images/library/bg_learn.jpg) no-repeat 100% 0;
+  @include background-size(auto 100%)
 }

@@ -1056,41 +1056,53 @@ section:last-child {
 }
 
 /* line 22, ../sass/modules/_movements.scss */
-#movement-banner {
+#movement-banner,
+#learn-banner {
   padding: 90px 0;
-  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
 }
 /* line 25, ../sass/modules/_movements.scss */
-#movement-banner h1 {
+#movement-banner h1,
+#learn-banner h1 {
   color: #FFF;
 }
 /* line 28, ../sass/modules/_movements.scss */
-#movement-banner p {
+#movement-banner p,
+#learn-banner p {
   color: #FFF;
 }
 
 /* line 32, ../sass/modules/_movements.scss */
+#movement-banner {
+  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
+}
+
+/* line 35, ../sass/modules/_movements.scss */
+#learn-banner {
+  background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
+}
+
+/* line 38, ../sass/modules/_movements.scss */
 #movement-info {
   background: transparent;
   padding: 80px 0;
 }
-/* line 35, ../sass/modules/_movements.scss */
+/* line 41, ../sass/modules/_movements.scss */
 #movement-info h1 {
   margin: 0 0 30px;
 }
-/* line 39, ../sass/modules/_movements.scss */
+/* line 45, ../sass/modules/_movements.scss */
 #movement-info .orbit-container ul {
   overflow: hidden;
   margin: 0 auto 50px;
   width: 100%;
   max-width: 770px;
 }
-/* line 45, ../sass/modules/_movements.scss */
+/* line 51, ../sass/modules/_movements.scss */
 #movement-info .orbit-container .orbit-next,
 #movement-info .orbit-container .orbit-prev {
   border: 1px solid red;
 }
-/* line 53, ../sass/modules/_movements.scss */
+/* line 59, ../sass/modules/_movements.scss */
 #movement-info .orbit-container li {
   font-family: "infomedium", Arial, Helvetica, sans-serif;
   font-size: 20px;
@@ -1098,11 +1110,11 @@ section:last-child {
   line-height: 30px;
   line-height: 1.875rem;
 }
-/* line 57, ../sass/modules/_movements.scss */
+/* line 63, ../sass/modules/_movements.scss */
 #movement-info .orbit-container li strong {
   font-family: "infotextsemibold", Arial, Helvetica, sans-serif;
 }
-/* line 62, ../sass/modules/_movements.scss */
+/* line 68, ../sass/modules/_movements.scss */
 #movement-info p.hint {
   margin: 13px 0 0;
   text-align: center;
@@ -1113,7 +1125,7 @@ section:last-child {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 70, ../sass/modules/_movements.scss */
+/* line 76, ../sass/modules/_movements.scss */
 #movement-info p.hint a {
   font-weight: bold;
   color: #00AACB;
@@ -1121,7 +1133,7 @@ section:last-child {
   font-size: 1.75rem;
 }
 
-/* line 77, ../sass/modules/_movements.scss */
+/* line 83, ../sass/modules/_movements.scss */
 .orbit-subnav {
   display: table;
   position: relative;
@@ -1130,12 +1142,12 @@ section:last-child {
   list-style: none;
   padding: 0;
 }
-/* line 84, ../sass/modules/_movements.scss */
+/* line 90, ../sass/modules/_movements.scss */
 .orbit-subnav li {
   display: inline;
   margin: 0 15px;
 }
-/* line 88, ../sass/modules/_movements.scss */
+/* line 94, ../sass/modules/_movements.scss */
 .orbit-subnav a {
   color: #333;
   text-transform: uppercase;
@@ -1145,12 +1157,12 @@ section:last-child {
   line-height: 25px;
   line-height: 1.5625rem;
 }
-/* line 94, ../sass/modules/_movements.scss */
+/* line 100, ../sass/modules/_movements.scss */
 .orbit-subnav a:hover, .orbit-subnav a.active {
   color: #1fb7d3;
 }
 
-/* line 100, ../sass/modules/_movements.scss */
+/* line 106, ../sass/modules/_movements.scss */
 #how-we-work {
   padding: 100px 0 114px;
   background: white url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
@@ -1159,27 +1171,27 @@ section:last-child {
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
 }
-/* line 104, ../sass/modules/_movements.scss */
+/* line 110, ../sass/modules/_movements.scss */
 #how-we-work h1 {
   margin: 0 0 10px;
 }
-/* line 106, ../sass/modules/_movements.scss */
+/* line 112, ../sass/modules/_movements.scss */
 #how-we-work h1 + p {
   margin: 0 0 45px;
 }
-/* line 110, ../sass/modules/_movements.scss */
+/* line 116, ../sass/modules/_movements.scss */
 #how-we-work .orbit-next,
 #how-we-work .orbit-prev {
   display: none;
 }
-/* line 114, ../sass/modules/_movements.scss */
+/* line 120, ../sass/modules/_movements.scss */
 #how-we-work .orbit-container {
   padding: 70px 0;
   margin: 0 0 40px;
   background: rgba(255, 255, 255, 0.95);
 }
 
-/* line 120, ../sass/modules/_movements.scss */
+/* line 126, ../sass/modules/_movements.scss */
 .circle-orbit-subnav {
   display: table;
   position: relative;
@@ -1189,14 +1201,14 @@ section:last-child {
   padding: 0;
   width: 100%;
 }
-/* line 128, ../sass/modules/_movements.scss */
+/* line 134, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li {
   float: left;
   width: 284px;
   height: 284px;
   margin: 0 2px;
 }
-/* line 133, ../sass/modules/_movements.scss */
+/* line 139, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li a {
   width: 284px;
   height: 284px;
@@ -1207,7 +1219,7 @@ section:last-child {
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 141, ../sass/modules/_movements.scss */
+/* line 147, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li a > span {
   display: table-cell;
   vertical-align: middle;
@@ -1224,7 +1236,7 @@ section:last-child {
   line-height: 30px;
   line-height: 1.875rem;
 }
-/* line 153, ../sass/modules/_movements.scss */
+/* line 159, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li span span {
   display: block;
   font-style: italic;
@@ -1234,56 +1246,56 @@ section:last-child {
   line-height: 30px;
   line-height: 1.875rem;
 }
-/* line 161, ../sass/modules/_movements.scss */
+/* line 167, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li a {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 163, ../sass/modules/_movements.scss */
+/* line 169, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li a.active {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 166, ../sass/modules/_movements.scss */
+/* line 172, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li a > span {
   background: #d9531e;
 }
-/* line 170, ../sass/modules/_movements.scss */
+/* line 176, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(2) a {
   background-color: rgba(11, 183, 207, 0);
 }
-/* line 172, ../sass/modules/_movements.scss */
+/* line 178, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(2) a.active {
   background-color: rgba(11, 183, 207, 0.5);
 }
-/* line 175, ../sass/modules/_movements.scss */
+/* line 181, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(2) a > span {
   background: #23bed4;
 }
-/* line 179, ../sass/modules/_movements.scss */
+/* line 185, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(3) a {
   background-color: rgba(147, 159, 87, 0);
 }
-/* line 181, ../sass/modules/_movements.scss */
+/* line 187, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(3) a.active {
   background-color: rgba(147, 159, 87, 0.5);
 }
-/* line 184, ../sass/modules/_movements.scss */
+/* line 190, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(3) a > span {
   background: #9ea867;
 }
-/* line 188, ../sass/modules/_movements.scss */
+/* line 194, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(4) a {
   background-color: rgba(235, 126, 31, 0);
 }
-/* line 190, ../sass/modules/_movements.scss */
+/* line 196, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(4) a.active {
   background-color: rgba(235, 126, 31, 0.5);
 }
-/* line 193, ../sass/modules/_movements.scss */
+/* line 199, ../sass/modules/_movements.scss */
 .circle-orbit-subnav li:nth-child(4) a > span {
   background: #ec8a35;
 }
 
-/* line 199, ../sass/modules/_movements.scss */
+/* line 205, ../sass/modules/_movements.scss */
 .circle-orbit li {
   padding: 0 45px;
   font-family: "infomedium", Arial, Helvetica, sans-serif;
@@ -1292,36 +1304,36 @@ section:last-child {
   line-height: 29px;
   line-height: 1.8125rem;
 }
-/* line 205, ../sass/modules/_movements.scss */
+/* line 211, ../sass/modules/_movements.scss */
 .circle-orbit li strong {
   display: block;
   font-family: "infotextsemibold", Arial, Helvetica, sans-serif;
 }
 
-/* line 212, ../sass/modules/_movements.scss */
+/* line 218, ../sass/modules/_movements.scss */
 #some-examples {
   background: transparent;
   padding: 118px 0 100px;
 }
 
-/* line 216, ../sass/modules/_movements.scss */
+/* line 222, ../sass/modules/_movements.scss */
 #blockquote {
   background: #FFF;
   padding: 100px 0 0;
 }
-/* line 219, ../sass/modules/_movements.scss */
+/* line 225, ../sass/modules/_movements.scss */
 #blockquote h1 {
   margin: 0 0 10px;
 }
-/* line 221, ../sass/modules/_movements.scss */
+/* line 227, ../sass/modules/_movements.scss */
 #blockquote h1 + p {
   margin: 0 0 45px;
 }
-/* line 225, ../sass/modules/_movements.scss */
+/* line 231, ../sass/modules/_movements.scss */
 #blockquote .orbit-container {
   margin: 0 0 100px;
 }
-/* line 227, ../sass/modules/_movements.scss */
+/* line 233, ../sass/modules/_movements.scss */
 #blockquote .orbit-container .blockquote-orbit {
   width: 100%;
   max-width: 650px;
@@ -1333,7 +1345,7 @@ section:last-child {
   font-style: italic;
   text-align: center;
 }
-/* line 239, ../sass/modules/_movements.scss */
+/* line 245, ../sass/modules/_movements.scss */
 #blockquote .orbit-container blockquote {
   border-left: 0;
   margin: 0 0 9px;
@@ -1345,14 +1357,14 @@ section:last-child {
   line-height: 58px;
   line-height: 3.625rem;
 }
-/* line 248, ../sass/modules/_movements.scss */
+/* line 254, ../sass/modules/_movements.scss */
 #blockquote .orbit-container cite {
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 254, ../sass/modules/_movements.scss */
+/* line 260, ../sass/modules/_movements.scss */
 #blockquote .submit-application {
   padding: 111px 0;
   background: url(../images/library/books1.jpg) no-repeat 50% 50%;
@@ -1362,29 +1374,55 @@ section:last-child {
   background-size: 100% auto;
 }
 
-/* line 261, ../sass/modules/_movements.scss */
+/* line 267, ../sass/modules/_movements.scss */
 .half-block {
   float: left;
-  width: 43%;
-  padding: 0 5%;
-  margin: 0 0 0 7%;
+  position: relative;
+  width: 44%;
+  padding: 95px 5% 0;
+  margin: 0 0 0 6%;
 }
-/* line 266, ../sass/modules/_movements.scss */
+/* line 273, ../sass/modules/_movements.scss */
 .half-block + .half-block {
-  margin: 0 7% 0 0;
+  margin: 0 6% 0 0;
 }
-/* line 269, ../sass/modules/_movements.scss */
-.half-block p {
-  text-align: center;
-}
-/* line 272, ../sass/modules/_movements.scss */
+/* line 276, ../sass/modules/_movements.scss */
 .half-block img {
   display: block;
   width: 100%;
   max-width: 388px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 34px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+/* line 284, ../sass/modules/_movements.scss */
+.half-block h2 {
+  margin: 0 0 4px;
+}
+/* line 287, ../sass/modules/_movements.scss */
+.half-block p {
+  text-align: center;
+  margin: 0 0 30px;
+}
+
+/* line 292, ../sass/modules/_movements.scss */
+#help,
+#other-way {
+  padding: 96px 0;
+}
+
+/* line 296, ../sass/modules/_movements.scss */
+#help {
+  background: #fff;
+}
+
+/* line 299, ../sass/modules/_movements.scss */
+#other-way {
+  background: url(../images/library/bg_learn.jpg) no-repeat 100% 0;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
 }
