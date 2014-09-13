@@ -156,7 +156,7 @@
 
 						<div class="btn-holder">
 
-							<a class="btn-view" href="#dummy">apply now</a>
+							<a class="button btn-blue" href="#dummy">apply now</a>
 
 						</div>
 
@@ -166,7 +166,7 @@
 
 
 
-				<section>
+				<section id="some-examples">
 
 					<div class="row">
 
@@ -177,15 +177,15 @@
 						<ul class="works-list">
 							
 							<li>
-								<a href="#dummy"><img src="images/home/img_home_work_146.jpg" alt="Love 146"></a>
+								<a href="#dummy"><img src="images/temp/example-1.jpg" alt=""></a>
 							</li>
 							
 							<li>
-								<a href="#dummy"><img src="images/home/img_home_work_FR.jpg" alt="Fitness Rebellion"></a>
+								<a href="#dummy"><img src="images/temp/example-2.jpg" alt=""></a>
 							</li>
 							
 							<li>
-								<a href="#dummy"><img src="images/home/img_home_work_heroes.jpg" alt="Heroes in Recovery"></a>
+								<a href="#dummy"><img src="images/temp/example-3.jpg" alt=""></a>
 							</li>
 						
 						</ul>
@@ -242,12 +242,12 @@
 
 						</ul>
 
-						<div class="books2">
+					</div>
 
-							<a class="btn-view" href="#dummy">submit your application here</a>
-						
-						</div>
+					<div class="submit-application">
 
+						<a class="button btn-blue" href="#dummy">submit your application here</a>
+					
 					</div>
 
 				</section>

@@ -39,6 +39,10 @@ h6 {
   
 }
 
+b, strong {
+  font-weight: normal;
+}
+
 p {
   // Info Normal Font
   @include InfoMediumFont;
