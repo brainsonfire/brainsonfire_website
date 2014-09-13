@@ -13,12 +13,16 @@
   z-index: 20;
   background: rgba(#fff, 0.9);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  .row {
+    max-height: 75px;
+  }
 }
 #logo {
   float: left;
   position: relative;
   img {
-    max-width: 100%;
+    width: auto;
+    max-height: 75px;
   }
 }
 // MENU BUTTON
@@ -186,12 +190,12 @@
 #footer {
   position: relative;
   z-index: 20;
-  padding: 90px 0 0;
+  padding: 78px 0 0;
   margin-bottom: -80px;
   background: #eaeaea url(../images/layout/bg-path.png) repeat 0 0;
   .row {
     position: relative;
-    margin: 0 auto 80px;
+    margin: 0 auto 70px;
   }
   > .row {
     @include screen(768px,1169px) {
@@ -208,7 +212,7 @@
     height: 42px;
     left: 50%;
     margin: 0 0 0 -21px;
-    top: -106px;
+    top: -98px;
     outline: none;
   }
   .block {
@@ -219,10 +223,10 @@
 // FOOTER BLOCKS
 .talk-block {
   @include min-screen(1170px) {
-    width: 18.29%;
+    width: 16.5%;
     border-right: 2px solid rgba(#999, 0.3);
-    padding: 16px 0 20px;
-    margin: 0 34px 0 0;
+    padding: 16px 0 10px;
+    margin: 0 28px 0 60px;
   }
   @include max-screen(1169px) {
     width: 100%;
@@ -235,23 +239,23 @@
     color: #333;
     text-transform: uppercase;
     @include InfoSemiBoldFont;
-    @include font-size(32);
+    @include font-size(38);
     @include line-height(32);
   }
   .text-pick {
     color: #666;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(20);
+    @include font-size(18);
     @include line-height(25);
   }
 }
 .call-block {
   @include min-screen(1170px) {
-    width: 17.77%;
+    width: 16.2%;
     border-right: 2px solid rgba(#999, 0.3);
     padding: 16px 0 19px;
-    margin: 0 33px 0 0;
+    margin: 0 27px 0 0;
   }
   @include screen(768px,1169px) {
     width: 32%;
@@ -265,19 +269,19 @@
     padding: 16px 0;
   }
   .call {
-    margin: 0 0 5px;
+    margin: 0 0 -4px;
     display: block;
     color: #333;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(28);
+    @include font-size(26);
     @include line-height(28);
   }
   .tel {
     color: #d9531e;
     text-transform: uppercase;
     @include InfoSemiBoldFont;
-    @include font-size(28);
+    @include font-size(26);
     @include line-height(28);
   }
 }
@@ -286,15 +290,15 @@
 }
 .email-block {
     @include min-screen(1170px) {
-    width: 18.97%;
+    width: 17.3%;
     border-right: 2px solid rgba(#999, 0.3);
-    padding: 8px 33px 6px 0;
+    padding: 8px 26px 5px 0px;
     margin: 0 30px 0 0;
   }
   @include screen(768px,1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
-    padding: 8px 24px 6px;
+    padding: 8px 26px 5px;
     margin: 0;
   }
   @include max-screen(767px) {
@@ -311,11 +315,11 @@
     text-transform: lowercase;
     font-family: Georgia;
     font-style: italic;
-    @include font-size(28);
+    @include font-size(26);
     @include min-screen(768px) {
       display: block;
       width: 100%;
-      @include line-height(79);
+      @include line-height(35);
     }
     @include max-screen(767px) {
       display: table;
@@ -330,8 +334,8 @@
 }
 .connect-block {
   @include min-screen(1170px) {
-    width: 19.14%;
-    padding: 16px 0 20px;
+    width: 17.14%;
+    padding: 19px 0 20px;
     margin: 0;
   }
   @include screen(768px,1169px) {
@@ -344,19 +348,19 @@
     padding: 16px 0;
   }
   .text-online {
-    margin: 0 0 5px;
+    margin: 0 0 -2px;
     display: block;
     color: #333;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(28);
+    @include font-size(26);
     @include line-height(28);
   }
   .text-connect {
     color: #666;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(20);
+    @include font-size(18);
     @include line-height(25);
   }
 }
@@ -380,8 +384,8 @@
   list-style: none;
   overflow: hidden;
   @include min-screen(768px) {
-    margin: 4px 0 0;
-    padding: 0 10px 0 0;
+    margin: 12px 0 0;
+    padding: 0 30px 0 0;
   }
   @include max-screen(767px) {
     display: table;
@@ -394,8 +398,8 @@
   }
   a {
     display: block;
-    width: 34px;
-    height: 34px;
+    width: 30px;
+    height: 30px;
     text-indent: -9999px;
     overflow: hidden;
     background: url(../images/layout/ico-socail.png) no-repeat;
@@ -404,22 +408,22 @@
     }
   }
   li.twitter a {
-    background-position: 0 0;
+    background-position: -3px -3px;
   }
   li.instagram a {
-    background-position: -38px 0;
+    background-position: -40px -3px;
   }
   li.facebook a {
-    background-position: -77px 0;
+    background-position: -78px -3px;
   }
   li.rss a {
-    background-position: -115px 0;
+    background-position: -116px -3px;
   }
   li.pinterest a {
-    background-position: 0 100%;
+    background-position: -3px -42px;
   }
   li.slideshare a {
-    background-position: -38px 100%;
+    background-position: -40px -42px;
   }
 }
 // FOOTER COPY LINE
@@ -430,7 +434,7 @@
     margin: 0 auto;
     text-align: center;
     overflow: hidden;
-    padding: 26px 0 20px;
+    padding: 16px 0 26px;
   }
   ul {
     margin: 0;

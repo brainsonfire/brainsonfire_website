@@ -5,7 +5,7 @@
 		<a class="go-top btn-scroll" href="#header">goto top</a>
 		
 		<div class="block talk-block">
-			<strong class="title">Talk to US</strong>
+			<span class="title">Talk to US</span>
 			<span class="text-pick">Pick Your Poison.</span>
 		</div>
 		
@@ -15,7 +15,7 @@
 		</div>
 
 		<div class="block email-block"> 
-			<a class="email-us" href="mailto:firestarter@brainsonfire.com">Email Us</a>
+			<a class="button btn-orange email-us" href="mailto:firestarter@brainsonfire.com">Email Us</a>
 		</div>
 
 		<div class="block connect-block"> 

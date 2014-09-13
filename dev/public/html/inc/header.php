@@ -14,37 +14,37 @@
 
 		<ul class="primary-nav">
 			<li>
-				<a href="">Home</a>
+				<a href="home.php">Home</a>
 			</li>
 			<li>
-				<a href="">Build a Movement</a>
+				<a href="movements.php">Build a Movement</a>
 			</li>
 			<li>
-				<a href="">Learn to Build a Movement</a>
+				<a href="#dummy">Learn to Build a Movement</a>
 			</li>
 			<li>
-				<a href="">Case Studies</a>
+				<a href="#dummy">Case Studies</a>
 			</li>
 			<li>
-				<a href="">Meet Our Tribe</a>
+				<a href="#dummy">Meet Our Tribe</a>
 			</li>
 		</ul>
 
 		<ul class="secondary-nav">
 			<li>
-				<a href="">Blog</a>
+				<a href="#dummy">Blog</a>
 			</li>
 			<li>
-				<a href="">Books & Published</a>
+				<a href="#dummy">Books & Published</a>
 			</li>
 			<li>
-				<a href="">Speaking</a>
+				<a href="#dummy">Speaking</a>
 			</li>
 			<li>
-				<a href="">Store</a>
+				<a href="#dummy">Store</a>
 			</li>			
 			<li>
-				<a href="">Hello</a>
+				<a href="#dummy">Hello</a>
 			</li>
 		</ul>
 

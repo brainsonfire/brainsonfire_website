@@ -1,35 +1,61 @@
-.section-work h1,
-.section-read h1,
-.section-author h1,
-.section-wares h1,
-.form-contact h1,
-.people-holder h1,
-.people-post h1,
-.more-posts h1,
-.section-newsletter-band h1 {
-  color: #333;
-  font-size: 40px;
-  letter-spacing: -1px;
-  line-height: 42px;
-  margin: 0 0 7px;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
+.temp {
+    opacity: 0.5;
+    position: absolute;
+    z-index: 100;
+    top: -111px;
 }
-.section-work h2,
-.section-read h2,
-.section-author h2,
-.section-wares h2,
-.people-holder h2,
-.section-newsletter-band h2 {
-  color: #333;
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 20px;
-  margin: 0 0 58px;
+
+.button {
+  display: table;
+  margin: 0 auto;
+  font-style: italic;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: lowercase;
+  @include font-size(28);
+  @include line-height(32);
+  &.left {
+    margin: 0 30px 30px 0;
+  }
+  &:active {
+    top: 2px;
+  }
+  &.btn-ico {
+    &:before {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 40px;
+      top: 18px;
+      left: 30px;
+    } 
+  }
+}
+.btn-orange {
+  background-color: #d9531e;
+  &:hover {
+    background-color: darken(#D9531E, 5%);
+  }
+  &:active {
+    background-color: #d9531e;
+  }
+}
+.btn-green {
+  background-color: #939f57;
+  &:hover {
+    background-color: darken(#939f57, 5%);
+  }
+  &:active {
+    background-color: #939f57;
+  }
+}
+.btn-blue {
+  background-color: #0bb7cf;
+  &:hover {
+    background-color: darken(#0bb7cf, 5%);
+  }
+  &:active {
+    background-color: #0bb7cf;
+  }
 }
 
 .btn-down,
@@ -53,66 +79,4 @@
   position:absolute;
   top:50%;
   width:22px;
-}
-
-
-
-.orbit-subnav {
-  display: table;
-  position: relative;
-  margin: 0 auto 30px;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  li {
-    display: inline;
-    margin: 0 15px;
-  }  
-
-}
-.orbit-container {
-  .orbit-prev,
-  .orbit-next,
-  .orbit-timer,
-  .orbit-slide-number,
-  .orbit-bullets-container {
-    display: none;
-  }
-}
-#blockquote .orbit-container {
-  .orbit-prev,
-  .orbit-next {
-    display: block;
-    opacity: 1;
-    border: 1px solid red;
-  }
-}
-.text-orbit {
-  strong {
-    display: block;
-  }
-}
-
-.circle-orbit-subnav {
-  display: table;
-  position: relative;
-  margin: 0 auto 30px;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  width: 100%;
-  li {
-    float: left;
-    width: 22%;
-    margin: 0 15px;
-    a {
-
-      display: table;
-      width: 100%;
-      background: red;
-    @include border-radius(50%);
-    }
-    
-  }  
-
 }
