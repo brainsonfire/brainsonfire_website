@@ -26,7 +26,7 @@
 				<a href="case_studies.php">Case Studies</a>
 			</li>
 			<li>
-				<a href="#dummy">Meet Our Tribe</a>
+				<a href="meet_our_tribe.php">Meet Our Tribe</a>
 			</li>
 		</ul>
 

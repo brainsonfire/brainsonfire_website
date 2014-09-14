@@ -1,0 +1,1809 @@
+.banner-block {
+  position: relative;
+  height: 164px;
+  color: #fff;
+  width: 100%;
+  margin: 0 0 62px;
+  text-align: center;
+  z-index: 2;
+  padding: 155px 0 0;
+  background: #ea602a;
+  overflow: hidden;
+}
+.banner-block img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -750px;
+  z-index: -1;
+}
+.banner-block h2 {
+  font-size: 40px;
+  line-height: 42px;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+}
+.banner-block h3 {
+  font-size: 19px;
+  line-height: 22px;
+  margin: 0 0 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.banner-block .date {
+  font: italic 20px/22px Georgia, Arial, Helvetica, sans-serif;
+  display: block;
+}
+#main:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+.m1 {
+  width: 100%;
+  float: left;
+}
+#sidebar {
+  width: 271px;
+  float: right;
+}
+#content {
+  margin: 0 400px 0 0;
+}
+.c1 {
+  width: 100%;
+  float: left;
+}
+.post-paging {
+  overflow: hidden;
+  padding: 4px 0 0;
+}
+.post-paging .btn-prev,
+.post-paging .btn-next {
+  font: italic 20px/22px Georgia, Arial, Helvetica, sans-serif;
+  padding: 8px 0 14px 40px;
+  background: url(../images/individuals/sprite2.png) no-repeat;
+  color: #333;
+  float: left;
+}
+.post-paging .btn-next {
+  float: right;
+  padding: 8px 40px 14px 0;
+  background-position: 100% 0;
+}
+.post-title {
+  position: relative;
+  padding: 0 0 49px 84px;
+}
+.post-title.archive {
+  padding: 0 0 49px;
+}
+.post-title .img-box {
+  position: absolute;
+  top: -18px;
+  left: 0;
+}
+.post-title h2 {
+  color: #666;
+  font: italic 42px/40px Georgia, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+.mega-holder {
+  width: 100%;
+  overflow: hidden;
+  background: #fafafa url(../images/individuals/bg-mega-holder.png) 0 4px;
+}
+.mega-banner {
+  width: 100%;
+  /* height: 714px;
+  */
+  height: 625px;
+  position: relative;
+  overflow: hidden;
+  margin: -83px 0 0;
+  /* **********************************************************
+  DAY TIME LOBBY IMAGE
+  ********************************************************** */
+  background: url(../images/individuals/lobby/Lobby-Day.jpg) #220409 no-repeat 50% 0;
+  /* background: url(../images/individuals/lobby/Lobby-Day.jpg) repeat-x 50% 0;
+  */
+  /* **********************************************************
+  END DAY TIME LOBBY IMAGE
+  ********************************************************** */
+}
+
+/* **********************************************************
+NIGHT TIME LOBBY IMAGE
+********************************************************** */
+.mega-banner.night {
+  background-image: url(../images/individuals/lobby/Lobby-Night.jpg);
+}
+
+/* **********************************************************
+END NIGHT TIME LOBBY IMAGE
+********************************************************** */
+.individuals-person .mega-banner {
+  margin-top: 21px;
+}
+.mega-banner .photo-container {
+  width: 1170px;
+  height: 609px;
+  margin: 0 auto;
+  position: relative;
+}
+.mega-banner .photo-container .holder {
+  position: absolute;
+  bottom: 0;
+  right: -23px;
+  -webkit-transition: all 0.3s ease-out; /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 0.3s ease-out; /* Firefox 4-15 */
+  -o-transition: all 0.3s ease-out; /* Opera 10.50–12.00 */
+  transition: all 0.3s ease-out; /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+.mega-banner .photo-container .holder img {
+}
+.mega-banner .photo-container .holder02,
+.mega-banner.night .photo-container .holder {
+  display: none;
+}
+.mega-banner.night .photo-container .holder02 {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+  display: block;
+}
+.people-holder h1 {
+  display: none
+}
+
+/* **********************************************************
+
+FLOATING PEOPLE
+
+********************************************************** */
+#photo01 {
+  position: absolute;
+  bottom: 0;
+  right: 504px;
+}
+#night-photo01 {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+  display: block;
+}
+#intro-handwriting {
+  position: absolute;
+  bottom: 232px;
+  left: -842px;
+}
+#night-intro-handwriting {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#cordell {
+  position: absolute;
+  bottom: -187px;
+  right: 0px;
+}
+#night-cordell {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#robbin {
+  position: absolute;
+  bottom: -58px;
+  right: 349px;
+}
+#night-robbin {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#ramsey {
+  position: absolute;
+  bottom: -105px;
+  right: 192px;
+}
+#night-ramsey {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#geno {
+  position: absolute;
+  bottom: -28px;
+  right: 949px;
+}
+#night-geno {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#john {
+  position: absolute;
+  bottom: -91px;
+  right: 21px;
+}
+#night-john {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#megan {
+  position: absolute;
+  bottom: -107px;
+  right: 33px;
+}
+#night-megan {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#alison {
+  position: absolute;
+  bottom: -105px;
+  right: 438px;
+}
+#night-alison {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#amy {
+  position: absolute;
+  bottom: -101px;
+  right: -9px;
+}
+#night-amy {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#brandy {
+  position: absolute;
+  bottom: -11px;
+  right: 445px;
+}
+#night-brandy {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#cathy {
+  position: absolute;
+  bottom: -35px;
+  right: 393px;
+}
+#night-cathy {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#emily {
+  position: absolute;
+  bottom: 153px;
+  right: 507px;
+}
+#night-emily {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#jack {
+  position: absolute;
+  bottom: 80px;
+  right: 300px;
+}
+#night-jack {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#marysusan {
+  position: absolute;
+  bottom: 56px;
+  right: 223px;
+}
+#night-marysusan {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#moe {
+  position: absolute;
+  bottom: -108px;
+  right: -4px;
+}
+#night-moe {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#nathan {
+  position: absolute;
+  bottom: -102px;
+  right: 294px;
+}
+#night-nathan {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#sarah {
+  position: absolute;
+  bottom: -59px;
+  right: 102px;
+}
+#night-sarah {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#sean {
+  position: absolute;
+  bottom: 72px;
+  right: -79px;
+}
+#night-sean {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+#shannon {
+  position: absolute;
+  bottom: 170px;
+  right: 493px;
+}
+#night-shannon {
+  position: absolute;
+  bottom: 280px;
+  left: -61px;
+}
+#wicket {
+  position: absolute;
+  bottom: 74px;
+  right: 462px;
+}
+#night-wicket {
+  position: absolute;
+  bottom: 280px;
+  left: -61px;
+}
+
+/* **********************************************************
+
+END FLOATING PEOPLE
+
+********************************************************** */
+.mega-banner .photo-container img {
+  /* max-width: 100%;
+  */
+  display: none;
+  max-width: none;
+  width: auto;
+}
+.mega-banner .photo-container .active {
+  display: block;
+}
+.people-holder {
+  /* max-width: 1170px;
+  */
+  max-width: 960px;
+  margin: 0 auto;
+  /* padding: 55px 10px 39px;
+  */
+  padding: 30px 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.people-holder ul {
+  /* margin: 0 -11px 0 -16px;
+  */
+  margin: 0 -11px 15px -16px;
+  padding: 0;
+  /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  */
+}
+.people-holder ul li {
+  /* padding: 0 6px 35px;
+  */
+  padding: 0 6px 15px;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  list-style-position: outside;
+}
+.people-holder ul a {
+  color: #666;
+}
+.people-holder ul a:hover {
+  text-decoration: none;
+}
+.people-holder h2 {
+  margin: 0;
+  padding: 10px 0 0;
+  font: 11px/14px;
+}
+.people-holder ul img {
+  /* width: 101px;
+  */
+  width: 75px;
+  display: block;
+  border-radius: 51px;
+  -webkit-border-radius: 51px;
+}
+.people-holder ul a:hover img,
+.people-holder ul img.hover {
+  display: none;
+}
+.people-holder ul a:hover img.hover {
+  display: block;
+}
+.mega-holder .about {
+  width: 100%;
+  overflow: hidden;
+  background: #12bdd5 url(../images/individuals/bg-about.jpg) no-repeat 50% -61px;
+}
+.mega-holder .about .holder {
+  max-width: 976px;
+  margin: 0 auto;
+  padding: 63px 10px 90px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 32px;
+  color: #fff;
+}
+.mega-holder .about p {
+  margin: 0;
+}
+.paging {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: -124px;
+  position: relative;
+  z-index: 2;
+}
+.mega-holder .paging {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  position: static;
+}
+.paging .holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 115px 10px 44px;
+  overflow: hidden;
+  font: italic 20px/23px Georgia, "Times New Roman", Times, serif;
+}
+.mega-holder .paging .holder {
+  padding: 41px 10px 44px;
+}
+.paging .block {
+  height: 1%;
+  overflow: hidden;
+  text-align: center;
+}
+.paging .prev {
+  float: left;
+  padding-left: 40px;
+}
+.paging .prev:hover,
+.paging .next:hover,
+.paging .back:hover {
+  text-decoration: none;
+}
+.paging .next {
+  float: right;
+  margin-left: 40px;
+  padding-right: 48px;
+}
+.paging .back {
+  padding-left: 36px;
+}
+.paging .prev,
+.paging .next,
+.paging .back {
+  position: relative;
+  color: #333;
+}
+.paging .prev:after,
+.paging .next:after,
+.paging .back:after {
+  width: 31px;
+  height: 44px;
+  content: '';
+  background: url(../images/individuals/sprite02.png) no-repeat;
+  position: absolute;
+  top: -7px;
+  left: 0;
+}
+.paging .prev:hover:after {
+  background-position: 0 -49px;
+  content: " ";
+}
+.paging .next:after {
+  background-position: -36px 0;
+  left: auto;
+  right: 1px;
+}
+.paging .next:hover:after {
+  background-position: -36px -49px;
+  content: " ";
+}
+.paging .back:after {
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-position: -72px 0;
+}
+.paging .back:hover:after {
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-position: -72px -49px;
+}
+.people-post {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 61px 10px 56px;
+  font-size: 18px;
+  line-height: 30px;
+}
+.people-post .heading {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.people-post .job-title {
+  font: italic bold 31px/34px Georgia, "Times New Roman", Times, serif;
+  color: #939f57;
+  line-height: 36px;
+}
+.people-post .cols-holder {
+  width: 100%;
+  display: table;
+}
+.people-post .meta,
+.people-post .cols {
+  display: table-cell;
+  vertical-align: top;
+}
+.people-post .meta {
+  width: 289px;
+  padding: 10px 54px;
+  text-align: center;
+}
+.people-post .meta img {
+  width: 257px;
+  border-radius: 130px;
+  -webkit-border-radius: 130px;
+  margin-right: 24px;
+}
+.people-post .meta .holder {
+  height: 1%;
+  overflow: hidden;
+  padding: 25px 0;
+}
+.people-post .meta h3 {
+  margin: 0;
+  padding: 0 30px 19px 0;
+  font: italic bold 24px/27px Georgia, "Times New Roman", Times, serif;
+  color: #939f57;
+}
+.people-post .meta .social {
+  width: 295px;
+  margin: 0 -6px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+.people-post .meta .social li {
+  width: 140px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5px 13px 0;
+}
+.people-post .meta .social a {
+  position: relative;
+  padding-left: 43px;
+  color: #333;
+}
+.people-post .meta .social a:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+.people-post .meta .social a:after {
+  width: 34px;
+  height: 33px;
+  content: '';
+  background: url(../images/individuals/sprite02.png) no-repeat;
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+.people-post .meta .social .twitter:after {
+  background-position: -101px 0;
+}
+.people-post .meta .social .facebook:after {
+  background-position: -140px 0;
+}
+.people-post .meta .social .pinterest:after {
+  background-position: -179px 0;
+}
+.people-post .meta .social .instagram:after {
+  background-position: -218px 0;
+}
+.people-post .meta .social .linkedin:after {
+  background-position: -257px 0;
+}
+.people-post .meta .social .blog:after {
+  background-position: -296px 0;
+}
+.people-post .cols .col {
+  height: 1%;
+  overflow: hidden;
+  padding: 0 0 1px 17px;
+}
+.people-post .cols .col:first-child {
+  width: 50%;
+  float: left;
+  padding: 0;
+}
+.people-post ul.arbitrary-facts {
+  margin: 0 0 20px 20px;
+  list-style: disc inside;
+  width: 100%;
+}
+.people-post ul.arbitrary-facts li {
+  padding: 0 0 10px;
+}
+.people-post p {
+  margin-bottom: 29px;
+}
+.more-posts {
+  width: 100%;
+  background: #12bdd5 url(../images/individuals/bg-more.jpg) no-repeat 50% 0;
+}
+.more-posts .holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 104px 13px 123px 9px;
+  text-align: center;
+}
+.more-posts ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0 0 48px;
+  text-align: left;
+}
+.more-posts ul li {
+  width: 270px;
+  float: left;
+  padding: 0 15px;
+  list-style: none;
+  list-style-position: outside;
+  color: #fff;
+}
+.more-posts img {
+  max-width: 100%;
+}
+.more-posts h4 {
+  margin: 0;
+  padding: 10px 0;
+  font: 18px/21px Tahoma, Geneva, sans-serif;
+}
+.more-posts ul a {
+  color: #fff;
+}
+.more-posts ul a:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+.more-posts .view-all {
+  padding: 25px 42px 23px 45px;
+  font: italic 28px/31px Georgia, "Times New Roman", Times, serif;
+  display: inline-block;
+  color: #fff;
+  background: #eb7e1f;
+}
+.more-posts .view-all:hover {
+  background: #d17327;
+  text-decoration: none;
+}
+@media only screen and (max-width:1200px) {
+  .mega-holder {
+    background-position: -2px 9px;
+  }
+  .mega-banner {
+    height: 555px;
+    /* **********************************************************
+    DAY TIME LOBBY IMAGE
+    ********************************************************** */
+    background-image: url(../images/individuals/lobby/Lobby-Day_1200x555.jpg);
+    /* **********************************************************
+    END DAY TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+  
+  /* **********************************************************
+  NIGHT TIME LOBBY IMAGE
+  ********************************************************** */
+  .mega-banner.night {
+    background-image: url(../images/individuals/lobby/Lobby-Night_1200x555.jpg);
+    /* .mega-banner .window {
+      background-image: url(../images/individuals/img-window02.png);
+    }
+    */
+    /* **********************************************************
+    END NIGHT TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+  .mega-banner .photo-container {
+    width: 940px;
+    height: 474px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .mega-banner .photo-container .holder {
+    /* width: 35%;
+    */
+    right: 0;
+  }
+  
+  /* **********************************************************
+  
+  SMALLERFLOATING PEOPLE
+  
+  ********************************************************** */
+  #photo01 {
+    position: absolute;
+    bottom: 0;
+    right: 504px;
+  }
+  #intro-handwriting {
+    position: absolute;
+    bottom: 124px;
+    left: -708px;
+  }
+  #night-photo01 {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+    display: block;
+  }
+  #cordell {
+    position: absolute;
+    bottom: -182px;
+    right: -32px;
+    width: 585px;
+  }
+  #night-cordell {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #robbin {
+    position: absolute;
+    bottom: -60px;
+    right: 262px;
+    width: 455px
+  }
+  #night-robbin {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #ramsey {
+    position: absolute;
+    bottom: -122px;
+    right: 139px;
+    width: 485px;
+  }
+  #night-ramsey {
+    position: absolute;
+    bottom: -105px;
+    left: 139px;
+  }
+  #geno {
+    position: absolute;
+    bottom: -36px;
+    right: 742px;
+    width: 205px;
+  }
+  #night-geno {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #john {
+    position: absolute;
+    bottom: -96px;
+    right: 1px;
+    width: 349px;
+  }
+  #night-john {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #megan {
+    position: absolute;
+    bottom: -103px;
+    right: 10px;
+    width: 580px;
+  }
+  #night-megan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #alison {
+    position: absolute;
+    bottom: -100px;
+    right: 331px;
+    width: 413px;
+  }
+  #night-alison {
+    position: absolute;
+    bottom: -83px;
+    right: 448px;
+    width: 298px;
+  }
+  #amy {
+    position: absolute;
+    bottom: -95px;
+    right: -24px;
+    width: 571px;
+  }
+  #night-amy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #brandy {
+    position: absolute;
+    bottom: -23px;
+    right: 342px;
+    width: 328px;
+  }
+  #night-brandy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #cathy {
+    position: absolute;
+    bottom: -42px;
+    right: 299px;
+    width: 326px;
+  }
+  #night-cathy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #emily {
+    position: absolute;
+    bottom: 109px;
+    right: 388px;
+    width: 223px;
+  }
+  #night-emily {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #jack {
+    position: absolute;
+    bottom: 51px;
+    right: 224px;
+    width: 285px;
+  }
+  #night-jack {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #marysusan {
+    position: absolute;
+    bottom: 34px;
+    right: 161px;
+    width: 465px;
+  }
+  #night-marysusan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #moe {
+    position: absolute;
+    bottom: -101px;
+    right: -22px;
+    width: 484px;
+  }
+  #night-moe {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #nathan {
+    position: absolute;
+    bottom: -100px;
+    right: 216px;
+    width: 469px;
+  }
+  #night-nathan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #sarah {
+    position: absolute;
+    bottom: -60px;
+    right: 67px;
+    width: 494px;
+  }
+  #night-sarah {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #sean {
+    position: absolute;
+    bottom: 44px;
+    right: -81px;
+    width: 283px;
+  }
+  #night-sean {
+    position: absolute;
+    bottom: 61px;
+    right: 9px;
+    width: 194px;
+  }
+  #shannon {
+    position: absolute;
+    bottom: 123px;
+    right: 376px;
+    width: 199px;
+  }
+  #night-shannon {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+  #wicket {
+    position: absolute;
+    bottom: 46px;
+    right: 347px;
+    width: 351px;
+  }
+  #night-wicket {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+  
+  /* **********************************************************
+  
+  END SMALLER FLOATING PEOPLE
+  
+  ********************************************************** */
+  .mega-banner.night .photo-container .holder02 {
+    bottom: -24px;
+    left: -44px;
+    width: 226px;
+  }
+  .people-holder {
+    max-width: 980px;
+    padding: 58px 10px 39px;
+  }
+  .people-holder h2 {
+    margin-bottom: 24px;
+  }
+  .people-holder ul {
+    margin: 0 -11px 0 -14px;
+  }
+  .people-holder ul li {
+    padding: 0 4px 28px;
+  }
+  .people-holder ul img {
+    width: 82px;
+  }
+  .people-holder h3 {
+    margin: 0 -6px;
+    padding: 5px 0 0;
+  }
+  .mega-holder .about .holder {
+    max-width: 780px;
+    padding: 58px 10px 70px;
+  }
+  .paging {
+    margin-bottom: -130px;
+  }
+  .paging .holder {
+    max-width: 944px;
+    padding: 121px 10px 44px;
+  }
+  .paging .prev {
+    margin-left: 3px;
+  }
+  .paging .next {
+    margin-left: 26px;
+  }
+  .people-post {
+    max-width: 1014px;
+    padding: 63px 10px 55px;
+  }
+  .people-post .meta {
+    padding: 0 14px 0 54px;
+  }
+  .people-post .cols .col:first-child {
+    width: 46%;
+  }
+  .more-posts .holder {
+    padding: 104px 11px 123px;
+  }
+  .mega-holder .paging .holder {
+    padding-top: 44px;
+  }
+}
+@media only screen and (max-width:980px) {
+  .banner-block {
+    height: 164px;
+    padding: 150px 0 0;
+    overflow: hidden;
+    margin: 0 0 58px;
+  }
+  #sidebar {
+    width: 220px;
+  }
+  #content {
+    margin: 0 320px 0 0;
+  }
+  .post .img-box {
+    margin: 0 0 25px;
+  }
+  .post h2 {
+    line-height: 47px;
+    margin: 0 0 5px;
+  }
+  .mega-banner {
+    display: none;
+  }
+  .mega-holder {
+    background-position: 2px 4px;
+  }
+  .people-holder {
+    padding: 0 0 41px;
+  }
+  .people-holder h1 {
+    display: block;
+    margin-bottom: 64px;
+    padding: 179px 10px 105px;
+    color: #fff;
+    background: url(../images/individuals/bg-heading.jpg) repeat-x 50% 0;
+  }
+  .people-holder ul {
+    max-width: 740px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .people-holder ul li {
+    padding: 0 7px 30px;
+    text-align: center;
+  }
+  .people-holder ul img {
+    width: 167px;
+    border-radius: 84px;
+    -webkit-border-radius: 84px;
+  }
+  .people-holder h2 {
+    margin: 0;
+    padding: 17px 0 0;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .mega-holder .about {
+    background-position: -245px -107px;
+  }
+  .mega-holder .about .holder {
+    max-width: 580px;
+    padding: 66px 28px 71px 10px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+  }
+  .paging {
+    margin-bottom: -113px;
+  }
+  .paging .holder {
+    max-width: 728px;
+    padding: 113px 10px 34px;
+  }
+  .paging .next {
+    margin-left: 40px;
+  }
+  .paging+.mega-holder .mega-banner {
+    display: block;
+    height: 447px;
+    /* **********************************************************
+    DAY TIME LOBBY IMAGE
+    ********************************************************** */
+    background-image: url(../images/individuals/lobby/Lobby-Day_940x447.jpg);
+    /* **********************************************************
+    END DAY TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+  
+  /* **********************************************************
+  NIGHT TIME LOBBY IMAGE
+  ********************************************************** */
+  .paging+.mega-holder .mega-banner.night {
+    background-image: url(../images/individuals/lobby/Lobby-Night_940x447.jpg);
+    /* **********************************************************
+    END NIGHT TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+  .mega-banner .photo-container {
+    width: 746px;
+    height: 392px;
+  }
+  
+  /* .mega-banner .photo-container .holder {
+    width: 95px;
+  }
+  */
+  .mega-banner.night .photo-container .holder02 {
+    bottom: -13px;
+    left: -30px;
+    width: 180px;
+  }
+  
+  /* .mega-banner .window {
+    background-image: url(../images/individuals/img-window03.png);
+  }
+  */
+  /* **********************************************************
+  
+  SMALLEST FLOATING PEOPLE
+  
+  ********************************************************** */
+  
+  #photo01 {
+    position: absolute;
+    bottom: 0;
+    right: 504px;
+  }
+  #intro-handwriting {
+    position: absolute;
+    bottom: 124px;
+    left: -708px;
+  }
+  #night-photo01 {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+    display: block;
+  }
+  #cordell {
+    position: absolute;
+    bottom: -134px;
+    right: -2px;
+    width: 456px;
+  }
+  #night-cordell {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #robbin {
+    position: absolute;
+    bottom: -27px;
+    right: 213px;
+    width: 355px
+  }
+  #night-robbin {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #ramsey {
+    position: absolute;
+    bottom: -86px;
+    right: 101px;
+    width: 378px;
+  }
+  #night-ramsey {
+    position: absolute;
+    bottom: -105px;
+    left: 139px;
+  }
+  #geno {
+    position: absolute;
+    bottom: -7px;
+    right: 586px;
+    width: 161px;
+  }
+  #night-geno {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #john {
+    position: absolute;
+    bottom: -62px;
+    right: 8px;
+    width: 267px;
+  }
+  #night-john {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #megan {
+    position: absolute;
+    bottom: -54px;
+    right: 10px;
+    width: 452px;
+  }
+  #night-megan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #alison {
+    position: absolute;
+    bottom: -54px;
+    right: 265px;
+    width: 322px;
+  }
+  #night-alison {
+    position: absolute;
+    bottom: -83px;
+    right: 448px;
+    width: 298px;
+  }
+  #amy {
+    position: absolute;
+    bottom: -53px;
+    right: -13px;
+    width: 445px;
+  }
+  #night-amy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #brandy {
+    position: absolute;
+    bottom: 3px;
+    right: 277px;
+    width: 256px;
+  }
+  #night-brandy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #cathy {
+    position: absolute;
+    bottom: -11px;
+    right: 240px;
+    width: 254px;
+  }
+  #night-cathy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #emily {
+    position: absolute;
+    bottom: 107px;
+    right: 311px;
+    width: 174px;
+  }
+  #night-emily {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #jack {
+    position: absolute;
+    bottom: 61px;
+    right: 181px;
+    width: 222px;
+  }
+  #night-jack {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #marysusan {
+    position: absolute;
+    bottom: 48px;
+    right: 132px;
+    width: 362px;
+  }
+  #night-marysusan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #moe {
+    position: absolute;
+    bottom: -71px;
+    right: -12px;
+    width: 377px;
+  }
+  #night-moe {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #nathan {
+    position: absolute;
+    bottom: -55px;
+    right: 173px;
+    width: 366px;
+  }
+  #night-nathan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #sarah {
+    position: absolute;
+    bottom: -26px;
+    right: 58px;
+    width: 385px;
+  }
+  #night-sarah {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+  #sean {
+    position: absolute;
+    bottom: 56px;
+    right: -58px;
+    width: 221px;
+  }
+  #night-sean {
+    position: absolute;
+    bottom: 61px;
+    right: 9px;
+    width: 194px;
+  }
+  #shannon {
+    position: absolute;
+    bottom: 117px;
+    right: 302px;
+    width: 155px;
+  }
+  #night-shannon {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+  #wicket {
+    position: absolute;
+    bottom: 58px;
+    right: 278px;
+    width: 274px;
+  }
+  #night-wicket {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+  
+  /* **********************************************************
+  
+  END SMALLEST FLOATING PEOPLE
+  
+  ********************************************************** */
+  .people-post .cols-holder,
+  .people-post .meta,
+  .people-post .cols {
+    display: block;
+    overflow: hidden;
+  }
+  .people-post .meta {
+    width: auto;
+    height: 1%;
+    padding: 0 0 38px;
+  }
+  .people-post .meta img {
+    float: left;
+    margin: 0 -1px 0 1px;
+  }
+  .people-post {
+    max-width: 640px;
+    padding: 42px 10px 62px 48px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .people-post .heading {
+    padding: 0 40px 36px 0;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .people-post .heading h2 {
+    margin-bottom: 9px;
+    font-size: 31px;
+    line-height: 34px;
+    font-weight: normal;
+  }
+  .people-post .meta .holder {
+    padding: 48px 0 25px 54px;
+  }
+  .people-post .meta h3 {
+    padding: 0 0 21px 16px;
+    text-align: left;
+  }
+  .people-post .meta .social {
+    width: auto;
+    margin: 0;
+  }
+  .people-post .meta .social li {
+    padding: 0 6px 18px 0;
+  }
+  .people-post .meta .social a:after {
+    top: -7px;
+  }
+  .people-post p {
+    margin-bottom: 24px;
+  }
+  .people-post .cols .col {
+    padding: 0 4px 1px 18px;
+  }
+  .people-post .cols .col:first-child {
+    width: 47%;
+  }
+  .more-posts .holder {
+    max-width: 780px;
+    padding: 63px 10px 67px;
+  }
+  .more-posts h3 {
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: normal;
+    margin-bottom: 44px;
+  }
+  .more-posts ul {
+    padding-bottom: 30px;
+  }
+  .more-posts ul li {
+    width: 226px;
+    padding: 0 10px 0 11px;
+  }
+  .more-posts h4 {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 0;
+  }
+  .more-posts .view-all {
+    font-size: 19px;
+    line-height: 22px;
+    left: -3px;
+    padding: 24px 40px 23px 44px;
+    position: relative;
+  }
+  .mega-holder .paging .holder {
+    padding: 34px 10px 33px;
+  }
+}
+@media only screen and (max-width:778px) {
+  .more-posts ul li {
+    padding: 0 8px;
+  }
+}
+@media only screen and (max-width:767px) {
+  .banner-block {
+    padding: 143px 0 0;
+    height: 147px;
+    margin: 0 0 56px;
+  }
+  .banner-block h1 {
+    font-size: 32px;
+    line-height: 33px;
+    margin: 0 0 10px;
+  }
+  .banner-block h2 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0 0 7px;
+  }
+  .banner-block .date {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  #content {
+    margin: 0 247px 0 0;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  #sidebar {
+    width: 166px;
+  }
+  .post-title h2 {
+    font-size: 25px;
+  }
+  .post-title {
+    margin: 0 -5px 0 0;
+    padding: 0 0 49px 72px;
+  }
+  .mega-holder {
+    background-position: 1px 0;
+  }
+  .people-holder {
+    padding: 0 0 29px;
+  }
+  .people-holder h1 {
+    margin-bottom: 59px;
+    padding: 180px 10px 104px;
+  }
+  .people-holder ul {
+    max-width: 370px;
+  }
+  .people-holder ul li {
+    padding-bottom: 43px;
+  }
+  .mega-holder .about {
+    background-position: -416px -106px;
+  }
+  .mega-holder .about .holder {
+    max-width: 324px;
+    padding: 57px 10px 66px;
+    text-align: left;
+  }
+  .paging+.mega-holder .mega-banner,
+  .mega-holder .paging {
+    display: none;
+  }
+  .paging {
+    margin: 0 0 -112px;
+    background: none;
+  }
+  .paging .holder {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 392px;
+    padding: 147px 10px 34px 6px;
+  }
+  .paging .prev,
+  .paging .next {
+    width: 31px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/individuals/sprite02.png) no-repeat;
+  }
+  .paging .prev:hover {
+    background-position: 0 -49px;
+  }
+  .paging .next {
+    background-position: -36px 0;
+  }
+  .paging .next:hover {
+    background-position: -36px -49px;
+  }
+  .paging .block {
+    overflow: visible;
+  }
+  .paging .back {
+    padding: 29px 0 0;
+    display: inline-block;
+  }
+  .paging .back:after {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: 50%;
+    margin-left: -12px;
+    background-position: -72px 0;
+  }
+  .paging .prev:after,
+  .paging .next:after {
+    display: none;
+  }
+  .people-post {
+    max-width: 360px;
+    padding: 176px 10px 49px;
+  }
+  .people-post .heading {
+    padding-right: 0;
+  }
+  .people-post .meta {
+    padding-bottom: 3px;
+  }
+  .people-post .meta img {
+    float: none;
+    margin: 0 6px 0 0;
+  }
+  .people-post .meta .holder {
+    padding: 29px 0 29px 52px;
+  }
+  .people-post .cols .col,
+  .people-post .cols .col:first-child {
+    width: auto;
+    float: none;
+    padding: 0;
+  }
+  .people-post .cols {
+    padding: 0 21px 0 37px
+  }
+  .more-posts .holder {
+    max-width: 284px;
+    padding: 67px 10px 74px;
+  }
+  .more-posts h3 {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 34px;
+  }
+  .more-posts ul {
+    padding: 0 6px 19px 0;
+  }
+  .more-posts ul li {
+    float: none;
+    padding: 0 0 20px;
+  }
+}
+@media only screen and (max-width:700px) {
+  #content {
+    margin: 0 62px 60px;
+    float: none;
+  }
+  #sidebar {
+    float: none;
+    width: 100%;
+  }
+  .m1,
+  .c1 {
+    float: none;
+  }
+  .banner-block {
+    height: 112px;
+    margin: 0 0 54px;
+    padding: 115px 0 0;
+  }
+  .banner-block h2 {
+    font-size: 27px;
+    line-height: 29px;
+    margin: 0 0 9px;
+  }
+  .post h2 {
+    font-size: 27px;
+    line-height: 34px;
+    margin: 0 0 5px;
+  }
+  .post .img-box {
+    margin: 0 0 28px;
+  }
+  .post-paging {
+    padding: 14px 0 0;
+  }
+}
+@media only screen and (max-width:479px) {
+  .banner-block {
+    padding: 106px 40px 0;
+    margin: 0 0 45px;
+    height: 129px;
+    width: auto;
+  }
+  .banner-block h2 {
+    margin: 0 0 5px;
+  }
+  .banner-block h3 {
+    line-height: 25px;
+    margin: 0 0 3px;
+  }
+  #content {
+    margin: 0 46px 43px;
+  }
+  .post-paging {
+    margin: -3px 0 0;
+    padding: 0;
+  }
+  .post-paging .btn-prev,
+  .post-paging .btn-next {
+    font-size: 14px;
+    line-height: 16px;
+    background-position: 0 -138px;
+    padding: 3px 0 4px 21px;
+  }
+  .post-paging .btn-next {
+    background-position: 100% -138px;
+    padding: 3px 21px 4px 0;
+  }
+}
+@media only screen and (max-width:475px) {
+  .mega-holder {
+    background-position: 3px 1px;
+  }
+  .people-holder {
+    padding-bottom: 30px;
+  }
+  .people-holder h1 {
+    margin-bottom: 43px;
+    padding: 154px 20px 81px;
+    line-height: 40px;
+    background-position: 50% -3px;
+  }
+  .people-holder ul {
+    max-width: 278px;
+  }
+  .people-holder ul li {
+    padding: 0 5px 29px;
+  }
+  .people-holder ul img {
+    width: 126px;
+    border-radius: 68px;
+    -webkit-border-radius: 68px;
+  }
+  .people-holder h2 {
+    padding-top: 19px;
+  }
+  .mega-holder .about {
+    background-position: -495px -106px;
+  }
+  .mega-holder .about .holder {
+    max-width: none;
+    padding: 66px 25px 79px;
+  }
+  .paging .holder {
+    max-width: 268px;
+    padding: 139px 10px 32px;
+  }
+  .people-post {
+    padding: 181px 10px 42px;
+  }
+  .people-post .heading {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 38px;
+  }
+  .people-post .heading h2 {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 9px;
+  }
+  .people-post .meta img {
+    width: 227px;
+    border-radius: 114px;
+    -webkit-border-radius: 114px;
+    margin-right: 2px;
+  }
+  .people-post .meta .holder {
+    padding: 37px 0 39px 23px;
+  }
+  .people-post .meta h3 {
+    text-align: center;
+    padding: 0 22px 22px 0;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .people-post .meta .social {
+    margin-right: -19px;
+  }
+  .people-post .cols {
+    padding: 0 20px 0 16px;
+  }
+  .more-posts .holder {
+    padding: 51px 10px 49px;
+  }
+  .more-posts h3 {
+    margin-bottom: 49px;
+  }
+  .more-posts .view-all {
+    max-width: 120px;
+    line-height: 24px;
+    padding: 23px 31px 24px 36px;
+  }
+}

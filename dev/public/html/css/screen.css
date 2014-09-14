@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* line 1, ../sass/modules/_typography.scss */
 html {
   font-size: 16;
@@ -1615,4 +1616,2505 @@ section {
 #books .btn-holder .button {
   float: left;
   max-width: 50%;
+}
+
+/* line 1, ../sass/sections/_individuals.scss */
+.banner-block {
+  position: relative;
+  height: 164px;
+  color: #fff;
+  width: 100%;
+  margin: 0 0 62px;
+  text-align: center;
+  z-index: 2;
+  padding: 155px 0 0;
+  background: #ea602a;
+  overflow: hidden;
+}
+
+/* line 13, ../sass/sections/_individuals.scss */
+.banner-block img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -750px;
+  z-index: -1;
+}
+
+/* line 20, ../sass/sections/_individuals.scss */
+.banner-block h2 {
+  font-size: 40px;
+  line-height: 42px;
+  margin: 0 0 4px;
+  text-transform: uppercase;
+}
+
+/* line 26, ../sass/sections/_individuals.scss */
+.banner-block h3 {
+  font-size: 19px;
+  line-height: 22px;
+  margin: 0 0 3px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 33, ../sass/sections/_individuals.scss */
+.banner-block .date {
+  font: italic 20px/22px Georgia, Arial, Helvetica, sans-serif;
+  display: block;
+}
+
+/* line 37, ../sass/sections/_individuals.scss */
+#main:after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 42, ../sass/sections/_individuals.scss */
+.m1 {
+  width: 100%;
+  float: left;
+}
+
+/* line 46, ../sass/sections/_individuals.scss */
+#sidebar {
+  width: 271px;
+  float: right;
+}
+
+/* line 50, ../sass/sections/_individuals.scss */
+#content {
+  margin: 0 400px 0 0;
+}
+
+/* line 53, ../sass/sections/_individuals.scss */
+.c1 {
+  width: 100%;
+  float: left;
+}
+
+/* line 57, ../sass/sections/_individuals.scss */
+.post-paging {
+  overflow: hidden;
+  padding: 4px 0 0;
+}
+
+/* line 61, ../sass/sections/_individuals.scss */
+.post-paging .btn-prev,
+.post-paging .btn-next {
+  font: italic 20px/22px Georgia, Arial, Helvetica, sans-serif;
+  padding: 8px 0 14px 40px;
+  background: url(../images/individuals/sprite2.png) no-repeat;
+  color: #333;
+  float: left;
+}
+
+/* line 69, ../sass/sections/_individuals.scss */
+.post-paging .btn-next {
+  float: right;
+  padding: 8px 40px 14px 0;
+  background-position: 100% 0;
+}
+
+/* line 74, ../sass/sections/_individuals.scss */
+.post-title {
+  position: relative;
+  padding: 0 0 49px 84px;
+}
+
+/* line 78, ../sass/sections/_individuals.scss */
+.post-title.archive {
+  padding: 0 0 49px;
+}
+
+/* line 81, ../sass/sections/_individuals.scss */
+.post-title .img-box {
+  position: absolute;
+  top: -18px;
+  left: 0;
+}
+
+/* line 86, ../sass/sections/_individuals.scss */
+.post-title h2 {
+  color: #666;
+  font: italic 42px/40px Georgia, Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* line 91, ../sass/sections/_individuals.scss */
+.mega-holder {
+  width: 100%;
+  overflow: hidden;
+  background: #fafafa url(../images/individuals/bg-mega-holder.png) 0 4px;
+}
+
+/* line 96, ../sass/sections/_individuals.scss */
+.mega-banner {
+  width: 100%;
+  /* height: 714px;
+  */
+  height: 625px;
+  position: relative;
+  overflow: hidden;
+  margin: -83px 0 0;
+  /* **********************************************************
+  DAY TIME LOBBY IMAGE
+  ********************************************************** */
+  background: url(../images/individuals/lobby/Lobby-Day.jpg) #220409 no-repeat 50% 0;
+  /* background: url(../images/individuals/lobby/Lobby-Day.jpg) repeat-x 50% 0;
+  */
+  /* **********************************************************
+  END DAY TIME LOBBY IMAGE
+  ********************************************************** */
+}
+
+/* **********************************************************
+NIGHT TIME LOBBY IMAGE
+********************************************************** */
+/* line 118, ../sass/sections/_individuals.scss */
+.mega-banner.night {
+  background-image: url(../images/individuals/lobby/Lobby-Night.jpg);
+}
+
+/* **********************************************************
+END NIGHT TIME LOBBY IMAGE
+********************************************************** */
+/* line 125, ../sass/sections/_individuals.scss */
+.individuals-person .mega-banner {
+  margin-top: 21px;
+}
+
+/* line 128, ../sass/sections/_individuals.scss */
+.mega-banner .photo-container {
+  width: 1170px;
+  height: 609px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 134, ../sass/sections/_individuals.scss */
+.mega-banner .photo-container .holder {
+  position: absolute;
+  bottom: 0;
+  right: -23px;
+  -webkit-transition: all 0.3s ease-out;
+  /* Chrome 1-25, Safari 3.2+ */
+  -moz-transition: all 0.3s ease-out;
+  /* Firefox 4-15 */
+  -o-transition: all 0.3s ease-out;
+  /* Opera 10.50–12.00 */
+  transition: all 0.3s ease-out;
+  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+/* line 145, ../sass/sections/_individuals.scss */
+.mega-banner .photo-container .holder02,
+.mega-banner.night .photo-container .holder {
+  display: none;
+}
+
+/* line 149, ../sass/sections/_individuals.scss */
+.mega-banner.night .photo-container .holder02 {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+  display: block;
+}
+
+/* line 155, ../sass/sections/_individuals.scss */
+.people-holder h1 {
+  display: none;
+}
+
+/* **********************************************************
+
+FLOATING PEOPLE
+
+********************************************************** */
+/* line 164, ../sass/sections/_individuals.scss */
+#photo01 {
+  position: absolute;
+  bottom: 0;
+  right: 504px;
+}
+
+/* line 169, ../sass/sections/_individuals.scss */
+#night-photo01 {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+  display: block;
+}
+
+/* line 175, ../sass/sections/_individuals.scss */
+#intro-handwriting {
+  position: absolute;
+  bottom: 232px;
+  left: -842px;
+}
+
+/* line 180, ../sass/sections/_individuals.scss */
+#night-intro-handwriting {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 185, ../sass/sections/_individuals.scss */
+#cordell {
+  position: absolute;
+  bottom: -187px;
+  right: 0px;
+}
+
+/* line 190, ../sass/sections/_individuals.scss */
+#night-cordell {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 195, ../sass/sections/_individuals.scss */
+#robbin {
+  position: absolute;
+  bottom: -58px;
+  right: 349px;
+}
+
+/* line 200, ../sass/sections/_individuals.scss */
+#night-robbin {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 205, ../sass/sections/_individuals.scss */
+#ramsey {
+  position: absolute;
+  bottom: -105px;
+  right: 192px;
+}
+
+/* line 210, ../sass/sections/_individuals.scss */
+#night-ramsey {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 215, ../sass/sections/_individuals.scss */
+#geno {
+  position: absolute;
+  bottom: -28px;
+  right: 949px;
+}
+
+/* line 220, ../sass/sections/_individuals.scss */
+#night-geno {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 225, ../sass/sections/_individuals.scss */
+#john {
+  position: absolute;
+  bottom: -91px;
+  right: 21px;
+}
+
+/* line 230, ../sass/sections/_individuals.scss */
+#night-john {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 235, ../sass/sections/_individuals.scss */
+#megan {
+  position: absolute;
+  bottom: -107px;
+  right: 33px;
+}
+
+/* line 240, ../sass/sections/_individuals.scss */
+#night-megan {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 245, ../sass/sections/_individuals.scss */
+#alison {
+  position: absolute;
+  bottom: -105px;
+  right: 438px;
+}
+
+/* line 250, ../sass/sections/_individuals.scss */
+#night-alison {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 255, ../sass/sections/_individuals.scss */
+#amy {
+  position: absolute;
+  bottom: -101px;
+  right: -9px;
+}
+
+/* line 260, ../sass/sections/_individuals.scss */
+#night-amy {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 265, ../sass/sections/_individuals.scss */
+#brandy {
+  position: absolute;
+  bottom: -11px;
+  right: 445px;
+}
+
+/* line 270, ../sass/sections/_individuals.scss */
+#night-brandy {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 275, ../sass/sections/_individuals.scss */
+#cathy {
+  position: absolute;
+  bottom: -35px;
+  right: 393px;
+}
+
+/* line 280, ../sass/sections/_individuals.scss */
+#night-cathy {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 285, ../sass/sections/_individuals.scss */
+#emily {
+  position: absolute;
+  bottom: 153px;
+  right: 507px;
+}
+
+/* line 290, ../sass/sections/_individuals.scss */
+#night-emily {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 295, ../sass/sections/_individuals.scss */
+#jack {
+  position: absolute;
+  bottom: 80px;
+  right: 300px;
+}
+
+/* line 300, ../sass/sections/_individuals.scss */
+#night-jack {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 305, ../sass/sections/_individuals.scss */
+#marysusan {
+  position: absolute;
+  bottom: 56px;
+  right: 223px;
+}
+
+/* line 310, ../sass/sections/_individuals.scss */
+#night-marysusan {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 315, ../sass/sections/_individuals.scss */
+#moe {
+  position: absolute;
+  bottom: -108px;
+  right: -4px;
+}
+
+/* line 320, ../sass/sections/_individuals.scss */
+#night-moe {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 325, ../sass/sections/_individuals.scss */
+#nathan {
+  position: absolute;
+  bottom: -102px;
+  right: 294px;
+}
+
+/* line 330, ../sass/sections/_individuals.scss */
+#night-nathan {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 335, ../sass/sections/_individuals.scss */
+#sarah {
+  position: absolute;
+  bottom: -59px;
+  right: 102px;
+}
+
+/* line 340, ../sass/sections/_individuals.scss */
+#night-sarah {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 345, ../sass/sections/_individuals.scss */
+#sean {
+  position: absolute;
+  bottom: 72px;
+  right: -79px;
+}
+
+/* line 350, ../sass/sections/_individuals.scss */
+#night-sean {
+  position: absolute;
+  bottom: -32px;
+  left: -61px;
+}
+
+/* line 355, ../sass/sections/_individuals.scss */
+#shannon {
+  position: absolute;
+  bottom: 170px;
+  right: 493px;
+}
+
+/* line 360, ../sass/sections/_individuals.scss */
+#night-shannon {
+  position: absolute;
+  bottom: 280px;
+  left: -61px;
+}
+
+/* line 365, ../sass/sections/_individuals.scss */
+#wicket {
+  position: absolute;
+  bottom: 74px;
+  right: 462px;
+}
+
+/* line 370, ../sass/sections/_individuals.scss */
+#night-wicket {
+  position: absolute;
+  bottom: 280px;
+  left: -61px;
+}
+
+/* **********************************************************
+
+END FLOATING PEOPLE
+
+********************************************************** */
+/* line 381, ../sass/sections/_individuals.scss */
+.mega-banner .photo-container img {
+  /* max-width: 100%;
+  */
+  display: none;
+  max-width: none;
+  width: auto;
+}
+
+/* line 388, ../sass/sections/_individuals.scss */
+.mega-banner .photo-container .active {
+  display: block;
+}
+
+/* line 391, ../sass/sections/_individuals.scss */
+.people-holder {
+  /* max-width: 1170px;
+  */
+  max-width: 960px;
+  margin: 0 auto;
+  /* padding: 55px 10px 39px;
+  */
+  padding: 30px 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 402, ../sass/sections/_individuals.scss */
+.people-holder ul {
+  /* margin: 0 -11px 0 -16px;
+  */
+  margin: 0 -11px 15px -16px;
+  padding: 0;
+  /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  */
+}
+
+/* line 410, ../sass/sections/_individuals.scss */
+.people-holder ul li {
+  /* padding: 0 6px 35px;
+  */
+  padding: 0 6px 15px;
+  display: inline-block;
+  vertical-align: top;
+  list-style: none;
+  list-style-position: outside;
+}
+
+/* line 419, ../sass/sections/_individuals.scss */
+.people-holder ul a {
+  color: #666;
+}
+
+/* line 422, ../sass/sections/_individuals.scss */
+.people-holder ul a:hover {
+  text-decoration: none;
+}
+
+/* line 425, ../sass/sections/_individuals.scss */
+.people-holder h2 {
+  margin: 0;
+  padding: 10px 0 0;
+  font: 11px/14px;
+}
+
+/* line 430, ../sass/sections/_individuals.scss */
+.people-holder ul img {
+  /* width: 101px;
+  */
+  width: 75px;
+  display: block;
+  border-radius: 51px;
+  -webkit-border-radius: 51px;
+}
+
+/* line 438, ../sass/sections/_individuals.scss */
+.people-holder ul a:hover img,
+.people-holder ul img.hover {
+  display: none;
+}
+
+/* line 442, ../sass/sections/_individuals.scss */
+.people-holder ul a:hover img.hover {
+  display: block;
+}
+
+/* line 445, ../sass/sections/_individuals.scss */
+.mega-holder .about {
+  width: 100%;
+  overflow: hidden;
+  background: #12bdd5 url(../images/individuals/bg-about.jpg) no-repeat 50% -61px;
+}
+
+/* line 450, ../sass/sections/_individuals.scss */
+.mega-holder .about .holder {
+  max-width: 976px;
+  margin: 0 auto;
+  padding: 63px 10px 90px;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 32px;
+  color: #fff;
+}
+
+/* line 459, ../sass/sections/_individuals.scss */
+.mega-holder .about p {
+  margin: 0;
+}
+
+/* line 462, ../sass/sections/_individuals.scss */
+.paging {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: -124px;
+  position: relative;
+  z-index: 2;
+}
+
+/* line 469, ../sass/sections/_individuals.scss */
+.mega-holder .paging {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  position: static;
+}
+
+/* line 475, ../sass/sections/_individuals.scss */
+.paging .holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 115px 10px 44px;
+  overflow: hidden;
+  font: italic 20px/23px Georgia, "Times New Roman", Times, serif;
+}
+
+/* line 482, ../sass/sections/_individuals.scss */
+.mega-holder .paging .holder {
+  padding: 41px 10px 44px;
+}
+
+/* line 485, ../sass/sections/_individuals.scss */
+.paging .block {
+  height: 1%;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 490, ../sass/sections/_individuals.scss */
+.paging .prev {
+  float: left;
+  padding-left: 40px;
+}
+
+/* line 494, ../sass/sections/_individuals.scss */
+.paging .prev:hover,
+.paging .next:hover,
+.paging .back:hover {
+  text-decoration: none;
+}
+
+/* line 499, ../sass/sections/_individuals.scss */
+.paging .next {
+  float: right;
+  margin-left: 40px;
+  padding-right: 48px;
+}
+
+/* line 504, ../sass/sections/_individuals.scss */
+.paging .back {
+  padding-left: 36px;
+}
+
+/* line 507, ../sass/sections/_individuals.scss */
+.paging .prev,
+.paging .next,
+.paging .back {
+  position: relative;
+  color: #333;
+}
+
+/* line 513, ../sass/sections/_individuals.scss */
+.paging .prev:after,
+.paging .next:after,
+.paging .back:after {
+  width: 31px;
+  height: 44px;
+  content: '';
+  background: url(../images/individuals/sprite02.png) no-repeat;
+  position: absolute;
+  top: -7px;
+  left: 0;
+}
+
+/* line 524, ../sass/sections/_individuals.scss */
+.paging .prev:hover:after {
+  background-position: 0 -49px;
+  content: " ";
+}
+
+/* line 528, ../sass/sections/_individuals.scss */
+.paging .next:after {
+  background-position: -36px 0;
+  left: auto;
+  right: 1px;
+}
+
+/* line 533, ../sass/sections/_individuals.scss */
+.paging .next:hover:after {
+  background-position: -36px -49px;
+  content: " ";
+}
+
+/* line 537, ../sass/sections/_individuals.scss */
+.paging .back:after {
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-position: -72px 0;
+}
+
+/* line 543, ../sass/sections/_individuals.scss */
+.paging .back:hover:after {
+  width: 24px;
+  height: 24px;
+  top: 0;
+  background-position: -72px -49px;
+}
+
+/* line 549, ../sass/sections/_individuals.scss */
+.people-post {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 61px 10px 56px;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* line 556, ../sass/sections/_individuals.scss */
+.people-post .heading {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+/* line 560, ../sass/sections/_individuals.scss */
+.people-post .job-title {
+  font: italic bold 31px/34px Georgia, "Times New Roman", Times, serif;
+  color: #939f57;
+  line-height: 36px;
+}
+
+/* line 565, ../sass/sections/_individuals.scss */
+.people-post .cols-holder {
+  width: 100%;
+  display: table;
+}
+
+/* line 569, ../sass/sections/_individuals.scss */
+.people-post .meta,
+.people-post .cols {
+  display: table-cell;
+  vertical-align: top;
+}
+
+/* line 574, ../sass/sections/_individuals.scss */
+.people-post .meta {
+  width: 289px;
+  padding: 10px 54px;
+  text-align: center;
+}
+
+/* line 579, ../sass/sections/_individuals.scss */
+.people-post .meta img {
+  width: 257px;
+  border-radius: 130px;
+  -webkit-border-radius: 130px;
+  margin-right: 24px;
+}
+
+/* line 585, ../sass/sections/_individuals.scss */
+.people-post .meta .holder {
+  height: 1%;
+  overflow: hidden;
+  padding: 25px 0;
+}
+
+/* line 590, ../sass/sections/_individuals.scss */
+.people-post .meta h3 {
+  margin: 0;
+  padding: 0 30px 19px 0;
+  font: italic bold 24px/27px Georgia, "Times New Roman", Times, serif;
+  color: #939f57;
+}
+
+/* line 596, ../sass/sections/_individuals.scss */
+.people-post .meta .social {
+  width: 295px;
+  margin: 0 -6px 0 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+/* line 603, ../sass/sections/_individuals.scss */
+.people-post .meta .social li {
+  width: 140px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 5px 13px 0;
+}
+
+/* line 609, ../sass/sections/_individuals.scss */
+.people-post .meta .social a {
+  position: relative;
+  padding-left: 43px;
+  color: #333;
+}
+
+/* line 614, ../sass/sections/_individuals.scss */
+.people-post .meta .social a:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+
+/* line 618, ../sass/sections/_individuals.scss */
+.people-post .meta .social a:after {
+  width: 34px;
+  height: 33px;
+  content: '';
+  background: url(../images/individuals/sprite02.png) no-repeat;
+  position: absolute;
+  top: -6px;
+  left: 0;
+}
+
+/* line 627, ../sass/sections/_individuals.scss */
+.people-post .meta .social .twitter:after {
+  background-position: -101px 0;
+}
+
+/* line 630, ../sass/sections/_individuals.scss */
+.people-post .meta .social .facebook:after {
+  background-position: -140px 0;
+}
+
+/* line 633, ../sass/sections/_individuals.scss */
+.people-post .meta .social .pinterest:after {
+  background-position: -179px 0;
+}
+
+/* line 636, ../sass/sections/_individuals.scss */
+.people-post .meta .social .instagram:after {
+  background-position: -218px 0;
+}
+
+/* line 639, ../sass/sections/_individuals.scss */
+.people-post .meta .social .linkedin:after {
+  background-position: -257px 0;
+}
+
+/* line 642, ../sass/sections/_individuals.scss */
+.people-post .meta .social .blog:after {
+  background-position: -296px 0;
+}
+
+/* line 645, ../sass/sections/_individuals.scss */
+.people-post .cols .col {
+  height: 1%;
+  overflow: hidden;
+  padding: 0 0 1px 17px;
+}
+
+/* line 650, ../sass/sections/_individuals.scss */
+.people-post .cols .col:first-child {
+  width: 50%;
+  float: left;
+  padding: 0;
+}
+
+/* line 655, ../sass/sections/_individuals.scss */
+.people-post ul.arbitrary-facts {
+  margin: 0 0 20px 20px;
+  list-style: disc inside;
+  width: 100%;
+}
+
+/* line 660, ../sass/sections/_individuals.scss */
+.people-post ul.arbitrary-facts li {
+  padding: 0 0 10px;
+}
+
+/* line 663, ../sass/sections/_individuals.scss */
+.people-post p {
+  margin-bottom: 29px;
+}
+
+/* line 666, ../sass/sections/_individuals.scss */
+.more-posts {
+  width: 100%;
+  background: #12bdd5 url(../images/individuals/bg-more.jpg) no-repeat 50% 0;
+}
+
+/* line 670, ../sass/sections/_individuals.scss */
+.more-posts .holder {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 104px 13px 123px 9px;
+  text-align: center;
+}
+
+/* line 676, ../sass/sections/_individuals.scss */
+.more-posts ul {
+  display: table;
+  margin: 0 auto;
+  padding: 0 0 48px;
+  text-align: left;
+}
+
+/* line 682, ../sass/sections/_individuals.scss */
+.more-posts ul li {
+  width: 270px;
+  float: left;
+  padding: 0 15px;
+  list-style: none;
+  list-style-position: outside;
+  color: #fff;
+}
+
+/* line 690, ../sass/sections/_individuals.scss */
+.more-posts img {
+  max-width: 100%;
+}
+
+/* line 693, ../sass/sections/_individuals.scss */
+.more-posts h4 {
+  margin: 0;
+  padding: 10px 0;
+  font: 18px/21px Tahoma, Geneva, sans-serif;
+}
+
+/* line 698, ../sass/sections/_individuals.scss */
+.more-posts ul a {
+  color: #fff;
+}
+
+/* line 701, ../sass/sections/_individuals.scss */
+.more-posts ul a:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+
+/* line 705, ../sass/sections/_individuals.scss */
+.more-posts .view-all {
+  padding: 25px 42px 23px 45px;
+  font: italic 28px/31px Georgia, "Times New Roman", Times, serif;
+  display: inline-block;
+  color: #fff;
+  background: #eb7e1f;
+}
+
+/* line 712, ../sass/sections/_individuals.scss */
+.more-posts .view-all:hover {
+  background: #d17327;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  /* line 717, ../sass/sections/_individuals.scss */
+  .mega-holder {
+    background-position: -2px 9px;
+  }
+
+  /* line 720, ../sass/sections/_individuals.scss */
+  .mega-banner {
+    height: 555px;
+    /* **********************************************************
+    DAY TIME LOBBY IMAGE
+    ********************************************************** */
+    background-image: url(../images/individuals/lobby/Lobby-Day_1200x555.jpg);
+    /* **********************************************************
+    END DAY TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+
+  /* **********************************************************
+  NIGHT TIME LOBBY IMAGE
+  ********************************************************** */
+  /* line 734, ../sass/sections/_individuals.scss */
+  .mega-banner.night {
+    background-image: url(../images/individuals/lobby/Lobby-Night_1200x555.jpg);
+    /* .mega-banner .window {
+      background-image: url(../images/individuals/img-window02.png);
+    }
+    */
+    /* **********************************************************
+    END NIGHT TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+
+  /* line 744, ../sass/sections/_individuals.scss */
+  .mega-banner .photo-container {
+    width: 940px;
+    height: 474px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  /* line 750, ../sass/sections/_individuals.scss */
+  .mega-banner .photo-container .holder {
+    /* width: 35%;
+    */
+    right: 0;
+  }
+
+  /* **********************************************************
+  
+  SMALLERFLOATING PEOPLE
+  
+  ********************************************************** */
+  /* line 761, ../sass/sections/_individuals.scss */
+  #photo01 {
+    position: absolute;
+    bottom: 0;
+    right: 504px;
+  }
+
+  /* line 766, ../sass/sections/_individuals.scss */
+  #intro-handwriting {
+    position: absolute;
+    bottom: 124px;
+    left: -708px;
+  }
+
+  /* line 771, ../sass/sections/_individuals.scss */
+  #night-photo01 {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+    display: block;
+  }
+
+  /* line 777, ../sass/sections/_individuals.scss */
+  #cordell {
+    position: absolute;
+    bottom: -182px;
+    right: -32px;
+    width: 585px;
+  }
+
+  /* line 783, ../sass/sections/_individuals.scss */
+  #night-cordell {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 788, ../sass/sections/_individuals.scss */
+  #robbin {
+    position: absolute;
+    bottom: -60px;
+    right: 262px;
+    width: 455px;
+  }
+
+  /* line 794, ../sass/sections/_individuals.scss */
+  #night-robbin {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 799, ../sass/sections/_individuals.scss */
+  #ramsey {
+    position: absolute;
+    bottom: -122px;
+    right: 139px;
+    width: 485px;
+  }
+
+  /* line 805, ../sass/sections/_individuals.scss */
+  #night-ramsey {
+    position: absolute;
+    bottom: -105px;
+    left: 139px;
+  }
+
+  /* line 810, ../sass/sections/_individuals.scss */
+  #geno {
+    position: absolute;
+    bottom: -36px;
+    right: 742px;
+    width: 205px;
+  }
+
+  /* line 816, ../sass/sections/_individuals.scss */
+  #night-geno {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 821, ../sass/sections/_individuals.scss */
+  #john {
+    position: absolute;
+    bottom: -96px;
+    right: 1px;
+    width: 349px;
+  }
+
+  /* line 827, ../sass/sections/_individuals.scss */
+  #night-john {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 832, ../sass/sections/_individuals.scss */
+  #megan {
+    position: absolute;
+    bottom: -103px;
+    right: 10px;
+    width: 580px;
+  }
+
+  /* line 838, ../sass/sections/_individuals.scss */
+  #night-megan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 843, ../sass/sections/_individuals.scss */
+  #alison {
+    position: absolute;
+    bottom: -100px;
+    right: 331px;
+    width: 413px;
+  }
+
+  /* line 849, ../sass/sections/_individuals.scss */
+  #night-alison {
+    position: absolute;
+    bottom: -83px;
+    right: 448px;
+    width: 298px;
+  }
+
+  /* line 855, ../sass/sections/_individuals.scss */
+  #amy {
+    position: absolute;
+    bottom: -95px;
+    right: -24px;
+    width: 571px;
+  }
+
+  /* line 861, ../sass/sections/_individuals.scss */
+  #night-amy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 866, ../sass/sections/_individuals.scss */
+  #brandy {
+    position: absolute;
+    bottom: -23px;
+    right: 342px;
+    width: 328px;
+  }
+
+  /* line 872, ../sass/sections/_individuals.scss */
+  #night-brandy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 877, ../sass/sections/_individuals.scss */
+  #cathy {
+    position: absolute;
+    bottom: -42px;
+    right: 299px;
+    width: 326px;
+  }
+
+  /* line 883, ../sass/sections/_individuals.scss */
+  #night-cathy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 888, ../sass/sections/_individuals.scss */
+  #emily {
+    position: absolute;
+    bottom: 109px;
+    right: 388px;
+    width: 223px;
+  }
+
+  /* line 894, ../sass/sections/_individuals.scss */
+  #night-emily {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 899, ../sass/sections/_individuals.scss */
+  #jack {
+    position: absolute;
+    bottom: 51px;
+    right: 224px;
+    width: 285px;
+  }
+
+  /* line 905, ../sass/sections/_individuals.scss */
+  #night-jack {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 910, ../sass/sections/_individuals.scss */
+  #marysusan {
+    position: absolute;
+    bottom: 34px;
+    right: 161px;
+    width: 465px;
+  }
+
+  /* line 916, ../sass/sections/_individuals.scss */
+  #night-marysusan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 921, ../sass/sections/_individuals.scss */
+  #moe {
+    position: absolute;
+    bottom: -101px;
+    right: -22px;
+    width: 484px;
+  }
+
+  /* line 927, ../sass/sections/_individuals.scss */
+  #night-moe {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 932, ../sass/sections/_individuals.scss */
+  #nathan {
+    position: absolute;
+    bottom: -100px;
+    right: 216px;
+    width: 469px;
+  }
+
+  /* line 938, ../sass/sections/_individuals.scss */
+  #night-nathan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 943, ../sass/sections/_individuals.scss */
+  #sarah {
+    position: absolute;
+    bottom: -60px;
+    right: 67px;
+    width: 494px;
+  }
+
+  /* line 949, ../sass/sections/_individuals.scss */
+  #night-sarah {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 954, ../sass/sections/_individuals.scss */
+  #sean {
+    position: absolute;
+    bottom: 44px;
+    right: -81px;
+    width: 283px;
+  }
+
+  /* line 960, ../sass/sections/_individuals.scss */
+  #night-sean {
+    position: absolute;
+    bottom: 61px;
+    right: 9px;
+    width: 194px;
+  }
+
+  /* line 966, ../sass/sections/_individuals.scss */
+  #shannon {
+    position: absolute;
+    bottom: 123px;
+    right: 376px;
+    width: 199px;
+  }
+
+  /* line 972, ../sass/sections/_individuals.scss */
+  #night-shannon {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+
+  /* line 977, ../sass/sections/_individuals.scss */
+  #wicket {
+    position: absolute;
+    bottom: 46px;
+    right: 347px;
+    width: 351px;
+  }
+
+  /* line 983, ../sass/sections/_individuals.scss */
+  #night-wicket {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+
+  /* **********************************************************
+  
+  END SMALLER FLOATING PEOPLE
+  
+  ********************************************************** */
+  /* line 994, ../sass/sections/_individuals.scss */
+  .mega-banner.night .photo-container .holder02 {
+    bottom: -24px;
+    left: -44px;
+    width: 226px;
+  }
+
+  /* line 999, ../sass/sections/_individuals.scss */
+  .people-holder {
+    max-width: 980px;
+    padding: 58px 10px 39px;
+  }
+
+  /* line 1003, ../sass/sections/_individuals.scss */
+  .people-holder h2 {
+    margin-bottom: 24px;
+  }
+
+  /* line 1006, ../sass/sections/_individuals.scss */
+  .people-holder ul {
+    margin: 0 -11px 0 -14px;
+  }
+
+  /* line 1009, ../sass/sections/_individuals.scss */
+  .people-holder ul li {
+    padding: 0 4px 28px;
+  }
+
+  /* line 1012, ../sass/sections/_individuals.scss */
+  .people-holder ul img {
+    width: 82px;
+  }
+
+  /* line 1015, ../sass/sections/_individuals.scss */
+  .people-holder h3 {
+    margin: 0 -6px;
+    padding: 5px 0 0;
+  }
+
+  /* line 1019, ../sass/sections/_individuals.scss */
+  .mega-holder .about .holder {
+    max-width: 780px;
+    padding: 58px 10px 70px;
+  }
+
+  /* line 1023, ../sass/sections/_individuals.scss */
+  .paging {
+    margin-bottom: -130px;
+  }
+
+  /* line 1026, ../sass/sections/_individuals.scss */
+  .paging .holder {
+    max-width: 944px;
+    padding: 121px 10px 44px;
+  }
+
+  /* line 1030, ../sass/sections/_individuals.scss */
+  .paging .prev {
+    margin-left: 3px;
+  }
+
+  /* line 1033, ../sass/sections/_individuals.scss */
+  .paging .next {
+    margin-left: 26px;
+  }
+
+  /* line 1036, ../sass/sections/_individuals.scss */
+  .people-post {
+    max-width: 1014px;
+    padding: 63px 10px 55px;
+  }
+
+  /* line 1040, ../sass/sections/_individuals.scss */
+  .people-post .meta {
+    padding: 0 14px 0 54px;
+  }
+
+  /* line 1043, ../sass/sections/_individuals.scss */
+  .people-post .cols .col:first-child {
+    width: 46%;
+  }
+
+  /* line 1046, ../sass/sections/_individuals.scss */
+  .more-posts .holder {
+    padding: 104px 11px 123px;
+  }
+
+  /* line 1049, ../sass/sections/_individuals.scss */
+  .mega-holder .paging .holder {
+    padding-top: 44px;
+  }
+}
+@media only screen and (max-width: 980px) {
+  /* line 1054, ../sass/sections/_individuals.scss */
+  .banner-block {
+    height: 164px;
+    padding: 150px 0 0;
+    overflow: hidden;
+    margin: 0 0 58px;
+  }
+
+  /* line 1060, ../sass/sections/_individuals.scss */
+  #sidebar {
+    width: 220px;
+  }
+
+  /* line 1063, ../sass/sections/_individuals.scss */
+  #content {
+    margin: 0 320px 0 0;
+  }
+
+  /* line 1066, ../sass/sections/_individuals.scss */
+  .post .img-box {
+    margin: 0 0 25px;
+  }
+
+  /* line 1069, ../sass/sections/_individuals.scss */
+  .post h2 {
+    line-height: 47px;
+    margin: 0 0 5px;
+  }
+
+  /* line 1073, ../sass/sections/_individuals.scss */
+  .mega-banner {
+    display: none;
+  }
+
+  /* line 1076, ../sass/sections/_individuals.scss */
+  .mega-holder {
+    background-position: 2px 4px;
+  }
+
+  /* line 1079, ../sass/sections/_individuals.scss */
+  .people-holder {
+    padding: 0 0 41px;
+  }
+
+  /* line 1082, ../sass/sections/_individuals.scss */
+  .people-holder h1 {
+    display: block;
+    margin-bottom: 64px;
+    padding: 179px 10px 105px;
+    color: #fff;
+    background: url(../images/individuals/bg-heading.jpg) repeat-x 50% 0;
+  }
+
+  /* line 1089, ../sass/sections/_individuals.scss */
+  .people-holder ul {
+    max-width: 740px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* line 1094, ../sass/sections/_individuals.scss */
+  .people-holder ul li {
+    padding: 0 7px 30px;
+    text-align: center;
+  }
+
+  /* line 1098, ../sass/sections/_individuals.scss */
+  .people-holder ul img {
+    width: 167px;
+    border-radius: 84px;
+    -webkit-border-radius: 84px;
+  }
+
+  /* line 1103, ../sass/sections/_individuals.scss */
+  .people-holder h2 {
+    margin: 0;
+    padding: 17px 0 0;
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  /* line 1109, ../sass/sections/_individuals.scss */
+  .mega-holder .about {
+    background-position: -245px -107px;
+  }
+
+  /* line 1112, ../sass/sections/_individuals.scss */
+  .mega-holder .about .holder {
+    max-width: 580px;
+    padding: 66px 28px 71px 10px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+  }
+
+  /* line 1119, ../sass/sections/_individuals.scss */
+  .paging {
+    margin-bottom: -113px;
+  }
+
+  /* line 1122, ../sass/sections/_individuals.scss */
+  .paging .holder {
+    max-width: 728px;
+    padding: 113px 10px 34px;
+  }
+
+  /* line 1126, ../sass/sections/_individuals.scss */
+  .paging .next {
+    margin-left: 40px;
+  }
+
+  /* line 1129, ../sass/sections/_individuals.scss */
+  .paging + .mega-holder .mega-banner {
+    display: block;
+    height: 447px;
+    /* **********************************************************
+    DAY TIME LOBBY IMAGE
+    ********************************************************** */
+    background-image: url(../images/individuals/lobby/Lobby-Day_940x447.jpg);
+    /* **********************************************************
+    END DAY TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+
+  /* **********************************************************
+  NIGHT TIME LOBBY IMAGE
+  ********************************************************** */
+  /* line 1144, ../sass/sections/_individuals.scss */
+  .paging + .mega-holder .mega-banner.night {
+    background-image: url(../images/individuals/lobby/Lobby-Night_940x447.jpg);
+    /* **********************************************************
+    END NIGHT TIME LOBBY IMAGE
+    ********************************************************** */
+  }
+
+  /* line 1150, ../sass/sections/_individuals.scss */
+  .mega-banner .photo-container {
+    width: 746px;
+    height: 392px;
+  }
+
+  /* .mega-banner .photo-container .holder {
+    width: 95px;
+  }
+  */
+  /* line 1159, ../sass/sections/_individuals.scss */
+  .mega-banner.night .photo-container .holder02 {
+    bottom: -13px;
+    left: -30px;
+    width: 180px;
+  }
+
+  /* .mega-banner .window {
+    background-image: url(../images/individuals/img-window03.png);
+  }
+  */
+  /* **********************************************************
+  
+  SMALLEST FLOATING PEOPLE
+  
+  ********************************************************** */
+  /* line 1175, ../sass/sections/_individuals.scss */
+  #photo01 {
+    position: absolute;
+    bottom: 0;
+    right: 504px;
+  }
+
+  /* line 1180, ../sass/sections/_individuals.scss */
+  #intro-handwriting {
+    position: absolute;
+    bottom: 124px;
+    left: -708px;
+  }
+
+  /* line 1185, ../sass/sections/_individuals.scss */
+  #night-photo01 {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+    display: block;
+  }
+
+  /* line 1191, ../sass/sections/_individuals.scss */
+  #cordell {
+    position: absolute;
+    bottom: -134px;
+    right: -2px;
+    width: 456px;
+  }
+
+  /* line 1197, ../sass/sections/_individuals.scss */
+  #night-cordell {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1202, ../sass/sections/_individuals.scss */
+  #robbin {
+    position: absolute;
+    bottom: -27px;
+    right: 213px;
+    width: 355px;
+  }
+
+  /* line 1208, ../sass/sections/_individuals.scss */
+  #night-robbin {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1213, ../sass/sections/_individuals.scss */
+  #ramsey {
+    position: absolute;
+    bottom: -86px;
+    right: 101px;
+    width: 378px;
+  }
+
+  /* line 1219, ../sass/sections/_individuals.scss */
+  #night-ramsey {
+    position: absolute;
+    bottom: -105px;
+    left: 139px;
+  }
+
+  /* line 1224, ../sass/sections/_individuals.scss */
+  #geno {
+    position: absolute;
+    bottom: -7px;
+    right: 586px;
+    width: 161px;
+  }
+
+  /* line 1230, ../sass/sections/_individuals.scss */
+  #night-geno {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1235, ../sass/sections/_individuals.scss */
+  #john {
+    position: absolute;
+    bottom: -62px;
+    right: 8px;
+    width: 267px;
+  }
+
+  /* line 1241, ../sass/sections/_individuals.scss */
+  #night-john {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1246, ../sass/sections/_individuals.scss */
+  #megan {
+    position: absolute;
+    bottom: -54px;
+    right: 10px;
+    width: 452px;
+  }
+
+  /* line 1252, ../sass/sections/_individuals.scss */
+  #night-megan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1257, ../sass/sections/_individuals.scss */
+  #alison {
+    position: absolute;
+    bottom: -54px;
+    right: 265px;
+    width: 322px;
+  }
+
+  /* line 1263, ../sass/sections/_individuals.scss */
+  #night-alison {
+    position: absolute;
+    bottom: -83px;
+    right: 448px;
+    width: 298px;
+  }
+
+  /* line 1269, ../sass/sections/_individuals.scss */
+  #amy {
+    position: absolute;
+    bottom: -53px;
+    right: -13px;
+    width: 445px;
+  }
+
+  /* line 1275, ../sass/sections/_individuals.scss */
+  #night-amy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1280, ../sass/sections/_individuals.scss */
+  #brandy {
+    position: absolute;
+    bottom: 3px;
+    right: 277px;
+    width: 256px;
+  }
+
+  /* line 1286, ../sass/sections/_individuals.scss */
+  #night-brandy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1291, ../sass/sections/_individuals.scss */
+  #cathy {
+    position: absolute;
+    bottom: -11px;
+    right: 240px;
+    width: 254px;
+  }
+
+  /* line 1297, ../sass/sections/_individuals.scss */
+  #night-cathy {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1302, ../sass/sections/_individuals.scss */
+  #emily {
+    position: absolute;
+    bottom: 107px;
+    right: 311px;
+    width: 174px;
+  }
+
+  /* line 1308, ../sass/sections/_individuals.scss */
+  #night-emily {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1313, ../sass/sections/_individuals.scss */
+  #jack {
+    position: absolute;
+    bottom: 61px;
+    right: 181px;
+    width: 222px;
+  }
+
+  /* line 1319, ../sass/sections/_individuals.scss */
+  #night-jack {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1324, ../sass/sections/_individuals.scss */
+  #marysusan {
+    position: absolute;
+    bottom: 48px;
+    right: 132px;
+    width: 362px;
+  }
+
+  /* line 1330, ../sass/sections/_individuals.scss */
+  #night-marysusan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1335, ../sass/sections/_individuals.scss */
+  #moe {
+    position: absolute;
+    bottom: -71px;
+    right: -12px;
+    width: 377px;
+  }
+
+  /* line 1341, ../sass/sections/_individuals.scss */
+  #night-moe {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1346, ../sass/sections/_individuals.scss */
+  #nathan {
+    position: absolute;
+    bottom: -55px;
+    right: 173px;
+    width: 366px;
+  }
+
+  /* line 1352, ../sass/sections/_individuals.scss */
+  #night-nathan {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1357, ../sass/sections/_individuals.scss */
+  #sarah {
+    position: absolute;
+    bottom: -26px;
+    right: 58px;
+    width: 385px;
+  }
+
+  /* line 1363, ../sass/sections/_individuals.scss */
+  #night-sarah {
+    position: absolute;
+    bottom: -32px;
+    left: -61px;
+  }
+
+  /* line 1368, ../sass/sections/_individuals.scss */
+  #sean {
+    position: absolute;
+    bottom: 56px;
+    right: -58px;
+    width: 221px;
+  }
+
+  /* line 1374, ../sass/sections/_individuals.scss */
+  #night-sean {
+    position: absolute;
+    bottom: 61px;
+    right: 9px;
+    width: 194px;
+  }
+
+  /* line 1380, ../sass/sections/_individuals.scss */
+  #shannon {
+    position: absolute;
+    bottom: 117px;
+    right: 302px;
+    width: 155px;
+  }
+
+  /* line 1386, ../sass/sections/_individuals.scss */
+  #night-shannon {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+
+  /* line 1391, ../sass/sections/_individuals.scss */
+  #wicket {
+    position: absolute;
+    bottom: 58px;
+    right: 278px;
+    width: 274px;
+  }
+
+  /* line 1397, ../sass/sections/_individuals.scss */
+  #night-wicket {
+    position: absolute;
+    bottom: 280px;
+    left: -61px;
+  }
+
+  /* **********************************************************
+  
+  END SMALLEST FLOATING PEOPLE
+  
+  ********************************************************** */
+  /* line 1408, ../sass/sections/_individuals.scss */
+  .people-post .cols-holder,
+  .people-post .meta,
+  .people-post .cols {
+    display: block;
+    overflow: hidden;
+  }
+
+  /* line 1414, ../sass/sections/_individuals.scss */
+  .people-post .meta {
+    width: auto;
+    height: 1%;
+    padding: 0 0 38px;
+  }
+
+  /* line 1419, ../sass/sections/_individuals.scss */
+  .people-post .meta img {
+    float: left;
+    margin: 0 -1px 0 1px;
+  }
+
+  /* line 1423, ../sass/sections/_individuals.scss */
+  .people-post {
+    max-width: 640px;
+    padding: 42px 10px 62px 48px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  /* line 1429, ../sass/sections/_individuals.scss */
+  .people-post .heading {
+    padding: 0 40px 36px 0;
+    font-size: 24px;
+    line-height: 27px;
+  }
+
+  /* line 1434, ../sass/sections/_individuals.scss */
+  .people-post .heading h2 {
+    margin-bottom: 9px;
+    font-size: 31px;
+    line-height: 34px;
+    font-weight: normal;
+  }
+
+  /* line 1440, ../sass/sections/_individuals.scss */
+  .people-post .meta .holder {
+    padding: 48px 0 25px 54px;
+  }
+
+  /* line 1443, ../sass/sections/_individuals.scss */
+  .people-post .meta h3 {
+    padding: 0 0 21px 16px;
+    text-align: left;
+  }
+
+  /* line 1447, ../sass/sections/_individuals.scss */
+  .people-post .meta .social {
+    width: auto;
+    margin: 0;
+  }
+
+  /* line 1451, ../sass/sections/_individuals.scss */
+  .people-post .meta .social li {
+    padding: 0 6px 18px 0;
+  }
+
+  /* line 1454, ../sass/sections/_individuals.scss */
+  .people-post .meta .social a:after {
+    top: -7px;
+  }
+
+  /* line 1457, ../sass/sections/_individuals.scss */
+  .people-post p {
+    margin-bottom: 24px;
+  }
+
+  /* line 1460, ../sass/sections/_individuals.scss */
+  .people-post .cols .col {
+    padding: 0 4px 1px 18px;
+  }
+
+  /* line 1463, ../sass/sections/_individuals.scss */
+  .people-post .cols .col:first-child {
+    width: 47%;
+  }
+
+  /* line 1466, ../sass/sections/_individuals.scss */
+  .more-posts .holder {
+    max-width: 780px;
+    padding: 63px 10px 67px;
+  }
+
+  /* line 1470, ../sass/sections/_individuals.scss */
+  .more-posts h3 {
+    font-size: 33px;
+    line-height: 36px;
+    font-weight: normal;
+    margin-bottom: 44px;
+  }
+
+  /* line 1476, ../sass/sections/_individuals.scss */
+  .more-posts ul {
+    padding-bottom: 30px;
+  }
+
+  /* line 1479, ../sass/sections/_individuals.scss */
+  .more-posts ul li {
+    width: 226px;
+    padding: 0 10px 0 11px;
+  }
+
+  /* line 1483, ../sass/sections/_individuals.scss */
+  .more-posts h4 {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 12px 0;
+  }
+
+  /* line 1488, ../sass/sections/_individuals.scss */
+  .more-posts .view-all {
+    font-size: 19px;
+    line-height: 22px;
+    left: -3px;
+    padding: 24px 40px 23px 44px;
+    position: relative;
+  }
+
+  /* line 1495, ../sass/sections/_individuals.scss */
+  .mega-holder .paging .holder {
+    padding: 34px 10px 33px;
+  }
+}
+@media only screen and (max-width: 778px) {
+  /* line 1500, ../sass/sections/_individuals.scss */
+  .more-posts ul li {
+    padding: 0 8px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 1505, ../sass/sections/_individuals.scss */
+  .banner-block {
+    padding: 143px 0 0;
+    height: 147px;
+    margin: 0 0 56px;
+  }
+
+  /* line 1510, ../sass/sections/_individuals.scss */
+  .banner-block h1 {
+    font-size: 32px;
+    line-height: 33px;
+    margin: 0 0 10px;
+  }
+
+  /* line 1515, ../sass/sections/_individuals.scss */
+  .banner-block h2 {
+    font-size: 15px;
+    line-height: 17px;
+    margin: 0 0 7px;
+  }
+
+  /* line 1520, ../sass/sections/_individuals.scss */
+  .banner-block .date {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  /* line 1524, ../sass/sections/_individuals.scss */
+  #content {
+    margin: 0 247px 0 0;
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  /* line 1529, ../sass/sections/_individuals.scss */
+  #sidebar {
+    width: 166px;
+  }
+
+  /* line 1532, ../sass/sections/_individuals.scss */
+  .post-title h2 {
+    font-size: 25px;
+  }
+
+  /* line 1535, ../sass/sections/_individuals.scss */
+  .post-title {
+    margin: 0 -5px 0 0;
+    padding: 0 0 49px 72px;
+  }
+
+  /* line 1539, ../sass/sections/_individuals.scss */
+  .mega-holder {
+    background-position: 1px 0;
+  }
+
+  /* line 1542, ../sass/sections/_individuals.scss */
+  .people-holder {
+    padding: 0 0 29px;
+  }
+
+  /* line 1545, ../sass/sections/_individuals.scss */
+  .people-holder h1 {
+    margin-bottom: 59px;
+    padding: 180px 10px 104px;
+  }
+
+  /* line 1549, ../sass/sections/_individuals.scss */
+  .people-holder ul {
+    max-width: 370px;
+  }
+
+  /* line 1552, ../sass/sections/_individuals.scss */
+  .people-holder ul li {
+    padding-bottom: 43px;
+  }
+
+  /* line 1555, ../sass/sections/_individuals.scss */
+  .mega-holder .about {
+    background-position: -416px -106px;
+  }
+
+  /* line 1558, ../sass/sections/_individuals.scss */
+  .mega-holder .about .holder {
+    max-width: 324px;
+    padding: 57px 10px 66px;
+    text-align: left;
+  }
+
+  /* line 1563, ../sass/sections/_individuals.scss */
+  .paging + .mega-holder .mega-banner,
+  .mega-holder .paging {
+    display: none;
+  }
+
+  /* line 1567, ../sass/sections/_individuals.scss */
+  .paging {
+    margin: 0 0 -112px;
+    background: none;
+  }
+
+  /* line 1571, ../sass/sections/_individuals.scss */
+  .paging .holder {
+    font-size: 16px;
+    line-height: 19px;
+    max-width: 392px;
+    padding: 147px 10px 34px 6px;
+  }
+
+  /* line 1577, ../sass/sections/_individuals.scss */
+  .paging .prev,
+  .paging .next {
+    width: 31px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+    background: url(../images/individuals/sprite02.png) no-repeat;
+  }
+
+  /* line 1587, ../sass/sections/_individuals.scss */
+  .paging .prev:hover {
+    background-position: 0 -49px;
+  }
+
+  /* line 1590, ../sass/sections/_individuals.scss */
+  .paging .next {
+    background-position: -36px 0;
+  }
+
+  /* line 1593, ../sass/sections/_individuals.scss */
+  .paging .next:hover {
+    background-position: -36px -49px;
+  }
+
+  /* line 1596, ../sass/sections/_individuals.scss */
+  .paging .block {
+    overflow: visible;
+  }
+
+  /* line 1599, ../sass/sections/_individuals.scss */
+  .paging .back {
+    padding: 29px 0 0;
+    display: inline-block;
+  }
+
+  /* line 1603, ../sass/sections/_individuals.scss */
+  .paging .back:after {
+    width: 24px;
+    height: 24px;
+    top: -3px;
+    left: 50%;
+    margin-left: -12px;
+    background-position: -72px 0;
+  }
+
+  /* line 1611, ../sass/sections/_individuals.scss */
+  .paging .prev:after,
+  .paging .next:after {
+    display: none;
+  }
+
+  /* line 1615, ../sass/sections/_individuals.scss */
+  .people-post {
+    max-width: 360px;
+    padding: 176px 10px 49px;
+  }
+
+  /* line 1619, ../sass/sections/_individuals.scss */
+  .people-post .heading {
+    padding-right: 0;
+  }
+
+  /* line 1622, ../sass/sections/_individuals.scss */
+  .people-post .meta {
+    padding-bottom: 3px;
+  }
+
+  /* line 1625, ../sass/sections/_individuals.scss */
+  .people-post .meta img {
+    float: none;
+    margin: 0 6px 0 0;
+  }
+
+  /* line 1629, ../sass/sections/_individuals.scss */
+  .people-post .meta .holder {
+    padding: 29px 0 29px 52px;
+  }
+
+  /* line 1632, ../sass/sections/_individuals.scss */
+  .people-post .cols .col,
+  .people-post .cols .col:first-child {
+    width: auto;
+    float: none;
+    padding: 0;
+  }
+
+  /* line 1638, ../sass/sections/_individuals.scss */
+  .people-post .cols {
+    padding: 0 21px 0 37px;
+  }
+
+  /* line 1641, ../sass/sections/_individuals.scss */
+  .more-posts .holder {
+    max-width: 284px;
+    padding: 67px 10px 74px;
+  }
+
+  /* line 1645, ../sass/sections/_individuals.scss */
+  .more-posts h3 {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 34px;
+  }
+
+  /* line 1650, ../sass/sections/_individuals.scss */
+  .more-posts ul {
+    padding: 0 6px 19px 0;
+  }
+
+  /* line 1653, ../sass/sections/_individuals.scss */
+  .more-posts ul li {
+    float: none;
+    padding: 0 0 20px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* line 1659, ../sass/sections/_individuals.scss */
+  #content {
+    margin: 0 62px 60px;
+    float: none;
+  }
+
+  /* line 1663, ../sass/sections/_individuals.scss */
+  #sidebar {
+    float: none;
+    width: 100%;
+  }
+
+  /* line 1667, ../sass/sections/_individuals.scss */
+  .m1,
+  .c1 {
+    float: none;
+  }
+
+  /* line 1671, ../sass/sections/_individuals.scss */
+  .banner-block {
+    height: 112px;
+    margin: 0 0 54px;
+    padding: 115px 0 0;
+  }
+
+  /* line 1676, ../sass/sections/_individuals.scss */
+  .banner-block h2 {
+    font-size: 27px;
+    line-height: 29px;
+    margin: 0 0 9px;
+  }
+
+  /* line 1681, ../sass/sections/_individuals.scss */
+  .post h2 {
+    font-size: 27px;
+    line-height: 34px;
+    margin: 0 0 5px;
+  }
+
+  /* line 1686, ../sass/sections/_individuals.scss */
+  .post .img-box {
+    margin: 0 0 28px;
+  }
+
+  /* line 1689, ../sass/sections/_individuals.scss */
+  .post-paging {
+    padding: 14px 0 0;
+  }
+}
+@media only screen and (max-width: 479px) {
+  /* line 1694, ../sass/sections/_individuals.scss */
+  .banner-block {
+    padding: 106px 40px 0;
+    margin: 0 0 45px;
+    height: 129px;
+    width: auto;
+  }
+
+  /* line 1700, ../sass/sections/_individuals.scss */
+  .banner-block h2 {
+    margin: 0 0 5px;
+  }
+
+  /* line 1703, ../sass/sections/_individuals.scss */
+  .banner-block h3 {
+    line-height: 25px;
+    margin: 0 0 3px;
+  }
+
+  /* line 1707, ../sass/sections/_individuals.scss */
+  #content {
+    margin: 0 46px 43px;
+  }
+
+  /* line 1710, ../sass/sections/_individuals.scss */
+  .post-paging {
+    margin: -3px 0 0;
+    padding: 0;
+  }
+
+  /* line 1714, ../sass/sections/_individuals.scss */
+  .post-paging .btn-prev,
+  .post-paging .btn-next {
+    font-size: 14px;
+    line-height: 16px;
+    background-position: 0 -138px;
+    padding: 3px 0 4px 21px;
+  }
+
+  /* line 1721, ../sass/sections/_individuals.scss */
+  .post-paging .btn-next {
+    background-position: 100% -138px;
+    padding: 3px 21px 4px 0;
+  }
+}
+@media only screen and (max-width: 475px) {
+  /* line 1727, ../sass/sections/_individuals.scss */
+  .mega-holder {
+    background-position: 3px 1px;
+  }
+
+  /* line 1730, ../sass/sections/_individuals.scss */
+  .people-holder {
+    padding-bottom: 30px;
+  }
+
+  /* line 1733, ../sass/sections/_individuals.scss */
+  .people-holder h1 {
+    margin-bottom: 43px;
+    padding: 154px 20px 81px;
+    line-height: 40px;
+    background-position: 50% -3px;
+  }
+
+  /* line 1739, ../sass/sections/_individuals.scss */
+  .people-holder ul {
+    max-width: 278px;
+  }
+
+  /* line 1742, ../sass/sections/_individuals.scss */
+  .people-holder ul li {
+    padding: 0 5px 29px;
+  }
+
+  /* line 1745, ../sass/sections/_individuals.scss */
+  .people-holder ul img {
+    width: 126px;
+    border-radius: 68px;
+    -webkit-border-radius: 68px;
+  }
+
+  /* line 1750, ../sass/sections/_individuals.scss */
+  .people-holder h2 {
+    padding-top: 19px;
+  }
+
+  /* line 1753, ../sass/sections/_individuals.scss */
+  .mega-holder .about {
+    background-position: -495px -106px;
+  }
+
+  /* line 1756, ../sass/sections/_individuals.scss */
+  .mega-holder .about .holder {
+    max-width: none;
+    padding: 66px 25px 79px;
+  }
+
+  /* line 1760, ../sass/sections/_individuals.scss */
+  .paging .holder {
+    max-width: 268px;
+    padding: 139px 10px 32px;
+  }
+
+  /* line 1764, ../sass/sections/_individuals.scss */
+  .people-post {
+    padding: 181px 10px 42px;
+  }
+
+  /* line 1767, ../sass/sections/_individuals.scss */
+  .people-post .heading {
+    font-size: 18px;
+    line-height: 21px;
+    padding-bottom: 38px;
+  }
+
+  /* line 1772, ../sass/sections/_individuals.scss */
+  .people-post .heading h2 {
+    font-size: 28px;
+    line-height: 31px;
+    margin-bottom: 9px;
+  }
+
+  /* line 1777, ../sass/sections/_individuals.scss */
+  .people-post .meta img {
+    width: 227px;
+    border-radius: 114px;
+    -webkit-border-radius: 114px;
+    margin-right: 2px;
+  }
+
+  /* line 1783, ../sass/sections/_individuals.scss */
+  .people-post .meta .holder {
+    padding: 37px 0 39px 23px;
+  }
+
+  /* line 1786, ../sass/sections/_individuals.scss */
+  .people-post .meta h3 {
+    text-align: center;
+    padding: 0 22px 22px 0;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  /* line 1792, ../sass/sections/_individuals.scss */
+  .people-post .meta .social {
+    margin-right: -19px;
+  }
+
+  /* line 1795, ../sass/sections/_individuals.scss */
+  .people-post .cols {
+    padding: 0 20px 0 16px;
+  }
+
+  /* line 1798, ../sass/sections/_individuals.scss */
+  .more-posts .holder {
+    padding: 51px 10px 49px;
+  }
+
+  /* line 1801, ../sass/sections/_individuals.scss */
+  .more-posts h3 {
+    margin-bottom: 49px;
+  }
+
+  /* line 1804, ../sass/sections/_individuals.scss */
+  .more-posts .view-all {
+    max-width: 120px;
+    line-height: 24px;
+    padding: 23px 31px 24px 36px;
+  }
 }
