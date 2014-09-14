@@ -476,8 +476,11 @@
 #main {
   display: block;
   position: relative;
-  margin-bottom: -20px;
+  margin-bottom: -24px;
   background: url("../images/layout/bg-body.png") repeat 0 0;
+  &.case-study {
+    background: #FFF;
+  }
 }
 section {
   position: relative;

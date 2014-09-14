@@ -776,11 +776,15 @@ a:hover {
 #main {
   display: block;
   position: relative;
-  margin-bottom: -20px;
+  margin-bottom: -24px;
   background: url("../images/layout/bg-body.png") repeat 0 0;
 }
+/* line 481, ../sass/modules/_layout.scss */
+#main.case-study {
+  background: #FFF;
+}
 
-/* line 482, ../sass/modules/_layout.scss */
+/* line 485, ../sass/modules/_layout.scss */
 section {
   position: relative;
   z-index: 10;
