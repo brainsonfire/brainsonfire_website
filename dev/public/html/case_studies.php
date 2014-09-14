@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Case Stidies Landing Page' ?>
+<?php $title = 'Brains on Fire | Case Studies' ?>
 
 <?php include("inc/head.php"); ?>
 
