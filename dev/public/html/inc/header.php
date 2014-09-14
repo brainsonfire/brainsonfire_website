@@ -23,7 +23,7 @@
 				<a href="learn_movement.php">Learn to Build a Movement</a>
 			</li>
 			<li>
-				<a href="#dummy">Case Studies</a>
+				<a href="case_studies.php">Case Studies</a>
 			</li>
 			<li>
 				<a href="#dummy">Meet Our Tribe</a>
@@ -35,7 +35,7 @@
 				<a href="#dummy">Blog</a>
 			</li>
 			<li>
-				<a href="#dummy">Books & Published</a>
+				<a href="books.php">Books & Published</a>
 			</li>
 			<li>
 				<a href="#dummy">Speaking</a>

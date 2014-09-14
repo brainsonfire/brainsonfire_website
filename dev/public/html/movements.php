@@ -235,7 +235,7 @@
 	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
 		$(document).ready(function () {
-			$('.primary-nav li:eq(1)').addClass('current');
+			$('.secondary-nav li:eq(1)').addClass('current');
 		});
 	</script>
 

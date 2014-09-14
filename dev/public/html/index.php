@@ -3,20 +3,31 @@
 <body>
     <style type="text/css">
         #header { margin: 0; }
-        ul { list-style: none; float: left; width: 100%; }
-        li { float: left; padding: 6px 0; width: 100%; }
+        ul { list-style: none; display: table; width: 100%; padding: 30px 100px; margin: 0 auto; }
+        li { float: left; padding: 20px 0; width: 100%; }
         @media screen and (min-width:1025px) {
             ul li { width: 33%; }
         }
         @media screen and (min-width:768px) and (max-width:1024px) {
             ul { width: 50%; }
         }
+        li a {
+        	text-align: center;
+        	font-family: "infotextsemibold", Arial, Helvetica, sans-serif;
+        	font-size: 28px;
+        	line-height: 28px;
+        	text-transform: uppercase;
+        }
+        .tab-bar {
+        	display: none;
+        }
     </style>
     <!--[if lte IE 7]><p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
-    <header id="header">
-    </header>
-            <main>
-            <section>
+    <?php include("inc/header.php"); ?>
+
+    <main>
+        <section>
+        	<div class="row">
                 <ul id="file-list" class="clearfix">
                     <?php
                     $implemented    = file('implemented.txt', FILE_IGNORE_NEW_LINES);
@@ -49,21 +60,22 @@
                     closedir($dir);
                     ?>
                 </ul>
-            </section>
-            </main>
-            <script type="text/javascript" src="js/min/jquery-1.11.1.min.js"></script>
-            <script type="text/javascript" src="js/min/helper.min.js"></script>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    $('a[href$=".htaccess"]').parent().hide();
-                    $('a[href$="error_log"]').parent().hide();
-                    $('a[href$="config.rb"]').parent().hide();
-                    $('a[href$="MIT-LICENSE.txt"]').parent().hide();
-                    $('a[href$="foundation_index.html"]').parent().hide();
-                    $('a[href$="humans.txt"]').parent().hide();
-                    $('a[href$="robots.txt"]').parent().hide();
-                    $('a[href$="license_framework.txt"]').parent().hide();
-                });
-            </script>
-        </body>
-    </html>
+            </div>
+        </section>
+    </main>
+    <script type="text/javascript" src="js/min/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/min/helper.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('a[href$=".htaccess"]').parent().hide();
+            $('a[href$="error_log"]').parent().hide();
+            $('a[href$="config.rb"]').parent().hide();
+            $('a[href$="MIT-LICENSE.txt"]').parent().hide();
+            $('a[href$="foundation_index.html"]').parent().hide();
+            $('a[href$="humans.txt"]').parent().hide();
+            $('a[href$="robots.txt"]').parent().hide();
+            $('a[href$="license_framework.txt"]').parent().hide();
+        });
+    </script>
+</body>
+</html>

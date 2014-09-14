@@ -10,15 +10,6 @@
 	
 	<div class="off-canvas-wrap" data-offcanvas>
 
-
-
-		<div class="temp">
-			<img src="images/library/TEMP.jpg" alt="">
-		</div>
-
-
-
-
 		<div class="inner-wrap">
 
 

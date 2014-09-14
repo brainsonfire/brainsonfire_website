@@ -1,23 +1,24 @@
 #movement-banner {
+  padding: 90px 0 86px;
   background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
 }
 #learn-banner {
+  padding: 80px 0 83px;
   background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
 }
 #movement-banner,
 #learn-banner {
-  padding: 90px 0 86px;
   @include background-size(100% auto);
   h1 {
     color: #FFF;
+    margin: 0 0 5px;
   }
   p {
     color: #FFF;
   }
 }
 #movement-info {
-  background: rgba(#000,
-  0);
+  background: rgba(#000, 0);
   padding: 80px 0 86px;
   h1 {
     margin: 0 0 33px;
@@ -307,39 +308,23 @@
     @include background-size(100% auto);
   }
 }
-.half-block {
-  float: left;
-  position: relative;
-  width: 44%;
-  padding: 95px 5% 0;
-  margin: 0 0 0 6%;
-  + .half-block {
-    margin: 0 6% 0 0;
-  }
-  img {
-    display: block;
-    width: 100%;
-    max-width: 388px;
-    height: auto;
-    margin: 0 auto 34px;
-    @include border-radius(100%);
-  }
-  h2 {
-    margin: 0 0 4px;
-  }
-  p {
-    text-align: center;
-    margin: 0 0 30px;
-  }
-}
+
 #help,
 #other-way {
-  padding: 96px 0;
+  h1 {
+    margin: 0 0 5px;
+  }
 }
 #help {
-  background: #fff;
+  padding: 87px 0 102px;
 }
 #other-way {
+  padding: 83px 0 119px;
   background: url(../images/library/bg_learn.jpg) no-repeat 100% 0;
-  @include background-size(auto 100%)
+  @include background-size(cover);
+  h1,
+  h2, 
+  p {
+    color: #FFF;
+  }
 }
