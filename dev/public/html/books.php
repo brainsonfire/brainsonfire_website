@@ -40,22 +40,24 @@
 
 					<div class="row">
 
-						<div class="half-block books">
-							<img src="images/library/learn-3.jpg" alt="">
-							<h2>A</h2>
-							<p>a</p>
-							<p>a</p>
-							<a href="#" class="button btn-blue">learn more</a>
-							<a href="#" class="button btn-green">buy now</a>
+						<div class="half-block">
+							<img src="images/library/img9.jpg" alt="">
+							<h2>Brains on Fire</h2>
+							<p>Igniting Powerful, Sustainable, <br>Word of Mouth Movements</p>
+							<div class="btn-holder">
+								<a href="#" class="button btn-blue">learn more</a>
+								<a href="#" class="button btn-green">buy now</a>
+							</div>
 						</div>
 
 						<div class="half-block books">
-							<img src="images/library/learn-3.jpg" alt="">
-							<h2>A</h2>
-							<p>a</p>
-							<p>a</p>
-							<a href="#" class="button btn-blue">learn more</a>
-							<a href="#" class="button btn-green">buy now</a>
+							<img src="images/library/img10.jpg" alt="">
+							<h2>The PAssion Conversation</h2>
+							<p>Understanding, Sparking, Sustaining, <br>Word of Mouth Marketing</p>
+							<div class="btn-holder">
+								<a href="#" class="button btn-blue">learn more</a>
+								<a href="#" class="button btn-green">buy now</a>
+							</div>
 						</div>
 
 					</div>

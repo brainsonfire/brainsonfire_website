@@ -1565,3 +1565,54 @@ section {
   display: block;
   width: 100%;
 }
+
+/* line 1, ../sass/sections/_books.scss */
+#books-banner {
+  position: relative;
+  padding: 90px 0 86px;
+  background: url(../images/library/our_books.jpg) no-repeat 50% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 6, ../sass/sections/_books.scss */
+#books-banner:after {
+  position: absolute;
+  display: block;
+  z-index: 11;
+  content: "";
+  width: 292px;
+  height: 170px;
+  top: 0;
+  left: 50%;
+  margin-left: 100px;
+  background: url(../images/library/books_title.png) no-repeat 50% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 19, ../sass/sections/_books.scss */
+#books-banner h1,
+#books-banner p {
+  color: #FFF;
+}
+
+/* line 24, ../sass/sections/_books.scss */
+#books {
+  padding: 0 0 120px;
+}
+/* line 26, ../sass/sections/_books.scss */
+#books .btn-holder {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  width: 100%;
+}
+/* line 32, ../sass/sections/_books.scss */
+#books .btn-holder .button {
+  float: left;
+  max-width: 50%;
+}
