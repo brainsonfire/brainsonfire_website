@@ -1,20 +1,24 @@
 .temp {
-    opacity: 0.5;
-    position: absolute;
-    z-index: 100;
-    top: -111px;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 50%;
+  margin-left: -750px;
 }
-
 .button {
   display: table;
+  width: 100%;
+  max-width: 360px;
   margin: 0 auto;
+  padding: 1.4rem 0;
   font-style: italic;
   text-align: center;
   text-transform: lowercase;
   @include font-size(28);
   @include line-height(32);
   &.left {
-    margin: 0 30px 30px 0;
+    margin: 0 20px 30px 0;
   }
   &:active {
     top: 2px;
@@ -27,7 +31,7 @@
       height: 40px;
       top: 18px;
       left: 30px;
-    } 
+    }
   }
 }
 .btn-orange {
@@ -57,26 +61,54 @@
     background-color: #0bb7cf;
   }
 }
-
 .btn-down,
-.btn-down:active{
-  background:#f18013;
-  bottom:0;
-  height:30px;
-  left:0;
-  overflow:hidden;
-  position:absolute;
-  text-indent:-9999px;
-  width:100%;
-  z-index:2;
+.btn-down:active {
+  background: #f18013;
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  width: 100%;
+  z-index: 2;
 }
-.btn-down:before{
-  background:url(../images/library/sprite.png) no-repeat 0 -150px;
-  content:"";
-  height:16px;
-  left:50%;
-  margin:-8px 0 0 -11px;
-  position:absolute;
-  top:50%;
-  width:22px;
+.btn-down:before {
+  background: url(../images/library/sprite.png) no-repeat 0 -150px;
+  content: "";
+  height: 16px;
+  left: 50%;
+  margin: -8px 0 0 -11px;
+  position: absolute;
+  top: 50%;
+  width: 22px;
+}
+.works-list {
+  list-style: none;
+  margin: 53px auto 63px;
+  padding: 0;
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+  display: table;
+  li {
+    float: left;
+    position: relative;
+    margin: 0 30px 0 0;
+    &:nth-child(3n+3) {
+      margin: 0;
+    }
+  }
+  a {
+    float: left;
+    position: relative;
+  }
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    @include border-radius(2px);
+  }
 }

@@ -20,7 +20,7 @@
 				<a href="movements.php">Build a Movement</a>
 			</li>
 			<li>
-				<a href="#dummy">Learn to Build a Movement</a>
+				<a href="learn_movement.php">Learn to Build a Movement</a>
 			</li>
 			<li>
 				<a href="#dummy">Case Studies</a>

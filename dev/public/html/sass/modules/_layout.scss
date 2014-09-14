@@ -5,16 +5,19 @@
   padding: 0 15px;
   padding: 0 0.9375rem;
 }
-
-// H E A D E R 
+// H E A D E R
 
 #header {
   position: relative;
   z-index: 20;
-  background: rgba(#fff, 0.9);
-  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  background: rgba(#fff,
+  0.9);
+  box-shadow: 0 0 4px rgba(0,
+  0,
+  0,
+  0.2);
   .row {
-    max-height: 75px;
+    max-height: 83px;
   }
 }
 #logo {
@@ -22,7 +25,7 @@
   position: relative;
   img {
     width: auto;
-    max-height: 75px;
+    max-height: 83px;
   }
 }
 // MENU BUTTON
@@ -90,7 +93,7 @@
   height: 3000px;
   @include box-sizing(border-box);
   @include min-screen(768px) {
-    width: 20.9375rem;  
+    width: 20.9375rem;
   }
   ul {
     list-style: none;
@@ -102,9 +105,12 @@
       color: #999;
       text-transform: uppercase;
       @include InfoSemiBoldFont;
-      &:hover, &.current {
+      &:hover {
         color: #FFF;
       }
+    }
+    li.current a {
+      color: #FFF;
     }
   }
 }
@@ -115,7 +121,8 @@
     @include min-screen(1024px) {
       margin: 33px 0 4px;
     }
-    @include screen(768px,1023px) {
+    @include screen(768px,
+    1023px) {
       margin: 30px 0 3px;
     }
     @include max-screen(767px) {
@@ -127,7 +134,8 @@
       @include font-size(30);
       @include line-height(25);
     }
-    @include screen(768px,1023px) {
+    @include screen(768px,
+    1023px) {
       @include font-size(24);
       @include line-height(16);
     }
@@ -144,7 +152,8 @@
     @include min-screen(1024px) {
       margin: 19px 0 0;
     }
-    @include screen(768px,1023px) {
+    @include screen(768px,
+    1023px) {
       margin: 16px 0 0;
     }
     @include max-screen(767px) {
@@ -156,7 +165,8 @@
     @include min-screen(1024px) {
       padding: 28px 0 0;
     }
-    @include screen(768px,1023px) {
+    @include screen(768px,
+    1023px) {
       padding: 22px 0 0;
     }
     @include max-screen(767px) {
@@ -168,7 +178,8 @@
       @include font-size(20);
       @include line-height(25);
     }
-    @include screen(768px,1023px) {
+    @include screen(768px,
+    1023px) {
       @include font-size(18);
       @include line-height(20);
     }
@@ -181,16 +192,15 @@
 // MENU BUTTON ACTIVE CONTENT
 .move-left > .inner-wrap {
   @include min-screen(768px) {
-      @include transform(translate(-20.9375rem, 0));
+    @include transform(translate(-20.9375rem, 0));
   }
 }
-
 // F O O T E R
 
 #footer {
   position: relative;
   z-index: 20;
-  padding: 78px 0 0;
+  padding: 54px 0 0;
   margin-bottom: -80px;
   background: #eaeaea url(../images/layout/bg-path.png) repeat 0 0;
   .row {
@@ -198,11 +208,11 @@
     margin: 0 auto 70px;
   }
   > .row {
-    @include screen(768px,1169px) {
+    @include screen(768px,
+    1169px) {
       max-width: 726px;
     }
   }
-
   .go-top {
     position: absolute;
     text-indent: -9999px;
@@ -212,7 +222,7 @@
     height: 42px;
     left: 50%;
     margin: 0 0 0 -21px;
-    top: -98px;
+    top: -78px;
     outline: none;
   }
   .block {
@@ -223,10 +233,10 @@
 // FOOTER BLOCKS
 .talk-block {
   @include min-screen(1170px) {
-    width: 16.5%;
+    width: 18.5%;
     border-right: 2px solid rgba(#999, 0.3);
     padding: 16px 0 10px;
-    margin: 0 28px 0 60px;
+    margin: 0 28px 0 0;
   }
   @include max-screen(1169px) {
     width: 100%;
@@ -252,12 +262,13 @@
 }
 .call-block {
   @include min-screen(1170px) {
-    width: 16.2%;
+    width: 18.2%;
     border-right: 2px solid rgba(#999, 0.3);
     padding: 16px 0 19px;
     margin: 0 27px 0 0;
   }
-  @include screen(768px,1169px) {
+  @include screen(768px,
+  1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
     text-align: center;
@@ -289,13 +300,14 @@
   cursor: text;
 }
 .email-block {
-    @include min-screen(1170px) {
-    width: 17.3%;
+  @include min-screen(1170px) {
+    width: 19.3%;
     border-right: 2px solid rgba(#999, 0.3);
     padding: 8px 26px 5px 0px;
     margin: 0 30px 0 0;
   }
-  @include screen(768px,1169px) {
+  @include screen(768px,
+  1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
     padding: 8px 26px 5px;
@@ -334,11 +346,12 @@
 }
 .connect-block {
   @include min-screen(1170px) {
-    width: 17.14%;
+    width: 19.14%;
     padding: 19px 0 20px;
     margin: 0;
   }
-  @include screen(768px,1169px) {
+  @include screen(768px,
+  1169px) {
     width: 36%;
     padding: 0 24px 16px;
   }
@@ -368,7 +381,8 @@
   @include min-screen(1170px) {
     width: 17.09%;
   }
-  @include screen(768px,1169px) {
+  @include screen(768px,
+  1169px) {
     width: 42%;
     float: right;
     padding: 0 25px;
@@ -472,7 +486,6 @@
     font-style: normal;
   }
 }
-
 // C O N T E N T
 
 #main {
@@ -487,5 +500,5 @@ section {
   z-index: 10;
 }
 section:last-child {
-    padding: 0 0 80px;
+  padding: 0 0 80px;
 }

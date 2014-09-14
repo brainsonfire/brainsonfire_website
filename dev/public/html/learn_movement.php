@@ -12,6 +12,13 @@
 
 
 
+		<div class="temp">
+			<img src="images/library/TEMP.jpg" alt="">
+		</div>
+
+
+
+
 		<div class="inner-wrap">
 
 
@@ -104,6 +111,13 @@
 	</div>
 	
 	<?php include("inc/js.php"); ?>
+
+	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
+	<script>
+		$(document).ready(function () {
+			$('.primary-nav li:eq(2)').addClass('current');
+		});
+	</script>
 
 </body>
 

@@ -49,25 +49,24 @@
     @include font-size(70);
     @include line-height(78);
   }
+  .button {
+    max-width: 406px;
+  }
 }
 .section-work {
   background: url(../images/layout/bg-path.png);
   color: #333;
-  .row {
-    margin: 0 auto;
-    padding-top: 63px;
-    padding-bottom: 63px;
-  }
+  padding: 63px 0 80px;
   h1 {
-
+    margin: 0 0 5px;
   }
-  h2 {
-    
+  p {
   }
   .btn-ico {
     background-color: #eb7e1f;
     padding: 20px 26px 21px 90px;
     text-align: left;
+    max-width: 500px;
     &:hover {
       background-color: darken(#eb7e1f, 5%);
       text-decoration: none;
@@ -80,42 +79,12 @@
     }
   }
 }
-.works-list {
-  list-style: none;
-  margin: 50px auto 57px;
-  padding: 0;
-  text-align: center;
-  clear: both;
-  overflow: hidden;
-  display: table;
-  li {
-    float: left;
-    position: relative;
-    margin: 0 13px;
-  }
-  a {
-    float: left;
-    position: relative;
-    opacity: 1;
-  }
-  a:hover {
-    opacity: 0.9;
-  }
-  img {
-    display: block;
-    width: 100%;
-    max-width: 334px;
-    height: auto;
-    @include border-radius(2px);
-  }
-}
-
 #tagboard-wrap {
   background: #F3F3F3;
   display: block;
   position: relative;
   overflow: hidden;
-  border-top: 113px solid #f3f3f3;
+  border-top: 63px solid #f3f3f3;
   #tagboard-embed {
     margin: -80px 0 -160px;
   }

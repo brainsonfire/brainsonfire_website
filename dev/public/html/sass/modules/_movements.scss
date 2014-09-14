@@ -1,27 +1,13 @@
-.orbit-container {
-  .orbit-timer,
-  .orbit-slide-number,
-  .orbit-bullets-container {
-    display: none;
-  }
+#movement-banner {
+  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
 }
-#blockquote .orbit-container {
-  .orbit-prev,
-  .orbit-next {
-    display: block;
-    opacity: 1;
-    border: 1px solid red;
-  }
+#learn-banner {
+  background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
 }
-.text-orbit {
-  strong {
-    display: block;
-  }
-}
-// SECTION BANNER
 #movement-banner,
 #learn-banner {
-  padding: 90px 0;
+  padding: 90px 0 86px;
+  @include background-size(100% auto);
   h1 {
     color: #FFF;
   }
@@ -29,17 +15,16 @@
     color: #FFF;
   }
 }
-#movement-banner {
-  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
-}
-#learn-banner {
-  background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
-}
 #movement-info {
-  background: rgba(#000, 0);
-  padding: 80px 0;
+  background: rgba(#000,
+  0);
+  padding: 80px 0 86px;
   h1 {
-    margin: 0 0 30px;
+    margin: 0 0 33px;
+  }
+  .button {
+    max-width: 270px;
+    margin: -7px auto 17px;
   }
   .orbit-container {
     ul {
@@ -50,11 +35,21 @@
     }
     .orbit-next,
     .orbit-prev {
-      border: 1px solid red;
+      width: 31px;
+      height: 44px;
+      opacity: 0.8;
+      span {
+        display: none;
+      }
+      &:hover {
+        opacity: 1;
+      }
     }
     .orbit-next {
+      background: url(../images/library/arrows.png) no-repeat 0 0;
     }
     .orbit-prev {
+      background: url(../images/library/arrows.png) no-repeat 0 -44px;
     }
     li {
       @include InfoMediumFont;
@@ -66,7 +61,7 @@
     }
   }
   p.hint {
-    margin: 13px 0 0;
+    margin: 19px 0 0;
     text-align: center;
     font-style: italic;
     font-family: Georgia,
@@ -80,18 +75,21 @@
     }
   }
 }
-.orbit-subnav {
+.text-orbit {
+  strong {
+    display: block;
+  }
+}
+.text-orbit-nav {
   display: table;
   position: relative;
   margin: 0 auto 33px;
   text-align: center;
   list-style: none;
   padding: 0;
-  li {
+  a {
     display: inline;
     margin: 0 15px;
-  }
-  a {
     color: #333;
     text-transform: uppercase;
     @include InfoMediumFont;
@@ -104,59 +102,74 @@
   }
 }
 #how-we-work {
-  padding: 100px 0 114px;
+  padding: 97px 0 118px;
   background: #fff url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
   @include background-size(100% auto);
   h1 {
-    margin: 0 0 10px;
+    margin: 0 0 5px;
     + p {
-      margin: 0 0 45px;
+      margin: 0 0 54px;
     }
+  }
+  .button {
+    max-width: 250px;
   }
   .orbit-next,
   .orbit-prev {
     display: none;
   }
   .orbit-container {
-    padding: 70px 0;
+    padding: 66px 0 72px;
     margin: 0 0 40px;
     background: rgba(#FFF, 0.95);
   }
 }
-.circle-orbit-subnav {
+.circle-orbit-nav {
   display: table;
   position: relative;
-  margin: 0 auto 30px;
+  margin: 0 auto 34px;
   text-align: center;
   list-style: none;
   padding: 0;
   width: 100%;
-  li {
+  a {
     float: left;
+    position: relative;
     width: 284px;
     height: 284px;
-    margin: 0 2px;
-    a {
-      width: 284px;
-      height: 284px;
+    margin: 0 11px 0 0;
+    padding: 13px;
+    vertical-align: middle;
+    @include border-radius(100%);
+    &:after {
       display: block;
-      vertical-align: middle;
-      padding: 13px;
-      @include border-radius(50%);
+      position: absolute;
+      content: "";
+      z-index: 10;
+      width: 70px;
+      height: 24px;
+      bottom: -34px;
+      left: 50%;
+      margin-left: -35px;
+      background: url(../images/library/tab.png) no-repeat 50% 50%;
+      opacity: 0;
     }
-    a > span {
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-      width: 258px;
-      height: 258px;
-      color: #FFF;
-      @include border-radius(50%);
-      @include InfoMediumFont;
-      @include font-size(24);
-      @include line-height(30);
+    &.active:after {
+      opacity: 1;
     }
-    span span {
+  }
+  a > span {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    width: 258px;
+    height: 258px;
+    color: #FFF;
+    @include border-radius(100%);
+    @include InfoMediumFont;
+    @include font-size(24);
+    @include line-height(30);
+    span {
       display: block;
       font-style: italic;
       font-family: Georgia, serif;
@@ -164,8 +177,9 @@
       @include line-height(30);
     }
   }
-  li a {
-    background-color: rgba(#fff, 0);
+  a:first-of-type {
+    background-color: rgba(#fff,
+    0);
     &.active {
       background-color: rgba(#fff, 0.5);
     }
@@ -173,8 +187,9 @@
       background: #d9531e;
     }
   }
-  li:nth-child(2) a {
-    background-color: rgba(#0bb7cf, 0);
+  a:nth-child(2) {
+    background-color: rgba(#0bb7cf,
+    0);
     &.active {
       background-color: rgba(#0bb7cf, 0.5);
     }
@@ -182,8 +197,9 @@
       background: #23bed4;
     }
   }
-  li:nth-child(3) a {
-    background-color: rgba(#939f57, 0);
+  a:nth-child(3) {
+    background-color: rgba(#939f57,
+    0);
     &.active {
       background-color: rgba(#939f57, 0.5);
     }
@@ -191,8 +207,10 @@
       background: #9ea867;
     }
   }
-  li:nth-child(4) a {
-    background-color: rgba(#eb7e1f, 0);
+  a:nth-child(4) {
+    margin: 0;
+    background-color: rgba(#eb7e1f,
+    0);
     &.active {
       background-color: rgba(#eb7e1f, 0.5);
     }
@@ -216,20 +234,48 @@
   }
 }
 #some-examples {
-  background: rgba(#000, 0);
-  padding: 118px 0 100px;
+  background: rgba(#000,
+  0);
+  padding: 110px 0 104px;
+  h1 {
+    margin: 0 0 2px;
+  }
+  .work-list {
+    margin: 48px auto 53px;
+  }
 }
 #blockquote {
   background: #FFF;
-  padding: 100px 0 0;
+  padding: 87px 0 0;
   h1 {
-    margin: 0 0 10px;
+    margin: 0 0 5px;
     + p {
-      margin: 0 0 45px;
+      margin: 0 0 21px;
     }
   }
+  .button {
+    max-width: 450px;
+  }
   .orbit-container {
-    margin: 0 0 100px;
+    margin: 0 0 97px;
+    .orbit-next,
+    .orbit-prev {
+      width: 31px;
+      height: 44px;
+      opacity: 0.8;
+      span {
+        display: none;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .orbit-next {
+      background: url(../images/library/arrows.png) no-repeat 0 -88px;
+    }
+    .orbit-prev {
+      background: url(../images/library/arrows.png) no-repeat 0 -132px;
+    }
     .blockquote-orbit {
       width: 100%;
       max-width: 650px;
@@ -240,11 +286,10 @@
       font-family: Georgia, serif;
       font-style: italic;
       text-align: center;
-    } 
-    
+    }
     blockquote {
       border-left: 0;
-      margin: 0 0 9px;
+      margin: 0 0 18px;
       padding: 0;
       font-weight: bold;
       color: #00aacb;
@@ -252,18 +297,16 @@
       @include line-height(58);
     }
     cite {
-
       @include font-size(20);
       @include line-height(28);
-    } 
+    }
   }
   .submit-application {
-    padding: 111px 0;
+    padding: 111px 0 139px;
     background: url(../images/library/books1.jpg) no-repeat 50% 50%;
     @include background-size(100% auto);
   }
 }
-
 .half-block {
   float: left;
   position: relative;
@@ -279,7 +322,7 @@
     max-width: 388px;
     height: auto;
     margin: 0 auto 34px;
-    @include border-radius(50%);
+    @include border-radius(100%);
   }
   h2 {
     margin: 0 0 4px;

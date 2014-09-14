@@ -75,7 +75,7 @@
 
 						<h1>Some of our work.</h1>
 
-						<h2>Be Famous For The People Who Love You... For The Way You Love Them.</h2>
+						<p>Be Famous For The People Who Love You... For The Way You Love Them.</p>
 
 						<ul class="works-list">
 
@@ -144,6 +144,13 @@
 	</div>
 
 	<?php include("inc/js.php"); ?>
+
+	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
+	<script>
+		$(document).ready(function () {
+			$('.primary-nav li:first').addClass('current');
+		});
+	</script>
 
 </body>
 
