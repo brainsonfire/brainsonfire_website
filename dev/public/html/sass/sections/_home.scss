@@ -1,0 +1,91 @@
+#home-video {
+  background: url("../images/video/Ram-at-his-Desk.jpg") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+  top: 0;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100%;
+  position: fixed;
+  right: 0;
+  width: auto;
+  z-index: 1;
+}
+#home-video + #gallery {
+  min-height: 100vh;
+  margin: -83px 0 0;
+  background: rgba(#000, 0.5);
+}
+.videoHolder {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  iframe,
+  video,
+  object,
+  embed {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+.cycle-gallery .txt {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  h1 {
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 0 0 12px;
+    @include font-size(70);
+    @include line-height(78);
+  }
+  .button {
+    max-width: 406px;
+  }
+}
+.section-work {
+  background: url(../images/layout/bg-path.png);
+  color: #333;
+  padding: 63px 0 80px;
+  h1 {
+    margin: 0 0 5px;
+  }
+  p {
+  }
+  .btn-ico {
+    background-color: #eb7e1f;
+    padding: 20px 26px 21px 90px;
+    text-align: left;
+    max-width: 500px;
+    &:hover {
+      background-color: darken(#eb7e1f, 5%);
+      text-decoration: none;
+    }
+    &:active {
+      background-color: #eb7e1f;
+    }
+    &:before {
+      background: url("../images/library/sprite.png") no-repeat scroll 0 -180px rgba(0, 0, 0, 0);
+    }
+  }
+}
+#tagboard-wrap {
+  background: #F3F3F3;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-top: 63px solid #f3f3f3;
+  #tagboard-embed {
+    margin: -80px 0 -160px;
+  }
+}

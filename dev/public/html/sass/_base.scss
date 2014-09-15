@@ -1,0 +1,57 @@
+@mixin screen($res-min, $res-max) { @media screen and ( min-width: $res-min ) and ( max-width: $res-max ) { @content; } }
+@mixin max-screen($res) { @media screen and ( max-width: $res ) { @content; } }
+@mixin min-screen($res) { @media screen and ( min-width: $res ) { @content; } }
+@mixin screen-height($res-min, $res-max) { @media screen and ( min-height: $res-min ) and ( max-height: $res-max ) { @content; } }
+@mixin max-screen-height($res) { @media screen and ( max-height: $res ) { @content; } }
+@mixin min-screen-height($res) { @media screen and ( min-height: $res ) { @content; } }
+
+
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+@mixin line-height($sizeValue: 1.6) {
+  line-height: ($sizeValue) + px;
+  line-height: ($sizeValue / 16) + rem;
+}
+
+@mixin InfoNormalFont {
+  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin InfoBoldFont {
+  font-family: "infobold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin InfoSemiBoldFont {
+  font-family: "infosemibold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin InfoBookFont {
+  font-family: "infobook", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin InfoMediumFont {
+  font-family: "infomedium", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+@import "compass/css3";
+@import "compass/css3/images";
+// @import "mixin";
+
+
+// @import "compass/typography/text/replacement";
+// @import "compass/utilities/general/clearfix";

@@ -1,0 +1,58 @@
+// MEDIA-QUERIES
+@mixin screen($res-min, $res-max) { @media screen and ( min-width: $res-min ) and ( max-width: $res-max ) { @content; } }
+@mixin max-screen($res) { @media screen and ( max-width: $res ) { @content; } }
+@mixin min-screen($res) { @media screen and ( min-width: $res ) { @content; } }
+@mixin screen-height($res-min, $res-max) { @media screen and ( min-height: $res-min ) and ( max-height: $res-max ) { @content; } }
+@mixin max-screen-height($res) { @media screen and ( max-height: $res ) { @content; } }
+@mixin min-screen-height($res) { @media screen and ( min-height: $res ) { @content; } }
+
+
+// MIXIN
+@mixin hide-text {
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+}
+@mixin float-left {
+    float: left;
+    position: relative;
+}
+@mixin float-right {
+    float: right;
+    position: relative;
+}
+@mixin center {
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+@mixin hide-text {
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+@mixin reset-button{
+    padding: 0;
+    border: 0;
+    background: none;
+    -webkit-appearance: none;
+}
+@mixin styled-list {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    > li {
+        float: left;
+        position: relative;
+        a {
+            float: left;
+            position: relative;
+            width: 100%;
+            text-decoration: none;
+        }
+    }
+}
+

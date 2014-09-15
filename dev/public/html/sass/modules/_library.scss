@@ -1,0 +1,144 @@
+.temp {
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 50%;
+  margin-left: -750px;
+}
+.button {
+  display: table;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1.4rem 0;
+  font-style: italic;
+  text-align: center;
+  text-transform: lowercase;
+  @include font-size(28);
+  @include line-height(32);
+  &.left {
+    margin: 0 20px 30px 0;
+  }
+  &:active {
+    top: 2px;
+  }
+  &.btn-ico {
+    &:before {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 40px;
+      top: 18px;
+      left: 30px;
+    }
+  }
+}
+.btn-orange {
+  background-color: #d9531e;
+  &:hover {
+    background-color: darken(#D9531E, 5%);
+  }
+  &:active {
+    background-color: #d9531e;
+  }
+}
+.btn-green {
+  background-color: #939f57;
+  &:hover {
+    background-color: darken(#939f57, 5%);
+  }
+  &:active {
+    background-color: #939f57;
+  }
+}
+.btn-blue {
+  background-color: #0bb7cf;
+  &:hover {
+    background-color: darken(#0bb7cf, 5%);
+  }
+  &:active {
+    background-color: #0bb7cf;
+  }
+}
+.btn-down,
+.btn-down:active {
+  background: #f18013;
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  width: 100%;
+  z-index: 2;
+}
+.btn-down:before {
+  background: url(../images/library/sprite.png) no-repeat 0 -150px;
+  content: "";
+  height: 16px;
+  left: 50%;
+  margin: -8px 0 0 -11px;
+  position: absolute;
+  top: 50%;
+  width: 22px;
+}
+.works-list {
+  list-style: none;
+  margin: 53px auto 63px;
+  padding: 0;
+  text-align: center;
+  clear: both;
+  overflow: hidden;
+  display: table;
+  li {
+    float: left;
+    position: relative;
+    margin: 0 30px 0 0;
+    &:nth-child(3n+3) {
+      margin: 0;
+    }
+  }
+  a {
+    float: left;
+    position: relative;
+  }
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    @include border-radius(2px);
+  }
+}
+.half-block {
+  float: left;
+  position: relative;
+  width: 43%;
+  padding: 95px 5% 0;
+  margin: 0 0 0 7%;
+  + .half-block {
+    margin: 0 7% 0 0;
+  }
+  img {
+    display: block;
+    width: 100%;
+    max-width: 388px;
+    height: auto;
+    margin: 0 auto 34px;
+    @include border-radius(100%);
+  }
+  h2 {
+    margin: 0 0 7px;
+    @include font-size(28);
+  }
+  p {
+    text-align: center;
+    margin: 0 0 56px;
+    @include line-height(26);
+  }
+  .button {
+    max-width: 270px;
+  }
+}
