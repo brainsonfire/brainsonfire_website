@@ -224,6 +224,10 @@
   background: #F8F8F8;
 }
 
+.main-photo {
+  margin: -110px 0 0;
+}
+
 #love-146 {
   background: #000 url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
   @include background-size(auto 100%);
@@ -277,6 +281,10 @@
 .featured {
   padding: 0;
   margin: 0 0 21px;
+  h3 {
+    color: #FFF;
+    margin: 0 0 22px;
+  }
   .text {
     padding: 3.125rem 5.9375rem;
     &.bg-red {
@@ -284,15 +292,50 @@
     }
     &.bg-gray20 {
       background: #333;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-lemon {
+      background: #abb428;
+    }
+    &.bg-neptune {
+      background: #77B6B1;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-orange {
+      background: #d15932;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-wedgewood {
+      background: #4e94a1;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
     }
   }
-  h3 {
-    color: #FFF;
-    margin: 0 0 22px;
-  }
-  .bg-gray20 h3 {
-    text-transform: none;
-    margin: 0 0 3px;
+  img {
+    &.left {
+      max-width: 40%;
+    }
+    &.top {
+      margin: 30px 0;
+    }
+    &.bottom {
+      margin: 0 0 30px;
+    }
+    &.right {
+      max-width: 57%;
+      margin: 30px 0;
+    }
   }
   ul {
     margin: 0 0 22px;
@@ -320,6 +363,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  clear: both;
   li {
     float: left;
     position: relative;
@@ -329,6 +373,10 @@
   li:nth-child(2n+2) {
     margin: 0 0 30px;
   }
+}
+img + .gallery,
+.featured img + .gallery {
+  margin-top: 30px;
 }
 .stamp,
 .featured .stamp {
@@ -362,6 +410,18 @@
     max-width: 680px;
   }
 }
-#heroes {
-  margin: -110px 0 0;
+.block {
+  padding: 30px;
+  &.orange {
+    background-color: #ff8800;
+  }
+  img {
+    float: left;
+    max-width: 38%;
+    margin: 0 30px 0 0;
+  }
+  p {
+    margin: 0;
+    color: #fff;
+  }
 }

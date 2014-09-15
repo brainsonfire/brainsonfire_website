@@ -139,24 +139,10 @@
 				<section class="image-section">
 
 					<div class="row">
-
-						<h3>Primary Name & Mark</h3>
-
-						<img src="images/case-study/heroes/primary_name.jpg" alt="">
-						
-					</div>
-				
-				</section>
-
-
-
-				<section class="image-section">
-
-					<div class="row">
 						
 						<h3>Each letter is inspired by a real persons heroic journey of addiction and recovery.</h3>
 
-						<img src="images/case-study/heroes/letter.png" alt="">
+						<img src="images/case-study/heroes/letter.jpg" alt="">
 
 						<ul class="gallery">
 							<li>
@@ -178,7 +164,7 @@
 
 					<div class="row">
 
-						<h3>Stationary & Book Concept</h3>
+						<h3>Each letter of the HEROES logo is also reflective of the HEROES JOURNEY of RECOVERY.</h3>
 
 						<ul class="gallery">
 							<li>
