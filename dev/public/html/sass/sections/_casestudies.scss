@@ -1,8 +1,16 @@
 #case-studies-banner {
-  padding: 100px 0;
-  background: orange;
+  margin: -83px 0 0;
+  background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
+  @include background-size(auto);
   h1 {
-    margin: 0 0 5px;
+    position: absolute;
+    left: -9999px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    margin: 140px auto 60px;
   }
 }
 #case-studies-list {
@@ -32,6 +40,29 @@
           display: block;
           width: 100%;
         }
+      }
+    }
+  }
+}
+.project-list {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 100px auto 0;
+  padding: 0 0.9375rem 100px;
+  list-style: none;
+  li {
+    float: left;
+    position: relative;
+    width: 30.3333333%;
+    margin: 0 1.5% 30px;
+    a {
+      float: left;
+      position: relative;
+      overflow: hidden;
+      img {
+        display: block;
+        width: 100%;
       }
     }
   }

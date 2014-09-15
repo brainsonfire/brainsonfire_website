@@ -1982,27 +1982,39 @@ img + .gallery,
 
 /* line 1, ../sass/sections/_casestudies.scss */
 #case-studies-banner {
-  padding: 100px 0;
-  background: orange;
+  margin: -83px 0 0;
+  background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  -webkit-background-size: auto;
+  background-size: auto;
 }
-/* line 4, ../sass/sections/_casestudies.scss */
+/* line 5, ../sass/sections/_casestudies.scss */
 #case-studies-banner h1 {
-  margin: 0 0 5px;
+  position: absolute;
+  left: -9999px;
+}
+/* line 9, ../sass/sections/_casestudies.scss */
+#case-studies-banner img {
+  display: block;
+  max-width: 100%;
+  width: auto;
+  margin: 140px auto 60px;
 }
 
-/* line 8, ../sass/sections/_casestudies.scss */
+/* line 16, ../sass/sections/_casestudies.scss */
 #case-studies-list {
   padding: 100px 0;
 }
-/* line 10, ../sass/sections/_casestudies.scss */
+/* line 18, ../sass/sections/_casestudies.scss */
 #case-studies-list h1 {
   margin: 0 0 5px;
 }
-/* line 13, ../sass/sections/_casestudies.scss */
+/* line 21, ../sass/sections/_casestudies.scss */
 #case-studies-list p {
   margin: 0 0 33px;
 }
-/* line 16, ../sass/sections/_casestudies.scss */
+/* line 24, ../sass/sections/_casestudies.scss */
 #case-studies-list .list {
   display: block;
   width: 100%;
@@ -2010,21 +2022,49 @@ img + .gallery,
   padding: 0;
   list-style: none;
 }
-/* line 22, ../sass/sections/_casestudies.scss */
+/* line 30, ../sass/sections/_casestudies.scss */
 #case-studies-list .list li {
   float: left;
   width: 25%;
   margin: 0 0 30px;
 }
-/* line 26, ../sass/sections/_casestudies.scss */
+/* line 34, ../sass/sections/_casestudies.scss */
 #case-studies-list .list li a {
   float: left;
   position: relative;
   width: 100%;
   padding: 0 4%;
 }
-/* line 31, ../sass/sections/_casestudies.scss */
+/* line 39, ../sass/sections/_casestudies.scss */
 #case-studies-list .list li a img {
+  display: block;
+  width: 100%;
+}
+
+/* line 47, ../sass/sections/_casestudies.scss */
+.project-list {
+  display: block;
+  position: relative;
+  clear: both;
+  margin: 100px auto 0;
+  padding: 0 0.9375rem 100px;
+  list-style: none;
+}
+/* line 54, ../sass/sections/_casestudies.scss */
+.project-list li {
+  float: left;
+  position: relative;
+  width: 30.3333333%;
+  margin: 0 1.5% 30px;
+}
+/* line 59, ../sass/sections/_casestudies.scss */
+.project-list li a {
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+/* line 63, ../sass/sections/_casestudies.scss */
+.project-list li a img {
   display: block;
   width: 100%;
 }

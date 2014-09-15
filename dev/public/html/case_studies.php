@@ -27,59 +27,48 @@
 					<div class="row">
 
 						<h1>Case Studies</h1>
-
-						<p>Need Background Image Here.</p>
-					
-					</div>
-
-				</section>
-
-
-
-				<section id="case-studies-list">
-
-					<div class="row">
-
-						<h1>Title Here</h1>
-
-						<p>Content Here.</p>
-					
-						<ul class="list">
-							<li>
-								<a href="#dummy">
-									<img src="images/library/example-3.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a href="#dummy">
-									<img src="images/library/example-2.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a href="#dummy">
-									<img src="images/library/example-3.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a href="#dummy">
-									<img src="images/library/example-2.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a href="#dummy">
-									<img src="images/library/example-3.jpg" alt="">
-								</a>
-							</li>
-							<li>
-								<a href="#dummy">
-									<img src="images/library/example-2.jpg" alt="">
-								</a>
-							</li>
-						</ul>
 						
+						<img src="images/case-study/case_studies_title.png" alt="">
+					
 					</div>
 
 				</section>
+
+
+
+					
+				<ul class="row project-list">
+					<li>
+						<a href="#dummy">
+							<img src="images/case-study/project_01.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#dummy">
+							<img src="images/case-study/project_02.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#dummy">
+							<img src="images/case-study/project_03.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#dummy">
+							<img src="images/case-study/project_04.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#dummy">
+							<img src="images/case-study/project_05.jpg" alt="">
+						</a>
+					</li>
+					<li>
+						<a href="#dummy">
+							<img src="images/case-study/project_06.jpg" alt="">
+						</a>
+					</li>
+				</ul>
 				
 
 
