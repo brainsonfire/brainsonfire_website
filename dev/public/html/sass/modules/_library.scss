@@ -149,12 +149,13 @@
   clear: both;
   &.top {
     background: rgba(#fff, 0.9);
-    padding: 38px 0;
-    margin: 0 0 -100px;
+    padding: 33px 0;
+    height: 110px;
   }
   &.bottom {
     background: #F1F2F3;
-    padding: 38px 0 66px;
+    padding: 33px 0 66px;
+    height: 140px;
   }
   ul {
     float: left;
@@ -174,21 +175,48 @@
     }
   }
   a {
+    display: table;
     font-family: Georgia, serif;
     text-transform: lowercase;
     color: #333;
     font-style: italic;
+    position: relative;
     @include font-size(20);
-    @include line-height(14);
+    @include line-height(44);
+    &:after {
+      position: absolute;
+      display: block;
+      content: "";
+      z-index: 11;
+      width: 32px;
+      height: 44px;
+      top: 0;
+      background-image: url(../images/library/direction_nav.png);
+      background-repeat: no-repeat;
+    }
   }
   .previous {
     padding: 0 0 0 65px;
+    &:after {
+      left: 0;
+      background-position: 0 0;
+    }
   }
   .center {
+    margin: 0 auto;
     padding: 0 0 0 44px;
+    &:after {
+      left: 0;
+      background-position: 0 -44px;
+    }
   }
   .next {
     padding: 0 65px 0 0;
+    float: right;
+    &:after {
+      right: 0;
+      background-position: 0 -88px;
+    }
   }
 }
 
@@ -196,7 +224,7 @@
   background: #F8F8F8;
 }
 
-#hero {
+#love-146 {
   background: #000 url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
   @include background-size(auto 100%);
   img {
@@ -287,7 +315,8 @@
   }
 }
 
-.gallery {
+.gallery,
+.featured .gallery {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -299,6 +328,25 @@
   }
   li:nth-child(2n+2) {
     margin: 0 0 30px;
+  }
+}
+.stamp,
+.featured .stamp {
+  margin: 0;
+  padding: 0 1%;
+  list-style: none;
+  background: #FFF;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  li {
+    float: left;
+    position: relative;
+    width: 23.5%;
+    margin: 10px 2% 10px 0;
+  }
+  li:nth-child(4n+4) {
+    margin: 10px 0;
   }
 }
 #love-146-success h3 {
@@ -314,6 +362,6 @@
     max-width: 680px;
   }
 }
-.love-146-bottom {
-  
+#heroes {
+  margin: -110px 0 0;
 }

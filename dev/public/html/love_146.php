@@ -50,7 +50,7 @@
 				
 
 
-				<div id="hero" class="main-photo">
+				<div id="love-146" class="main-photo">
 
 					<div class="row">
 
@@ -238,7 +238,7 @@
 								<p>– The band Paramore has adopted the cause by making their audience aware of Love146 on their tours and encouraging donations. They wear the Love146 patch on their clothes and instruments in concert, like when they played the MTV Music Awards.</p>
 								<p>– The owner of a Porsche racing team is giving Love146 the opportunity to design a Love146 Porsche race car to wrap for the upcoming Lemans in California as well as the 24 hour Daytona race in January. This will be broadcast on NBC.</p>
 							</div>
-							
+
 						</div>
 						
 					</div>
