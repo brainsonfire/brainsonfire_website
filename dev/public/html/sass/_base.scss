@@ -16,16 +16,34 @@
   line-height: ($sizeValue / 16) + rem;
 }
 
+@mixin InfoNormalFont {
+  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@mixin InfoBoldFont {
+  font-family: "infobold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 @mixin InfoSemiBoldFont {
-  font-family: "infotextsemibold", Arial, Helvetica, sans-serif;
+  font-family: "infosemibold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @mixin InfoBookFont {
   font-family: "infobook", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 @mixin InfoMediumFont {
   font-family: "infomedium", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
 
 
