@@ -142,3 +142,178 @@
     max-width: 270px;
   }
 }
+.direction-nav {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  &.top {
+    background: rgba(#fff, 0.9);
+    padding: 38px 0;
+    margin: 0 0 -100px;
+  }
+  &.bottom {
+    background: #F1F2F3;
+    padding: 38px 0 66px;
+  }
+  ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      float: left;
+      width: 33.3333333%;
+      + li {
+        text-align: center;
+      }
+      + li + li {
+        text-align: right;
+      }
+    }
+  }
+  a {
+    font-family: Georgia, serif;
+    text-transform: lowercase;
+    color: #333;
+    font-style: italic;
+    @include font-size(20);
+    @include line-height(14);
+  }
+  .previous {
+    padding: 0 0 0 65px;
+  }
+  .center {
+    padding: 0 0 0 44px;
+  }
+  .next {
+    padding: 0 65px 0 0;
+  }
+}
+
+#main.case-study {
+  background: #F8F8F8;
+}
+
+#hero {
+  background: #000 url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
+  @include background-size(auto 100%);
+  img {
+     max-width: 66%;
+     margin: 300px 0 250px;
+  }
+}
+
+.intro {
+  padding: 70px 0 62px;
+  h1 {
+    margin: 0 0 53px;
+    display: block;
+    + p {
+      text-transform: none;
+      text-align: left;
+      margin: 0 0 20px;
+      @include InfoNormalFont;
+      @include font-size(20);
+      @include line-height(30);
+    }
+  }
+}
+.two-col {
+  margin: 0;
+  padding: 0 5.9375rem;
+  .left,
+  .right {
+    width: 48.7%;
+  }
+  p {
+    margin: 0 0 32px;
+    display: inline-block;
+    overflow: hidden; 
+  }
+}
+.video-section,
+.image-section {
+  margin: 0 0 21px;
+  h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-align: left;
+    text-transform: none;
+    margin: 0 0 3px;
+    @include font-size(16);
+    @include line-height(29);
+  }
+}
+.featured {
+  padding: 0;
+  margin: 0 0 21px;
+  .text {
+    padding: 3.125rem 5.9375rem;
+    &.bg-red {
+      background: #C10008;
+    }
+    &.bg-gray20 {
+      background: #333;
+    }
+  }
+  h3 {
+    color: #FFF;
+    margin: 0 0 22px;
+  }
+  .bg-gray20 h3 {
+    text-transform: none;
+    margin: 0 0 3px;
+  }
+  ul {
+    margin: 0 0 22px;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 0 0 22px;
+      color: #FFF;
+      @include InfoNormalFont;
+      @include font-size(20);
+      @include line-height(22);
+    }
+  }
+  p {
+    margin: 0 0 22px;
+    color: #FFF;
+    @include InfoNormalFont;
+    @include font-size(20);
+    @include line-height(30);
+  }
+}
+
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
+    float: left;
+    position: relative;
+    width: 48.7%;
+    margin: 0 2.6% 30px 0;
+  }
+  li:nth-child(2n+2) {
+    margin: 0 0 30px;
+  }
+}
+#love-146-success h3 {
+  text-indent: 5.9375rem;
+  margin: 20px 0 32px;
+}
+.books-bottom {
+  margin: 100px 0 0;
+  padding: 114px 0;
+  background: url(../images/case-study/love-146/books.jpg) no-repeat 50% 50%;
+  @include background-size(cover);
+  .button {
+    max-width: 680px;
+  }
+}
+.love-146-bottom {
+  
+}

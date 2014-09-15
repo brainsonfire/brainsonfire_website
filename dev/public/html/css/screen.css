@@ -39,7 +39,19 @@ h2 {
   line-height: 1.5625rem;
 }
 
-/* line 42, ../sass/modules/_typography.scss */
+/* line 29, ../sass/modules/_typography.scss */
+h3 {
+  text-transform: uppercase;
+  font-family: "infomedium", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 25px;
+  line-height: 1.5625rem;
+}
+
+/* line 45, ../sass/modules/_typography.scss */
 h1 + p:first-of-type {
   margin: 0;
   text-align: center;
@@ -53,12 +65,12 @@ h1 + p:first-of-type {
   line-height: 1.5625rem;
 }
 
-/* line 51, ../sass/modules/_typography.scss */
+/* line 54, ../sass/modules/_typography.scss */
 b, strong {
   font-weight: normal;
 }
 
-/* line 55, ../sass/modules/_typography.scss */
+/* line 58, ../sass/modules/_typography.scss */
 p {
   font-family: "infotextnormal", Arial, Helvetica, sans-serif;
   font-weight: normal;
@@ -69,7 +81,7 @@ p {
   line-height: 1.875rem;
 }
 
-/* line 61, ../sass/modules/_typography.scss */
+/* line 64, ../sass/modules/_typography.scss */
 a:hover {
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -1013,6 +1025,244 @@ section {
 /* line 141, ../sass/modules/_library.scss */
 .half-block .button {
   max-width: 270px;
+}
+
+/* line 145, ../sass/modules/_library.scss */
+.direction-nav {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+}
+/* line 150, ../sass/modules/_library.scss */
+.direction-nav.top {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 38px 0;
+  margin: 0 0 -100px;
+}
+/* line 155, ../sass/modules/_library.scss */
+.direction-nav.bottom {
+  background: #F1F2F3;
+  padding: 38px 0 66px;
+}
+/* line 159, ../sass/modules/_library.scss */
+.direction-nav ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 165, ../sass/modules/_library.scss */
+.direction-nav ul li {
+  float: left;
+  width: 33.3333333%;
+}
+/* line 168, ../sass/modules/_library.scss */
+.direction-nav ul li + li {
+  text-align: center;
+}
+/* line 171, ../sass/modules/_library.scss */
+.direction-nav ul li + li + li {
+  text-align: right;
+}
+/* line 176, ../sass/modules/_library.scss */
+.direction-nav a {
+  font-family: Georgia, serif;
+  text-transform: lowercase;
+  color: #333;
+  font-style: italic;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 14px;
+  line-height: 0.875rem;
+}
+/* line 184, ../sass/modules/_library.scss */
+.direction-nav .previous {
+  padding: 0 0 0 65px;
+}
+/* line 187, ../sass/modules/_library.scss */
+.direction-nav .center {
+  padding: 0 0 0 44px;
+}
+/* line 190, ../sass/modules/_library.scss */
+.direction-nav .next {
+  padding: 0 65px 0 0;
+}
+
+/* line 195, ../sass/modules/_library.scss */
+#main.case-study {
+  background: #F8F8F8;
+}
+
+/* line 199, ../sass/modules/_library.scss */
+#hero {
+  background: black url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  background-size: auto 100%;
+}
+/* line 202, ../sass/modules/_library.scss */
+#hero img {
+  max-width: 66%;
+  margin: 300px 0 250px;
+}
+
+/* line 208, ../sass/modules/_library.scss */
+.intro {
+  padding: 70px 0 62px;
+}
+/* line 210, ../sass/modules/_library.scss */
+.intro h1 {
+  margin: 0 0 53px;
+  display: block;
+}
+/* line 213, ../sass/modules/_library.scss */
+.intro h1 + p {
+  text-transform: none;
+  text-align: left;
+  margin: 0 0 20px;
+  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+}
+
+/* line 223, ../sass/modules/_library.scss */
+.two-col {
+  margin: 0;
+  padding: 0 5.9375rem;
+}
+/* line 226, ../sass/modules/_library.scss */
+.two-col .left,
+.two-col .right {
+  width: 48.7%;
+}
+/* line 230, ../sass/modules/_library.scss */
+.two-col p {
+  margin: 0 0 32px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+/* line 236, ../sass/modules/_library.scss */
+.video-section,
+.image-section {
+  margin: 0 0 21px;
+}
+/* line 239, ../sass/modules/_library.scss */
+.video-section h3,
+.image-section h3 {
+  font-family: Georgia, serif;
+  font-style: italic;
+  text-align: left;
+  text-transform: none;
+  margin: 0 0 3px;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 29px;
+  line-height: 1.8125rem;
+}
+
+/* line 249, ../sass/modules/_library.scss */
+.featured {
+  padding: 0;
+  margin: 0 0 21px;
+}
+/* line 252, ../sass/modules/_library.scss */
+.featured .text {
+  padding: 3.125rem 5.9375rem;
+}
+/* line 254, ../sass/modules/_library.scss */
+.featured .text.bg-red {
+  background: #C10008;
+}
+/* line 257, ../sass/modules/_library.scss */
+.featured .text.bg-gray20 {
+  background: #333;
+}
+/* line 261, ../sass/modules/_library.scss */
+.featured h3 {
+  color: #FFF;
+  margin: 0 0 22px;
+}
+/* line 265, ../sass/modules/_library.scss */
+.featured .bg-gray20 h3 {
+  text-transform: none;
+  margin: 0 0 3px;
+}
+/* line 269, ../sass/modules/_library.scss */
+.featured ul {
+  margin: 0 0 22px;
+  padding: 0;
+  list-style: none;
+}
+/* line 273, ../sass/modules/_library.scss */
+.featured ul li {
+  margin: 0 0 22px;
+  color: #FFF;
+  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+}
+/* line 281, ../sass/modules/_library.scss */
+.featured p {
+  margin: 0 0 22px;
+  color: #FFF;
+  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+}
+
+/* line 290, ../sass/modules/_library.scss */
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 294, ../sass/modules/_library.scss */
+.gallery li {
+  float: left;
+  position: relative;
+  width: 48.7%;
+  margin: 0 2.6% 30px 0;
+}
+/* line 300, ../sass/modules/_library.scss */
+.gallery li:nth-child(2n+2) {
+  margin: 0 0 30px;
+}
+
+/* line 304, ../sass/modules/_library.scss */
+#love-146-success h3 {
+  text-indent: 5.9375rem;
+  margin: 20px 0 32px;
+}
+
+/* line 308, ../sass/modules/_library.scss */
+.books-bottom {
+  margin: 100px 0 0;
+  padding: 114px 0;
+  background: url(../images/case-study/love-146/books.jpg) no-repeat 50% 50%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+/* line 313, ../sass/modules/_library.scss */
+.books-bottom .button {
+  max-width: 680px;
 }
 
 /* line 1, ../sass/sections/_home.scss */
