@@ -38,13 +38,13 @@
 				<a href="books.php">Books & Published</a>
 			</li>
 			<li>
-				<a href="#dummy">Speaking</a>
+				<a href="speaking.php">Speaking</a>
 			</li>
 			<li>
-				<a href="#dummy">Store</a>
+				<a href="store.php">Store</a>
 			</li>			
 			<li>
-				<a href="#dummy">Hello</a>
+				<a href="hello.php">Hello</a>
 			</li>
 		</ul>
 

@@ -1015,35 +1015,44 @@ section {
   margin: 0 7% 0 0;
 }
 /* line 125, ../sass/modules/_library.scss */
-.half-block img {
+.half-block > a {
   display: block;
-  width: 100%;
-  max-width: 388px;
-  height: auto;
+  position: relative;
+  overflow: hidden;
   margin: 0 auto 34px;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 133, ../sass/modules/_library.scss */
+/* line 132, ../sass/modules/_library.scss */
+.half-block img {
+  display: block;
+  width: 100%;
+  max-width: 388px;
+  height: auto;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 139, ../sass/modules/_library.scss */
 .half-block h2 {
   margin: 0 0 7px;
   font-size: 28px;
   font-size: 1.75rem;
 }
-/* line 137, ../sass/modules/_library.scss */
+/* line 143, ../sass/modules/_library.scss */
 .half-block p {
   text-align: center;
   margin: 0 0 56px;
   line-height: 26px;
   line-height: 1.625rem;
 }
-/* line 142, ../sass/modules/_library.scss */
+/* line 148, ../sass/modules/_library.scss */
 .half-block .button {
   max-width: 270px;
 }
 
-/* line 146, ../sass/modules/_library.scss */
+/* line 152, ../sass/modules/_library.scss */
 .direction-nav {
   display: block;
   position: relative;
@@ -1051,19 +1060,19 @@ section {
   overflow: hidden;
   clear: both;
 }
-/* line 152, ../sass/modules/_library.scss */
+/* line 158, ../sass/modules/_library.scss */
 .direction-nav.top {
   background: rgba(255, 255, 255, 0.9);
   padding: 33px 0;
   height: 110px;
 }
-/* line 157, ../sass/modules/_library.scss */
+/* line 163, ../sass/modules/_library.scss */
 .direction-nav.bottom {
   background: #F1F2F3;
   padding: 33px 0 36px;
   height: 110px;
 }
-/* line 162, ../sass/modules/_library.scss */
+/* line 168, ../sass/modules/_library.scss */
 .direction-nav ul {
   float: left;
   width: 100%;
@@ -1071,20 +1080,20 @@ section {
   padding: 0;
   list-style: none;
 }
-/* line 168, ../sass/modules/_library.scss */
+/* line 174, ../sass/modules/_library.scss */
 .direction-nav ul li {
   float: left;
   width: 33.3333333%;
 }
-/* line 171, ../sass/modules/_library.scss */
+/* line 177, ../sass/modules/_library.scss */
 .direction-nav ul li + li {
   text-align: center;
 }
-/* line 174, ../sass/modules/_library.scss */
+/* line 180, ../sass/modules/_library.scss */
 .direction-nav ul li + li + li {
   text-align: right;
 }
-/* line 179, ../sass/modules/_library.scss */
+/* line 185, ../sass/modules/_library.scss */
 .direction-nav a {
   display: table;
   font-family: Georgia, serif;
@@ -1097,7 +1106,7 @@ section {
   line-height: 44px;
   line-height: 2.75rem;
 }
-/* line 188, ../sass/modules/_library.scss */
+/* line 194, ../sass/modules/_library.scss */
 .direction-nav a:after {
   position: absolute;
   display: block;
@@ -1109,47 +1118,47 @@ section {
   background-image: url(../images/library/direction_nav.png);
   background-repeat: no-repeat;
 }
-/* line 200, ../sass/modules/_library.scss */
+/* line 206, ../sass/modules/_library.scss */
 .direction-nav .previous {
   padding: 0 0 0 65px;
 }
-/* line 202, ../sass/modules/_library.scss */
+/* line 208, ../sass/modules/_library.scss */
 .direction-nav .previous:after {
   left: 0;
   background-position: 0 0;
 }
-/* line 207, ../sass/modules/_library.scss */
+/* line 213, ../sass/modules/_library.scss */
 .direction-nav .center {
   margin: 0 auto;
   padding: 0 0 0 44px;
 }
-/* line 210, ../sass/modules/_library.scss */
+/* line 216, ../sass/modules/_library.scss */
 .direction-nav .center:after {
   left: 0;
   background-position: 0 -44px;
 }
-/* line 215, ../sass/modules/_library.scss */
+/* line 221, ../sass/modules/_library.scss */
 .direction-nav .next {
   padding: 0 65px 0 0;
   float: right;
 }
-/* line 218, ../sass/modules/_library.scss */
+/* line 224, ../sass/modules/_library.scss */
 .direction-nav .next:after {
   right: 0;
   background-position: 0 -88px;
 }
 
-/* line 225, ../sass/modules/_library.scss */
+/* line 231, ../sass/modules/_library.scss */
 #main.case-study {
   background: #F8F8F8;
 }
 
-/* line 229, ../sass/modules/_library.scss */
+/* line 235, ../sass/modules/_library.scss */
 .main-photo {
   margin: -110px 0 0;
 }
 
-/* line 233, ../sass/modules/_library.scss */
+/* line 239, ../sass/modules/_library.scss */
 #love-146 {
   background: black url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
   -moz-background-size: auto 100%;
@@ -1157,22 +1166,22 @@ section {
   -webkit-background-size: auto 100%;
   background-size: auto 100%;
 }
-/* line 236, ../sass/modules/_library.scss */
+/* line 242, ../sass/modules/_library.scss */
 #love-146 img {
   max-width: 66%;
   margin: 300px 0 250px;
 }
 
-/* line 242, ../sass/modules/_library.scss */
+/* line 248, ../sass/modules/_library.scss */
 .intro {
   padding: 70px 0 62px;
 }
-/* line 244, ../sass/modules/_library.scss */
+/* line 250, ../sass/modules/_library.scss */
 .intro h1 {
   margin: 0 0 53px;
   display: block;
 }
-/* line 247, ../sass/modules/_library.scss */
+/* line 253, ../sass/modules/_library.scss */
 .intro h1 + p {
   text-transform: none;
   text-align: left;
@@ -1186,37 +1195,44 @@ section {
   line-height: 1.875rem;
 }
 
-/* line 257, ../sass/modules/_library.scss */
+/* line 263, ../sass/modules/_library.scss */
 p.intro {
   padding: 0;
   margin: 0;
 }
 
-/* line 261, ../sass/modules/_library.scss */
+/* line 267, ../sass/modules/_library.scss */
 .two-col {
   margin: 0;
   padding: 0 5.9375rem;
 }
-/* line 264, ../sass/modules/_library.scss */
+/* line 270, ../sass/modules/_library.scss */
 .two-col .left,
 .two-col .right {
   width: 48.7%;
 }
-/* line 268, ../sass/modules/_library.scss */
+/* line 274, ../sass/modules/_library.scss */
 .two-col p {
   margin: 0 0 32px;
   display: inline-block;
   overflow: hidden;
 }
 
-/* line 274, ../sass/modules/_library.scss */
+/* line 280, ../sass/modules/_library.scss */
 .border-left {
   border-left: 2px solid rgba(153, 153, 153, 0.3);
 }
 
-/* line 278, ../sass/modules/_library.scss */
+/* line 284, ../sass/modules/_library.scss */
 .white-text * {
   color: #FFF;
+}
+
+/* line 289, ../sass/modules/_library.scss */
+.btn-holder {
+  display: block;
+  overflow: hidden;
+  clear: both;
 }
 
 /* line 1, ../sass/modules/_orbit.scss */
