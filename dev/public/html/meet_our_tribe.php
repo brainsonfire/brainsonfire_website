@@ -6,6 +6,7 @@
 	<![endif]-->
 	
 	<div class="off-canvas-wrap" data-offcanvas>
+	
 		<div class="inner-wrap">
 			
 			<?php include("inc/header.php"); ?>

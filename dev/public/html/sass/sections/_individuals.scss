@@ -1809,41 +1809,8 @@ END FLOATING PEOPLE
 }
 
 
-
 #gallery-slider {
   padding: 88px 0;
-  .orbit-container {
-    margin: 56px 0 9px;
-    .orbit-next,
-    .orbit-prev {
-      width: 31px;
-      height: 44px;
-      opacity: 0.8;
-      span {
-        display: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-    .orbit-next {
-      background: url(../images/library/arrows.png) no-repeat 0 -88px;
-    }
-    .orbit-prev {
-      background: url(../images/library/arrows.png) no-repeat 0 -132px;
-    }
-    .gallery-orbit {
-      width: 100%;
-      max-width: 975px;
-      margin: 0 auto;
-      overflow: hidden;
-      text-align: center;
-      color: #00aacb;
-      font-family: Georgia, serif;
-      font-style: italic;
-      text-align: center;
-    }
-  }
 }
 
 #extended-tribe {

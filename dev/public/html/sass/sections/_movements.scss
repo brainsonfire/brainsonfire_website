@@ -26,40 +26,6 @@
     max-width: 270px;
     margin: -7px auto 17px;
   }
-  .orbit-container {
-    ul {
-      overflow: hidden;
-      margin: 0 auto 50px;
-      width: 100%;
-      max-width: 770px;
-    }
-    .orbit-next,
-    .orbit-prev {
-      width: 31px;
-      height: 44px;
-      opacity: 0.8;
-      span {
-        display: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-    .orbit-next {
-      background: url(../images/library/arrows.png) no-repeat 0 0;
-    }
-    .orbit-prev {
-      background: url(../images/library/arrows.png) no-repeat 0 -44px;
-    }
-    li {
-      @include InfoMediumFont;
-      @include font-size(20);
-      @include line-height(30);
-      strong {
-        @include InfoSemiBoldFont;
-      }
-    }
-  }
   p.hint {
     margin: 19px 0 0;
     text-align: center;
@@ -75,47 +41,7 @@
     }
   }
 }
-.text-orbit {
-  strong {
-    display: block;
-  }
-}
-.text-orbit-nav {
-  display: table;
-  position: relative;
-  margin: 0 auto 33px;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  a {
-    display: inline;
-    position: relative;
-    margin: 0 15px;
-    color: #333;
-    text-transform: uppercase;
-    @include InfoMediumFont;
-    @include font-size(20);
-    @include line-height(25);
-    &:hover,
-    &.active {
-      color: #1fb7d3;
-    }
-    &:after {
-      display: block;
-      position: absolute;
-      z-index: 11;
-      content: "";
-      width: 11px;
-      height: 15px;
-      right: -25px;
-      top: 4px;
-      background: url(../images/library/small_arrow.png) no-repeat 0 0;
-    }
-    &:nth-child(4):after {
-      display: none;
-    }
-  }
-}
+
 #how-we-work {
   padding: 97px 0 118px;
   background: #fff url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
@@ -125,124 +51,6 @@
   }
   .button {
     max-width: 250px;
-  }
-  .orbit-next,
-  .orbit-prev {
-    display: none;
-  }
-  .orbit-container {
-    padding: 66px 0 72px;
-    margin: 0 0 40px;
-    background: rgba(#FFF, 0.95);
-  }
-}
-.circle-orbit-nav {
-  display: table;
-  position: relative;
-  margin: 0 auto 34px;
-  text-align: center;
-  list-style: none;
-  padding: 0;
-  width: 100%;
-  a {
-    float: left;
-    position: relative;
-    width: 284px;
-    height: 284px;
-    margin: 0 11px 0 0;
-    padding: 13px;
-    vertical-align: middle;
-    @include border-radius(100%);
-    &:after {
-      display: block;
-      position: absolute;
-      content: "";
-      z-index: 10;
-      width: 70px;
-      height: 24px;
-      bottom: -34px;
-      left: 50%;
-      margin-left: -35px;
-      background: url(../images/library/tab.png) no-repeat 50% 50%;
-      opacity: 0;
-    }
-    &.active:after {
-      opacity: 1;
-    }
-  }
-  a > span {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    width: 258px;
-    height: 258px;
-    color: #FFF;
-    @include border-radius(100%);
-    @include InfoMediumFont;
-    @include font-size(24);
-    @include line-height(30);
-    span {
-      display: block;
-      font-style: italic;
-      font-family: Georgia, serif;
-      @include font-size(20);
-      @include line-height(30);
-    }
-  }
-  a:first-of-type {
-    background-color: rgba(#fff,
-    0);
-    &.active {
-      background-color: rgba(#fff, 0.5);
-    }
-    > span {
-      background: #d9531e;
-    }
-  }
-  a:nth-child(2) {
-    background-color: rgba(#0bb7cf,
-    0);
-    &.active {
-      background-color: rgba(#0bb7cf, 0.5);
-    }
-    > span {
-      background: #23bed4;
-    }
-  }
-  a:nth-child(3) {
-    background-color: rgba(#939f57,
-    0);
-    &.active {
-      background-color: rgba(#939f57, 0.5);
-    }
-    > span {
-      background: #9ea867;
-    }
-  }
-  a:nth-child(4) {
-    margin: 0;
-    background-color: rgba(#eb7e1f,
-    0);
-    &.active {
-      background-color: rgba(#eb7e1f, 0.5);
-    }
-    > span {
-      background: #ec8a35;
-    }
-  }
-}
-.circle-orbit {
-  li {
-    padding: 0 45px;
-    // Info Norma Font
-    @include InfoMediumFont;
-    @include font-size(20);
-    @include line-height(29);
-    strong {
-      display: block;
-      // Info Bold Font
-      @include InfoSemiBoldFont;
-    }
   }
 }
 #some-examples {
@@ -260,51 +68,6 @@
   }
   .button {
     max-width: 450px;
-  }
-  .orbit-container {
-    margin: 0 0 97px;
-    .orbit-next,
-    .orbit-prev {
-      width: 31px;
-      height: 44px;
-      opacity: 0.8;
-      span {
-        display: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-    .orbit-next {
-      background: url(../images/library/arrows.png) no-repeat 0 -88px;
-    }
-    .orbit-prev {
-      background: url(../images/library/arrows.png) no-repeat 0 -132px;
-    }
-    .blockquote-orbit {
-      width: 100%;
-      max-width: 650px;
-      margin: 0 auto;
-      overflow: hidden;
-      text-align: center;
-      color: #00aacb;
-      font-family: Georgia, serif;
-      font-style: italic;
-      text-align: center;
-    }
-    blockquote {
-      border-left: 0;
-      margin: 0 0 18px;
-      padding: 0;
-      font-weight: bold;
-      color: #00aacb;
-      @include font-size(34);
-      @include line-height(58);
-    }
-    cite {
-      @include font-size(20);
-      @include line-height(28);
-    }
   }
   .submit-application {
     padding: 111px 0 119px;
