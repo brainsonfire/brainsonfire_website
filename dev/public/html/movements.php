@@ -22,7 +22,7 @@
 
 
 
-				<section id="movement-banner">
+				<section id="movement-banner" class="white-text">
 
 					<div class="row">
 

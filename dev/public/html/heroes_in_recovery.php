@@ -18,7 +18,7 @@
 
 
 			
-			<main id="main" class="case-study">
+			<main id="main" class="case-study inner-pages">
 
 
 
@@ -82,7 +82,7 @@
 
 
 
-				<section class="image-section">
+				<section class="image-section no-padding">
 
 					<div class="row">
 

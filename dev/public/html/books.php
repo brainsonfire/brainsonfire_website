@@ -22,7 +22,7 @@
 
 
 
-				<section id="books-banner">
+				<section id="books-banner" class="white-text">
 
 					<div class="row">
 

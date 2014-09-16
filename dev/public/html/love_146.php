@@ -18,7 +18,7 @@
 
 
 			
-			<main id="main" class="case-study">
+			<main id="main" class="case-study inner-pages">
 
 
 

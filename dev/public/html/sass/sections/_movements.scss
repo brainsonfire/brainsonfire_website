@@ -1,20 +1,12 @@
 #movement-banner {
-  padding: 90px 0 86px;
-  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
-}
-#learn-banner {
-  padding: 80px 0 83px;
-  background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
-}
-#movement-banner,
-#learn-banner {
+  padding: 172px 0 86px;
+  background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
   @include background-size(100% auto);
-  h1 {
-    color: #FFF;
-  }
-  p {
-    color: #FFF;
-  }
+}
+#learn-banner {
+  padding: 170px 0 83px;
+  background: #dc5520 url(../images/movement/learn_banner.jpg) no-repeat 50% 100%;
+  @include background-size(100% auto);
 }
 #movement-info {
   background: rgba(#000, 0);
@@ -44,7 +36,7 @@
 
 #how-we-work {
   padding: 97px 0 118px;
-  background: #fff url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
+  background: #fff url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
   @include background-size(100% auto);
   h1 + p {
     margin: 0 0 54px;
@@ -71,7 +63,7 @@
   }
   .submit-application {
     padding: 111px 0 119px;
-    background: url(../images/library/books1.jpg) no-repeat 50% 50%;
+    background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
     @include background-size(100% auto);
   }
 }
@@ -80,11 +72,6 @@
 }
 #other-way {
   padding: 83px 0 119px;
-  background: url(../images/library/bg_learn.jpg) no-repeat 100% 0;
+  background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
   @include background-size(cover);
-  h1,
-  h2, 
-  p {
-    color: #FFF;
-  }
 }

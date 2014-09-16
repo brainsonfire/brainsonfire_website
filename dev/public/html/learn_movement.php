@@ -22,7 +22,7 @@
 
 
 
-				<section id="learn-banner">
+				<section id="learn-banner" class="white-text">
 
 					<div class="row">
 
@@ -61,7 +61,7 @@
 
 				</section>
 
-				<section id="other-way">
+				<section id="other-way" class="white-text">
 
 					<div class="row">
 

@@ -11,7 +11,7 @@
 			
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main">
+			<main id="main" class="individuals">
 
 
 

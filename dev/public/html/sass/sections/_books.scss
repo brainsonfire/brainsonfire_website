@@ -1,7 +1,7 @@
 #books-banner {
   position: relative;
-  padding: 90px 0 86px;
-  background: url(../images/library/our_books.jpg) no-repeat 50% 50%;
+  padding: 173px 0 86px;
+  background: #dc5520 url(../images/library/our_books.jpg) no-repeat 50% 50%;
   @include background-size(cover);
   &:after {
     position: absolute;
@@ -10,15 +10,11 @@
     content: "";
     width: 292px;
     height: 170px;
-    top: 0;
+    top: 83px;
     left: 50%;
     margin-left: 100px;
     background: url(../images/library/books_title.png) no-repeat 50% 50%;
     @include background-size(cover);
-  }
-  h1,
-  p {
-    color: #FFF;
   }
 }
 #books {

@@ -827,18 +827,33 @@ a:hover {
 #main {
   display: block;
   position: relative;
+  margin: -83px 0 0;
   background: url("../images/layout/bg-body.png") repeat 0 0;
 }
-/* line 480, ../sass/modules/_layout.scss */
+/* line 481, ../sass/modules/_layout.scss */
+#main.individuals {
+  margin: -84px 0 0;
+}
+/* line 484, ../sass/modules/_layout.scss */
 #main.case-study {
   background: #FFF;
 }
 
-/* line 484, ../sass/modules/_layout.scss */
+/* line 488, ../sass/modules/_layout.scss */
 section {
   position: relative;
   padding: 80px 0;
   z-index: 10;
+}
+
+/* line 493, ../sass/modules/_layout.scss */
+.inner-pages section {
+  padding: 0;
+}
+
+/* line 497, ../sass/modules/_layout.scss */
+.inner-pages section.intro {
+  padding: 70px 0 62px;
 }
 
 /* line 1, ../sass/modules/_library.scss */
@@ -1044,8 +1059,8 @@ section {
 /* line 156, ../sass/modules/_library.scss */
 .direction-nav.bottom {
   background: #F1F2F3;
-  padding: 33px 0 66px;
-  height: 140px;
+  padding: 33px 0 36px;
+  height: 110px;
 }
 /* line 161, ../sass/modules/_library.scss */
 .direction-nav ul {
@@ -1190,6 +1205,11 @@ section {
 /* line 269, ../sass/modules/_library.scss */
 .border-left {
   border-left: 2px solid rgba(153, 153, 153, 0.3);
+}
+
+/* line 273, ../sass/modules/_library.scss */
+.white-text * {
+  color: #FFF;
 }
 
 /* line 1, ../sass/modules/_orbit.scss */
@@ -1661,50 +1681,39 @@ section {
 
 /* line 1, ../sass/sections/_movements.scss */
 #movement-banner {
-  padding: 90px 0 86px;
-  background: url(../images/library/movement_banner.jpg) no-repeat 50% 0;
-}
-
-/* line 5, ../sass/sections/_movements.scss */
-#learn-banner {
-  padding: 80px 0 83px;
-  background: url(../images/library/learn_banner.jpg) no-repeat 50% 0;
-}
-
-/* line 9, ../sass/sections/_movements.scss */
-#movement-banner,
-#learn-banner {
+  padding: 172px 0 86px;
+  background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
 }
-/* line 12, ../sass/sections/_movements.scss */
-#movement-banner h1,
-#learn-banner h1 {
-  color: #FFF;
-}
-/* line 15, ../sass/sections/_movements.scss */
-#movement-banner p,
-#learn-banner p {
-  color: #FFF;
+
+/* line 6, ../sass/sections/_movements.scss */
+#learn-banner {
+  padding: 170px 0 83px;
+  background: #dc5520 url(../images/movement/learn_banner.jpg) no-repeat 50% 100%;
+  -moz-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
 }
 
-/* line 19, ../sass/sections/_movements.scss */
+/* line 11, ../sass/sections/_movements.scss */
 #movement-info {
   background: transparent;
   padding: 80px 0 86px;
 }
-/* line 22, ../sass/sections/_movements.scss */
+/* line 14, ../sass/sections/_movements.scss */
 #movement-info h1 {
   margin: 0 0 33px;
 }
-/* line 25, ../sass/sections/_movements.scss */
+/* line 17, ../sass/sections/_movements.scss */
 #movement-info .button {
   max-width: 270px;
   margin: -7px auto 17px;
 }
-/* line 29, ../sass/sections/_movements.scss */
+/* line 21, ../sass/sections/_movements.scss */
 #movement-info p.hint {
   margin: 19px 0 0;
   text-align: center;
@@ -1715,7 +1724,7 @@ section {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 37, ../sass/sections/_movements.scss */
+/* line 29, ../sass/sections/_movements.scss */
 #movement-info p.hint a {
   font-weight: bold;
   color: #00AACB;
@@ -1723,93 +1732,86 @@ section {
   font-size: 1.75rem;
 }
 
-/* line 45, ../sass/sections/_movements.scss */
+/* line 37, ../sass/sections/_movements.scss */
 #how-we-work {
   padding: 97px 0 118px;
-  background: white url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
+  background: white url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
 }
-/* line 49, ../sass/sections/_movements.scss */
+/* line 41, ../sass/sections/_movements.scss */
 #how-we-work h1 + p {
   margin: 0 0 54px;
 }
-/* line 52, ../sass/sections/_movements.scss */
+/* line 44, ../sass/sections/_movements.scss */
 #how-we-work .button {
   max-width: 250px;
 }
 
-/* line 56, ../sass/sections/_movements.scss */
+/* line 48, ../sass/sections/_movements.scss */
 #some-examples {
   background: transparent;
   padding: 110px 0 104px;
 }
-/* line 59, ../sass/sections/_movements.scss */
+/* line 51, ../sass/sections/_movements.scss */
 #some-examples .work-list {
   margin: 48px auto 53px;
 }
 
-/* line 63, ../sass/sections/_movements.scss */
+/* line 55, ../sass/sections/_movements.scss */
 #blockquote {
   background: #FFF;
   padding: 87px 0 0;
 }
-/* line 66, ../sass/sections/_movements.scss */
+/* line 58, ../sass/sections/_movements.scss */
 #blockquote h1 + p {
   margin: 0 0 21px;
 }
-/* line 69, ../sass/sections/_movements.scss */
+/* line 61, ../sass/sections/_movements.scss */
 #blockquote .button {
   max-width: 450px;
 }
-/* line 72, ../sass/sections/_movements.scss */
+/* line 64, ../sass/sections/_movements.scss */
 #blockquote .submit-application {
   padding: 111px 0 119px;
-  background: url(../images/library/books1.jpg) no-repeat 50% 50%;
+  background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
   -moz-background-size: 100% auto;
   -o-background-size: 100% auto;
   -webkit-background-size: 100% auto;
   background-size: 100% auto;
 }
 
-/* line 78, ../sass/sections/_movements.scss */
+/* line 70, ../sass/sections/_movements.scss */
 #help {
   padding: 87px 0 102px;
 }
 
-/* line 81, ../sass/sections/_movements.scss */
+/* line 73, ../sass/sections/_movements.scss */
 #other-way {
   padding: 83px 0 119px;
-  background: url(../images/library/bg_learn.jpg) no-repeat 100% 0;
+  background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 85, ../sass/sections/_movements.scss */
-#other-way h1,
-#other-way h2,
-#other-way p {
-  color: #FFF;
-}
 
 /* line 1, ../sass/sections/_casestudies.scss */
 #case-studies-banner {
-  margin: -83px 0 0;
   background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
   -moz-background-size: auto;
   -o-background-size: auto;
   -webkit-background-size: auto;
   background-size: auto;
 }
-/* line 5, ../sass/sections/_casestudies.scss */
+/* line 4, ../sass/sections/_casestudies.scss */
 #case-studies-banner h1 {
   position: absolute;
   left: -9999px;
 }
-/* line 9, ../sass/sections/_casestudies.scss */
+/* line 8, ../sass/sections/_casestudies.scss */
 #case-studies-banner img {
   display: block;
   max-width: 100%;
@@ -1817,15 +1819,15 @@ section {
   margin: 140px auto 60px;
 }
 
-/* line 16, ../sass/sections/_casestudies.scss */
+/* line 15, ../sass/sections/_casestudies.scss */
 #case-studies-list {
   padding: 100px 0;
 }
-/* line 18, ../sass/sections/_casestudies.scss */
+/* line 17, ../sass/sections/_casestudies.scss */
 #case-studies-list h1 + p {
   margin: 0 0 33px;
 }
-/* line 21, ../sass/sections/_casestudies.scss */
+/* line 20, ../sass/sections/_casestudies.scss */
 #case-studies-list .list {
   display: block;
   width: 100%;
@@ -1833,26 +1835,26 @@ section {
   padding: 0;
   list-style: none;
 }
-/* line 27, ../sass/sections/_casestudies.scss */
+/* line 26, ../sass/sections/_casestudies.scss */
 #case-studies-list .list li {
   float: left;
   width: 25%;
   margin: 0 0 30px;
 }
-/* line 31, ../sass/sections/_casestudies.scss */
+/* line 30, ../sass/sections/_casestudies.scss */
 #case-studies-list .list li a {
   float: left;
   position: relative;
   width: 100%;
   padding: 0 4%;
 }
-/* line 36, ../sass/sections/_casestudies.scss */
+/* line 35, ../sass/sections/_casestudies.scss */
 #case-studies-list .list li a img {
   display: block;
   width: 100%;
 }
 
-/* line 44, ../sass/sections/_casestudies.scss */
+/* line 43, ../sass/sections/_casestudies.scss */
 .project-list {
   display: block;
   position: relative;
@@ -1861,26 +1863,26 @@ section {
   padding: 0 0.9375rem 100px;
   list-style: none;
 }
-/* line 51, ../sass/sections/_casestudies.scss */
+/* line 50, ../sass/sections/_casestudies.scss */
 .project-list li {
   float: left;
   position: relative;
   width: 30.3333333%;
   margin: 0 1.5% 30px;
 }
-/* line 56, ../sass/sections/_casestudies.scss */
+/* line 55, ../sass/sections/_casestudies.scss */
 .project-list li a {
   float: left;
   position: relative;
   overflow: hidden;
 }
-/* line 60, ../sass/sections/_casestudies.scss */
+/* line 59, ../sass/sections/_casestudies.scss */
 .project-list li a img {
   display: block;
   width: 100%;
 }
 
-/* line 68, ../sass/sections/_casestudies.scss */
+/* line 67, ../sass/sections/_casestudies.scss */
 .gallery,
 .featured .gallery {
   margin: 0;
@@ -1888,7 +1890,7 @@ section {
   list-style: none;
   clear: both;
 }
-/* line 74, ../sass/sections/_casestudies.scss */
+/* line 73, ../sass/sections/_casestudies.scss */
 .gallery li,
 .featured .gallery li {
   float: left;
@@ -1896,19 +1898,19 @@ section {
   width: 48.7%;
   margin: 0 2.6% 30px 0;
 }
-/* line 80, ../sass/sections/_casestudies.scss */
+/* line 79, ../sass/sections/_casestudies.scss */
 .gallery li:nth-child(2n+2),
 .featured .gallery li:nth-child(2n+2) {
   margin: 0 0 30px;
 }
 
-/* line 84, ../sass/sections/_casestudies.scss */
+/* line 83, ../sass/sections/_casestudies.scss */
 img + .gallery,
 .featured img + .gallery {
   margin-top: 30px;
 }
 
-/* line 88, ../sass/sections/_casestudies.scss */
+/* line 87, ../sass/sections/_casestudies.scss */
 .stamp,
 .featured .stamp {
   margin: 0;
@@ -1919,7 +1921,7 @@ img + .gallery,
   position: relative;
   overflow: hidden;
 }
-/* line 97, ../sass/sections/_casestudies.scss */
+/* line 96, ../sass/sections/_casestudies.scss */
 .stamp li,
 .featured .stamp li {
   float: left;
@@ -1927,19 +1929,19 @@ img + .gallery,
   width: 23.5%;
   margin: 10px 2% 10px 0;
 }
-/* line 103, ../sass/sections/_casestudies.scss */
+/* line 102, ../sass/sections/_casestudies.scss */
 .stamp li:nth-child(4n+4),
 .featured .stamp li:nth-child(4n+4) {
   margin: 10px 0;
 }
 
-/* line 107, ../sass/sections/_casestudies.scss */
+/* line 106, ../sass/sections/_casestudies.scss */
 #love-146-success h3 {
   text-indent: 5.9375rem;
   margin: 20px 0 32px;
 }
 
-/* line 111, ../sass/sections/_casestudies.scss */
+/* line 110, ../sass/sections/_casestudies.scss */
 .books-bottom {
   margin: 100px 0 0;
   padding: 114px 0;
@@ -1949,37 +1951,37 @@ img + .gallery,
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 116, ../sass/sections/_casestudies.scss */
+/* line 115, ../sass/sections/_casestudies.scss */
 .books-bottom .button {
   max-width: 680px;
 }
 
-/* line 120, ../sass/sections/_casestudies.scss */
+/* line 119, ../sass/sections/_casestudies.scss */
 section .block {
   padding: 30px;
 }
-/* line 122, ../sass/sections/_casestudies.scss */
+/* line 121, ../sass/sections/_casestudies.scss */
 section .block.orange {
   background-color: #ff8800;
 }
-/* line 125, ../sass/sections/_casestudies.scss */
+/* line 124, ../sass/sections/_casestudies.scss */
 section .block img {
   float: left;
   max-width: 38%;
   margin: 0 30px 0 0;
 }
-/* line 130, ../sass/sections/_casestudies.scss */
+/* line 129, ../sass/sections/_casestudies.scss */
 section .block p {
   margin: 0;
   color: #fff;
 }
 
-/* line 136, ../sass/sections/_casestudies.scss */
+/* line 135, ../sass/sections/_casestudies.scss */
 .video-section,
 .image-section {
   margin: 0 0 21px;
 }
-/* line 139, ../sass/sections/_casestudies.scss */
+/* line 138, ../sass/sections/_casestudies.scss */
 .video-section h3,
 .image-section h3 {
   font-family: Georgia, serif;
@@ -1993,88 +1995,88 @@ section .block p {
   line-height: 1.8125rem;
 }
 
-/* line 149, ../sass/sections/_casestudies.scss */
+/* line 148, ../sass/sections/_casestudies.scss */
 .featured {
   padding: 0;
   margin: 0 0 21px;
 }
-/* line 152, ../sass/sections/_casestudies.scss */
+/* line 151, ../sass/sections/_casestudies.scss */
 .featured h3 {
   color: #FFF;
   margin: 0 0 22px;
 }
-/* line 156, ../sass/sections/_casestudies.scss */
+/* line 155, ../sass/sections/_casestudies.scss */
 .featured .text {
   padding: 3.125rem 5.9375rem;
 }
-/* line 158, ../sass/sections/_casestudies.scss */
+/* line 157, ../sass/sections/_casestudies.scss */
 .featured .text.bg-red {
   background: #C10008;
 }
-/* line 161, ../sass/sections/_casestudies.scss */
+/* line 160, ../sass/sections/_casestudies.scss */
 .featured .text.bg-gray20 {
   background: #333;
 }
-/* line 163, ../sass/sections/_casestudies.scss */
+/* line 162, ../sass/sections/_casestudies.scss */
 .featured .text.bg-gray20 h3 {
   text-transform: none;
   margin: 0 0 3px;
 }
-/* line 168, ../sass/sections/_casestudies.scss */
+/* line 167, ../sass/sections/_casestudies.scss */
 .featured .text.bg-lemon {
   background: #abb428;
 }
-/* line 171, ../sass/sections/_casestudies.scss */
+/* line 170, ../sass/sections/_casestudies.scss */
 .featured .text.bg-neptune {
   background: #77B6B1;
 }
-/* line 173, ../sass/sections/_casestudies.scss */
+/* line 172, ../sass/sections/_casestudies.scss */
 .featured .text.bg-neptune h3 {
   text-transform: none;
   margin: 0 0 3px;
 }
-/* line 178, ../sass/sections/_casestudies.scss */
+/* line 177, ../sass/sections/_casestudies.scss */
 .featured .text.bg-orange {
   background: #d15932;
 }
-/* line 180, ../sass/sections/_casestudies.scss */
+/* line 179, ../sass/sections/_casestudies.scss */
 .featured .text.bg-orange h3 {
   text-transform: none;
   margin: 0 0 3px;
 }
-/* line 185, ../sass/sections/_casestudies.scss */
+/* line 184, ../sass/sections/_casestudies.scss */
 .featured .text.bg-wedgewood {
   background: #4e94a1;
 }
-/* line 187, ../sass/sections/_casestudies.scss */
+/* line 186, ../sass/sections/_casestudies.scss */
 .featured .text.bg-wedgewood h3 {
   text-transform: none;
   margin: 0 0 3px;
 }
-/* line 194, ../sass/sections/_casestudies.scss */
+/* line 193, ../sass/sections/_casestudies.scss */
 .featured img.left {
   max-width: 40%;
 }
-/* line 197, ../sass/sections/_casestudies.scss */
+/* line 196, ../sass/sections/_casestudies.scss */
 .featured img.top {
   margin: 30px 0;
 }
-/* line 200, ../sass/sections/_casestudies.scss */
+/* line 199, ../sass/sections/_casestudies.scss */
 .featured img.bottom {
   margin: 0 0 30px;
 }
-/* line 203, ../sass/sections/_casestudies.scss */
+/* line 202, ../sass/sections/_casestudies.scss */
 .featured img.right {
   max-width: 57%;
   margin: 30px 0;
 }
-/* line 208, ../sass/sections/_casestudies.scss */
+/* line 207, ../sass/sections/_casestudies.scss */
 .featured ul {
   margin: 0 0 22px;
   padding: 0;
   list-style: none;
 }
-/* line 212, ../sass/sections/_casestudies.scss */
+/* line 211, ../sass/sections/_casestudies.scss */
 .featured ul li {
   margin: 0 0 22px;
   color: #FFF;
@@ -2086,7 +2088,7 @@ section .block p {
   line-height: 22px;
   line-height: 1.375rem;
 }
-/* line 220, ../sass/sections/_casestudies.scss */
+/* line 219, ../sass/sections/_casestudies.scss */
 .featured p {
   margin: 0 0 22px;
   color: #FFF;
@@ -2102,8 +2104,8 @@ section .block p {
 /* line 1, ../sass/sections/_books.scss */
 #books-banner {
   position: relative;
-  padding: 90px 0 86px;
-  background: url(../images/library/our_books.jpg) no-repeat 50% 50%;
+  padding: 173px 0 86px;
+  background: #dc5520 url(../images/library/our_books.jpg) no-repeat 50% 50%;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
@@ -2117,7 +2119,7 @@ section .block p {
   content: "";
   width: 292px;
   height: 170px;
-  top: 0;
+  top: 83px;
   left: 50%;
   margin-left: 100px;
   background: url(../images/library/books_title.png) no-repeat 50% 50%;
@@ -2126,17 +2128,12 @@ section .block p {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 19, ../sass/sections/_books.scss */
-#books-banner h1,
-#books-banner p {
-  color: #FFF;
-}
 
-/* line 24, ../sass/sections/_books.scss */
+/* line 20, ../sass/sections/_books.scss */
 #books {
   padding: 0 0 120px;
 }
-/* line 26, ../sass/sections/_books.scss */
+/* line 22, ../sass/sections/_books.scss */
 #books .btn-holder {
   display: block;
   position: relative;
@@ -2144,7 +2141,7 @@ section .block p {
   clear: both;
   width: 100%;
 }
-/* line 32, ../sass/sections/_books.scss */
+/* line 28, ../sass/sections/_books.scss */
 #books .btn-holder .button {
   float: left;
   max-width: 50%;
@@ -2289,7 +2286,7 @@ section .block p {
   height: 625px;
   position: relative;
   overflow: hidden;
-  margin: -83px 0 0;
+  margin: 0;
   /* **********************************************************
   DAY TIME LOBBY IMAGE
   ********************************************************** */

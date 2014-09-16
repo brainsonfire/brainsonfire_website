@@ -476,7 +476,11 @@
 #main {
   display: block;
   position: relative;
+  margin: -83px 0 0;
   background: url("../images/layout/bg-body.png") repeat 0 0;
+  &.individuals {
+    margin: -84px 0 0; 
+  }
   &.case-study {
     background: #FFF;
   }
@@ -485,4 +489,11 @@ section {
   position: relative;
   padding: 80px 0;
   z-index: 10;
+}
+.inner-pages section {
+  padding: 0;
+}
+
+.inner-pages section.intro {
+  padding: 70px 0 62px;
 }

@@ -50,7 +50,7 @@
 
 
 
-				<section id="book-banner">
+				<section id="book-banner" class="white-text">
 
 					<div class="row">
 
