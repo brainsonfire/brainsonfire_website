@@ -60,7 +60,7 @@
 
 
 
-				<section>
+				<section id="book-intro">
 
 					<div class="row">
 
@@ -109,13 +109,13 @@
 						<p>all of them are illustrious in their own right.</p>
 						
 						<div class="circle-orbit-nav books-orbit">
-							<a data-orbit-link="circle-headline-1"><span><img src="images/books/" alt=""><span>Robbin Phillips</span></span></a>
-							<a data-orbit-link="circle-headline-2"><span><img src="images/books/" alt=""><span>Geno Church</span></span></a>
-							<a data-orbit-link="circle-headline-3"><span><img src="images/books/" alt=""><span>John Moore</span></span></a>
-							<a data-orbit-link="circle-headline-4"><span><img src="images/books/" alt=""><span>Greg Cordell</span></span></a>
+							<a data-orbit-link="circle-headline-1"><span><img src="images/books/robbin.jpg" alt=""><span>Robbin Phillips</span></span></a>
+							<a data-orbit-link="circle-headline-2"><span><img src="images/books/geno.jpg" alt=""><span>Geno Church</span></span></a>
+							<a data-orbit-link="circle-headline-3"><span><img src="images/books/john.jpg" alt=""><span>John Moore</span></span></a>
+							<a data-orbit-link="circle-headline-4"><span><img src="images/books/greg.jpg" alt=""><span>Greg Cordell</span></span></a>
 						</div>
 
-						<ul class="circle-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;"> 
+						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;"> 
 							
 							<li data-orbit-slide="circle-headline-1">
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>

@@ -32,7 +32,7 @@
 }
 #book-banner {
   padding: 400px 0 220px;
-  background: #dc5520 url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
+  background: url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
   @include background-size(cover);
   .half-block {
     width: 44%;
@@ -76,5 +76,44 @@
       @include font-size(24);
       @include line-height(35);
     }
+  }
+}
+#authoral-team {
+  background: #0DB9D1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
+  @include background-size(cover);
+  .row > h1,
+  .row > p {
+    color: white;
+  }
+}
+.books {
+  .circle-orbit-nav a.active:after {
+    opacity: 0.85;
+  }
+  #blockquote {
+    background: rgba(#FFF, 0);
+    h1 + p {
+      margin: 0 0 55px;
+    }
+    .orbit-container .blockquote-orbit {
+      max-width: 880px;
+    }
+    cite {
+      float: right;
+      display: table;
+      text-align: left;
+    }
+  }
+}
+#book-intro {
+  h1 {
+    margin: 0 0 28px;
+  }
+}
+.books #blockquote .submit-application .button {
+  max-width: 520px;
+  span {
+    text-transform: uppercase;
+    @include InfoSemiBoldFont;
   }
 }

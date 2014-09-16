@@ -47,11 +47,10 @@
 
 // HOW WE WORK 
 .circle-orbit-nav {
+  &.books-orbit {
+    margin: 0 auto 54px;
+  }
   a {
-    width: 284px;
-    height: 284px;
-    margin: 0 11px 0 0;
-    padding: 13px;
     vertical-align: middle;
     @include border-radius(100%);
     &:after {
@@ -71,12 +70,20 @@
       opacity: 1;
     }
   }
+  &.movement-orbit a {
+    width: 284px;
+    height: 284px;
+    margin: 0 11px 0 0;
+    padding: 13px;
+    > span {
+      width: 258px;
+      height: 258px;
+    }
+  }
   a > span {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    width: 258px;
-    height: 258px;
     color: #FFF;
     @include border-radius(100%);
     @include InfoMediumFont;
@@ -90,7 +97,39 @@
       @include line-height(30);
     }
   }
-  a:first-of-type {
+  &.books-orbit a {
+    width: 286px;
+    height: 286px;
+    margin: 0 2px;
+    > span {
+      width: 286px;
+      height: 286px;
+      background: rgba(#FFF, 0);
+      span {
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        width: 100%;
+        font-style: normal;
+        @include InfoMediumFont;
+        @include font-size(20);
+        @include line-height(25);
+      }
+    }
+    &.active:after {
+      bottom: -54px;
+    }
+    &.active > span {
+      background: rgba(#FFF, 0.8);
+    }
+    img {
+      width: 260px;
+      height: 260px;
+      margin: 13px;
+      @include border-radius(100%);
+    }
+  }
+  &.movement-orbit a:first-of-type {
     background-color: rgba(#fff, 0);
     &.active {
       background-color: rgba(#fff, 0.5);
@@ -99,7 +138,7 @@
       background: #d9531e;
     }
   }
-  a:nth-child(2) {
+  &.movement-orbit a:nth-child(2) {
     background-color: rgba(#0bb7cf, 0);
     &.active {
       background-color: rgba(#0bb7cf, 0.5);
@@ -108,7 +147,7 @@
       background: #23bed4;
     }
   }
-  a:nth-child(3) {
+  &.movement-orbit a:nth-child(3) {
     background-color: rgba(#939f57, 0);
     &.active {
       background-color: rgba(#939f57, 0.5);
@@ -117,7 +156,7 @@
       background: #9ea867;
     }
   }
-  a:nth-child(4) {
+  &.movement-orbit a:nth-child(4) {
     margin: 0;
     background-color: rgba(#eb7e1f, 0);
     &.active {
@@ -128,10 +167,16 @@
     }
   }
 }
+#authoral-team .orbit-container {
+  background: rgba(#FFF, 0.8);
+}
+#how-we-work .orbit-container {
+  background: rgba(#FFF, 0.95);
+}
+#authoral-team .orbit-container,
 #how-we-work .orbit-container {
   padding: 66px 0 72px;
   margin: 0 0 40px;
-  background: rgba(#FFF, 0.95);
   li {
     padding: 0 45px;
     // Info Norma Font
