@@ -146,6 +146,7 @@
 .direction-nav {
   display: block;
   position: relative;
+  z-index: 20;
   overflow: hidden;
   clear: both;
   &.top {
@@ -252,6 +253,10 @@
       @include line-height(30);
     }
   }
+}
+p.intro {
+  padding: 0;
+  margin: 0;
 }
 .two-col {
   margin: 0;

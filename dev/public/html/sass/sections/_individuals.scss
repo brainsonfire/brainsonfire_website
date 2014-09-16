@@ -90,6 +90,7 @@
 }
 .mega-holder {
   width: 100%;
+  padding: 0;
   overflow: hidden;
   background: #fafafa url(../images/individuals/bg-mega-holder.png) 0 4px;
 }
@@ -1817,10 +1818,6 @@ END FLOATING PEOPLE
   padding: 80px 0;
   background: url(../images/individuals/clients/bg_extended_tribe.jpg) no-repeat 50% 0;
   @include background-size(cover);
-  h1,
-  p {
-    color: #FFF;
-  }
   ul {
     display: block;
     position: relative;

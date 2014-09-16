@@ -18,7 +18,7 @@
 
 
 			
-			<main id="main">
+			<main id="main" class="books">
 
 
 
@@ -27,21 +27,9 @@
 					<div class="row">
 
 						<ul>
-							<li>
-								<a class="previous" href="#dummy">
-									<span id="nav-text">previous story</span>
-								</a>						
-							</li>
-							<li>
-								<a class="center" href="#dummy">
-									<span id="nav-text">back to books</span>
-								</a>
-							</li>
-							<li>
-								<a class="next" href="#dummy">
-									<span id="nav-text">next story</span>
-								</a>	
-							</li>
+							<li><a class="previous" href="#dummy">previous story</a></li>
+							<li><a class="center" href="#dummy">back to books</a></li>
+							<li><a class="next" href="#dummy">next story</a></li>
 						</ul>
 
 					</div>
@@ -50,18 +38,63 @@
 
 
 
-				<section id="book-banner" class="white-text">
+
+
+				<section id="book-banner" class="white-text main-photo">
 
 					<div class="row">
 
-						<h1>The Passion Conversation</h1>
+						<div class="half-block right">
 
-						<p>a book about Understanding, sparking, & sustaining word of mouth marketing.</p>
-					
-						<a href="#dummy" class="button btn-orange">buy it now</a>
+							<h1>The Passion Conversation</h1>
+
+							<p>a book about Understanding, sparking, & sustaining word of mouth marketing.</p>
+						
+							<a href="#dummy" class="button btn-orange">buy it now</a>
+
+						</div>
+
 					</div>
 
 				</section>
+
+
+
+				<section>
+
+					<div class="row">
+
+						<h1>What is about</h1>
+
+						<div class="two-col">
+
+							<div class="left">
+								<p class="intro">No passion, no conversation.<br> No conversation, no word of mouth.<br> No word of mouth, no successful business.</p>
+								<p>In their second book, The Passion Conversation, the word-of-mouth masterminds mash-up the latest in wonky academic research with practical, real world case stories to show how any business can spark and sustain word of mouth marketing.</p>
+								<p>Readers will learn how loving your customers results in not just building a thriving community, but also driving meaningful conversations and ultimately impacting the financial success of a business.</p> 
+							</div>
+							
+							<div class="right">
+								<p>THE PASSION CONVERSATION (published by Wiley) changes your perspective on marketing by explaining the three motivations for why people talk about businesses and causes. It also details how every marketing problem is a people problem in disguise and gives irrefutable evidence that marketing materials are now conversation tools.</p> 
+								<p>The relatable case stories show how customer communities sustain word of mouth while also sparking financial impact. A series of exercises called Passion Explorations are included to help your business apply these worthwhile marketing lessons.</p>
+							</div>
+
+						</div>
+
+					</div>
+				
+				</section>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -71,42 +104,40 @@
 
 					<div class="row">
 
-						<h1>Here's How We Work</h1>
+						<h1>Meet the authoral team</h1>
 
-						<p>Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis.</p>
+						<p>all of them are illustrious in their own right.</p>
 						
-						<div class="circle-orbit-nav">
-							<a data-orbit-link="circle-headline-1"><span>Soul Mining /<br>Participation /<br>Getting Our Hands Dirty <span>60 days</span></span></a>
-							<a data-orbit-link="circle-headline-2"><span>Reframing<br>the Passion<br>Conversation <span>60 days</span></span></a>
-							<a data-orbit-link="circle-headline-3"><span>Word of Mouth Plan <span>60 days</span></span></a>
-							<a data-orbit-link="circle-headline-4"><span>Implementation <span>time/cost</span></span></a>
+						<div class="circle-orbit-nav books-orbit">
+							<a data-orbit-link="circle-headline-1"><span><img src="images/books/" alt=""><span>Robbin Phillips</span></span></a>
+							<a data-orbit-link="circle-headline-2"><span><img src="images/books/" alt=""><span>Geno Church</span></span></a>
+							<a data-orbit-link="circle-headline-3"><span><img src="images/books/" alt=""><span>John Moore</span></span></a>
+							<a data-orbit-link="circle-headline-4"><span><img src="images/books/" alt=""><span>Greg Cordell</span></span></a>
 						</div>
 
 						<ul class="circle-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;"> 
 							
 							<li data-orbit-slide="circle-headline-1">
-								<div><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</div>
+								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
+								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li> 
 							
 							<li data-orbit-slide="circle-headline-2">
-								<div><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</div>
+								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
+								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li> 
 							
 							<li data-orbit-slide="circle-headline-3">
-								<div><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</div>
+								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
+								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li> 
 							
 							<li data-orbit-slide="circle-headline-4">
-								<div><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</div>
+								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
+								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li> 
 						
 						</ul>
-
-						<div class="btn-holder">
-
-							<a class="button btn-blue" href="#dummy">apply now</a>
-
-						</div>
 
 					</div>
 
@@ -115,20 +146,20 @@
 				
 
 
-				<section id="blockquote">
+				<section id="blockquote" class="books">
 
 					<div class="row">
 
-						<h1>In The Pudding</h1>
+						<h1>Reviews</h1>
 
-						<p>Words from some happy clients.</p>
+						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 						
 						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;"> 
 							
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.”</blockquote>
+									<cite>Stephen Spielberg<br>Director of “Empire of the Sun”</cite>
 								</div>
 							</li> 
 
@@ -173,21 +204,9 @@
 					<div class="row">
 
 						<ul>
-							<li>
-								<a class="previous" href="#dummy">
-									<span id="nav-text">previous story</span>
-								</a>						
-							</li>
-							<li>
-								<a class="center" href="#dummy">
-									<span id="nav-text">back to books</span>
-								</a>
-							</li>
-							<li>
-								<a class="next" href="#dummy">
-									<span id="nav-text">next story</span>
-								</a>	
-							</li>
+							<li><a class="previous" href="#dummy">previous story</a></li>
+							<li><a class="center" href="#dummy">back to books</a></li>
+							<li><a class="next" href="#dummy">next story</a></li>
 						</ul>
 
 					</div>

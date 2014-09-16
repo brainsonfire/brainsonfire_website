@@ -262,6 +262,8 @@
 							<li data-orbit-slide="gallery_img_4">
 								<img src="images/individuals/gallery_img_1.jpg" alt="">
 							</li> 
+
+						</ul>
 						
 					</div>
 
@@ -270,7 +272,7 @@
 
 
 
-				<section id="extended-tribe">
+				<section id="extended-tribe" class="white-text">
 					
 					<div class="row">
 
@@ -301,15 +303,16 @@
 						
 						<h1>Odds & End</h1>
 
+
 						<div class="half-block">
 							<p>Jobs! We don’t have any open positions at the moment, but we are always accepting portfolios and resumes! Click the button below.</p>
 							<a href="#dummy" class="button btn-blue">say hello</a>
 						</div>
 
+
 						<div class="half-block border-left">
 	
 							<p>Enter your email below to be on the list to recieve our little ole newsletter. We promise that we won’t spam you.</p>
-
 
 							<form action="#">
 								<input type="email">
@@ -317,6 +320,7 @@
 							</form>
 
 						</div>
+
 
 					</div>
 

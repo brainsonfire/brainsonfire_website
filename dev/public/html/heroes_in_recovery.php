@@ -27,21 +27,9 @@
 					<div class="row">
 
 						<ul>
-							<li>
-								<a class="previous" href="#dummy">
-									<span id="nav-text">previous story</span>
-								</a>						
-							</li>
-							<li>
-								<a class="center" href="#dummy">
-									<span id="nav-text">back to all case studies</span>
-								</a>
-							</li>
-							<li>
-								<a class="next" href="#dummy">
-									<span id="nav-text">next story</span>
-								</a>	
-							</li>
+							<li><a class="previous" href="#dummy">previous story</a></li>
+							<li><a class="center" href="#dummy">back to all case studies</a></li>
+							<li><a class="next" href="#dummy">next story</a></li>
 						</ul>
 
 					</div>
@@ -329,21 +317,9 @@
 					<div class="row">
 
 						<ul>
-							<li>
-								<a class="previous" href="#dummy">
-									<span id="nav-text">previous story</span>
-								</a>						
-							</li>
-							<li>
-								<a class="center" href="#dummy">
-									<span id="nav-text">back to all case studies</span>
-								</a>
-							</li>
-							<li>
-								<a class="next" href="#dummy">
-									<span id="nav-text">next story</span>
-								</a>	
-							</li>
+							<li><a class="previous" href="#dummy">previous story</a></li>
+							<li><a class="center" href="#dummy">back to all case studies</a></li>
+							<li><a class="next" href="#dummy">next story</a></li>
 						</ul>
 
 					</div>

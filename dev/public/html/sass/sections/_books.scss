@@ -1,7 +1,6 @@
 #books-banner {
-  position: relative;
   padding: 173px 0 86px;
-  background: #dc5520 url(../images/library/our_books.jpg) no-repeat 50% 50%;
+  background: #dc5520 url(../images/books/our_books.jpg) no-repeat 50% 50%;
   @include background-size(cover);
   &:after {
     position: absolute;
@@ -13,7 +12,7 @@
     top: 83px;
     left: 50%;
     margin-left: 100px;
-    background: url(../images/library/books_title.png) no-repeat 50% 50%;
+    background: url(../images/books/books_title.png) no-repeat 50% 50%;
     @include background-size(cover);
   }
 }
@@ -28,6 +27,54 @@
     .button {
       float: left;
       max-width: 50%;
+    }
+  }
+}
+#book-banner {
+  padding: 400px 0 220px;
+  background: #dc5520 url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
+  @include background-size(cover);
+  .half-block {
+    width: 44%;
+    margin: 0;
+    padding: 0;
+    h1,
+    p {
+      text-align: left;
+    }
+    p {
+      margin: 0 0 22px;
+    }
+    .button {
+      float: left;
+    }
+  }
+  .button:after {
+    position: absolute;
+    display: block;
+    z-index: 11;
+    content: "";
+    width: 270px;
+    height: 97px;
+    top: 83px;
+    left: 50%;
+    margin-left: 100px;
+    background: url(../images/books/buy_now.png) no-repeat 50% 50%;
+    @include background-size(cover);
+  }
+}
+.books .two-col { 
+  padding: 0;
+  p {
+    margin: 0;
+    &.intro {
+      margin: 0 0 10px;
+      color: #939F57;
+      font-style: italic;
+      font-weight: bold;
+      font-family: Georgia, serif;
+      @include font-size(24);
+      @include line-height(35);
     }
   }
 }

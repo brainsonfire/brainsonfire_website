@@ -27,9 +27,9 @@
 					<div class="videoHolder">
 
 						<video id="homepagevid" autoplay>
-							<source type="video/mp4" src="images/video/ram.mp4">
-							<source type="video/webm" src="images/video/ram.webm">
-							<source type="video/ogg" src="images/video/ram.ogv">
+							<source type="video/mp4" src="videos/ram.mp4">
+							<source type="video/webm" src="videos/ram.webm">
+							<source type="video/ogg" src="videos/ram.ogv">
 						</video>
 
 					</div>
