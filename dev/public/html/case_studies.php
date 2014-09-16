@@ -11,47 +11,22 @@
 			<?php include("inc/header.php"); ?>
 			
 			<main id="main" class="case-study">
-			<section id="case-studies-banner">
-				<div class="row">
-					<h1>Case Studies</h1>
-					
-					<img src="images/case-study/case_studies_title.png" alt="">
-					
-				</div>
-			</section>
-			
-			<ul class="row project-list">
-				<li>
-					<a href="#dummy">
-						<img src="images/case-study/project_01.jpg" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="#dummy">
-						<img src="images/case-study/project_02.jpg" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="#dummy">
-						<img src="images/case-study/project_03.jpg" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="#dummy">
-						<img src="images/case-study/project_04.jpg" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="#dummy">
-						<img src="images/case-study/project_05.jpg" alt="">
-					</a>
-				</li>
-				<li>
-					<a href="#dummy">
-						<img src="images/case-study/project_06.jpg" alt="">
-					</a>
-				</li>
-			</ul>
+
+				<section id="case-studies-banner">
+					<div class="row">
+						<h1>Case Studies</h1>
+						<img src="images/case-study/case_studies_title.png" alt="">
+					</div>
+				</section>
+				
+				<ul class="row project-list">
+					<li><a href="#dummy"><img src="images/case-study/project_01.jpg" alt=""></a></li>
+					<li><a href="#dummy"><img src="images/case-study/project_02.jpg" alt=""></a></li>
+					<li><a href="#dummy"><img src="images/case-study/project_03.jpg" alt=""></a></li>
+					<li><a href="#dummy"><img src="images/case-study/project_04.jpg" alt=""></a></li>
+					<li><a href="#dummy"><img src="images/case-study/project_05.jpg" alt=""></a></li>
+					<li><a href="#dummy"><img src="images/case-study/project_06.jpg" alt=""></a></li>
+				</ul>
 			
 			</main>
 			

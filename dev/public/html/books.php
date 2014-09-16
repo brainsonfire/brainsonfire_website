@@ -11,40 +11,42 @@
 			<?php include("inc/header.php"); ?>
 			
 			<main id="main">
-			<section id="books-banner" class="white-text">
-				<div class="row">
-					<h1>Our Books</h1>
-					<p>We're more than a pretty cover.</p>
-					
-				</div>
-			</section>
-			<section id="books">
-				<div class="row">
-					<div class="half-block">
-						<a href="book.php">
-							<img src="images/library/img9.jpg" alt="">
-						</a>
-						<h2>Brains on Fire</h2>
-						<p>Igniting Powerful, Sustainable, <br>Word of Mouth Movements</p>
-						<div class="btn-holder">
-							<a href="book.php" class="button btn-blue">learn more</a>
-							<a href="#" class="button btn-green">buy now</a>
+
+				<section id="books-banner" class="white-text">
+					<div class="row">
+						<h1>Our Books</h1>
+						<p>We're more than a pretty cover.</p>
+						
+					</div>
+				</section>
+
+				<section id="books">
+					<div class="row">
+						<div class="half-block">
+							<a href="book.php">
+								<img src="images/library/img9.jpg" alt="">
+							</a>
+							<h2>Brains on Fire</h2>
+							<p>Igniting Powerful, Sustainable, <br>Word of Mouth Movements</p>
+							<div class="btn-holder">
+								<a href="book.php" class="button btn-blue">learn more</a>
+								<a href="#" class="button btn-green">buy now</a>
+							</div>
+						</div>
+						<div class="half-block books">
+							<a href="book.php">
+								<img src="images/library/img10.jpg" alt="">
+							</a>
+							<h2>The PAssion Conversation</h2>
+							<p>Understanding, Sparking, Sustaining, <br>Word of Mouth Marketing</p>
+							<div class="btn-holder">
+								<a href="book.php" class="button btn-blue">learn more</a>
+								<a href="#" class="button btn-green">buy now</a>
+							</div>
 						</div>
 					</div>
-					<div class="half-block books">
-						<a href="book.php">
-							<img src="images/library/img10.jpg" alt="">
-						</a>
-						<h2>The PAssion Conversation</h2>
-						<p>Understanding, Sparking, Sustaining, <br>Word of Mouth Marketing</p>
-						<div class="btn-holder">
-							<a href="book.php" class="button btn-blue">learn more</a>
-							<a href="#" class="button btn-green">buy now</a>
-						</div>
-					</div>
-				</div>
-			</section>
-			
+				</section>
+				
 			</main>
 			
 			<?php include("inc/footer.php"); ?>
@@ -53,11 +55,13 @@
 	</div>
 	
 	<?php include("inc/js.php"); ?>
+
 	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
 		$(document).ready(function () {
 			$('.secondary-nav li:eq(1)').addClass('current');
 		});
 	</script>
+	
 </body>
 </html>
