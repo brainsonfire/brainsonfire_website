@@ -319,7 +319,7 @@
     @include min-screen(768px) {
       display: block;
       width: 100%;
-      @include line-height(35);
+      @include line-height(24);
     }
     @include max-screen(767px) {
       display: table;
@@ -450,7 +450,7 @@
     @include line-height(13);
     @include min-screen(768px) {
       display: inline-block;
-      padding: 0 5px 0 12px;
+      padding: 0 5px 0 16px;
       background: url(../images/layout/bg-li-footer.png) no-repeat 0 50%;
     }
     @include max-screen(767px) {
@@ -476,7 +476,6 @@
 #main {
   display: block;
   position: relative;
-  margin-bottom: -24px;
   background: url("../images/layout/bg-body.png") repeat 0 0;
   &.case-study {
     background: #FFF;

@@ -57,11 +57,6 @@
   background: url(../images/layout/bg-path.png);
   color: #333;
   padding: 63px 0 80px;
-  h1 {
-    margin: 0 0 5px;
-  }
-  p {
-  }
   .btn-ico {
     background-color: #eb7e1f;
     padding: 20px 26px 21px 90px;
@@ -85,6 +80,7 @@
   position: relative;
   overflow: hidden;
   border-top: 63px solid #f3f3f3;
+  border-bottom: 100px solid #f3f3f3;
   #tagboard-embed {
     margin: -80px 0 -160px;
   }

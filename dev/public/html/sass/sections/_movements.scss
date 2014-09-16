@@ -11,7 +11,6 @@
   @include background-size(100% auto);
   h1 {
     color: #FFF;
-    margin: 0 0 5px;
   }
   p {
     color: #FFF;
@@ -121,11 +120,8 @@
   padding: 97px 0 118px;
   background: #fff url(../images/library/how_we_work.jpg) no-repeat 50% 100%;
   @include background-size(100% auto);
-  h1 {
-    margin: 0 0 5px;
-    + p {
-      margin: 0 0 54px;
-    }
+  h1 + p {
+    margin: 0 0 54px;
   }
   .button {
     max-width: 250px;
@@ -250,12 +246,8 @@
   }
 }
 #some-examples {
-  background: rgba(#000,
-  0);
+  background: rgba(#000, 0);
   padding: 110px 0 104px;
-  h1 {
-    margin: 0 0 2px;
-  }
   .work-list {
     margin: 48px auto 53px;
   }
@@ -263,11 +255,8 @@
 #blockquote {
   background: #FFF;
   padding: 87px 0 0;
-  h1 {
-    margin: 0 0 5px;
-    + p {
-      margin: 0 0 21px;
-    }
+  h1 + p {
+    margin: 0 0 21px;
   }
   .button {
     max-width: 450px;
@@ -318,16 +307,9 @@
     }
   }
   .submit-application {
-    padding: 111px 0 139px;
+    padding: 111px 0 119px;
     background: url(../images/library/books1.jpg) no-repeat 50% 50%;
     @include background-size(100% auto);
-  }
-}
-
-#help,
-#other-way {
-  h1 {
-    margin: 0 0 5px;
   }
 }
 #help {

@@ -236,6 +236,91 @@
 				
 				</section>
 
+				<section id="gallery-slider">
+					
+					<div class="row">
+
+						<h1>Around the Firesphere</h1>
+
+						<p>We like to take pictures of ourselves</p>
+
+						<ul class="gallery-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;"> 
+							
+							<li data-orbit-slide="gallery_img_1">
+								<img src="images/individuals/gallery_img_1.jpg" alt="">
+							</li> 
+
+							<li data-orbit-slide="gallery_img_2">
+								<img src="images/individuals/gallery_img_1.jpg" alt="">
+							</li> 
+
+							<li data-orbit-slide="gallery_img_3">
+								<img src="images/individuals/gallery_img_1.jpg" alt="">
+							</li> 
+
+							<li data-orbit-slide="gallery_img_4">
+								<img src="images/individuals/gallery_img_1.jpg" alt="">
+							</li> 
+						
+					</div>
+
+				</section>
+
+
+
+
+				<section id="extended-tribe">
+					
+					<div class="row">
+
+						<h1>Extended Tribe</h1>
+
+						<p>Happy clients from the past and present</p>
+
+						<ul>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_1.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_2.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_3.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_4.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_5.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_6.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_7.png" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/individuals/clients/client_8.png" alt=""></a></li>
+						</ul>
+
+					</div>
+
+				</section>
+
+
+
+				<section id="odds-end">
+					
+					<div class="row">
+						
+						<h1>Odds & End</h1>
+
+						<div class="half-block">
+							<p>Jobs! We don’t have any open positions at the moment, but we are always accepting portfolios and resumes! Click the button below.</p>
+							<a href="#dummy" class="button btn-blue">say hello</a>
+						</div>
+
+						<div class="half-block border-left">
+	
+							<p>Enter your email below to be on the list to recieve our little ole newsletter. We promise that we won’t spam you.</p>
+
+
+							<form action="#">
+								<input type="email">
+								<button type="submit" class="button btn-blue">submit</button>
+							</form>
+
+						</div>
+
+					</div>
+
+				</section>
+
 
 			
 			</main>

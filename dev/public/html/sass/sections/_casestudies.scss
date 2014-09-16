@@ -15,10 +15,7 @@
 }
 #case-studies-list {
   padding: 100px 0;
-  h1 {
-    margin: 0 0 5px;
-  }
-  p {
+  h1 + p {
     margin: 0 0 33px;
   }
   .list {
@@ -67,3 +64,165 @@
     }
   }
 }
+
+.gallery,
+.featured .gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  li {
+    float: left;
+    position: relative;
+    width: 48.7%;
+    margin: 0 2.6% 30px 0;
+  }
+  li:nth-child(2n+2) {
+    margin: 0 0 30px;
+  }
+}
+img + .gallery,
+.featured img + .gallery {
+  margin-top: 30px;
+}
+.stamp,
+.featured .stamp {
+  margin: 0;
+  padding: 0 1%;
+  list-style: none;
+  background: #FFF;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  li {
+    float: left;
+    position: relative;
+    width: 23.5%;
+    margin: 10px 2% 10px 0;
+  }
+  li:nth-child(4n+4) {
+    margin: 10px 0;
+  }
+}
+#love-146-success h3 {
+  text-indent: 5.9375rem;
+  margin: 20px 0 32px;
+}
+.books-bottom {
+  margin: 100px 0 0;
+  padding: 114px 0;
+  background: url(../images/case-study/love-146/books.jpg) no-repeat 50% 50%;
+  @include background-size(cover);
+  .button {
+    max-width: 680px;
+  }
+}
+section .block {
+  padding: 30px;
+  &.orange {
+    background-color: #ff8800;
+  }
+  img {
+    float: left;
+    max-width: 38%;
+    margin: 0 30px 0 0;
+  }
+  p {
+    margin: 0;
+    color: #fff;
+  }
+}
+
+.video-section,
+.image-section {
+  margin: 0 0 21px;
+  h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-align: left;
+    text-transform: none;
+    margin: 0 0 3px;
+    @include font-size(16);
+    @include line-height(29);
+  }
+}
+.featured {
+  padding: 0;
+  margin: 0 0 21px;
+  h3 {
+    color: #FFF;
+    margin: 0 0 22px;
+  }
+  .text {
+    padding: 3.125rem 5.9375rem;
+    &.bg-red {
+      background: #C10008;
+    }
+    &.bg-gray20 {
+      background: #333;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-lemon {
+      background: #abb428;
+    }
+    &.bg-neptune {
+      background: #77B6B1;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-orange {
+      background: #d15932;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-wedgewood {
+      background: #4e94a1;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+  }
+  img {
+    &.left {
+      max-width: 40%;
+    }
+    &.top {
+      margin: 30px 0;
+    }
+    &.bottom {
+      margin: 0 0 30px;
+    }
+    &.right {
+      max-width: 57%;
+      margin: 30px 0;
+    }
+  }
+  ul {
+    margin: 0 0 22px;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 0 0 22px;
+      color: #FFF;
+      @include InfoNormalFont;
+      @include font-size(20);
+      @include line-height(22);
+    }
+  }
+  p {
+    margin: 0 0 22px;
+    color: #FFF;
+    @include InfoNormalFont;
+    @include font-size(20);
+    @include line-height(30);
+  }
+}
+

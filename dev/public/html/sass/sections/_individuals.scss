@@ -1807,3 +1807,87 @@ END FLOATING PEOPLE
     padding: 23px 31px 24px 36px;
   }
 }
+
+
+
+#gallery-slider {
+  padding: 88px 0;
+  .orbit-container {
+    margin: 56px 0 9px;
+    .orbit-next,
+    .orbit-prev {
+      width: 31px;
+      height: 44px;
+      opacity: 0.8;
+      span {
+        display: none;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .orbit-next {
+      background: url(../images/library/arrows.png) no-repeat 0 -88px;
+    }
+    .orbit-prev {
+      background: url(../images/library/arrows.png) no-repeat 0 -132px;
+    }
+    .gallery-orbit {
+      width: 100%;
+      max-width: 975px;
+      margin: 0 auto;
+      overflow: hidden;
+      text-align: center;
+      color: #00aacb;
+      font-family: Georgia, serif;
+      font-style: italic;
+      text-align: center;
+    }
+  }
+}
+
+#extended-tribe {
+  padding: 80px 0;
+  background: url(../images/individuals/clients/bg_extended_tribe.jpg) no-repeat 50% 0;
+  @include background-size(cover);
+  h1,
+  p {
+    color: #FFF;
+  }
+  ul {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    clear: left;
+    margin: 56px 0 0;
+    padding: 0;
+    list-style: none;
+    li {
+      float: left;
+      position: relative;
+      margin: 0 0 30px 40px;
+    }
+    a {
+      float: left;
+      position: relative;
+      img {
+        float: left;
+        width: auto;
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+#odds-end {
+  padding: 90px 0;
+  h1 {
+    margin: 0 0 56px;
+  }
+  .half-block {
+    padding: 0 5% 0 0;
+    + .half-block {
+      padding: 0 0 0 5%;
+    }
+  }
+}

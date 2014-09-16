@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-transform: uppercase;
   text-align: center;
-  margin: 0;
+  margin: 0 0 5px;
   @include InfoSemiBoldFont;
   @include font-size(42);
   @include line-height(44);
