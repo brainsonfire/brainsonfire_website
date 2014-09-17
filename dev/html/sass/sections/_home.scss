@@ -79,7 +79,7 @@
   left: 0;
   width: 100%;
   @include min-screen(480px) {
-    height: 33%;  
+    height: 40%;  
   }
   @include max-screen(479px) {
     height: 50%;

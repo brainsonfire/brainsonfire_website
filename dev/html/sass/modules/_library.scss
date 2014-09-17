@@ -2,7 +2,7 @@
   opacity: 0.5;
   position: absolute;
   z-index: 100;
-  top: 0;
+  top: -650px;
   left: 50%;
   margin-left: -750px;
 }
@@ -118,7 +118,7 @@ ul.row {
   width: 22px;
 }
 .row .works-list {
-  margin: 53px auto 63px;
+  margin: 53px auto 43px;
   li {
     margin: 0 0 30px;
   }

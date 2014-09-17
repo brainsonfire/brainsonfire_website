@@ -204,12 +204,12 @@ a {
 #footer {
   position: relative;
   z-index: 20;
-  padding: 54px 0 0;
+  padding: 48px 0 0;
   margin-bottom: -80px;
   background: #eaeaea url(../images/layout/bg-path.png) repeat 0 0;
   .row {
     position: relative;
-    margin: 0 auto 70px;
+    margin: 0 auto 78px;
   }
   > .row {
     @include screen(768px, 1169px) {
@@ -242,10 +242,10 @@ a {
 // FOOTER BLOCKS
 .talk-block {
   @include min-screen(1170px) {
-    width: 18.5%;
+    width: 18.3%;
     border-right: 2px solid rgba(#999, 0.3);
-    padding: 16px 0 10px;
-    margin: 0 28px;
+    padding: 19px 0 10px;
+    margin: 0 28px 0 -2px;
   }
   @include max-screen(1169px) {
     width: 100%;
@@ -258,34 +258,34 @@ a {
     padding: 0 0 16px;
   }
   .title {
-    margin: 0 0 5px;
+    margin: 0 0 8px;
     display: block;
     color: #333;
     text-transform: uppercase;
     @include InfoSemiBoldFont;
-    @include font-size(38);
+    @include font-size(44);
     @include line-height(32);
   }
   .text-pick {
     color: #666;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(18);
+    @include font-size(20);
     @include line-height(25);
   }
 }
 .call-block {
   @include min-screen(1170px) {
-    width: 18.2%;
+    width: 18.1%;
     border-right: 2px solid rgba(#999, 0.3);
-    padding: 16px 0 19px;
-    margin: 0 27px 0 0;
+    padding: 18px 0 19px;
+    margin: 0 29px 0 0;
   }
   @include screen(768px, 1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
     text-align: center;
-    padding: 26px 24px 27px;
+    padding: 20px 24px 28px 0;
   }
   @include max-screen(767px) {
     width: 100%;
@@ -293,19 +293,19 @@ a {
     padding: 0 0 16px;
   }
   .call {
-    margin: 0 0 -4px;
+    margin: 0;
     display: block;
     color: #333;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(26);
+    @include font-size(30);
     @include line-height(28);
   }
   .tel {
     color: #d9531e;
     text-transform: uppercase;
     @include InfoSemiBoldFont;
-    @include font-size(26);
+    @include font-size(30);
     @include line-height(28);
   }
 }
@@ -314,9 +314,9 @@ a {
 }
 .email-block {
   @include min-screen(1170px) {
-    width: 19.3%;
+    width: 19.1%;
     border-right: 2px solid rgba(#999, 0.3);
-    padding: 8px 26px 5px 0px;
+    padding: 8px 31px 4px 0px;
     margin: 0 30px 0 0;
   }
   @include screen(768px, 1169px) {
@@ -340,6 +340,10 @@ a {
     font-family: Georgia;
     font-style: italic;
     @include font-size(26);
+    @include min-screen(1170px) {
+      line-height: 32px !important;
+      line-height: 2rem !important;
+    }
     @include min-screen(768px) {
       display: block;
       width: 100%;
@@ -359,12 +363,12 @@ a {
 .connect-block {
   @include min-screen(1170px) {
     width: 19.14%;
-    padding: 19px 0 20px;
+    padding: 23px 0 20px;
     margin: 0;
   }
   @include screen(768px, 1169px) {
     width: 36%;
-    padding: 0 24px 16px;
+    padding: 0 0 16px 24px;
   }
   @include max-screen(767px) {
     width: 100%;
@@ -372,19 +376,19 @@ a {
     padding: 0 0 16px;
   }
   .text-online {
-    margin: 0 0 -2px;
+    margin: 0;
     display: block;
     color: #333;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(26);
+    @include font-size(30);
     @include line-height(28);
   }
   .text-connect {
     color: #666;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(18);
+    @include font-size(20);
     @include line-height(25);
   }
 }
@@ -408,7 +412,7 @@ a {
   list-style: none;
   overflow: hidden;
   @include min-screen(768px) {
-    margin: 12px 0 0;
+    margin: 13px 0 0;
     padding: 0;
   }
   @include max-screen(767px) {
