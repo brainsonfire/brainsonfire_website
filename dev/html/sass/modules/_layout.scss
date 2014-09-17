@@ -1,6 +1,9 @@
 * {
   @include box-sizing(border-box);
 }
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
 .row {
   padding: 0 15px;
   padding: 0 0.9375rem;
@@ -212,6 +215,12 @@
     @include screen(768px, 1169px) {
       max-width: 726px;
     }
+    @include min-screen(768px) {
+      margin: 0 auto 70px;
+    }
+    @include max-screen(767px) {
+      margin: 0 auto 30px;
+    }
   }
   .go-top {
     position: absolute;
@@ -241,7 +250,12 @@
   @include max-screen(1169px) {
     width: 100%;
     text-align: center;
+  }
+  @include screen(768px,1169px) {
     padding: 16px 0;
+  }
+  @include max-screen(767px) {
+    padding: 0 0 16px;
   }
   .title {
     margin: 0 0 5px;
@@ -271,12 +285,12 @@
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
     text-align: center;
-    padding: 16px 24px;
+    padding: 26px 24px 27px;
   }
   @include max-screen(767px) {
     width: 100%;
     text-align: center;
-    padding: 16px 0;
+    padding: 0 0 16px;
   }
   .call {
     margin: 0 0 -4px;
@@ -308,13 +322,13 @@
   @include screen(768px, 1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
-    padding: 8px 26px 5px;
+    padding: 16px 26px;
     margin: 0;
   }
   @include max-screen(767px) {
     width: 100%;
     text-align: center;
-    padding: 16px 0;
+    padding: 0 0 16px;
   }
   .email-us {
     background: #D9531E;
@@ -355,7 +369,7 @@
   @include max-screen(767px) {
     width: 100%;
     text-align: center;
-    padding: 16px 0;
+    padding: 0 0 16px;
   }
   .text-online {
     margin: 0 0 -2px;
@@ -381,7 +395,7 @@
   @include screen(768px, 1169px) {
     width: 42%;
     float: right;
-    padding: 0 25px;
+    padding: 0 0 0 25px;
     margin: -14px -6% 0 0;
   }
   @include max-screen(767px) {
@@ -408,32 +422,60 @@
   }
   a {
     display: block;
-    width: 30px;
-    height: 30px;
     text-indent: -9999px;
     overflow: hidden;
-    background: url(../images/layout/ico-socail.png) no-repeat;
+    background: url(../images/layout/ico-social.png) no-repeat;
     &:hover {
       opacity: .8;
     }
   }
-  li.twitter a {
-    background-position: -3px -3px;
+  @include min-screen(768px) {
+    a {
+      width: 34px;
+      height: 34px;
+    }
+    li.twitter a {
+      background-position: -3px -3px;
+    }
+    li.instagram a {
+      background-position: -3px -43px;
+    }
+    li.facebook a {
+      background-position: -3px -83px;
+    }
+    li.rss a {
+      background-position: -3px -123px;
+    }
+    li.pinterest a {
+      background-position: -3px -163px;
+    }
+    li.slideshare a {
+      background-position: -3px -203px;
+    }    
   }
-  li.instagram a {
-    background-position: -40px -3px;
-  }
-  li.facebook a {
-    background-position: -78px -3px;
-  }
-  li.rss a {
-    background-position: -116px -3px;
-  }
-  li.pinterest a {
-    background-position: -3px -42px;
-  }
-  li.slideshare a {
-    background-position: -40px -42px;
+  @include max-screen(767px) {
+    a {
+      width: 40px;
+      height: 40px;
+    }
+    li.twitter a {
+      background-position: 0 0;
+    }
+    li.instagram a {
+      background-position: 0 -40px;
+    }
+    li.facebook a {
+      background-position: 0 -80px;
+    }
+    li.rss a {
+      background-position: 0 -120px;
+    }
+    li.pinterest a {
+      background-position: 0 -160px;
+    }
+    li.slideshare a {
+      background-position: 0 -200px;
+    }    
   }
 }
 // FOOTER COPY LINE
@@ -505,7 +547,6 @@ section {
 .inner-pages section {
   padding: 0;
 }
-
 .inner-pages section.intro {
   padding: 70px 0 62px;
 }

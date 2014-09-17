@@ -10,11 +10,11 @@
 		
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main">
+			<main id="main" class="home">
 			
-				<div id="home-video" class="WindowHeight">
+				<div id="home-video" class="WindowHeight" style="opacity: 0;">
 					<div class="videoHolder">
-						<video id="homepagevid" autoplay>
+						<video id="homepagevid" preload autoplay loop>
 							<source type="video/mp4" src="videos/ram.mp4">
 							<source type="video/webm" src="videos/ram.webm">
 							<source type="video/ogg" src="videos/ram.ogv">
@@ -43,9 +43,9 @@
 						<h1>Some of our work.</h1>
 						<p>Be Famous For The People Who Love You... For The Way You Love Them.</p>
 						<ul class="row works-list">
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/love_146.jpg" alt="Love 146"></a></li>
+							<li class="large-4 medium-4 small-12 columns"><a href="love_146.php"><img src="images/home/love_146.jpg" alt="Love 146"></a></li>
 							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/fr.jpg" alt="Fitness Rebellion"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/heroes.jpg" alt="Heroes in Recovery"></a></li>
+							<li class="large-4 medium-4 small-12 columns"><a href="heroes_in_recovery.php"><img src="images/home/heroes.jpg" alt="Heroes in Recovery"></a></li>
 						</ul>
 						<div class="btn-holder">
 							<a class="button btn-ico btn-orange" href="#dummy">View all of our case studies</a>
@@ -57,7 +57,7 @@
 					<div class="row">
 						<!-- Tagboard widget - start -->
 						<div id="tagboard-embed"></div>
-						<script>var tagboardOptions = {tagboard:"firesphere/188415", postCount: 50, mobilePostCount: 10};</script>
+						<script>var tagboardOptions = {tagboard:"firesphere/188415", postCount: 16, mobilePostCount: 6};</script>
 						<script src="https://tagboard.com/public/js/embed.js"></script>
 						<!-- Tagboard widget - end -->
 					</div>
@@ -76,16 +76,29 @@
 		$(document).ready(function () {
 			// TEMP ADD CURRENT CLASS TO NAVIGATION
 			$('.primary-nav li:first').addClass('current');
-
 			
 		    var WH = $(window).height();
-		    $(".WindowHeight").height(WH);
+		    
+		    if($(window).height() < 640) {
+		    	$(".WindowHeight").height(WH + 83);
+		    } else {
+		    	$(".WindowHeight").height(WH);
+		    }
+		    
 		});
 
 		$(window).resize(function() {
+
 		    var WH = $(window).height();
-		    $(".WindowHeight").height(WH);
+
+		    if($(window).height() < 640) {
+		    	$(".WindowHeight").height(WH + 83);
+		    } else {
+		    	$(".WindowHeight").height(WH);
+		    }
+
 		});
+
 	</script>
 
 </body>
