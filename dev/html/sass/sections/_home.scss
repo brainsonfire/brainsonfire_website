@@ -1,16 +1,19 @@
 #home-video {
   background: url("../images/video/Ram-at-his-Desk.jpg") no-repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
   top: 0;
-  height: auto;
-  min-height: 100vh;
   min-width: 100%;
   position: fixed;
   right: 0;
   width: auto;
   z-index: 1;
+  .videoHolder {
+    padding-bottom: 0;
+    min-height: 100%;
+    height: 100%;
+  }
 }
-#home-video + #gallery {
-  min-height: 100vh;
+#home-gallery {
+  padding: 0;
   margin: -83px 0 0;
   background: rgba(#000, 0.5);
 }
@@ -30,6 +33,16 @@
     width: 100%;
     height: 100%;
   }
+  #homepagevid {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+  }
 }
 .cycle-gallery .txt {
   position: absolute;
@@ -39,18 +52,48 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  @include min-screen(641px) {
+    height: 33%;  
+  }
+  @include max-screen(640px) {
+    height: 50%;
+  }
   h1 {
     color: #fff;
     display: block;
     text-transform: uppercase;
-    text-align: left;
     margin: 0 0 12px;
-    @include font-size(70);
-    @include line-height(78);
+    @include min-screen(1200px) {
+      @include font-size(70);
+      @include line-height(78);
+    }
+    @include screen(1024px,1199px) {
+      @include font-size(60);
+      @include line-height(68);
+    }
+    @include screen(768px,1023px) {
+      @include font-size(50);
+      @include line-height(58);
+    }
+    @include min-screen(768px) {
+      text-align: left;
+    }
+    @include screen(641px,767px) {
+      @include font-size(40);
+      @include line-height(48);
+    }
+    @include screen(481px,640px) {
+      @include font-size(30);
+      @include line-height(38);
+    }
+    @include max-screen(480px) {
+      @include font-size(26);
+      @include line-height(32);
+    }
   }
   .button {
     max-width: 406px;
+    
   }
 }
 .section-work {
@@ -61,7 +104,11 @@
     background-color: #eb7e1f;
     padding: 20px 26px 21px 90px;
     text-align: left;
-    max-width: 500px;
+    @include min-screen(1200px) {
+      max-width: 500px;
+    }
+    @include screen(768px,1199px) {
+    }
     &:hover {
       background-color: darken(#eb7e1f, 5%);
       text-decoration: none;

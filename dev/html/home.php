@@ -12,7 +12,7 @@
 			
 			<main id="main">
 			
-				<div id="home-video">
+				<div id="home-video" class="WindowHeight">
 					<div class="videoHolder">
 						<video id="homepagevid" autoplay>
 							<source type="video/mp4" src="videos/ram.mp4">
@@ -23,7 +23,7 @@
 				</div>
 				
 				<!-- da se proveri za ovu sekciju da li ide slider ili ne -->
-				<section class="cycle-gallery" id="gallery">
+				<section id="home-gallery" class="cycle-gallery WindowHeight">
 					<div class="mask">
 						<div class="slideset">
 							<div class="slide bighome">
@@ -42,10 +42,10 @@
 					<div class="row">
 						<h1>Some of our work.</h1>
 						<p>Be Famous For The People Who Love You... For The Way You Love Them.</p>
-						<ul class="works-list">
-							<li><a href="#dummy"><img src="images/home/img_home_work_146.jpg" alt="Love 146"></a></li>
-							<li><a href="#dummy"><img src="images/home/img_home_work_FR.jpg" alt="Fitness Rebellion"></a></li>
-							<li><a href="#dummy"><img src="images/home/img_home_work_heroes.jpg" alt="Heroes in Recovery"></a></li>
+						<ul class="row works-list">
+							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/love_146.jpg" alt="Love 146"></a></li>
+							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/fr.jpg" alt="Fitness Rebellion"></a></li>
+							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/heroes.jpg" alt="Heroes in Recovery"></a></li>
 						</ul>
 						<div class="btn-holder">
 							<a class="button btn-ico btn-orange" href="#dummy">View all of our case studies</a>
@@ -72,10 +72,19 @@
 
 	<?php include("inc/js.php"); ?>
 
-	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
 		$(document).ready(function () {
+			// TEMP ADD CURRENT CLASS TO NAVIGATION
 			$('.primary-nav li:first').addClass('current');
+
+			
+		    var WH = $(window).height();
+		    $(".WindowHeight").height(WH);
+		});
+
+		$(window).resize(function() {
+		    var WH = $(window).height();
+		    $(".WindowHeight").height(WH);
 		});
 	</script>
 

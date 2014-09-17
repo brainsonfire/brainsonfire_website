@@ -1,5 +1,5 @@
 html {
-  font-size: 16; 
+  font-size: 16px;
 }
 body {
   color: #333;
@@ -15,8 +15,18 @@ h1 {
   text-align: center;
   margin: 0 0 5px;
   @include InfoSemiBoldFont;
-  @include font-size(42);
-  @include line-height(44);
+  @include min-screen(1024px) {
+    @include font-size(42);
+    @include line-height(44);
+  }
+  @include screen(768px,1023px) {
+    @include font-size(32);
+    @include line-height(34);
+  }
+  @include max-screen(767px) {
+    @include font-size(28);
+    @include line-height(32);
+  }
 }
 h2 {
   text-transform: uppercase;
@@ -47,8 +57,18 @@ h1 + p:first-of-type {
   text-align: center;
   text-transform: uppercase;
   @include InfoMediumFont;
-  @include font-size(20);
-  @include line-height(25);
+  @include min-screen(1024px) {
+    @include font-size(20);
+    @include line-height(25);
+  }
+  @include screen(768px,1023px) {
+    @include font-size(18);
+    @include line-height(24);
+  }
+  @include max-screen(767px) {
+    @include font-size(16);
+    @include line-height(22);
+  }
 }
 
 b, strong {
