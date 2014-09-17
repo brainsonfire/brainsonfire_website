@@ -9,21 +9,35 @@
     position: relative;
   }
 }
+.orbit-container {
+  overflow: visible;
+  ul {
+    overflow: hidden;
+  }
+}
 .orbit-container li strong {
   display: block;
   font-weight: normal;
 }
-
-
 // Movement page text carousel
 .text-orbit-nav {
+  @include max-screen(767px) {
+    display: none;    
+  }
   a {
-    margin: 0 15px;
     color: #333;
     text-transform: uppercase;
     @include InfoMediumFont;
-    @include font-size(20);
-    @include line-height(25);
+    @include min-screen(1024px) {
+      margin: 0 15px;
+      @include font-size(20);
+      @include line-height(25);
+    }
+    @include screen(768px,1023px) {
+      margin: 0 13px;
+      @include font-size(18);
+      @include line-height(25);
+    }
     &:hover,
     &.active {
       color: #1fb7d3;
@@ -35,9 +49,15 @@
       content: "";
       width: 11px;
       height: 15px;
-      right: -25px;
-      top: 4px;
       background: url(../images/library/small_arrow.png) no-repeat 0 0;
+      @include min-screen(1024px) {
+        right: -25px;
+        top: 4px;
+      }
+      @include screen(768px,1023px) {
+        right: -21px;
+        top: 5px;
+      }
     }
     &:nth-child(4):after {
       display: none;
@@ -47,6 +67,9 @@
 
 // HOW WE WORK 
 .circle-orbit-nav {
+  @include max-screen(767px) {
+    display: none;
+  }
   &.books-orbit {
     margin: 0 auto 54px;
   }
@@ -60,7 +83,7 @@
       z-index: 10;
       width: 70px;
       height: 24px;
-      bottom: -34px;
+      bottom: -33px;
       left: 50%;
       margin-left: -35px;
       background: url(../images/library/tab.png) no-repeat 50% 50%;
@@ -71,13 +94,37 @@
     }
   }
   &.movement-orbit a {
-    width: 284px;
-    height: 284px;
-    margin: 0 11px 0 0;
-    padding: 13px;
-    > span {
-      width: 258px;
-      height: 258px;
+    @include min-screen(1200px) {
+      width: 284px;
+      height: 284px;
+      margin: 0 5px 0 0;
+      padding: 13px;
+    }
+    @include screen(1024px,1199px) {
+      width: 196px;
+      height: 196px;
+      margin: 0 3px 0 0;
+      padding: 8px;
+    }
+    @include screen(768px,1023px) {
+      width: 176px;
+      height: 176px;
+      margin: 0 3px 0 0;
+      padding: 5px;
+    }
+    > span {      
+      @include min-screen(1200px) {
+        width: 258px;
+        height: 258px;
+      }
+      @include screen(1024px,1199px) {
+        width: 180px;
+        height: 180px;
+      }
+      @include screen(768px,1023px) {
+        width: 166px;
+        height: 166px;
+      }
     }
   }
   a > span {
@@ -87,14 +134,26 @@
     color: #FFF;
     @include border-radius(100%);
     @include InfoMediumFont;
-    @include font-size(24);
-    @include line-height(30);
+    @include min-screen(1200px) {
+      @include font-size(24);
+      @include line-height(30);
+    }
+    @include screen(768px,1199px) {
+      @include font-size(18);
+      @include line-height(24);
+    }
     span {
       display: block;
       font-style: italic;
       font-family: Georgia, serif;
-      @include font-size(20);
-      @include line-height(30);
+      @include min-screen(1200px) {
+        @include font-size(20);
+        @include line-height(30);
+      }
+      @include screen(768px,1199px) {
+        @include font-size(18);
+        @include line-height(24);
+      }
     }
   }
   &.books-orbit a {
@@ -171,18 +230,72 @@
   background: rgba(#FFF, 0.8);
 }
 #how-we-work .orbit-container {
-  background: rgba(#FFF, 0.95);
+  @include min-screen(768px) {
+    background: rgba(#FFF, 0.95);
+    .orbit-prev,
+    .orbit-next {
+      display: none;
+    }
+  }
+  @include max-screen(767px) {
+    ul {
+      background: rgba(#FFF, 0.95);
+      width: 98%;
+      margin: 0 auto;
+      overflow: hidden;
+      li {
+        padding: 0 20px 20px;
+      }
+    }
+    .orbit-next {
+      right: -10px;
+    }
+    .orbit-prev {
+      left: -10px;
+    }
+    .orbit-next,
+    .orbit-prev {
+      width: 31px;
+      height: 44px;
+      opacity: 0.8;
+      span {
+        display: none;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .orbit-next {
+      background: url(../images/library/arrows.png) no-repeat 0 -88px;
+    }
+    .orbit-prev {
+      background: url(../images/library/arrows.png) no-repeat 0 -132px;
+    }
+  }
 }
 #authoral-team .orbit-container,
 #how-we-work .orbit-container {
-  padding: 66px 0 72px;
-  margin: 0 0 40px;
+  @include min-screen(768px) {
+    padding: 66px 0 72px;
+    margin: 0 0 40px;
+  }
+  @include max-screen(767px) {
+    padding: 0 0 20px;
+    margin: 0 auto 20px; 
+  }
   li {
     padding: 0 45px;
     // Info Norma Font
     @include InfoMediumFont;
-    @include font-size(20);
-    @include line-height(29);
+    
+    @include min-screen(768px) {
+      @include font-size(20);
+      @include line-height(29);
+    }
+    @include max-screen(767px) {
+      @include font-size(16);
+      @include line-height(26);
+    }
     strong {
       display: block;
       // Info Bold Font
@@ -232,12 +345,20 @@
   .orbit-container {
     ul {
       overflow: hidden;
-      margin: 0 auto 50px;
-      width: 100%;
-      max-width: 770px;
+      width: 100%;      
+      @include min-screen(1024px) {
+        max-width: 770px;
+        margin: 0 auto 50px;
+      }
+      @include max-screen(1023px) {
+        max-width: 76%;
+        text-align: center;
+        margin: 0 auto 22px;
+      }
     }
     .orbit-next,
     .orbit-prev {
+      display: block !important;
       width: 31px;
       height: 44px;
       opacity: 0.8;
@@ -256,8 +377,14 @@
     }
     li {
       @include InfoMediumFont;
-      @include font-size(20);
-      @include line-height(30);
+      @include min-screen(768px) {
+        @include font-size(20);
+        @include line-height(30);
+      }
+      @include max-screen(767px) {
+        @include font-size(16);
+        @include line-height(22);    
+      }
       strong {
         @include InfoSemiBoldFont;
       }

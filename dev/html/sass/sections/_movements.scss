@@ -1,16 +1,24 @@
 #movement-banner {
   padding: 172px 0 86px;
   background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
-  @include background-size(100% auto);
+  @include background-size(cover);
 }
 #learn-banner {
   padding: 170px 0 83px;
   background: #dc5520 url(../images/movement/learn_banner.jpg) no-repeat 50% 100%;
-  @include background-size(100% auto);
+  @include background-size(cover);
 }
 #movement-info {
   background: rgba(#000, 0);
-  padding: 80px 0 86px;
+  @include min-screen(1024px) {
+    padding: 80px 0 86px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
   h1 {
     margin: 0 0 33px;
   }
@@ -35,11 +43,33 @@
 }
 
 #how-we-work {
-  padding: 97px 0 118px;
   background: #fff url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
-  @include background-size(100% auto);
+  @include min-screen(1024px) {
+    padding: 97px 0 118px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include min-screen(1500px) {
+    @include background-size(100% auto);
+  }
+  @include max-screen(1499px) {
+    @include background-size(cover);
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+    .orbit-next, 
+    .orbit-prev {
+      display: block !important;
+    }
+  }
   h1 + p {
-    margin: 0 0 54px;
+    @include min-screen(768px) {
+      margin: 0 0 54px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 20px;
+    }
   }
   .button {
     max-width: 250px;

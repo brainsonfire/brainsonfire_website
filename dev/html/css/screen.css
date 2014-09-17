@@ -1007,7 +1007,30 @@ ul.row {
   list-style: none;
 }
 
-/* line 14, ../sass/modules/_library.scss */
+@media screen and (min-width: 768px) {
+  /* line 14, ../sass/modules/_library.scss */
+  .small-title {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 14, ../sass/modules/_library.scss */
+  .small-title {
+    display: block;
+  }
+  /* line 20, ../sass/modules/_library.scss */
+  .small-title br {
+    display: none;
+  }
+  /* line 23, ../sass/modules/_library.scss */
+  .small-title span {
+    display: block;
+    font-style: italic;
+    font-family: Georgia, serif;
+  }
+}
+
+/* line 30, ../sass/modules/_library.scss */
 .button {
   display: table;
   margin: 0 auto;
@@ -1017,7 +1040,7 @@ ul.row {
   border: 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     padding: 1.4rem 0;
     max-width: 360px;
@@ -1025,26 +1048,26 @@ ul.row {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     padding: 1.4rem 1.5rem;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 767px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     padding: 1.4rem 2rem;
   }
 }
 @media screen and (max-width: 640px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     padding: 1.4rem 0;
     width: 100%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     font-size: 28px;
     font-size: 1.75rem;
@@ -1053,7 +1076,7 @@ ul.row {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     font-size: 24px;
     font-size: 1.5rem;
@@ -1062,7 +1085,7 @@ ul.row {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 14, ../sass/modules/_library.scss */
+  /* line 30, ../sass/modules/_library.scss */
   .button {
     font-size: 20px;
     font-size: 1.25rem;
@@ -1071,23 +1094,23 @@ ul.row {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 48, ../sass/modules/_library.scss */
+  /* line 64, ../sass/modules/_library.scss */
   .button.left {
     margin: 0 20px 30px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 48, ../sass/modules/_library.scss */
+  /* line 64, ../sass/modules/_library.scss */
   .button.left {
     float: none !important;
     margin: 0 auto 22px;
   }
 }
-/* line 57, ../sass/modules/_library.scss */
+/* line 73, ../sass/modules/_library.scss */
 .button:active {
   top: 2px;
 }
-/* line 61, ../sass/modules/_library.scss */
+/* line 77, ../sass/modules/_library.scss */
 .button.btn-ico:before {
   position: absolute;
   content: "";
@@ -1097,46 +1120,46 @@ ul.row {
   left: 30px;
 }
 
-/* line 71, ../sass/modules/_library.scss */
+/* line 87, ../sass/modules/_library.scss */
 .btn-orange {
   background-color: #d9531e;
 }
-/* line 73, ../sass/modules/_library.scss */
+/* line 89, ../sass/modules/_library.scss */
 .btn-orange:hover {
   background-color: #c34a1b;
 }
-/* line 76, ../sass/modules/_library.scss */
+/* line 92, ../sass/modules/_library.scss */
 .btn-orange:active {
   background-color: #d9531e;
 }
 
-/* line 80, ../sass/modules/_library.scss */
+/* line 96, ../sass/modules/_library.scss */
 .btn-green {
   background-color: #939f57;
 }
-/* line 82, ../sass/modules/_library.scss */
+/* line 98, ../sass/modules/_library.scss */
 .btn-green:hover {
   background-color: #848f4e;
 }
-/* line 85, ../sass/modules/_library.scss */
+/* line 101, ../sass/modules/_library.scss */
 .btn-green:active {
   background-color: #939f57;
 }
 
-/* line 89, ../sass/modules/_library.scss */
+/* line 105, ../sass/modules/_library.scss */
 .btn-blue {
   background-color: #0bb7cf;
 }
-/* line 91, ../sass/modules/_library.scss */
+/* line 107, ../sass/modules/_library.scss */
 .btn-blue:hover {
   background-color: #0aa2b7;
 }
-/* line 94, ../sass/modules/_library.scss */
+/* line 110, ../sass/modules/_library.scss */
 .btn-blue:active {
   background-color: #0bb7cf;
 }
 
-/* line 98, ../sass/modules/_library.scss */
+/* line 114, ../sass/modules/_library.scss */
 .btn-down,
 .btn-down:active {
   background: #f18013;
@@ -1150,7 +1173,7 @@ ul.row {
   z-index: 2;
 }
 
-/* line 110, ../sass/modules/_library.scss */
+/* line 126, ../sass/modules/_library.scss */
 .btn-down:before {
   background: url(../images/library/sprite.png) no-repeat 0 -150px;
   content: "";
@@ -1162,15 +1185,15 @@ ul.row {
   width: 22px;
 }
 
-/* line 120, ../sass/modules/_library.scss */
+/* line 136, ../sass/modules/_library.scss */
 .row .works-list {
   margin: 53px auto 43px;
 }
-/* line 122, ../sass/modules/_library.scss */
+/* line 138, ../sass/modules/_library.scss */
 .row .works-list li {
   margin: 0 0 30px;
 }
-/* line 125, ../sass/modules/_library.scss */
+/* line 141, ../sass/modules/_library.scss */
 .row .works-list a {
   float: left;
   position: relative;
@@ -1179,7 +1202,7 @@ ul.row {
   -webkit-border-radius: 2px;
   border-radius: 2px;
 }
-/* line 131, ../sass/modules/_library.scss */
+/* line 147, ../sass/modules/_library.scss */
 .row .works-list img {
   display: block;
   position: relative;
@@ -1190,7 +1213,7 @@ ul.row {
   border-radius: 2px;
 }
 
-/* line 139, ../sass/modules/_library.scss */
+/* line 155, ../sass/modules/_library.scss */
 .half-block {
   float: left;
   position: relative;
@@ -1198,11 +1221,11 @@ ul.row {
   padding: 95px 5% 0;
   margin: 0 0 0 7%;
 }
-/* line 145, ../sass/modules/_library.scss */
+/* line 161, ../sass/modules/_library.scss */
 .half-block + .half-block {
   margin: 0 7% 0 0;
 }
-/* line 148, ../sass/modules/_library.scss */
+/* line 164, ../sass/modules/_library.scss */
 .half-block > a:not(.button) {
   display: block;
   position: relative;
@@ -1212,7 +1235,7 @@ ul.row {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 155, ../sass/modules/_library.scss */
+/* line 171, ../sass/modules/_library.scss */
 .half-block img {
   display: block;
   width: 100%;
@@ -1222,25 +1245,25 @@ ul.row {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 162, ../sass/modules/_library.scss */
+/* line 178, ../sass/modules/_library.scss */
 .half-block h2 {
   margin: 0 0 7px;
   font-size: 28px;
   font-size: 1.75rem;
 }
-/* line 166, ../sass/modules/_library.scss */
+/* line 182, ../sass/modules/_library.scss */
 .half-block p {
   text-align: center;
   margin: 0 0 56px;
   line-height: 26px;
   line-height: 1.625rem;
 }
-/* line 171, ../sass/modules/_library.scss */
+/* line 187, ../sass/modules/_library.scss */
 .half-block .button {
   max-width: 270px;
 }
 
-/* line 175, ../sass/modules/_library.scss */
+/* line 191, ../sass/modules/_library.scss */
 .direction-nav {
   display: block;
   position: relative;
@@ -1248,19 +1271,19 @@ ul.row {
   overflow: hidden;
   clear: both;
 }
-/* line 181, ../sass/modules/_library.scss */
+/* line 197, ../sass/modules/_library.scss */
 .direction-nav.top {
   background: rgba(255, 255, 255, 0.9);
   padding: 33px 0;
   height: 110px;
 }
-/* line 186, ../sass/modules/_library.scss */
+/* line 202, ../sass/modules/_library.scss */
 .direction-nav.bottom {
   background: #F1F2F3;
   padding: 33px 0 36px;
   height: 110px;
 }
-/* line 191, ../sass/modules/_library.scss */
+/* line 207, ../sass/modules/_library.scss */
 .direction-nav ul {
   float: left;
   width: 100%;
@@ -1268,20 +1291,20 @@ ul.row {
   padding: 0;
   list-style: none;
 }
-/* line 197, ../sass/modules/_library.scss */
+/* line 213, ../sass/modules/_library.scss */
 .direction-nav ul li {
   float: left;
   width: 33.3333333%;
 }
-/* line 200, ../sass/modules/_library.scss */
+/* line 216, ../sass/modules/_library.scss */
 .direction-nav ul li + li {
   text-align: center;
 }
-/* line 203, ../sass/modules/_library.scss */
+/* line 219, ../sass/modules/_library.scss */
 .direction-nav ul li + li + li {
   text-align: right;
 }
-/* line 208, ../sass/modules/_library.scss */
+/* line 224, ../sass/modules/_library.scss */
 .direction-nav a {
   display: table;
   font-family: Georgia, serif;
@@ -1294,7 +1317,7 @@ ul.row {
   line-height: 44px;
   line-height: 2.75rem;
 }
-/* line 217, ../sass/modules/_library.scss */
+/* line 233, ../sass/modules/_library.scss */
 .direction-nav a:after {
   position: absolute;
   display: block;
@@ -1306,47 +1329,47 @@ ul.row {
   background-image: url(../images/library/direction_nav.png);
   background-repeat: no-repeat;
 }
-/* line 229, ../sass/modules/_library.scss */
+/* line 245, ../sass/modules/_library.scss */
 .direction-nav .previous {
   padding: 0 0 0 65px;
 }
-/* line 231, ../sass/modules/_library.scss */
+/* line 247, ../sass/modules/_library.scss */
 .direction-nav .previous:after {
   left: 0;
   background-position: 0 0;
 }
-/* line 236, ../sass/modules/_library.scss */
+/* line 252, ../sass/modules/_library.scss */
 .direction-nav .center {
   margin: 0 auto;
   padding: 0 0 0 44px;
 }
-/* line 239, ../sass/modules/_library.scss */
+/* line 255, ../sass/modules/_library.scss */
 .direction-nav .center:after {
   left: 0;
   background-position: 0 -44px;
 }
-/* line 244, ../sass/modules/_library.scss */
+/* line 260, ../sass/modules/_library.scss */
 .direction-nav .next {
   padding: 0 65px 0 0;
   float: right;
 }
-/* line 247, ../sass/modules/_library.scss */
+/* line 263, ../sass/modules/_library.scss */
 .direction-nav .next:after {
   right: 0;
   background-position: 0 -88px;
 }
 
-/* line 254, ../sass/modules/_library.scss */
+/* line 270, ../sass/modules/_library.scss */
 #main.case-study {
   background: #F8F8F8;
 }
 
-/* line 258, ../sass/modules/_library.scss */
+/* line 274, ../sass/modules/_library.scss */
 .main-photo {
   margin: -110px 0 0;
 }
 
-/* line 262, ../sass/modules/_library.scss */
+/* line 278, ../sass/modules/_library.scss */
 #love-146 {
   background: black url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
   -moz-background-size: auto 100%;
@@ -1354,22 +1377,22 @@ ul.row {
   -webkit-background-size: auto 100%;
   background-size: auto 100%;
 }
-/* line 265, ../sass/modules/_library.scss */
+/* line 281, ../sass/modules/_library.scss */
 #love-146 img {
   max-width: 66%;
   margin: 300px 0 250px;
 }
 
-/* line 271, ../sass/modules/_library.scss */
+/* line 287, ../sass/modules/_library.scss */
 .intro {
   padding: 70px 0 62px;
 }
-/* line 273, ../sass/modules/_library.scss */
+/* line 289, ../sass/modules/_library.scss */
 .intro h1 {
   margin: 0 0 53px;
   display: block;
 }
-/* line 276, ../sass/modules/_library.scss */
+/* line 292, ../sass/modules/_library.scss */
 .intro h1 + p {
   text-transform: none;
   text-align: left;
@@ -1383,40 +1406,40 @@ ul.row {
   line-height: 1.875rem;
 }
 
-/* line 286, ../sass/modules/_library.scss */
+/* line 302, ../sass/modules/_library.scss */
 p.intro {
   padding: 0;
   margin: 0;
 }
 
-/* line 290, ../sass/modules/_library.scss */
+/* line 306, ../sass/modules/_library.scss */
 .two-col {
   margin: 0;
   padding: 0 5.9375rem;
 }
-/* line 293, ../sass/modules/_library.scss */
+/* line 309, ../sass/modules/_library.scss */
 .two-col .left,
 .two-col .right {
   width: 48.7%;
 }
-/* line 297, ../sass/modules/_library.scss */
+/* line 313, ../sass/modules/_library.scss */
 .two-col p {
   margin: 0 0 32px;
   display: inline-block;
   overflow: hidden;
 }
 
-/* line 303, ../sass/modules/_library.scss */
+/* line 319, ../sass/modules/_library.scss */
 .border-left {
   border-left: 2px solid rgba(153, 153, 153, 0.3);
 }
 
-/* line 307, ../sass/modules/_library.scss */
+/* line 323, ../sass/modules/_library.scss */
 .white-text * {
   color: #FFF;
 }
 
-/* line 312, ../sass/modules/_library.scss */
+/* line 328, ../sass/modules/_library.scss */
 .btn-holder {
   display: block;
   overflow: hidden;
@@ -1439,29 +1462,59 @@ p.intro {
 }
 
 /* line 12, ../sass/modules/_orbit.scss */
+.orbit-container {
+  overflow: visible;
+}
+/* line 14, ../sass/modules/_orbit.scss */
+.orbit-container ul {
+  overflow: hidden;
+}
+
+/* line 18, ../sass/modules/_orbit.scss */
 .orbit-container li strong {
   display: block;
   font-weight: normal;
 }
 
-/* line 20, ../sass/modules/_orbit.scss */
+@media screen and (max-width: 767px) {
+  /* line 23, ../sass/modules/_orbit.scss */
+  .text-orbit-nav {
+    display: none;
+  }
+}
+/* line 27, ../sass/modules/_orbit.scss */
 .text-orbit-nav a {
-  margin: 0 15px;
   color: #333;
   text-transform: uppercase;
   font-family: "infomedium", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 25px;
-  line-height: 1.5625rem;
 }
-/* line 27, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 1024px) {
+  /* line 27, ../sass/modules/_orbit.scss */
+  .text-orbit-nav a {
+    margin: 0 15px;
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 25px;
+    line-height: 1.5625rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 27, ../sass/modules/_orbit.scss */
+  .text-orbit-nav a {
+    margin: 0 13px;
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 25px;
+    line-height: 1.5625rem;
+  }
+}
+/* line 41, ../sass/modules/_orbit.scss */
 .text-orbit-nav a:hover, .text-orbit-nav a.active {
   color: #1fb7d3;
 }
-/* line 31, ../sass/modules/_orbit.scss */
+/* line 45, ../sass/modules/_orbit.scss */
 .text-orbit-nav a:after {
   display: block;
   position: absolute;
@@ -1469,27 +1522,45 @@ p.intro {
   content: "";
   width: 11px;
   height: 15px;
-  right: -25px;
-  top: 4px;
   background: url(../images/library/small_arrow.png) no-repeat 0 0;
 }
-/* line 42, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 1024px) {
+  /* line 45, ../sass/modules/_orbit.scss */
+  .text-orbit-nav a:after {
+    right: -25px;
+    top: 4px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 45, ../sass/modules/_orbit.scss */
+  .text-orbit-nav a:after {
+    right: -21px;
+    top: 5px;
+  }
+}
+/* line 62, ../sass/modules/_orbit.scss */
 .text-orbit-nav a:nth-child(4):after {
   display: none;
 }
 
-/* line 50, ../sass/modules/_orbit.scss */
+@media screen and (max-width: 767px) {
+  /* line 69, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav {
+    display: none;
+  }
+}
+/* line 73, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit {
   margin: 0 auto 54px;
 }
-/* line 53, ../sass/modules/_orbit.scss */
+/* line 76, ../sass/modules/_orbit.scss */
 .circle-orbit-nav a {
   vertical-align: middle;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 56, ../sass/modules/_orbit.scss */
+/* line 79, ../sass/modules/_orbit.scss */
 .circle-orbit-nav a:after {
   display: block;
   position: absolute;
@@ -1497,29 +1568,65 @@ p.intro {
   z-index: 10;
   width: 70px;
   height: 24px;
-  bottom: -34px;
+  bottom: -33px;
   left: 50%;
   margin-left: -35px;
   background: url(../images/library/tab.png) no-repeat 50% 50%;
   opacity: 0;
 }
-/* line 69, ../sass/modules/_orbit.scss */
+/* line 92, ../sass/modules/_orbit.scss */
 .circle-orbit-nav a.active:after {
   opacity: 1;
 }
-/* line 73, ../sass/modules/_orbit.scss */
-.circle-orbit-nav.movement-orbit a {
-  width: 284px;
-  height: 284px;
-  margin: 0 11px 0 0;
-  padding: 13px;
+@media screen and (min-width: 1200px) {
+  /* line 96, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav.movement-orbit a {
+    width: 284px;
+    height: 284px;
+    margin: 0 5px 0 0;
+    padding: 13px;
+  }
 }
-/* line 78, ../sass/modules/_orbit.scss */
-.circle-orbit-nav.movement-orbit a > span {
-  width: 258px;
-  height: 258px;
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* line 96, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav.movement-orbit a {
+    width: 196px;
+    height: 196px;
+    margin: 0 3px 0 0;
+    padding: 8px;
+  }
 }
-/* line 83, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 96, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav.movement-orbit a {
+    width: 176px;
+    height: 176px;
+    margin: 0 3px 0 0;
+    padding: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 115, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav.movement-orbit a > span {
+    width: 258px;
+    height: 258px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* line 115, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav.movement-orbit a > span {
+    width: 180px;
+    height: 180px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 115, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav.movement-orbit a > span {
+    width: 166px;
+    height: 166px;
+  }
+}
+/* line 130, ../sass/modules/_orbit.scss */
 .circle-orbit-nav a > span {
   display: table-cell;
   vertical-align: middle;
@@ -1531,34 +1638,62 @@ p.intro {
   font-family: "infomedium", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 30px;
-  line-height: 1.875rem;
 }
-/* line 92, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 1200px) {
+  /* line 130, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav a > span {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 130, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav a > span {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+  }
+}
+/* line 145, ../sass/modules/_orbit.scss */
 .circle-orbit-nav a > span span {
   display: block;
   font-style: italic;
   font-family: Georgia, serif;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 30px;
-  line-height: 1.875rem;
 }
-/* line 100, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 1200px) {
+  /* line 145, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav a > span span {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  /* line 145, ../sass/modules/_orbit.scss */
+  .circle-orbit-nav a > span span {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 24px;
+    line-height: 1.5rem;
+  }
+}
+/* line 159, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit a {
   width: 286px;
   height: 286px;
   margin: 0 2px;
 }
-/* line 104, ../sass/modules/_orbit.scss */
+/* line 163, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit a > span {
   width: 286px;
   height: 286px;
   background: rgba(255, 255, 255, 0);
 }
-/* line 108, ../sass/modules/_orbit.scss */
+/* line 167, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit a > span span {
   position: absolute;
   text-align: center;
@@ -1573,15 +1708,15 @@ p.intro {
   line-height: 25px;
   line-height: 1.5625rem;
 }
-/* line 119, ../sass/modules/_orbit.scss */
+/* line 178, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit a.active:after {
   bottom: -54px;
 }
-/* line 122, ../sass/modules/_orbit.scss */
+/* line 181, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit a.active > span {
   background: rgba(255, 255, 255, 0.8);
 }
-/* line 125, ../sass/modules/_orbit.scss */
+/* line 184, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.books-orbit a img {
   width: 260px;
   height: 260px;
@@ -1590,85 +1725,164 @@ p.intro {
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 132, ../sass/modules/_orbit.scss */
+/* line 191, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:first-of-type {
   background-color: rgba(255, 255, 255, 0);
 }
-/* line 134, ../sass/modules/_orbit.scss */
+/* line 193, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:first-of-type.active {
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 137, ../sass/modules/_orbit.scss */
+/* line 196, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:first-of-type > span {
   background: #d9531e;
 }
-/* line 141, ../sass/modules/_orbit.scss */
+/* line 200, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(2) {
   background-color: rgba(11, 183, 207, 0);
 }
-/* line 143, ../sass/modules/_orbit.scss */
+/* line 202, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(2).active {
   background-color: rgba(11, 183, 207, 0.5);
 }
-/* line 146, ../sass/modules/_orbit.scss */
+/* line 205, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(2) > span {
   background: #23bed4;
 }
-/* line 150, ../sass/modules/_orbit.scss */
+/* line 209, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(3) {
   background-color: rgba(147, 159, 87, 0);
 }
-/* line 152, ../sass/modules/_orbit.scss */
+/* line 211, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(3).active {
   background-color: rgba(147, 159, 87, 0.5);
 }
-/* line 155, ../sass/modules/_orbit.scss */
+/* line 214, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(3) > span {
   background: #9ea867;
 }
-/* line 159, ../sass/modules/_orbit.scss */
+/* line 218, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(4) {
   margin: 0;
   background-color: rgba(235, 126, 31, 0);
 }
-/* line 162, ../sass/modules/_orbit.scss */
+/* line 221, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(4).active {
   background-color: rgba(235, 126, 31, 0.5);
 }
-/* line 165, ../sass/modules/_orbit.scss */
+/* line 224, ../sass/modules/_orbit.scss */
 .circle-orbit-nav.movement-orbit a:nth-child(4) > span {
   background: #ec8a35;
 }
 
-/* line 170, ../sass/modules/_orbit.scss */
+/* line 229, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container {
   background: rgba(255, 255, 255, 0.8);
 }
 
-/* line 173, ../sass/modules/_orbit.scss */
-#how-we-work .orbit-container {
-  background: rgba(255, 255, 255, 0.95);
+@media screen and (min-width: 768px) {
+  /* line 232, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container {
+    background: rgba(255, 255, 255, 0.95);
+  }
+  /* line 235, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-prev,
+  #how-we-work .orbit-container .orbit-next {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 241, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container ul {
+    background: rgba(255, 255, 255, 0.95);
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  /* line 246, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container ul li {
+    padding: 0 20px 20px;
+  }
+  /* line 250, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-next {
+    right: -10px;
+  }
+  /* line 253, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-prev {
+    left: -10px;
+  }
+  /* line 256, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-next,
+  #how-we-work .orbit-container .orbit-prev {
+    width: 31px;
+    height: 44px;
+    opacity: 0.8;
+  }
+  /* line 261, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-next span,
+  #how-we-work .orbit-container .orbit-prev span {
+    display: none;
+  }
+  /* line 264, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-next:hover,
+  #how-we-work .orbit-container .orbit-prev:hover {
+    opacity: 1;
+  }
+  /* line 268, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-next {
+    background: url(../images/library/arrows.png) no-repeat 0 -88px;
+  }
+  /* line 271, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container .orbit-prev {
+    background: url(../images/library/arrows.png) no-repeat 0 -132px;
+  }
 }
 
-/* line 176, ../sass/modules/_orbit.scss */
-#authoral-team .orbit-container,
-#how-we-work .orbit-container {
-  padding: 66px 0 72px;
-  margin: 0 0 40px;
+@media screen and (min-width: 768px) {
+  /* line 276, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container,
+  #how-we-work .orbit-container {
+    padding: 66px 0 72px;
+    margin: 0 0 40px;
+  }
 }
-/* line 180, ../sass/modules/_orbit.scss */
+@media screen and (max-width: 767px) {
+  /* line 276, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container,
+  #how-we-work .orbit-container {
+    padding: 0 0 20px;
+    margin: 0 auto 20px;
+  }
+}
+/* line 286, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container li,
 #how-we-work .orbit-container li {
   padding: 0 45px;
   font-family: "infomedium", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 29px;
-  line-height: 1.8125rem;
 }
-/* line 186, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 768px) {
+  /* line 286, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container li,
+  #how-we-work .orbit-container li {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 29px;
+    line-height: 1.8125rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 286, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container li,
+  #how-we-work .orbit-container li {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 26px;
+    line-height: 1.625rem;
+  }
+}
+/* line 299, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container li strong,
 #how-we-work .orbit-container li strong {
   display: block;
@@ -1677,36 +1891,36 @@ p.intro {
   font-style: normal;
 }
 
-/* line 197, ../sass/modules/_orbit.scss */
+/* line 310, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container {
   margin: 56px 0 9px;
 }
-/* line 199, ../sass/modules/_orbit.scss */
+/* line 312, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next,
 #gallery-slider .orbit-container .orbit-prev {
   width: 31px;
   height: 44px;
   opacity: 0.8;
 }
-/* line 204, ../sass/modules/_orbit.scss */
+/* line 317, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next span,
 #gallery-slider .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 207, ../sass/modules/_orbit.scss */
+/* line 320, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next:hover,
 #gallery-slider .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 211, ../sass/modules/_orbit.scss */
+/* line 324, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 -88px;
 }
-/* line 214, ../sass/modules/_orbit.scss */
+/* line 327, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -132px;
 }
-/* line 217, ../sass/modules/_orbit.scss */
+/* line 330, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .gallery-orbit {
   width: 100%;
   max-width: 975px;
@@ -1719,55 +1933,83 @@ p.intro {
   text-align: center;
 }
 
-/* line 233, ../sass/modules/_orbit.scss */
+/* line 346, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container ul {
   overflow: hidden;
-  margin: 0 auto 50px;
   width: 100%;
-  max-width: 770px;
 }
-/* line 239, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 1024px) {
+  /* line 346, ../sass/modules/_orbit.scss */
+  #movement-info .orbit-container ul {
+    max-width: 770px;
+    margin: 0 auto 50px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  /* line 346, ../sass/modules/_orbit.scss */
+  #movement-info .orbit-container ul {
+    max-width: 76%;
+    text-align: center;
+    margin: 0 auto 22px;
+  }
+}
+/* line 359, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next,
 #movement-info .orbit-container .orbit-prev {
+  display: block !important;
   width: 31px;
   height: 44px;
   opacity: 0.8;
 }
-/* line 244, ../sass/modules/_orbit.scss */
+/* line 365, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next span,
 #movement-info .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 247, ../sass/modules/_orbit.scss */
+/* line 368, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next:hover,
 #movement-info .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 251, ../sass/modules/_orbit.scss */
+/* line 372, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 0;
 }
-/* line 254, ../sass/modules/_orbit.scss */
+/* line 375, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -44px;
 }
-/* line 257, ../sass/modules/_orbit.scss */
+/* line 378, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li {
   font-family: "infomedium", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 30px;
-  line-height: 1.875rem;
 }
-/* line 261, ../sass/modules/_orbit.scss */
+@media screen and (min-width: 768px) {
+  /* line 378, ../sass/modules/_orbit.scss */
+  #movement-info .orbit-container li {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 378, ../sass/modules/_orbit.scss */
+  #movement-info .orbit-container li {
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+  }
+}
+/* line 388, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li strong {
   font-family: "infosemibold", Arial, Helvetica, sans-serif;
   font-weight: normal;
   font-style: normal;
 }
-/* line 266, ../sass/modules/_orbit.scss */
+/* line 393, ../sass/modules/_orbit.scss */
 #movement-info p.hint {
   margin: 19px 0 0;
   text-align: center;
@@ -1778,7 +2020,7 @@ p.intro {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 274, ../sass/modules/_orbit.scss */
+/* line 401, ../sass/modules/_orbit.scss */
 #movement-info p.hint a {
   font-weight: bold;
   color: #00AACB;
@@ -1786,36 +2028,36 @@ p.intro {
   font-size: 1.75rem;
 }
 
-/* line 284, ../sass/modules/_orbit.scss */
+/* line 411, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container {
   margin: 0 0 97px;
 }
-/* line 286, ../sass/modules/_orbit.scss */
+/* line 413, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container .orbit-next,
 #blockquote .orbit-container .orbit-prev {
   width: 31px;
   height: 44px;
   opacity: 0.8;
 }
-/* line 291, ../sass/modules/_orbit.scss */
+/* line 418, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container .orbit-next span,
 #blockquote .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 294, ../sass/modules/_orbit.scss */
+/* line 421, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container .orbit-next:hover,
 #blockquote .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 298, ../sass/modules/_orbit.scss */
+/* line 425, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 -88px;
 }
-/* line 301, ../sass/modules/_orbit.scss */
+/* line 428, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -132px;
 }
-/* line 304, ../sass/modules/_orbit.scss */
+/* line 431, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container .blockquote-orbit {
   width: 100%;
   max-width: 650px;
@@ -1827,7 +2069,7 @@ p.intro {
   font-style: italic;
   text-align: center;
 }
-/* line 315, ../sass/modules/_orbit.scss */
+/* line 442, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container blockquote {
   border-left: 0;
   margin: 0 0 18px;
@@ -1839,7 +2081,7 @@ p.intro {
   line-height: 58px;
   line-height: 3.625rem;
 }
-/* line 324, ../sass/modules/_orbit.scss */
+/* line 451, ../sass/modules/_orbit.scss */
 #blockquote .orbit-container cite {
   font-size: 20px;
   font-size: 1.25rem;
@@ -1870,16 +2112,17 @@ p.intro {
 }
 
 /* line 17, ../sass/sections/_home.scss */
-.touch #home-video {
+.touch #home-video,
+.lt-ie10 #home-video {
   display: none;
 }
 
-/* line 20, ../sass/sections/_home.scss */
+/* line 21, ../sass/sections/_home.scss */
 .touch #main.home {
   background: url("../images/home/ram_at_his_desk.jpg") no-repeat 100% 0;
 }
 @media screen and (max-height: 1024px) {
-  /* line 20, ../sass/sections/_home.scss */
+  /* line 21, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 1024px;
     -o-background-size: auto 1024px;
@@ -1888,7 +2131,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 800px) {
-  /* line 20, ../sass/sections/_home.scss */
+  /* line 21, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 800px;
     -o-background-size: auto 800px;
@@ -1897,7 +2140,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 768px) {
-  /* line 20, ../sass/sections/_home.scss */
+  /* line 21, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 768px;
     -o-background-size: auto 768px;
@@ -1906,7 +2149,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 640px) {
-  /* line 20, ../sass/sections/_home.scss */
+  /* line 21, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 640px;
     -o-background-size: auto 640px;
@@ -1915,7 +2158,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 480px) {
-  /* line 20, ../sass/sections/_home.scss */
+  /* line 21, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 480px;
     -o-background-size: auto 480px;
@@ -1924,7 +2167,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 320px) {
-  /* line 20, ../sass/sections/_home.scss */
+  /* line 21, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 340px;
     -o-background-size: auto 340px;
@@ -1933,14 +2176,73 @@ p.intro {
   }
 }
 
-/* line 41, ../sass/sections/_home.scss */
+/* line 42, ../sass/sections/_home.scss */
+.lt-ie10 #main.home {
+  background: url("../images/home/ram_at_his_desk.jpg") no-repeat 100% 0;
+}
+@media screen and (max-height: 1024px) {
+  /* line 42, ../sass/sections/_home.scss */
+  .lt-ie10 #main.home {
+    -moz-background-size: auto 1200px;
+    -o-background-size: auto 1200px;
+    -webkit-background-size: auto 1200px;
+    background-size: auto 1200px;
+  }
+}
+@media screen and (max-height: 800px) {
+  /* line 42, ../sass/sections/_home.scss */
+  .lt-ie10 #main.home {
+    -moz-background-size: auto 900px;
+    -o-background-size: auto 900px;
+    -webkit-background-size: auto 900px;
+    background-size: auto 900px;
+  }
+}
+@media screen and (max-height: 768px) {
+  /* line 42, ../sass/sections/_home.scss */
+  .lt-ie10 #main.home {
+    -moz-background-size: auto 868px;
+    -o-background-size: auto 868px;
+    -webkit-background-size: auto 868px;
+    background-size: auto 868px;
+  }
+}
+@media screen and (max-height: 640px) {
+  /* line 42, ../sass/sections/_home.scss */
+  .lt-ie10 #main.home {
+    -moz-background-size: auto 740px;
+    -o-background-size: auto 740px;
+    -webkit-background-size: auto 740px;
+    background-size: auto 740px;
+  }
+}
+@media screen and (max-height: 480px) {
+  /* line 42, ../sass/sections/_home.scss */
+  .lt-ie10 #main.home {
+    -moz-background-size: auto 580px;
+    -o-background-size: auto 580px;
+    -webkit-background-size: auto 580px;
+    background-size: auto 580px;
+  }
+}
+@media screen and (max-height: 320px) {
+  /* line 42, ../sass/sections/_home.scss */
+  .lt-ie10 #main.home {
+    -moz-background-size: auto 440px;
+    -o-background-size: auto 440px;
+    -webkit-background-size: auto 440px;
+    background-size: auto 440px;
+  }
+}
+
+/* line 63, ../sass/sections/_home.scss */
 .videoHolder {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 46, ../sass/sections/_home.scss */
+/* line 68, ../sass/sections/_home.scss */
 .videoHolder iframe,
 .videoHolder video,
 .videoHolder object,
@@ -1952,7 +2254,7 @@ p.intro {
   width: 100%;
   height: 100%;
 }
-/* line 57, ../sass/sections/_home.scss */
+/* line 79, ../sass/sections/_home.scss */
 .videoHolder #homepagevid {
   left: auto;
   right: 0;
@@ -1964,14 +2266,14 @@ p.intro {
   min-height: 100%;
 }
 
-/* line 68, ../sass/sections/_home.scss */
+/* line 90, ../sass/sections/_home.scss */
 #home-gallery {
   padding: 0;
   margin: -83px 0 0;
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 73, ../sass/sections/_home.scss */
+/* line 95, ../sass/sections/_home.scss */
 .cycle-gallery .txt {
   position: absolute;
   margin: auto;
@@ -1982,18 +2284,18 @@ p.intro {
   width: 100%;
 }
 @media screen and (min-width: 480px) {
-  /* line 73, ../sass/sections/_home.scss */
+  /* line 95, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 40%;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 73, ../sass/sections/_home.scss */
+  /* line 95, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 50%;
   }
 }
-/* line 87, ../sass/sections/_home.scss */
+/* line 109, ../sass/sections/_home.scss */
 .cycle-gallery .txt h1 {
   color: #fff;
   display: block;
@@ -2001,7 +2303,7 @@ p.intro {
   margin: 0 0 12px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 70px;
     font-size: 4.375rem;
@@ -2010,7 +2312,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 60px;
     font-size: 3.75rem;
@@ -2019,7 +2321,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 50px;
     font-size: 3.125rem;
@@ -2028,13 +2330,13 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     text-align: left;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 767px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 40px;
     font-size: 2.5rem;
@@ -2043,7 +2345,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 30px;
     font-size: 1.875rem;
@@ -2052,7 +2354,7 @@ p.intro {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 87, ../sass/sections/_home.scss */
+  /* line 109, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 20px;
     font-size: 1.25rem;
@@ -2060,41 +2362,41 @@ p.intro {
     line-height: 1.75rem;
   }
 }
-/* line 120, ../sass/sections/_home.scss */
+/* line 142, ../sass/sections/_home.scss */
 .cycle-gallery .txt .button {
   max-width: 406px;
 }
 
 @media all and (max-height: 320px) and (orientation: landscape) {
-  /* line 125, ../sass/sections/_home.scss */
+  /* line 147, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 46%;
   }
-  /* line 127, ../sass/sections/_home.scss */
+  /* line 149, ../sass/sections/_home.scss */
   .cycle-gallery .txt .button {
     max-width: 50%;
     float: left !important;
   }
 }
-/* line 133, ../sass/sections/_home.scss */
+/* line 155, ../sass/sections/_home.scss */
 .section-work {
   background: url(../images/layout/bg-path.png);
   color: #333;
   padding: 63px 0 80px;
 }
-/* line 137, ../sass/sections/_home.scss */
+/* line 159, ../sass/sections/_home.scss */
 .section-work .btn-ico {
   background-color: #eb7e1f;
   text-align: left;
 }
 @media screen and (min-width: 480px) {
-  /* line 137, ../sass/sections/_home.scss */
+  /* line 159, ../sass/sections/_home.scss */
   .section-work .btn-ico {
     padding: 20px 26px 21px 90px;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 137, ../sass/sections/_home.scss */
+  /* line 159, ../sass/sections/_home.scss */
   .section-work .btn-ico {
     padding: 13px 26px 14px 90px;
     font-size: 20px;
@@ -2104,26 +2406,26 @@ p.intro {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 137, ../sass/sections/_home.scss */
+  /* line 159, ../sass/sections/_home.scss */
   .section-work .btn-ico {
     max-width: 500px;
   }
 }
-/* line 153, ../sass/sections/_home.scss */
+/* line 175, ../sass/sections/_home.scss */
 .section-work .btn-ico:hover {
   background-color: #dd7114;
   text-decoration: none;
 }
-/* line 157, ../sass/sections/_home.scss */
+/* line 179, ../sass/sections/_home.scss */
 .section-work .btn-ico:active {
   background-color: #eb7e1f;
 }
-/* line 160, ../sass/sections/_home.scss */
+/* line 182, ../sass/sections/_home.scss */
 .section-work .btn-ico:before {
   background: url("../images/library/sprite.png") no-repeat scroll 0 -180px transparent;
 }
 
-/* line 165, ../sass/sections/_home.scss */
+/* line 187, ../sass/sections/_home.scss */
 #tagboard-wrap {
   background: #F3F3F3;
   display: block;
@@ -2136,37 +2438,54 @@ p.intro {
 #movement-banner {
   padding: 172px 0 86px;
   background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 /* line 6, ../sass/sections/_movements.scss */
 #learn-banner {
   padding: 170px 0 83px;
   background: #dc5520 url(../images/movement/learn_banner.jpg) no-repeat 50% 100%;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 
 /* line 11, ../sass/sections/_movements.scss */
 #movement-info {
   background: transparent;
-  padding: 80px 0 86px;
 }
-/* line 14, ../sass/sections/_movements.scss */
+@media screen and (min-width: 1024px) {
+  /* line 11, ../sass/sections/_movements.scss */
+  #movement-info {
+    padding: 80px 0 86px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 11, ../sass/sections/_movements.scss */
+  #movement-info {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 11, ../sass/sections/_movements.scss */
+  #movement-info {
+    padding: 30px 0;
+  }
+}
+/* line 22, ../sass/sections/_movements.scss */
 #movement-info h1 {
   margin: 0 0 33px;
 }
-/* line 17, ../sass/sections/_movements.scss */
+/* line 25, ../sass/sections/_movements.scss */
 #movement-info .button {
   max-width: 270px;
   margin: -7px auto 17px;
 }
-/* line 21, ../sass/sections/_movements.scss */
+/* line 29, ../sass/sections/_movements.scss */
 #movement-info p.hint {
   margin: 19px 0 0;
   text-align: center;
@@ -2177,7 +2496,7 @@ p.intro {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 29, ../sass/sections/_movements.scss */
+/* line 37, ../sass/sections/_movements.scss */
 #movement-info p.hint a {
   font-weight: bold;
   color: #00AACB;
@@ -2185,48 +2504,92 @@ p.intro {
   font-size: 1.75rem;
 }
 
-/* line 37, ../sass/sections/_movements.scss */
+/* line 45, ../sass/sections/_movements.scss */
 #how-we-work {
-  padding: 97px 0 118px;
   background: white url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
-  -moz-background-size: 100% auto;
-  -o-background-size: 100% auto;
-  -webkit-background-size: 100% auto;
-  background-size: 100% auto;
 }
-/* line 41, ../sass/sections/_movements.scss */
-#how-we-work h1 + p {
-  margin: 0 0 54px;
+@media screen and (min-width: 1024px) {
+  /* line 45, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 97px 0 118px;
+  }
 }
-/* line 44, ../sass/sections/_movements.scss */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 45, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 60px 0;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 45, ../sass/sections/_movements.scss */
+  #how-we-work {
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+  }
+}
+@media screen and (max-width: 1499px) {
+  /* line 45, ../sass/sections/_movements.scss */
+  #how-we-work {
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 45, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 30px 0;
+  }
+  /* line 61, ../sass/sections/_movements.scss */
+  #how-we-work .orbit-next,
+  #how-we-work .orbit-prev {
+    display: block !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 66, ../sass/sections/_movements.scss */
+  #how-we-work h1 + p {
+    margin: 0 0 54px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 66, ../sass/sections/_movements.scss */
+  #how-we-work h1 + p {
+    margin: 0 0 20px;
+  }
+}
+/* line 74, ../sass/sections/_movements.scss */
 #how-we-work .button {
   max-width: 250px;
 }
 
-/* line 48, ../sass/sections/_movements.scss */
+/* line 78, ../sass/sections/_movements.scss */
 #some-examples {
   background: transparent;
   padding: 110px 0 104px;
 }
-/* line 51, ../sass/sections/_movements.scss */
+/* line 81, ../sass/sections/_movements.scss */
 #some-examples .work-list {
   margin: 48px auto 53px;
 }
 
-/* line 55, ../sass/sections/_movements.scss */
+/* line 85, ../sass/sections/_movements.scss */
 #blockquote {
   background: #FFF;
   padding: 87px 0 0;
 }
-/* line 58, ../sass/sections/_movements.scss */
+/* line 88, ../sass/sections/_movements.scss */
 #blockquote h1 + p {
   margin: 0 0 21px;
 }
-/* line 61, ../sass/sections/_movements.scss */
+/* line 91, ../sass/sections/_movements.scss */
 #blockquote .button {
   max-width: 450px;
 }
-/* line 64, ../sass/sections/_movements.scss */
+/* line 94, ../sass/sections/_movements.scss */
 #blockquote .submit-application {
   padding: 111px 0 119px;
   background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
@@ -2236,12 +2599,12 @@ p.intro {
   background-size: 100% auto;
 }
 
-/* line 70, ../sass/sections/_movements.scss */
+/* line 100, ../sass/sections/_movements.scss */
 #help {
   padding: 87px 0 102px;
 }
 
-/* line 73, ../sass/sections/_movements.scss */
+/* line 103, ../sass/sections/_movements.scss */
 #other-way {
   padding: 83px 0 119px;
   background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;

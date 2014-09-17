@@ -11,6 +11,22 @@ ul.row {
   padding: 0;
   list-style: none;
 }
+.small-title {
+  @include min-screen(768px) {
+    display: none;
+  }
+  @include max-screen(767px) {
+    display: block;
+    br {
+      display: none;
+    }
+    span {
+      display: block;
+      font-style: italic;
+      font-family: Georgia, serif;
+    }
+  }
+}
 .button {
   display: table;
   margin: 0 auto;
