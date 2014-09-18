@@ -260,7 +260,7 @@
 							</div>
 							<div class="row">
 								<div class="large-8 columns">
-									<div class="label">
+									<div class="label-wrap">
 										<span class="date">
 											<input id="day" class="slash" type="number" />
 											<span>DD</span>

@@ -60,7 +60,9 @@ textarea {
     min-height: 160px;
   }
 }
-label {
+
+label,
+.label-wrap {
   width: 100%;
   > span {
     float: right;
