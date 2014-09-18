@@ -22,14 +22,18 @@
 				<section id="cta">
 					<div class="row">
 						<div class="videoHolder">
-							<iframe></iframe>
-						</div>					
+							<iframe width="560" height="315" src="//www.youtube.com/embed/hAjPOojI3q8?list=UUmnFg0G2CjtTlizjfs8vpTw" frameborder="0" allowfullscreen></iframe>
+						</div>	
+					</div>
+					<div class="row">				
 						<div class="cta">
-							<div class="row">
+
+							<div class="large-6 medium-6 small-12 columns">
 								<span class="call">Give Us a Call!</span>
 								<a class="tel fnc-tel" href="tel:864-676-9663">864-676-9663</a>
 							</div>
-							<div class="row">
+
+							<div class="large-6 medium-6 small-12 columns border-left">
 								<span class="text-online">Connect</span>
 								<ul class="social-networks">
 									<li class="twitter"><a href="https://twitter.com/BrainsOnFire">twitter</a></li>
@@ -120,7 +124,7 @@
 	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
 		$(document).ready(function () {
-			$('.secondary-nav li:eq(1)').addClass('current');
+			$('.secondary-nav li:eq(4)').addClass('current');
 		});
 	</script>
 	

@@ -1,1 +1,66 @@
-
+#hello-banner {
+  padding: 170px 0 85px;
+  background: #0095b2 url(../images/hello/bg_hello_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+}
+#cta {
+  @include min-screen(1024px) {
+    padding: 80px 0 83px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  .row:first-of-type {
+    padding: 0 11%;
+  }
+  .cta {
+    width: 50%;
+    margin: 0 auto;
+    div.columns > span,
+    div.columns > a {
+      display: block;
+    }
+  }
+  .call {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    @include InfoMediumFont;
+    @include font-size(30);
+    @include line-height(28);
+  }
+  .tel {
+    color: #d9531e;
+    text-align: center;
+    text-transform: uppercase;
+    @include InfoSemiBoldFont;
+    @include font-size(30);
+    @include line-height(28);
+  }
+  .text-online {
+    margin: 0;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    @include InfoMediumFont;
+    @include font-size(30);
+    @include line-height(28);
+  }
+  .social-networks {
+      display: table;
+      list-style: none outside none;
+      margin: 0 auto !important;
+      overflow: hidden;
+  }
+  .border-left {
+    left: -20px;
+  }
+  .cta {
+    position: relative;
+    left: 20px;
+  }
+}

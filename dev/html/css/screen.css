@@ -6425,3 +6425,103 @@ END FLOATING PEOPLE
   width: 100%;
   margin-bottom: 22px;
 }
+
+/* line 1, ../sass/sections/_hello.scss */
+#hello-banner {
+  padding: 170px 0 85px;
+  background: #0095b2 url(../images/hello/bg_hello_banner.jpg) no-repeat 50% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 6, ../sass/sections/_hello.scss */
+  #cta {
+    padding: 80px 0 83px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 6, ../sass/sections/_hello.scss */
+  #cta {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 6, ../sass/sections/_hello.scss */
+  #cta {
+    padding: 30px 0;
+  }
+}
+/* line 16, ../sass/sections/_hello.scss */
+#cta .row:first-of-type {
+  padding: 0 11%;
+}
+/* line 19, ../sass/sections/_hello.scss */
+#cta .cta {
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 22, ../sass/sections/_hello.scss */
+#cta .cta div.columns > span,
+#cta .cta div.columns > a {
+  display: block;
+}
+/* line 27, ../sass/sections/_hello.scss */
+#cta .call {
+  margin: 0;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "infomedium", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+/* line 36, ../sass/sections/_hello.scss */
+#cta .tel {
+  color: #d9531e;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "infosemibold", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+/* line 44, ../sass/sections/_hello.scss */
+#cta .text-online {
+  margin: 0;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "infomedium", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 28px;
+  line-height: 1.75rem;
+}
+/* line 53, ../sass/sections/_hello.scss */
+#cta .social-networks {
+  display: table;
+  list-style: none outside none;
+  margin: 0 auto !important;
+  overflow: hidden;
+}
+/* line 59, ../sass/sections/_hello.scss */
+#cta .border-left {
+  left: -20px;
+}
+/* line 62, ../sass/sections/_hello.scss */
+#cta .cta {
+  position: relative;
+  left: 20px;
+}
