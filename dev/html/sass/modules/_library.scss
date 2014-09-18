@@ -157,18 +157,35 @@ ul.row {
 .half-block {
   float: left;
   position: relative;
-  width: 43%;
-  padding: 95px 5% 0;
-  margin: 0 0 0 7%;
-  + .half-block {
-    margin: 0 7% 0 0;
+  @include min-screen(1025px) {
+    width: 43%;
+    padding: 95px 4.9% 0;
+    margin: 0 0 0 7%;
+    + .half-block {
+      margin: 0 7% 0 0;
+    }
+  }
+  @include screen(768px,1024px) {
+    width: 46%;
+    padding: 60px 0 0;
+    margin: 0 2%;
+  }
+  @include max-screen(767px) {
+    width: 100%;
+    padding: 30px 0 0;
+    margin: 0 0 22px;
   }
   > a:not(.button) {
-    display: block;
+    display: table;
     position: relative;
     overflow: hidden;
-    margin: 0 auto 34px;
     @include border-radius(100%);
+    @include min-screen(768px) {
+      margin: 0 auto 35px;
+    }
+    @include max-screen(767px) {
+      margin: 0 auto 22px;
+    }
   }
   img {
     display: block;
@@ -183,8 +200,13 @@ ul.row {
   }
   p {
     text-align: center;
-    margin: 0 0 56px;
     @include line-height(26);
+    @include min-screen(768px) {
+      margin: 0 0 53px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 22px;
+    }
   }
   .button {
     max-width: 270px;
