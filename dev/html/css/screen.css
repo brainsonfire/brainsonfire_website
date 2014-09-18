@@ -1938,7 +1938,7 @@ p.intro {
 
 /* line 303, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container {
-  margin: 56px 0 9px;
+  margin: 45px 0 20px;
 }
 /* line 305, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next,
@@ -3979,7 +3979,7 @@ END FLOATING PEOPLE
   /* max-width: 1170px;
   */
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 52px;
   /* padding: 55px 10px 39px;
   */
   padding: 30px 10px 0px;
@@ -4057,7 +4057,7 @@ END FLOATING PEOPLE
 .mega-holder .about .holder {
   max-width: 976px;
   margin: 0 auto;
-  padding: 63px 10px 90px;
+  padding: 63px 10px 69px;
   font-weight: normal;
   font-size: 17px;
   line-height: 32px;
@@ -5946,21 +5946,52 @@ END FLOATING PEOPLE
     padding: 23px 31px 24px 36px;
   }
 }
-/* line 1813, ../sass/sections/_individuals.scss */
-#gallery-slider {
-  padding: 88px 0;
+@media screen and (min-width: 1024px) {
+  /* line 1812, ../sass/sections/_individuals.scss */
+  #gallery-slider {
+    padding: 76px 0 82px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 1812, ../sass/sections/_individuals.scss */
+  #gallery-slider {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 1812, ../sass/sections/_individuals.scss */
+  #gallery-slider {
+    padding: 30px 0;
+  }
 }
 
-/* line 1817, ../sass/sections/_individuals.scss */
+/* line 1824, ../sass/sections/_individuals.scss */
 #extended-tribe {
-  padding: 80px 0;
   background: url(../images/individuals/clients/bg_extended_tribe.jpg) no-repeat 50% 0;
   -moz-background-size: cover;
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 1821, ../sass/sections/_individuals.scss */
+@media screen and (min-width: 1024px) {
+  /* line 1824, ../sass/sections/_individuals.scss */
+  #extended-tribe {
+    padding: 88px 0 38px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 1824, ../sass/sections/_individuals.scss */
+  #extended-tribe {
+    padding: 60px 0 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 1824, ../sass/sections/_individuals.scss */
+  #extended-tribe {
+    padding: 30px 0;
+  }
+}
+/* line 1836, ../sass/sections/_individuals.scss */
 #extended-tribe ul {
   display: block;
   position: relative;
@@ -5970,38 +6001,73 @@ END FLOATING PEOPLE
   padding: 0;
   list-style: none;
 }
-/* line 1829, ../sass/sections/_individuals.scss */
+/* line 1844, ../sass/sections/_individuals.scss */
 #extended-tribe ul li {
   float: left;
-  position: relative;
   margin: 0 0 30px 40px;
 }
-/* line 1834, ../sass/sections/_individuals.scss */
-#extended-tribe ul a {
-  float: left;
-  position: relative;
-}
-/* line 1837, ../sass/sections/_individuals.scss */
+/* line 1849, ../sass/sections/_individuals.scss */
 #extended-tribe ul a img {
-  float: left;
   width: auto;
   max-width: 100%;
-  height: 100%;
 }
 
-/* line 1846, ../sass/sections/_individuals.scss */
-#odds-end {
-  padding: 90px 0;
+@media screen and (min-width: 1024px) {
+  /* line 1856, ../sass/sections/_individuals.scss */
+  #odds-end {
+    padding: 79px 0 118px;
+  }
 }
-/* line 1848, ../sass/sections/_individuals.scss */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 1856, ../sass/sections/_individuals.scss */
+  #odds-end {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 1856, ../sass/sections/_individuals.scss */
+  #odds-end {
+    padding: 30px 0;
+  }
+}
+/* line 1866, ../sass/sections/_individuals.scss */
 #odds-end h1 {
   margin: 0 0 56px;
 }
-/* line 1851, ../sass/sections/_individuals.scss */
+/* line 1869, ../sass/sections/_individuals.scss */
 #odds-end .half-block {
   padding: 0 5% 0 0;
 }
-/* line 1853, ../sass/sections/_individuals.scss */
+/* line 1871, ../sass/sections/_individuals.scss */
+#odds-end .half-block p {
+  margin: 0 0 42px;
+}
+/* line 1874, ../sass/sections/_individuals.scss */
+#odds-end .half-block .button {
+  left: -23px;
+  max-width: 192px;
+}
+/* line 1878, ../sass/sections/_individuals.scss */
 #odds-end .half-block + .half-block {
   padding: 0 0 0 5%;
+}
+/* line 1880, ../sass/sections/_individuals.scss */
+#odds-end .half-block + .half-block input[type="email"] {
+  height: 3.75rem;
+  left: 11%;
+  position: relative;
+  width: 84%;
+  padding: 0.5rem 1.5rem;
+  margin: 0 0 1.8rem;
+  background: #EEE;
+  border: 1px solid #ccc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 1891, ../sass/sections/_individuals.scss */
+#odds-end .half-block + .half-block .button {
+  left: 16px;
+  max-width: 175px;
+  position: relative;
 }
