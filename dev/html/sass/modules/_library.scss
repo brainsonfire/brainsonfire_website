@@ -2,9 +2,11 @@
   opacity: 0.5;
   position: absolute;
   z-index: 100;
-  top: -650px;
+  top: 0;
   left: 50%;
   margin-left: -750px;
+  width: 1500px;
+  height: auto;
 }
 ul.row {
   margin: 0;

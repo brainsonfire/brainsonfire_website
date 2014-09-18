@@ -1,5 +1,5 @@
 #movement-banner {
-  padding: 172px 0 86px;
+  padding: 170px 0 85px;
   background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
 }
@@ -11,7 +11,7 @@
 #movement-info {
   background: rgba(#000, 0);
   @include min-screen(1024px) {
-    padding: 80px 0 86px;
+    padding: 80px 0 83px;
   }
   @include screen(768px,1023px) {
     padding: 60px 0;
@@ -24,7 +24,7 @@
   }
   .button {
     max-width: 270px;
-    margin: -7px auto 17px;
+    margin: 0 auto 17px;
   }
   p.hint {
     margin: 19px 0 0;
@@ -41,11 +41,10 @@
     }
   }
 }
-
 #how-we-work {
   background: #fff url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
   @include min-screen(1024px) {
-    padding: 97px 0 118px;
+    padding: 98px 0 118px;
   }
   @include screen(768px,1023px) {
     padding: 60px 0;
@@ -77,14 +76,38 @@
 }
 #some-examples {
   background: rgba(#000, 0);
-  padding: 110px 0 104px;
+  @include min-screen(1024px) {
+    padding: 110px 0 104px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
   .work-list {
-    margin: 48px auto 53px;
+    @include min-screen(1024px) {
+      margin: 48px auto 53px;
+    }
+    @include screen(768px,1023px) {
+      margin: 30px auto;
+    }
+    @include max-screen(767px) {
+      margin: 22px auto 22px;
+    }
   }
 }
 #blockquote {
   background: #FFF;
-  padding: 87px 0 0;
+  @include min-screen(1024px) {
+    padding: 92px 0 0;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0 0;
+  }
   h1 + p {
     margin: 0 0 21px;
   }
@@ -92,9 +115,17 @@
     max-width: 450px;
   }
   .submit-application {
-    padding: 111px 0 119px;
     background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
-    @include background-size(100% auto);
+    @include background-size(cover);
+    @include min-screen(1024px) {
+      padding: 111px 0.9375rem 119px;
+    }
+    @include screen(768px,1023px) {
+      padding: 60px 0.9375rem;
+    }
+    @include max-screen(767px) {
+     padding: 44px 0.9375rem;
+    }
   }
 }
 #help {
@@ -104,4 +135,7 @@
   padding: 83px 0 119px;
   background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
   @include background-size(cover);
+}
+#some-examples .row .works-list {
+    margin: 46px auto 29px;
 }
