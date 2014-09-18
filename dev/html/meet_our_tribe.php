@@ -233,15 +233,15 @@
 					<div class="row">
 						<h1>Extended Tribe</h1>
 						<p>Happy clients from the past and present</p>
-						<ul>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_1.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_2.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_3.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_4.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_5.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_6.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_7.png" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/individuals/clients/client_8.png" alt=""></a></li>
+						<ul class="row">
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_1.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_2.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_3.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_4.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_5.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_6.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_7.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_8.png" alt=""></a></li>
 						</ul>
 					</div>
 				</section>
