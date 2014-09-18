@@ -81,7 +81,7 @@ p {
   @include font-size(20);
   @include line-height(30);
 }
-a:hover {
+.no-touch a:hover {
   @include transition-property(all);
   @include transition-timing-function(ease-in-out);
   @include transition-duration(0.2s);
