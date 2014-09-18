@@ -76,5 +76,9 @@ $(document).ready(function () {
         }, 800);
     });
 
+   $(".select-style").hover(function () {
+      $(this).toggleClass("hover");
+   });
+
 });
 

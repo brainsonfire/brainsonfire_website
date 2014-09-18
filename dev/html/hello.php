@@ -4,7 +4,7 @@
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
-	
+
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			
@@ -19,10 +19,10 @@
 					</div>
 				</section>
 			
-				<section id="cta">
+				<div id="cta">
 					<div class="row">
 						<div class="videoHolder">
-							<iframe width="560" height="315" src="//www.youtube.com/embed/hAjPOojI3q8?list=UUmnFg0G2CjtTlizjfs8vpTw" frameborder="0" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="//www.youtube.com/embed/hAjPOojI3q8?list=UUmnFg0G2CjtTlizjfs8vpTw" allowfullscreen></iframe>
 						</div>	
 					</div>
 					<div class="row">				
@@ -46,75 +46,72 @@
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
 				
-				<section>
+				<section id="form">
 					<div class="row">
 						<h1>Email us</h1>
 						<p>By typing away in the form below.</p>
 						<form action="#">
 							<div class="row">
-								<div class="large-8 columns">
-									<label>
-										<input id="name" type="text" />
-										<span>Name (required)</span>
-									</label>
-								</div>
+								<label for="name">
+									<span>Name (required)</span>
+									<input id="name" name="name" type="text" />
+								</label>
 							</div>
 							<div class="row">
-								<div class="large-8 columns">
-									<label>
-										<input id="email" type="email" />
-										<span>Email (required) - we’ll keep this private</span>
-									</label>
-								</div>
+								<label for="email">
+									<span>Email (required) - we’ll keep this private</span>
+									<input id="email" name="email" type="email" />
+								</label>
 							</div>
 							<div class="row">
-								<div class="large-8 columns">
-									<label>
-										<input id="phone" type="tel" />
-										<span>Phone Number</span>
-									</label>
-								</div>
+								<label for="phone">
+									<span>Phone Number</span>
+									<input id="phone" name="phone" type="tel" />
+								</label>
+							</div>
+							<div class="row select-style">
+								<label for="topic">
+									<span>Choose a Topic (required)</span>
+									<select id="topic">
+										<option value="">-- Select a Time --</option>
+										<option value="">1</option>
+										<option value="">2</option>
+										<option value="">3</option>
+									</select>
+								</label>
 							</div>
 							<div class="row">
-								<div class="large-8 columns">
-									<label>
-										<select>
-											<option value="">-- Select a Time --</option>
-											<option value="">1</option>
-											<option value="">2</option>
-											<option value="">3</option>
-										</select>
-										<span>Choose a Topic (required)</span>
-									</label>
-								</div>
+								<label for="message">
+									<textarea id="message"></textarea>
+								</label>
 							</div>
-							<div class="row">
-								<div class="large-12 columns">
-									<label>
-										<textarea placeholder="small-12 columns"></textarea>
-									</label>
-								</div>
-							</div>
-							<div class="row">
+							<div class="row submit">
 								<button class="button btn-orange" type="submit">submit form</button>
 							</div>
 						</form>
 					</div>
 				</section>
 
-				<section id="map">
-					<div class="row">
-						<div class="mapHolder">
-							<iframe></iframe>
-						</div>
-					</div>
-				</section>
+				<div id="map">
+					<img src="images/hello/hello_map.jpg" alt="">
+				</div>
 
 			</main>
 			
-			<?php include("inc/footer.php"); ?>
+			<footer id="footer">
+				<div class="footer-bottom">
+					<div class="row">
+						<ul>
+							<li>Copyright Brains On Fire 2013</li>
+							<li><address>148 River Street, Suite 100 Greenville, SC 29601</address></li>
+							<li>Legal Mumjum</li>
+							<li>Use Hedley Typeface</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
 			
 		</div>
 	</div>
