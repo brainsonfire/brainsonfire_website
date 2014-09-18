@@ -4012,9 +4012,6 @@ blockquote p {
     max-width: 100% !important;
   }
 
-  @page {
-    margin: 0.5cm;
-  }
   /* line 505, ../sass/foundation/components/_type.scss */
   p,
   h2,
