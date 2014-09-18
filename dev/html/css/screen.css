@@ -6255,3 +6255,173 @@ END FLOATING PEOPLE
     padding: 30px 15px;
   }
 }
+
+/* line 1, ../sass/sections/_store.scss */
+#store-banner {
+  padding: 170px 0 85px;
+  background: #0095b2 url(../images/store/bg_store_banner.jpg) no-repeat 50% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1024px) {
+  /* line 6, ../sass/sections/_store.scss */
+  #store {
+    padding: 80px 0 83px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 6, ../sass/sections/_store.scss */
+  #store {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 6, ../sass/sections/_store.scss */
+  #store {
+    padding: 30px 0;
+  }
+  /* line 15, ../sass/sections/_store.scss */
+  #store .medium-8,
+  #store .medium-3 {
+    width: 100%;
+  }
+}
+/* line 20, ../sass/sections/_store.scss */
+#store h1 + p:first-of-type {
+  margin: 0 0 30px;
+}
+/* line 22, ../sass/sections/_store.scss */
+#store h1 + p:first-of-type + img {
+  margin: 0 0 50px;
+}
+/* line 27, ../sass/sections/_store.scss */
+#store .right-sidebar p.big {
+  text-align: center;
+  color: #00a9ca;
+  font-family: Georgia,serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 22px;
+  font-size: 1.375rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+}
+/* line 36, ../sass/sections/_store.scss */
+#store .right-sidebar .button {
+  margin: 0 auto 22px;
+}
+/* line 39, ../sass/sections/_store.scss */
+#store .right-sidebar a:not(.button) {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  color: #00a9ca;
+  font-family: Georgia,serif;
+  font-style: italic;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 22px;
+  line-height: 1.375rem;
+}
+
+/* line 52, ../sass/sections/_store.scss */
+#books-store {
+  background: #0095b2 url(../images/store/store_books.jpg) no-repeat 50% 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+@media screen and (min-width: 1024px) {
+  /* line 52, ../sass/sections/_store.scss */
+  #books-store {
+    padding: 80px 0 83px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 52, ../sass/sections/_store.scss */
+  #books-store {
+    padding: 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 52, ../sass/sections/_store.scss */
+  #books-store {
+    padding: 30px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 65, ../sass/sections/_store.scss */
+  #books-store:after {
+    position: absolute;
+    display: block;
+    z-index: 11;
+    content: "";
+    width: 292px;
+    height: 170px;
+    top: -1px;
+    left: 50%;
+    margin-left: 111px;
+    background: url(../images/books/books_title.png) no-repeat 50% 50%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 79, ../sass/sections/_store.scss */
+  #books-store .half-block p {
+    margin: 0 0 37px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 79, ../sass/sections/_store.scss */
+  #books-store .half-block p {
+    margin: 0 0 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 79, ../sass/sections/_store.scss */
+  #books-store .half-block p {
+    margin: 0 0 22px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  /* line 90, ../sass/sections/_store.scss */
+  #books-store .half-block {
+    padding: 95px 3.7% 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 90, ../sass/sections/_store.scss */
+  #books-store .half-block {
+    padding: 60px 0 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 90, ../sass/sections/_store.scss */
+  #books-store .half-block {
+    margin: 30px 0 0;
+  }
+}
+/* line 101, ../sass/sections/_store.scss */
+#books-store .btn-holder {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  clear: both;
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+}
+/* line 109, ../sass/sections/_store.scss */
+#books-store .btn-holder .button {
+  float: left;
+  max-width: 50%;
+  width: 100%;
+  margin-bottom: 22px;
+}

@@ -23,14 +23,14 @@
 					<div class="row">
 						<h1>"No More Timesheets" Whitepaper</h1>
 						<p>How we banished timesheets once and for all</p>
-						<img src="images/store/" alt="">
+						<img src="images/store/whitepaper_hero.jpg" alt="">
 						<div class="row">
-							<div class="large-8 columns">
+							<div class="large-8 medium-8 small-12 columns">
 								<p>Once upon a time, an agency found that their team was spending entirely too much time and energy on time sheets. (Precious time and energy that would have been better spent on creating magic for their clients.) Enough was enough. So they made a plan to banish time sheets from their kingdom once and for all, and never looked back. Life was good. (And so was business.)</p>
 								<p>Even if you're not quite ready to set your time sheets ablaze and send them downriver, our new white paper outlines the steps we took to phase out time sheets at Brains on Fire. Sure, it might have been an unconventional decision that raised a few eyebrows, but if we had a nickel for every time someone reached out wanting to know the secret to going time sheet-free, well, we'd have a lot of nickels. So here it is. </p>
 								<p>A little secret from us to you. Down with time sheets, we say! And up with doing more of what you love.</p>
 							</div>
-							<div class="large-3 columns right-sidebar">
+							<div class="large-3 medium-3 small-12 columns right-sidebar">
 								<p class="big">$99.00</p>
 								<a href="#dummy" class="button btn-orange">Buy Now</a>
 								<a href="#dummy">Click here for a sneak peek!</a>

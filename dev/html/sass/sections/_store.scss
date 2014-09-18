@@ -1,1 +1,116 @@
+#store-banner {
+  padding: 170px 0 85px;
+  background: #0095b2 url(../images/store/bg_store_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+}
+#store {
+  @include min-screen(1024px) {
+    padding: 80px 0 83px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+    .medium-8,
+    .medium-3 {
+      width: 100%;
+    }
+  }
+  h1 + p:first-of-type {
+    margin: 0 0 30px;
+    + img {
+      margin: 0 0 50px;
+    }
+  }
+  .right-sidebar {
+    p.big {
+      text-align: center;
+      color: #00a9ca;
+      font-family: Georgia,serif;
+      font-style: italic;
+      font-weight: bolder;
+      @include font-size(22);
+      @include line-height(24);
+    }
+    .button {
+      margin: 0 auto 22px;
+    }
+    a:not(.button) {
+      display: table;
+      margin: 0 auto;
+      text-align: center;
+      color: #00a9ca;
+      font-family: Georgia,serif;
+      font-style: italic;
+      @include font-size(19);
+      @include line-height(22);
+    }
+  }
+}
 
+#books-store {
+  background: #0095b2 url(../images/store/store_books.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+  @include min-screen(1024px) {
+    padding: 80px 0 83px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  @include min-screen(768px) {
+    &:after {
+      position: absolute;
+      display: block;
+      z-index: 11;
+      content: "";
+      width: 292px;
+      height: 170px;
+      top: -1px;
+      left: 50%;
+      margin-left: 111px;
+      background: url(../images/books/books_title.png) no-repeat 50% 50%;
+      @include background-size(cover);
+    }    
+  }
+  .half-block p {
+    @include min-screen(1024px) {
+      margin: 0 0 37px;
+    }
+    @include screen(768px,1023px) {
+      margin: 0 0 30px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 22px;
+    }
+  }
+  .half-block {
+    @include min-screen(1024px) {
+      padding: 95px 3.7% 0;
+    }
+    @include screen(768px,1023px) {
+      padding: 60px 0 0;
+    }
+    @include max-screen(767px) {
+      margin: 30px 0 0;
+    }
+  }
+  .btn-holder {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    .button {
+      float: left;
+      max-width: 50%;
+      width: 100%;
+      margin-bottom: 22px;
+    }
+  }
+}
