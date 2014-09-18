@@ -3312,79 +3312,81 @@ section .block p {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 5, ../sass/sections/_books.scss */
-#books-banner:after {
-  position: absolute;
-  display: block;
-  z-index: 11;
-  content: "";
-  width: 292px;
-  height: 170px;
-  top: 83px;
-  left: 50%;
-  margin-left: 100px;
-  background: url(../images/books/books_title.png) no-repeat 50% 50%;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+@media screen and (min-width: 768px) {
+  /* line 6, ../sass/sections/_books.scss */
+  #books-banner:after {
+    position: absolute;
+    display: block;
+    z-index: 11;
+    content: "";
+    width: 292px;
+    height: 170px;
+    top: 83px;
+    left: 50%;
+    margin-left: 80px;
+    background: url(../images/books/books_title.png) no-repeat 50% 50%;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 19, ../sass/sections/_books.scss */
+  /* line 21, ../sass/sections/_books.scss */
   #books {
     padding: 0 0 120px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 19, ../sass/sections/_books.scss */
+  /* line 21, ../sass/sections/_books.scss */
   #books {
     padding: 0 0 60px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 19, ../sass/sections/_books.scss */
+  /* line 21, ../sass/sections/_books.scss */
   #books {
     padding: 0 0 30px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 29, ../sass/sections/_books.scss */
+  /* line 31, ../sass/sections/_books.scss */
   #books .half-block p {
     margin: 0 0 37px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 29, ../sass/sections/_books.scss */
+  /* line 31, ../sass/sections/_books.scss */
   #books .half-block p {
     margin: 0 0 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 29, ../sass/sections/_books.scss */
+  /* line 31, ../sass/sections/_books.scss */
   #books .half-block p {
     margin: 0 0 22px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 40, ../sass/sections/_books.scss */
+  /* line 42, ../sass/sections/_books.scss */
   #books .half-block {
     padding: 95px 3.7% 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 40, ../sass/sections/_books.scss */
+  /* line 42, ../sass/sections/_books.scss */
   #books .half-block {
     padding: 60px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 40, ../sass/sections/_books.scss */
+  /* line 42, ../sass/sections/_books.scss */
   #books .half-block {
     margin: 30px 0 0;
   }
 }
-/* line 51, ../sass/sections/_books.scss */
+/* line 53, ../sass/sections/_books.scss */
 #books .btn-holder {
   display: block;
   position: relative;
@@ -3394,14 +3396,15 @@ section .block p {
   max-width: 480px;
   margin: 0 auto;
 }
-/* line 59, ../sass/sections/_books.scss */
+/* line 61, ../sass/sections/_books.scss */
 #books .btn-holder .button {
   float: left;
   max-width: 50%;
   width: 100%;
+  margin-bottom: 22px;
 }
 
-/* line 66, ../sass/sections/_books.scss */
+/* line 69, ../sass/sections/_books.scss */
 #book-banner {
   padding: 400px 0 220px;
   background: url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
@@ -3410,26 +3413,26 @@ section .block p {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 70, ../sass/sections/_books.scss */
+/* line 73, ../sass/sections/_books.scss */
 #book-banner .half-block {
   width: 44%;
   margin: 0;
   padding: 0;
 }
-/* line 74, ../sass/sections/_books.scss */
+/* line 77, ../sass/sections/_books.scss */
 #book-banner .half-block h1,
 #book-banner .half-block p {
   text-align: left;
 }
-/* line 78, ../sass/sections/_books.scss */
+/* line 81, ../sass/sections/_books.scss */
 #book-banner .half-block p {
   margin: 0 0 22px;
 }
-/* line 81, ../sass/sections/_books.scss */
+/* line 84, ../sass/sections/_books.scss */
 #book-banner .half-block .button {
   float: left;
 }
-/* line 85, ../sass/sections/_books.scss */
+/* line 88, ../sass/sections/_books.scss */
 #book-banner .button:after {
   position: absolute;
   display: block;
@@ -3447,15 +3450,15 @@ section .block p {
   background-size: cover;
 }
 
-/* line 99, ../sass/sections/_books.scss */
+/* line 102, ../sass/sections/_books.scss */
 .books .two-col {
   padding: 0;
 }
-/* line 101, ../sass/sections/_books.scss */
+/* line 104, ../sass/sections/_books.scss */
 .books .two-col p {
   margin: 0;
 }
-/* line 103, ../sass/sections/_books.scss */
+/* line 106, ../sass/sections/_books.scss */
 .books .two-col p.intro {
   margin: 0 0 10px;
   color: #939F57;
@@ -3468,7 +3471,7 @@ section .block p {
   line-height: 2.1875rem;
 }
 
-/* line 114, ../sass/sections/_books.scss */
+/* line 117, ../sass/sections/_books.scss */
 #authoral-team {
   background: #0db9d1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
   -moz-background-size: cover;
@@ -3476,45 +3479,45 @@ section .block p {
   -webkit-background-size: cover;
   background-size: cover;
 }
-/* line 117, ../sass/sections/_books.scss */
+/* line 120, ../sass/sections/_books.scss */
 #authoral-team .row > h1,
 #authoral-team .row > p {
   color: white;
 }
 
-/* line 123, ../sass/sections/_books.scss */
+/* line 126, ../sass/sections/_books.scss */
 .books .circle-orbit-nav a.active:after {
   opacity: 0.85;
 }
-/* line 126, ../sass/sections/_books.scss */
+/* line 129, ../sass/sections/_books.scss */
 .books #blockquote {
   background: rgba(255, 255, 255, 0);
 }
-/* line 128, ../sass/sections/_books.scss */
+/* line 131, ../sass/sections/_books.scss */
 .books #blockquote h1 + p {
   margin: 0 0 55px;
 }
-/* line 131, ../sass/sections/_books.scss */
+/* line 134, ../sass/sections/_books.scss */
 .books #blockquote .orbit-container .blockquote-orbit {
   max-width: 880px;
 }
-/* line 134, ../sass/sections/_books.scss */
+/* line 137, ../sass/sections/_books.scss */
 .books #blockquote cite {
   float: right;
   display: table;
   text-align: left;
 }
 
-/* line 142, ../sass/sections/_books.scss */
+/* line 145, ../sass/sections/_books.scss */
 #book-intro h1 {
   margin: 0 0 28px;
 }
 
-/* line 146, ../sass/sections/_books.scss */
+/* line 149, ../sass/sections/_books.scss */
 .books #blockquote .submit-application .button {
   max-width: 520px;
 }
-/* line 148, ../sass/sections/_books.scss */
+/* line 151, ../sass/sections/_books.scss */
 .books #blockquote .submit-application .button span {
   text-transform: uppercase;
   font-family: "infosemibold", Arial, Helvetica, sans-serif;
