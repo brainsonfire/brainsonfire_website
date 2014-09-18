@@ -22,7 +22,7 @@
 				<div id="cta">
 					<div class="row">
 						<div class="videoHolder">
-							<iframe width="560" height="315" src="//www.youtube.com/embed/hAjPOojI3q8?list=UUmnFg0G2CjtTlizjfs8vpTw" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="//www.youtube.com/embed/hAjPOojI3q8" allowfullscreen></iframe>
 						</div>	
 					</div>
 					<div class="row">				

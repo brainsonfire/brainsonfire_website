@@ -52,7 +52,8 @@ h6 {
   
 }
 
-h1 + p:first-of-type {
+h1 + p:first-of-type,
+#upcoming h2 + p:first-of-type {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
@@ -76,10 +77,14 @@ b, strong {
 }
 
 p {
-  // Info Normal Font
   @include InfoNormalFont;
   @include font-size(20);
   @include line-height(30);
+}
+li {
+  @include InfoMediumFont;
+  @include font-size(19);
+  @include line-height(29);
 }
 .no-touch a:hover {
   @include transition-property(all);

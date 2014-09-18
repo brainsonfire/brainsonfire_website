@@ -1,0 +1,128 @@
+#speaking-banner {
+  padding: 170px 0 85px;
+  background: #0095b2 url(../images/speaking/bg_speaking_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+}
+
+#speakers {
+  background: rgba(#000, 0);
+  @include min-screen(1024px) {
+    padding: 91px 0 93px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  .columns {
+    > a:first-of-type {
+      display: block;
+      overflow: hidden;
+      margin: 0 0 30px;
+      @include border-radius(100%);
+    }
+    h3 {
+      text-align: center;
+      margin: 0 0 30px;
+      a {
+        color: #333;
+      }
+    }
+    .button {
+      max-width: 80%;
+    }
+  }
+}
+#speaking-info {
+  padding: 0 0 100px;
+  h1 {
+    margin: 0 0 30px;
+  }
+  .button {
+    max-width: 310px;
+  }
+  .audience {
+    padding-left: 6.25rem;
+    h3 {
+      color: #939F57;
+      font-family: Georgia, serif;
+      font-style: italic;
+      position: relative;
+      text-transform: none;
+      @include font-size(24);
+      @include line-height(35);
+    }
+  }
+}
+#favorite {
+  background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
+  @include min-screen(1024px) {
+    padding: 91px 0 93px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  h1 + p {
+    margin: 0 0 56px;
+  }
+  .videoHolder {
+    width: 50%;
+  }
+  ul {
+    float: right;
+    width: 50%;
+    padding: 0 0 0 8%;
+    margin: 0;
+    li {
+      float: left;
+      width: 50%;
+      padding: 0 15px 0 0;
+    }
+  }
+}
+#upcoming {
+  background: url("../images/speaking/bg_events.jpg") no-repeat 0 0;
+  @include background-size(cover);
+  @include min-screen(1024px) {
+    padding: 91px 0 93px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  h1 + p:first-of-type,
+  h2 + p:first-of-type {
+    margin: 0 0 30px;
+  }
+  h2 {
+    margin: 0 0 5px;
+    @include InfoSemiBoldFont;
+    @include min-screen(1024px) {
+      @include font-size(42);
+      @include line-height(44);
+    }
+    @include screen(768px,1023px) {
+      @include font-size(32);
+      @include line-height(34);
+    }
+    @include max-screen(767px) {
+      @include font-size(28);
+      @include line-height(32);
+    }
+  }
+  .columns {
+    margin-bottom: 13px;
+  }
+  .columns p {
+    margin-bottom: 1rem;
+  }
+}
+#spoken-at {
+  background: #FFF;
+}

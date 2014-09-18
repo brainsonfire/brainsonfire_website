@@ -1,7 +1,6 @@
 #main.hello + #footer {
   padding: 0;
 }
-
 #hello-banner {
   padding: 170px 0 73px;
   background: #0095b2 url(../images/hello/bg_hello_banner.jpg) no-repeat 50% 100%;
@@ -95,23 +94,38 @@
     }
   }
 }
-#form {
+.hello #form {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
-  @include min-screen(1024px) {
-    padding: 102px 0 83px;
-  }
-  @include screen(768px,1023px) {
-    padding: 60px 0;
-  }
-  @include max-screen(767px) {
-    padding: 30px 0;
-  }
-  form {
-    width: 100%;
-    margin: 0 auto;
-    padding: 48px 0 0;
-    @include min-screen(1024px) {
-      max-width: 66%;
+}
+.label-wrap {
+  .date {
+    float: left;
+    padding: 0;
+    height: 6.5rem;
+    &.day {
+      width: 11%;
+      margin: 0 6% 0 0;
     }
+    &.month {
+      width: 11%;
+      margin: 0 6% 0 0;
+    }
+    &.year {
+      width: 16%;
+    }
+    input {
+      width: 100% !important;
+    }
+    span {
+      float: left;
+      width: 100%;
+      clear: both;
+      text-align: center;
+      margin: -10px 0 0;
+    }
+  }
+  .text {
+    float: left;
+    width: 50%;
   }
 }
