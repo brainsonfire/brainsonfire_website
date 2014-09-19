@@ -3,34 +3,56 @@
   background: #0095b2 url(../images/speaking/bg_speaking_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
 }
-
 #speakers {
   background: rgba(#000, 0);
   @include min-screen(1024px) {
-    padding: 91px 0 93px;
+    padding: 91px 0 73px;
   }
   @include screen(768px,1023px) {
-    padding: 60px 0;
+    padding: 60px 0 40px;
   }
   @include max-screen(767px) {
-    padding: 30px 0;
+    padding: 30px 0 10px;
   }
   .columns {
+    padding-bottom: 22px;
     > a:first-of-type {
       display: block;
       overflow: hidden;
-      margin: 0 0 30px;
+      width: 100%;
+      max-width: 260px;
+      opacity: 1;
       @include border-radius(100%);
+      @include min-screen(1200px) {
+        margin: 0 auto 30px;
+      }
+      @include max-screen(1199px) {
+        margin: 0 auto 12px;
+      }
+      &:hover {
+        opacity: 0.9;
+      }
     }
     h3 {
       text-align: center;
-      margin: 0 0 30px;
+      @include min-screen(1200px) {
+        margin: 0 auto 30px;
+      }
+      @include max-screen(1199px) {
+        margin: 0 auto 12px;
+      }
       a {
         color: #333;
       }
     }
     .button {
-      max-width: 80%;
+      @include min-screen(641px) {
+        max-width: 80%;
+        min-width: 190px;
+      }
+      @include max-screen(640px) {
+        max-width: 300px;
+      }
     }
   }
 }
@@ -69,8 +91,9 @@
   h1 + p {
     margin: 0 0 56px;
   }
-  .videoHolder {
+  .half-wrap {
     width: 50%;
+    float: left;
   }
   ul {
     float: right;
@@ -125,4 +148,47 @@
 }
 #spoken-at {
   background: #FFF;
+  ul {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    li {
+      position: relative;
+      @include min-screen(1024px) {
+        margin: 0 12px 0 0;
+      }
+      @include screen(768px,1023px) {
+        margin: 0 4px 0 0;
+      }
+      @include screen(641px,767px) {
+        margin: 0 2% 0 0;
+        float: left;
+        width: 23%;
+        overflow: hidden;
+      }
+      @include screen(480px,639px) {
+        margin: 0 2% 0 0;
+        float: left;
+        width: 31%;
+        overflow: hidden;
+      }
+      @include max-screen(479px) {
+        margin: 0 2% 0 0;
+        float: left;
+        width: 48%;
+        overflow: hidden;
+      }
+      a {
+        float: left;
+        position: relative;
+        img {
+          float: left;
+          position: relative;
+          width: auto;
+          height: auto;
+          max-width: 100%;
+        }
+      }
+    }
+  }
 }

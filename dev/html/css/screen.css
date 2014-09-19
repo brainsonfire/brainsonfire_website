@@ -6641,68 +6641,110 @@ END FLOATING PEOPLE
   background-size: cover;
 }
 
-/* line 7, ../sass/sections/_speaking.scss */
+/* line 6, ../sass/sections/_speaking.scss */
 #speakers {
   background: transparent;
 }
 @media screen and (min-width: 1024px) {
-  /* line 7, ../sass/sections/_speaking.scss */
+  /* line 6, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 91px 0 93px;
+    padding: 91px 0 73px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 7, ../sass/sections/_speaking.scss */
+  /* line 6, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 60px 0;
+    padding: 60px 0 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 7, ../sass/sections/_speaking.scss */
+  /* line 6, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 30px 0;
+    padding: 30px 0 10px;
   }
+}
+/* line 17, ../sass/sections/_speaking.scss */
+#speakers .columns {
+  padding-bottom: 22px;
 }
 /* line 19, ../sass/sections/_speaking.scss */
 #speakers .columns > a:first-of-type {
   display: block;
   overflow: hidden;
-  margin: 0 0 30px;
+  width: 100%;
+  max-width: 260px;
+  opacity: 1;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 25, ../sass/sections/_speaking.scss */
+@media screen and (min-width: 1200px) {
+  /* line 19, ../sass/sections/_speaking.scss */
+  #speakers .columns > a:first-of-type {
+    margin: 0 auto 30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /* line 19, ../sass/sections/_speaking.scss */
+  #speakers .columns > a:first-of-type {
+    margin: 0 auto 12px;
+  }
+}
+/* line 32, ../sass/sections/_speaking.scss */
+#speakers .columns > a:first-of-type:hover {
+  opacity: 0.9;
+}
+/* line 36, ../sass/sections/_speaking.scss */
 #speakers .columns h3 {
   text-align: center;
-  margin: 0 0 30px;
 }
-/* line 28, ../sass/sections/_speaking.scss */
+@media screen and (min-width: 1200px) {
+  /* line 36, ../sass/sections/_speaking.scss */
+  #speakers .columns h3 {
+    margin: 0 auto 30px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  /* line 36, ../sass/sections/_speaking.scss */
+  #speakers .columns h3 {
+    margin: 0 auto 12px;
+  }
+}
+/* line 44, ../sass/sections/_speaking.scss */
 #speakers .columns h3 a {
   color: #333;
 }
-/* line 32, ../sass/sections/_speaking.scss */
-#speakers .columns .button {
-  max-width: 80%;
+@media screen and (min-width: 641px) {
+  /* line 48, ../sass/sections/_speaking.scss */
+  #speakers .columns .button {
+    max-width: 80%;
+    min-width: 190px;
+  }
+}
+@media screen and (max-width: 640px) {
+  /* line 48, ../sass/sections/_speaking.scss */
+  #speakers .columns .button {
+    max-width: 300px;
+  }
 }
 
-/* line 37, ../sass/sections/_speaking.scss */
+/* line 59, ../sass/sections/_speaking.scss */
 #speaking-info {
   padding: 0 0 100px;
 }
-/* line 39, ../sass/sections/_speaking.scss */
+/* line 61, ../sass/sections/_speaking.scss */
 #speaking-info h1 {
   margin: 0 0 30px;
 }
-/* line 42, ../sass/sections/_speaking.scss */
+/* line 64, ../sass/sections/_speaking.scss */
 #speaking-info .button {
   max-width: 310px;
 }
-/* line 45, ../sass/sections/_speaking.scss */
+/* line 67, ../sass/sections/_speaking.scss */
 #speaking-info .audience {
   padding-left: 6.25rem;
 }
-/* line 47, ../sass/sections/_speaking.scss */
+/* line 69, ../sass/sections/_speaking.scss */
 #speaking-info .audience h3 {
   color: #939F57;
   font-family: Georgia, serif;
@@ -6715,51 +6757,52 @@ END FLOATING PEOPLE
   line-height: 2.1875rem;
 }
 
-/* line 58, ../sass/sections/_speaking.scss */
+/* line 80, ../sass/sections/_speaking.scss */
 #favorite {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
 }
 @media screen and (min-width: 1024px) {
-  /* line 58, ../sass/sections/_speaking.scss */
+  /* line 80, ../sass/sections/_speaking.scss */
   #favorite {
     padding: 91px 0 93px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 58, ../sass/sections/_speaking.scss */
+  /* line 80, ../sass/sections/_speaking.scss */
   #favorite {
     padding: 60px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 58, ../sass/sections/_speaking.scss */
+  /* line 80, ../sass/sections/_speaking.scss */
   #favorite {
     padding: 30px 0;
   }
 }
-/* line 69, ../sass/sections/_speaking.scss */
+/* line 91, ../sass/sections/_speaking.scss */
 #favorite h1 + p {
   margin: 0 0 56px;
 }
-/* line 72, ../sass/sections/_speaking.scss */
-#favorite .videoHolder {
+/* line 94, ../sass/sections/_speaking.scss */
+#favorite .half-wrap {
   width: 50%;
+  float: left;
 }
-/* line 75, ../sass/sections/_speaking.scss */
+/* line 98, ../sass/sections/_speaking.scss */
 #favorite ul {
   float: right;
   width: 50%;
   padding: 0 0 0 8%;
   margin: 0;
 }
-/* line 80, ../sass/sections/_speaking.scss */
+/* line 103, ../sass/sections/_speaking.scss */
 #favorite ul li {
   float: left;
   width: 50%;
   padding: 0 15px 0 0;
 }
 
-/* line 87, ../sass/sections/_speaking.scss */
+/* line 110, ../sass/sections/_speaking.scss */
 #upcoming {
   background: url("../images/speaking/bg_events.jpg") no-repeat 0 0;
   -moz-background-size: cover;
@@ -6768,29 +6811,29 @@ END FLOATING PEOPLE
   background-size: cover;
 }
 @media screen and (min-width: 1024px) {
-  /* line 87, ../sass/sections/_speaking.scss */
+  /* line 110, ../sass/sections/_speaking.scss */
   #upcoming {
     padding: 91px 0 93px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 87, ../sass/sections/_speaking.scss */
+  /* line 110, ../sass/sections/_speaking.scss */
   #upcoming {
     padding: 60px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 87, ../sass/sections/_speaking.scss */
+  /* line 110, ../sass/sections/_speaking.scss */
   #upcoming {
     padding: 30px 0;
   }
 }
-/* line 99, ../sass/sections/_speaking.scss */
+/* line 122, ../sass/sections/_speaking.scss */
 #upcoming h1 + p:first-of-type,
 #upcoming h2 + p:first-of-type {
   margin: 0 0 30px;
 }
-/* line 103, ../sass/sections/_speaking.scss */
+/* line 126, ../sass/sections/_speaking.scss */
 #upcoming h2 {
   margin: 0 0 5px;
   font-family: "infosemibold", Arial, Helvetica, sans-serif;
@@ -6798,7 +6841,7 @@ END FLOATING PEOPLE
   font-style: normal;
 }
 @media screen and (min-width: 1024px) {
-  /* line 103, ../sass/sections/_speaking.scss */
+  /* line 126, ../sass/sections/_speaking.scss */
   #upcoming h2 {
     font-size: 42px;
     font-size: 2.625rem;
@@ -6807,7 +6850,7 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 103, ../sass/sections/_speaking.scss */
+  /* line 126, ../sass/sections/_speaking.scss */
   #upcoming h2 {
     font-size: 32px;
     font-size: 2rem;
@@ -6816,7 +6859,7 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 103, ../sass/sections/_speaking.scss */
+  /* line 126, ../sass/sections/_speaking.scss */
   #upcoming h2 {
     font-size: 28px;
     font-size: 1.75rem;
@@ -6824,18 +6867,80 @@ END FLOATING PEOPLE
     line-height: 2rem;
   }
 }
-/* line 119, ../sass/sections/_speaking.scss */
+/* line 142, ../sass/sections/_speaking.scss */
 #upcoming .columns {
   margin-bottom: 13px;
 }
-/* line 122, ../sass/sections/_speaking.scss */
+/* line 145, ../sass/sections/_speaking.scss */
 #upcoming .columns p {
   margin-bottom: 1rem;
 }
 
-/* line 126, ../sass/sections/_speaking.scss */
+/* line 149, ../sass/sections/_speaking.scss */
 #spoken-at {
   background: #FFF;
+}
+/* line 151, ../sass/sections/_speaking.scss */
+#spoken-at ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 155, ../sass/sections/_speaking.scss */
+#spoken-at ul li {
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  /* line 155, ../sass/sections/_speaking.scss */
+  #spoken-at ul li {
+    margin: 0 12px 0 0;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 155, ../sass/sections/_speaking.scss */
+  #spoken-at ul li {
+    margin: 0 4px 0 0;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 767px) {
+  /* line 155, ../sass/sections/_speaking.scss */
+  #spoken-at ul li {
+    margin: 0 2% 0 0;
+    float: left;
+    width: 23%;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 639px) {
+  /* line 155, ../sass/sections/_speaking.scss */
+  #spoken-at ul li {
+    margin: 0 2% 0 0;
+    float: left;
+    width: 31%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 479px) {
+  /* line 155, ../sass/sections/_speaking.scss */
+  #spoken-at ul li {
+    margin: 0 2% 0 0;
+    float: left;
+    width: 48%;
+    overflow: hidden;
+  }
+}
+/* line 181, ../sass/sections/_speaking.scss */
+#spoken-at ul li a {
+  float: left;
+  position: relative;
+}
+/* line 184, ../sass/sections/_speaking.scss */
+#spoken-at ul li a img {
+  float: left;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 @media screen and (min-width: 1024px) {

@@ -76,6 +76,11 @@
 						<h1>Favorite Topics</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						<div class="content">
+							<div class="half-wrap">
+								<div class="videoHolder">
+									<iframe src="http://www.youtube.com/embed/hAjPOojI3q8" allowfullscreen></iframe>
+								</div>	
+							</div>
 							<ul>
 								<li>Word of Mouth Marketing</li>
 								<li>WOM Movements</li>
@@ -91,9 +96,6 @@
 								<li>Community</li>
 								<li>Lessons Learned Igniting WOM Movements</li>
 							</ul>
-							<div class="videoHolder">
-								<iframe src="http://www.youtube.com/embed/hAjPOojI3q8" allowfullscreen></iframe>
-							</div>	
 						</div>
 					</div>
 				</section>
@@ -159,28 +161,30 @@
 						<h1>Spoken at</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						<ul>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_01.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_02.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_03.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_04.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_05.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_06.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_07.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_08.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_09.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_10.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_11.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_12.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_13.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_14.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_15.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_16.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_17.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_18.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_19.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_20.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_21.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_22.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_23.jpg" alt=""></a></li>
+							<li><a href="#dummy"><img src="images/speaking/place_24.jpg" alt=""></a></li>
 						</ul>
 					</div>
 				</section>
