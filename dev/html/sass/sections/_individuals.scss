@@ -117,7 +117,10 @@
 NIGHT TIME LOBBY IMAGE
 ********************************************************** */
 .mega-banner.night {
-  background-image: url(../images/individuals/lobby/Lobby-Night.jpg);
+  // backup
+  // background: url(../images/individuals/lobby/Lobby-Night.jpg);
+  background: url(../images/individuals/lobby/Lobby-Night.jpg) no-repeat 50% 0;     
+  @include background-size(cover);
 }
 
 /* **********************************************************
@@ -162,213 +165,213 @@ END NIGHT TIME LOBBY IMAGE
 FLOATING PEOPLE
 
 ********************************************************** */
-#photo01 {
+.photo01 {
   position: absolute;
   bottom: 0;
   right: 504px;
 }
-#night-photo01 {
+.night-photo01 {
   position: absolute;
   bottom: -32px;
   left: -61px;
   display: block;
 }
-#intro-handwriting {
+.intro-handwriting {
   position: absolute;
   bottom: 232px;
   left: -842px;
 }
-#night-intro-handwriting {
+.night-intro-handwriting {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#cordell {
+.cordell {
   position: absolute;
   bottom: -187px;
   right: 0px;
 }
-#night-cordell {
+.night-cordell {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#robbin {
+.robbin {
   position: absolute;
   bottom: -58px;
   right: 349px;
 }
-#night-robbin {
+.night-robbin {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#ramsey {
+.ramsey {
   position: absolute;
   bottom: -105px;
   right: 192px;
 }
-#night-ramsey {
+.night-ramsey {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#geno {
+.geno {
   position: absolute;
   bottom: -28px;
   right: 949px;
 }
-#night-geno {
+.night-geno {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#john {
+.john {
   position: absolute;
   bottom: -91px;
   right: 21px;
 }
-#night-john {
+.night-john {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#megan {
+.megan {
   position: absolute;
   bottom: -107px;
   right: 33px;
 }
-#night-megan {
+.night-megan {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#alison {
+.alison {
   position: absolute;
   bottom: -105px;
   right: 438px;
 }
-#night-alison {
+.night-alison {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#amy {
+.amy {
   position: absolute;
   bottom: -101px;
   right: -9px;
 }
-#night-amy {
+.night-amy {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#brandy {
+.brandy {
   position: absolute;
   bottom: -11px;
   right: 445px;
 }
-#night-brandy {
+.night-brandy {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#cathy {
+.cathy {
   position: absolute;
   bottom: -35px;
   right: 393px;
 }
-#night-cathy {
+.night-cathy {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#emily {
+.emily {
   position: absolute;
   bottom: 153px;
   right: 507px;
 }
-#night-emily {
+.night-emily {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#jack {
+.jack {
   position: absolute;
   bottom: 80px;
   right: 300px;
 }
-#night-jack {
+.night-jack {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#marysusan {
+.marysusan {
   position: absolute;
   bottom: 56px;
   right: 223px;
 }
-#night-marysusan {
+.night-marysusan {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#moe {
+.moe {
   position: absolute;
   bottom: -108px;
   right: -4px;
 }
-#night-moe {
+.night-moe {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#nathan {
+.nathan {
   position: absolute;
   bottom: -102px;
   right: 294px;
 }
-#night-nathan {
+.night-nathan {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#sarah {
+.sarah {
   position: absolute;
   bottom: -59px;
   right: 102px;
 }
-#night-sarah {
+.night-sarah {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#sean {
+.sean {
   position: absolute;
   bottom: 72px;
   right: -79px;
 }
-#night-sean {
+.night-sean {
   position: absolute;
   bottom: -32px;
   left: -61px;
 }
-#shannon {
+.shannon {
   position: absolute;
   bottom: 170px;
   right: 493px;
 }
-#night-shannon {
+.night-shannon {
   position: absolute;
   bottom: 280px;
   left: -61px;
 }
-#wicket {
+.wicket {
   position: absolute;
   bottom: 74px;
   right: 462px;
 }
-#night-wicket {
+.night-wicket {
   position: absolute;
   bottom: 280px;
   left: -61px;
@@ -384,7 +387,11 @@ END FLOATING PEOPLE
   */
   display: none;
   max-width: none;
-  width: auto;
+  // backup
+  // width: auto;
+  @include min-screen(1201px) {
+    width: auto;
+  }
 }
 .mega-banner .photo-container .active {
   display: block;
@@ -722,7 +729,12 @@ END FLOATING PEOPLE
     /* **********************************************************
     DAY TIME LOBBY IMAGE
     ********************************************************** */
-    background-image: url(../images/individuals/lobby/Lobby-Day_1200x555.jpg);
+    // backup
+    // background-image: url(../images/individuals/lobby/Lobby-Day_1200x555.jpg);
+    background: url(../images/individuals/lobby/Lobby-Day_1200x555.jpg) no-repeat 50% 0;     
+    @include background-size(cover);
+    
+
     /* **********************************************************
     END DAY TIME LOBBY IMAGE
     ********************************************************** */
@@ -732,7 +744,10 @@ END FLOATING PEOPLE
   NIGHT TIME LOBBY IMAGE
   ********************************************************** */
   .mega-banner.night {
-    background-image: url(../images/individuals/lobby/Lobby-Night_1200x555.jpg);
+    // backup
+    // background-image: url(../images/individuals/lobby/Lobby-Night_1200x555.jpg);
+    background: url(../images/individuals/lobby/Lobby-Night_1200x555.jpg) no-repeat 50% 0;     
+    @include background-size(cover);
     /* .mega-banner .window {
       background-image: url(../images/individuals/img-window02.png);
     }
@@ -758,229 +773,229 @@ END FLOATING PEOPLE
   SMALLERFLOATING PEOPLE
   
   ********************************************************** */
-  #photo01 {
+  .photo01 {
     position: absolute;
     bottom: 0;
     right: 504px;
   }
-  #intro-handwriting {
+  .intro-handwriting {
     position: absolute;
     bottom: 124px;
     left: -708px;
   }
-  #night-photo01 {
+  .night-photo01 {
     position: absolute;
     bottom: -32px;
     left: -61px;
     display: block;
   }
-  #cordell {
+  .cordell {
     position: absolute;
     bottom: -182px;
     right: -32px;
     width: 585px;
   }
-  #night-cordell {
+  .night-cordell {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #robbin {
+  .robbin {
     position: absolute;
     bottom: -60px;
     right: 262px;
     width: 455px
   }
-  #night-robbin {
+  .night-robbin {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #ramsey {
+  .ramsey {
     position: absolute;
     bottom: -122px;
     right: 139px;
     width: 485px;
   }
-  #night-ramsey {
+  .night-ramsey {
     position: absolute;
     bottom: -105px;
     left: 139px;
   }
-  #geno {
+  .geno {
     position: absolute;
     bottom: -36px;
     right: 742px;
     width: 205px;
   }
-  #night-geno {
+  .night-geno {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #john {
+  .john {
     position: absolute;
     bottom: -96px;
     right: 1px;
     width: 349px;
   }
-  #night-john {
+  .night-john {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #megan {
+  .megan {
     position: absolute;
     bottom: -103px;
     right: 10px;
     width: 580px;
   }
-  #night-megan {
+  .night-megan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #alison {
+  .alison {
     position: absolute;
     bottom: -100px;
     right: 331px;
     width: 413px;
   }
-  #night-alison {
+  .night-alison {
     position: absolute;
     bottom: -83px;
     right: 448px;
     width: 298px;
   }
-  #amy {
+  .amy {
     position: absolute;
     bottom: -95px;
     right: -24px;
     width: 571px;
   }
-  #night-amy {
+  .night-amy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #brandy {
+  .brandy {
     position: absolute;
     bottom: -23px;
     right: 342px;
     width: 328px;
   }
-  #night-brandy {
+  .night-brandy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #cathy {
+  .cathy {
     position: absolute;
     bottom: -42px;
     right: 299px;
     width: 326px;
   }
-  #night-cathy {
+  .night-cathy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #emily {
+  .emily {
     position: absolute;
     bottom: 109px;
     right: 388px;
     width: 223px;
   }
-  #night-emily {
+  .night-emily {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #jack {
+  .jack {
     position: absolute;
     bottom: 51px;
     right: 224px;
     width: 285px;
   }
-  #night-jack {
+  .night-jack {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #marysusan {
+  .marysusan {
     position: absolute;
     bottom: 34px;
     right: 161px;
     width: 465px;
   }
-  #night-marysusan {
+  .night-marysusan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #moe {
+  .moe {
     position: absolute;
     bottom: -101px;
     right: -22px;
     width: 484px;
   }
-  #night-moe {
+  .night-moe {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #nathan {
+  .nathan {
     position: absolute;
     bottom: -100px;
     right: 216px;
     width: 469px;
   }
-  #night-nathan {
+  .night-nathan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #sarah {
+  .sarah {
     position: absolute;
     bottom: -60px;
     right: 67px;
     width: 494px;
   }
-  #night-sarah {
+  .night-sarah {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #sean {
+  .sean {
     position: absolute;
     bottom: 44px;
     right: -81px;
     width: 283px;
   }
-  #night-sean {
+  .night-sean {
     position: absolute;
     bottom: 61px;
     right: 9px;
     width: 194px;
   }
-  #shannon {
+  .shannon {
     position: absolute;
     bottom: 123px;
     right: 376px;
     width: 199px;
   }
-  #night-shannon {
+  .night-shannon {
     position: absolute;
     bottom: 280px;
     left: -61px;
   }
-  #wicket {
+  .wicket {
     position: absolute;
     bottom: 46px;
     right: 347px;
     width: 351px;
   }
-  #night-wicket {
+  .night-wicket {
     position: absolute;
     bottom: 280px;
     left: -61px;
@@ -1132,7 +1147,10 @@ END FLOATING PEOPLE
     /* **********************************************************
     DAY TIME LOBBY IMAGE
     ********************************************************** */
-    background-image: url(../images/individuals/lobby/Lobby-Day_940x447.jpg);
+    // backup
+    // background-image: url(../images/individuals/lobby/Lobby-Day_940x447.jpg);
+    background: url(../images/individuals/lobby/Lobby-Day_940x447.jpg) no-repeat 50% 0;
+    @include background-size(cover);
     /* **********************************************************
     END DAY TIME LOBBY IMAGE
     ********************************************************** */
@@ -1142,7 +1160,10 @@ END FLOATING PEOPLE
   NIGHT TIME LOBBY IMAGE
   ********************************************************** */
   .paging+.mega-holder .mega-banner.night {
-    background-image: url(../images/individuals/lobby/Lobby-Night_940x447.jpg);
+    // backup
+    // background-image: url(../images/individuals/lobby/Lobby-Night_940x447.jpg);
+    background: url(../images/individuals/lobby/Lobby-Night_940x447.jpg) no-repeat 50% 0;
+    @include background-size(cover);
     /* **********************************************************
     END NIGHT TIME LOBBY IMAGE
     ********************************************************** */
@@ -1172,229 +1193,229 @@ END FLOATING PEOPLE
   
   ********************************************************** */
   
-  #photo01 {
+  .photo01 {
     position: absolute;
     bottom: 0;
     right: 504px;
   }
-  #intro-handwriting {
+  .intro-handwriting {
     position: absolute;
     bottom: 124px;
     left: -708px;
   }
-  #night-photo01 {
+  .night-photo01 {
     position: absolute;
     bottom: -32px;
     left: -61px;
     display: block;
   }
-  #cordell {
+  .cordell {
     position: absolute;
     bottom: -134px;
     right: -2px;
     width: 456px;
   }
-  #night-cordell {
+  .night-cordell {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #robbin {
+  .robbin {
     position: absolute;
     bottom: -27px;
     right: 213px;
     width: 355px
   }
-  #night-robbin {
+  .night-robbin {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #ramsey {
+  .ramsey {
     position: absolute;
     bottom: -86px;
     right: 101px;
     width: 378px;
   }
-  #night-ramsey {
+  .night-ramsey {
     position: absolute;
     bottom: -105px;
     left: 139px;
   }
-  #geno {
+  .geno {
     position: absolute;
     bottom: -7px;
     right: 586px;
     width: 161px;
   }
-  #night-geno {
+  .night-geno {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #john {
+  .john {
     position: absolute;
     bottom: -62px;
     right: 8px;
     width: 267px;
   }
-  #night-john {
+  .night-john {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #megan {
+  .megan {
     position: absolute;
     bottom: -54px;
     right: 10px;
     width: 452px;
   }
-  #night-megan {
+  .night-megan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #alison {
+  .alison {
     position: absolute;
     bottom: -54px;
     right: 265px;
     width: 322px;
   }
-  #night-alison {
+  .night-alison {
     position: absolute;
     bottom: -83px;
     right: 448px;
     width: 298px;
   }
-  #amy {
+  .amy {
     position: absolute;
     bottom: -53px;
     right: -13px;
     width: 445px;
   }
-  #night-amy {
+  .night-amy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #brandy {
+  .brandy {
     position: absolute;
     bottom: 3px;
     right: 277px;
     width: 256px;
   }
-  #night-brandy {
+  .night-brandy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #cathy {
+  .cathy {
     position: absolute;
     bottom: -11px;
     right: 240px;
     width: 254px;
   }
-  #night-cathy {
+  .night-cathy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #emily {
+  .emily {
     position: absolute;
     bottom: 107px;
     right: 311px;
     width: 174px;
   }
-  #night-emily {
+  .night-emily {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #jack {
+  .jack {
     position: absolute;
     bottom: 61px;
     right: 181px;
     width: 222px;
   }
-  #night-jack {
+  .night-jack {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #marysusan {
+  .marysusan {
     position: absolute;
     bottom: 48px;
     right: 132px;
     width: 362px;
   }
-  #night-marysusan {
+  .night-marysusan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #moe {
+  .moe {
     position: absolute;
     bottom: -71px;
     right: -12px;
     width: 377px;
   }
-  #night-moe {
+  .night-moe {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #nathan {
+  .nathan {
     position: absolute;
     bottom: -55px;
     right: 173px;
     width: 366px;
   }
-  #night-nathan {
+  .night-nathan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #sarah {
+  .sarah {
     position: absolute;
     bottom: -26px;
     right: 58px;
     width: 385px;
   }
-  #night-sarah {
+  .night-sarah {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
-  #sean {
+  .sean {
     position: absolute;
     bottom: 56px;
     right: -58px;
     width: 221px;
   }
-  #night-sean {
+  .night-sean {
     position: absolute;
     bottom: 61px;
     right: 9px;
     width: 194px;
   }
-  #shannon {
+  .shannon {
     position: absolute;
     bottom: 117px;
     right: 302px;
     width: 155px;
   }
-  #night-shannon {
+  .night-shannon {
     position: absolute;
     bottom: 280px;
     left: -61px;
   }
-  #wicket {
+  .wicket {
     position: absolute;
     bottom: 58px;
     right: 278px;
     width: 274px;
   }
-  #night-wicket {
+  .night-wicket {
     position: absolute;
     bottom: 280px;
     left: -61px;

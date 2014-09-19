@@ -537,7 +537,15 @@ a {
   margin: -83px 0 0;
   background: url("../images/layout/bg-body.png") repeat 0 0;
   &.individuals {
-    margin: -84px 0 0; 
+    @include min-screen(1201px) {
+      margin: -84px 0 0;  
+    }
+    @include max-screen(1200px) {
+      margin: 0;  
+    }
+  }
+  &.individual-detail .mega-holder {
+    margin: -110px 0 0; 
   }
   &.case-study {
     background: #FFF;

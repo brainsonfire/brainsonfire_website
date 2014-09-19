@@ -17,47 +17,47 @@
 					<div class="mega-banner">
 						<div class="photo-container">
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/invisible-person.gif" alt="BOF lobby" id="photo01" class="">
-								<img src="images/individuals/lobby-shots/robbin.png" alt="Robbin Phillips" id="robbin">
-								<img src="images/individuals/lobby-shots/cordell.png" alt="Greg Cordell" id="cordell">
-								<img src="images/individuals/lobby-shots/ramsey.png" alt="Greg Ramsey" id="ramsey">
-								<img src="images/individuals/lobby-shots/geno.png" alt="Geno Church" id="geno">
-								<img src="images/individuals/lobby-shots/john.png" alt="John Moore" id="john">
-								<img src="images/individuals/lobby-shots/megan.png" alt="Megan Byrd" id="megan">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" id="alison">
-								<img src="images/individuals/lobby-shots/amy.png" alt="Amy Taylor" id="amy">
-								<img src="images/individuals/lobby-shots/brandy.png" alt="Brandy Amidon" id="brandy">
-								<img src="images/individuals/lobby-shots/cathy.png" alt="Cathy Harrison" id="cathy">
-								<img src="images/individuals/lobby-shots/emily.png" alt="Emily Everhart" id="emily">
-								<img src="images/individuals/lobby-shots/jack.png" alt="Jack Welch" id="jack">
-								<img src="images/individuals/lobby-shots/marysusan.png" alt="Mary Susan Henderson" id="marysusan">
-								<img src="images/individuals/lobby-shots/moe.png" alt="Moe Megan" id="moe">
-								<img src="images/individuals/lobby-shots/nathan.png" alt="Nathan Spainhour" id="nathan">
-								<img src="images/individuals/lobby-shots/sarah-comingsoon.png" alt="Sarah Leitner" id="sarah">
-								<img src="images/individuals/lobby-shots/sean.png" alt="Sean Madden" id="sean">
-								<img src="images/individuals/lobby-shots/shannon.png" alt="Shannon Kohn" id="shannon">
-								<img src="images/individuals/lobby-shots/wicket.png" alt="Wicket" id="wicket">
+								<img src="images/individuals/lobby-shots/invisible-person.gif" alt="BOF lobby" class="photo01" class="">
+								<img src="images/individuals/lobby-shots/robbin.png" alt="Robbin Phillips" class="robbin">
+								<img src="images/individuals/lobby-shots/cordell.png" alt="Greg Cordell" class="cordell">
+								<img src="images/individuals/lobby-shots/ramsey.png" alt="Greg Ramsey" class="ramsey">
+								<img src="images/individuals/lobby-shots/geno.png" alt="Geno Church" class="geno">
+								<img src="images/individuals/lobby-shots/john.png" alt="John Moore" class="john">
+								<img src="images/individuals/lobby-shots/megan.png" alt="Megan Byrd" class="megan">
+								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison">
+								<img src="images/individuals/lobby-shots/amy.png" alt="Amy Taylor" class="amy">
+								<img src="images/individuals/lobby-shots/brandy.png" alt="Brandy Amidon" class="brandy">
+								<img src="images/individuals/lobby-shots/cathy.png" alt="Cathy Harrison" class="cathy">
+								<img src="images/individuals/lobby-shots/emily.png" alt="Emily Everhart" class="emily">
+								<img src="images/individuals/lobby-shots/jack.png" alt="Jack Welch" class="jack">
+								<img src="images/individuals/lobby-shots/marysusan.png" alt="Mary Susan Henderson" class="marysusan">
+								<img src="images/individuals/lobby-shots/moe.png" alt="Moe Megan" class="moe">
+								<img src="images/individuals/lobby-shots/nathan.png" alt="Nathan Spainhour" class="nathan">
+								<img src="images/individuals/lobby-shots/sarah-comingsoon.png" alt="Sarah Leitner" class="sarah">
+								<img src="images/individuals/lobby-shots/sean.png" alt="Sean Madden" class="sean">
+								<img src="images/individuals/lobby-shots/shannon.png" alt="Shannon Kohn" class="shannon">
+								<img src="images/individuals/lobby-shots/wicket.png" alt="Wicket" class="wicket">
 							</div>
 							
 							<div class="holder02">
 								<!--
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Cordell"                id="night-cordell" class="active">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Robbin Phillips"             id="night-robbin">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Ramsey"                 id="night-ramsey">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Geno Church"                 id="night-geno">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="John Moore"                  id="night-john">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Megan Byrd"                  id="night-megan">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Alison Quarles"              id="night-alison">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Amy Taylor"                  id="night-amy">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Brandy Amidon"               id="night-brandy">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Cathy Harrison"              id="night-cathy">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Emily Everhart"              id="night-emily">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Jack Welch"                  id="night-jack">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Mary Susan Henderson"        id="night-marysusan">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Moe Megan"                   id="night-moe">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Nathan Spainhour"            id="night-nathan">
-								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Sean Madden"                 id="night-sean">
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Shannon Kohn"                id="night-shannon">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Cordell"                class="night-cordell" class="active">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Robbin Phillips"             class="night-robbin">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Ramsey"                 class="night-ramsey">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Geno Church"                 class="night-geno">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="John Moore"                  class="night-john">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Megan Byrd"                  class="night-megan">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Alison Quarles"              class="night-alison">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Amy Taylor"                  class="night-amy">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Brandy Amidon"               class="night-brandy">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Cathy Harrison"              class="night-cathy">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Emily Everhart"              class="night-emily">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Jack Welch"                  class="night-jack">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Mary Susan Henderson"        class="night-marysusan">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Moe Megan"                   class="night-moe">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Nathan Spainhour"            class="night-nathan">
+								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Sean Madden"                 class="night-sean">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Shannon Kohn"                class="night-shannon">
 								-->
 							</div>
 						</div>
