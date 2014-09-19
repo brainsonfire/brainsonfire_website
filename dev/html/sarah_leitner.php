@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Sarah Leitner' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,47 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/sarah-comingsoon.png" alt="Sarah Leitner" class="sarah active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/sarah-comingsoon.png" alt="Sarah Leitner" class="sarah active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Sarah Leitner</h1>
+							<em class="job-title">Account Wrangler + Community Shepherd</em>
 						</div>
-
 
 						<div class="row cols-holder">
 
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
+								<img src="images/individuals/headshots/sarah-257x257.jpg" alt="Sarah Leitner">
 								<div class="holder">
-									<h3>Find Alison Online:</h3>
+									<h3>Find Sarah Online:</h3>
 									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
+										<li><a href="https://twitter.com/saraheeel" class="twitter">Twitter</a></li>
+										<li><a href="http://instagram.com/saraheeel" class="instagram">Instagram</a></li>
 									</ul>
 								</div>
-
-
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Pescatarian</li>
+										<li>Taco Lover</li>
+										<li>HGTV Addict</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>What do you get when you cross a native South Carolinian with a hockey fan and add a dash of corgi? The sensational Sarah Leitner, of course.</p>
+									<p>After graduating from the University of South Carolina School of Journalism and Mass Communications, Sarah headed into the wonky-yet-wonderful world of advertising. Her experience runs the gamut from project management for tiny local shops to the internal ad agency for a multinational manufacturer of power tools. She even spent some time working for Greenville’s professional hockey team. (Go Road Warriors!)</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>When she takes a break from creating remarkable customer experiences, you’ll find Sarah enthusiastically cheering for the Buffalo Sabres and Tampa Bay Lightning alongside her chemist husband and dogs, Bear the lab mix and Gerbe the corgi (named after the shortest hockey player in the NHL.)</p>	
 								</div>
 							</div>
 						</div>

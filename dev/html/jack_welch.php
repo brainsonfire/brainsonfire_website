@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Jack Welch' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,39 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/jack.png" alt="Jack Welch" class="jack active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/jack.png" alt="Jack Welch" class="jack active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Jack Welch</h1>
+							<em class="job-title">Media Boss</em>
 						</div>
 
-
 						<div class="row cols-holder">
-
+							
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
-								<div class="holder">
-									<h3>Find Alison Online:</h3>
-									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
-									</ul>
-								</div>
-
-
+								<img src="images/individuals/headshots/jack-257x257.jpg" alt="Jack Welch">
 							</div>
-
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Broadcast Journalism Major</li>
+										<li>Bluegrass Picker</li>
+										<li>Worked in a Textile Mill</li>
+										<li>Played in Top 40 Bands</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>Jack's experience spans a few decades in this business. He is also is a self-proclaimed "homeboy,” meaning he grew up just down the road in Spartanburg, SC. Keeping with the theme, Jack earned a degree in Journalism with an emphasis in Broadcast Production from the University of South Carolina. Who knows what he did after that, but what we do know is that we’re glad he joined what would one day become Brains on Fire in July of 1988.</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>Jack is the man. No, really. In addition to his workload as Media Boss and lending a helping hand on accounts from American Federal to Bon Secours St. Francis Health System to VisitGreenvilleSC, Jack holds the key to all the logistics at Brains on Fire. When he's not in the office, you'll probably find Jack practicing with his bluegrass band or serving on the Greenville Family Partnership board.</p>
 								</div>
 							</div>
 						</div>

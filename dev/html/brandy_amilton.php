@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Brandy Amidon' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,47 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/brandy.png" alt="Brandy Amidon" class="brandy active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/brandy.png" alt="Brandy Amidon" class="brandy active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Brandy Amidon</h1>
+							<em class="job-title">CPA + Gun-for-hire</em>
 						</div>
-
 
 						<div class="row cols-holder">
 
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
+								<img src="images/individuals/headshots/brandy-257x257.jpg" alt="Brandy Amidon">
 								<div class="holder">
-									<h3>Find Alison Online:</h3>
+									<h3>Find Brandy Online:</h3>
 									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
+										<li><a href="https://www.facebook.com/brandy.amidon" class="facebook">Facebook</a></li>
+										<li><a href="http://www.pinterest.com/bha16321/" class="pinterest">Pinterest</a></li>
 									</ul>
 								</div>
-
-
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Television Junkie</li>
+										<li>Theater loving non-thespian</li>
+										<li>Ink pen thief</li>
+										<li>Made in Travelers Rest</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>Brandy graduated from North Greenville University in just two-and-a-half years. Why? Because she could. Well, that and she wanted to get hitched. After graduation, Brandy began working at Carolina First Bank (one of Brains on Fire's former clients), and spent three years in their accounting department. But she had her sights set on something bigger. (And has since started her own <a href="http://www.brandyamidoncpa.com" target="_blank">gig</a>.)</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>Brandy is a teacher, tax guru, retirement planner, debt re-constructor, forward-thinking business consultant, problem solver and a stress reliever. She’s also the coolest CPA you’ll ever meet. But around here, we just call her our CFO!</p>
 								</div>
 							</div>
 						</div>

@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Mary Susan Henderson' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,39 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/marysusan.png" alt="Mary Susan Henderson" class="marysusan active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/marysusan.png" alt="Mary Susan Henderson" class="marysusan active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Mary Susan Henderson</h1>
+							<em class="job-title">Office Mom + Brains on Fire Detective</em>
 						</div>
 
-
 						<div class="row cols-holder">
-
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
-								<div class="holder">
-									<h3>Find Alison Online:</h3>
-									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
-									</ul>
-								</div>
-
-
+								<img src="images/individuals/headshots/marysusan-257x257.jpg" alt="Mary Susan Henderson">
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Crime show enthusiast</li>
+										<li>Sews her own clothes</li>
+										<li>Art history lover</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>A native of the Upstate, Mary Susan grew up in the micropolis of Laurens, South Carolina. She eventually ventured to the “big city” to attend Furman University, where she discovered a love of art that inspired her to make it her degree.</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>Post-graduation, Mary Susan traded in the rolling hills of the upstate for coastline, but the charms of her native stomping grounds ultimately brought her back home. (And that’s when Brains on Fire scooped her up!)</p>
+									<p>Even though Mary Susan doesn't use her art degree on a daily basis, she utilizes her other talent — organization — every minute of the workweek. These days, Mary Susan can be found keeping The Firesphere in check and Brains on Fire running like a well-oiled machine. And we're so thankful for that.</p>
 								</div>
 							</div>
 						</div>

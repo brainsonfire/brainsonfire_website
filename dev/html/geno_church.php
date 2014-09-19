@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Geno Church' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,43 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/geno.png" alt="Geno Church" class="geno active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/geno.png" alt="Geno Church" class="geno active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Geno Church</h1>
+							<em class="job-title">WOM Cupid</em>
 						</div>
-
 
 						<div class="row cols-holder">
 
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
-								<div class="holder">
-									<h3>Find Alison Online:</h3>
-									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
-									</ul>
-								</div>
-
-
+								<img src="images/individuals/headshots/geno-257x257.jpg" alt="Geno Church">
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Never washes his selvage denim</li>
+										<li>Has been to Disney World 35 times and counting</li>
+										<li>Moonshine and bootlegging run on both sides of his family</li>
+										<li>Has been known to eat a candy bar on the treadmill</li>
+										<li>You’ll find him snapping photos on the sidelines of Furman Football games on Saturdays</li>
+										<li>Role model is Peter Pan</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>Geno is the Word of Mouth Inspiration Officer at Brains on Fire, but he considers himself more of a “WOM Cupid” and a pathfinder for our clients.</p>
+									<p>Geno shines at uncovering the DNA of sustainable word of mouth movements, and has walked the path with brands and organizations including Fiskars Brands, the National Center for Families Learning, Anytime Fitness, Love146 and The Environmental Defense Fund.</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>Geno is also a highly sought-after speaker, and relishes the opportunity to share his thoughts and spark conversation with brands and organizations of all sizes. He has been a presenter and a workshop facilitator at events hosted by the Public Relations Society of America (PRSA), Public Relations Student Society of America (PRSSA), Blackbaud BBCON (Australia), Influence Session Sydney, and the Word of Mouth Marketing Association, to name a few. He is widely quoted in blogs and co-author of two books, “Brains On Fire: Igniting Powerful, Sustainable Word of Mouth Movements,” and “The Passion Conversation: Understanding, Sparking and Sustaining Word of Mouth Marketing.” Geno is quoted in print on a regular basis, and thanks to his southern charm, is one of the nicest guys you'll ever meet.</p>
 								</div>
 							</div>
 						</div>

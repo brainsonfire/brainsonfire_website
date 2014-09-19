@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Sean Madden' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,49 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/sean.png" alt="Sean Madden" class="sean active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/sean.png" alt="Sean Madden" class="sean active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Sean Madden</h1>
+							<em class="job-title">Official Pencil Pusher + Senior Designer</em>
 						</div>
 
-
 						<div class="row cols-holder">
-
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
+								<img src="images/individuals/headshots/sean-257x257.jpg" alt="Sean Madden">
 								<div class="holder">
-									<h3>Find Alison Online:</h3>
+									<h3>Find Sean Online:</h3>
 									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
+										<li><a href="https://twitter.com/maddsean" class="twitter">Twitter</a></li>
+										<li><a href="http://www.linkedin.com/pub/sean-madden/8/3b8/32b" class="linkedin">Linked In</a></li>
 									</ul>
 								</div>
-
-
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>BFA, Illustration – School of Visual Arts</li>
+										<li>Still rides his childhood BMX</li>
+										<li>Preppiest kid in art school</li>
+										<li>Dog outweighs wife</li>
+										<li>Drank box wine with Pat Conroy</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>Conceived from the ashes of Greenville’s historic mill villages, Sean has been sketching since the womb. After graduating from New York's School of Visual Arts in 1999 with a degree in illustration and a love for American impressionism, he flew home to make things happen. The problem was, illustration in a small southern town rarely "happens.”</p>
+									<p>The patch of adversity wouldn't last. Two elective design classes paired with Sean's chameleon-like adaptability soon resulted in an arsenal of skills.</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>Over the years, Sean’s artistic direction has impacted a range of collateral and national ad campaigns for clients like Gerber, BMW, Viceroy Hotels, EMI Music and Duke University. But if you ask, Sean will put those big brands aside and explain how his best work usually grows from authentic relationships, and that sometimes a smile is the best form of payment.</p>
+									<p>Sean claims to be mediocre at most frat boy hobbies. Nowadays he puts effort into a diverse music collection and binging at local meat-and-threes. At last check his iTunes will play for two months straight without repeating, and his southern drawl gets stronger depending on the lunch dive. No good design is possible without the pics of his wife and daughter adorning his desk, with an autographed 8x10 of Roscoe P. Coltrane finishing a close second. Plus it balances out the blaring gangsta rap.</p>
 								</div>
 							</div>
 						</div>

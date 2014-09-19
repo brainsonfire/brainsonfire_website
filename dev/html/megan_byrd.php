@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Megan Byrd' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,40 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/megan.png" alt="Megan Byrd" class="megan active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/megan.png" alt="Megan Byrd" class="megan active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Megan Byrd</h1>
+							<em class="job-title">Whipcracker</em>
 						</div>
-
 
 						<div class="row cols-holder">
 
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
-								<div class="holder">
-									<h3>Find Alison Online:</h3>
-									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
-									</ul>
-								</div>
-
-
+								<img src="images/individuals/headshots/megan-257x257.jpg" alt="Megan Byrd">
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Pet Portrait Artist</li>
+										<li>Twin (the younger)</li>
+										<li>Mother of Patrick</li>
+										<li>Color organized closet</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>Our Sherpa of Traffic was born and raised just to the south in Macon, Georgia. A graduate of Wofford College, Megan worked for an online magazine and later an internet company in Atlanta where she learned how to establish order in a world of creative chaos. (Fun fact: Megan has been voted MVP everywhere she has ever worked.) </p> 
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>In 2005, Brains on Fire was lucky enough to snag her. She returned to Greenville with her husband Mitchell, and their son Patrick joined our extended tribe in 2010. As the Director of Traffic and Production, Megan oversees the timelines and resources for every project that comes through our doors. She is a master of schedules and keeps our team in line and on track. Robbin likes to call Megan our "Chief of Staff," and there is no doubt that it takes a good chief to keep Brains on Fire running like a well-oiled machine. Don't let the infectious smile fool you; Megan cracks the whip around here! Thankfully, she has a true talent for telling us what to do while somehow making it feel like it was our idea all along. </p>
 								</div>
 							</div>
 						</div>

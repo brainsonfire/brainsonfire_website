@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
+<?php $title = 'Brains on Fire | Emily Everhart' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -25,67 +25,49 @@
 				
 					<div class="mega-banner">
 						<div class="photo-container">
-
-
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/emily.png" alt="Emily Everhart" class="emily active">
 							</div>
 							<div class="holder02">
-								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+								<img src="images/individuals/lobby-shots/emily.png" alt="Emily Everhart" class="emily active">
 							</div>
-
-
 						</div>
 						<div class="window"></div>
 					</div>
 
 					<article class="people-post">
 						<div class="row heading">
-
-
-							<h1>Alison Quarles</h1>
-							<em class="job-title">Fixer of Graphic Conundrums</em>
-
-
+							<h1>Emily Everhart</h1>
+							<em class="job-title">Gentle Nudger + Account Executive</em>
 						</div>
-
 
 						<div class="row cols-holder">
 
 							<div class="meta large-4 medium-4 small-12 columns">
-
-
-								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
+								<img src="images/individuals/headshots/emily-257x257.jpg" alt="Emily Everhart">
 								<div class="holder">
-									<h3>Find Alison Online:</h3>
+									<h3>Find Emily Online:</h3>
 									<ul class="social">
-										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
+										<li><a href="http://www.pinterest.com/ems01224/" class="pinterest">Pinterest</a></li>
+										<li><a href="http://instagram.com/ems01224/" class="instagram">Instagram</a></li>
+										<li><a href="http://www.linkedin.com/in/emilykeverhart" class="linkedin">Linked In</a></li>
 									</ul>
 								</div>
-
-
 							</div>
 
 							<div class="large-8 medium-8 small-12 columns">
 								<div class="large-6 medium-12 small-12 columns">
-
-
 									<ul class="arbitrary-facts">
-										<li>Ballet dancer</li>
-										<li>Uncle invented the term "cyberspace"</li>
-										<li>Has a standing breakfast date with her family every Saturday</li>
+										<li>Chapstick Addict</li>
+										<li>Middle Child</li>
+										<li>Dog Rescuer</li>
 									</ul>
-									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
-								
-								
+									<p>Emily helps hold down the Brains on Fire fort as one of our Account Executives, which keeps her busy navigating details, keeping clients happy and extinguishing or fanning fires as needed. Originally hired as a Community Manager, Emily has had the privilege of working with many of Brains on Fire’s communities (Heroes in Recovery, Tinkernation, DeVry University, Wonderopolis, just to name a few) before fully jumping into the AE pond.</p>
+									<p>Emily’s blood runneth orange, as a Tigers’ fan and Clemson University grad. She picked up two degrees during her time at Clemson: a BA in Communications with a focus in Media and a BA in Modern Languages (Spanish)…just for fun.</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-
-
-									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
-								
-
+									<p>Emily came to Brains with a background in PR, public education and event planning, having mainly worked with nonprofits and government agencies in the Upstate. She channels that eclectic experience in her ever-evolving role at Brains, and loves pinch hitting on any project, especially the crafty ones. (Pinterest addict over here!)</p>
+									<p>Emily is an Upstate native that enjoyed a minor detour through Europe as kid, and now resides in Easley with her hubby and a small pack of large dogs. When she’s not vacuuming up after her huskies, Emily also loves to cook. Ask her about Emeals at your own risk.</p>			
 								</div>
 							</div>
 						</div>
