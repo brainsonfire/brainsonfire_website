@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Greg Ramsey' ?>
+<?php $title = 'Brains on Fire | Individuals Detail Page' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -21,62 +21,73 @@
 					</div>
 				</div>
 
+				<section class="mega-holder">
+					<div class="mega-banner">
+						<div class="photo-container">
 
 
+							<div class="holder">
+								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+							</div>
+							<div class="holder02">
+								<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
+							</div>
 
 
-
-
-
-		<section class="mega-holder">
-			<div class="mega-banner">
-				<div class="photo-container">
-					<div class="holder">
-						<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
-					</div>
-					<div class="holder02">
-						<img src="images/individuals/lobby-shots/alison.png" alt="Alison Quarles" class="alison active">
-					</div>
-				</div>
-				<div class="window"></div>
-			</div>
-			<article class="people-post">
-				<div class="heading">
-					<h1>Alison Quarles</h1>
-					<em class="job-title">Fixer of Graphic Conundrums</em>
-				</div>
-				<div class="cols-holder">
-					<div class="meta">
-						<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
-						<div class="holder">
-							<h3>Find Alison Online:</h3>
-							<ul class="social">
-								<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
-								<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
-							</ul>
 						</div>
+						<div class="window"></div>
 					</div>
-					<div class="two-columns">
-						<div class="column">
-							<ul class="arbitrary-facts">
-								<li>Ballet dancer</li>
-								<li>Uncle invented the term "cyberspace"</li>
-								<li>Has a standing breakfast date with her family every Saturday</li>
-							</ul>
-							<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
+					<article class="people-post">
+						<div class="row heading">
+
+
+							<h1>Alison Quarles</h1>
+							<em class="job-title">Fixer of Graphic Conundrums</em>
+
+
 						</div>
-						<div class="column">
-							<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
+
+
+						<div class="row cols-holder">
+
+							<div class="meta large-4 medium-4 small-12 columns">
+
+
+								<img src="images/individuals/headshots/alison-257x257.jpg" alt="greg cordell">
+								<div class="holder">
+									<h3>Find Alison Online:</h3>
+									<ul class="social">
+										<li><a href="http://instagram.com/maryaq2" class="instagram">Instagram</a></li>
+										<li><a href="http://www.linkedin.com/in/alisonq" class="linkedin">Linked In</a></li>
+									</ul>
+								</div>
+
+
+							</div>
+
+							<div class="large-8 medium-8 small-12 columns">
+								<div class="large-6 medium-12 small-12 columns">
+
+
+									<ul class="arbitrary-facts">
+										<li>Ballet dancer</li>
+										<li>Uncle invented the term "cyberspace"</li>
+										<li>Has a standing breakfast date with her family every Saturday</li>
+									</ul>
+									<p>Have a problem? Alison can fix it. Seriously. AQ grew up in Greenville, South Carolina, receiving a degree in Art Education from the University of Georgia and a degree in Graphic design from Ringling School of Art. Pretty impressive, eh?</p>
+								</div>
+								<div class="large-6 columns">
+
+
+									<p>Alison’s roster of happy clients includes BMW Manufacturing, AFGA Healthcare and Bon Secours St. Francis Health System (among many, many others). Her production skills are unparalleled around these parts, and everything the woman touches turns to graphic gold. If you have the good fortune to meet Alison in person, be sure to ask her about her adventures overseas – you won’t be disappointed.</p>
+								
+
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-			</article>
-		</section>
 
-
-
-
-
+					</article>
+				</section>
 
 				<div class="direction-nav top">
 					<div class="row">

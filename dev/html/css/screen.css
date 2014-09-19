@@ -991,28 +991,30 @@ a {
     margin: 0;
   }
 }
-/* line 547, ../sass/modules/_layout.scss */
-#main.individual-detail .mega-holder {
-  margin: -110px 0 0;
+@media screen and (min-width: 981px) {
+  /* line 547, ../sass/modules/_layout.scss */
+  #main.individual-detail .mega-holder {
+    margin: -110px 0 0;
+  }
 }
-/* line 550, ../sass/modules/_layout.scss */
+/* line 552, ../sass/modules/_layout.scss */
 #main.case-study {
   background: #FFF;
 }
 
-/* line 554, ../sass/modules/_layout.scss */
+/* line 556, ../sass/modules/_layout.scss */
 section {
   position: relative;
   padding: 80px 0;
   z-index: 10;
 }
 
-/* line 559, ../sass/modules/_layout.scss */
+/* line 561, ../sass/modules/_layout.scss */
 .inner-pages section {
   padding: 0;
 }
 
-/* line 562, ../sass/modules/_layout.scss */
+/* line 564, ../sass/modules/_layout.scss */
 .inner-pages section.intro {
   padding: 70px 0 62px;
 }
@@ -4095,7 +4097,7 @@ END FLOATING PEOPLE
   /* max-width: 1170px;
   */
   max-width: 960px;
-  margin: 0 auto 52px;
+  margin: 0 auto;
   /* padding: 55px 10px 39px;
   */
   padding: 30px 10px 0px;
@@ -4305,70 +4307,69 @@ END FLOATING PEOPLE
 
 /* line 556, ../sass/sections/_individuals.scss */
 .people-post {
-  max-width: 1170px;
   margin: 0 auto;
-  padding: 61px 10px 56px;
+  padding: 61px 0 56px;
   font-size: 18px;
   line-height: 30px;
 }
 
-/* line 563, ../sass/sections/_individuals.scss */
+/* line 562, ../sass/sections/_individuals.scss */
 .people-post .heading {
   text-align: center;
   padding-bottom: 55px;
 }
 
-/* line 567, ../sass/sections/_individuals.scss */
+/* line 566, ../sass/sections/_individuals.scss */
 .people-post .job-title {
   font: italic bold 31px/34px Georgia, "Times New Roman", Times, serif;
   color: #939f57;
   line-height: 36px;
 }
 
-/* line 572, ../sass/sections/_individuals.scss */
+/* line 571, ../sass/sections/_individuals.scss */
 .people-post .cols-holder {
   width: 100%;
   display: table;
 }
 
-/* line 576, ../sass/sections/_individuals.scss */
+/* line 575, ../sass/sections/_individuals.scss */
 .people-post .meta,
 .people-post .cols {
   display: table-cell;
   vertical-align: top;
 }
 
-/* line 581, ../sass/sections/_individuals.scss */
+/* line 580, ../sass/sections/_individuals.scss */
 .people-post .meta {
-  width: 289px;
-  padding: 10px 54px;
+  padding: 10px 0;
   text-align: center;
 }
 
-/* line 586, ../sass/sections/_individuals.scss */
+/* line 585, ../sass/sections/_individuals.scss */
 .people-post .meta img {
-  width: 257px;
-  border-radius: 130px;
-  -webkit-border-radius: 130px;
-  margin-right: 24px;
+  width: auto;
+  max-width: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
 }
 
-/* line 592, ../sass/sections/_individuals.scss */
+/* line 594, ../sass/sections/_individuals.scss */
 .people-post .meta .holder {
   height: 1%;
   overflow: hidden;
   padding: 25px 0;
 }
 
-/* line 597, ../sass/sections/_individuals.scss */
+/* line 599, ../sass/sections/_individuals.scss */
 .people-post .meta h3 {
   margin: 0;
-  padding: 0 30px 19px 0;
+  padding: 0 0 19px;
   font: italic bold 24px/27px Georgia, "Times New Roman", Times, serif;
   color: #939f57;
 }
 
-/* line 603, ../sass/sections/_individuals.scss */
+/* line 605, ../sass/sections/_individuals.scss */
 .people-post .meta .social {
   width: 295px;
   margin: 0 -6px 0 0;
@@ -4377,7 +4378,7 @@ END FLOATING PEOPLE
   text-align: left;
 }
 
-/* line 610, ../sass/sections/_individuals.scss */
+/* line 612, ../sass/sections/_individuals.scss */
 .people-post .meta .social li {
   width: 140px;
   display: inline-block;
@@ -4385,20 +4386,20 @@ END FLOATING PEOPLE
   padding: 0 5px 13px 0;
 }
 
-/* line 616, ../sass/sections/_individuals.scss */
+/* line 618, ../sass/sections/_individuals.scss */
 .people-post .meta .social a {
   position: relative;
   padding-left: 43px;
   color: #333;
 }
 
-/* line 621, ../sass/sections/_individuals.scss */
+/* line 623, ../sass/sections/_individuals.scss */
 .people-post .meta .social a:hover {
   opacity: .8;
   text-decoration: none;
 }
 
-/* line 625, ../sass/sections/_individuals.scss */
+/* line 627, ../sass/sections/_individuals.scss */
 .people-post .meta .social a:after {
   width: 34px;
   height: 33px;
@@ -4409,74 +4410,74 @@ END FLOATING PEOPLE
   left: 0;
 }
 
-/* line 634, ../sass/sections/_individuals.scss */
+/* line 636, ../sass/sections/_individuals.scss */
 .people-post .meta .social .twitter:after {
   background-position: -101px 0;
 }
 
-/* line 637, ../sass/sections/_individuals.scss */
+/* line 639, ../sass/sections/_individuals.scss */
 .people-post .meta .social .facebook:after {
   background-position: -140px 0;
 }
 
-/* line 640, ../sass/sections/_individuals.scss */
+/* line 642, ../sass/sections/_individuals.scss */
 .people-post .meta .social .pinterest:after {
   background-position: -179px 0;
 }
 
-/* line 643, ../sass/sections/_individuals.scss */
+/* line 645, ../sass/sections/_individuals.scss */
 .people-post .meta .social .instagram:after {
   background-position: -218px 0;
 }
 
-/* line 646, ../sass/sections/_individuals.scss */
+/* line 648, ../sass/sections/_individuals.scss */
 .people-post .meta .social .linkedin:after {
   background-position: -257px 0;
 }
 
-/* line 649, ../sass/sections/_individuals.scss */
+/* line 651, ../sass/sections/_individuals.scss */
 .people-post .meta .social .blog:after {
   background-position: -296px 0;
 }
 
-/* line 652, ../sass/sections/_individuals.scss */
+/* line 654, ../sass/sections/_individuals.scss */
 .people-post .cols .col {
   height: 1%;
   overflow: hidden;
   padding: 0 0 1px 17px;
 }
 
-/* line 657, ../sass/sections/_individuals.scss */
+/* line 659, ../sass/sections/_individuals.scss */
 .people-post .cols .col:first-child {
   width: 50%;
   float: left;
   padding: 0;
 }
 
-/* line 662, ../sass/sections/_individuals.scss */
+/* line 664, ../sass/sections/_individuals.scss */
 .people-post ul.arbitrary-facts {
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px;
   list-style: disc inside;
   width: 100%;
 }
 
-/* line 667, ../sass/sections/_individuals.scss */
+/* line 669, ../sass/sections/_individuals.scss */
 .people-post ul.arbitrary-facts li {
   padding: 0 0 10px;
 }
 
-/* line 670, ../sass/sections/_individuals.scss */
+/* line 672, ../sass/sections/_individuals.scss */
 .people-post p {
   margin-bottom: 29px;
 }
 
-/* line 673, ../sass/sections/_individuals.scss */
+/* line 675, ../sass/sections/_individuals.scss */
 .more-posts {
   width: 100%;
   background: #12bdd5 url(../images/individuals/bg-more.jpg) no-repeat 50% 0;
 }
 
-/* line 677, ../sass/sections/_individuals.scss */
+/* line 679, ../sass/sections/_individuals.scss */
 .more-posts .holder {
   max-width: 1170px;
   margin: 0 auto;
@@ -4484,7 +4485,7 @@ END FLOATING PEOPLE
   text-align: center;
 }
 
-/* line 683, ../sass/sections/_individuals.scss */
+/* line 685, ../sass/sections/_individuals.scss */
 .more-posts ul {
   display: table;
   margin: 0 auto;
@@ -4492,7 +4493,7 @@ END FLOATING PEOPLE
   text-align: left;
 }
 
-/* line 689, ../sass/sections/_individuals.scss */
+/* line 691, ../sass/sections/_individuals.scss */
 .more-posts ul li {
   width: 270px;
   float: left;
@@ -4502,30 +4503,30 @@ END FLOATING PEOPLE
   color: #fff;
 }
 
-/* line 697, ../sass/sections/_individuals.scss */
+/* line 699, ../sass/sections/_individuals.scss */
 .more-posts img {
   max-width: 100%;
 }
 
-/* line 700, ../sass/sections/_individuals.scss */
+/* line 702, ../sass/sections/_individuals.scss */
 .more-posts h4 {
   margin: 0;
   padding: 10px 0;
   font: 18px/21px Tahoma, Geneva, sans-serif;
 }
 
-/* line 705, ../sass/sections/_individuals.scss */
+/* line 707, ../sass/sections/_individuals.scss */
 .more-posts ul a {
   color: #fff;
 }
 
-/* line 708, ../sass/sections/_individuals.scss */
+/* line 710, ../sass/sections/_individuals.scss */
 .more-posts ul a:hover {
   opacity: .8;
   text-decoration: none;
 }
 
-/* line 712, ../sass/sections/_individuals.scss */
+/* line 714, ../sass/sections/_individuals.scss */
 .more-posts .view-all {
   padding: 25px 42px 23px 45px;
   font: italic 28px/31px Georgia, "Times New Roman", Times, serif;
@@ -4534,19 +4535,19 @@ END FLOATING PEOPLE
   background: #eb7e1f;
 }
 
-/* line 719, ../sass/sections/_individuals.scss */
+/* line 721, ../sass/sections/_individuals.scss */
 .more-posts .view-all:hover {
   background: #d17327;
   text-decoration: none;
 }
 
 @media only screen and (max-width: 1200px) {
-  /* line 724, ../sass/sections/_individuals.scss */
+  /* line 726, ../sass/sections/_individuals.scss */
   .mega-holder {
     background-position: -2px 9px;
   }
 
-  /* line 727, ../sass/sections/_individuals.scss */
+  /* line 729, ../sass/sections/_individuals.scss */
   .mega-banner {
     height: 555px;
     /* **********************************************************
@@ -4565,7 +4566,7 @@ END FLOATING PEOPLE
   /* **********************************************************
   NIGHT TIME LOBBY IMAGE
   ********************************************************** */
-  /* line 746, ../sass/sections/_individuals.scss */
+  /* line 748, ../sass/sections/_individuals.scss */
   .mega-banner.night {
     background: url(../images/individuals/lobby/Lobby-Night_1200x555.jpg) no-repeat 50% 0;
     -moz-background-size: cover;
@@ -4581,7 +4582,7 @@ END FLOATING PEOPLE
     ********************************************************** */
   }
 
-  /* line 759, ../sass/sections/_individuals.scss */
+  /* line 761, ../sass/sections/_individuals.scss */
   .mega-banner .photo-container {
     width: 940px;
     height: 474px;
@@ -4589,7 +4590,7 @@ END FLOATING PEOPLE
     position: relative;
   }
 
-  /* line 765, ../sass/sections/_individuals.scss */
+  /* line 767, ../sass/sections/_individuals.scss */
   .mega-banner .photo-container .holder {
     /* width: 35%;
     */
@@ -4601,21 +4602,21 @@ END FLOATING PEOPLE
   SMALLERFLOATING PEOPLE
   
   ********************************************************** */
-  /* line 776, ../sass/sections/_individuals.scss */
+  /* line 778, ../sass/sections/_individuals.scss */
   .photo01 {
     position: absolute;
     bottom: 0;
     right: 504px;
   }
 
-  /* line 781, ../sass/sections/_individuals.scss */
+  /* line 783, ../sass/sections/_individuals.scss */
   .intro-handwriting {
     position: absolute;
     bottom: 124px;
     left: -708px;
   }
 
-  /* line 786, ../sass/sections/_individuals.scss */
+  /* line 788, ../sass/sections/_individuals.scss */
   .night-photo01 {
     position: absolute;
     bottom: -32px;
@@ -4623,7 +4624,7 @@ END FLOATING PEOPLE
     display: block;
   }
 
-  /* line 792, ../sass/sections/_individuals.scss */
+  /* line 794, ../sass/sections/_individuals.scss */
   .cordell {
     position: absolute;
     bottom: -182px;
@@ -4631,14 +4632,14 @@ END FLOATING PEOPLE
     width: 585px;
   }
 
-  /* line 798, ../sass/sections/_individuals.scss */
+  /* line 800, ../sass/sections/_individuals.scss */
   .night-cordell {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 803, ../sass/sections/_individuals.scss */
+  /* line 805, ../sass/sections/_individuals.scss */
   .robbin {
     position: absolute;
     bottom: -60px;
@@ -4646,14 +4647,14 @@ END FLOATING PEOPLE
     width: 455px;
   }
 
-  /* line 809, ../sass/sections/_individuals.scss */
+  /* line 811, ../sass/sections/_individuals.scss */
   .night-robbin {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 814, ../sass/sections/_individuals.scss */
+  /* line 816, ../sass/sections/_individuals.scss */
   .ramsey {
     position: absolute;
     bottom: -122px;
@@ -4661,14 +4662,14 @@ END FLOATING PEOPLE
     width: 485px;
   }
 
-  /* line 820, ../sass/sections/_individuals.scss */
+  /* line 822, ../sass/sections/_individuals.scss */
   .night-ramsey {
     position: absolute;
     bottom: -105px;
     left: 139px;
   }
 
-  /* line 825, ../sass/sections/_individuals.scss */
+  /* line 827, ../sass/sections/_individuals.scss */
   .geno {
     position: absolute;
     bottom: -36px;
@@ -4676,14 +4677,14 @@ END FLOATING PEOPLE
     width: 205px;
   }
 
-  /* line 831, ../sass/sections/_individuals.scss */
+  /* line 833, ../sass/sections/_individuals.scss */
   .night-geno {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 836, ../sass/sections/_individuals.scss */
+  /* line 838, ../sass/sections/_individuals.scss */
   .john {
     position: absolute;
     bottom: -96px;
@@ -4691,14 +4692,14 @@ END FLOATING PEOPLE
     width: 349px;
   }
 
-  /* line 842, ../sass/sections/_individuals.scss */
+  /* line 844, ../sass/sections/_individuals.scss */
   .night-john {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 847, ../sass/sections/_individuals.scss */
+  /* line 849, ../sass/sections/_individuals.scss */
   .megan {
     position: absolute;
     bottom: -103px;
@@ -4706,14 +4707,14 @@ END FLOATING PEOPLE
     width: 580px;
   }
 
-  /* line 853, ../sass/sections/_individuals.scss */
+  /* line 855, ../sass/sections/_individuals.scss */
   .night-megan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 858, ../sass/sections/_individuals.scss */
+  /* line 860, ../sass/sections/_individuals.scss */
   .alison {
     position: absolute;
     bottom: -100px;
@@ -4721,7 +4722,7 @@ END FLOATING PEOPLE
     width: 413px;
   }
 
-  /* line 864, ../sass/sections/_individuals.scss */
+  /* line 866, ../sass/sections/_individuals.scss */
   .night-alison {
     position: absolute;
     bottom: -83px;
@@ -4729,7 +4730,7 @@ END FLOATING PEOPLE
     width: 298px;
   }
 
-  /* line 870, ../sass/sections/_individuals.scss */
+  /* line 872, ../sass/sections/_individuals.scss */
   .amy {
     position: absolute;
     bottom: -95px;
@@ -4737,14 +4738,14 @@ END FLOATING PEOPLE
     width: 571px;
   }
 
-  /* line 876, ../sass/sections/_individuals.scss */
+  /* line 878, ../sass/sections/_individuals.scss */
   .night-amy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 881, ../sass/sections/_individuals.scss */
+  /* line 883, ../sass/sections/_individuals.scss */
   .brandy {
     position: absolute;
     bottom: -23px;
@@ -4752,14 +4753,14 @@ END FLOATING PEOPLE
     width: 328px;
   }
 
-  /* line 887, ../sass/sections/_individuals.scss */
+  /* line 889, ../sass/sections/_individuals.scss */
   .night-brandy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 892, ../sass/sections/_individuals.scss */
+  /* line 894, ../sass/sections/_individuals.scss */
   .cathy {
     position: absolute;
     bottom: -42px;
@@ -4767,14 +4768,14 @@ END FLOATING PEOPLE
     width: 326px;
   }
 
-  /* line 898, ../sass/sections/_individuals.scss */
+  /* line 900, ../sass/sections/_individuals.scss */
   .night-cathy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 903, ../sass/sections/_individuals.scss */
+  /* line 905, ../sass/sections/_individuals.scss */
   .emily {
     position: absolute;
     bottom: 109px;
@@ -4782,14 +4783,14 @@ END FLOATING PEOPLE
     width: 223px;
   }
 
-  /* line 909, ../sass/sections/_individuals.scss */
+  /* line 911, ../sass/sections/_individuals.scss */
   .night-emily {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 914, ../sass/sections/_individuals.scss */
+  /* line 916, ../sass/sections/_individuals.scss */
   .jack {
     position: absolute;
     bottom: 51px;
@@ -4797,14 +4798,14 @@ END FLOATING PEOPLE
     width: 285px;
   }
 
-  /* line 920, ../sass/sections/_individuals.scss */
+  /* line 922, ../sass/sections/_individuals.scss */
   .night-jack {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 925, ../sass/sections/_individuals.scss */
+  /* line 927, ../sass/sections/_individuals.scss */
   .marysusan {
     position: absolute;
     bottom: 34px;
@@ -4812,14 +4813,14 @@ END FLOATING PEOPLE
     width: 465px;
   }
 
-  /* line 931, ../sass/sections/_individuals.scss */
+  /* line 933, ../sass/sections/_individuals.scss */
   .night-marysusan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 936, ../sass/sections/_individuals.scss */
+  /* line 938, ../sass/sections/_individuals.scss */
   .moe {
     position: absolute;
     bottom: -101px;
@@ -4827,14 +4828,14 @@ END FLOATING PEOPLE
     width: 484px;
   }
 
-  /* line 942, ../sass/sections/_individuals.scss */
+  /* line 944, ../sass/sections/_individuals.scss */
   .night-moe {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 947, ../sass/sections/_individuals.scss */
+  /* line 949, ../sass/sections/_individuals.scss */
   .nathan {
     position: absolute;
     bottom: -100px;
@@ -4842,14 +4843,14 @@ END FLOATING PEOPLE
     width: 469px;
   }
 
-  /* line 953, ../sass/sections/_individuals.scss */
+  /* line 955, ../sass/sections/_individuals.scss */
   .night-nathan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 958, ../sass/sections/_individuals.scss */
+  /* line 960, ../sass/sections/_individuals.scss */
   .sarah {
     position: absolute;
     bottom: -60px;
@@ -4857,14 +4858,14 @@ END FLOATING PEOPLE
     width: 494px;
   }
 
-  /* line 964, ../sass/sections/_individuals.scss */
+  /* line 966, ../sass/sections/_individuals.scss */
   .night-sarah {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 969, ../sass/sections/_individuals.scss */
+  /* line 971, ../sass/sections/_individuals.scss */
   .sean {
     position: absolute;
     bottom: 44px;
@@ -4872,7 +4873,7 @@ END FLOATING PEOPLE
     width: 283px;
   }
 
-  /* line 975, ../sass/sections/_individuals.scss */
+  /* line 977, ../sass/sections/_individuals.scss */
   .night-sean {
     position: absolute;
     bottom: 61px;
@@ -4880,7 +4881,7 @@ END FLOATING PEOPLE
     width: 194px;
   }
 
-  /* line 981, ../sass/sections/_individuals.scss */
+  /* line 983, ../sass/sections/_individuals.scss */
   .shannon {
     position: absolute;
     bottom: 123px;
@@ -4888,14 +4889,14 @@ END FLOATING PEOPLE
     width: 199px;
   }
 
-  /* line 987, ../sass/sections/_individuals.scss */
+  /* line 989, ../sass/sections/_individuals.scss */
   .night-shannon {
     position: absolute;
     bottom: 280px;
     left: -61px;
   }
 
-  /* line 992, ../sass/sections/_individuals.scss */
+  /* line 994, ../sass/sections/_individuals.scss */
   .wicket {
     position: absolute;
     bottom: 46px;
@@ -4903,7 +4904,7 @@ END FLOATING PEOPLE
     width: 351px;
   }
 
-  /* line 998, ../sass/sections/_individuals.scss */
+  /* line 1000, ../sass/sections/_individuals.scss */
   .night-wicket {
     position: absolute;
     bottom: 280px;
@@ -4915,100 +4916,99 @@ END FLOATING PEOPLE
   END SMALLER FLOATING PEOPLE
   
   ********************************************************** */
-  /* line 1009, ../sass/sections/_individuals.scss */
+  /* line 1011, ../sass/sections/_individuals.scss */
   .mega-banner.night .photo-container .holder02 {
     bottom: -24px;
     left: -44px;
     width: 226px;
   }
 
-  /* line 1014, ../sass/sections/_individuals.scss */
+  /* line 1016, ../sass/sections/_individuals.scss */
   .people-holder {
     max-width: 980px;
     padding: 58px 10px 39px;
   }
 
-  /* line 1018, ../sass/sections/_individuals.scss */
+  /* line 1020, ../sass/sections/_individuals.scss */
   .people-holder h2 {
     margin-bottom: 24px;
   }
 
-  /* line 1021, ../sass/sections/_individuals.scss */
+  /* line 1023, ../sass/sections/_individuals.scss */
   .people-holder ul {
     margin: 0 -11px 0 -14px;
   }
 
-  /* line 1024, ../sass/sections/_individuals.scss */
+  /* line 1026, ../sass/sections/_individuals.scss */
   .people-holder ul li {
     padding: 0 4px 28px;
   }
 
-  /* line 1027, ../sass/sections/_individuals.scss */
+  /* line 1029, ../sass/sections/_individuals.scss */
   .people-holder ul img {
     width: 82px;
   }
 
-  /* line 1030, ../sass/sections/_individuals.scss */
+  /* line 1032, ../sass/sections/_individuals.scss */
   .people-holder h3 {
     margin: 0 -6px;
     padding: 5px 0 0;
   }
 
-  /* line 1034, ../sass/sections/_individuals.scss */
+  /* line 1036, ../sass/sections/_individuals.scss */
   .mega-holder .about .holder {
     max-width: 780px;
     padding: 58px 10px 70px;
   }
 
-  /* line 1038, ../sass/sections/_individuals.scss */
+  /* line 1040, ../sass/sections/_individuals.scss */
   .paging {
     margin-bottom: -130px;
   }
 
-  /* line 1041, ../sass/sections/_individuals.scss */
+  /* line 1043, ../sass/sections/_individuals.scss */
   .paging .holder {
     max-width: 944px;
     padding: 121px 10px 44px;
   }
 
-  /* line 1045, ../sass/sections/_individuals.scss */
+  /* line 1047, ../sass/sections/_individuals.scss */
   .paging .prev {
     margin-left: 3px;
   }
 
-  /* line 1048, ../sass/sections/_individuals.scss */
+  /* line 1050, ../sass/sections/_individuals.scss */
   .paging .next {
     margin-left: 26px;
   }
 
-  /* line 1051, ../sass/sections/_individuals.scss */
+  /* line 1053, ../sass/sections/_individuals.scss */
   .people-post {
-    max-width: 1014px;
-    padding: 63px 10px 55px;
+    padding: 63px 0 55px;
   }
 
-  /* line 1055, ../sass/sections/_individuals.scss */
+  /* line 1056, ../sass/sections/_individuals.scss */
   .people-post .meta {
-    padding: 0 14px 0 54px;
+    padding: 0;
   }
 
-  /* line 1058, ../sass/sections/_individuals.scss */
+  /* line 1059, ../sass/sections/_individuals.scss */
   .people-post .cols .col:first-child {
     width: 46%;
   }
 
-  /* line 1061, ../sass/sections/_individuals.scss */
+  /* line 1062, ../sass/sections/_individuals.scss */
   .more-posts .holder {
     padding: 104px 11px 123px;
   }
 
-  /* line 1064, ../sass/sections/_individuals.scss */
+  /* line 1065, ../sass/sections/_individuals.scss */
   .mega-holder .paging .holder {
     padding-top: 44px;
   }
 }
 @media only screen and (max-width: 980px) {
-  /* line 1069, ../sass/sections/_individuals.scss */
+  /* line 1070, ../sass/sections/_individuals.scss */
   .banner-block {
     height: 164px;
     padding: 150px 0 0;
@@ -5016,43 +5016,43 @@ END FLOATING PEOPLE
     margin: 0 0 58px;
   }
 
-  /* line 1075, ../sass/sections/_individuals.scss */
+  /* line 1076, ../sass/sections/_individuals.scss */
   #sidebar {
     width: 220px;
   }
 
-  /* line 1078, ../sass/sections/_individuals.scss */
+  /* line 1079, ../sass/sections/_individuals.scss */
   #content {
     margin: 0 320px 0 0;
   }
 
-  /* line 1081, ../sass/sections/_individuals.scss */
+  /* line 1082, ../sass/sections/_individuals.scss */
   .post .img-box {
     margin: 0 0 25px;
   }
 
-  /* line 1084, ../sass/sections/_individuals.scss */
+  /* line 1085, ../sass/sections/_individuals.scss */
   .post h2 {
     line-height: 47px;
     margin: 0 0 5px;
   }
 
-  /* line 1088, ../sass/sections/_individuals.scss */
+  /* line 1089, ../sass/sections/_individuals.scss */
   .mega-banner {
     display: none;
   }
 
-  /* line 1091, ../sass/sections/_individuals.scss */
+  /* line 1092, ../sass/sections/_individuals.scss */
   .mega-holder {
     background-position: 2px 4px;
   }
 
-  /* line 1094, ../sass/sections/_individuals.scss */
+  /* line 1095, ../sass/sections/_individuals.scss */
   .people-holder {
     padding: 0 0 41px;
   }
 
-  /* line 1097, ../sass/sections/_individuals.scss */
+  /* line 1098, ../sass/sections/_individuals.scss */
   .people-holder h1 {
     display: block;
     margin-bottom: 64px;
@@ -5061,27 +5061,27 @@ END FLOATING PEOPLE
     background: url(../images/individuals/bg-heading.jpg) repeat-x 50% 0;
   }
 
-  /* line 1104, ../sass/sections/_individuals.scss */
+  /* line 1105, ../sass/sections/_individuals.scss */
   .people-holder ul {
     max-width: 740px;
     margin: 0 auto;
     text-align: center;
   }
 
-  /* line 1109, ../sass/sections/_individuals.scss */
+  /* line 1110, ../sass/sections/_individuals.scss */
   .people-holder ul li {
     padding: 0 7px 30px;
     text-align: center;
   }
 
-  /* line 1113, ../sass/sections/_individuals.scss */
+  /* line 1114, ../sass/sections/_individuals.scss */
   .people-holder ul img {
     width: 167px;
     border-radius: 84px;
     -webkit-border-radius: 84px;
   }
 
-  /* line 1118, ../sass/sections/_individuals.scss */
+  /* line 1119, ../sass/sections/_individuals.scss */
   .people-holder h2 {
     margin: 0;
     padding: 17px 0 0;
@@ -5089,12 +5089,12 @@ END FLOATING PEOPLE
     line-height: 17px;
   }
 
-  /* line 1124, ../sass/sections/_individuals.scss */
+  /* line 1125, ../sass/sections/_individuals.scss */
   .mega-holder .about {
     background-position: -245px -107px;
   }
 
-  /* line 1127, ../sass/sections/_individuals.scss */
+  /* line 1128, ../sass/sections/_individuals.scss */
   .mega-holder .about .holder {
     max-width: 580px;
     padding: 66px 28px 71px 10px;
@@ -5103,23 +5103,23 @@ END FLOATING PEOPLE
     text-align: justify;
   }
 
-  /* line 1134, ../sass/sections/_individuals.scss */
+  /* line 1135, ../sass/sections/_individuals.scss */
   .paging {
     margin-bottom: -113px;
   }
 
-  /* line 1137, ../sass/sections/_individuals.scss */
+  /* line 1138, ../sass/sections/_individuals.scss */
   .paging .holder {
     max-width: 728px;
     padding: 113px 10px 34px;
   }
 
-  /* line 1141, ../sass/sections/_individuals.scss */
+  /* line 1142, ../sass/sections/_individuals.scss */
   .paging .next {
     margin-left: 40px;
   }
 
-  /* line 1144, ../sass/sections/_individuals.scss */
+  /* line 1145, ../sass/sections/_individuals.scss */
   .paging + .mega-holder .mega-banner {
     display: block;
     height: 447px;
@@ -5139,7 +5139,7 @@ END FLOATING PEOPLE
   /* **********************************************************
   NIGHT TIME LOBBY IMAGE
   ********************************************************** */
-  /* line 1162, ../sass/sections/_individuals.scss */
+  /* line 1163, ../sass/sections/_individuals.scss */
   .paging + .mega-holder .mega-banner.night {
     background: url(../images/individuals/lobby/Lobby-Night_940x447.jpg) no-repeat 50% 0;
     -moz-background-size: cover;
@@ -5151,7 +5151,7 @@ END FLOATING PEOPLE
     ********************************************************** */
   }
 
-  /* line 1171, ../sass/sections/_individuals.scss */
+  /* line 1172, ../sass/sections/_individuals.scss */
   .mega-banner .photo-container {
     width: 746px;
     height: 392px;
@@ -5161,7 +5161,7 @@ END FLOATING PEOPLE
     width: 95px;
   }
   */
-  /* line 1180, ../sass/sections/_individuals.scss */
+  /* line 1181, ../sass/sections/_individuals.scss */
   .mega-banner.night .photo-container .holder02 {
     bottom: -13px;
     left: -30px;
@@ -5177,21 +5177,21 @@ END FLOATING PEOPLE
   SMALLEST FLOATING PEOPLE
   
   ********************************************************** */
-  /* line 1196, ../sass/sections/_individuals.scss */
+  /* line 1197, ../sass/sections/_individuals.scss */
   .photo01 {
     position: absolute;
     bottom: 0;
     right: 504px;
   }
 
-  /* line 1201, ../sass/sections/_individuals.scss */
+  /* line 1202, ../sass/sections/_individuals.scss */
   .intro-handwriting {
     position: absolute;
     bottom: 124px;
     left: -708px;
   }
 
-  /* line 1206, ../sass/sections/_individuals.scss */
+  /* line 1207, ../sass/sections/_individuals.scss */
   .night-photo01 {
     position: absolute;
     bottom: -32px;
@@ -5199,7 +5199,7 @@ END FLOATING PEOPLE
     display: block;
   }
 
-  /* line 1212, ../sass/sections/_individuals.scss */
+  /* line 1213, ../sass/sections/_individuals.scss */
   .cordell {
     position: absolute;
     bottom: -134px;
@@ -5207,14 +5207,14 @@ END FLOATING PEOPLE
     width: 456px;
   }
 
-  /* line 1218, ../sass/sections/_individuals.scss */
+  /* line 1219, ../sass/sections/_individuals.scss */
   .night-cordell {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1223, ../sass/sections/_individuals.scss */
+  /* line 1224, ../sass/sections/_individuals.scss */
   .robbin {
     position: absolute;
     bottom: -27px;
@@ -5222,14 +5222,14 @@ END FLOATING PEOPLE
     width: 355px;
   }
 
-  /* line 1229, ../sass/sections/_individuals.scss */
+  /* line 1230, ../sass/sections/_individuals.scss */
   .night-robbin {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1234, ../sass/sections/_individuals.scss */
+  /* line 1235, ../sass/sections/_individuals.scss */
   .ramsey {
     position: absolute;
     bottom: -86px;
@@ -5237,14 +5237,14 @@ END FLOATING PEOPLE
     width: 378px;
   }
 
-  /* line 1240, ../sass/sections/_individuals.scss */
+  /* line 1241, ../sass/sections/_individuals.scss */
   .night-ramsey {
     position: absolute;
     bottom: -105px;
     left: 139px;
   }
 
-  /* line 1245, ../sass/sections/_individuals.scss */
+  /* line 1246, ../sass/sections/_individuals.scss */
   .geno {
     position: absolute;
     bottom: -7px;
@@ -5252,14 +5252,14 @@ END FLOATING PEOPLE
     width: 161px;
   }
 
-  /* line 1251, ../sass/sections/_individuals.scss */
+  /* line 1252, ../sass/sections/_individuals.scss */
   .night-geno {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1256, ../sass/sections/_individuals.scss */
+  /* line 1257, ../sass/sections/_individuals.scss */
   .john {
     position: absolute;
     bottom: -62px;
@@ -5267,14 +5267,14 @@ END FLOATING PEOPLE
     width: 267px;
   }
 
-  /* line 1262, ../sass/sections/_individuals.scss */
+  /* line 1263, ../sass/sections/_individuals.scss */
   .night-john {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1267, ../sass/sections/_individuals.scss */
+  /* line 1268, ../sass/sections/_individuals.scss */
   .megan {
     position: absolute;
     bottom: -54px;
@@ -5282,14 +5282,14 @@ END FLOATING PEOPLE
     width: 452px;
   }
 
-  /* line 1273, ../sass/sections/_individuals.scss */
+  /* line 1274, ../sass/sections/_individuals.scss */
   .night-megan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1278, ../sass/sections/_individuals.scss */
+  /* line 1279, ../sass/sections/_individuals.scss */
   .alison {
     position: absolute;
     bottom: -54px;
@@ -5297,7 +5297,7 @@ END FLOATING PEOPLE
     width: 322px;
   }
 
-  /* line 1284, ../sass/sections/_individuals.scss */
+  /* line 1285, ../sass/sections/_individuals.scss */
   .night-alison {
     position: absolute;
     bottom: -83px;
@@ -5305,7 +5305,7 @@ END FLOATING PEOPLE
     width: 298px;
   }
 
-  /* line 1290, ../sass/sections/_individuals.scss */
+  /* line 1291, ../sass/sections/_individuals.scss */
   .amy {
     position: absolute;
     bottom: -53px;
@@ -5313,14 +5313,14 @@ END FLOATING PEOPLE
     width: 445px;
   }
 
-  /* line 1296, ../sass/sections/_individuals.scss */
+  /* line 1297, ../sass/sections/_individuals.scss */
   .night-amy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1301, ../sass/sections/_individuals.scss */
+  /* line 1302, ../sass/sections/_individuals.scss */
   .brandy {
     position: absolute;
     bottom: 3px;
@@ -5328,14 +5328,14 @@ END FLOATING PEOPLE
     width: 256px;
   }
 
-  /* line 1307, ../sass/sections/_individuals.scss */
+  /* line 1308, ../sass/sections/_individuals.scss */
   .night-brandy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1312, ../sass/sections/_individuals.scss */
+  /* line 1313, ../sass/sections/_individuals.scss */
   .cathy {
     position: absolute;
     bottom: -11px;
@@ -5343,14 +5343,14 @@ END FLOATING PEOPLE
     width: 254px;
   }
 
-  /* line 1318, ../sass/sections/_individuals.scss */
+  /* line 1319, ../sass/sections/_individuals.scss */
   .night-cathy {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1323, ../sass/sections/_individuals.scss */
+  /* line 1324, ../sass/sections/_individuals.scss */
   .emily {
     position: absolute;
     bottom: 107px;
@@ -5358,14 +5358,14 @@ END FLOATING PEOPLE
     width: 174px;
   }
 
-  /* line 1329, ../sass/sections/_individuals.scss */
+  /* line 1330, ../sass/sections/_individuals.scss */
   .night-emily {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1334, ../sass/sections/_individuals.scss */
+  /* line 1335, ../sass/sections/_individuals.scss */
   .jack {
     position: absolute;
     bottom: 61px;
@@ -5373,14 +5373,14 @@ END FLOATING PEOPLE
     width: 222px;
   }
 
-  /* line 1340, ../sass/sections/_individuals.scss */
+  /* line 1341, ../sass/sections/_individuals.scss */
   .night-jack {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1345, ../sass/sections/_individuals.scss */
+  /* line 1346, ../sass/sections/_individuals.scss */
   .marysusan {
     position: absolute;
     bottom: 48px;
@@ -5388,14 +5388,14 @@ END FLOATING PEOPLE
     width: 362px;
   }
 
-  /* line 1351, ../sass/sections/_individuals.scss */
+  /* line 1352, ../sass/sections/_individuals.scss */
   .night-marysusan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1356, ../sass/sections/_individuals.scss */
+  /* line 1357, ../sass/sections/_individuals.scss */
   .moe {
     position: absolute;
     bottom: -71px;
@@ -5403,14 +5403,14 @@ END FLOATING PEOPLE
     width: 377px;
   }
 
-  /* line 1362, ../sass/sections/_individuals.scss */
+  /* line 1363, ../sass/sections/_individuals.scss */
   .night-moe {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1367, ../sass/sections/_individuals.scss */
+  /* line 1368, ../sass/sections/_individuals.scss */
   .nathan {
     position: absolute;
     bottom: -55px;
@@ -5418,14 +5418,14 @@ END FLOATING PEOPLE
     width: 366px;
   }
 
-  /* line 1373, ../sass/sections/_individuals.scss */
+  /* line 1374, ../sass/sections/_individuals.scss */
   .night-nathan {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1378, ../sass/sections/_individuals.scss */
+  /* line 1379, ../sass/sections/_individuals.scss */
   .sarah {
     position: absolute;
     bottom: -26px;
@@ -5433,14 +5433,14 @@ END FLOATING PEOPLE
     width: 385px;
   }
 
-  /* line 1384, ../sass/sections/_individuals.scss */
+  /* line 1385, ../sass/sections/_individuals.scss */
   .night-sarah {
     position: absolute;
     bottom: -32px;
     left: -61px;
   }
 
-  /* line 1389, ../sass/sections/_individuals.scss */
+  /* line 1390, ../sass/sections/_individuals.scss */
   .sean {
     position: absolute;
     bottom: 56px;
@@ -5448,7 +5448,7 @@ END FLOATING PEOPLE
     width: 221px;
   }
 
-  /* line 1395, ../sass/sections/_individuals.scss */
+  /* line 1396, ../sass/sections/_individuals.scss */
   .night-sean {
     position: absolute;
     bottom: 61px;
@@ -5456,7 +5456,7 @@ END FLOATING PEOPLE
     width: 194px;
   }
 
-  /* line 1401, ../sass/sections/_individuals.scss */
+  /* line 1402, ../sass/sections/_individuals.scss */
   .shannon {
     position: absolute;
     bottom: 117px;
@@ -5464,14 +5464,14 @@ END FLOATING PEOPLE
     width: 155px;
   }
 
-  /* line 1407, ../sass/sections/_individuals.scss */
+  /* line 1408, ../sass/sections/_individuals.scss */
   .night-shannon {
     position: absolute;
     bottom: 280px;
     left: -61px;
   }
 
-  /* line 1412, ../sass/sections/_individuals.scss */
+  /* line 1413, ../sass/sections/_individuals.scss */
   .wicket {
     position: absolute;
     bottom: 58px;
@@ -5479,7 +5479,7 @@ END FLOATING PEOPLE
     width: 274px;
   }
 
-  /* line 1418, ../sass/sections/_individuals.scss */
+  /* line 1419, ../sass/sections/_individuals.scss */
   .night-wicket {
     position: absolute;
     bottom: 280px;
@@ -5491,7 +5491,7 @@ END FLOATING PEOPLE
   END SMALLEST FLOATING PEOPLE
   
   ********************************************************** */
-  /* line 1429, ../sass/sections/_individuals.scss */
+  /* line 1430, ../sass/sections/_individuals.scss */
   .people-post .cols-holder,
   .people-post .meta,
   .people-post .cols {
@@ -5499,23 +5499,21 @@ END FLOATING PEOPLE
     overflow: hidden;
   }
 
-  /* line 1435, ../sass/sections/_individuals.scss */
+  /* line 1436, ../sass/sections/_individuals.scss */
   .people-post .meta {
-    width: auto;
     height: 1%;
     padding: 0 0 38px;
   }
 
-  /* line 1440, ../sass/sections/_individuals.scss */
+  /* line 1441, ../sass/sections/_individuals.scss */
   .people-post .meta img {
     float: left;
     margin: 0 -1px 0 1px;
   }
 
-  /* line 1444, ../sass/sections/_individuals.scss */
+  /* line 1445, ../sass/sections/_individuals.scss */
   .people-post {
-    max-width: 640px;
-    padding: 42px 10px 62px 48px;
+    padding: 42px 0 62px;
     font-size: 14px;
     line-height: 24px;
   }
@@ -5537,13 +5535,13 @@ END FLOATING PEOPLE
 
   /* line 1461, ../sass/sections/_individuals.scss */
   .people-post .meta .holder {
-    padding: 48px 0 25px 54px;
+    padding: 48px 0 25px;
   }
 
   /* line 1464, ../sass/sections/_individuals.scss */
   .people-post .meta h3 {
-    padding: 0 0 21px 16px;
-    text-align: left;
+    padding: 0 0 21px;
+    text-align: center;
   }
 
   /* line 1468, ../sass/sections/_individuals.scss */
@@ -5794,32 +5792,31 @@ END FLOATING PEOPLE
 
   /* line 1636, ../sass/sections/_individuals.scss */
   .people-post {
-    max-width: 360px;
-    padding: 176px 10px 49px;
+    padding: 176px 0 49px;
   }
 
-  /* line 1640, ../sass/sections/_individuals.scss */
+  /* line 1639, ../sass/sections/_individuals.scss */
   .people-post .heading {
     padding-right: 0;
   }
 
-  /* line 1643, ../sass/sections/_individuals.scss */
+  /* line 1642, ../sass/sections/_individuals.scss */
   .people-post .meta {
     padding-bottom: 3px;
   }
 
-  /* line 1646, ../sass/sections/_individuals.scss */
+  /* line 1645, ../sass/sections/_individuals.scss */
   .people-post .meta img {
     float: none;
     margin: 0 6px 0 0;
   }
 
-  /* line 1650, ../sass/sections/_individuals.scss */
+  /* line 1649, ../sass/sections/_individuals.scss */
   .people-post .meta .holder {
-    padding: 29px 0 29px 52px;
+    padding: 29px 0 29px;
   }
 
-  /* line 1653, ../sass/sections/_individuals.scss */
+  /* line 1652, ../sass/sections/_individuals.scss */
   .people-post .cols .col,
   .people-post .cols .col:first-child {
     width: auto;
@@ -5827,87 +5824,87 @@ END FLOATING PEOPLE
     padding: 0;
   }
 
-  /* line 1659, ../sass/sections/_individuals.scss */
+  /* line 1658, ../sass/sections/_individuals.scss */
   .people-post .cols {
     padding: 0 21px 0 37px;
   }
 
-  /* line 1662, ../sass/sections/_individuals.scss */
+  /* line 1661, ../sass/sections/_individuals.scss */
   .more-posts .holder {
     max-width: 284px;
     padding: 67px 10px 74px;
   }
 
-  /* line 1666, ../sass/sections/_individuals.scss */
+  /* line 1665, ../sass/sections/_individuals.scss */
   .more-posts h3 {
     font-size: 28px;
     line-height: 31px;
     margin-bottom: 34px;
   }
 
-  /* line 1671, ../sass/sections/_individuals.scss */
+  /* line 1670, ../sass/sections/_individuals.scss */
   .more-posts ul {
     padding: 0 6px 19px 0;
   }
 
-  /* line 1674, ../sass/sections/_individuals.scss */
+  /* line 1673, ../sass/sections/_individuals.scss */
   .more-posts ul li {
     float: none;
     padding: 0 0 20px;
   }
 }
 @media only screen and (max-width: 700px) {
-  /* line 1680, ../sass/sections/_individuals.scss */
+  /* line 1679, ../sass/sections/_individuals.scss */
   #content {
     margin: 0 62px 60px;
     float: none;
   }
 
-  /* line 1684, ../sass/sections/_individuals.scss */
+  /* line 1683, ../sass/sections/_individuals.scss */
   #sidebar {
     float: none;
     width: 100%;
   }
 
-  /* line 1688, ../sass/sections/_individuals.scss */
+  /* line 1687, ../sass/sections/_individuals.scss */
   .m1,
   .c1 {
     float: none;
   }
 
-  /* line 1692, ../sass/sections/_individuals.scss */
+  /* line 1691, ../sass/sections/_individuals.scss */
   .banner-block {
     height: 112px;
     margin: 0 0 54px;
     padding: 115px 0 0;
   }
 
-  /* line 1697, ../sass/sections/_individuals.scss */
+  /* line 1696, ../sass/sections/_individuals.scss */
   .banner-block h2 {
     font-size: 27px;
     line-height: 29px;
     margin: 0 0 9px;
   }
 
-  /* line 1702, ../sass/sections/_individuals.scss */
+  /* line 1701, ../sass/sections/_individuals.scss */
   .post h2 {
     font-size: 27px;
     line-height: 34px;
     margin: 0 0 5px;
   }
 
-  /* line 1707, ../sass/sections/_individuals.scss */
+  /* line 1706, ../sass/sections/_individuals.scss */
   .post .img-box {
     margin: 0 0 28px;
   }
 
-  /* line 1710, ../sass/sections/_individuals.scss */
+  /* line 1709, ../sass/sections/_individuals.scss */
   .post-paging {
     padding: 14px 0 0;
   }
 }
 @media only screen and (max-width: 479px) {
-  /* line 1715, ../sass/sections/_individuals.scss */
+  /* line 1714, ../sass/sections/_individuals.scss */
   .banner-block {
     padding: 106px 40px 0;
     margin: 0 0 45px;
@@ -5915,29 +5912,29 @@ END FLOATING PEOPLE
     width: auto;
   }
 
-  /* line 1721, ../sass/sections/_individuals.scss */
+  /* line 1720, ../sass/sections/_individuals.scss */
   .banner-block h2 {
     margin: 0 0 5px;
   }
 
-  /* line 1724, ../sass/sections/_individuals.scss */
+  /* line 1723, ../sass/sections/_individuals.scss */
   .banner-block h3 {
     line-height: 25px;
     margin: 0 0 3px;
   }
 
-  /* line 1728, ../sass/sections/_individuals.scss */
+  /* line 1727, ../sass/sections/_individuals.scss */
   #content {
     margin: 0 46px 43px;
   }
 
-  /* line 1731, ../sass/sections/_individuals.scss */
+  /* line 1730, ../sass/sections/_individuals.scss */
   .post-paging {
     margin: -3px 0 0;
     padding: 0;
   }
 
-  /* line 1735, ../sass/sections/_individuals.scss */
+  /* line 1734, ../sass/sections/_individuals.scss */
   .post-paging .btn-prev,
   .post-paging .btn-next {
     font-size: 14px;
@@ -5946,24 +5943,24 @@ END FLOATING PEOPLE
     padding: 3px 0 4px 21px;
   }
 
-  /* line 1742, ../sass/sections/_individuals.scss */
+  /* line 1741, ../sass/sections/_individuals.scss */
   .post-paging .btn-next {
     background-position: 100% -138px;
     padding: 3px 21px 4px 0;
   }
 }
 @media only screen and (max-width: 475px) {
-  /* line 1748, ../sass/sections/_individuals.scss */
+  /* line 1747, ../sass/sections/_individuals.scss */
   .mega-holder {
     background-position: 3px 1px;
   }
 
-  /* line 1751, ../sass/sections/_individuals.scss */
+  /* line 1750, ../sass/sections/_individuals.scss */
   .people-holder {
     padding-bottom: 30px;
   }
 
-  /* line 1754, ../sass/sections/_individuals.scss */
+  /* line 1753, ../sass/sections/_individuals.scss */
   .people-holder h1 {
     margin-bottom: 43px;
     padding: 154px 20px 81px;
@@ -5971,106 +5968,107 @@ END FLOATING PEOPLE
     background-position: 50% -3px;
   }
 
-  /* line 1760, ../sass/sections/_individuals.scss */
+  /* line 1759, ../sass/sections/_individuals.scss */
   .people-holder ul {
     max-width: 278px;
   }
 
-  /* line 1763, ../sass/sections/_individuals.scss */
+  /* line 1762, ../sass/sections/_individuals.scss */
   .people-holder ul li {
     padding: 0 5px 29px;
   }
 
-  /* line 1766, ../sass/sections/_individuals.scss */
+  /* line 1765, ../sass/sections/_individuals.scss */
   .people-holder ul img {
     width: 126px;
     border-radius: 68px;
     -webkit-border-radius: 68px;
   }
 
-  /* line 1771, ../sass/sections/_individuals.scss */
+  /* line 1770, ../sass/sections/_individuals.scss */
   .people-holder h2 {
     padding-top: 19px;
   }
 
-  /* line 1774, ../sass/sections/_individuals.scss */
+  /* line 1773, ../sass/sections/_individuals.scss */
   .mega-holder .about {
     background-position: -495px -106px;
   }
 
-  /* line 1777, ../sass/sections/_individuals.scss */
+  /* line 1776, ../sass/sections/_individuals.scss */
   .mega-holder .about .holder {
     max-width: none;
     padding: 66px 25px 79px;
   }
 
-  /* line 1781, ../sass/sections/_individuals.scss */
+  /* line 1780, ../sass/sections/_individuals.scss */
   .paging .holder {
     max-width: 268px;
     padding: 139px 10px 32px;
   }
 
-  /* line 1785, ../sass/sections/_individuals.scss */
+  /* line 1784, ../sass/sections/_individuals.scss */
   .people-post {
-    padding: 181px 10px 42px;
+    padding: 181px 0 42px;
   }
 
-  /* line 1788, ../sass/sections/_individuals.scss */
+  /* line 1787, ../sass/sections/_individuals.scss */
   .people-post .heading {
     font-size: 18px;
     line-height: 21px;
     padding-bottom: 38px;
   }
 
-  /* line 1793, ../sass/sections/_individuals.scss */
+  /* line 1792, ../sass/sections/_individuals.scss */
   .people-post .heading h2 {
     font-size: 28px;
     line-height: 31px;
     margin-bottom: 9px;
   }
 
-  /* line 1798, ../sass/sections/_individuals.scss */
+  /* line 1797, ../sass/sections/_individuals.scss */
   .people-post .meta img {
-    width: 227px;
-    border-radius: 114px;
-    -webkit-border-radius: 114px;
-    margin-right: 2px;
+    max-width: 100%;
+    width: auto;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
   }
 
-  /* line 1804, ../sass/sections/_individuals.scss */
+  /* line 1805, ../sass/sections/_individuals.scss */
   .people-post .meta .holder {
-    padding: 37px 0 39px 23px;
+    padding: 37px 0 39px;
   }
 
-  /* line 1807, ../sass/sections/_individuals.scss */
+  /* line 1808, ../sass/sections/_individuals.scss */
   .people-post .meta h3 {
     text-align: center;
-    padding: 0 22px 22px 0;
+    padding: 0 0 22px;
     font-size: 18px;
     line-height: 21px;
   }
 
-  /* line 1813, ../sass/sections/_individuals.scss */
+  /* line 1814, ../sass/sections/_individuals.scss */
   .people-post .meta .social {
     margin-right: -19px;
   }
 
-  /* line 1816, ../sass/sections/_individuals.scss */
+  /* line 1817, ../sass/sections/_individuals.scss */
   .people-post .cols {
     padding: 0 20px 0 16px;
   }
 
-  /* line 1819, ../sass/sections/_individuals.scss */
+  /* line 1820, ../sass/sections/_individuals.scss */
   .more-posts .holder {
     padding: 51px 10px 49px;
   }
 
-  /* line 1822, ../sass/sections/_individuals.scss */
+  /* line 1823, ../sass/sections/_individuals.scss */
   .more-posts h3 {
     margin-bottom: 49px;
   }
 
-  /* line 1825, ../sass/sections/_individuals.scss */
+  /* line 1826, ../sass/sections/_individuals.scss */
   .more-posts .view-all {
     max-width: 120px;
     line-height: 24px;
@@ -6078,25 +6076,25 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1832, ../sass/sections/_individuals.scss */
+  /* line 1833, ../sass/sections/_individuals.scss */
   #gallery-slider {
     padding: 76px 0 82px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1832, ../sass/sections/_individuals.scss */
+  /* line 1833, ../sass/sections/_individuals.scss */
   #gallery-slider {
     padding: 60px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1832, ../sass/sections/_individuals.scss */
+  /* line 1833, ../sass/sections/_individuals.scss */
   #gallery-slider {
     padding: 30px 0;
   }
 }
 
-/* line 1844, ../sass/sections/_individuals.scss */
+/* line 1845, ../sass/sections/_individuals.scss */
 #extended-tribe {
   background: url(../images/individuals/clients/bg_extended_tribe.jpg) no-repeat 50% 0;
   -moz-background-size: cover;
@@ -6105,24 +6103,24 @@ END FLOATING PEOPLE
   background-size: cover;
 }
 @media screen and (min-width: 1024px) {
-  /* line 1844, ../sass/sections/_individuals.scss */
+  /* line 1845, ../sass/sections/_individuals.scss */
   #extended-tribe {
     padding: 88px 0 38px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1844, ../sass/sections/_individuals.scss */
+  /* line 1845, ../sass/sections/_individuals.scss */
   #extended-tribe {
     padding: 60px 0 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1844, ../sass/sections/_individuals.scss */
+  /* line 1845, ../sass/sections/_individuals.scss */
   #extended-tribe {
     padding: 30px 0;
   }
 }
-/* line 1856, ../sass/sections/_individuals.scss */
+/* line 1857, ../sass/sections/_individuals.scss */
 #extended-tribe ul {
   display: block;
   position: relative;
@@ -6132,34 +6130,34 @@ END FLOATING PEOPLE
   list-style: none;
 }
 @media screen and (min-width: 1024px) {
-  /* line 1856, ../sass/sections/_individuals.scss */
+  /* line 1857, ../sass/sections/_individuals.scss */
   #extended-tribe ul {
     margin: 56px 0 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1856, ../sass/sections/_individuals.scss */
+  /* line 1857, ../sass/sections/_individuals.scss */
   #extended-tribe ul {
     margin: 30px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1856, ../sass/sections/_individuals.scss */
+  /* line 1857, ../sass/sections/_individuals.scss */
   #extended-tribe ul {
     margin: 22px 0 0;
   }
 }
-/* line 1872, ../sass/sections/_individuals.scss */
+/* line 1873, ../sass/sections/_individuals.scss */
 #extended-tribe ul li {
   float: left;
   margin-bottom: 20px;
 }
-/* line 1876, ../sass/sections/_individuals.scss */
+/* line 1877, ../sass/sections/_individuals.scss */
 #extended-tribe ul a {
   display: table;
   margin: 0 auto;
 }
-/* line 1879, ../sass/sections/_individuals.scss */
+/* line 1880, ../sass/sections/_individuals.scss */
 #extended-tribe ul a img {
   margin: 0 auto;
   width: 100%;
@@ -6167,98 +6165,98 @@ END FLOATING PEOPLE
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1887, ../sass/sections/_individuals.scss */
+  /* line 1888, ../sass/sections/_individuals.scss */
   #odds-end {
     padding: 79px 0 118px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1887, ../sass/sections/_individuals.scss */
+  /* line 1888, ../sass/sections/_individuals.scss */
   #odds-end {
     padding: 60px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1887, ../sass/sections/_individuals.scss */
+  /* line 1888, ../sass/sections/_individuals.scss */
   #odds-end {
     padding: 30px 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1897, ../sass/sections/_individuals.scss */
+  /* line 1898, ../sass/sections/_individuals.scss */
   #odds-end h1 {
     margin: 0 0 56px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1897, ../sass/sections/_individuals.scss */
+  /* line 1898, ../sass/sections/_individuals.scss */
   #odds-end h1 {
     margin: 0 0 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1897, ../sass/sections/_individuals.scss */
+  /* line 1898, ../sass/sections/_individuals.scss */
   #odds-end h1 {
     margin: 0 0 22px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1908, ../sass/sections/_individuals.scss */
+  /* line 1909, ../sass/sections/_individuals.scss */
   #odds-end .half-block {
     padding: 0 5% 0 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1908, ../sass/sections/_individuals.scss */
+  /* line 1909, ../sass/sections/_individuals.scss */
   #odds-end .half-block {
     padding: 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 1915, ../sass/sections/_individuals.scss */
+  /* line 1916, ../sass/sections/_individuals.scss */
   #odds-end .half-block p {
     margin: 0 0 42px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1915, ../sass/sections/_individuals.scss */
+  /* line 1916, ../sass/sections/_individuals.scss */
   #odds-end .half-block p {
     margin: 0 0 30px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1915, ../sass/sections/_individuals.scss */
+  /* line 1916, ../sass/sections/_individuals.scss */
   #odds-end .half-block p {
     margin: 0 0 22px;
   }
 }
-/* line 1926, ../sass/sections/_individuals.scss */
+/* line 1927, ../sass/sections/_individuals.scss */
 #odds-end .half-block .button {
   max-width: 192px;
 }
 @media screen and (max-width: 640px) {
-  /* line 1926, ../sass/sections/_individuals.scss */
+  /* line 1927, ../sass/sections/_individuals.scss */
   #odds-end .half-block .button {
     max-width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 1932, ../sass/sections/_individuals.scss */
+  /* line 1933, ../sass/sections/_individuals.scss */
   #odds-end .half-block + .half-block {
     padding: 0 0 0 5%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1932, ../sass/sections/_individuals.scss */
+  /* line 1933, ../sass/sections/_individuals.scss */
   #odds-end .half-block + .half-block {
     padding: 0;
   }
-  /* line 1938, ../sass/sections/_individuals.scss */
+  /* line 1939, ../sass/sections/_individuals.scss */
   #odds-end .half-block + .half-block.border-left {
     border: 0;
   }
 }
-/* line 1942, ../sass/sections/_individuals.scss */
+/* line 1943, ../sass/sections/_individuals.scss */
 #odds-end .half-block + .half-block input[type="email"] {
   height: 3.75rem;
   position: relative;
@@ -6272,40 +6270,103 @@ END FLOATING PEOPLE
   border-radius: 2px;
 }
 @media screen and (max-width: 640px) {
-  /* line 1942, ../sass/sections/_individuals.scss */
+  /* line 1943, ../sass/sections/_individuals.scss */
   #odds-end .half-block + .half-block input[type="email"] {
     width: 100%;
   }
 }
-/* line 1955, ../sass/sections/_individuals.scss */
+/* line 1956, ../sass/sections/_individuals.scss */
 #odds-end .half-block + .half-block .button {
   max-width: 192px;
   position: relative;
 }
 @media screen and (max-width: 640px) {
-  /* line 1955, ../sass/sections/_individuals.scss */
+  /* line 1956, ../sass/sections/_individuals.scss */
   #odds-end .half-block + .half-block .button {
     max-width: 100%;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  /* line 1965, ../sass/sections/_individuals.scss */
+  /* line 1966, ../sass/sections/_individuals.scss */
   .mega-holder .about .holder {
     padding: 63px 15px 69px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 1965, ../sass/sections/_individuals.scss */
+  /* line 1966, ../sass/sections/_individuals.scss */
   .mega-holder .about .holder {
     padding: 44px 15px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 1965, ../sass/sections/_individuals.scss */
+  /* line 1966, ../sass/sections/_individuals.scss */
   .mega-holder .about .holder {
     padding: 30px 15px;
   }
+}
+
+/* line 1977, ../sass/sections/_individuals.scss */
+.row.heading {
+  padding: 0;
+}
+
+@media screen and (min-width: 1055px) {
+  /* line 1980, ../sass/sections/_individuals.scss */
+  .row.cols-holder {
+    padding: 1.25rem 0;
+  }
+}
+@media screen and (max-width: 1054px) {
+  /* line 1980, ../sass/sections/_individuals.scss */
+  .row.cols-holder {
+    padding: 1.25rem 0.9375rem;
+  }
+}
+
+/* line 1989, ../sass/sections/_individuals.scss */
+.people-post .meta h3 {
+  text-transform: none;
+}
+
+/* line 1992, ../sass/sections/_individuals.scss */
+.people-post .meta img {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 1995, ../sass/sections/_individuals.scss */
+  .cols-holder .columns {
+    width: 100%;
+  }
+}
+
+/* line 2000, ../sass/sections/_individuals.scss */
+.people-post .meta .social {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 240px;
+}
+
+/* line 2005, ../sass/sections/_individuals.scss */
+.people-post .meta .social li {
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+
+/* line 2010, ../sass/sections/_individuals.scss */
+.people-post .meta .holder {
+  float: left;
+  width: 100%;
+}
+
+/* line 2014, ../sass/sections/_individuals.scss */
+.people-post .meta .social li {
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 22px;
+  line-height: 1.375rem;
 }
 
 /* line 1, ../sass/sections/_store.scss */

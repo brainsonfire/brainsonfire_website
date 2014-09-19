@@ -545,7 +545,9 @@ a {
     }
   }
   &.individual-detail .mega-holder {
-    margin: -110px 0 0; 
+    @include min-screen(981px) {
+      margin: -110px 0 0;  
+    }     
   }
   &.case-study {
     background: #FFF;

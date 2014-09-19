@@ -400,7 +400,7 @@ END FLOATING PEOPLE
   /* max-width: 1170px;
   */
   max-width: 960px;
-  margin: 0 auto 52px;
+  margin: 0 auto;
   /* padding: 55px 10px 39px;
   */
   padding: 30px 10px 0px;
@@ -554,9 +554,8 @@ END FLOATING PEOPLE
   background-position: -72px -49px;
 }
 .people-post {
-  max-width: 1170px;
   margin: 0 auto;
-  padding: 61px 10px 56px;
+  padding: 61px 0 56px;
   font-size: 18px;
   line-height: 30px;
 }
@@ -579,15 +578,18 @@ END FLOATING PEOPLE
   vertical-align: top;
 }
 .people-post .meta {
-  width: 289px;
-  padding: 10px 54px;
+  // width: 289px;
+  padding: 10px 0;
   text-align: center;
 }
 .people-post .meta img {
-  width: 257px;
-  border-radius: 130px;
-  -webkit-border-radius: 130px;
-  margin-right: 24px;
+  // width: 257px;
+  // border-radius: 130px;
+  // -webkit-border-radius: 130px;
+  // margin-right: 24px;
+  width: auto;
+  max-width: 100%;
+  @include border-radius(100%);
 }
 .people-post .meta .holder {
   height: 1%;
@@ -596,7 +598,7 @@ END FLOATING PEOPLE
 }
 .people-post .meta h3 {
   margin: 0;
-  padding: 0 30px 19px 0;
+  padding: 0 0 19px;
   font: italic bold 24px/27px Georgia, "Times New Roman", Times, serif;
   color: #939f57;
 }
@@ -660,7 +662,7 @@ END FLOATING PEOPLE
   padding: 0;
 }
 .people-post ul.arbitrary-facts {
-  margin: 0 0 20px 20px;
+  margin: 0 0 20px;
   list-style: disc inside;
   width: 100%;
 }
@@ -1049,11 +1051,10 @@ END FLOATING PEOPLE
     margin-left: 26px;
   }
   .people-post {
-    max-width: 1014px;
-    padding: 63px 10px 55px;
+    padding: 63px 0 55px;
   }
   .people-post .meta {
-    padding: 0 14px 0 54px;
+    padding: 0;
   }
   .people-post .cols .col:first-child {
     width: 46%;
@@ -1433,7 +1434,7 @@ END FLOATING PEOPLE
     overflow: hidden;
   }
   .people-post .meta {
-    width: auto;
+    // width: auto;
     height: 1%;
     padding: 0 0 38px;
   }
@@ -1442,8 +1443,7 @@ END FLOATING PEOPLE
     margin: 0 -1px 0 1px;
   }
   .people-post {
-    max-width: 640px;
-    padding: 42px 10px 62px 48px;
+    padding: 42px 0 62px;
     font-size: 14px;
     line-height: 24px;
   }
@@ -1459,11 +1459,11 @@ END FLOATING PEOPLE
     font-weight: normal;
   }
   .people-post .meta .holder {
-    padding: 48px 0 25px 54px;
+    padding: 48px 0 25px;
   }
   .people-post .meta h3 {
-    padding: 0 0 21px 16px;
-    text-align: left;
+    padding: 0 0 21px;
+    text-align: center;
   }
   .people-post .meta .social {
     width: auto;
@@ -1634,8 +1634,7 @@ END FLOATING PEOPLE
     display: none;
   }
   .people-post {
-    max-width: 360px;
-    padding: 176px 10px 49px;
+    padding: 176px 0 49px;
   }
   .people-post .heading {
     padding-right: 0;
@@ -1648,7 +1647,7 @@ END FLOATING PEOPLE
     margin: 0 6px 0 0;
   }
   .people-post .meta .holder {
-    padding: 29px 0 29px 52px;
+    padding: 29px 0 29px;
   }
   .people-post .cols .col,
   .people-post .cols .col:first-child {
@@ -1783,7 +1782,7 @@ END FLOATING PEOPLE
     padding: 139px 10px 32px;
   }
   .people-post {
-    padding: 181px 10px 42px;
+    padding: 181px 0 42px;
   }
   .people-post .heading {
     font-size: 18px;
@@ -1796,17 +1795,19 @@ END FLOATING PEOPLE
     margin-bottom: 9px;
   }
   .people-post .meta img {
-    width: 227px;
-    border-radius: 114px;
-    -webkit-border-radius: 114px;
-    margin-right: 2px;
+    // width: 227px;
+    // border-radius: 114px;
+    // -webkit-border-radius: 114px;
+    max-width: 100%;
+    width: auto;
+    @include border-radius(100%);
   }
   .people-post .meta .holder {
-    padding: 37px 0 39px 23px;
+    padding: 37px 0 39px;
   }
   .people-post .meta h3 {
     text-align: center;
-    padding: 0 22px 22px 0;
+    padding: 0 0 22px;
     font-size: 18px;
     line-height: 21px;
   }
@@ -1972,4 +1973,45 @@ END FLOATING PEOPLE
   @include max-screen(767px) {
     padding: 30px 15px;
   } 
+}
+.row.heading {
+  padding: 0;
+}
+.row.cols-holder {
+  
+  @include min-screen(1055px) {
+    padding: 1.25rem 0;  
+  }
+  @include max-screen(1054px) {
+    padding: 1.25rem 0.9375rem;
+  }
+}
+.people-post .meta h3 {
+  text-transform: none;
+}
+.people-post .meta img {
+  margin: 0 auto;
+}
+.cols-holder .columns {
+  @include max-screen(767px) {
+    width: 100%;
+  }
+}
+.people-post .meta .social {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 240px;
+}
+.people-post .meta .social li {
+  float: left;
+  margin: 0;
+  width: 50%;
+}
+.people-post .meta .holder {
+    float: left;
+    width: 100%;
+}
+.people-post .meta .social li {
+  @include font-size(18);
+  @include line-height(22);
 }
