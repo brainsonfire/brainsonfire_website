@@ -22,12 +22,11 @@
 					</div>
 				</div>
 
-				<section id="book-banner" class="white-text main-photo">
+				<section id="book-banner" class="white-text main-photo thepassionofconversation-book">
 					<div class="row">
 						<div class="half-block right">
 							<h1>The Passion Conversation</h1>
 							<p>a book about Understanding, sparking, & sustaining word of mouth marketing.</p>
-							
 							<a href="#dummy" class="button btn-orange">buy it now</a>
 						</div>
 					</div>

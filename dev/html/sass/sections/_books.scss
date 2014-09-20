@@ -68,8 +68,14 @@
 }
 #book-banner {
   padding: 312px 0 220px;
-  background: url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
-  @include background-size(cover);
+  &.thepassionofconversation-book {
+    background: #dc5520 url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
+    @include background-size(cover);
+  }
+  &.brainsonfire-book {
+    background: #dc5520 url(../images/books/brains_on_fire.jpg) no-repeat 50% 50%;
+    @include background-size(cover);
+  }
   .half-block {
     width: 44%;
     margin: 0;
