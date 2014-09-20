@@ -1,17 +1,15 @@
 #store-banner {
-  padding: 170px 0 85px;
   background: #0095b2 url(../images/store/bg_store_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 170px 0 85px;
+  }
 }
 #store {
-  @include min-screen(1024px) {
+  @include min-screen(1200px) {
     padding: 80px 0 83px;
   }
-  @include screen(768px,1023px) {
-    padding: 60px 0;
-  }
   @include max-screen(767px) {
-    padding: 30px 0;
     .medium-8,
     .medium-3 {
       width: 100%;
@@ -48,18 +46,11 @@
     }
   }
 }
-
 #books-store {
   background: #0095b2 url(../images/store/store_books.jpg) no-repeat 50% 100%;
   @include background-size(cover);
-  @include min-screen(1024px) {
+  @include min-screen(1200px) {
     padding: 80px 0 83px;
-  }
-  @include screen(768px,1023px) {
-    padding: 60px 0;
-  }
-  @include max-screen(767px) {
-    padding: 30px 0;
   }
   @include min-screen(768px) {
     &:after {
@@ -88,14 +79,8 @@
     }
   }
   .half-block {
-    @include min-screen(1024px) {
-      padding: 95px 3.7% 0;
-    }
-    @include screen(768px,1023px) {
-      padding: 60px 0 0;
-    }
-    @include max-screen(767px) {
-      margin: 30px 0 0;
+    @include min-screen(1200px) {
+      padding: 0 3.7%;
     }
   }
   .btn-holder {
@@ -111,6 +96,7 @@
       max-width: 50%;
       width: 100%;
       margin-bottom: 22px;
+      padding: 1.4rem 0;
     }
   }
 }

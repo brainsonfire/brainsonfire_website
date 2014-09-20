@@ -18,12 +18,8 @@ a {
 #header {
   position: relative;
   z-index: 20;
-  background: rgba(#fff,
-  0.9);
-  box-shadow: 0 0 4px rgba(0,
-  0,
-  0,
-  0.2);
+  background: rgba(#fff, 0.9);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   .row {
     max-height: 83px;
   }
@@ -129,8 +125,7 @@ a {
     @include min-screen(1024px) {
       margin: 33px 0 4px;
     }
-    @include screen(768px,
-    1023px) {
+    @include screen(768px, 1023px) {
       margin: 30px 0 3px;
     }
     @include max-screen(767px) {
@@ -142,8 +137,7 @@ a {
       @include font-size(30);
       @include line-height(25);
     }
-    @include screen(768px,
-    1023px) {
+    @include screen(768px, 1023px) {
       @include font-size(24);
       @include line-height(16);
     }
@@ -160,8 +154,7 @@ a {
     @include min-screen(1024px) {
       margin: 19px 0 0;
     }
-    @include screen(768px,
-    1023px) {
+    @include screen(768px, 1023px) {
       margin: 16px 0 0;
     }
     @include max-screen(767px) {
@@ -173,8 +166,7 @@ a {
     @include min-screen(1024px) {
       padding: 28px 0 0;
     }
-    @include screen(768px,
-    1023px) {
+    @include screen(768px, 1023px) {
       padding: 22px 0 0;
     }
     @include max-screen(767px) {
@@ -186,8 +178,7 @@ a {
       @include font-size(20);
       @include line-height(25);
     }
-    @include screen(768px,
-    1023px) {
+    @include screen(768px, 1023px) {
       @include font-size(18);
       @include line-height(20);
     }
@@ -212,9 +203,23 @@ a {
 #footer {
   position: relative;
   z-index: 20;
-  padding: 90px 0 0;
-  margin-bottom: -80px;
   background: #eaeaea url(../images/layout/bg-path.png) repeat 0 0;
+  @include min-screen(1200px) {
+    padding: 90px 0 0;
+    margin-bottom: -80px;
+  }
+  @include screen(1024px,1199px) {
+    padding: 50px 0 0;
+    margin-bottom: -63px;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0 0;
+    margin-bottom: -80px;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0 0;
+    margin-bottom: -80px;
+  }
   .row {
     position: relative;
     margin: 0 auto 80px;
@@ -223,8 +228,14 @@ a {
     @include screen(768px,1169px) {
       max-width: 726px;
     }
-    @include min-screen(768px) {
+    @include min-screen(1200px) {
       margin: 0 auto 70px;
+    }
+    @include screen(1024px,1199px) {
+      margin: 0 auto 50px;
+    }
+    @include screen(768px,1023px) {
+      margin: 0 auto 40px;
     }
     @include max-screen(767px) {
       margin: 0 auto 30px;
@@ -239,8 +250,19 @@ a {
     height: 42px;
     left: 50%;
     margin: 0 0 0 -21px;
-    top: -106px;
     outline: none;
+    @include min-screen(1200px) {
+      top: -106px;
+    }
+    @include screen(1024px,1199px) {
+      top: -66px;
+    }
+    @include screen(768px,1023px) {
+      top: -56px;
+    }
+    @include max-screen(767px) {
+      top: -46px;
+    }
   }
   .block {
     float: left;
@@ -259,8 +281,7 @@ a {
     width: 100%;
     text-align: center;
   }
-  @include screen(768px,
-  1169px) {
+  @include screen(768px, 1169px) {
     padding: 16px 0;
   }
   @include max-screen(767px) {
@@ -290,8 +311,7 @@ a {
     padding: 18px 0 19px;
     margin: 0 29px 0 0;
   }
-  @include screen(768px,
-  1169px) {
+  @include screen(768px, 1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
     text-align: center;
@@ -329,8 +349,7 @@ a {
     padding: 8px 31px 4px 0px;
     margin: 0 30px 0 0;
   }
-  @include screen(768px,
-  1169px) {
+  @include screen(768px, 1169px) {
     width: 32%;
     border-right: 1px solid rgba(#999, 0.3);
     padding: 16px 26px;
@@ -566,8 +585,31 @@ a {
 }
 section {
   position: relative;
-  padding: 80px 0;
   z-index: 10;
+  @include min-screen(1200px) {
+    padding: 80px 0;
+  }
+  @include screen(1024px,1199px) {
+    padding: 50px 0;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+}
+section[id$="-banner"],
+section[id*="-banner "] {
+  @include screen(1024px,1199px) {
+    padding: 133px 0 50px;
+  }
+  @include screen(768px,1023px) {
+    padding: 123px 0 40px;
+  }
+  @include max-screen(767px) {
+    padding: 113px 0 30px;
+  }
 }
 .inner-pages section {
   padding: 0;

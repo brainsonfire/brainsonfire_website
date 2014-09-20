@@ -1098,7 +1098,7 @@ END FLOATING PEOPLE
   .people-holder h1 {
     display: block;
     margin-bottom: 64px;
-    padding: 179px 10px 105px;
+    padding: 105px 0;
     color: #fff;
     background: url(../images/individuals/bg-heading.jpg) repeat-x 50% 0;
   }
@@ -1565,7 +1565,7 @@ END FLOATING PEOPLE
   }
   .people-holder h1 {
     margin-bottom: 59px;
-    padding: 180px 10px 104px;
+    padding: 100px 10px;
   }
   .people-holder ul {
     max-width: 370px;
@@ -1795,9 +1795,6 @@ END FLOATING PEOPLE
     margin-bottom: 9px;
   }
   .people-post .meta img {
-    // width: 227px;
-    // border-radius: 114px;
-    // -webkit-border-radius: 114px;
     max-width: 100%;
     width: auto;
     @include border-radius(100%);
@@ -1829,28 +1826,14 @@ END FLOATING PEOPLE
     padding: 23px 31px 24px 36px;
   }
 }
-
 #gallery-slider {
-  @include min-screen(1024px) {
+  @include min-screen(1200px) {
     padding: 76px 0 82px;
   }
-  @include screen(768px,1023px) {
-    padding: 60px 0;
-  }
-  @include max-screen(767px) {
-    padding: 30px 0;
-  }
 }
-
 #extended-tribe {
-  @include min-screen(1024px) {
+  @include min-screen(1200px) {
     padding: 88px 0 38px;
-  }
-  @include screen(768px,1023px) {
-    padding: 60px 0 30px;
-  }
-  @include max-screen(767px) {
-    padding: 30px 0;
   }
   background: url(../images/individuals/clients/bg_extended_tribe.jpg) no-repeat 50% 0;
   @include background-size(cover);
@@ -1886,14 +1869,8 @@ END FLOATING PEOPLE
   }
 }
 #odds-end {
-  @include min-screen(1024px) {
+  @include min-screen(1200px) {
     padding: 79px 0 118px;
-  }
-  @include screen(768px,1023px) {
-    padding: 60px 0;
-  }
-  @include max-screen(767px) {
-    padding: 30px 0;
   }
   h1 {
     @include min-screen(1024px) {
@@ -1985,6 +1962,20 @@ END FLOATING PEOPLE
   }
   @include max-screen(1054px) {
     padding: 1.25rem 0.9375rem;
+  }
+}
+.people-post {
+  @include min-screen(1200px) {
+    padding: 63px 0 55px;
+  }
+  @include screen(1024px,1199px) {
+    padding: 50px 0;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
   }
 }
 .people-post .meta h3 {

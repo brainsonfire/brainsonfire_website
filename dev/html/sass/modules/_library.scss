@@ -157,7 +157,7 @@ ul.row {
 .half-block {
   float: left;
   position: relative;
-  @include min-screen(1025px) {
+  @include min-screen(1200px) {
     width: 43%;
     padding: 95px 4.9% 0;
     margin: 0 0 0 7%;
@@ -165,9 +165,17 @@ ul.row {
       margin: 0 7% 0 0;
     }
   }
-  @include screen(768px,1024px) {
+  @include screen(1024px,1199px) {
+    width: 43%;
+    padding: 50px 4.9% 0;
+    margin: 0 0 0 7%;
+    + .half-block {
+      margin: 0 7% 0 0;
+    }
+  }
+  @include screen(768px,1023px) {
     width: 46%;
-    padding: 60px 0 0;
+    padding: 40px 0 0;
     margin: 0 2%;
   }
   @include max-screen(767px) {
@@ -291,7 +299,9 @@ ul.row {
   }
 }
 .main-photo {
-  margin: -110px 0 0;
+  position: relative;
+  overflow: hidden;
+  margin: -105px 0 0;
   img {
     float: left;
     max-width: none;  

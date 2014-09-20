@@ -125,7 +125,7 @@
 								</a>
 							</li>
 							<li>
-								<a href="brandy_amilton.php">
+								<a href="brandy_amidon.php">
 									<img src="images/individuals/brandy-167x167.jpg" alt="Brandy Amidon">
 									<img src="images/individuals/brandy-167x167-h.jpg" alt="Brandy Amidon" class="hover">
 									<!-- <h2>Brandy Amidon</h2> -->
