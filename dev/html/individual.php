@@ -17,7 +17,7 @@
 					<div class="mega-banner">
 						<div class="photo-container">
 							<div class="holder">
-								<img src="images/individuals/lobby-shots/invisible-person.gif" alt="BOF lobby" class="photo01" class="">
+								<img src="images/individuals/lobby-shots/invisible-person.gif" alt="BOF lobby" class="photo01">
 								<img src="images/individuals/lobby-shots/robbin.png" alt="Robbin Phillips" class="robbin">
 								<img src="images/individuals/lobby-shots/cordell.png" alt="Greg Cordell" class="cordell">
 								<img src="images/individuals/lobby-shots/ramsey.png" alt="Greg Ramsey" class="ramsey">
@@ -41,7 +41,7 @@
 							
 							<div class="holder02">
 								<!--
-								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Cordell"                class="night-cordell" class="active">
+								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Cordell"                class="night-cordell active">
 								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Robbin Phillips"             class="night-robbin">
 								<img src="images/individuals/lobby-shots/night-photo01.png"       alt="Greg Ramsey"                 class="night-ramsey">
 								<img src="images/individuals/lobby-shots/night-photo02.png"       alt="Geno Church"                 class="night-geno">
@@ -69,133 +69,133 @@
 								<a></a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="robbin_phillips.php">
 									<img src="images/individuals/robbin-167x167.jpg" alt="Robbin Phillips">
 									<img src="images/individuals/robbin-167x167-h.jpg" alt="Robbin Phillips" class="hover">
 									<!-- <h2>Robbin PhilLips</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="greg_cordell.php">
 									<img src="images/individuals/cordell-167x167.jpg" alt="Greg Cordell">
 									<img src="images/individuals/cordell-167x167-h.jpg" alt="Greg Cordell" class="hover">
 									<!-- <h2>Greg Cordell</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="greg_ramsey.php">
 									<img src="images/individuals/ramsey-167x167.jpg" alt="Greg Ramsey">
 									<img src="images/individuals/ramsey-167x167-h.jpg" alt="Greg Ramsey" class="hover">
 									<!-- <h2>Greg Ramsey</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="geno_church.php">
 									<img src="images/individuals/geno-167x167.jpg" alt="Geno Church">
 									<img src="images/individuals/geno-167x167-h.jpg" alt="Geno Church" class="hover">
 									<!-- <h2>Geno Church</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="john_moore.php">
 									<img src="images/individuals/john-167x167.jpg" alt="John Moore">
 									<img src="images/individuals/john-167x167-h.jpg" alt="John Moore" class="hover">
 									<!-- <h2>John Moore</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="megan_byrd.php">
 									<img src="images/individuals/megan-167x167.jpg" alt="Megan Byrd">
 									<img src="images/individuals/megan-167x167-h.jpg" alt="Megan Byrd" class="hover">
 									<!-- <h2>Megan Byrd</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="alison_quarles.php">
 									<img src="images/individuals/alison-167x167.jpg" alt="Alison Quarles">
 									<img src="images/individuals/alison-167x167-h.jpg" alt="Alison Quarles" class="hover">
 									<!-- <h2>Alison Quarles</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="amy_taylor.php">
 									<img src="images/individuals/amy-167x167.jpg" alt="Amy Taylor">
 									<img src="images/individuals/amy-167x167-h.jpg" alt="Amy Taylor" class="hover">
 									<!-- <h2>Amy Taylor</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="brandy_amilton.php">
 									<img src="images/individuals/brandy-167x167.jpg" alt="Brandy Amidon">
 									<img src="images/individuals/brandy-167x167-h.jpg" alt="Brandy Amidon" class="hover">
 									<!-- <h2>Brandy Amidon</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="cathy_harrison.php">
 									<img src="images/individuals/cathy-167x167.jpg" alt="Cathy Harrison">
 									<img src="images/individuals/cathy-167x167-h.jpg" alt="Cathy Harrison" class="hover">
 									<!-- <h2>Cathy Harrison</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="emily_everhart.php">
 									<img src="images/individuals/emily-167x167.jpg" alt="Emily Everhart">
 									<img src="images/individuals/emily-167x167-h.jpg" alt="Emily Everhart" class="hover">
 									<!-- <h2>Emily Everhart</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="jack_welch.php">
 									<img src="images/individuals/jack-167x167.jpg" alt="Jack Welch">
 									<img src="images/individuals/jack-167x167-h.jpg" alt="Jack Welch" class="hover">
 									<!-- <h2>Jack Welch</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="mary_susan_henderson.php">
 									<img src="images/individuals/marysusan-167x167.jpg" alt="Mary Susan Henderson">
 									<img src="images/individuals/marysusan-167x167-h.jpg" alt="Mary Susan Henderson" class="hover">
 									<!-- <h2>Mary Susan<br />Henderson</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="moe_megan.php">
 									<img src="images/individuals/moe-167x167.jpg" alt="Moe Megan">
 									<img src="images/individuals/moe-167x167-h.jpg" alt="Moe Megan" class="hover">
 									<!-- <h2>Moe Megan</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="nathan_spainhour.php">
 									<img src="images/individuals/nathan-167x167.jpg" alt="Nathan Spainhour">
 									<img src="images/individuals/nathan-167x167-h.jpg" alt="Nathan Spainhour" class="hover">
 									<!-- <h2>Nathan Spainhour</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="sarah_leitner.php">
 									<img src="images/individuals/sarah-167x167.jpg" alt="Sarah Leitner">
 									<img src="images/individuals/sarah-167x167-h.jpg" alt="Sarah Leitner" class="hover">
 									<!-- <h2>Sarah Leitner</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="sean_madden.php">
 									<img src="images/individuals/sean-167x167.jpg" alt="Sean Madden">
 									<img src="images/individuals/sean-167x167-h.jpg" alt="Sean Madden" class="hover">
 									<!-- <h2>Sean Madden</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="shannon_kohn.php">
 									<img src="images/individuals/shannon-167x167.jpg" alt="Shannon Kohn">
 									<img src="images/individuals/shannon-167x167-h.jpg" alt="Shannon Kohn" class="hover">
 									<!-- <h2>Shannon Kohn</h2> -->
 								</a>
 							</li>
 							<li>
-								<a href="#dummy">
+								<a href="wicket.php">
 									<img src="images/individuals/wicket-167x167.jpg" alt="Wicket">
 									<img src="images/individuals/wicket-167x167-h.jpg" alt="Wicket" class="hover">
 									<!-- <h2>Wicket</h2> -->

@@ -1948,12 +1948,14 @@ END FLOATING PEOPLE
         margin: 0 auto 1.8rem;
         background: #EEE;
         border: 1px solid #ccc;
+        float: none;
         @include border-radius(2px);
         @include max-screen(640px) {
           width: 100%;
         }
       }
       .button {
+        clear: both;
         max-width: 192px;
         position: relative;
         @include max-screen(640px) {
@@ -1977,8 +1979,7 @@ END FLOATING PEOPLE
 .row.heading {
   padding: 0;
 }
-.row.cols-holder {
-  
+.row.cols-holder {  
   @include min-screen(1055px) {
     padding: 1.25rem 0;  
   }
@@ -2008,8 +2009,8 @@ END FLOATING PEOPLE
   width: 50%;
 }
 .people-post .meta .holder {
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
 }
 .people-post .meta .social li {
   @include font-size(18);

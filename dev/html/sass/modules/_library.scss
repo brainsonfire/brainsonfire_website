@@ -253,7 +253,7 @@ ul.row {
     font-style: italic;
     position: relative;
     @include font-size(20);
-    @include line-height(44);
+    @include line-height(38);
     &:after {
       position: absolute;
       display: block;
@@ -267,7 +267,7 @@ ul.row {
     }
   }
   .previous {
-    padding: 0 0 0 65px;
+    padding: 0 0 0 45px;
     &:after {
       left: 0;
       background-position: 0 0;
@@ -282,7 +282,7 @@ ul.row {
     }
   }
   .next {
-    padding: 0 65px 0 0;
+    padding: 0 45px 0 0;
     float: right;
     &:after {
       right: 0;
@@ -343,14 +343,32 @@ p.intro {
 .border-left {
   border-left: 2px solid rgba(153, 153, 153, 0.3);
 }
-
 .white-text * {
   color: #FFF;
 }
-
-
 .btn-holder {
     display: block;
     overflow: hidden;
     clear: both;
+}
+#blockquote {
+  h1 + p {
+    margin: 0 0 21px;
+  }
+  .button {
+    max-width: 450px;
+  }
+  .submit-application {
+    background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
+    @include background-size(cover);
+    @include min-screen(1024px) {
+      padding: 111px 0.9375rem 119px;
+    }
+    @include screen(768px,1023px) {
+      padding: 60px 0.9375rem;
+    }
+    @include max-screen(767px) {
+     padding: 44px 0.9375rem;
+    }
+  }
 }

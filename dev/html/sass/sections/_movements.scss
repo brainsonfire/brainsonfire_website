@@ -74,6 +74,26 @@
     max-width: 250px;
   }
 }
+.movement-orbit a:first-of-type {
+  background-color: rgba(#fff, 0);
+  &.active { background-color: rgba(#fff, 0.5); }
+  > span { background: #d9531e; }
+}
+.movement-orbit a:nth-child(2) {
+  background-color: rgba(#0bb7cf, 0);
+  &.active { background-color: rgba(#0bb7cf, 0.5); }
+  > span { background: #23bed4; }
+}
+.movement-orbit a:nth-child(3) {
+  background-color: rgba(#939f57, 0);
+  &.active { background-color: rgba(#939f57, 0.5); }
+  > span { background: #9ea867; }
+}
+.movement-orbit a:nth-child(4) {
+  background-color: rgba(#eb7e1f, 0);
+  &.active { background-color: rgba(#eb7e1f, 0.5); }
+  > span { background: #ec8a35; }
+}
 #some-examples {
   background: rgba(#000, 0);
   @include min-screen(1024px) {
@@ -99,20 +119,14 @@
 }
 #blockquote {
   background: #FFF;
-  @include min-screen(1024px) {
-    padding: 92px 0 0;
-  }
-  @include screen(768px,1023px) {
-    padding: 60px 0 0;
-  }
-  @include max-screen(767px) {
-    padding: 30px 0 0;
-  }
   h1 + p {
     margin: 0 0 21px;
   }
   .button {
     max-width: 450px;
+  }
+  .blockquote-orbit {
+    max-width: 650px;
   }
   .submit-application {
     background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;

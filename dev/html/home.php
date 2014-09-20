@@ -29,8 +29,8 @@
 							<div class="slide bighome">
 								<div class="txt row">
 									<h1 class="title">We can help your organizations<br> ignite a powerful, sustainable<br> word of mouth movements.</h1>
-									<a href="work.php" class="button btn-blue left">we’ll teach you how</a>
-									<a href="work.php" class="button btn-green left">or build it with you</a>
+									<a href="#dummy" class="button btn-blue left">we’ll teach you how</a>
+									<a href="#dummy" class="button btn-green left">or build it with you</a>
 								</div>
 							</div>
 						</div>
@@ -48,7 +48,7 @@
 							<li class="large-4 medium-4 small-12 columns"><a href="heroes_in_recovery.php"><img src="images/home/heroes.jpg" alt="Heroes in Recovery"></a></li>
 						</ul>
 						<div class="btn-holder">
-							<a class="button btn-ico btn-orange" href="#dummy">View all of our case studies</a>
+							<a class="button btn-ico btn-orange" href="case_studies.php">View all of our case studies</a>
 						</div>
 					</div>
 				</section>

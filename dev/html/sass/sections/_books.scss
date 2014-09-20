@@ -67,7 +67,7 @@
   }
 }
 #book-banner {
-  padding: 400px 0 220px;
+  padding: 312px 0 220px;
   background: url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
   @include background-size(cover);
   .half-block {
@@ -114,14 +114,6 @@
     }
   }
 }
-#authoral-team {
-  background: #0DB9D1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
-  @include background-size(cover);
-  .row > h1,
-  .row > p {
-    color: white;
-  }
-}
 .books {
   .circle-orbit-nav a.active:after {
     opacity: 0.85;
@@ -132,9 +124,13 @@
       margin: 0 0 55px;
     }
     .orbit-container .blockquote-orbit {
-      max-width: 880px;
+      max-width: 920px;
+    }
+    blockquote {
+      margin: 0 0 20px;
     }
     cite {
+      padding: 0 70px 0 0;
       float: right;
       display: table;
       text-align: left;
@@ -142,8 +138,56 @@
   }
 }
 #book-intro {
+  @include min-screen(1024px) {
+    padding: 58px 0 46px;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
   h1 {
     margin: 0 0 28px;
+  }
+}
+#authoral-team {
+  background: #0DB9D1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
+  @include background-size(cover);
+  @include min-screen(1024px) {
+    padding: 89px 0 68px;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  .row > h1,
+  .row > p {
+    color: white;
+  }
+  h1 + p:first-of-type {
+    margin: 0 0 56px;
+  }
+  .circle-orbit-nav a:after {
+    bottom: -78px;
+  }
+  .orbit-container {
+    background: rgba(#FFF, 0.8);
+    li span {
+      display: block;
+      margin: 0 0 29px;
+    }
+  }
+  .books-orbit {
+    margin: 0 auto 78px;
+  }
+  .books-orbit a {
+    background-color: rgba(#fff, 0);
+    &.active {
+      background-color: rgba(#fff, 0.5);
+    }
   }
 }
 .books #blockquote .submit-application .button {

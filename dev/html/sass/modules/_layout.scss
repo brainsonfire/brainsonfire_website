@@ -204,12 +204,12 @@ a {
 #footer {
   position: relative;
   z-index: 20;
-  padding: 48px 0 0;
+  padding: 90px 0 0;
   margin-bottom: -80px;
   background: #eaeaea url(../images/layout/bg-path.png) repeat 0 0;
   .row {
     position: relative;
-    margin: 0 auto 78px;
+    margin: 0 auto 80px;
   }
   > .row {
     @include screen(768px, 1169px) {
@@ -231,7 +231,7 @@ a {
     height: 42px;
     left: 50%;
     margin: 0 0 0 -21px;
-    top: -68px;
+    top: -106px;
     outline: none;
   }
   .block {

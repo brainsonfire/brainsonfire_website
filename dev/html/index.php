@@ -3,31 +3,18 @@
 <body>
     <style type="text/css">
         #header { margin: 0; }
-        ul { list-style: none; display: table; width: 100%; padding: 30px 100px; margin: 0 auto; }
-        li { float: left; padding: 20px 0; width: 100%; }
-        @media screen and (min-width:1025px) {
-            ul li { width: 33%; }
-        }
-        @media screen and (min-width:768px) and (max-width:1024px) {
-            ul { width: 50%; }
-        }
-        li a {
-        	text-align: center;
-        	font-family: "infotextsemibold", Arial, Helvetica, sans-serif;
-        	font-size: 28px;
-        	line-height: 28px;
-        	text-transform: uppercase;
-        }
-        .tab-bar {
-        	display: none;
-        }
+        #logo { display: table; float: none; margin: 0 auto; position: relative; }
+        .right-off-canvas-menu { display: none;}
+        ul { list-style: none; display: table; width: 100%; padding: 0; margin: 0 auto; }
+        li { float: left; width: 100%; max-width: 240px; padding: 8px 15px; text-align: center; }
+        a { font: 18px/24px "infotextsemibold", Arial, Helvetica, sans-serif; color: #333; }
+        .tab-bar { display: none; }
     </style>
     <!--[if lte IE 7]><p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p><![endif]-->
     <?php include("inc/header.php"); ?>
 
     <main>
         <section>
-        	<div class="row">
                 <ul id="file-list" class="clearfix">
                     <?php
                     $implemented    = file('implemented.txt', FILE_IGNORE_NEW_LINES);
@@ -35,12 +22,11 @@
                     $replace        = array( '_', '.php');
                     $dir            = opendir(".");
                     $all_good_files = array();
-                    foreach ($implemented as &$imp)
-                    $imp = trim($imp);
+                    foreach ($implemented as &$imp) $imp = trim($imp);
                     while (($file = readdir($dir)) !== false) {
-                    if (!in_array($file, $ignore) && !is_dir($file)) {
-                    $all_good_files[] = $file;
-                    }
+	                    if (!in_array($file, $ignore) && !is_dir($file)) {
+	                    	$all_good_files[] = $file;
+	                    }
                     }
                     // sort files (thank you Dusan!! :D)
                     sort($all_good_files);
@@ -60,7 +46,6 @@
                     closedir($dir);
                     ?>
                 </ul>
-            </div>
         </section>
     </main>
     <script type="text/javascript" src="js/min/jquery-1.11.1.min.js"></script>

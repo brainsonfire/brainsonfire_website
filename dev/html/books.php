@@ -4,7 +4,7 @@
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
-	
+
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			
@@ -16,14 +16,13 @@
 					<div class="row">
 						<h1>Our Books</h1>
 						<p>We're more than a pretty cover.</p>
-						
 					</div>
 				</section>
 
 				<section id="books">
 					<div class="row">
 						<div class="half-block">
-							<a href="book.php">
+							<a href="brains_on_fire.php">
 								<img src="images/library/img9.jpg" alt="">
 							</a>
 							<h2>Brains on Fire</h2>
@@ -34,7 +33,7 @@
 							</div>
 						</div>
 						<div class="half-block books">
-							<a href="book.php">
+							<a href="the_passion_conversation.php">
 								<img src="images/library/img10.jpg" alt="">
 							</a>
 							<h2>The PAssion Conversation</h2>

@@ -14,9 +14,9 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="#dummy">previous individual</a></li>
-							<li><a class="center" href="#dummy">back to all people</a></li>
-							<li><a class="next" href="#dummy">next individual</a></li>
+							<li><a class="previous" href="mary_susan_henderson.php"><span>previous individual</span></a></li>
+							<li><a class="center" href="individual.php"><span>back to all people</span></a></li>
+							<li><a class="next" href="nathan_spainhour.php"><span>next individual</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -74,12 +74,12 @@
 					</article>
 				</section>
 
-				<div class="direction-nav top">
+				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="#dummy">previous individual</a></li>
-							<li><a class="center" href="#dummy">back to all people</a></li>
-							<li><a class="next" href="#dummy">next individual</a></li>
+							<li><a class="previous" href="mary_susan_henderson.php"><span>previous individual</span></a></li>
+							<li><a class="center" href="individual.php"><span>back to all people</span></a></li>
+							<li><a class="next" href="nathan_spainhour.php"><span>next individual</span></a></li>
 						</ul>
 					</div>
 				</div>

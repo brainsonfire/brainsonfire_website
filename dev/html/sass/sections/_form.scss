@@ -39,7 +39,7 @@ input[type="time"],
 input[type="url"], 
 input[type="color"], 
 textarea {
-    border: 0;
+    border: 1px solid #ccc;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     color: #333;
     font-size: 1.125rem;
@@ -80,7 +80,6 @@ textarea {
     min-height: 160px;
   }
 }
-
 label,
 .label-wrap {
   width: 100%;
@@ -107,7 +106,7 @@ select {
   cursor: pointer;
   padding: 1rem 0 1rem 1rem;
   height: 3.75rem;
-  border: none;
+  border: 1px solid #ccc;
   background-color: #FFF;
   -webkit-appearance:none;
   -moz-appearance:none;
@@ -127,9 +126,9 @@ select {
   z-index: 22;
   width: 3.75rem;
   height: 3.75rem;
-  
+  border: 1px solid #ccc;
   margin-left: -3.75rem;
-  background: url("../images/hello/select_arrow.jpg") repeat 0 0;
+  background: url("../images/hello/select_arrow.jpg") repeat -1px -1px;
   @include min-screen(768px) {
     left: 50%;
     top: 0;
@@ -139,11 +138,15 @@ select {
     top: 3.75rem;
   }
 }
-.select-style:hover:after {
-  background-position: 0 100%;
+select:hover {
+  border: none;
 }
-.select-style:hover select {
+.select-style.hover:after {
+  background-position: -1px -61px;
+}
+.select-style.hover select {
   background-color: #fafafa;
+  border: 1px solid #ccc;
 }
 label .fullwidth {
   width: 100% !important;

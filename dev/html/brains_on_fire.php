@@ -14,9 +14,9 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="#dummy">previous story</a></li>
-							<li><a class="center" href="#dummy">back to books</a></li>
-							<li><a class="next" href="#dummy">next story</a></li>
+							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
+							<li><a class="center" href="books.php"><span>back to books</span></a></li>
+							<li><a class="next" href="the_passion_conversation.php">next story</a></li>
 						</ul>
 					</div>
 				</div>
@@ -66,16 +66,16 @@
 							</li>
 							
 							<li data-orbit-slide="circle-headline-2">
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
+								<span>Donec id elit non mi porta gravida at eget metus.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-3">
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</span>
+								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda facere, provident quaerat debitis asperiores dicta quasi voluptatum! Ab, mollitia harum. Harum ipsum possimus repudiandae eligendi ipsa qui a, dignissimos officiis.</span>
 							</li>
 							<li data-orbit-slide="circle-headline-4">
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
+								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 						</ul>
@@ -114,19 +114,19 @@
 						</ul>
 					</div>
 					<div class="submit-application">
-						<a class="button btn-blue" href="#dummy">buy <span>the passion conversation</span> now</a>
+						<a class="button btn-blue" href="#dummy">buy <span>brains on fire</span> now</a>
 					</div>
 				</section>
 
-				<div class="direction-nav top">
+<!-- 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="#dummy">previous story</a></li>
-							<li><a class="center" href="#dummy">back to books</a></li>
-							<li><a class="next" href="#dummy">next story</a></li>
+							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
+							<li><a class="center" href="books.php"><span>back to books</span></a></li>
+							<li><a class="next" href="the_passion_conversation.php">next story</a></li>
 						</ul>
 					</div>
-				</div>
+				</div> -->
 
 			</main>
 

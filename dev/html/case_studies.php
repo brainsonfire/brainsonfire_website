@@ -25,7 +25,7 @@
 
 						<ul class="row project-list">
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#dummy">
+								<a href="love_146.php">
 									<img src="images/case-study/project_01.jpg" alt="">
 									<span class="rollover">
 										<span class="middle">
@@ -36,7 +36,7 @@
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#dummy">
+								<a href="heroes_in_recovery.php">
 									<img src="images/case-study/project_02.jpg" alt="">
 									<span class="rollover">
 										<span class="middle">

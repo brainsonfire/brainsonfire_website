@@ -1,12 +1,22 @@
 [class$="-orbit-nav"],
 [class*="-orbit-nav "] {
   display: table;
+  width: 100%;
   position: relative;
   text-align: center;
   margin: 0 auto 33px;
   a {
     float: left;
     position: relative;
+  }
+}
+[class$="circle-orbit-nav"],
+[class*="circle-orbit-nav "] {
+  a {
+    margin: 0 18px 0 -4px;
+    &:nth-child(4) {
+      margin: 0 -4px 0 0;
+    }
   }
 }
 .orbit-container {
@@ -69,12 +79,88 @@
   @include max-screen(767px) {
     display: none;
   }
-  &.books-orbit {
-    margin: 0 auto 54px;
-  }
   a {
+    display: block;
     vertical-align: middle;
     @include border-radius(100%);
+    @include min-screen(1200px) {
+      width: 283px;
+      height: 283px;
+      padding: 13px;
+    }
+    @include screen(1024px,1199px) {
+      width: 242px;
+      height: 242px;
+      padding: 10px;
+    }
+    @include screen(768px,1023px) {
+      width: 176px;
+      height: 176px;
+      padding: 8px;
+    }
+    .circle,
+    > span {      
+      display: table;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      @include border-radius(100%);
+    }
+    .table,
+    > span > span {      
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color: #FFF;
+      @include InfoMediumFont;
+      @include border-radius(100%);
+      @include min-screen(1200px) {
+        @include font-size(24);
+        @include line-height(30);
+      }
+      @include screen(1024px,1199px) {
+        @include font-size(20);
+        @include line-height(26);
+      }
+      @include screen(768px,1023px) {
+        @include font-size(16);
+        @include line-height(22);
+      }
+    }
+    .bottom-block {
+      display: block;
+      font-style: italic;
+      font-family: Georgia, serif;
+      @include min-screen(1200px) {
+        @include font-size(20);
+        @include line-height(30);
+      }
+      @include screen(768px,1199px) {
+        @include font-size(18);
+        @include line-height(24);
+      }
+    }
+    .title {
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      font-style: normal;
+      left: 0;
+      bottom: -51px;
+      @include InfoMediumFont;
+      @include font-size(20);
+      @include line-height(25);
+    }
+    img {
+      display: block;
+      max-width: none;
+      width: 100%;
+      height: auto;
+      @include border-radius(100%);
+    }
     &:after {
       display: block;
       position: absolute;
@@ -92,141 +178,6 @@
       opacity: 1;
     }
   }
-  &.movement-orbit a {
-    @include min-screen(1200px) {
-      width: 284px;
-      height: 284px;
-      margin: 0 5px 0 0;
-      padding: 13px;
-    }
-    @include screen(1024px,1199px) {
-      width: 196px;
-      height: 196px;
-      margin: 0 3px 0 0;
-      padding: 8px;
-    }
-    @include screen(768px,1023px) {
-      width: 176px;
-      height: 176px;
-      margin: 0 3px 0 0;
-      padding: 5px;
-    }
-    > span {      
-      @include min-screen(1200px) {
-        width: 258px;
-        height: 258px;
-      }
-      @include screen(1024px,1199px) {
-        width: 180px;
-        height: 180px;
-      }
-      @include screen(768px,1023px) {
-        width: 166px;
-        height: 166px;
-      }
-    }
-  }
-  a > span {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    color: #FFF;
-    @include border-radius(100%);
-    @include InfoMediumFont;
-    @include min-screen(1200px) {
-      @include font-size(24);
-      @include line-height(30);
-    }
-    @include screen(768px,1199px) {
-      @include font-size(18);
-      @include line-height(24);
-    }
-    span {
-      display: block;
-      font-style: italic;
-      font-family: Georgia, serif;
-      @include min-screen(1200px) {
-        @include font-size(20);
-        @include line-height(30);
-      }
-      @include screen(768px,1199px) {
-        @include font-size(18);
-        @include line-height(24);
-      }
-    }
-  }
-  &.books-orbit a {
-    width: 286px;
-    height: 286px;
-    margin: 0 2px;
-    > span {
-      width: 286px;
-      height: 286px;
-      background: rgba(#FFF, 0);
-      span {
-        position: absolute;
-        text-align: center;
-        text-transform: uppercase;
-        width: 100%;
-        font-style: normal;
-        @include InfoMediumFont;
-        @include font-size(20);
-        @include line-height(25);
-      }
-    }
-    &.active:after {
-      bottom: -54px;
-    }
-    &.active > span {
-      background: rgba(#FFF, 0.8);
-    }
-    img {
-      width: 260px;
-      height: 260px;
-      margin: 13px;
-      @include border-radius(100%);
-    }
-  }
-  &.movement-orbit a:first-of-type {
-    background-color: rgba(#fff, 0);
-    &.active {
-      background-color: rgba(#fff, 0.5);
-    }
-    > span {
-      background: #d9531e;
-    }
-  }
-  &.movement-orbit a:nth-child(2) {
-    background-color: rgba(#0bb7cf, 0);
-    &.active {
-      background-color: rgba(#0bb7cf, 0.5);
-    }
-    > span {
-      background: #23bed4;
-    }
-  }
-  &.movement-orbit a:nth-child(3) {
-    background-color: rgba(#939f57, 0);
-    &.active {
-      background-color: rgba(#939f57, 0.5);
-    }
-    > span {
-      background: #9ea867;
-    }
-  }
-  &.movement-orbit a:nth-child(4) {
-    margin: 0;
-    background-color: rgba(#eb7e1f, 0);
-    &.active {
-      background-color: rgba(#eb7e1f, 0.5);
-    }
-    > span {
-      background: #ec8a35;
-    }
-  }
-}
-#authoral-team .orbit-container {
-  background: rgba(#FFF, 0.8);
 }
 #how-we-work .orbit-container {
   @include min-screen(768px) {
@@ -274,16 +225,15 @@
 }
 #authoral-team .orbit-container,
 #how-we-work .orbit-container {
+  padding: 48px 0 34px;
   @include min-screen(768px) {
-    padding: 66px 0 72px;
-    margin: 0 0 40px;
+    margin: 0 0 39px;
   }
   @include max-screen(767px) {
-    padding: 0 0 20px;
     margin: 0 auto 20px; 
   }
   li {
-    padding: 0 45px;
+    padding: 0 50px;
     @include InfoMediumFont;
     @include min-screen(768px) {
       @include font-size(20);
@@ -417,15 +367,26 @@
   }
 }
 // BLOCKQUOTE
-#blockquote .orbit-container {
+#blockquote {
   @include min-screen(1024px) {
-    margin: 0 0 97px;
+    padding: 81px 0 0;
   }
   @include screen(768px,1023px) {
-    margin: 0 0 60px;
+    padding: 60px 0 0;
   }
   @include max-screen(767px) {
-    margin: 0 0 30px;
+    padding: 30px 0 0;
+  }
+  .orbit-container {
+    @include min-screen(1024px) {
+      margin: 0 0 75px;
+    }
+    @include screen(768px,1023px) {
+      margin: 0 0 55px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 30px;
+    }
   }
   .orbit-next,
   .orbit-prev {
@@ -448,7 +409,6 @@
   }
   .blockquote-orbit {
     width: 100%;
-    max-width: 650px;
     margin: 0 auto;
     overflow: hidden;
     text-align: center;
@@ -468,6 +428,8 @@
     padding: 0;
     font-weight: bold;
     color: #00aacb;
+    font-family: Georgia, serif;
+    font-style: italic;
     @include min-screen(1024px) {
       @include font-size(34);
       @include line-height(58);
@@ -482,6 +444,8 @@
     }
   }
   cite {
+    font-family: Georgia, serif;
+    font-style: italic;
     @include min-screen(1024px) {
       @include font-size(20);
       @include line-height(28);
