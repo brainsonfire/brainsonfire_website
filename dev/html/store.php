@@ -23,7 +23,7 @@
 					<div class="row">
 						<h1>"No More Timesheets" Whitepaper</h1>
 						<p>How we banished timesheets once and for all</p>
-						<img src="images/store/whitepaper_hero.jpg" alt="">
+						<img src="images/store/whitepaper_hero.jpg" alt="No More Timesheets">
 						<div class="row">
 							<div class="large-8 medium-8 small-12 columns">
 								<p>Once upon a time, an agency found that their team was spending entirely too much time and energy on time sheets. (Precious time and energy that would have been better spent on creating magic for their clients.) Enough was enough. So they made a plan to banish time sheets from their kingdom once and for all, and never looked back. Life was good. (And so was business.)</p>
@@ -47,7 +47,7 @@
 					<div class="row">
 						<div class="half-block">
 							<a href="book.php">
-								<img src="images/library/img9.jpg" alt="">
+								<img src="images/library/img9.jpg" alt="Brains on Fire">
 							</a>
 							<h2>Brains on Fire</h2>
 							<p>Igniting Powerful, Sustainable, <br>Word of Mouth Movements</p>
@@ -58,9 +58,9 @@
 						</div>
 						<div class="half-block books">
 							<a href="book.php">
-								<img src="images/library/img10.jpg" alt="">
+								<img src="images/library/img10.jpg" alt="The Passion Conversation">
 							</a>
-							<h2>The PAssion Conversation</h2>
+							<h2>The Passion Conversation</h2>
 							<p>Understanding, Sparking, Sustaining, <br>Word of Mouth Marketing</p>
 							<div class="btn-holder">
 								<a href="book.php" class="button btn-blue">learn more</a>

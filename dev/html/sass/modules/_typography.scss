@@ -84,7 +84,7 @@ p {
 li {
   @include InfoMediumFont;
   @include font-size(19);
-  @include line-height(29);
+  @include line-height(24);
 }
 .no-touch a:hover {
   @include transition-property(all);

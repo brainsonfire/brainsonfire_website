@@ -22,22 +22,22 @@
 				<div id="speakers">
 					<div class="row">
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="#dummy"><img src="images/speaking/robbin.jpg" alt=""></a>
+							<a href="#dummy"><img src="images/speaking/robbin.jpg" alt="Robbin Phillips"></a>
 							<h3><a href="#dummy">Robbin Phillips</a></h3>
 							<a href="#dummy" class="button btn-orange">learn more</a>
 						</div>
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="#dummy"><img src="images/speaking/geno.jpg" alt=""></a>
+							<a href="#dummy"><img src="images/speaking/geno.jpg" alt="Geno Church"></a>
 							<h3><a href="#dummy">Geno Church</a></h3>
 							<a href="#dummy" class="button btn-orange">learn more</a>
 						</div>
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="#dummy"><img src="images/speaking/john.jpg" alt=""></a>
+							<a href="#dummy"><img src="images/speaking/john.jpg" alt="John Moore"></a>
 							<h3><a href="#dummy">John Moore</a></h3>
 							<a href="#dummy" class="button btn-orange">learn more</a>
 						</div>
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="#dummy"><img src="images/speaking/greg.jpg" alt=""></a>
+							<a href="#dummy"><img src="images/speaking/greg.jpg" alt="Greg Cordell"></a>
 							<h3><a href="#dummy">Greg Cordell</a></h3>
 							<a href="#dummy" class="button btn-orange">learn more</a>
 						</div>
@@ -226,6 +226,7 @@
 							</div>
 							<div class="row">
 								<div class="label-wrap">
+									<span class="text">Date</span>
 									<span class="date day">
 										<input id="day" class="slash" type="number" />
 										<span>DD</span>
@@ -238,7 +239,6 @@
 										<input id="year" type="number" />
 										<span>YYYY</span>
 									</span>
-									<span class="text">Date</span>
 								</div>
 							</div>
 							<div class="row select-style">

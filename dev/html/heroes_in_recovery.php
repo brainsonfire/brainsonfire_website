@@ -23,7 +23,7 @@
 				</div>
 				
 				<div id="heroes" class="main-photo">
-					<img src="images/case-study/heroes/bg_heroes_in_recovery.jpg" alt="">
+					<img src="images/case-study/heroes/bg_heroes_in_recovery.jpg" alt="Heroes in Recovery">
 				</div>
 
 				<section id="heroes-intro" class="intro">
@@ -44,7 +44,7 @@
 					<div class="row">
 						<h3>Lee Pepper, Foundations Recovery Network</h3>
 						<div class="block orange">
-							<img src="images/case-study/heroes/lee_pepper.jpg" alt="">
+							<img src="images/case-study/heroes/lee_pepper.jpg" alt="Lee Pepper">
 							<p>“A lot of the social ills we have stem from shame. People forget how far breast cancer awareness—and cancer awareness in general—has come. I heard an interview with comedian Bernie Mac years ago on Howard Stern. He was talking about how when he was a child in the 70s, his mother went away for six weeks—and he was just told she was ‘away.’ She was actually in the hospital having a double mastectomy. But you didn’t talk about that back then. Getting breast cancer was a shameful thing—like she had done something wrong.” “This is 2013!” Why are we still repeating the same mistakes that we learned from these other social movements? We have got to take action now. We must be able to talk about addiction and the mental illness that often comes with it openly and without shame, -- or else we’re still going to have not only thousands of people each year dying from this disease, but also impacting millions of lives needlessly... in a negative way.”</p>
 						</div>
 					</div>

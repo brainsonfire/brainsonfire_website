@@ -12,7 +12,7 @@
       height: 170px;
       top: 83px;
       left: 50%;
-      margin-left: 80px;
+      margin-left: 90px;
       background: url(../images/books/books_title.png) no-repeat 50% 50%;
       @include background-size(cover);
     }    
@@ -68,13 +68,14 @@
 }
 #book-banner {
   padding: 312px 0 220px;
-  &.thepassionofconversation-book {
-    background: #dc5520 url(../images/books/the_passion_conversation.jpg) no-repeat 50% 50%;
-    @include background-size(cover);
-  }
-  &.brainsonfire-book {
-    background: #dc5520 url(../images/books/brains_on_fire.jpg) no-repeat 50% 50%;
-    @include background-size(cover);
+  > img {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: auto;
+    max-width: none;
+    height: 100%;
   }
   .half-block {
     width: 44%;

@@ -24,7 +24,7 @@
 				
 				<div id="love-146" class="main-photo">
 					<div class="row">
-						<img src="images/case-study/love-146/love146.png" alt="">
+						<img src="images/case-study/love-146/love146.png" alt="Love 146">
 					</div>
 				</div>
 				

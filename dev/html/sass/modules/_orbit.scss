@@ -83,12 +83,12 @@
     display: block;
     vertical-align: middle;
     @include border-radius(100%);
-    @include min-screen(1200px) {
+    @include min-screen(1220px) {
       width: 283px;
       height: 283px;
       padding: 13px;
     }
-    @include screen(1024px,1199px) {
+    @include screen(1024px,1229px) {
       width: 242px;
       height: 242px;
       padding: 10px;

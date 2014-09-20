@@ -2,8 +2,7 @@
   @include min-screen(1024px) {
     padding: 102px 0 83px;
   }
-  @include screen(768px,
-  1023px) {
+  @include screen(768px, 1023px) {
     padding: 60px 0;
   }
   @include max-screen(767px) {
@@ -99,6 +98,21 @@ label,
     }
   }
 }
+.label-wrap span.date {
+  position: relative;
+  &.month:after,
+  &.day:after {
+    content: "/";
+    display: block;
+    font-size: 21px;
+    height: 14px;
+    position: absolute;
+    right: -20px;
+    top: 14px;
+    width: 5px;
+    z-index: 1000;
+  }
+}
 form .row {
   clear: both;
 }
@@ -109,8 +123,8 @@ select {
   border: 1px solid #ccc;
   background-color: #FFF;
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
   @include font-size(20);
   @include InfoNormalFont;
   &:hover {

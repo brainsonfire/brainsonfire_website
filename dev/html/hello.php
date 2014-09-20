@@ -95,7 +95,7 @@
 				</section>
 
 				<div id="map">
-					<img src="images/hello/hello_map.jpg" alt="">
+					<img src="images/hello/hello_map.jpg" alt="Brains on Fire Map">
 				</div>
 
 			</main>

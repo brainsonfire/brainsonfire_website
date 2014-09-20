@@ -15,7 +15,7 @@
 				<section id="case-studies-banner">
 					<div class="row">
 						<h1>Case Studies</h1>
-						<img src="images/case-study/case_studies_title.png" alt="">
+						<img src="images/case-study/case_studies_title.png" alt="Case Studies">
 					</div>
 				</section>
 
@@ -26,7 +26,7 @@
 						<ul class="row project-list">
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="love_146.php">
-									<img src="images/case-study/project_01.jpg" alt="">
+									<img src="images/case-study/project_01.jpg" alt="Lorem Ipsum">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Lorem Ipsum</span>
@@ -37,7 +37,7 @@
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="heroes_in_recovery.php">
-									<img src="images/case-study/project_02.jpg" alt="">
+									<img src="images/case-study/project_02.jpg" alt="Lorem Ipsum">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Lorem Ipsum</span>
@@ -48,7 +48,7 @@
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="#dummy">
-									<img src="images/case-study/project_03.jpg" alt="">
+									<img src="images/case-study/project_03.jpg" alt="Lorem Ipsum">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Lorem Ipsum</span>
@@ -59,7 +59,7 @@
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="#dummy">
-									<img src="images/case-study/project_04.jpg" alt="">
+									<img src="images/case-study/project_04.jpg" alt="Lorem Ipsum">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Lorem Ipsum</span>
@@ -70,7 +70,7 @@
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="#dummy">
-									<img src="images/case-study/project_05.jpg" alt="">
+									<img src="images/case-study/project_05.jpg" alt="Lorem Ipsum">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Lorem Ipsum</span>
@@ -81,7 +81,7 @@
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="#dummy">
-									<img src="images/case-study/project_06.jpg" alt="">
+									<img src="images/case-study/project_06.jpg" alt="Lorem Ipsum">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Lorem Ipsum</span>

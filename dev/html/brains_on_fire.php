@@ -22,6 +22,7 @@
 				</div>
 
 				<section id="book-banner" class="white-text main-photo brainsonfire-book">
+					<img src="images/books/brains_on_fire.jpg" alt="Brains on Fire">
 					<div class="row">
 						<div class="half-block right">
 							<h1>Brains on Fire</h1>
@@ -51,9 +52,9 @@
 						<h1>Meet the authoral team</h1>
 						<p>all of them are illustrious in their own right.</p>
 						<div class="circle-orbit-nav books-orbit">
-							<a data-orbit-link="circle-headline-1"><span class="circle"><span class="table"><img src="images/books/robbin.jpg" alt=""><span class="title">Robbin Phillips</span></span></span></a>
-							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt=""><span class="title">Greg Cordell</span></span></span></a>
-							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt=""><span class="title">Geno Church</span></span></span></a>
+							<a data-orbit-link="circle-headline-1"><span class="circle"><span class="table"><img src="images/books/robbin.jpg" alt="Robbin Phillips"><span class="title">Robbin Phillips</span></span></span></a>
+							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
+							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt="Geno Church"><span class="title">Geno Church</span></span></span></a>
 						</div>
 						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;">
 							<li data-orbit-slide="circle-headline-1">
