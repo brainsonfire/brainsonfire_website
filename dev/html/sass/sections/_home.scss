@@ -155,7 +155,9 @@
 .section-work {
   background: url(../images/layout/bg-path.png);
   color: #333;
-  padding: 63px 0 80px;
+  @include min-screen(1200px) {
+    padding: 63px 0 80px;
+  }
   .btn-ico {
     background-color: #eb7e1f;
     text-align: left;

@@ -137,7 +137,18 @@ ul.row {
   width: 22px;
 }
 .row .works-list {
-  margin: 53px auto 43px;
+  @include min-screen(1200px) {
+    margin: 53px auto 43px;
+  }
+  @include screen(1024px,1199px) {
+    margin: 40px auto;
+  }
+  @include screen(768px,1023px) {
+    margin: 30px auto;
+  }  
+  @include max-screen(767px) {
+    margin: 22px auto;
+  }
   li {
     margin: 0 0 30px;
   }
@@ -227,13 +238,13 @@ ul.row {
   z-index: 20;
   overflow: hidden;
   clear: both;
-  @include max-screen(768px) {
-    display: none;
-  }
   &.top {
     background: rgba(#fff, 0.9);
     padding: 33px 0;
     height: 105px;
+    @include max-screen(768px) {
+      background: rgba(#fff, 0);
+    }
   }
   &.bottom {
     background: #F1F2F3;
@@ -255,9 +266,13 @@ ul.row {
       @include max-screen(1023px) {
         width: 32px;
         z-index: 33;
+        margin: 0 0 0 -10px;
         span {
-            display: none;
-          }
+          display: none;
+        }
+      }
+      @include max-screen(480px) {
+        @include font-size(14px);
       }
       + li {
         text-align: center;
@@ -280,7 +295,7 @@ ul.row {
           float: right;
           width: 32px;
           z-index: 33;
-          margin: -48px 0 0;
+          margin: -57px -10px 0 0;
           span {
             display: none;
           }

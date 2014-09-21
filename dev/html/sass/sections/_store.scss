@@ -18,7 +18,12 @@
   h1 + p:first-of-type {
     margin: 0 0 30px;
     + img {
-      margin: 0 0 50px;
+      @include min-screen(1200px) {
+        margin: 0 0 50px;
+      }
+      @include max-screen(1199px) {
+        margin: 0 0 30px;
+      }
     }
   }
   .right-sidebar {

@@ -89,6 +89,7 @@
   margin: 0;
 }
 .mega-holder {
+  clear: both;
   width: 100%;
   padding: 0;
   overflow: hidden;
@@ -2003,4 +2004,10 @@ END FLOATING PEOPLE
 .people-post .meta .social li {
   @include font-size(18);
   @include line-height(22);
+}
+@include max-screen(767px) {
+.columns .columns,
+.row.cols-holder {
+    padding: 0;
+  }
 }
