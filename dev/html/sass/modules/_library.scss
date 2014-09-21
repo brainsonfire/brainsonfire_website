@@ -49,7 +49,8 @@ ul.row {
   }
   @include max-screen(640px) {
     padding: 1.4rem 0;
-    width: 100%;
+    width: 100% !important;
+    max-width: 450px !important;
   }
   @include min-screen(1024px) {
     @include font-size(28);
@@ -226,6 +227,9 @@ ul.row {
   z-index: 20;
   overflow: hidden;
   clear: both;
+  @include max-screen(768px) {
+    display: none;
+  }
   &.top {
     background: rgba(#fff, 0.9);
     padding: 33px 0;
@@ -244,12 +248,43 @@ ul.row {
     list-style: none;
     li {
       float: left;
-      width: 33.3333333%;
+      position: relative;
+      @include min-screen(1024px) {
+        width: 33.3333333%;
+      }
+      @include max-screen(1023px) {
+        width: 32px;
+        z-index: 33;
+        span {
+            display: none;
+          }
+      }
       + li {
         text-align: center;
+        @include max-screen(1023px) {
+          width: 100%;
+          max-width: 226px;
+          float: none;
+          z-index: 30;
+          margin: 0 auto;
+          span {
+            display: block;
+            width: 100%;
+            padding: 0;
+          }
+        }
       }
       + li + li {
         text-align: right;
+        @include max-screen(1023px) {
+          float: right;
+          width: 32px;
+          z-index: 33;
+          margin: -48px 0 0;
+          span {
+            display: none;
+          }
+        }
       }
     }
   }
@@ -284,9 +319,19 @@ ul.row {
   .center {
     margin: 0 auto;
     padding: 0 0 0 44px;
+    @include max-screen(1023px) {
+      width: 100%;
+      padding: 0;
+      margin: 18px auto 0;
+    }
     &:after {
       left: 0;
       background-position: 0 -44px;
+      @include max-screen(1023px) {
+        left: 50%;
+        top: -30px;
+        margin-left: -16px;
+      }
     }
   }
   .next {
@@ -301,43 +346,20 @@ ul.row {
 .main-photo {
   position: relative;
   overflow: hidden;
-  margin: -105px 0 0;
+  display: block;
+  width: 100%;
+  clear: both;
+  @include min-screen(769px) {
+    margin: -105px 0 0;
+  }
   img {
     float: left;
     max-width: none;  
   }  
 }
-.intro {
-  padding: 70px 0 62px;
-  h1 {
-    margin: 0 0 53px;
-    display: block;
-    + p {
-      text-transform: none;
-      text-align: left;
-      margin: 0 0 20px;
-      @include InfoNormalFont;
-      @include font-size(20);
-      @include line-height(30);
-    }
-  }
-}
 p.intro {
   padding: 0;
   margin: 0;
-}
-.two-col {
-  margin: 0;
-  padding: 0 5.9375rem;
-  .left,
-  .right {
-    width: 48.7%;
-  }
-  p {
-    margin: 0 0 32px;
-    display: inline-block;
-    overflow: hidden; 
-  }
 }
 .border-left {
   border-left: 2px solid rgba(153, 153, 153, 0.3);

@@ -52,20 +52,30 @@
   @include min-screen(1200px) {
     padding: 80px 0 83px;
   }
-  @include min-screen(768px) {
-    &:after {
+  &:after {
+    @include min-screen(768px) {
       position: absolute;
       display: block;
       z-index: 11;
       content: "";
       width: 292px;
       height: 170px;
-      top: -1px;
-      left: 50%;
-      margin-left: 111px;
+      left: 50%;      
       background: url(../images/books/books_title.png) no-repeat 50% 50%;
       @include background-size(cover);
     }    
+    @include min-screen(1200px) {
+      top: -1px;
+      margin-left: 111px;
+    }    
+    @include screen(1024px,1199px) {
+      top: -31px;
+      margin-left: 111px;
+    }
+    @include screen(768px,1023px) {
+      top: -39px;
+      margin-left: 71px;
+    }
   }
   .half-block p {
     @include min-screen(1024px) {

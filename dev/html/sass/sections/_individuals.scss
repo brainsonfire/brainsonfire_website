@@ -399,7 +399,7 @@ END FLOATING PEOPLE
 .people-holder {
   /* max-width: 1170px;
   */
-  max-width: 960px;
+  // max-width: 960px;
   margin: 0 auto;
   /* padding: 55px 10px 39px;
   */
@@ -410,7 +410,8 @@ END FLOATING PEOPLE
 .people-holder ul {
   /* margin: 0 -11px 0 -16px;
   */
-  margin: 0 -11px 15px -16px;
+  max-width: 980px;
+  margin: 0 auto 15px;
   padding: 0;
   /* font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   */
@@ -1034,8 +1035,7 @@ END FLOATING PEOPLE
     padding: 5px 0 0;
   }
   .mega-holder .about .holder {
-    max-width: 780px;
-    padding: 58px 10px 70px;
+    padding: 58px 15px 70px;
   }
   .paging {
     margin-bottom: -130px;
@@ -1103,7 +1103,6 @@ END FLOATING PEOPLE
     background: url(../images/individuals/bg-heading.jpg) repeat-x 50% 0;
   }
   .people-holder ul {
-    max-width: 740px;
     margin: 0 auto;
     text-align: center;
   }
@@ -1126,8 +1125,7 @@ END FLOATING PEOPLE
     background-position: -245px -107px;
   }
   .mega-holder .about .holder {
-    max-width: 580px;
-    padding: 66px 28px 71px 10px;
+    padding: 66px 15px 71px;
     font-size: 15px;
     line-height: 30px;
     text-align: justify;
@@ -1567,9 +1565,6 @@ END FLOATING PEOPLE
     margin-bottom: 59px;
     padding: 100px 10px;
   }
-  .people-holder ul {
-    max-width: 370px;
-  }
   .people-holder ul li {
     padding-bottom: 43px;
   }
@@ -1577,8 +1572,7 @@ END FLOATING PEOPLE
     background-position: -416px -106px;
   }
   .mega-holder .about .holder {
-    max-width: 324px;
-    padding: 57px 10px 66px;
+    padding: 30px 15px;
     text-align: left;
   }
   .paging+.mega-holder .mega-banner,
@@ -1903,8 +1897,9 @@ END FLOATING PEOPLE
     }
     .button {
       max-width: 192px;
-      @include max-screen(640px) {
-        max-width: 100%;
+      @include max-screen(767px) {
+        width: 100%;
+        max-width: 450px;
       }
     }
     + .half-block {
@@ -1927,16 +1922,18 @@ END FLOATING PEOPLE
         border: 1px solid #ccc;
         float: none;
         @include border-radius(2px);
-        @include max-screen(640px) {
+        @include max-screen(767px) {
           width: 100%;
+          max-width: 450px;
         }
       }
       .button {
         clear: both;
         max-width: 192px;
         position: relative;
-        @include max-screen(640px) {
-          max-width: 100%;
+        @include max-screen(767px) {
+          width: 100%;
+          max-width: 450px;
         }
       }
     }

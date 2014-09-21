@@ -62,20 +62,36 @@
 						</div>
 						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;">
 							<li data-orbit-slide="circle-headline-1">
+								<div class="medium-down">
+									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
+									<h3 class="title">Robbin Phillips</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-2">
+								<div class="medium-down">
+									<img src="images/books/geno.jpg" alt="Geno Church">
+									<h3 class="title">Geno Church</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-3">
+								<div class="medium-down">
+									<img src="images/books/john.jpg" alt="John Moore">
+									<h3 class="title">John Moore</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 							<li data-orbit-slide="circle-headline-4">
+								<div class="medium-down">
+									<img src="images/books/greg.jpg" alt="Greg Cordell">
+									<h3 class="title">Greg Cordell</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>

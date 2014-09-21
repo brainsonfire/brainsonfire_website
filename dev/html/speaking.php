@@ -47,14 +47,14 @@
 				<section id="speaking-info">
 					<div class="row">
 						<h1>How it all works.</h1>
-						<div class="large-4 medium-4 small-12 columns">
+						<div class="large-4 medium-6 small-12 columns">
 							<p>We’ve spoken at conferences big and small spreading passion, inspiration, and oodles of marketing know-how. We can deliver a wicked good presentation for your business or conference on how to spark love and passion from your biggest fans as well as how to ignite powerful, meaningful, sustainable word of mouth movements.</p>
 							<p>With the release of our newest book, we’re waiving our speaking fee in exchange for ordering bulk copies of THE PASSION CONVERSATION.</p>
 						</div>
-						<div class="large-4 medium-4 small-12 columns">
+						<div class="large-4 medium-6 small-12 columns">
 							<p>Here’s the deal. If you purchase at least 200 copies of The Passion Conversation and cover travel costs, one of the authors will head your way to deliver one heck of a keynote talk. Interested? Book us by clicking below. Act swift because this offer won’t last long. Our speaking schedule fills up fast and we have a limited number of dates available. (Client work always comes first.) So really…you gotta move fast.</p>
 						</div>
-						<div class="large-4 medium-4 small-12 columns audience">
+						<div class="large-4 medium-12 small-12 columns audience">
 							<h3>Audiences Include</h3>
 							<ul>
 								<li>Marketing Professionals</li>

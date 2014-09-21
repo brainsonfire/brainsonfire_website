@@ -56,18 +56,30 @@
 							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
 							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt="Geno Church"><span class="title">Geno Church</span></span></span></a>
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;">
+						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false;">
 							<li data-orbit-slide="circle-headline-1">
+								<div class="medium-down">
+									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
+									<h3 class="title">Robbin Phillips</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-2">
+								<div class="medium-down">
+									<img src="images/books/greg.jpg" alt="Greg Cordell">
+									<h3 class="title">Greg Cordell</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus.</span>
 								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-3">
+								<div class="medium-down">
+									<img src="images/books/geno.jpg" alt="Geno Church">
+									<h3 class="title">Geno Church</h3>
+								</div>
 								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</span>
 								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda facere, provident quaerat debitis asperiores dicta quasi voluptatum! Ab, mollitia harum. Harum ipsum possimus repudiandae eligendi ipsa qui a, dignissimos officiis.</span>
 							</li>

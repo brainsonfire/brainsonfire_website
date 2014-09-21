@@ -78,13 +78,33 @@ b, strong {
 
 p {
   @include InfoNormalFont;
-  @include font-size(20);
-  @include line-height(30);
+  @include min-screen(1024px) {
+    @include font-size(20);
+    @include line-height(30);
+  }
+  @include screen(768px,1023px) {
+    @include font-size(18);
+    @include line-height(28);
+  }
+  @include max-screen(767px) {
+    @include font-size(16);
+    @include line-height(26);
+  }
 }
 li {
-  @include InfoMediumFont;
-  @include font-size(19);
-  @include line-height(24);
+  @include InfoNormalFont;
+  @include min-screen(1024px) {
+    @include font-size(19);
+    @include line-height(24);
+  }
+  @include screen(768px,1023px) {
+    @include font-size(18);
+    @include line-height(23);
+  }
+  @include max-screen(767px) {
+    @include font-size(16);
+    @include line-height(22);
+  }
 }
 .no-touch a:hover {
   @include transition-property(all);
