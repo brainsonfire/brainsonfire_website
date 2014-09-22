@@ -7,21 +7,27 @@ html {
 /* line 4, ../sass/modules/_typography.scss */
 body {
   color: #333;
+  font-family: hedley-new-web,serif;
+  font-weight: 400;
   font-size: 16px;
   font-size: 1rem;
 }
 
-/* line 13, ../sass/modules/_typography.scss */
+/* line 11, ../sass/modules/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: hedley-new-web,serif;
+  letter-spacing: -1px;
+}
+
+/* line 16, ../sass/modules/_typography.scss */
 h1 {
   text-transform: uppercase;
   text-align: center;
   margin: 0 0 5px;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 @media screen and (min-width: 1024px) {
-  /* line 13, ../sass/modules/_typography.scss */
+  /* line 16, ../sass/modules/_typography.scss */
   h1 {
     font-size: 42px;
     font-size: 2.625rem;
@@ -30,7 +36,7 @@ h1 {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 13, ../sass/modules/_typography.scss */
+  /* line 16, ../sass/modules/_typography.scss */
   h1 {
     font-size: 32px;
     font-size: 2rem;
@@ -39,7 +45,7 @@ h1 {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 13, ../sass/modules/_typography.scss */
+  /* line 16, ../sass/modules/_typography.scss */
   h1 {
     font-size: 28px;
     font-size: 1.75rem;
@@ -48,44 +54,37 @@ h1 {
   }
 }
 
-/* line 31, ../sass/modules/_typography.scss */
+/* line 34, ../sass/modules/_typography.scss */
 h2 {
   text-transform: uppercase;
   text-align: center;
   margin: 0;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 25px;
   line-height: 1.5625rem;
 }
 
-/* line 39, ../sass/modules/_typography.scss */
+/* line 42, ../sass/modules/_typography.scss */
 h3 {
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 25px;
   line-height: 1.5625rem;
 }
 
-/* line 55, ../sass/modules/_typography.scss */
+/* line 58, ../sass/modules/_typography.scss */
 h1 + p:first-of-type,
 #upcoming h2 + p:first-of-type {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 @media screen and (min-width: 1024px) {
-  /* line 55, ../sass/modules/_typography.scss */
+  /* line 58, ../sass/modules/_typography.scss */
   h1 + p:first-of-type,
   #upcoming h2 + p:first-of-type {
     font-size: 20px;
@@ -95,7 +94,7 @@ h1 + p:first-of-type,
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 55, ../sass/modules/_typography.scss */
+  /* line 58, ../sass/modules/_typography.scss */
   h1 + p:first-of-type,
   #upcoming h2 + p:first-of-type {
     font-size: 18px;
@@ -105,7 +104,7 @@ h1 + p:first-of-type,
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 55, ../sass/modules/_typography.scss */
+  /* line 58, ../sass/modules/_typography.scss */
   h1 + p:first-of-type,
   #upcoming h2 + p:first-of-type {
     font-size: 16px;
@@ -115,19 +114,17 @@ h1 + p:first-of-type,
   }
 }
 
-/* line 75, ../sass/modules/_typography.scss */
+/* line 78, ../sass/modules/_typography.scss */
 b, strong {
   font-weight: normal;
 }
 
-/* line 79, ../sass/modules/_typography.scss */
+/* line 82, ../sass/modules/_typography.scss */
 p {
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
 }
 @media screen and (min-width: 1024px) {
-  /* line 79, ../sass/modules/_typography.scss */
+  /* line 82, ../sass/modules/_typography.scss */
   p {
     font-size: 20px;
     font-size: 1.25rem;
@@ -136,7 +133,7 @@ p {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 79, ../sass/modules/_typography.scss */
+  /* line 82, ../sass/modules/_typography.scss */
   p {
     font-size: 18px;
     font-size: 1.125rem;
@@ -145,7 +142,7 @@ p {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 79, ../sass/modules/_typography.scss */
+  /* line 82, ../sass/modules/_typography.scss */
   p {
     font-size: 16px;
     font-size: 1rem;
@@ -154,14 +151,12 @@ p {
   }
 }
 
-/* line 94, ../sass/modules/_typography.scss */
+/* line 97, ../sass/modules/_typography.scss */
 li {
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
 }
 @media screen and (min-width: 1024px) {
-  /* line 94, ../sass/modules/_typography.scss */
+  /* line 97, ../sass/modules/_typography.scss */
   li {
     font-size: 19px;
     font-size: 1.1875rem;
@@ -170,7 +165,7 @@ li {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 94, ../sass/modules/_typography.scss */
+  /* line 97, ../sass/modules/_typography.scss */
   li {
     font-size: 18px;
     font-size: 1.125rem;
@@ -179,7 +174,7 @@ li {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 94, ../sass/modules/_typography.scss */
+  /* line 97, ../sass/modules/_typography.scss */
   li {
     font-size: 16px;
     font-size: 1rem;
@@ -188,7 +183,7 @@ li {
   }
 }
 
-/* line 109, ../sass/modules/_typography.scss */
+/* line 112, ../sass/modules/_typography.scss */
 .no-touch a:hover {
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -204,41 +199,6 @@ li {
   transition-duration: 0.2s;
 }
 
-@font-face {
-  font-family: 'infotextnormal';
-  src: url("../fonts/infotext-normal-webfont.eot");
-  src: url("../fonts/infotext-normal-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/infotext-normal-webfont.woff2") format("woff2"), url("../fonts/infotext-normal-webfont.woff") format("woff"), url("../fonts/infotext-normal-webfont.ttf") format("truetype"), url("../fonts/infotext-normal-webfont.svg#infotextnormal") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'infobold';
-  src: url("../fonts/info-bold-webfont.eot");
-  src: url("../fonts/info-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/info-bold-webfont.woff2") format("woff2"), url("../fonts/info-bold-webfont.woff") format("woff"), url("../fonts/info-bold-webfont.ttf") format("truetype"), url("../fonts/info-bold-webfont.svg#infobold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'infosemibold';
-  src: url("../fonts/info-semibold-webfont.eot");
-  src: url("../fonts/info-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/info-semibold-webfont.woff2") format("woff2"), url("../fonts/info-semibold-webfont.woff") format("woff"), url("../fonts/info-semibold-webfont.ttf") format("truetype"), url("../fonts/info-semibold-webfont.svg#infosemibold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'infobook';
-  src: url("../fonts/info-book-webfont.eot");
-  src: url("../fonts/info-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/info-book-webfont.woff2") format("woff2"), url("../fonts/info-book-webfont.woff") format("woff"), url("../fonts/info-book-webfont.ttf") format("truetype"), url("../fonts/info-book-webfont.svg#infobook") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'infomedium';
-  src: url("../fonts/info-medium-webfont.eot");
-  src: url("../fonts/info-medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/info-medium-webfont.woff2") format("woff2"), url("../fonts/info-medium-webfont.woff") format("woff"), url("../fonts/info-medium-webfont.ttf") format("truetype"), url("../fonts/info-medium-webfont.svg#infomedium") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
 /* line 1, ../sass/modules/_layout.scss */
 * {
   -moz-box-sizing: border-box;
@@ -305,9 +265,7 @@ a {
   .tab-bar .menu-icon span {
     color: #666;
     text-transform: uppercase;
-    font-family: "infosemibold", Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    font-style: normal;
+    font-weight: 500;
     font-size: 20px;
     font-size: 1.25rem;
     line-height: 28px;
@@ -391,9 +349,7 @@ a {
 .right-off-canvas-menu ul a {
   color: #999;
   text-transform: uppercase;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 /* line 112, ../sass/modules/_layout.scss */
 .right-off-canvas-menu ul a:hover {
@@ -682,25 +638,23 @@ a {
 }
 /* line 287, ../sass/modules/_layout.scss */
 .talk-block .title {
-  margin: 0 0 8px;
+  margin: 0 0 2px;
   display: block;
   color: #333;
   text-transform: uppercase;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 44px;
-  font-size: 2.75rem;
+  font-weight: 500;
+  font-size: 36px;
+  font-size: 2.25rem;
   line-height: 32px;
   line-height: 2rem;
 }
 /* line 296, ../sass/modules/_layout.scss */
 .talk-block .text-pick {
+  display: block;
+  margin: 0 0 6px;
   color: #666;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 25px;
@@ -708,7 +662,7 @@ a {
 }
 
 @media screen and (min-width: 1170px) {
-  /* line 304, ../sass/modules/_layout.scss */
+  /* line 306, ../sass/modules/_layout.scss */
   .call-block {
     width: 18.1%;
     border-right: 2px solid rgba(153, 153, 153, 0.3);
@@ -717,7 +671,7 @@ a {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1169px) {
-  /* line 304, ../sass/modules/_layout.scss */
+  /* line 306, ../sass/modules/_layout.scss */
   .call-block {
     width: 32%;
     border-right: 1px solid rgba(153, 153, 153, 0.3);
@@ -726,47 +680,43 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 304, ../sass/modules/_layout.scss */
+  /* line 306, ../sass/modules/_layout.scss */
   .call-block {
     width: 100%;
     text-align: center;
     padding: 0 0 16px;
   }
 }
-/* line 322, ../sass/modules/_layout.scss */
+/* line 324, ../sass/modules/_layout.scss */
 .call-block .call {
   margin: 0;
   display: block;
   color: #333;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-weight: 500;
+  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 331, ../sass/modules/_layout.scss */
+/* line 333, ../sass/modules/_layout.scss */
 .call-block .tel {
   color: #d9531e;
   text-transform: uppercase;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-weight: 500;
+  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 28px;
   line-height: 1.75rem;
 }
 
-/* line 339, ../sass/modules/_layout.scss */
+/* line 341, ../sass/modules/_layout.scss */
 .no-touch .call-block .tel {
   cursor: text;
 }
 
 @media screen and (min-width: 1170px) {
-  /* line 342, ../sass/modules/_layout.scss */
+  /* line 344, ../sass/modules/_layout.scss */
   .email-block {
     width: 19.1%;
     border-right: 2px solid rgba(153, 153, 153, 0.3);
@@ -775,7 +725,7 @@ a {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1169px) {
-  /* line 342, ../sass/modules/_layout.scss */
+  /* line 344, ../sass/modules/_layout.scss */
   .email-block {
     width: 32%;
     border-right: 1px solid rgba(153, 153, 153, 0.3);
@@ -784,14 +734,14 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 342, ../sass/modules/_layout.scss */
+  /* line 344, ../sass/modules/_layout.scss */
   .email-block {
     width: 100%;
     text-align: center;
     padding: 0 0 16px;
   }
 }
-/* line 360, ../sass/modules/_layout.scss */
+/* line 362, ../sass/modules/_layout.scss */
 .email-block .email-us {
   background: #D9531E;
   text-align: center;
@@ -805,14 +755,14 @@ a {
   font-size: 1.625rem;
 }
 @media screen and (min-width: 1170px) {
-  /* line 360, ../sass/modules/_layout.scss */
+  /* line 362, ../sass/modules/_layout.scss */
   .email-block .email-us {
     line-height: 32px !important;
     line-height: 2rem !important;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 360, ../sass/modules/_layout.scss */
+  /* line 362, ../sass/modules/_layout.scss */
   .email-block .email-us {
     display: block;
     width: 100%;
@@ -821,7 +771,7 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 360, ../sass/modules/_layout.scss */
+  /* line 362, ../sass/modules/_layout.scss */
   .email-block .email-us {
     display: table;
     margin: 0 auto;
@@ -830,13 +780,13 @@ a {
     line-height: 2.25rem;
   }
 }
-/* line 385, ../sass/modules/_layout.scss */
+/* line 387, ../sass/modules/_layout.scss */
 .email-block .email-us:hover {
   background: #e57245;
 }
 
 @media screen and (min-width: 1170px) {
-  /* line 390, ../sass/modules/_layout.scss */
+  /* line 392, ../sass/modules/_layout.scss */
   .connect-block {
     width: 19.14%;
     padding: 23px 0 20px;
@@ -844,55 +794,51 @@ a {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1169px) {
-  /* line 390, ../sass/modules/_layout.scss */
+  /* line 392, ../sass/modules/_layout.scss */
   .connect-block {
     width: 36%;
     padding: 0 0 16px 24px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 390, ../sass/modules/_layout.scss */
+  /* line 392, ../sass/modules/_layout.scss */
   .connect-block {
     width: 100%;
     text-align: center;
     padding: 0 0 16px;
   }
 }
-/* line 406, ../sass/modules/_layout.scss */
+/* line 407, ../sass/modules/_layout.scss */
 .connect-block .text-online {
   margin: 0;
   display: block;
   color: #333;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-weight: 500;
+  font-size: 26px;
+  font-size: 1.625rem;
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 415, ../sass/modules/_layout.scss */
+/* line 416, ../sass/modules/_layout.scss */
 .connect-block .text-connect {
   color: #666;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 20px;
-  font-size: 1.25rem;
+  font-weight: 500;
+  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 25px;
   line-height: 1.5625rem;
 }
 
 @media screen and (min-width: 1170px) {
-  /* line 423, ../sass/modules/_layout.scss */
+  /* line 424, ../sass/modules/_layout.scss */
   .social-block {
     width: 14%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1169px) {
-  /* line 423, ../sass/modules/_layout.scss */
+  /* line 424, ../sass/modules/_layout.scss */
   .social-block {
     width: 42%;
     float: right;
@@ -901,7 +847,7 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 423, ../sass/modules/_layout.scss */
+  /* line 424, ../sass/modules/_layout.scss */
   .social-block {
     width: 100%;
     text-align: center;
@@ -909,134 +855,132 @@ a {
   }
 }
 
-/* line 440, ../sass/modules/_layout.scss */
+/* line 441, ../sass/modules/_layout.scss */
 .social-networks {
   list-style: none;
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
-  /* line 440, ../sass/modules/_layout.scss */
+  /* line 441, ../sass/modules/_layout.scss */
   .social-networks {
     margin: 13px 0 0;
     padding: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 440, ../sass/modules/_layout.scss */
+  /* line 441, ../sass/modules/_layout.scss */
   .social-networks {
     display: table;
     margin: -14px auto 0;
     padding: 0;
   }
 }
-/* line 452, ../sass/modules/_layout.scss */
+/* line 453, ../sass/modules/_layout.scss */
 .social-networks li {
   float: left;
   margin: 0 4px 6px 0;
 }
-/* line 456, ../sass/modules/_layout.scss */
+/* line 457, ../sass/modules/_layout.scss */
 .social-networks a {
   display: block;
   text-indent: -9999px;
   overflow: hidden;
   background: url(../images/layout/ico-social.png) no-repeat;
 }
-/* line 461, ../sass/modules/_layout.scss */
+/* line 462, ../sass/modules/_layout.scss */
 .social-networks a:hover {
   opacity: .8;
 }
 @media screen and (min-width: 768px) {
-  /* line 466, ../sass/modules/_layout.scss */
+  /* line 467, ../sass/modules/_layout.scss */
   .social-networks a {
     width: 34px;
     height: 34px;
   }
-  /* line 469, ../sass/modules/_layout.scss */
+  /* line 470, ../sass/modules/_layout.scss */
   .social-networks li.twitter a {
     background-position: -3px -3px;
   }
-  /* line 472, ../sass/modules/_layout.scss */
+  /* line 473, ../sass/modules/_layout.scss */
   .social-networks li.instagram a {
     background-position: -3px -43px;
   }
-  /* line 475, ../sass/modules/_layout.scss */
+  /* line 476, ../sass/modules/_layout.scss */
   .social-networks li.facebook a {
     background-position: -3px -83px;
   }
-  /* line 478, ../sass/modules/_layout.scss */
+  /* line 479, ../sass/modules/_layout.scss */
   .social-networks li.rss a {
     background-position: -3px -123px;
   }
-  /* line 481, ../sass/modules/_layout.scss */
+  /* line 482, ../sass/modules/_layout.scss */
   .social-networks li.pinterest a {
     background-position: -3px -163px;
   }
-  /* line 484, ../sass/modules/_layout.scss */
+  /* line 485, ../sass/modules/_layout.scss */
   .social-networks li.slideshare a {
     background-position: -3px -203px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 489, ../sass/modules/_layout.scss */
+  /* line 490, ../sass/modules/_layout.scss */
   .social-networks a {
     width: 40px;
     height: 40px;
   }
-  /* line 492, ../sass/modules/_layout.scss */
+  /* line 493, ../sass/modules/_layout.scss */
   .social-networks li.twitter a {
     background-position: 0 0;
   }
-  /* line 495, ../sass/modules/_layout.scss */
+  /* line 496, ../sass/modules/_layout.scss */
   .social-networks li.instagram a {
     background-position: 0 -40px;
   }
-  /* line 498, ../sass/modules/_layout.scss */
+  /* line 499, ../sass/modules/_layout.scss */
   .social-networks li.facebook a {
     background-position: 0 -80px;
   }
-  /* line 501, ../sass/modules/_layout.scss */
+  /* line 502, ../sass/modules/_layout.scss */
   .social-networks li.rss a {
     background-position: 0 -120px;
   }
-  /* line 504, ../sass/modules/_layout.scss */
+  /* line 505, ../sass/modules/_layout.scss */
   .social-networks li.pinterest a {
     background-position: 0 -160px;
   }
-  /* line 507, ../sass/modules/_layout.scss */
+  /* line 508, ../sass/modules/_layout.scss */
   .social-networks li.slideshare a {
     background-position: 0 -200px;
   }
 }
 
-/* line 513, ../sass/modules/_layout.scss */
+/* line 514, ../sass/modules/_layout.scss */
 .footer-bottom {
   width: 100%;
   background: #333;
 }
-/* line 516, ../sass/modules/_layout.scss */
+/* line 517, ../sass/modules/_layout.scss */
 .footer-bottom .row {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
   padding: 16px 0 26px;
 }
-/* line 522, ../sass/modules/_layout.scss */
+/* line 523, ../sass/modules/_layout.scss */
 .footer-bottom ul {
   margin: 0;
   padding: 0;
   list-style: none;
   text-align: center;
 }
-/* line 528, ../sass/modules/_layout.scss */
+/* line 529, ../sass/modules/_layout.scss */
 .footer-bottom li {
   text-transform: uppercase;
   color: #ccc;
-  font-family: "infobook", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 300;
 }
 @media screen and (min-width: 768px) {
-  /* line 528, ../sass/modules/_layout.scss */
+  /* line 529, ../sass/modules/_layout.scss */
   .footer-bottom li {
     display: inline-block;
     padding: 0 5px 0 16px;
@@ -1048,7 +992,7 @@ a {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 528, ../sass/modules/_layout.scss */
+  /* line 529, ../sass/modules/_layout.scss */
   .footer-bottom li {
     display: block;
     padding: 4px 0;
@@ -1058,25 +1002,25 @@ a {
     line-height: 1rem;
   }
 }
-/* line 546, ../sass/modules/_layout.scss */
+/* line 547, ../sass/modules/_layout.scss */
 .footer-bottom li:first-of-type {
   background: none;
 }
-/* line 549, ../sass/modules/_layout.scss */
+/* line 550, ../sass/modules/_layout.scss */
 .footer-bottom a {
   color: #ccc;
   text-decoration: none;
 }
-/* line 553, ../sass/modules/_layout.scss */
+/* line 554, ../sass/modules/_layout.scss */
 .footer-bottom a:hover {
   text-decoration: underline;
 }
-/* line 556, ../sass/modules/_layout.scss */
+/* line 557, ../sass/modules/_layout.scss */
 .footer-bottom address {
   font-style: normal;
 }
 
-/* line 561, ../sass/modules/_layout.scss */
+/* line 562, ../sass/modules/_layout.scss */
 #main {
   display: block;
   position: relative;
@@ -1084,85 +1028,85 @@ a {
   background: url("../images/layout/bg-body.png") repeat 0 0;
 }
 @media screen and (min-width: 1201px) {
-  /* line 566, ../sass/modules/_layout.scss */
+  /* line 567, ../sass/modules/_layout.scss */
   #main.individuals {
     margin: -84px 0 0;
   }
 }
 @media screen and (max-width: 1200px) {
-  /* line 566, ../sass/modules/_layout.scss */
+  /* line 567, ../sass/modules/_layout.scss */
   #main.individuals {
     margin: 0;
   }
 }
 @media screen and (min-width: 981px) {
-  /* line 574, ../sass/modules/_layout.scss */
+  /* line 575, ../sass/modules/_layout.scss */
   #main.individual-detail .mega-holder {
     margin: -110px 0 0;
   }
 }
-/* line 579, ../sass/modules/_layout.scss */
+/* line 580, ../sass/modules/_layout.scss */
 #main.case-study {
   background: #FFF;
 }
-/* line 582, ../sass/modules/_layout.scss */
+/* line 583, ../sass/modules/_layout.scss */
 #main.inner-pages, #main.individual-detail {
   margin: 0;
 }
 
-/* line 587, ../sass/modules/_layout.scss */
+/* line 588, ../sass/modules/_layout.scss */
 section {
   position: relative;
   z-index: 10;
 }
 @media screen and (min-width: 1200px) {
-  /* line 587, ../sass/modules/_layout.scss */
+  /* line 588, ../sass/modules/_layout.scss */
   section {
     padding: 80px 0;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 587, ../sass/modules/_layout.scss */
+  /* line 588, ../sass/modules/_layout.scss */
   section {
     padding: 50px 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 587, ../sass/modules/_layout.scss */
+  /* line 588, ../sass/modules/_layout.scss */
   section {
     padding: 40px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 587, ../sass/modules/_layout.scss */
+  /* line 588, ../sass/modules/_layout.scss */
   section {
     padding: 30px 0;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 603, ../sass/modules/_layout.scss */
+  /* line 604, ../sass/modules/_layout.scss */
   section[id$="-banner"],
   section[id*="-banner "] {
     padding: 133px 0 50px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 603, ../sass/modules/_layout.scss */
+  /* line 604, ../sass/modules/_layout.scss */
   section[id$="-banner"],
   section[id*="-banner "] {
     padding: 123px 0 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 603, ../sass/modules/_layout.scss */
+  /* line 604, ../sass/modules/_layout.scss */
   section[id$="-banner"],
   section[id*="-banner "] {
     padding: 113px 0 30px;
   }
 }
 
-/* line 615, ../sass/modules/_layout.scss */
+/* line 616, ../sass/modules/_layout.scss */
 .inner-pages section {
   padding: 0;
 }
@@ -1829,16 +1773,14 @@ p.intro {
 .text-orbit-nav a {
   color: #333;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 @media screen and (min-width: 1024px) {
   /* line 42, ../sass/modules/_orbit.scss */
   .text-orbit-nav a {
-    margin: 0 15px;
-    font-size: 20px;
-    font-size: 1.25rem;
+    margin: 0 12px;
+    font-size: 18px;
+    font-size: 1.125rem;
     line-height: 25px;
     line-height: 1.5625rem;
   }
@@ -1846,9 +1788,9 @@ p.intro {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* line 42, ../sass/modules/_orbit.scss */
   .text-orbit-nav a {
-    margin: 0 13px;
-    font-size: 18px;
-    font-size: 1.125rem;
+    margin: 0 11px;
+    font-size: 16px;
+    font-size: 1rem;
     line-height: 25px;
     line-height: 1.5625rem;
   }
@@ -1870,14 +1812,14 @@ p.intro {
 @media screen and (min-width: 1024px) {
   /* line 60, ../sass/modules/_orbit.scss */
   .text-orbit-nav a:after {
-    right: -25px;
+    right: -18px;
     top: 4px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* line 60, ../sass/modules/_orbit.scss */
   .text-orbit-nav a:after {
-    right: -21px;
+    right: -17px;
     top: 5px;
   }
 }
@@ -1944,9 +1886,7 @@ p.intro {
   vertical-align: middle;
   text-align: center;
   color: #FFF;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
@@ -2014,9 +1954,7 @@ p.intro {
   font-style: normal;
   left: 0;
   bottom: -51px;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 25px;
@@ -2132,9 +2070,7 @@ p.intro {
 #authoral-team .orbit-container li,
 #how-we-work .orbit-container li {
   padding: 0 50px;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   /* line 240, ../sass/modules/_orbit.scss */
@@ -2160,9 +2096,7 @@ p.intro {
 #authoral-team .orbit-container li strong,
 #how-we-work .orbit-container li strong {
   display: block;
-  font-family: "infobold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 700;
 }
 
 /* line 258, ../sass/modules/_orbit.scss */
@@ -2291,9 +2225,7 @@ p.intro {
 }
 /* line 344, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li {
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 @media screen and (min-width: 768px) {
   /* line 344, ../sass/modules/_orbit.scss */
@@ -2315,9 +2247,7 @@ p.intro {
 }
 /* line 354, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li strong {
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 /* line 359, ../sass/modules/_orbit.scss */
 #movement-info p.hint {
@@ -2716,28 +2646,28 @@ p.intro {
 @media screen and (min-width: 1200px) {
   /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
-    font-size: 70px;
-    font-size: 4.375rem;
-    line-height: 78px;
-    line-height: 4.875rem;
+    font-size: 66px;
+    font-size: 4.125rem;
+    line-height: 74px;
+    line-height: 4.625rem;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
   /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
-    font-size: 60px;
-    font-size: 3.75rem;
-    line-height: 68px;
-    line-height: 4.25rem;
+    font-size: 54px;
+    font-size: 3.375rem;
+    line-height: 64px;
+    line-height: 4rem;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
-    font-size: 50px;
-    font-size: 3.125rem;
-    line-height: 58px;
-    line-height: 3.625rem;
+    font-size: 46px;
+    font-size: 2.875rem;
+    line-height: 54px;
+    line-height: 3.375rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -2749,28 +2679,28 @@ p.intro {
 @media screen and (min-width: 641px) and (max-width: 767px) {
   /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    line-height: 48px;
-    line-height: 3rem;
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 44px;
+    line-height: 2.75rem;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
   /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
-    font-size: 30px;
-    font-size: 1.875rem;
-    line-height: 38px;
-    line-height: 2.375rem;
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 34px;
+    line-height: 2.125rem;
   }
 }
 @media screen and (max-width: 480px) {
   /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 28px;
-    line-height: 1.75rem;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: 24px;
+    line-height: 1.5rem;
   }
 }
 /* line 145, ../sass/sections/_home.scss */
@@ -3269,9 +3199,7 @@ p.intro {
   display: block;
   color: #FFF;
   text-align: center;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 @media screen and (min-width: 1024px) {
   /* line 91, ../sass/sections/_casestudies.scss */
@@ -3458,9 +3386,7 @@ img + .gallery,
   text-transform: none;
   text-align: left;
   margin: 0 0 20px;
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 30px;
@@ -3735,9 +3661,7 @@ section .block p {
 .featured ul li {
   margin: 0 0 22px;
   color: #FFF;
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 22px;
@@ -3747,9 +3671,7 @@ section .block p {
 .featured p {
   margin: 0 0 22px;
   color: #FFF;
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
   font-size: 1.25rem;
   line-height: 30px;
@@ -4188,9 +4110,7 @@ section .block p {
 /* line 297, ../sass/sections/_books.scss */
 .books #blockquote .submit-application .button span {
   text-transform: uppercase;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 
 /* line 1, ../sass/sections/_individuals.scss */
@@ -7273,9 +7193,7 @@ END FLOATING PEOPLE
   color: #333;
   text-align: center;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 28px;
@@ -7286,9 +7204,7 @@ END FLOATING PEOPLE
   color: #d9531e;
   text-align: center;
   text-transform: uppercase;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 28px;
@@ -7300,9 +7216,7 @@ END FLOATING PEOPLE
   color: #333;
   text-align: center;
   text-transform: uppercase;
-  font-family: "infomedium", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
   font-size: 30px;
   font-size: 1.875rem;
   line-height: 28px;
@@ -7625,9 +7539,7 @@ END FLOATING PEOPLE
 /* line 148, ../sass/sections/_speaking.scss */
 #upcoming h2 {
   margin: 0 0 5px;
-  font-family: "infosemibold", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 500;
 }
 @media screen and (min-width: 1024px) {
   /* line 148, ../sass/sections/_speaking.scss */
@@ -7826,11 +7738,9 @@ textarea {
   height: 3.75rem;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
+  font-weight: 400;
   font-size: 20px;
   font-size: 1.25rem;
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 
 /* line 59, ../sass/sections/_form.scss */
@@ -7920,11 +7830,9 @@ label > span,
   float: right;
   color: #666;
   height: auto;
+  font-weight: 400;
   font-size: 20px;
   font-size: 1.25rem;
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 @media screen and (min-width: 768px) {
   /* line 94, ../sass/sections/_form.scss */
@@ -8055,11 +7963,9 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  font-weight: 400;
   font-size: 20px;
   font-size: 1.25rem;
-  font-family: "infotextnormal", Arial, Helvetica, sans-serif;
-  font-weight: normal;
-  font-style: normal;
 }
 /* line 195, ../sass/sections/_form.scss */
 select:hover {

@@ -44,7 +44,7 @@ a {
       @include min-screen(480px) {
         color: #666;
         text-transform: uppercase;
-        @include InfoSemiBoldFont;
+        font-weight: 500;// @include InfoSemiBoldFont;
         @include font-size(20);
         @include line-height(28);
       }
@@ -108,7 +108,7 @@ a {
     a {
       color: #999;
       text-transform: uppercase;
-      @include InfoSemiBoldFont;
+      font-weight: 500;//@include InfoSemiBoldFont;
       &:hover {
         color: #FFF;
       }
@@ -285,18 +285,20 @@ a {
     padding: 0 0 16px;
   }
   .title {
-    margin: 0 0 8px;
+    margin: 0 0 2px;
     display: block;
     color: #333;
     text-transform: uppercase;
-    @include InfoSemiBoldFont;
-    @include font-size(44);
+    font-weight: 500;//@include InfoSemiBoldFont;
+    @include font-size(36);
     @include line-height(32);
   }
   .text-pick {
+    display: block;
+    margin: 0 0 6px;
     color: #666;
     text-transform: uppercase;
-    @include InfoMediumFont;
+    font-weight: 500;//@include InfoMediumFont;
     @include font-size(20);
     @include line-height(25);
   }
@@ -324,15 +326,15 @@ a {
     display: block;
     color: #333;
     text-transform: uppercase;
-    @include InfoMediumFont;
-    @include font-size(30);
+    font-weight: 500;//@include InfoMediumFont;
+    @include font-size(26);
     @include line-height(28);
   }
   .tel {
     color: #d9531e;
     text-transform: uppercase;
-    @include InfoSemiBoldFont;
-    @include font-size(30);
+    font-weight: 500;//@include InfoSemiBoldFont;
+    @include font-size(26);
     @include line-height(28);
   }
 }
@@ -393,8 +395,7 @@ a {
     padding: 23px 0 20px;
     margin: 0;
   }
-  @include screen(768px,
-  1169px) {
+  @include screen(768px, 1169px) {
     width: 36%;
     padding: 0 0 16px 24px;
   }
@@ -408,15 +409,15 @@ a {
     display: block;
     color: #333;
     text-transform: uppercase;
-    @include InfoMediumFont;
-    @include font-size(30);
+    font-weight: 500;//@include InfoMediumFont;
+    @include font-size(26);
     @include line-height(28);
   }
   .text-connect {
     color: #666;
     text-transform: uppercase;
-    @include InfoMediumFont;
-    @include font-size(20);
+    font-weight: 500;//@include InfoMediumFont;
+    @include font-size(18);
     @include line-height(25);
   }
 }
@@ -528,7 +529,7 @@ a {
   li {
     text-transform: uppercase;
     color: #ccc;
-    @include InfoBookFont;
+    font-weight: 300;//@include InfoBookFont;
     @include min-screen(768px) {
       display: inline-block;
       padding: 0 5px 0 16px;

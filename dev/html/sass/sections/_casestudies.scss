@@ -85,7 +85,7 @@
           display: block;
           color: #FFF;
           text-align: center;
-          @include InfoSemiBoldFont;
+          font-weight: 500;//@include InfoSemiBoldFont;
         }
       }
       .title {
@@ -203,7 +203,7 @@ img + .gallery,
       text-transform: none;
       text-align: left;
       margin: 0 0 20px;
-      @include InfoNormalFont;
+      font-weight: 400;//@include InfoNormalFont;
       @include font-size(20);
       @include line-height(30);
     }
@@ -387,7 +387,7 @@ section .block {
     li {
       margin: 0 0 22px;
       color: #FFF;
-      @include InfoNormalFont;
+      font-weight: 400;//@include InfoNormalFont;
       @include font-size(20);
       @include line-height(22);
     }
@@ -395,7 +395,7 @@ section .block {
   p {
     margin: 0 0 22px;
     color: #FFF;
-    @include InfoNormalFont;
+    font-weight: 400;//@include InfoNormalFont;
     @include font-size(20);
     @include line-height(30);
   }

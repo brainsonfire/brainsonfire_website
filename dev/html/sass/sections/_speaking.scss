@@ -147,7 +147,7 @@
   }
   h2 {
     margin: 0 0 5px;
-    @include InfoSemiBoldFont;
+    font-weight: 500;//@include InfoSemiBoldFont;
     @include min-screen(1024px) {
       @include font-size(42);
       @include line-height(44);

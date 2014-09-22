@@ -78,6 +78,6 @@ $(document).ready(function () {
    $(".select-style").hover(function () {
       $(this).toggleClass("hover");
    });
-
+  
 });
 
