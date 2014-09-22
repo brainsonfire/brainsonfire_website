@@ -1108,60 +1108,64 @@ a {
 #main.case-study {
   background: #FFF;
 }
+/* line 585, ../sass/modules/_layout.scss */
+#main.inner-pages, #main.individual-detail {
+  margin: 0;
+}
 
-/* line 586, ../sass/modules/_layout.scss */
+/* line 590, ../sass/modules/_layout.scss */
 section {
   position: relative;
   z-index: 10;
 }
 @media screen and (min-width: 1200px) {
-  /* line 586, ../sass/modules/_layout.scss */
+  /* line 590, ../sass/modules/_layout.scss */
   section {
     padding: 80px 0;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 586, ../sass/modules/_layout.scss */
+  /* line 590, ../sass/modules/_layout.scss */
   section {
     padding: 50px 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 586, ../sass/modules/_layout.scss */
+  /* line 590, ../sass/modules/_layout.scss */
   section {
     padding: 40px 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 586, ../sass/modules/_layout.scss */
+  /* line 590, ../sass/modules/_layout.scss */
   section {
     padding: 30px 0;
   }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 602, ../sass/modules/_layout.scss */
+  /* line 606, ../sass/modules/_layout.scss */
   section[id$="-banner"],
   section[id*="-banner "] {
     padding: 133px 0 50px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 602, ../sass/modules/_layout.scss */
+  /* line 606, ../sass/modules/_layout.scss */
   section[id$="-banner"],
   section[id*="-banner "] {
     padding: 123px 0 40px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 602, ../sass/modules/_layout.scss */
+  /* line 606, ../sass/modules/_layout.scss */
   section[id$="-banner"],
   section[id*="-banner "] {
     padding: 113px 0 30px;
   }
 }
 
-/* line 614, ../sass/modules/_layout.scss */
+/* line 618, ../sass/modules/_layout.scss */
 .inner-pages section {
   padding: 0;
 }

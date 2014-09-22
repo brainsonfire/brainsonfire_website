@@ -582,6 +582,10 @@ a {
   &.case-study {
     background: #FFF;
   }
+  &.inner-pages,
+  &.individual-detail {
+    margin: 0;
+  }
 }
 section {
   position: relative;

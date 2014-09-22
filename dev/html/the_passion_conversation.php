@@ -10,7 +10,7 @@
 
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main" class="books">
+			<main id="main" class="books inner-pages">
 
 				<div class="direction-nav top">
 					<div class="row">
