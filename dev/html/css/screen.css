@@ -2524,11 +2524,16 @@ p.intro {
 }
 
 /* line 21, ../sass/sections/_home.scss */
+#home-video {
+  -webkit-backface-visibility: hidden;
+}
+
+/* line 24, ../sass/sections/_home.scss */
 .touch #main.home {
   background: url("../images/home/ram_at_his_desk.jpg") no-repeat 100% 0;
 }
 @media screen and (max-height: 1024px) {
-  /* line 21, ../sass/sections/_home.scss */
+  /* line 24, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 1024px;
     -o-background-size: auto 1024px;
@@ -2537,7 +2542,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 800px) {
-  /* line 21, ../sass/sections/_home.scss */
+  /* line 24, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 800px;
     -o-background-size: auto 800px;
@@ -2546,7 +2551,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 768px) {
-  /* line 21, ../sass/sections/_home.scss */
+  /* line 24, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 768px;
     -o-background-size: auto 768px;
@@ -2555,7 +2560,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 640px) {
-  /* line 21, ../sass/sections/_home.scss */
+  /* line 24, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 640px;
     -o-background-size: auto 640px;
@@ -2564,7 +2569,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 480px) {
-  /* line 21, ../sass/sections/_home.scss */
+  /* line 24, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 480px;
     -o-background-size: auto 480px;
@@ -2573,7 +2578,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 320px) {
-  /* line 21, ../sass/sections/_home.scss */
+  /* line 24, ../sass/sections/_home.scss */
   .touch #main.home {
     -moz-background-size: auto 340px;
     -o-background-size: auto 340px;
@@ -2582,12 +2587,12 @@ p.intro {
   }
 }
 
-/* line 42, ../sass/sections/_home.scss */
+/* line 45, ../sass/sections/_home.scss */
 .lt-ie10 #main.home {
   background: url("../images/home/ram_at_his_desk.jpg") no-repeat 100% 0;
 }
 @media screen and (max-height: 1024px) {
-  /* line 42, ../sass/sections/_home.scss */
+  /* line 45, ../sass/sections/_home.scss */
   .lt-ie10 #main.home {
     -moz-background-size: auto 1200px;
     -o-background-size: auto 1200px;
@@ -2596,7 +2601,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 800px) {
-  /* line 42, ../sass/sections/_home.scss */
+  /* line 45, ../sass/sections/_home.scss */
   .lt-ie10 #main.home {
     -moz-background-size: auto 900px;
     -o-background-size: auto 900px;
@@ -2605,7 +2610,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 768px) {
-  /* line 42, ../sass/sections/_home.scss */
+  /* line 45, ../sass/sections/_home.scss */
   .lt-ie10 #main.home {
     -moz-background-size: auto 868px;
     -o-background-size: auto 868px;
@@ -2614,7 +2619,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 640px) {
-  /* line 42, ../sass/sections/_home.scss */
+  /* line 45, ../sass/sections/_home.scss */
   .lt-ie10 #main.home {
     -moz-background-size: auto 740px;
     -o-background-size: auto 740px;
@@ -2623,7 +2628,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 480px) {
-  /* line 42, ../sass/sections/_home.scss */
+  /* line 45, ../sass/sections/_home.scss */
   .lt-ie10 #main.home {
     -moz-background-size: auto 580px;
     -o-background-size: auto 580px;
@@ -2632,7 +2637,7 @@ p.intro {
   }
 }
 @media screen and (max-height: 320px) {
-  /* line 42, ../sass/sections/_home.scss */
+  /* line 45, ../sass/sections/_home.scss */
   .lt-ie10 #main.home {
     -moz-background-size: auto 440px;
     -o-background-size: auto 440px;
@@ -2641,14 +2646,14 @@ p.intro {
   }
 }
 
-/* line 63, ../sass/sections/_home.scss */
+/* line 66, ../sass/sections/_home.scss */
 .videoHolder {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 68, ../sass/sections/_home.scss */
+/* line 71, ../sass/sections/_home.scss */
 .videoHolder iframe,
 .videoHolder video,
 .videoHolder object,
@@ -2660,7 +2665,7 @@ p.intro {
   width: 100%;
   height: 100%;
 }
-/* line 79, ../sass/sections/_home.scss */
+/* line 82, ../sass/sections/_home.scss */
 .videoHolder #homepagevid {
   left: auto;
   right: 0;
@@ -2672,14 +2677,14 @@ p.intro {
   min-height: 100%;
 }
 
-/* line 90, ../sass/sections/_home.scss */
+/* line 93, ../sass/sections/_home.scss */
 #home-gallery {
   padding: 0;
   margin: -83px 0 0;
   background: rgba(0, 0, 0, 0.5);
 }
 
-/* line 95, ../sass/sections/_home.scss */
+/* line 98, ../sass/sections/_home.scss */
 .cycle-gallery .txt {
   position: absolute;
   margin: auto;
@@ -2690,18 +2695,18 @@ p.intro {
   width: 100%;
 }
 @media screen and (min-width: 480px) {
-  /* line 95, ../sass/sections/_home.scss */
+  /* line 98, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 40%;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 95, ../sass/sections/_home.scss */
+  /* line 98, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 50%;
   }
 }
-/* line 109, ../sass/sections/_home.scss */
+/* line 112, ../sass/sections/_home.scss */
 .cycle-gallery .txt h1 {
   color: #fff;
   display: block;
@@ -2709,7 +2714,7 @@ p.intro {
   margin: 0 0 12px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 70px;
     font-size: 4.375rem;
@@ -2718,7 +2723,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 60px;
     font-size: 3.75rem;
@@ -2727,7 +2732,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 50px;
     font-size: 3.125rem;
@@ -2736,13 +2741,13 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     text-align: left;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 767px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 40px;
     font-size: 2.5rem;
@@ -2751,7 +2756,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 30px;
     font-size: 1.875rem;
@@ -2760,7 +2765,7 @@ p.intro {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 109, ../sass/sections/_home.scss */
+  /* line 112, ../sass/sections/_home.scss */
   .cycle-gallery .txt h1 {
     font-size: 20px;
     font-size: 1.25rem;
@@ -2768,46 +2773,46 @@ p.intro {
     line-height: 1.75rem;
   }
 }
-/* line 142, ../sass/sections/_home.scss */
+/* line 145, ../sass/sections/_home.scss */
 .cycle-gallery .txt .button {
   max-width: 406px;
 }
 
 @media all and (max-height: 320px) and (orientation: landscape) {
-  /* line 147, ../sass/sections/_home.scss */
+  /* line 150, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 46%;
   }
-  /* line 149, ../sass/sections/_home.scss */
+  /* line 152, ../sass/sections/_home.scss */
   .cycle-gallery .txt .button {
     max-width: 50%;
     float: left !important;
   }
 }
-/* line 155, ../sass/sections/_home.scss */
+/* line 158, ../sass/sections/_home.scss */
 .section-work {
   background: url(../images/layout/bg-path.png);
   color: #333;
 }
 @media screen and (min-width: 1200px) {
-  /* line 155, ../sass/sections/_home.scss */
+  /* line 158, ../sass/sections/_home.scss */
   .section-work {
     padding: 63px 0 80px;
   }
 }
-/* line 161, ../sass/sections/_home.scss */
+/* line 164, ../sass/sections/_home.scss */
 .section-work .btn-ico {
   background-color: #eb7e1f;
   text-align: left;
 }
 @media screen and (min-width: 480px) {
-  /* line 161, ../sass/sections/_home.scss */
+  /* line 164, ../sass/sections/_home.scss */
   .section-work .btn-ico {
     padding: 20px 26px 21px 90px;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 161, ../sass/sections/_home.scss */
+  /* line 164, ../sass/sections/_home.scss */
   .section-work .btn-ico {
     padding: 13px 26px 14px 90px;
     font-size: 20px;
@@ -2817,26 +2822,26 @@ p.intro {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 161, ../sass/sections/_home.scss */
+  /* line 164, ../sass/sections/_home.scss */
   .section-work .btn-ico {
     max-width: 500px;
   }
 }
-/* line 177, ../sass/sections/_home.scss */
+/* line 180, ../sass/sections/_home.scss */
 .section-work .btn-ico:hover {
   background-color: #dd7114;
   text-decoration: none;
 }
-/* line 181, ../sass/sections/_home.scss */
+/* line 184, ../sass/sections/_home.scss */
 .section-work .btn-ico:active {
   background-color: #eb7e1f;
 }
-/* line 184, ../sass/sections/_home.scss */
+/* line 187, ../sass/sections/_home.scss */
 .section-work .btn-ico:before {
   background: url("../images/library/sprite.png") no-repeat scroll 0 -180px transparent;
 }
 
-/* line 189, ../sass/sections/_home.scss */
+/* line 192, ../sass/sections/_home.scss */
 #tagboard-wrap {
   background: #F3F3F3;
   display: block;
@@ -7346,22 +7351,26 @@ END FLOATING PEOPLE
   }
 }
 /* line 114, ../sass/sections/_hello.scss */
+#map .videoHolder iframe {
+  width: 100%;
+  height: 306px;
+}
+/* line 118, ../sass/sections/_hello.scss */
 #map img {
   display: block;
   position: absolute;
   width: 100%;
-  min-width: 1500px;
   left: 50%;
   margin-left: -750px;
 }
 @media screen and (min-width: 768px) {
-  /* line 114, ../sass/sections/_hello.scss */
+  /* line 118, ../sass/sections/_hello.scss */
   #map img {
     top: 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 114, ../sass/sections/_hello.scss */
+  /* line 118, ../sass/sections/_hello.scss */
   #map img {
     top: -60px;
   }
@@ -7389,25 +7398,25 @@ END FLOATING PEOPLE
 @media screen and (min-width: 1200px) {
   /* line 8, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 91px 0 73px;
+    padding: 91px 0 0;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
   /* line 8, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 50px 0;
+    padding: 50px 0 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* line 8, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 40px 0;
+    padding: 40px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
   /* line 8, ../sass/sections/_speaking.scss */
   #speakers {
-    padding: 30px 0;
+    padding: 30px 0 0;
   }
 }
 /* line 22, ../sass/sections/_speaking.scss */

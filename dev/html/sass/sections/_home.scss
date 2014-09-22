@@ -18,6 +18,9 @@
 .lt-ie10 #home-video {
   display: none;
 }
+#home-video {
+  -webkit-backface-visibility: hidden;
+}
 .touch #main.home {
   background: url("../images/home/ram_at_his_desk.jpg") no-repeat 100% 0;
   @include max-screen-height(1024px) {
