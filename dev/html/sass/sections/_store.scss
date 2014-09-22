@@ -1,0 +1,120 @@
+#store-banner {
+  background: #0095b2 url(../images/store/bg_store_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 170px 0 85px;
+  }
+}
+#store {
+  @include min-screen(1200px) {
+    padding: 80px 0 83px;
+  }
+  @include max-screen(767px) {
+    .medium-8,
+    .medium-3 {
+      width: 100%;
+    }
+  }
+  h1 + p:first-of-type {
+    margin: 0 0 30px;
+    + img {
+      @include min-screen(1200px) {
+        margin: 0 0 50px;
+      }
+      @include max-screen(1199px) {
+        margin: 0 0 30px;
+      }
+    }
+  }
+  .right-sidebar {
+    p.big {
+      text-align: center;
+      color: #00a9ca;
+      font-family: Georgia,serif;
+      font-style: italic;
+      font-weight: bolder;
+      @include font-size(22);
+      @include line-height(24);
+    }
+    .button {
+      margin: 0 auto 22px;
+    }
+    a:not(.button) {
+      display: table;
+      margin: 0 auto;
+      text-align: center;
+      color: #00a9ca;
+      font-family: Georgia,serif;
+      font-style: italic;
+      @include font-size(19);
+      @include line-height(22);
+    }
+  }
+}
+#books-store {
+  background: #0095b2 url(../images/store/store_books.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+  h1 + p:first-of-type {
+    margin: 0 0 30px;
+  }
+  @include min-screen(1200px) {
+    padding: 80px 0 83px;
+  }
+  &:after {
+    @include min-screen(768px) {
+      position: absolute;
+      display: block;
+      z-index: 11;
+      content: "";
+      width: 292px;
+      height: 170px;
+      left: 50%;      
+      background: url(../images/books/books_title.png) no-repeat 50% 50%;
+      @include background-size(cover);
+    }    
+    @include min-screen(1200px) {
+      top: -1px;
+      margin-left: 111px;
+    }    
+    @include screen(1024px,1199px) {
+      top: -31px;
+      margin-left: 111px;
+    }
+    @include screen(768px,1023px) {
+      top: -39px;
+      margin-left: 71px;
+    }
+  }
+  .half-block p {
+    @include min-screen(1024px) {
+      margin: 0 0 37px;
+    }
+    @include screen(768px,1023px) {
+      margin: 0 0 30px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 22px;
+    }
+  }
+  .half-block {
+    @include min-screen(1200px) {
+      padding: 0 3.7%;
+    }
+  }
+  .btn-holder {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    .button {
+      float: left;
+      max-width: 50%;
+      width: 100%;
+      margin-bottom: 22px;
+      padding: 1.4rem 0;
+    }
+  }
+}

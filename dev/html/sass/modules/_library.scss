@@ -1,0 +1,410 @@
+.temp {
+  opacity: 0.5;
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 50%;
+  margin-left: -750px;
+  width: 1500px;
+  height: auto;
+}
+ul.row {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.small-title {
+  @include min-screen(768px) {
+    display: none;
+  }
+  @include max-screen(767px) {
+    display: block;
+    br {
+      display: none;
+    }
+    span {
+      display: block;
+      font-style: italic;
+      font-family: Georgia, serif;
+    }
+  }
+}
+.button {
+  display: table;
+  margin: 0 auto;
+  font-style: italic;
+  text-align: center;
+  text-transform: lowercase;
+  border: 0;
+  @include min-screen(1200px) {
+    padding: 1.4rem 0;
+    max-width: 360px;
+    width: 100%;
+  }
+  @include screen(768px,1199px) {
+    padding: 1.4rem 1.5rem;
+  }
+  @include screen(641px,767px) {
+    padding: 1.4rem 2rem;
+  }
+  @include max-screen(640px) {
+    padding: 1.4rem 0;
+    width: 100% !important;
+    max-width: 450px !important;
+  }
+  @include min-screen(1024px) {
+    @include font-size(28);
+    @include line-height(32);    
+  }
+  @include screen(768px,1023px) {
+    @include font-size(24);
+    @include line-height(28); 
+  }
+  @include max-screen(767px) {
+    @include font-size(20);
+    @include line-height(28); 
+  }
+  &.left {
+    @include min-screen(768px) {
+      margin: 0 20px 30px 0;  
+    }
+    @include max-screen(767px) {
+      float: none !important;
+      margin: 0 auto 22px;
+    }
+  }
+  &:active {
+    top: 2px;
+  }
+  &.btn-ico {
+    &:before {
+      position: absolute;
+      content: "";
+      width: 40px;
+      height: 40px;
+      top: 18px;
+      left: 30px;
+    }
+  }
+}
+.btn-orange {
+  background-color: #d9531e;
+  &:hover {
+    background-color: darken(#D9531E, 5%);
+  }
+  &:active {
+    background-color: #d9531e;
+  }
+}
+.btn-green {
+  background-color: #939f57;
+  &:hover {
+    background-color: darken(#939f57, 5%);
+  }
+  &:active {
+    background-color: #939f57;
+  }
+}
+.btn-blue {
+  background-color: #0bb7cf;
+  &:hover {
+    background-color: darken(#0bb7cf, 5%);
+  }
+  &:active {
+    background-color: #0bb7cf;
+  }
+}
+.btn-down,
+.btn-down:active {
+  background: #f18013;
+  bottom: 0;
+  height: 30px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  width: 100%;
+  z-index: 2;
+}
+.btn-down:before {
+  background: url(../images/library/sprite.png) no-repeat 0 -150px;
+  content: "";
+  height: 16px;
+  left: 50%;
+  margin: -8px 0 0 -11px;
+  position: absolute;
+  top: 50%;
+  width: 22px;
+}
+.row .works-list {
+  @include min-screen(1200px) {
+    margin: 53px auto 43px;
+  }
+  @include screen(1024px,1199px) {
+    margin: 40px auto;
+  }
+  @include screen(768px,1023px) {
+    margin: 30px auto;
+  }  
+  @include max-screen(767px) {
+    margin: 22px auto;
+  }
+  li {
+    margin: 0 0 30px;
+  }
+  a {
+    float: left;
+    position: relative;
+    width: 100%;
+    @include border-radius(2px);
+  }
+  img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    @include border-radius(2px);
+  }
+}
+.half-block {
+  float: left;
+  position: relative;
+  @include min-screen(1200px) {
+    width: 43%;
+    padding: 95px 4.9% 0;
+    margin: 0 0 0 7%;
+    + .half-block {
+      margin: 0 7% 0 0;
+    }
+  }
+  @include screen(1024px,1199px) {
+    width: 43%;
+    padding: 50px 4.9% 0;
+    margin: 0 0 0 7%;
+    + .half-block {
+      margin: 0 7% 0 0;
+    }
+  }
+  @include screen(768px,1023px) {
+    width: 46%;
+    padding: 40px 0 0;
+    margin: 0 2%;
+  }
+  @include max-screen(767px) {
+    width: 100%;
+    padding: 30px 0 0;
+    margin: 0 0 22px;
+  }
+  > a:not(.button) {
+    display: table;
+    position: relative;
+    overflow: hidden;
+    @include border-radius(100%);
+    @include min-screen(768px) {
+      margin: 0 auto 35px;
+    }
+    @include max-screen(767px) {
+      margin: 0 auto 22px;
+    }
+  }
+  img {
+    display: block;
+    width: 100%;
+    max-width: 388px;
+    height: auto;
+    @include border-radius(100%);
+  }
+  h2 {
+    margin: 0 0 7px;
+    @include font-size(28);
+  }
+  p {
+    text-align: center;
+    @include line-height(26);
+    @include min-screen(768px) {
+      margin: 0 0 53px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 22px;
+    }
+  }
+  .button {
+    max-width: 270px;
+  }
+}
+.direction-nav {
+  display: block;
+  position: relative;
+  z-index: 20;
+  overflow: hidden;
+  clear: both;
+  &.top {
+    background: rgba(#fff, 0.9);
+    padding: 33px 0;
+    height: 105px;
+    @include max-screen(768px) {
+      background: rgba(#fff, 0);
+    }
+  }
+  &.bottom {
+    background: #F1F2F3;
+    padding: 33px 0 36px;
+    height: 105px;
+  }
+  ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      float: left;
+      position: relative;
+      @include min-screen(1024px) {
+        width: 33.3333333%;
+      }
+      @include max-screen(1023px) {
+        width: 32px;
+        z-index: 33;
+        margin: 0 0 0 -10px;
+        span {
+          display: none;
+        }
+      }
+      @include max-screen(480px) {
+        @include font-size(14px);
+      }
+      + li {
+        text-align: center;
+        @include max-screen(1023px) {
+          width: 100%;
+          max-width: 226px;
+          float: none;
+          z-index: 30;
+          margin: 0 auto;
+          span {
+            display: block;
+            width: 100%;
+            padding: 0;
+          }
+        }
+      }
+      + li + li {
+        text-align: right;
+        @include max-screen(1023px) {
+          float: right;
+          width: 32px;
+          z-index: 33;
+          margin: -57px -10px 0 0;
+          span {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+  a {
+    display: table;
+    font-family: Georgia, serif;
+    text-transform: lowercase;
+    color: #333;
+    font-style: italic;
+    position: relative;
+    @include font-size(20);
+    @include line-height(38);
+    &:after {
+      position: absolute;
+      display: block;
+      content: "";
+      z-index: 11;
+      width: 32px;
+      height: 44px;
+      top: 0;
+      background-image: url(../images/library/direction_nav.png);
+      background-repeat: no-repeat;
+    }
+  }
+  .previous {
+    padding: 0 0 0 45px;
+    &:after {
+      left: 0;
+      background-position: 0 0;
+    }
+  }
+  .center {
+    margin: 0 auto;
+    padding: 0 0 0 44px;
+    @include max-screen(1023px) {
+      width: 100%;
+      padding: 0;
+      margin: 18px auto 0;
+    }
+    &:after {
+      left: 0;
+      background-position: 0 -44px;
+      @include max-screen(1023px) {
+        left: 50%;
+        top: -30px;
+        margin-left: -16px;
+      }
+    }
+  }
+  .next {
+    padding: 0 45px 0 0;
+    float: right;
+    &:after {
+      right: 0;
+      background-position: 0 -88px;
+    }
+  }
+}
+.main-photo {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  clear: both;
+  @include min-screen(769px) {
+    margin: -105px 0 0;
+  }
+  img {
+    float: left;
+    max-width: none;  
+  }  
+}
+p.intro {
+  padding: 0;
+  margin: 0;
+}
+.border-left {
+  border-left: 2px solid rgba(153, 153, 153, 0.3);
+}
+.white-text * {
+  color: #FFF;
+}
+.btn-holder {
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+#blockquote {
+  h1 + p {
+    margin: 0 0 21px;
+  }
+  .button {
+    max-width: 450px;
+  }
+  .submit-application {
+    background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
+    @include background-size(cover);
+    @include min-screen(1024px) {
+      padding: 111px 0.9375rem 119px;
+    }
+    @include screen(768px,1023px) {
+      padding: 60px 0.9375rem;
+    }
+    @include max-screen(767px) {
+     padding: 44px 0.9375rem;
+    }
+  }
+}

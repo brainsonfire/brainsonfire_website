@@ -1,0 +1,252 @@
+#form {
+  @include min-screen(1200px) {
+    padding: 102px 0 83px;
+  }
+  @include screen(10248px, 1199px) {
+    padding: 50px 0;
+  }
+  @include screen(768px, 1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 48px 0 0;
+    @include min-screen(1024px) {
+      max-width: 66%;
+    }
+    @include max-screen(767px) {
+      max-width: 450px;
+    }
+  }
+}
+.row.submit {
+  margin-top: 30px;
+  .button {
+    @include min-screen(641px) {
+      max-width: 266px;  
+    }    
+  }
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+textarea {
+  border: 1px solid #ccc;
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  color: #333;
+  font-size: 1.125rem;
+  height: 3.75rem;
+  padding: 0.5rem 1.5rem;
+  margin-bottom: 0;
+  @include font-size(20);
+  @include InfoNormalFont;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+input[type="color"],
+select {
+  float: left;
+  @include min-screen(768px) {
+    width: 50%;
+  }
+  @include max-screen(767px) {
+    width: 100%;
+  }
+}
+textarea {
+  width: 100%;
+  @include min-screen(768px) {
+    min-height: 330px;
+  }
+  @include max-screen(767px) {
+    min-height: 160px;
+  }
+}
+label,
+.label-wrap {
+  width: 100%;
+  > span {
+    float: right;
+    color: #666;
+    height: auto;
+    @include font-size(20);
+    @include InfoNormalFont;
+    @include min-screen(768px) {
+      width: 50%;
+      padding: 1rem 0 1rem 1rem;
+    }
+    @include max-screen(767px) {
+      width: 100%;
+      padding: 1rem 1rem 1rem 0;
+    }
+  }
+}
+.label-wrap {
+  .date {
+    float: left;
+    padding: 0;
+    height: 6.5rem;
+    &.day {
+      @include min-screen(768px) {
+        width: 11%;
+        margin: 0 6% 0 0;
+      }
+      @include max-screen(767px) {
+        width: 22%;
+        margin: 0 12% 0 0;
+      }
+    }
+    &.month {
+      @include min-screen(768px) {
+        width: 11%;
+        margin: 0 6% 0 0;
+      }
+      @include max-screen(767px) {
+        width: 22%;
+        margin: 0 12% 0 0;
+      }
+    }
+    &.year {
+      @include min-screen(768px) {
+        width: 16%;
+      }
+      @include max-screen(767px) {
+        width: 32%;
+      }
+    }
+    input {
+      width: 100% !important;
+    }
+    span {
+      float: left;
+      width: 100%;
+      clear: both;
+      text-align: center;
+    }
+  }
+  .text {
+    float: right;
+    @include min-screen(768px) {
+      width: 50%;
+    }
+    @include max-screen(767px) {
+      width: 100%;
+    }
+  }
+}
+.label-wrap span.date {
+  position: relative;
+  &.month:after,
+  &.day:after {
+    content: "/";
+    display: block;
+    font-size: 21px;
+    height: 14px;
+    position: absolute;
+    right: -28%;
+    top: 14px;
+    width: 5px;
+    z-index: 1000;
+  }
+}
+form .row {
+  clear: both;
+  @include min-screen(768px) {
+    margin: 0 0 12px !important;
+  }  
+}
+select {
+  cursor: pointer;
+  padding: 1rem 0 1rem 1rem;
+  height: 3.75rem;
+  border: 1px solid #ccc;
+  background-color: #FFF;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  @include font-size(20);
+  @include InfoNormalFont;
+  &:hover {
+    background-color: #fafafa;
+  }
+}
+.select-style {
+  position: relative;
+}
+.select-style:after {
+  display: block;
+  position: absolute;
+  z-index: 22;
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 1px solid #ccc;
+  margin-left: -3.75rem;
+  background: url("../images/hello/select_arrow.jpg") repeat -1px -1px;
+  cursor: pointer;
+  @include min-screen(768px) {
+    left: 50%;
+    top: 0;
+  }
+  @include max-screen(767px) {
+    right: 0;
+    top: 3.875rem;
+  }
+}
+select:hover {
+  border: none;
+}
+.select-style.hover:after {
+  background-position: -1px -61px;
+}
+.select-style.hover select {
+  background-color: #fafafa;
+  border: 1px solid #ccc;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) {
+   .select-style:after {
+      height: 62px;
+      top: 62px !important;
+   }
+}
+label .fullwidth {
+  width: 100% !important;
+  float: left;
+  padding: 1rem 0;
+  + textarea {
+    clear: both;
+  }
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}

@@ -1,0 +1,403 @@
+#case-studies-banner {
+  background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
+  @include background-size(auto);
+  h1 {
+    position: absolute;
+    left: -9999px;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    width: auto;    
+    @include min-screen(1200px) {
+      margin: 50px auto 0;
+    }
+    @include max-screen(1199px) {
+      margin: 0 auto;
+    }
+  }
+}
+#main.case-study {
+  background: #F8F8F8;
+}
+#projects-list {
+  @include min-screen(1200px) {
+    padding: 96px 0 82px;
+  }
+  @include screen(1024px,1199px) {
+    padding: 50px 0;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  li {
+    margin-bottom: 38px;
+    a {
+      float: left;
+      position: relative;
+      overflow: hidden;
+      width: 100%;
+      @include border-radius(2px);
+      img {
+        position: relative;
+        z-index: 10;
+      }
+      .rollover {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgba(#00AACB, 0.9);
+        @include min-screen(1024px) {
+          padding: 35% 10%;
+        }
+        @include screen(768px,1023px) {
+          padding: 23% 7%;
+        }
+        @include screen(641px,767px) {
+          padding: 10% 4%;
+        }
+        @include screen(481px,640px) {
+          padding: 43% 10%;
+        }
+        @include screen(479px,480px) {
+          padding: 35% 10%;
+        }
+        @include max-screen(478px) {
+          padding: 25% 10%;
+        }
+      }
+      .middle {
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        span {
+          display: block;
+          color: #FFF;
+          text-align: center;
+          @include InfoSemiBoldFont;
+        }
+      }
+      .title {
+        @include min-screen(1024px) {
+          @include font-size(28);
+          @include line-height(30);
+        }
+        @include screen(768px,1023px) {
+          @include font-size(24);
+          @include line-height(26);
+        }
+        @include screen(641px,767px) {
+          @include font-size(22);
+          @include line-height(24);
+        }
+        @include max-screen(640px) {
+          @include font-size(28);
+          @include line-height(30);
+        }
+      }
+      .desc {
+        @include min-screen(1024px) {
+          @include font-size(20);
+          @include line-height(25);
+        }
+        @include screen(768px,1023px) {
+          @include font-size(18);
+          @include line-height(22);
+        }
+        @include screen(641px,767px) {
+          @include font-size(16);
+          @include line-height(20);
+        }
+        @include max-screen(640px) {
+          @include font-size(20);
+          @include line-height(25);
+        }
+      }
+      &:hover,
+      &:active {
+        img {
+          z-index: 1;
+        }
+        .rollover {
+          z-index: 10;
+        }
+      }
+    }
+  }
+}
+.touch #projects-list {
+  a img,
+  a .rollover {
+    @include transition-property(all);
+    @include transition-timing-function(ease-in-out);
+    @include transition-duration(0.2s);
+  }
+}
+.gallery,
+.featured .gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  li {
+    float: left;
+    position: relative;
+    width: 48.7%;
+    margin: 0 2.6% 30px 0;
+  }
+  li:nth-child(2n+2) {
+    margin: 0 0 30px;
+  }
+}
+img + .gallery,
+.featured img + .gallery {
+  margin-top: 30px;
+}
+.stamp,
+.featured .stamp {
+  margin: 0;
+  padding: 0 1%;
+  list-style: none;
+  background: #FFF;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  li {
+    float: left;
+    position: relative;
+    width: 23.5%;
+    margin: 16px 2% 16px 0;
+  }
+  li:nth-child(4n+4) {
+    margin: 10px 0;
+  }
+}
+.inner-pages section.intro {
+  @include min-screen(1200px) {
+    padding: 70px 0 62px;
+  }
+  @include screen(1024px,1199px) {
+    padding: 50px 0 0;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0 0;
+  }
+  h1 {
+    margin: 0 0 53px;
+    display: block;
+    + p {
+      text-transform: none;
+      text-align: left;
+      margin: 0 0 20px;
+      @include InfoNormalFont;
+      @include font-size(20);
+      @include line-height(30);
+    }
+  }
+}
+.two-col {
+  margin: 0;
+  @include min-screen(1200px) {
+    padding: 0 5.9375rem;
+  }
+  @include screen(1024px,1199px) {
+    padding: 0 3.9375rem;
+  }
+  @include screen(768px,1023px) {
+    padding: 0 1.9375rem;
+  }
+  @include max-screen(767px) {
+    padding: 0 0.9375rem;
+  }
+  .left,
+  .right {
+    @include min-screen(768px) {
+      width: 48.7%;
+    }
+    @include max-screen(767px) {
+      width: 100%;
+    }
+  }
+  p {
+    margin: 0 0 32px;
+    display: inline-block;
+    overflow: hidden; 
+  }
+}
+#love-146 {
+  background: #000 url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
+  @include background-size(auto);
+  @include min-screen(1300px) {
+    background-position: 80% 100%;
+  }
+  @include max-screen(767px) {
+    background-position: 50% 100%;
+  }
+  .row img {
+     width: auto;
+     clear: both;
+     max-width: 66%;
+     margin: 300px 0 250px;
+  }
+}
+#love-146-success h3 {
+  text-indent: 5.9375rem;
+  margin: 20px 0 32px;
+}
+.books-bottom {
+  background: url(../images/case-study/love-146/books.jpg) no-repeat 50% 50%;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    margin: 100px 0 0;
+    padding: 114px 0;  
+  }
+  @include screen(1024px,1199px) {
+    margin: 50px 0 0;
+    padding: 50px 0;  
+  }
+  @include screen(768px,1023px) {
+    margin: 40px 0 0;
+    padding: 40px 0;  
+  }
+  @include max-screen(767px) {
+    margin: 30px 0 0;
+    padding: 30px 0;  
+  }
+  .button {
+    max-width: 680px;
+  }
+}
+section .block {
+  padding: 30px;
+  &.orange {
+    background-color: #ff8800;
+  }
+  img {
+    float: left;
+    max-width: 38%;
+    margin: 0 30px 0 0;
+  }
+  p {
+    margin: 0;
+    color: #fff;
+  }
+}
+
+.video-section,
+.image-section {
+  margin: 0 0 21px;
+  h3 {
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-align: left;
+    text-transform: none;
+    margin: 0 0 3px;
+    @include font-size(16);
+    @include line-height(29);
+  }
+}
+.featured {
+  padding: 0;
+  margin: 0 0 21px;
+  h3 {
+    color: #FFF;
+    margin: 0 0 22px;
+  }
+  .text {    
+    @include min-screen(1200px) {
+      padding: 3.125rem 5.9375rem;
+    }
+    @include screen(1024px,1199px) {
+      padding: 2.125rem 3.9375rem;
+    }
+    @include screen(768px,1023px) {
+      padding: 1.125rem 1.9375rem;
+    }
+    @include max-screen(767px) {
+      padding: 15px;
+    }
+    &.bg-red {
+      background: #C10008;
+    }
+    &.bg-gray20 {
+      background: #333;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-lemon {
+      background: #abb428;
+    }
+    &.bg-neptune {
+      background: #77B6B1;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-orange {
+      background: #d15932;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+    &.bg-wedgewood {
+      background: #4e94a1;
+      h3 {
+        text-transform: none;
+        margin: 0 0 3px;
+      }
+    }
+  }
+  img {
+    &.left {
+      max-width: 40%;
+    }
+    &.top {
+      margin: 30px 0;
+    }
+    &.bottom {
+      margin: 0 0 30px;
+    }
+    &.right {
+      max-width: 57%;
+      margin: 30px 0;
+    }
+  }
+  ul {
+    margin: 0 0 22px;
+    padding: 0;
+    list-style: none;
+    li {
+      margin: 0 0 22px;
+      color: #FFF;
+      @include InfoNormalFont;
+      @include font-size(20);
+      @include line-height(22);
+    }
+  }
+  p {
+    margin: 0 0 22px;
+    color: #FFF;
+    @include InfoNormalFont;
+    @include font-size(20);
+    @include line-height(30);
+  }
+}
+

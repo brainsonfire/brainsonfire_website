@@ -1,0 +1,227 @@
+#speaking-banner {
+  background: #0095b2 url(../images/speaking/bg_speaking_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 170px 0 85px;
+  }
+}
+#speakers {
+  background: rgba(#000, 0);
+  @include min-screen(1200px) {
+    padding: 91px 0 0;
+  }
+  @include screen(1024px,1199px) {
+    padding: 50px 0 0;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0 0;
+  }
+  .columns {
+    padding-bottom: 22px;
+    > a:first-of-type {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      max-width: 260px;
+      opacity: 1;
+      @include border-radius(100%);
+      @include min-screen(1200px) {
+        margin: 0 auto 30px;
+      }
+      @include max-screen(1199px) {
+        margin: 0 auto 12px;
+      }
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+    h3 {
+      text-align: center;
+      @include min-screen(1200px) {
+        margin: 0 auto 30px;
+      }
+      @include max-screen(1199px) {
+        margin: 0 auto 12px;
+      }
+      a {
+        color: #333;
+      }
+    }
+    .button {
+      @include min-screen(641px) {
+        max-width: 80%;
+        min-width: 190px;
+      }
+      @include max-screen(640px) {
+        max-width: 300px;
+      }
+    }
+  }
+}
+#speaking-info {
+  @include min-screen(1200px) {
+    padding: 90px 0 100px;
+  }
+  h1 {
+    margin: 0 0 30px;
+  }
+  .button {
+    max-width: 310px;
+  }
+  .audience {
+    padding-left: 6.25rem;
+    h3 {
+      color: #939F57;
+      font-family: Georgia, serif;
+      font-style: italic;
+      position: relative;
+      text-transform: none;
+      @include font-size(24);
+      @include line-height(35);
+    }
+  }
+}
+#favorite {
+  background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
+  @include min-screen(1200px) {
+    padding: 91px 0 93px;
+  }
+  h1 + p {
+    @include min-screen(1200px) {
+      margin: 0 0 56px;
+    }
+    @include screen(1024px,1199px) {
+      margin: 0 0 36px;
+    }
+    @include max-screen(1023px) {
+      margin: 0 0 22px;
+    }
+  }
+  .half-wrap {
+    @include min-screen(1024px) {
+      width: 50%;
+      float: left;
+    }
+    @include max-screen(1023px) {
+      width: 100%;
+      margin: 0 0 22px;
+    }
+  }
+  ul {
+    float: right;
+    margin: 0;
+    padding: 0 0 0 8%;
+    @include min-screen(1024px) {
+      width: 50%;      
+    }
+    @include max-screen(1023px) {
+      width: 100%;
+    }
+    @include max-screen(767px) {
+      padding: 0 0 0 20px;
+    }
+    li {
+      float: left;
+      @include min-screen(1024px) {
+        width: 50%;
+        padding: 0 15px 0 0;     
+      }
+      @include max-screen(1023px) {
+        width: 100%;
+      }
+    }
+  }
+}
+#upcoming {
+  background: url("../images/speaking/bg_events.jpg") no-repeat 0 0;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 91px 0 93px;
+  }
+  h1 + p:first-of-type,
+  h2 + p:first-of-type {
+    margin: 0 0 30px;
+  }
+  h2 {
+    margin: 0 0 5px;
+    @include InfoSemiBoldFont;
+    @include min-screen(1024px) {
+      @include font-size(42);
+      @include line-height(44);
+    }
+    @include screen(768px,1023px) {
+      @include font-size(32);
+      @include line-height(34);
+    }
+    @include max-screen(767px) {
+      @include font-size(28);
+      @include line-height(32);
+    }
+  }
+  .columns {
+    margin-bottom: 13px;
+  }
+  .columns p {
+    margin-bottom: 1rem;
+  }
+}
+#spoken-at {
+  background: #FFF;
+  ul {
+    margin: 0; 
+    padding: 0;
+    list-style: none;
+    li {
+      float: left;
+      position: relative;
+      @include min-screen(1024px) {
+        margin: 0 12px 0 0;
+      }
+      @include screen(768px,1023px) {
+        margin: 0 6px 0 0;
+      }
+      @include screen(641px,767px) {
+        margin: 0 2.5% 0 0;
+        float: left;
+        width: 22.5%;
+        overflow: hidden;
+        height: 100px;
+      }
+      @include screen(480px,639px) {
+        margin: 0 2% 0 0;
+        float: left;
+        width: 31%;
+        overflow: hidden;
+        height: 100px;
+      }
+      @include max-screen(479px) {
+        margin: 0 2% 0 0;
+        float: left;
+        width: 48%;
+        overflow: hidden;
+        height: 100px;
+      }
+    }
+    a {
+      float: left;
+      position: relative;
+      img {
+        float: left;
+        position: relative;
+        @include min-screen(768px) {
+          width: auto;
+          height: auto;
+          max-width: 100%;
+        }
+        @include max-screen(767px) {
+          width: 100%;
+          height: auto;
+          max-width: none;
+        }
+      }
+    }
+  }
+}

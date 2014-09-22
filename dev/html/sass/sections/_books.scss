@@ -1,0 +1,301 @@
+#books-banner {
+  background: #dc5520 url(../images/books/our_books.jpg) no-repeat 50% 50%;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 163px 0 83px;
+  }
+  @include min-screen(768px) {
+    &:after {
+      position: absolute;
+      display: block;
+      z-index: 11;
+      content: "";
+      width: 292px;
+      height: 170px;
+      left: 50%;
+      
+      background: url(../images/books/books_title.png) no-repeat 50% 50%;
+      @include background-size(cover);
+      @include min-screen(1200px) {
+        top: 83px;  
+        margin-left: 90px;
+      }
+      @include screen(1024px,1199px) {
+        top: 53px;
+        margin-left: 90px;
+      }
+      @include screen(768px,1023px) {
+        top: 43px;
+        margin-left: 80px;
+      }
+    }    
+  }
+}
+#books {
+  @include min-screen(1200px) {
+    padding: 95 0 120px;
+  }
+  .half-block {
+    @include min-screen(1024px) {
+      padding: 0 3.7%;
+    }
+  }
+  .half-block p {
+    @include min-screen(1024px) {
+      margin: 0 0 37px;
+    }
+    @include screen(768px,1023px) {
+      margin: 0 0 30px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 22px;
+    }
+  }
+  .btn-holder {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    .button {
+      float: left;
+      max-width: 50%;
+      width: 100%;
+      margin-bottom: 22px;
+      padding: 1.4rem 0;
+    }
+  }
+}
+#book-banner {
+  padding: 0;
+  > img {
+    display: block;
+    max-width: none;
+    height: auto;
+    @include min-screen(1200px) {
+      width: auto;
+      min-width: 100%;
+      min-height: 100%;
+    }
+    @include max-screen(1199px) {
+      width: 100%;
+    }
+  }
+  .row {
+    @include max-screen(1023px) {
+      padding: 0;
+    }
+  }
+  .half-block {
+    padding: 15px;
+    z-index: 30;
+    @include min-screen(1200px) {
+      height: 10%;
+      width: 44%;
+    }
+    @include screen(1024px,1199px) {
+      height: 10%;
+      width: 54%;
+    }
+    @include min-screen(1024px) {
+      bottom: 0;
+      float: none;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      right: 0;
+      
+    }
+    @include max-screen(1023px) {
+      background: #00aacb;
+      width: 100%;
+      left: 0;
+      text-align: center;
+    }
+    @include max-screen(1023px) {
+      margin: 0;
+    }
+    h1,
+    p {
+      @include min-screen(1024px) {
+        text-align: left;
+      }
+      @include max-screen(1023px) {
+        text-align: center;
+      }
+    }
+    p {
+      margin: 0 0 22px;
+    }
+    .button {
+      @include min-screen(1200px) {
+        float: left;
+      }
+    }
+  }
+  .button:after {
+    @include min-screen(1024px) {
+      position: absolute;
+      display: block;
+      z-index: 11;
+      content: "";
+      width: 270px;
+      height: 97px;
+      left: 50%;
+      background: url(../images/books/buy_now.png) no-repeat 50% 50%;
+      @include background-size(cover);
+    }
+    @include min-screen(1200px) {
+      margin-left: 100px;
+      top: 83px;
+    }
+    @include screen(1024px,1199px) {
+      top: 75px;
+    }
+  }
+}
+.books .two-col { 
+  padding: 0;
+  p {
+    margin: 0;
+    &.intro {
+      margin: 0 0 10px;
+      color: #939F57;
+      font-style: italic;
+      font-weight: bold;
+      font-family: Georgia, serif;
+      @include font-size(24);
+      @include line-height(35);
+    }
+  }
+}
+.books {
+  .circle-orbit-nav a.active:after {
+    opacity: 0.85;
+  }
+  #blockquote {
+    background: rgba(#FFF, 0);
+    h1 + p {
+      margin: 0 0 55px;
+    }
+    .orbit-container .blockquote-orbit {
+      max-width: 920px;
+    }
+    blockquote {
+      margin: 0 0 20px;
+    }
+    cite {
+      padding: 0 70px 0 0;
+      float: right;
+      display: table;
+      text-align: left;
+    }
+  }
+}
+#book-intro {
+  @include min-screen(1024px) {
+    padding: 58px 0 46px;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  h1 {
+    margin: 0 0 28px;
+  }
+}
+#authoral-team {
+  background: #0DB9D1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
+  @include background-size(cover);
+  @include min-screen(1024px) {
+    padding: 89px 0 68px;
+  }
+  @include screen(768px,1023px) {
+    padding: 40px 0;
+  }
+  @include max-screen(767px) {
+    padding: 30px 0;
+  }
+  .row > h1,
+  .row > p {
+    color: white;
+  }
+  h1 + p:first-of-type {
+    margin: 0 0 56px;
+  }
+  .circle-orbit-nav a:after {
+    bottom: -78px;
+  }
+  .orbit-container {
+    background: rgba(#FFF, 0.8);
+    li span {
+      display: block;
+      margin: 0 0 29px;
+    }
+  }
+  .books-orbit {
+    margin: 0 auto 78px;
+  }
+  .books-orbit a {
+    background-color: rgba(#fff, 0);
+    &.active {
+      background-color: rgba(#fff, 0.5);
+    }
+  }
+  @include min-screen(768px) {
+    .medium-down {
+      display: none;
+    }
+  }
+  @include max-screen(767px) {
+    .medium-down {
+      display: block;
+      width: 100%;
+      img {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 22px;
+        @include border-radius(100%);
+      }
+      h3 {
+        text-align: center;
+      }
+    }
+    .orbit-next {
+      right: -10px;
+    }
+    .orbit-prev {
+      left: -10px;
+    }
+    .orbit-next,
+    .orbit-prev {
+      width: 31px;
+      height: 44px;
+      opacity: 0.8;
+      display: block !important;
+      span {
+        display: none;
+      }
+      &:hover {
+        opacity: 1;
+      }
+    }
+    .orbit-next {
+      background: url(../images/library/arrows.png) no-repeat 0 -88px;
+    }
+    .orbit-prev {
+      background: url(../images/library/arrows.png) no-repeat 0 -132px;
+    }
+  }
+}
+.books #blockquote .submit-application .button {
+  max-width: 520px;
+  span {
+    text-transform: uppercase;
+    @include InfoSemiBoldFont;
+  }
+}

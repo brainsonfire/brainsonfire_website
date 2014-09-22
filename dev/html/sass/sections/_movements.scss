@@ -1,0 +1,150 @@
+#movement-banner {
+  background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 170px 0 85px;
+  }
+}
+#learn-banner {
+  background: #dc5520 url(../images/movement/learn_banner.jpg) no-repeat 50% 100%;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 162px 0 84px;
+  }
+}
+#movement-info {
+  background: rgba(#000, 0);
+  @include min-screen(1200px) {
+    padding: 80px 0 83px;
+  }
+  h1 {
+    margin: 0 0 33px;
+  }
+  .button {
+    max-width: 270px;
+    margin: 0 auto 17px;
+  }
+  p.hint {
+    margin: 19px 0 0;
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia,
+    serif;
+    @include font-size(16);
+    @include line-height(28);
+    a {
+      font-weight: bold;
+      color: #00AACB;
+      @include font-size(28);
+    }
+  }
+}
+#how-we-work {
+  background: #fff url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
+  @include min-screen(1200px) {
+    padding: 98px 0 118px;
+  }
+  @include min-screen(1500px) {
+    @include background-size(100% auto);
+  }
+  @include max-screen(1499px) {
+    @include background-size(cover);
+  }
+  @include max-screen(767px) {
+    .orbit-next, 
+    .orbit-prev {
+      display: block !important;
+    }
+  }
+  h1 + p {
+    @include min-screen(768px) {
+      margin: 0 0 54px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 20px;
+    }
+  }
+  .button {
+    max-width: 250px;
+  }
+}
+.movement-orbit a:first-of-type {
+  background-color: rgba(#fff, 0);
+  &.active { background-color: rgba(#fff, 0.5); }
+  > span { background: #d9531e; }
+}
+.movement-orbit a:nth-child(2) {
+  background-color: rgba(#0bb7cf, 0);
+  &.active { background-color: rgba(#0bb7cf, 0.5); }
+  > span { background: #23bed4; }
+}
+.movement-orbit a:nth-child(3) {
+  background-color: rgba(#939f57, 0);
+  &.active { background-color: rgba(#939f57, 0.5); }
+  > span { background: #9ea867; }
+}
+.movement-orbit a:nth-child(4) {
+  background-color: rgba(#eb7e1f, 0);
+  &.active { background-color: rgba(#eb7e1f, 0.5); }
+  > span { background: #ec8a35; }
+}
+#some-examples {
+  background: rgba(#000, 0);
+  @include min-screen(1200px) {
+    padding: 110px 0 104px;
+  }
+  .work-list {
+    @include min-screen(1024px) {
+      margin: 48px auto 53px;
+    }
+    @include screen(768px,1023px) {
+      margin: 30px auto;
+    }
+    @include max-screen(767px) {
+      margin: 22px auto 22px;
+    }
+  }
+}
+#blockquote {
+  background: #FFF;
+  h1 + p {
+    margin: 0 0 21px;
+  }
+  .button {
+    max-width: 450px;
+  }
+  .blockquote-orbit {
+    max-width: 650px;
+  }
+  .submit-application {
+    background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
+    @include background-size(cover);
+    @include min-screen(1200px) {
+      padding: 111px 0.9375rem 119px;
+    }
+    @include screen(1024px,1199px) {
+      padding: 50px 0.9375rem;
+    }
+    @include screen(768px,1023px) {
+      padding: 40px 0.9375rem;
+    }
+    @include max-screen(767px) {
+     padding: 30px 0.9375rem;
+    }
+  }
+}
+#help {
+  @include min-screen(1200px) {
+    padding: 87px 0 102px;
+  }
+}
+#other-way {
+  background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
+  @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 83px 0 99px;
+  }
+}
+#some-examples .row .works-list {
+  margin: 46px auto 29px;
+}
