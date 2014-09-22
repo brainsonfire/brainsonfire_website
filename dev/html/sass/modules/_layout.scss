@@ -203,22 +203,19 @@ a {
 #footer {
   position: relative;
   z-index: 20;
+  margin-bottom: -80px;
   background: #eaeaea url(../images/layout/bg-path.png) repeat 0 0;
   @include min-screen(1200px) {
     padding: 90px 0 0;
-    margin-bottom: -80px;
   }
   @include screen(1024px,1199px) {
     padding: 70px 0 0;
-    margin-bottom: -63px;
   }
   @include screen(768px,1023px) {
     padding: 60px 0 0;
-    margin-bottom: -80px;
   }
   @include max-screen(767px) {
     padding: 50px 0 0;
-    margin-bottom: -80px;
   }
   .row {
     position: relative;

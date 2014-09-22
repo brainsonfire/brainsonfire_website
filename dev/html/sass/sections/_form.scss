@@ -177,7 +177,9 @@ label,
 }
 form .row {
   clear: both;
-  margin: 0 0 12px !important;
+  @include min-screen(768px) {
+    margin: 0 0 12px !important;
+  }  
 }
 select {
   cursor: pointer;
