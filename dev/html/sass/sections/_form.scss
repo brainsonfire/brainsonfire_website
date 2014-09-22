@@ -177,6 +177,7 @@ label,
 }
 form .row {
   clear: both;
+  margin: 0 0 12px !important;
 }
 select {
   cursor: pointer;
@@ -205,13 +206,14 @@ select {
   border: 1px solid #ccc;
   margin-left: -3.75rem;
   background: url("../images/hello/select_arrow.jpg") repeat -1px -1px;
+  cursor: pointer;
   @include min-screen(768px) {
     left: 50%;
     top: 0;
   }
   @include max-screen(767px) {
     right: 0;
-    top: 62px;
+    top: 3.875rem;
   }
 }
 select:hover {
@@ -223,6 +225,12 @@ select:hover {
 .select-style.hover select {
   background-color: #fafafa;
   border: 1px solid #ccc;
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) {
+   .select-style:after {
+      height: 62px;
+      top: 62px !important;
+   }
 }
 label .fullwidth {
   width: 100% !important;

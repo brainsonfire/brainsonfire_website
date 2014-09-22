@@ -120,6 +120,9 @@
     @include max-screen(1023px) {
       width: 100%;
     }
+    @include max-screen(767px) {
+      padding: 0;
+    }
     li {
       float: left;
       @include min-screen(1024px) {
