@@ -18,7 +18,7 @@
                 <ul id="file-list" class="clearfix">
                     <?php
                     $implemented    = file('implemented.txt', FILE_IGNORE_NEW_LINES);
-                    $ignore         = array('.', '..', 'favicon.png', 'index.php', 'implemented.txt', 'Config.codekit', '.DS Store', '.git-ftp.log ');
+                    $ignore         = array('.', '..', 'favicon.png', 'index.php', 'implemented.txt', 'Config.codekit', '.DS Store', '.git-ftp.log');
                     $replace        = array( '_', '.php');
                     $dir            = opendir(".");
                     $all_good_files = array();
