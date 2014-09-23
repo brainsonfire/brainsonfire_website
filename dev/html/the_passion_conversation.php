@@ -66,8 +66,8 @@
 									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
 									<h3 class="title">Robbin Phillips</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>I’m known as the Courageous President of Brains on Fire. I believe happiness leads to success. I have an amazing life, full of goodness and sunshine and adventure. I work with some really smart people I call friends. I’m one of the co-authors of the book Brains on Fire. I love my two kids in a way words absolutely can’t explain. I love the sound of children laughing—of anyone laughing, actually. I love hot yoga, cold beer, sunny days, and starry nights. I believe writing inspires thinking. I love to speak and share our customers’ stories in hopes of inspiring others. I think out loud at www.brainsonfire.com/blog. I believe we all work better when we’re having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I believe love is a circular transaction.</span>
+								<span>I try really hard to keep things simple. Some days I’m better at that than others. I am part of the Brains on Fire movement.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-2">
@@ -75,8 +75,7 @@
 									<img src="images/books/geno.jpg" alt="Geno Church">
 									<h3 class="title">Geno Church</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>My official title at Brains on Fire is Word of Mouth Inspiration Officer, but I consider myself more of a pathfinder for our clients and colleagues at Brains on Fire; and I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the U.S. Office of National Drug Control Policy, the National Center for Family Literacy, Love146, and Rage Against the Haze (South Carolina’s youth-led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker—you can find me at places like the Word of Mouth Marketing Association, the Public Relations Society of America, the American Marketing Association, the NewComm Forum on research communications, and the Customer Management World Africa conference. On Saturdays you’ll find me in the spin room at my gym and cruising in my Mini.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-3">
@@ -84,16 +83,14 @@
 									<img src="images/books/john.jpg" alt="John Moore">
 									<h3 class="title">John Moore</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>I take my job seriously, myself lightly. My serious business side is shaped from being a longtime marketing manager with Starbucks and later as director of national marketing with Whole Foods. For many years I operated my own itty-bitty consultancy, the Brand Autopsy Marketing Practice. Today, I’m happily cooped up at Brains on Fire, where I help ensure that our clients achieve their desired growth, and help Brains on Fire develop learners and leaders within the tribe. Along the way, I’ve solo-authored a few business books: Tribal Knowledge, a business management book, and Tough Love, a business book masquerading as a screenplay. My business travels have taken me around the world speaking to marketers at conferences big and small. My lighthearted side involves beer and music. I treat beer like others treat wine (my beer cellar is proof of that). I’m also deep into funky jazz and jazzy funk. (Think Sly Stone, Gil Scott-Heron, Meters, and anything that is “on the one.” Dig?)</span>
 							</li>
 							<li data-orbit-slide="circle-headline-4">
 								<div class="medium-down">
 									<img src="images/books/greg.jpg" alt="Greg Cordell">
 									<h3 class="title">Greg Cordell</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>I’m Chief Inspiration Officer at Brains on Fire, which means my job is to find inspiration where no one else is looking. I’ve never met anyone who didn’t have ideas. The world is stuffed with them. New ones, tired ones, radical ones, clever ones, good and great ones. What we need are fresh, big, bold questions. Give someone an idea, and they will judge. Ask them a great question, and they will grow. This year I celebrate 20 years of being married to someone who, every day, teaches me more about love than I knew the day before. I try just to live up to that and be a good example for my two children, encouraging them to ask good questions. And with any luck, on a really good day, our cat will notice that I exist.</span>
 							</li>
 						</ul>
 					</div>
@@ -106,26 +103,26 @@
 						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
-									<blockquote>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.”</blockquote>
-									<cite>Stephen Spielberg<br>Director of “Empire of the Sun”</cite>
+									<blockquote>“I’ve had my eye on Brains on Fire for a while. Their humanity makes them quite distinctive, and The Passion Conversation captures that unique voice.”</blockquote>
+									<cite>Peter Sims<br>author of Little Bets and founder of The BLK SHP Enterprises</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-2">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“It’s a fast read, a fun read, a smart read. Short sentences, huge heart. Read it. Why? To absorb an important truth from the masters of word of mouth movements: Conversations spring from passions, not products.”</blockquote>
+									<cite>Dan Heath<br>coauthor of Decisive, Switch, and Made to Stick</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-3">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Have you ever gotten teary-eyed over a business book? Better yet, over your own business? Prepare yourself for The Passion Conversation, where the folks at Brains on Fire tell how their business connected them with people in very moving and powerful ways, redefining words like marketing, sales, and success. Read this book to move your perspective from business to people, and experience the incredible effect it will have on your life and work.”</blockquote>
+									<cite>John Mueller<br>General Manager, 800-CEO-READ</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-4">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Love is the missing ingredient in developing loyalty with customers. In The Passion Conversation, the smart folks at Brains on Fire expertly explain how to develop deeper connections with customers who in turn sing your praises to everyone they know.”</blockquote>
+									<cite>Jackie Huba<br>author of Monster Loyalty: How Lady Gaga Turns Followers into Fanatics</cite>
 								</div>
 							</li>
 						</ul>

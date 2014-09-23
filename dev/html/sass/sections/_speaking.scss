@@ -208,22 +208,17 @@
         height: 100px;
       }
     }
-    a {
+    img {
       float: left;
       position: relative;
-      img {
-        float: left;
-        position: relative;
-        @include min-screen(768px) {
-          width: auto;
-          height: auto;
-          max-width: 100%;
-        }
-        @include max-screen(767px) {
-          width: 100%;
-          height: auto;
-          max-width: none;
-        }
+      @include min-screen(768px) {
+        width: 100%;
+        height: auto;
+      }
+      @include max-screen(767px) {
+        width: auto;
+        height: auto;
+        max-width: none;
       }
     }
   }

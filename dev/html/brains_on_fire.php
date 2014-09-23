@@ -16,7 +16,7 @@
 						<ul>
 							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
 							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="the_passion_conversation.php">next story</a></li>
+							<li><a class="next" href="the_passion_conversation.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -56,14 +56,13 @@
 							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
 							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt="Geno Church"><span class="title">Geno Church</span></span></span></a>
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false;">
+						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;">
 							<li data-orbit-slide="circle-headline-1">
 								<div class="medium-down">
 									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
 									<h3 class="title">Robbin Phillips</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec id elit non mi porta gravida at eget metus. Cras mattis consectetur purus sit amet fermentum.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>I’m known as the Courageous President around the halls of Brains on Fire. (Wait, we don’t have halls.) I love my two kids in a way words can’t explain. I’ve worked with brands such as BMW, Colonial Williamsburg Foundation, Love146, Find Great People International and Ryobi Tools. I love hot yoga, cold beer, sunny days and starry nights. I believe writing inspires thinking. I write and think out loud at brainsonfire.com/blog. I think everyone works better when they are having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I am pretty psyched PQ Media names us one of the top three word of mouth companies in the industry in 2007. And that Wommie Award was cool. (Yahoo! And Coca-Cola got one along with us.) I believe love is a circular transaction. I try really hard to keep things simple. Some days I am better at that than others. I am part of the Brains on Fire Movement.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-2">
@@ -71,8 +70,7 @@
 									<img src="images/books/greg.jpg" alt="Greg Cordell">
 									<h3 class="title">Greg Cordell</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus.</span>
-								<span>Cras mattis consectetur purus sit amet fermentum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</span>
+								<span>I’m Chief Inspiration Officer at Brains on Fire. I work for my children. I’ve been a concepter, a writer, an art director, a screenwriter. I might be something else next Thursday. I believe all people are brilliant. I drive American. I’ve spoken at AIGA gatherings and PRSA conferences and corporate events and the happy hour around the corner. Because I like to talk. I cry, too. At weddings and animated movies. I’ve worked on creative solutions for Coca-Cola, Yakima, BMW, Don Pablo’s Mexican Restaurants, Applebee’s and Best Buy. In another life, I might be a philosopher. I’ve had work used as the backdrop for an American President’s war on drugs. I’ve added crazy-big numbers to national brands’ bottom lines. I like being a conduit for inspirational energy. I believe everybody deserves the right to be excited about something. I believe there is always a better way and the greatest thing people can experience is to realize they need each other.</span>
 							</li>
 							
 							<li data-orbit-slide="circle-headline-3">
@@ -80,8 +78,7 @@
 									<img src="images/books/geno.jpg" alt="Geno Church">
 									<h3 class="title">Geno Church</h3>
 								</div>
-								<span>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</span>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda facere, provident quaerat debitis asperiores dicta quasi voluptatum! Ab, mollitia harum. Harum ipsum possimus repudiandae eligendi ipsa qui a, dignissimos officiis.</span>
+								<span>My title on the Brains on Fire website is Word of Mouth Inspiration Officer, but I consider myself more of a Pathfinder for our clients and Brains on Fire. And I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the US Office of National Drug Control Policy, Love 146 and Rage Against the Haze (South Carolina’s youth led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker – at places like the Word of Mouth Marketing Association, the Public Relations Society of America, American Marketing Association, the New Comm Research Communications Forum, and the World Africa Customer Management Conference. I used to play in a glam-rock band. I survived.</span>
 							</li>
 						</ul>
 					</div>
@@ -94,26 +91,26 @@
 						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
-									<blockquote>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.”</blockquote>
-									<cite>Stephen Spielberg<br>Director of “Empire of the Sun”</cite>
+									<blockquote>“Brains on Fire succeeds at doing what so many other business books attempt: it provides a recipe for how every company can succeed—but the secret isn’t in the latest tools, online communities, or campaign tactics. It’s about passion, humanization and common sense. And to prove that it’s possible, Brains on Fire is filled with examples of organizations that have already done it.”</blockquote>
+									<cite>Scott Monty<br>Head of Social Media, Ford Motor Company</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-2">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Brains on Fire is loaded with great advice from a team of people who have repeatedly built successful movements, ranging from an anti-teen-smoking movement to a pro-city-parks movement. If you want to lead a movement, start with this book.”</blockquote>
+									<cite>Dan Heath<br>Co-Author of Switch and Made to Stick</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-3">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Enter Brains on Fire. It isn’t just a book or a company, it is a collection of real people, with souls and hearts and stories—oh, the stories!—able to offer real advice to anyone who wants to make a movement out of what they do all day. Put down your Powerpoints and ad campaigns, folks. This takes guts and faith and patience, but mostly it takes passion. Not yours. Your customers. Brains on Fire can help you find it, trust it, and gently blow on the ember until it ignites. It’s not brand management, it’s brand transformation. You in? There’s a truth that lies deep within the promise of this modern, digital world—that authentic leadership can be released from your customers, and their passion can be fanned into movements that change lives forever. Brains on Fire can help make it true for you. Buy the book.”</blockquote>
+									<cite>Ellen McGirt<br>Senior Writer, Fast Company magazine</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-4">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Brains on Fire has the ability to assemble a powerful team that speaks as one unit. This engaging book is all about how that team works, including love, hard work, shared passion, with a constant focus on the goal.”</blockquote>
+									<cite>Douglas J. Greenlaw<br>Former head of sales and promotional marketing, MTV Networks, New York</cite>
 								</div>
 							</li>
 						</ul>
@@ -128,7 +125,7 @@
 						<ul>
 							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
 							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="the_passion_conversation.php">next story</a></li>
+							<li><a class="next" href="the_passion_conversation.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div> -->

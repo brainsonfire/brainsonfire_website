@@ -156,30 +156,30 @@
 						<h1>Spoken at</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						<ul>
-							<li><a href="#dummy"><img src="images/speaking/place_01.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_02.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_03.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_04.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_05.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_06.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_07.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_08.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_09.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_10.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_11.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_12.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_13.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_14.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_15.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_16.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_17.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_18.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_19.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_20.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_21.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_22.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_23.jpg" alt=""></a></li>
-							<li><a href="#dummy"><img src="images/speaking/place_24.jpg" alt=""></a></li>
+							<li><img src="images/speaking/place_01.jpg" alt=""></li>
+							<li><img src="images/speaking/place_02.jpg" alt=""></li>
+							<li><img src="images/speaking/place_03.jpg" alt=""></li>
+							<li><img src="images/speaking/place_04.jpg" alt=""></li>
+							<li><img src="images/speaking/place_05.jpg" alt=""></li>
+							<li><img src="images/speaking/place_06.jpg" alt=""></li>
+							<li><img src="images/speaking/place_07.jpg" alt=""></li>
+							<li><img src="images/speaking/place_08.jpg" alt=""></li>
+							<li><img src="images/speaking/place_09.jpg" alt=""></li>
+							<li><img src="images/speaking/place_10.jpg" alt=""></li>
+							<li><img src="images/speaking/place_11.jpg" alt=""></li>
+							<li><img src="images/speaking/place_12.jpg" alt=""></li>
+							<li><img src="images/speaking/place_13.jpg" alt=""></li>
+							<li><img src="images/speaking/place_14.jpg" alt=""></li>
+							<li><img src="images/speaking/place_15.jpg" alt=""></li>
+							<li><img src="images/speaking/place_16.jpg" alt=""></li>
+							<li><img src="images/speaking/place_17.jpg" alt=""></li>
+							<li><img src="images/speaking/place_18.jpg" alt=""></li>
+							<li><img src="images/speaking/place_19.jpg" alt=""></li>
+							<li><img src="images/speaking/place_20.jpg" alt=""></li>
+							<li><img src="images/speaking/place_21.jpg" alt=""></li>
+							<li><img src="images/speaking/place_22.jpg" alt=""></li>
+							<li><img src="images/speaking/place_23.jpg" alt=""></li>
+							<li><img src="images/speaking/place_24.jpg" alt=""></li>
 						</ul>
 					</div>
 				</section>

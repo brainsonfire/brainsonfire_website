@@ -392,8 +392,8 @@ a {
 @media screen and (min-width: 1024px) {
   /* line 140, ../sass/modules/_layout.scss */
   .primary-nav a {
-    font-size: 30px;
-    font-size: 1.875rem;
+    font-size: 28px;
+    font-size: 1.75rem;
     line-height: 25px;
     line-height: 1.5625rem;
   }
@@ -401,8 +401,8 @@ a {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* line 140, ../sass/modules/_layout.scss */
   .primary-nav a {
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 22px;
+    font-size: 1.375rem;
     line-height: 16px;
     line-height: 1rem;
   }
@@ -2057,7 +2057,7 @@ p.intro {
 /* line 231, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container,
 #how-we-work .orbit-container {
-  padding: 48px 0 34px;
+  padding: 48px 0 0;
 }
 @media screen and (min-width: 768px) {
   /* line 231, ../sass/modules/_orbit.scss */
@@ -4112,11 +4112,13 @@ section .block p {
 
 /* line 295, ../sass/sections/_books.scss */
 .books #blockquote .submit-application .button {
-  max-width: 520px;
+  max-width: 600px;
 }
 /* line 297, ../sass/sections/_books.scss */
 .books #blockquote .submit-application .button span {
   text-transform: uppercase;
+  font-family: hedley-new-web,serif;
+  font-style: normal;
   font-weight: 500;
 }
 
@@ -7648,27 +7650,21 @@ END FLOATING PEOPLE
   }
 }
 /* line 211, ../sass/sections/_speaking.scss */
-#spoken-at ul a {
-  float: left;
-  position: relative;
-}
-/* line 214, ../sass/sections/_speaking.scss */
-#spoken-at ul a img {
+#spoken-at ul img {
   float: left;
   position: relative;
 }
 @media screen and (min-width: 768px) {
-  /* line 214, ../sass/sections/_speaking.scss */
-  #spoken-at ul a img {
-    width: auto;
+  /* line 211, ../sass/sections/_speaking.scss */
+  #spoken-at ul img {
+    width: 100%;
     height: auto;
-    max-width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 214, ../sass/sections/_speaking.scss */
-  #spoken-at ul a img {
-    width: 100%;
+  /* line 211, ../sass/sections/_speaking.scss */
+  #spoken-at ul img {
+    width: auto;
     height: auto;
     max-width: none;
   }

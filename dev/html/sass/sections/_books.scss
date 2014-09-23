@@ -293,9 +293,11 @@
   }
 }
 .books #blockquote .submit-application .button {
-  max-width: 520px;
+  max-width: 600px;
   span {
     text-transform: uppercase;
+    font-family: hedley-new-web,serif;
+    font-style: normal;
     font-weight: 500;//@include InfoSemiBoldFont;
   }
 }
