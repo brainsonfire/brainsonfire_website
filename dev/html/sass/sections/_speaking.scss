@@ -169,6 +169,11 @@
   }
   .columns p {
     margin-bottom: 1rem;
+    @include font-size(16);
+    @include line-height(24);
+  }  
+  .large-4.columns:nth-child(3n+3) {
+    clear: both;
   }
 }
 #spoken-at {

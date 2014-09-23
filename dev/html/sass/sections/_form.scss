@@ -131,6 +131,31 @@ label {
     @include font-size(20);
   }
 }
+label.fullwidth {
+  height: auto;
+  width: 100% !important;
+  padding: 1rem 0 !important;
+}
+#form3 label {
+  padding: 1rem 0 !important;
+}
+#form3 #foli1 span {
+  width: 100%;
+  float: left;
+  margin: 0 0 12px;
+  label {
+    float: left;
+    padding: 1rem 0 1rem 1rem !important;
+  }
+}
+label.hint {
+  height: auto;
+  width: 100% !important;
+  padding: 1rem 0 0 !important;
+  clear: both;
+  @include font-size(16);
+  @include line-height(24);
+}
 select {
   display: inline-block;
   vertical-align: middle;
@@ -314,6 +339,45 @@ form li.focused {
     width: 100%;
   }
 }
+.client-questionnaire .phone {
+  .phone-field {
+    float: left;
+    @include min-screen(768px) {
+      width: 15%;
+    }
+    @include max-screen(767px) {
+      width: 30%;
+    }
+    input {
+      width: 100% !important;
+    }
+  }
+  .symbol {
+    float: left;
+    text-align: center;
+    color: #666;
+    font-size: 1.25rem;
+    font-weight: 400;
+    height: 3.75rem;
+    line-height: 3.75rem;
+    @include min-screen(768px) {
+      width: 2.5%;
+    }
+    @include max-screen(767px) {
+      width: 5%;
+    }
+  }
+  span label {
+    float: left;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    line-height: 0.1;
+    height: 30px;
+    padding: 0;
+    color: #999;
+  }
+}
 .form-contact .phone {
   input {
     @include min-screen(768px) {
@@ -390,5 +454,23 @@ form li.focused {
   .leftLabel .desc,
   .rightLabel .desc {
     width: 100%;
+  }
+}
+.application {
+  #application-banner .half-block {
+    right: auto;
+    left: 0;
+  }
+  #application-banner h1 {
+    @include font-size(40);
+  }
+  #form {
+    background: #FFF;
+    h1 + p {
+      text-align: left;
+      text-transform: none;
+      max-width: 800px;
+      margin: 0 auto;
+    }
   }
 }

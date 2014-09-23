@@ -35,7 +35,7 @@
 							<li data-orbit-slide="headline-4"><div><strong>What will it DO?</strong>A Brains on Fire movement will strengthen the health and integrity of your brand by engaging your employees and bringing you closer to your customers. At the end of the day, as you’re scrolling down the list of your company’s most valuable assets, you’ll add a new line for our bond of trust you have earned and the community of supporters who can’t image a world without you.<br> So let us ask you, what is that worth?</div></li>
 						</ul>
 						<div class="btn-holder">
-							<a class="button btn-orange" href="#dummy">apply now</a>
+							<a class="button btn-orange" href="application.php">apply now</a>
 							<p class="hint">Now Accepting Applications for: <a href="#dummy">2014</a></p>
 						</div>
 					</div>
@@ -58,7 +58,7 @@
 							<li data-orbit-slide="circle-headline-4"><div><span class="small-title">Implementation <span>time/cost</span></span><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</div></li>
 						</ul>
 						<div class="btn-holder">
-							<a class="button btn-blue" href="#dummy">apply now</a>
+							<a class="button btn-blue" href="application.php">apply now</a>
 						</div>
 					</div>
 				</section>
@@ -110,7 +110,7 @@
 						</ul>
 					</div>
 					<div class="submit-application">
-						<a class="button btn-blue" href="#dummy">submit your application here</a>
+						<a class="button btn-blue" href="application.php">submit your application here</a>
 					</div>
 				</section>
 

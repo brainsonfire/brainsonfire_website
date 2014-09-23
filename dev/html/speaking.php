@@ -101,53 +101,53 @@
 						<h1>Upcoming dates</h1>
 						<p>Hope to see you Soon.</p>
 						<div class="large-4 columns">
-							<h3>Word of Mouth Marketing (WOMMA) Summit</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+							<h3><a target="_blank" href="http://www.tbbaconvention.com/">Texas B&B Assoc. Annual Conference</a></h3>
+							<p>Sep. 7th-9th, 2014 | Galveston, TX</p>
+							<p>See Robbin at The Annual Convention of the Texas Bed & Breakfast Association. The conference that empowers and enlightens innkeepers, aspiring innkeepers and vendors.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3>LifeMark Conference</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+							<h3><a target="_blank" href="https://www.ama.org/events-training/Conferences/Pages/American-Marketing-Association's-2014-Annual-Marketing-Conference.aspx">AMA 2014 Annual Conference</a></h3>
+							<p>Oct. 2, 2014 | New Orleans, LA</p>
+							<p>Join John, Geno and more than 400 marketing peers and thought leaders providing inspiration, focus and motivation to help marketers deliver top results. The American Marketing Association's Annual Conference will inspire you with rich content and expert insights from some of the nation's best marketing minds.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3>Entrepreneurs’ Organization Las Vegas</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+							<h3><a target="_blank" href="http://www.fishwildlife.org/index.php?section=events&evtid=777">2014 Annual Conference of the SE Assoc. of Fish and Wildlife Agencies</a></h3>
+							<p>Oct. 21, 2014 | Destin, FL</p>
+							<p>Catch Robbin at the 2014 Annual Conference of the Southern Association of Fish and Wildlife Agencies. This conference provides a well-balanced exchange of ideas and information of significant benefit to the conservation community in its efforts to manage fish and wildlife resources.</p>
 						</div>
 					</div>
 					<div class="row">
 						<h2>Recent events</h2>
 						<p>Sorry we missed tou.</p>
 						<div class="large-4 columns">
+							<h3>WOMMNEXT</h3>
+							<p>Apr. 28th-30th, 2014 | Chicago, IL</p>
+							<p>Come learn from trendsetters who are using experimentation and creativity to get people talking, both online and offline. Forward-thinking leaders, scholars and practitioners will distill what’s next and how to put breakthrough ideas into action.</p>
+						</div>
+						<div class="large-4 columns">
+							<h3>ConvergeSE</h3>
+							<p>May 1-23, 2014 | Columbia, SC</p>
+							<p>The conference for everyone working with technology in creative ways. With in-depth workshops, a multiple track day and single-track keynotes, ConvergeSE is three days that will leave you changed and inspired.</p>
+						</div>
+						<div class="large-4 columns">
+							<h3>Brands-Only Summit</h3>
+							<p>Dec. 10th, 2013 | Orlando, FL</p>
+							<p>This is the only social media conference on earth that’s truly for brands — and only for brands.</p>
+						</div>
+						<div class="large-4 columns">
 							<h3>Word of Mouth Marketing (WOMMA) Summit</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+							<p>Nov. 18th-20th, 2013 | Nashville, TN</p>
+							<p>An annual event where marketing innovators collaborate, educate and celebrate the best of the word of mouth and social media industry.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3>LifeMark Conference</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
+							<h3>PRSA International</h3>
+							<p>Oct. 27th, 2013 | Philadelphia, PA</p>
+							<p>A conference dedicated to helping public relations practitioners respond to "real-time" opportunities and challenges, while also addressing trends and new technologies.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3>Entrepreneurs’ Organization Las Vegas</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
-						</div>
-						<div class="large-4 columns">
-							<h3>Word of Mouth Marketing (WOMMA) Summit</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
-						</div>
-						<div class="large-4 columns">
-							<h3>LifeMark Conference</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam porta sem malesuada magna mollis euismod. Morbi leo risus, porta ac consectetur ac.</p>
-						</div>
-						<div class="large-4 columns">
-							<h3>Entrepreneurs’ Organization Las Vegas</h3>
-							<p>Nov. 17th-20th, 2013 | Nashville, TN</p>
-							<p>Cras mattis consectetur purus sit amet fermentum. Etiam Donec id elit non mi porta gravida at eget metus. Nulla vitae elit libero, a pharetra augue. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+							<h3>PRSSA National Conference</h3>
+							<p>Oct. 25th-29th, 2013 | Philadelphia, PA</p>
+							<p>A comprehensive program of sessions, workshops and discussions laying the groundwork for the future by providing insight for leadership development, media relations, analytics and managing life as a new professional.</p>
 						</div>
 					</div>
 				</section>

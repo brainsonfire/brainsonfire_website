@@ -68,7 +68,8 @@
     }
   }
 }
-#book-banner {
+#book-banner,
+#application-banner {
   padding: 0;
   > img {
     display: block;
@@ -155,6 +156,9 @@
       top: 75px;
     }
   }
+}
+#application-banner h1 + p {
+  text-transform: none;
 }
 .books .two-col { 
   padding: 0;
