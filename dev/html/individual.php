@@ -234,14 +234,31 @@
 						<h1>Extended Tribe</h1>
 						<p>Happy clients from the past and present</p>
 						<ul class="row">
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_1.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_2.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_3.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_4.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_5.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_6.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_7.png" alt=""></a></li>
-							<li class="large-3 medium-4 small-6 columns"><a href="#dummy"><img src="images/individuals/clients/client_8.png" alt=""></a></li>
+							<li class="large-3 medium-4 small-6 columns">
+								<!-- images width 307px, height 130px -->
+								<img src="images/individuals/clients/client_1.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_2.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_3.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_4.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_5.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_6.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_7.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_8.png" alt="">
+							</li>
 						</ul>
 					</div>
 				</section>
@@ -251,14 +268,33 @@
 						<h1>Odds & End</h1>
 						<div class="half-block">
 							<p>Jobs! We don’t have any open positions at the moment, but we are always accepting portfolios and resumes! Click the button below.</p>
-							<a href="#dummy" class="button btn-blue">say hello</a>
+							<a href="hello.php#form" class="button btn-blue">say hello</a>
 						</div>
 						<div class="half-block border-left">
 							<p>Enter your email below to be on the list to recieve our little ole newsletter. We promise that we won’t spam you.</p>
-							<form action="#">
-								<input type="email">
-								<button type="submit" class="button btn-blue">submit</button>
-							</form>
+
+
+							<!-- Begin MailChimp Signup Form -->
+							<div id="mc_embed_signup" class="holder">
+								<form action="//brainsonfire.us3.list-manage.com/subscribe/post?u=4e6c3f5bcfa5afd161f356929&amp;id=0a1ea420f4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form-contact cf" target="_blank" novalidate>
+									<div class="mc-field-group">
+											<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+									</div>
+									<div id="mce-responses" class="clear ">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									<div style="position: absolute; left: -5000px;">
+										<input type="text" name="b_4e6c3f5bcfa5afd161f356929_0a1ea420f4" tabindex="-1" value="">
+									</div>
+									<div class="clear mc-submit-btn">
+										<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-blue">
+									</div>
+								</form>
+							</div>
+							<!--End mc_embed_signup-->
+
+
 						</div>
 					</div>
 				</section>

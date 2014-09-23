@@ -1,6 +1,11 @@
 * {
   @include box-sizing(border-box);
 }
+.touch * {
+  -webkit-backface-visibility: hidden;
+   -moz-backface-visibility: hidden;
+        backface-visibility: hidden;
+}
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }

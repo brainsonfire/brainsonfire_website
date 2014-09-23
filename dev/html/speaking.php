@@ -11,14 +11,12 @@
 			<?php include("inc/header.php"); ?>
 			
 			<main id="main" class="speaking">
-
 				<section id="speaking-banner" class="white-text">
 					<div class="row">
 						<h1>Yup, They let us speak in public.</h1>
 						<p>Word of mouth... Literally.</p>
 					</div>
 				</section>
-
 				<div id="speakers">
 					<div class="row">
 						<div class="large-3 medium-6 small-12 columns">
@@ -70,7 +68,6 @@
 						</div>
 					</div>
 				</section>
-
 				<section id="favorite">
 					<div class="row">
 						<h1>Favorite Topics</h1>
@@ -79,7 +76,7 @@
 							<div class="half-wrap">
 								<div class="videoHolder">
 									<iframe src="http://www.youtube.com/embed/hAjPOojI3q8" allowfullscreen></iframe>
-								</div>	
+								</div>
 							</div>
 							<ul>
 								<li>Word of Mouth Marketing</li>
@@ -99,7 +96,6 @@
 						</div>
 					</div>
 				</section>
-
 				<section id="upcoming" class="white-text">
 					<div class="row">
 						<h1>Upcoming dates</h1>
@@ -155,7 +151,6 @@
 						</div>
 					</div>
 				</section>
-
 				<section id="spoken-at">
 					<div class="row">
 						<h1>Spoken at</h1>
@@ -188,102 +183,130 @@
 						</ul>
 					</div>
 				</section>
-
 				<section id="form">
 					<div class="row">
 						<h1>Book us</h1>
 						<p>By typing away in the form below.</p>
-						<form action="#">
-							<div class="row">
-								<label>
-									<span>Name (required)</span>
-									<input id="name" type="text" />
-								</label>
-							</div>
-							<div class="row">
-								<label>
-									<span>Email (required) - we’ll keep this private</span>
-									<input id="email" type="email" />
-								</label>
-							</div>
-							<div class="row">
-								<label>										
-									<span>Phone Number</span>
-									<input id="phone" type="tel" />
-								</label>
-							</div>
-							<div class="row">
-								<label>
-									<span>Name of the Event</span>
-									<input id="event-name" type="text" />
-								</label>
-							</div>
-							<div class="row">
-								<label>										
-									<span>Location</span>
-									<input id="location" type="text" />
-								</label>
-							</div>
-							<div class="row">
-								<div class="label-wrap">
-									<span class="text">Date</span>
-									<span class="date day">
-										<input id="day" class="slash" type="number" />
-										<span>DD</span>
+						<form id="form6" name="form6" class="wufoo rightLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://firesession.wufoo.com/forms/w1vlikfx0shln0y/#public">
+							
+							<ul>
+								<li id="foli9" class="notranslate form-field row">
+									<label class="desc" id="title9" for="Field9">Name (required)</label>
+									<span>
+										<input id="Field9" name="Field9" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
 									</span>
-									<span class="date month">
-										<input id="month" class="slash" type="number" />
-										<span>MM</span>
+								</li>
+								<li id="foli10" class="notranslate form-field row">
+									<label class="desc" id="title10" for="Field10">Email (required) - we'll keep this private</label>
+									<span>
+										<input id="Field10" name="Field10" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required />
 									</span>
-									<span class="date year">
-										<input id="year" type="number" />
-										<span>YYYY</span>
+								</li>
+								<li id="foli12" class="notranslate form-field row">
+									<label class="desc" id="title12" for="Field12">Phone Number</label>
+									<span>
+										<input id="Field12" name="Field12" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="" />
 									</span>
-								</div>
-							</div>
-							<div class="row select-style">
-								<label>
-									<span>Time of Day</span>
-									<select>
-										<option value="">-- Select a Time --</option>
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">3</option>
-									</select>
-								</label>
-							</div>
-							<div class="row select-style">
-								<label>
-									<span>Preferred Speaker</span>
-									<select>
-										<option value="">-- Select a Speaker --</option>
-										<option value="">1</option>
-										<option value="">2</option>
-										<option value="">3</option>
-									</select>
-								</label>
-							</div>
-							<div class="row">
-								<label>
-									<span class="fullwidth">Brief description of the event & link for registration (required)</span>
-									<textarea></textarea>
-								</label>
-							</div>
-							<div class="row submit">
-								<button class="button btn-orange" type="submit">submit form</button>
-							</div>
+								</li>
+								<li id="foli13" class="notranslate form-field row">
+									<label class="desc" id="title13" for="Field13">Name of Event</label>
+									<span>
+										<input id="Field13" name="Field13" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" />
+									</span>
+								</li>
+								<li id="foli14" class="notranslate form-field row">
+									<label class="desc" id="title14" for="Field14">Location</label>
+									<span>
+										<input id="Field14" name="Field14" type="text" class="field text medium" value="" maxlength="255" tabindex="5" onkeyup="" />
+									</span>
+								</li>
+								<li id="foli15" class="date notranslate form-field row">
+									<span class="input-two">
+										<input id="Field15-1" name="Field15-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="6" />
+										<label for="Field15-1">MM</label>
+									</span>
+									<span class="symbol">/</span>
+									<span class="input-two">
+										<input id="Field15-2" name="Field15-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="7" />
+										<label for="Field15-2">DD</label>
+									</span>
+									<span class="symbol">/</span>
+									<span class="input-three">
+										<input id="Field15" name="Field15" type="text" class="field text" value="" size="4" maxlength="4" tabindex="8" />
+										<label for="Field15">YYYY</label>
+									</span>
+									<label class="desc" id="title15" for="Field15">Date</label>
+								</li>
+								<li id="foli16" class="notranslate form-field row">
+									<span>
+										<select id="Field16" name="Field16" class="field select medium" tabindex="9" >
+											<option value="-- Select a Time --" selected="selected">-- Select a Time --</option>
+											<option value="Morning">Morning</option>
+											<option value="Afternoon">Afternoon</option>
+											<option value="Evening">Evening</option>
+										</select>
+									</span>
+									<label class="desc" id="title16" for="Field16">Time of Day</label>
+								</li>
+								<li id="foli17" class="notranslate form-field row">
+									<span>
+										<select id="Field17" name="Field17" class="field select medium" tabindex="10" >
+											<option value="-- Select a Speaker --" selected="selected">-- Select a Speaker --</option>
+											<option value="Robbin Phillips">Robbin Phillips</option>
+											<option value="Geno Church">Geno Church</option>
+											<option value="John Moore">John Moore</option>
+											<option value="Greg Cordell">Greg Cordell</option>
+										</select>
+									</span>
+									<label class="desc" id="title17" for="Field17">Preferred Speaker</label>
+								</li>
+								<li id="foli20" class="notranslate form-field row">
+									<span>
+										<select id="Field20" name="Field20" class="field select medium" tabindex="11" >
+											<option value="-- Select a Package --" selected="selected">-- Select a Package --</option>
+											<option value="Package 1: Presentation">Package 1: Presentation</option>
+											<option value="Package 2: Presentation + Workshop">Package 2: Presentation + Workshop</option>
+										</select>
+									</span>
+									<label class="desc" id="title20" for="Field20">Speaking Package</label>
+								</li>
+								<li id="foli22" class="notranslate form-field row">
+									<label class="desc" id="title22" for="Field22">Event Website (URL)</label>
+									<span>
+										<input id="Field22" name="Field22" type="url" class="field text large" value="" maxlength="255" tabindex="12" />
+									</span>
+								</li>
+								<li id="foli18" class="notranslate form-field textarea row">
+									<label class="desc" id="title18" for="Field18"> Brief description of the event & link for registration (required)</label>
+									<span>
+										<textarea id="Field18" name="Field18" class="field textarea medium" spellcheck="true" rows="10" cols="50" tabindex="11" onkeyup="" required></textarea>
+									</span>
+								</li>
+								<li class="buttons row">
+									<span>
+										<input id="saveForm" name="saveForm" class="btTxt submit button btn-orange" type="submit" value="Submit"/>
+									</span>
+								</li>
+								<li class="hide row">
+									<label for="comment">Do Not Fill This Out</label>
+									<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+									<input type="hidden" id="idstamp" name="idstamp" value="xRV/T/SXj9wBwvjLiRPllDrTTTMf9ZFolYWH1SzAxjE=" />
+								</li>
+							</ul>
 						</form>
+						<!-- / wufoo form -->
+						
 					</div>
 				</section>
-
 			</main>
 			
 			<?php include("inc/footer.php"); ?>
 			
 		</div>
 	</div>
-
 	<?php include("inc/js.php"); ?>
+	<script type="text/javascript" src="js/min/jquery.individuals.min.js"></script>
+	<script type="text/javascript" src="js/min/wufoo.min.js"></script>
 	
 	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
@@ -291,6 +314,5 @@
 			$('.secondary-nav li:eq(2)').addClass('current');
 		});
 	</script>
-
 </body>
 </html>

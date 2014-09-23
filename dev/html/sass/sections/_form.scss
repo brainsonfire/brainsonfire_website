@@ -1,6 +1,6 @@
 #form {
   @include min-screen(1200px) {
-    padding: 102px 0 83px;
+    padding: 82px 0;
   }
   @include screen(10248px, 1199px) {
     padding: 50px 0;
@@ -16,19 +16,24 @@
     margin: 0 auto;
     padding: 48px 0 0;
     @include min-screen(1024px) {
-      max-width: 66%;
+      max-width: 800px;
+    }
+    @include screen(768px,1023px) {
+      max-width: 700px;
     }
     @include max-screen(767px) {
       max-width: 450px;
     }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
   }
 }
-.row.submit {
-  margin-top: 30px;
-  .button {
-    @include min-screen(641px) {
-      max-width: 266px;  
-    }    
+.row .button {
+  @include min-screen(641px) {
+    max-width: 266px;
   }
 }
 input[type="text"],
@@ -53,8 +58,9 @@ textarea {
   height: 3.75rem;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-weight: 400;//@include InfoNormalFont;
-  @include font-size(20);  
+  font-weight: 400;
+  //@include InfoNormalFont;
+  @include font-size(20);
 }
 input[type="text"],
 input[type="password"],
@@ -88,160 +94,6 @@ textarea {
     min-height: 160px;
   }
 }
-label,
-.label-wrap {
-  width: 100%;
-  > span {
-    float: right;
-    color: #666;
-    height: auto;
-    font-weight: 400;//@include InfoNormalFont;
-    @include font-size(20);    
-    @include min-screen(768px) {
-      width: 50%;
-      padding: 1rem 0 1rem 1rem;
-    }
-    @include max-screen(767px) {
-      width: 100%;
-      padding: 1rem 1rem 1rem 0;
-    }
-  }
-}
-.label-wrap {
-  .date {
-    float: left;
-    padding: 0;
-    height: 6.5rem;
-    &.day {
-      @include min-screen(768px) {
-        width: 11%;
-        margin: 0 6% 0 0;
-      }
-      @include max-screen(767px) {
-        width: 22%;
-        margin: 0 12% 0 0;
-      }
-    }
-    &.month {
-      @include min-screen(768px) {
-        width: 11%;
-        margin: 0 6% 0 0;
-      }
-      @include max-screen(767px) {
-        width: 22%;
-        margin: 0 12% 0 0;
-      }
-    }
-    &.year {
-      @include min-screen(768px) {
-        width: 16%;
-      }
-      @include max-screen(767px) {
-        width: 32%;
-      }
-    }
-    input {
-      width: 100% !important;
-    }
-    span {
-      float: left;
-      width: 100%;
-      clear: both;
-      text-align: center;
-    }
-  }
-  .text {
-    float: right;
-    @include min-screen(768px) {
-      width: 50%;
-    }
-    @include max-screen(767px) {
-      width: 100%;
-    }
-  }
-}
-.label-wrap span.date {
-  position: relative;
-  &.month:after,
-  &.day:after {
-    content: "/";
-    display: block;
-    font-size: 21px;
-    height: 14px;
-    position: absolute;
-    right: -28%;
-    top: 14px;
-    width: 5px;
-    z-index: 1000;
-  }
-}
-form .row {
-  clear: both;
-  @include min-screen(768px) {
-    margin: 0 0 12px !important;
-  }  
-}
-select {
-  cursor: pointer;
-  padding: 1rem 0 1rem 1rem;
-  height: 3.75rem;
-  border: 1px solid #ccc;
-  background-color: #FFF;
-  -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
-  font-weight: 400;//@include InfoNormalFont;
-  @include font-size(20);
-  &:hover {
-    background-color: #fafafa;
-  }
-}
-.select-style {
-  position: relative;
-}
-.select-style:after {
-  display: block;
-  position: absolute;
-  z-index: 22;
-  width: 3.75rem;
-  height: 3.75rem;
-  border: 1px solid #ccc;
-  margin-left: -3.75rem;
-  background: url("../images/hello/select_arrow.jpg") repeat -1px -1px;
-  cursor: pointer;
-  @include min-screen(768px) {
-    left: 50%;
-    top: 0;
-  }
-  @include max-screen(767px) {
-    right: 0;
-    top: 3.875rem;
-  }
-}
-select:hover {
-  border: none;
-}
-.select-style.hover:after {
-  background-position: -1px -61px;
-}
-.select-style.hover select {
-  background-color: #fafafa;
-  border: 1px solid #ccc;
-}
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-device-width: 480px) {
-   .select-style:after {
-      height: 62px;
-      top: 62px !important;
-   }
-}
-label .fullwidth {
-  width: 100% !important;
-  float: left;
-  padding: 1rem 0;
-  + textarea {
-    clear: both;
-  }
-}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
@@ -249,4 +101,226 @@ input[type=number]::-webkit-outer-spin-button {
 }
 input[type=number] {
   -moz-appearance: textfield;
+}
+form .row {
+  clear: both;
+  @include min-screen(768px) {
+    margin: 0 0 12px !important;
+  }
+}
+label {
+  color: #666;
+  height: auto;
+  font-weight: 400;//@include InfoNormalFont;
+  height: 3.75rem;
+  line-height: 1.5;
+  @include font-size(20);    
+  @include min-screen(768px) {
+    width: 50%;
+    padding: 1rem 0 1rem 1rem;
+  }
+  @include max-screen(767px) {
+    width: 100%;
+    padding: 1rem 1rem 1rem 0;
+  }
+}
+
+.form-contact select {
+  display: inline-block;
+  vertical-align: middle;
+  width: 50%;
+}
+.jcf-hidden {
+  display: block !important;
+  left: -9999px !important;
+  position: absolute !important;
+}
+.select-area {
+  background: #fff;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 50% !important;
+}
+.select-area .center {
+  font-size: 1.25rem;
+  font-weight: 400;
+  height: 3.75rem;
+  line-height: 2.2;
+  float: left;
+  text-transform: none;
+  padding: 0.5rem 1.5rem;
+}
+.select-area .select-opener {
+  float: right;
+  height: 60px;
+  position: relative;
+  width: 60px;
+}
+.select-area .select-opener:before {
+  background: url(../images/library/select_arrow.jpg) no-repeat 0 0;
+  content: "";
+  height: 60px;
+  left: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 60px;
+}
+.select-options {
+  background: #fff;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2000;
+}
+.drop-list {
+  height: auto !important;
+}
+.select-options .drop-holder {
+  border: 1px solid #e8e8e8;
+  height: 1%;
+  overflow: hidden;
+}
+.select-options ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.select-options ul li {
+  float: left;
+  width: 100%;
+}
+.select-options ul a {
+  cursor: default;
+  color: #000;
+  display: block;
+  height: 1%;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.select-options .item-selected a {
+  background: #007;
+  color: #fff;
+  text-decoration: none;
+}
+.select-options .default {
+  display: none;
+}
+.form-contact .select-area {
+  height: 60px;
+  float: left;
+}
+.select-area .center {
+  color: #999;
+}
+.form-contact .row {
+  background-color: transparent;
+  position: relative;
+  padding: 6px;
+  @include transition(background-color, 0.3s, ease-out);
+  &:hover {
+    background-color: rgba(0, 170, 203, 0.2);
+    -webkit-text-fill-color: #333;
+  }
+}
+.form-contact input:focus {
+  outline: -webkit-focus-ring-color none;
+}
+.form-contact textarea:focus {
+  outline: -webkit-focus-ring-color none;
+}
+form li {
+  text-align: left;
+}
+form li.focused {
+  background-color: rgba(0, 170, 203, 0.2);
+}
+.notranslate {
+  padding: 19px;
+  text-align: left;
+}
+.hide,
+.cloak div,
+.cloak span,
+.likert.cloak tbody,
+.likert.cloak thead {
+  display: none !important;
+}
+
+.leftLabel .desc,
+.rightLabel .desc {
+  width: 50%;
+}
+.select-options .item-selected a {
+  background: #d9531e;
+  color: #fff;
+  text-decoration: none;
+}
+.select-area .select-opener {
+  height: 60px;
+}
+.elaborate {
+  width: 97%;
+}
+.dash {
+  margin: 13px 4px 0 1px;
+}
+.rightLabel .desc {
+  display: inline-block;
+  flex: 1;
+}
+
+#Field7{
+  width: 24%;
+  margin: 0 1% 0 0;
+}
+#Field8 {
+  width: 24%;
+  margin: 0 0 0 1%;
+}
+.phone {
+  input {
+    width: 15%;
+  }
+  .dash {
+    float: left;
+    text-align: center;
+    width: 1.8%;
+    color: #666;
+    font-size: 1.25rem;
+    font-weight: 400;
+    height: 3.75rem;
+    line-height: 1.5;
+  }
+}
+.date {
+  input {
+    width: 15%;
+  }
+  .input-two label,
+  .input-three label {
+    position: absolute;
+  }
+  .symbol {
+    float: left;
+    text-align: center;
+    width: 2.5%;
+    color: #666;
+    font-size: 1.25rem;
+    font-weight: 400;
+    height: 3.75rem;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (max-width:721px) {
+  .leftLabel .desc,
+  .rightLabel .desc {
+    width: 100%;
+  }
 }
