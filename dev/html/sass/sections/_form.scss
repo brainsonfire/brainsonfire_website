@@ -114,21 +114,32 @@ label {
   font-weight: 400;//@include InfoNormalFont;
   height: 3.75rem;
   line-height: 1.5;
-  @include font-size(20);    
-  @include min-screen(768px) {
+  @include min-screen(1024px) {
     width: 50%;
     padding: 1rem 0 1rem 1rem;
+    @include font-size(20);
+  }
+  @include screen(768px,1023px) {
+    width: 50%;
+    padding: 1rem 0 1rem 1rem;
+    @include font-size(18);
   }
   @include max-screen(767px) {
     width: 100%;
-    padding: 1rem 1rem 1rem 0;
+    padding: 0.5rem 0;
+    height: 2rem;
+    @include font-size(20);
   }
 }
-
-.form-contact select {
+select {
   display: inline-block;
   vertical-align: middle;
-  width: 50%;
+  @include min-screen(768px) {
+    width: 50%;
+  }
+  @include max-screen(767px) {
+    width: 100%;
+  }
 }
 .jcf-hidden {
   display: block !important;
@@ -145,7 +156,12 @@ label {
   overflow: hidden;
   position: relative;
   float: left;
-  width: 50% !important;
+  @include min-screen(768px) {
+    width: 50% !important;
+  }
+  @include max-screen(767px) {
+    width: 100% !important;
+  }
 }
 .select-area .center {
   font-size: 1.25rem;
@@ -211,27 +227,27 @@ label {
 .select-options .default {
   display: none;
 }
-.form-contact .select-area {
+.select-area {
   height: 60px;
   float: left;
 }
 .select-area .center {
   color: #999;
 }
-.form-contact .row {
+form .row {
   background-color: transparent;
   position: relative;
-  padding: 6px;
+  padding: 6px !important;
   @include transition(background-color, 0.3s, ease-out);
-  &:hover {
+  &.focused {
     background-color: rgba(0, 170, 203, 0.2);
     -webkit-text-fill-color: #333;
   }
 }
-.form-contact input:focus {
+input:focus {
   outline: -webkit-focus-ring-color none;
 }
-.form-contact textarea:focus {
+textarea:focus {
   outline: -webkit-focus-ring-color none;
 }
 form li {
@@ -267,55 +283,107 @@ form li.focused {
 .elaborate {
   width: 97%;
 }
-.dash {
-  margin: 13px 4px 0 1px;
-}
 .rightLabel .desc {
   display: inline-block;
   flex: 1;
 }
-
-#Field7{
-  width: 24%;
-  margin: 0 1% 0 0;
+.form-contact #Field7{
+  @include min-screen(768px) {
+    width: 24%;
+    margin: 0 1% 0 0;
+  }
+  @include screen(481px,767px) {
+    width: 48%;
+    margin: 0 2% 0 0;
+  }
+  @include max-screen(480px) {
+    width: 100%;
+    margin: 0 0 12px;
+  }
 }
-#Field8 {
-  width: 24%;
-  margin: 0 0 0 1%;
+.form-contact #Field8 {
+  @include min-screen(768px) {
+    width: 24%;
+    margin: 0 0 0 1%;
+  }
+  @include screen(481px,767px) {
+    width: 48%;
+    margin: 0 0 0 2%;
+  }
+  @include max-screen(480px) {
+    width: 100%;
+  }
 }
-.phone {
+.form-contact .phone {
   input {
-    width: 15%;
+    @include min-screen(768px) {
+      width: 15%;
+    }
+    @include max-screen(767px) {
+      width: 30%;
+    }
   }
   .dash {
     float: left;
     text-align: center;
-    width: 1.8%;
     color: #666;
     font-size: 1.25rem;
     font-weight: 400;
     height: 3.75rem;
-    line-height: 1.5;
+    line-height: 3.75rem;
+    @include min-screen(768px) {
+      width: 2.5%;
+    }
+    @include max-screen(767px) {
+      width: 5%;
+    }
   }
 }
-.date {
-  input {
-    width: 15%;
-  }
-  .input-two label,
-  .input-three label {
-    position: absolute;
+#form6 .date {
+  .input-two,
+  .input-three {
+    float: left;
+    position: relative;
+    @include min-screen(768px) {
+      width: 15%;
+    }
+    @include max-screen(767px) {
+      width: 30%;
+    }
+    input {
+      float: left;
+      width: 100%;
+    }
+    label {
+      float: left;
+      clear: both;
+      width: 100%;
+      text-align: center;
+      line-height: 1.5;
+      height: 30px;
+      padding: 0;
+      color: #999;
+    }
   }
   .symbol {
     float: left;
     text-align: center;
-    width: 2.5%;
     color: #666;
     font-size: 1.25rem;
     font-weight: 400;
     height: 3.75rem;
-    line-height: 1.5;
+    line-height: 3.75rem;
+    @include min-screen(768px) {
+      width: 2.5%;
+    }
+    @include max-screen(767px) {
+      width: 5%;
+    }
   }
+}
+#form6 #title18 {
+  width: 100%;
+  padding: 1rem 0;
 }
 
 @media only screen and (max-width:721px) {

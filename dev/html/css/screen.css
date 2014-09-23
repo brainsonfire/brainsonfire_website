@@ -7870,39 +7870,62 @@ label {
   font-weight: 400;
   height: 3.75rem;
   line-height: 1.5;
-  font-size: 20px;
-  font-size: 1.25rem;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   /* line 111, ../sass/sections/_form.scss */
   label {
     width: 50%;
     padding: 1rem 0 1rem 1rem;
+    font-size: 20px;
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 111, ../sass/sections/_form.scss */
+  label {
+    width: 50%;
+    padding: 1rem 0 1rem 1rem;
+    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 @media screen and (max-width: 767px) {
   /* line 111, ../sass/sections/_form.scss */
   label {
     width: 100%;
-    padding: 1rem 1rem 1rem 0;
+    padding: 0.5rem 0;
+    height: 2rem;
+    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
-/* line 128, ../sass/sections/_form.scss */
-.form-contact select {
+/* line 134, ../sass/sections/_form.scss */
+select {
   display: inline-block;
   vertical-align: middle;
-  width: 50%;
+}
+@media screen and (min-width: 768px) {
+  /* line 134, ../sass/sections/_form.scss */
+  select {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 134, ../sass/sections/_form.scss */
+  select {
+    width: 100%;
+  }
 }
 
-/* line 133, ../sass/sections/_form.scss */
+/* line 144, ../sass/sections/_form.scss */
 .jcf-hidden {
   display: block !important;
   left: -9999px !important;
   position: absolute !important;
 }
 
-/* line 138, ../sass/sections/_form.scss */
+/* line 149, ../sass/sections/_form.scss */
 .select-area {
   background: #fff;
   border: 1px solid #cccccc;
@@ -7913,10 +7936,21 @@ label {
   overflow: hidden;
   position: relative;
   float: left;
-  width: 50% !important;
+}
+@media screen and (min-width: 768px) {
+  /* line 149, ../sass/sections/_form.scss */
+  .select-area {
+    width: 50% !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 149, ../sass/sections/_form.scss */
+  .select-area {
+    width: 100% !important;
+  }
 }
 
-/* line 150, ../sass/sections/_form.scss */
+/* line 166, ../sass/sections/_form.scss */
 .select-area .center {
   font-size: 1.25rem;
   font-weight: 400;
@@ -7927,7 +7961,7 @@ label {
   padding: 0.5rem 1.5rem;
 }
 
-/* line 159, ../sass/sections/_form.scss */
+/* line 175, ../sass/sections/_form.scss */
 .select-area .select-opener {
   float: right;
   height: 60px;
@@ -7935,7 +7969,7 @@ label {
   width: 60px;
 }
 
-/* line 165, ../sass/sections/_form.scss */
+/* line 181, ../sass/sections/_form.scss */
 .select-area .select-opener:before {
   background: url(../images/library/select_arrow.jpg) no-repeat 0 0;
   content: "";
@@ -7947,7 +7981,7 @@ label {
   width: 60px;
 }
 
-/* line 175, ../sass/sections/_form.scss */
+/* line 191, ../sass/sections/_form.scss */
 .select-options {
   background: #fff;
   overflow: hidden;
@@ -7955,32 +7989,32 @@ label {
   z-index: 2000;
 }
 
-/* line 181, ../sass/sections/_form.scss */
+/* line 197, ../sass/sections/_form.scss */
 .drop-list {
   height: auto !important;
 }
 
-/* line 184, ../sass/sections/_form.scss */
+/* line 200, ../sass/sections/_form.scss */
 .select-options .drop-holder {
   border: 1px solid #e8e8e8;
   height: 1%;
   overflow: hidden;
 }
 
-/* line 189, ../sass/sections/_form.scss */
+/* line 205, ../sass/sections/_form.scss */
 .select-options ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-/* line 194, ../sass/sections/_form.scss */
+/* line 210, ../sass/sections/_form.scss */
 .select-options ul li {
   float: left;
   width: 100%;
 }
 
-/* line 198, ../sass/sections/_form.scss */
+/* line 214, ../sass/sections/_form.scss */
 .select-options ul a {
   cursor: default;
   color: #000;
@@ -7990,72 +8024,72 @@ label {
   text-decoration: none;
 }
 
-/* line 206, ../sass/sections/_form.scss */
+/* line 222, ../sass/sections/_form.scss */
 .select-options .item-selected a {
   background: #007;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 211, ../sass/sections/_form.scss */
+/* line 227, ../sass/sections/_form.scss */
 .select-options .default {
   display: none;
 }
 
-/* line 214, ../sass/sections/_form.scss */
-.form-contact .select-area {
+/* line 230, ../sass/sections/_form.scss */
+.select-area {
   height: 60px;
   float: left;
 }
 
-/* line 218, ../sass/sections/_form.scss */
+/* line 234, ../sass/sections/_form.scss */
 .select-area .center {
   color: #999;
 }
 
-/* line 221, ../sass/sections/_form.scss */
-.form-contact .row {
+/* line 237, ../sass/sections/_form.scss */
+form .row {
   background-color: transparent;
   position: relative;
-  padding: 6px;
+  padding: 6px !important;
   -moz-transition: background-color 0.3s ease-out;
   -o-transition: background-color 0.3s ease-out;
   -webkit-transition: background-color 0.3s ease-out;
   transition: background-color 0.3s ease-out;
 }
-/* line 226, ../sass/sections/_form.scss */
-.form-contact .row:hover {
+/* line 242, ../sass/sections/_form.scss */
+form .row.focused {
   background-color: rgba(0, 170, 203, 0.2);
   -webkit-text-fill-color: #333;
 }
 
-/* line 231, ../sass/sections/_form.scss */
-.form-contact input:focus {
+/* line 247, ../sass/sections/_form.scss */
+input:focus {
   outline: -webkit-focus-ring-color none;
 }
 
-/* line 234, ../sass/sections/_form.scss */
-.form-contact textarea:focus {
+/* line 250, ../sass/sections/_form.scss */
+textarea:focus {
   outline: -webkit-focus-ring-color none;
 }
 
-/* line 237, ../sass/sections/_form.scss */
+/* line 253, ../sass/sections/_form.scss */
 form li {
   text-align: left;
 }
 
-/* line 240, ../sass/sections/_form.scss */
+/* line 256, ../sass/sections/_form.scss */
 form li.focused {
   background-color: rgba(0, 170, 203, 0.2);
 }
 
-/* line 243, ../sass/sections/_form.scss */
+/* line 259, ../sass/sections/_form.scss */
 .notranslate {
   padding: 19px;
   text-align: left;
 }
 
-/* line 247, ../sass/sections/_form.scss */
+/* line 263, ../sass/sections/_form.scss */
 .hide,
 .cloak div,
 .cloak span,
@@ -8064,91 +8098,182 @@ form li.focused {
   display: none !important;
 }
 
-/* line 255, ../sass/sections/_form.scss */
+/* line 271, ../sass/sections/_form.scss */
 .leftLabel .desc,
 .rightLabel .desc {
   width: 50%;
 }
 
-/* line 259, ../sass/sections/_form.scss */
+/* line 275, ../sass/sections/_form.scss */
 .select-options .item-selected a {
   background: #d9531e;
   color: #fff;
   text-decoration: none;
 }
 
-/* line 264, ../sass/sections/_form.scss */
+/* line 280, ../sass/sections/_form.scss */
 .select-area .select-opener {
   height: 60px;
 }
 
-/* line 267, ../sass/sections/_form.scss */
+/* line 283, ../sass/sections/_form.scss */
 .elaborate {
   width: 97%;
 }
 
-/* line 270, ../sass/sections/_form.scss */
-.dash {
-  margin: 13px 4px 0 1px;
-}
-
-/* line 273, ../sass/sections/_form.scss */
+/* line 286, ../sass/sections/_form.scss */
 .rightLabel .desc {
   display: inline-block;
   flex: 1;
 }
 
-/* line 278, ../sass/sections/_form.scss */
-#Field7 {
-  width: 24%;
-  margin: 0 1% 0 0;
+@media screen and (min-width: 768px) {
+  /* line 290, ../sass/sections/_form.scss */
+  .form-contact #Field7 {
+    width: 24%;
+    margin: 0 1% 0 0;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* line 290, ../sass/sections/_form.scss */
+  .form-contact #Field7 {
+    width: 48%;
+    margin: 0 2% 0 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 290, ../sass/sections/_form.scss */
+  .form-contact #Field7 {
+    width: 100%;
+    margin: 0 0 12px;
+  }
 }
 
-/* line 282, ../sass/sections/_form.scss */
-#Field8 {
-  width: 24%;
-  margin: 0 0 0 1%;
+@media screen and (min-width: 768px) {
+  /* line 304, ../sass/sections/_form.scss */
+  .form-contact #Field8 {
+    width: 24%;
+    margin: 0 0 0 1%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+  /* line 304, ../sass/sections/_form.scss */
+  .form-contact #Field8 {
+    width: 48%;
+    margin: 0 0 0 2%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 304, ../sass/sections/_form.scss */
+  .form-contact #Field8 {
+    width: 100%;
+  }
 }
 
-/* line 287, ../sass/sections/_form.scss */
-.phone input {
-  width: 15%;
+@media screen and (min-width: 768px) {
+  /* line 318, ../sass/sections/_form.scss */
+  .form-contact .phone input {
+    width: 15%;
+  }
 }
-/* line 290, ../sass/sections/_form.scss */
-.phone .dash {
+@media screen and (max-width: 767px) {
+  /* line 318, ../sass/sections/_form.scss */
+  .form-contact .phone input {
+    width: 30%;
+  }
+}
+/* line 326, ../sass/sections/_form.scss */
+.form-contact .phone .dash {
   float: left;
   text-align: center;
-  width: 1.8%;
   color: #666;
   font-size: 1.25rem;
   font-weight: 400;
   height: 3.75rem;
-  line-height: 1.5;
+  line-height: 3.75rem;
+}
+@media screen and (min-width: 768px) {
+  /* line 326, ../sass/sections/_form.scss */
+  .form-contact .phone .dash {
+    width: 2.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 326, ../sass/sections/_form.scss */
+  .form-contact .phone .dash {
+    width: 5%;
+  }
 }
 
-/* line 302, ../sass/sections/_form.scss */
-.date input {
-  width: 15%;
+/* line 343, ../sass/sections/_form.scss */
+#form6 .date .input-two,
+#form6 .date .input-three {
+  float: left;
+  position: relative;
 }
-/* line 305, ../sass/sections/_form.scss */
-.date .input-two label,
-.date .input-three label {
-  position: absolute;
+@media screen and (min-width: 768px) {
+  /* line 343, ../sass/sections/_form.scss */
+  #form6 .date .input-two,
+  #form6 .date .input-three {
+    width: 15%;
+  }
 }
-/* line 309, ../sass/sections/_form.scss */
-.date .symbol {
+@media screen and (max-width: 767px) {
+  /* line 343, ../sass/sections/_form.scss */
+  #form6 .date .input-two,
+  #form6 .date .input-three {
+    width: 30%;
+  }
+}
+/* line 353, ../sass/sections/_form.scss */
+#form6 .date .input-two input,
+#form6 .date .input-three input {
+  float: left;
+  width: 100%;
+}
+/* line 357, ../sass/sections/_form.scss */
+#form6 .date .input-two label,
+#form6 .date .input-three label {
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  line-height: 1.5;
+  height: 30px;
+  padding: 0;
+  color: #999;
+}
+/* line 368, ../sass/sections/_form.scss */
+#form6 .date .symbol {
   float: left;
   text-align: center;
-  width: 2.5%;
   color: #666;
   font-size: 1.25rem;
   font-weight: 400;
   height: 3.75rem;
-  line-height: 1.5;
+  line-height: 3.75rem;
+}
+@media screen and (min-width: 768px) {
+  /* line 368, ../sass/sections/_form.scss */
+  #form6 .date .symbol {
+    width: 2.5%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 368, ../sass/sections/_form.scss */
+  #form6 .date .symbol {
+    width: 5%;
+  }
+}
+
+/* line 384, ../sass/sections/_form.scss */
+#form6 #title18 {
+  width: 100%;
+  padding: 1rem 0;
 }
 
 @media only screen and (max-width: 721px) {
-  /* line 322, ../sass/sections/_form.scss */
+  /* line 390, ../sass/sections/_form.scss */
   .leftLabel .desc,
   .rightLabel .desc {
     width: 100%;

@@ -99,7 +99,7 @@
 							<li id="foli15" class="notranslate row">
 								<label class="desc" id="title15" for="Field15">Attach a file?</label>
 								<div>
-									<input id="Field15" name="Field15" type="file" class="field file" size="12" tabindex="8" />
+									<input id="Field15" name="Field15" type="file" class="field file" tabindex="8" />
 								</div>
 								<!-- <p class="instruct" id="instruct15"><small>10 MB maximum</small></p> -->
 							</li>
@@ -126,7 +126,7 @@
 				</section>
 				<div id="map">
 					<div class="videoHolder">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3274.3711655790253!2d-82.403671!3d34.8469!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885831ccbedbc3a9%3A0xbb889464f3d40c27!2sBrains+On+Fire!5e0!3m2!1sen!2srs!4v1411376010894" width="2000" height="306" frameborder="0" style="border:0"></iframe>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3274.3711655790253!2d-82.403671!3d34.8469!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x885831ccbedbc3a9%3A0xbb889464f3d40c27!2sBrains+On+Fire!5e0!3m2!1sen!2srs!4v1411376010894" style="border:0"></iframe>
 					</div>
 				</div>
 				</main>

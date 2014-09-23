@@ -64,7 +64,7 @@
 							</ul>
 						</div>
 						<div class="btn-holder">
-							<a href="#dummy" class="button btn-green">book us now</a>
+							<a href="#form" class="button btn-green btn-scroll">book us now</a>
 						</div>
 					</div>
 				</section>
@@ -188,37 +188,36 @@
 						<h1>Book us</h1>
 						<p>By typing away in the form below.</p>
 						<form id="form6" name="form6" class="wufoo rightLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://firesession.wufoo.com/forms/w1vlikfx0shln0y/#public">
-							
 							<ul>
 								<li id="foli9" class="notranslate form-field row">
-									<label class="desc" id="title9" for="Field9">Name (required)</label>
 									<span>
 										<input id="Field9" name="Field9" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
 									</span>
+									<label class="desc" id="title9" for="Field9">Name (required)</label>
 								</li>
 								<li id="foli10" class="notranslate form-field row">
-									<label class="desc" id="title10" for="Field10">Email (required) - we'll keep this private</label>
 									<span>
 										<input id="Field10" name="Field10" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required />
 									</span>
+									<label class="desc" id="title10" for="Field10">Email (required) - we'll keep this private</label>
 								</li>
 								<li id="foli12" class="notranslate form-field row">
-									<label class="desc" id="title12" for="Field12">Phone Number</label>
 									<span>
 										<input id="Field12" name="Field12" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="" />
 									</span>
+									<label class="desc" id="title12" for="Field12">Phone Number</label>
 								</li>
 								<li id="foli13" class="notranslate form-field row">
-									<label class="desc" id="title13" for="Field13">Name of Event</label>
 									<span>
 										<input id="Field13" name="Field13" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" />
 									</span>
+									<label class="desc" id="title13" for="Field13">Name of Event</label>
 								</li>
 								<li id="foli14" class="notranslate form-field row">
-									<label class="desc" id="title14" for="Field14">Location</label>
 									<span>
 										<input id="Field14" name="Field14" type="text" class="field text medium" value="" maxlength="255" tabindex="5" onkeyup="" />
 									</span>
+									<label class="desc" id="title14" for="Field14">Location</label>
 								</li>
 								<li id="foli15" class="date notranslate form-field row">
 									<span class="input-two">
@@ -271,10 +270,10 @@
 									<label class="desc" id="title20" for="Field20">Speaking Package</label>
 								</li>
 								<li id="foli22" class="notranslate form-field row">
-									<label class="desc" id="title22" for="Field22">Event Website (URL)</label>
 									<span>
 										<input id="Field22" name="Field22" type="url" class="field text large" value="" maxlength="255" tabindex="12" />
 									</span>
+									<label class="desc" id="title22" for="Field22">Event Website (URL)</label>
 								</li>
 								<li id="foli18" class="notranslate form-field textarea row">
 									<label class="desc" id="title18" for="Field18"> Brief description of the event & link for registration (required)</label>
