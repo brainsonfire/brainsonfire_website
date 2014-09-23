@@ -23,16 +23,12 @@
 				</div>
 				
 				<!-- da se proveri za ovu sekciju da li ide slider ili ne -->
-				<section id="home-gallery" class="cycle-gallery WindowHeight">
-					<div class="mask">
-						<div class="slideset">
-							<div class="slide bighome">
-								<div class="txt row">
-									<h1 class="title">We can help your organizations<br> ignite a powerful, sustainable<br> word of mouth movements.</h1>
-									<a href="#dummy" class="button btn-blue left">we’ll teach you how</a>
-									<a href="#dummy" class="button btn-green left">or build it with you</a>
-								</div>
-							</div>
+				<section id="home" class="WindowHeight">
+					<div class="row">
+						<div class="txt">
+							<h1 class="title">We can help your organizations<br> ignite a powerful, sustainable<br> word of mouth movements.</h1>
+							<a href="#dummy" class="button btn-blue left">we’ll teach you how</a>
+							<a href="#dummy" class="button btn-green left">or build it with you</a>
 						</div>
 					</div>
 					<a href="#checkpoint1" class="btn-down btn-scroll">Scroll down</a>

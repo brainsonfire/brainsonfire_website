@@ -33,7 +33,7 @@
 							<div class="large-3 medium-3 small-12 columns right-sidebar">
 								<p class="big">$99.00</p>
 								<a href="#dummy" class="button btn-orange">Buy Now</a>
-								<a href="#dummy">Click here for a sneak peek!</a>
+								<!-- <a href="#dummy">Click here for a sneak peek!</a> -->
 							</div>
 						</div>
 					</div>

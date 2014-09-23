@@ -90,12 +90,17 @@
     min-height: 100%;
   }
 }
-#home-gallery {
+#home {
   padding: 0;
   margin: -83px 0 0;
   background: rgba(#000, 0.5);
+  .row {
+    display: block;
+    position: relative;
+    height: 100%;
+  }
 }
-.cycle-gallery .txt {
+#home .txt {
   position: absolute;
   margin: auto;
   top: 0;
@@ -103,6 +108,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
+  padding: 0 0.9375rem;
   @include min-screen(480px) {
     height: 40%;  
   }
