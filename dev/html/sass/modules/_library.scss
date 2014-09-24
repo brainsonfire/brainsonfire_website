@@ -394,18 +394,18 @@ p.intro {
   .button {
     max-width: 450px;
   }
-  .submit-application {
-    background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
-    @include background-size(cover);
-    @include min-screen(1024px) {
-      padding: 111px 0.9375rem 119px;
-    }
-    @include screen(768px,1023px) {
-      padding: 60px 0.9375rem;
-    }
-    @include max-screen(767px) {
-     padding: 44px 0.9375rem;
-    }
+}
+.submit-application {
+  background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
+  @include background-size(cover);
+  @include min-screen(1024px) {
+    padding: 111px 0.9375rem 119px;
+  }
+  @include screen(768px,1023px) {
+    padding: 60px 0.9375rem;
+  }
+  @include max-screen(767px) {
+   padding: 44px 0.9375rem;
   }
 }
 #application-banner,
@@ -535,6 +535,54 @@ p.intro {
     @include max-screen(767px) {
       @include font-size(22);
       @include line-height(44);
+    }
+  }
+}
+#workshop .banner {
+  background: #00a9ca url(../images/movement/header-2x2-workshop.jpg) no-repeat 50% 100%;
+  @include background-size(auto);
+}
+#gut-check .banner {
+  background: #00a9ca url(../images/movement/header-gut-check.jpg) no-repeat 100% 100%;
+  @include background-size(auto);
+}
+.service-pages {
+  padding: 80px 0 0;
+  h1 {
+    display: table;
+    width: 100%;
+    padding: 90px 0;
+  }
+  #blockquote {
+    background: rgba(#FFF,0);
+    padding: 80px 0;
+    .row {
+      max-width: 890px;
+    }
+    blockquote,
+    cite {
+      color: #929F57;
+    }
+    cite {
+      float: right;
+    }
+  }
+  .content {
+    background: #FFF;
+    padding: 60px 0;
+    p a {
+      color: #EB7E1F;
+      &:hover {
+        color: darken(#EB7E1F, 5%);
+      }
+    }
+    p.hint {
+      display: block;
+      font-family: Georgia,serif;
+      font-size: 0.85em;
+      font-style: italic;
+      line-height: 1.7;
+      text-align: center;
     }
   }
 }

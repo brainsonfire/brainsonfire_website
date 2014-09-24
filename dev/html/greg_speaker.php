@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Greg Cordell' ?>
+<?php $title = 'Brains on Fire | Speaking | Greg Cordell' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>

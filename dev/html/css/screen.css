@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   text-transform: uppercase;
   text-align: center;
-  margin: 0 0 5px;
+  margin: 0 auto 5px;
   font-weight: 500;
 }
 @media screen and (min-width: 1024px) {
@@ -1692,8 +1692,9 @@ p.intro {
 #blockquote .button {
   max-width: 450px;
 }
-/* line 397, ../sass/modules/_library.scss */
-#blockquote .submit-application {
+
+/* line 398, ../sass/modules/_library.scss */
+.submit-application {
   background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1701,20 +1702,20 @@ p.intro {
   background-size: cover;
 }
 @media screen and (min-width: 1024px) {
-  /* line 397, ../sass/modules/_library.scss */
-  #blockquote .submit-application {
+  /* line 398, ../sass/modules/_library.scss */
+  .submit-application {
     padding: 111px 0.9375rem 119px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 397, ../sass/modules/_library.scss */
-  #blockquote .submit-application {
+  /* line 398, ../sass/modules/_library.scss */
+  .submit-application {
     padding: 60px 0.9375rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 397, ../sass/modules/_library.scss */
-  #blockquote .submit-application {
+  /* line 398, ../sass/modules/_library.scss */
+  .submit-application {
     padding: 44px 0.9375rem;
   }
 }
@@ -1944,6 +1945,75 @@ p.intro {
     line-height: 44px;
     line-height: 2.75rem;
   }
+}
+
+/* line 541, ../sass/modules/_library.scss */
+#workshop .banner {
+  background: #00a9ca url(../images/movement/header-2x2-workshop.jpg) no-repeat 50% 100%;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  -webkit-background-size: auto;
+  background-size: auto;
+}
+
+/* line 545, ../sass/modules/_library.scss */
+#gut-check .banner {
+  background: #00a9ca url(../images/movement/header-gut-check.jpg) no-repeat 100% 100%;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  -webkit-background-size: auto;
+  background-size: auto;
+}
+
+/* line 549, ../sass/modules/_library.scss */
+.service-pages {
+  padding: 80px 0 0;
+}
+/* line 551, ../sass/modules/_library.scss */
+.service-pages h1 {
+  display: table;
+  width: 100%;
+  padding: 90px 0;
+}
+/* line 556, ../sass/modules/_library.scss */
+.service-pages #blockquote {
+  background: rgba(255, 255, 255, 0);
+  padding: 80px 0;
+}
+/* line 559, ../sass/modules/_library.scss */
+.service-pages #blockquote .row {
+  max-width: 890px;
+}
+/* line 562, ../sass/modules/_library.scss */
+.service-pages #blockquote blockquote,
+.service-pages #blockquote cite {
+  color: #929F57;
+}
+/* line 566, ../sass/modules/_library.scss */
+.service-pages #blockquote cite {
+  float: right;
+}
+/* line 570, ../sass/modules/_library.scss */
+.service-pages .content {
+  background: #FFF;
+  padding: 60px 0;
+}
+/* line 573, ../sass/modules/_library.scss */
+.service-pages .content p a {
+  color: #EB7E1F;
+}
+/* line 575, ../sass/modules/_library.scss */
+.service-pages .content p a:hover {
+  color: #dd7114;
+}
+/* line 579, ../sass/modules/_library.scss */
+.service-pages .content p.hint {
+  display: block;
+  font-family: Georgia,serif;
+  font-size: 0.85em;
+  font-style: italic;
+  line-height: 1.7;
+  text-align: center;
 }
 
 /* line 1, ../sass/modules/_orbit.scss */

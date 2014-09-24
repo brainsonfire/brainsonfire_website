@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | John Moore' ?>
+<?php $title = 'Brains on Fire | Speaking | John Moore' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>

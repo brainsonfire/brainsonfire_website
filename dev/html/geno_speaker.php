@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Geno Church' ?>
+<?php $title = 'Brains on Fire | Speaking | Geno Church' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
