@@ -14,8 +14,9 @@
     @include background-size(cover);
   }
 }
-// .touch #home-video,
-// .lt-ie10 #home-video {
+.no-touch.lt-ie10 #home-video {
+  position: absolute;
+}
 .touch #home-video {
   display: none;
 }
