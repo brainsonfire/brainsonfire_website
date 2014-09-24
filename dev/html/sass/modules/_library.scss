@@ -36,6 +36,7 @@ ul.row {
   text-align: center;
   text-transform: lowercase;
   border: 0;
+  @include transition(background-color, ease-in-out, 0.2s, 0s);
   @include min-screen(1200px) {
     padding: 1.4rem 0;
     max-width: 360px;

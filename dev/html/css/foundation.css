@@ -2123,12 +2123,9 @@ button, .button {
   cursor: pointer;
   font-family: Georgia, serif;
   font-weight: normal;
-  margin: 0;
   position: relative;
   text-decoration: none;
-  text-align: center;
   -webkit-appearance: none;
-  display: inline-block;
   padding-top: 1rem;
   padding-right: 2rem;
   padding-bottom: 1.0625rem;
@@ -2374,12 +2371,6 @@ button::-moz-focus-inner {
   padding: 0;
 }
 
-@media only screen and (min-width: 40.063em) {
-  /* line 253, ../sass/foundation/components/_buttons.scss */
-  button, .button {
-    display: inline-block;
-  }
-}
 /* Standard Forms */
 /* line 366, ../sass/foundation/components/_forms.scss */
 form {
