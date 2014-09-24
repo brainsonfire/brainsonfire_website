@@ -14,7 +14,7 @@
 			
 				<div id="home-video" class="WindowHeight" style="opacity: 0;">
 					<div class="videoHolder">
-						<video id="homepagevid" poster="images/home/ram_at_his_desk.jpg" controls preload autoplay loop>
+						<video id="homepagevid" poster="images/home/ram_at_his_desk.jpg" preload autoplay loop>
 							<source type="video/mp4" src="videos/ram.mp4" />
 							<source type="video/webm" src="videos/ram.webm" />
 							<source type="video/ogg" src="videos/ram.ogv" />
