@@ -249,7 +249,7 @@
     .button {
       @include min-screen(768px) {
         float: left;
-        max-width: 270px;
+        max-width: 300px;
       }
       @include max-screen(767px) {
         width: 100%;

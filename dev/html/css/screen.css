@@ -3168,7 +3168,7 @@ p.intro {
   /* line 249, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn .button {
     float: left;
-    max-width: 270px;
+    max-width: 300px;
   }
 }
 @media screen and (max-width: 767px) {

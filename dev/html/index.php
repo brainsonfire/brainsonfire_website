@@ -6,7 +6,7 @@
         #logo { display: table; float: none; margin: 0 auto; position: relative; }
         .right-off-canvas-menu { display: none;}
         ul { list-style: none; display: table; width: 100%; padding: 0; margin: 0 auto; }
-        li { float: left; width: 100%; max-width: 240px; padding: 8px 15px; text-align: center; }
+        li { float: left; width: 100%; max-width: 240px; padding: 8px 12px; text-align: center; }
         a { font: 18px/24px "infotextsemibold", Arial, Helvetica, sans-serif; color: #333; }
         .tab-bar { display: none; }
     </style>
