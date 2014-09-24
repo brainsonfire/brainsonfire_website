@@ -14,10 +14,10 @@
 			
 				<div id="home-video" class="WindowHeight" style="opacity: 0;">
 					<div class="videoHolder">
-						<video id="homepagevid" preload autoplay loop>
-							<source type="video/mp4" src="videos/ram.mp4">
-							<source type="video/webm" src="videos/ram.webm">
-							<source type="video/ogg" src="videos/ram.ogv">
+						<video id="homepagevid" poster="images/home/ram_at_his_desk.jpg" preload autoplay loop>
+							<source type="video/mp4" src="videos/ram.mp4" />
+							<source type="video/webm" src="videos/ram.webm" />
+							<source type="video/ogg" src="videos/ram.ogv" />
 						</video>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 									<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn-green">
 								</div>
 							</form>
-							
+
 						</div>
 						<!--End mc_embed_signup-->
 					</div>					
