@@ -20,24 +20,24 @@
 				<div id="speakers">
 					<div class="row">
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="robbin_phillips.php"><img src="images/speaking/robbin.jpg" alt="Robbin Phillips"></a>
-							<h3><a href="robbin_phillips.php">Robbin Phillips</a></h3>
-							<a href="robbin_phillips.php" class="button btn-orange">learn more</a>
+							<a href="robbin_speaker.php"><img src="images/speaking/robbin.jpg" alt="Robbin Phillips"></a>
+							<h3><a href="robbin_speaker.php">Robbin Phillips</a></h3>
+							<a href="robbin_speaker.php" class="button btn-orange">learn more</a>
 						</div>
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="geno_church.php"><img src="images/speaking/geno.jpg" alt="Geno Church"></a>
-							<h3><a href="geno_church.php">Geno Church</a></h3>
-							<a href="geno_church.php" class="button btn-orange">learn more</a>
+							<a href="geno_speaker.php"><img src="images/speaking/geno.jpg" alt="Geno Church"></a>
+							<h3><a href="geno_speaker.php">Geno Church</a></h3>
+							<a href="geno_speaker.php" class="button btn-orange">learn more</a>
 						</div>
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="john_moore.php"><img src="images/speaking/john.jpg" alt="John Moore"></a>
-							<h3><a href="john_moore.php">John Moore</a></h3>
-							<a href="john_moore.php" class="button btn-orange">learn more</a>
+							<a href="john_speaker.php"><img src="images/speaking/john.jpg" alt="John Moore"></a>
+							<h3><a href="john_speaker.php">John Moore</a></h3>
+							<a href="john_speaker.php" class="button btn-orange">learn more</a>
 						</div>
 						<div class="large-3 medium-6 small-12 columns">
-							<a href="greg_cordell.php"><img src="images/speaking/greg.jpg" alt="Greg Cordell"></a>
-							<h3><a href="greg_cordell.php">Greg Cordell</a></h3>
-							<a href="greg_cordell.php" class="button btn-orange">learn more</a>
+							<a href="greg_speaker.php"><img src="images/speaking/greg.jpg" alt="Greg Cordell"></a>
+							<h3><a href="greg_speaker.php">Greg Cordell</a></h3>
+							<a href="greg_speaker.php" class="button btn-orange">learn more</a>
 						</div>
 					</div>
 				</div>

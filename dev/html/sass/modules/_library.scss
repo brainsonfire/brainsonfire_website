@@ -409,7 +409,8 @@ p.intro {
   }
 }
 #application-banner,
-#book-banner {
+#book-banner,
+#speaker-banner {
   padding: 0;
   > img {
     display: block;
@@ -511,4 +512,29 @@ p.intro {
   h1 + p {
     text-transform: none;
   } 
+}
+#speaker-banner {
+  p {
+    text-transform: lowercase;
+    font-style: italic;
+    font-family: Georgia,"Times New Roman",Times,serif;
+
+    @include min-screen(1200px) {
+      width: 80%;
+      @include font-size(34);
+      @include line-height(57);
+    }
+    @include screen(1024px,1199px) {
+      @include font-size(30);
+      @include line-height(53);
+    }
+    @include screen(768px,1023px) {
+      @include font-size(26);
+      @include line-height(48);
+    }
+    @include max-screen(767px) {
+      @include font-size(22);
+      @include line-height(44);
+    }
+  }
 }

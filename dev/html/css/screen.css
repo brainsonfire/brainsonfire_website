@@ -1721,65 +1721,74 @@ p.intro {
 
 /* line 411, ../sass/modules/_library.scss */
 #application-banner,
-#book-banner {
+#book-banner,
+#speaker-banner {
   padding: 0;
 }
-/* line 414, ../sass/modules/_library.scss */
+/* line 415, ../sass/modules/_library.scss */
 #application-banner > img,
-#book-banner > img {
+#book-banner > img,
+#speaker-banner > img {
   display: block;
   max-width: none;
   height: auto;
 }
 @media screen and (min-width: 1200px) {
-  /* line 414, ../sass/modules/_library.scss */
+  /* line 415, ../sass/modules/_library.scss */
   #application-banner > img,
-  #book-banner > img {
+  #book-banner > img,
+  #speaker-banner > img {
     width: auto;
     min-width: 100%;
     min-height: 100%;
   }
 }
 @media screen and (max-width: 1199px) {
-  /* line 414, ../sass/modules/_library.scss */
+  /* line 415, ../sass/modules/_library.scss */
   #application-banner > img,
-  #book-banner > img {
+  #book-banner > img,
+  #speaker-banner > img {
     width: 100%;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 427, ../sass/modules/_library.scss */
+  /* line 428, ../sass/modules/_library.scss */
   #application-banner .row,
-  #book-banner .row {
+  #book-banner .row,
+  #speaker-banner .row {
     padding: 0;
   }
 }
-/* line 432, ../sass/modules/_library.scss */
+/* line 433, ../sass/modules/_library.scss */
 #application-banner .half-block,
-#book-banner .half-block {
+#book-banner .half-block,
+#speaker-banner .half-block {
   padding: 15px;
   z-index: 30;
 }
 @media screen and (min-width: 1200px) {
-  /* line 432, ../sass/modules/_library.scss */
+  /* line 433, ../sass/modules/_library.scss */
   #application-banner .half-block,
-  #book-banner .half-block {
+  #book-banner .half-block,
+  #speaker-banner .half-block {
     height: 10%;
     width: 44%;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 432, ../sass/modules/_library.scss */
+  /* line 433, ../sass/modules/_library.scss */
   #application-banner .half-block,
-  #book-banner .half-block {
+  #book-banner .half-block,
+  #speaker-banner .half-block {
     height: 10%;
     width: 54%;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 432, ../sass/modules/_library.scss */
+  /* line 433, ../sass/modules/_library.scss */
   #application-banner .half-block,
-  #book-banner .half-block {
+  #book-banner .half-block,
+  #speaker-banner .half-block {
     bottom: 0;
     float: none;
     margin: auto;
@@ -1789,9 +1798,10 @@ p.intro {
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 432, ../sass/modules/_library.scss */
+  /* line 433, ../sass/modules/_library.scss */
   #application-banner .half-block,
-  #book-banner .half-block {
+  #book-banner .half-block,
+  #speaker-banner .half-block {
     background: #00aacb;
     width: 100%;
     left: 0;
@@ -1799,48 +1809,55 @@ p.intro {
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 432, ../sass/modules/_library.scss */
+  /* line 433, ../sass/modules/_library.scss */
   #application-banner .half-block,
-  #book-banner .half-block {
+  #book-banner .half-block,
+  #speaker-banner .half-block {
     margin: 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 460, ../sass/modules/_library.scss */
+  /* line 461, ../sass/modules/_library.scss */
   #application-banner .half-block h1,
   #application-banner .half-block p,
   #book-banner .half-block h1,
-  #book-banner .half-block p {
+  #book-banner .half-block p,
+  #speaker-banner .half-block h1,
+  #speaker-banner .half-block p {
     text-align: left;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 460, ../sass/modules/_library.scss */
+  /* line 461, ../sass/modules/_library.scss */
   #application-banner .half-block h1,
   #application-banner .half-block p,
   #book-banner .half-block h1,
-  #book-banner .half-block p {
+  #book-banner .half-block p,
+  #speaker-banner .half-block h1,
+  #speaker-banner .half-block p {
     text-align: center;
   }
 }
-/* line 469, ../sass/modules/_library.scss */
+/* line 470, ../sass/modules/_library.scss */
 #application-banner .half-block p,
-#book-banner .half-block p {
+#book-banner .half-block p,
+#speaker-banner .half-block p {
   margin: 0 0 22px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 472, ../sass/modules/_library.scss */
+  /* line 473, ../sass/modules/_library.scss */
   #application-banner .half-block .button,
-  #book-banner .half-block .button {
+  #book-banner .half-block .button,
+  #speaker-banner .half-block .button {
     float: left;
   }
 }
 
-/* line 480, ../sass/modules/_library.scss */
+/* line 481, ../sass/modules/_library.scss */
 .application #form {
   background: #FFF;
 }
-/* line 482, ../sass/modules/_library.scss */
+/* line 483, ../sass/modules/_library.scss */
 .application #form h1 + p {
   text-align: left;
   text-transform: none;
@@ -1849,40 +1866,84 @@ p.intro {
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 490, ../sass/modules/_library.scss */
+  /* line 491, ../sass/modules/_library.scss */
   #application-banner {
     height: 75vh;
   }
 }
-/* line 494, ../sass/modules/_library.scss */
+/* line 495, ../sass/modules/_library.scss */
 #application-banner .half-block {
   right: auto;
   left: 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 494, ../sass/modules/_library.scss */
+  /* line 495, ../sass/modules/_library.scss */
   #application-banner .half-block {
     height: 40%;
     width: 830px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 494, ../sass/modules/_library.scss */
+  /* line 495, ../sass/modules/_library.scss */
   #application-banner .half-block {
     height: 40%;
     width: 90%;
   }
 }
 @media screen and (min-width: 900px) {
-  /* line 506, ../sass/modules/_library.scss */
+  /* line 507, ../sass/modules/_library.scss */
   #application-banner h1 {
     font-size: 40px;
     font-size: 2.5rem;
   }
 }
-/* line 511, ../sass/modules/_library.scss */
+/* line 512, ../sass/modules/_library.scss */
 #application-banner h1 + p {
   text-transform: none;
+}
+
+/* line 517, ../sass/modules/_library.scss */
+#speaker-banner p {
+  text-transform: lowercase;
+  font-style: italic;
+  font-family: Georgia,"Times New Roman",Times,serif;
+}
+@media screen and (min-width: 1200px) {
+  /* line 517, ../sass/modules/_library.scss */
+  #speaker-banner p {
+    width: 80%;
+    font-size: 34px;
+    font-size: 2.125rem;
+    line-height: 57px;
+    line-height: 3.5625rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* line 517, ../sass/modules/_library.scss */
+  #speaker-banner p {
+    font-size: 30px;
+    font-size: 1.875rem;
+    line-height: 53px;
+    line-height: 3.3125rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 517, ../sass/modules/_library.scss */
+  #speaker-banner p {
+    font-size: 26px;
+    font-size: 1.625rem;
+    line-height: 48px;
+    line-height: 3rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 517, ../sass/modules/_library.scss */
+  #speaker-banner p {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 44px;
+    line-height: 2.75rem;
+  }
 }
 
 /* line 1, ../sass/modules/_orbit.scss */
@@ -7521,92 +7582,97 @@ END FLOATING PEOPLE
   line-height: 35px;
   line-height: 2.1875rem;
 }
+/* line 88, ../sass/sections/_speaking.scss */
+#speaking-info .audience li {
+  padding: 0 0 10px;
+}
 
-/* line 90, ../sass/sections/_speaking.scss */
+/* line 93, ../sass/sections/_speaking.scss */
 #favorite {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 90, ../sass/sections/_speaking.scss */
+  /* line 93, ../sass/sections/_speaking.scss */
   #favorite {
     padding: 91px 0 93px;
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 95, ../sass/sections/_speaking.scss */
+  /* line 98, ../sass/sections/_speaking.scss */
   #favorite h1 + p {
     margin: 0 0 56px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 95, ../sass/sections/_speaking.scss */
+  /* line 98, ../sass/sections/_speaking.scss */
   #favorite h1 + p {
     margin: 0 0 36px;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 95, ../sass/sections/_speaking.scss */
+  /* line 98, ../sass/sections/_speaking.scss */
   #favorite h1 + p {
     margin: 0 0 22px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 106, ../sass/sections/_speaking.scss */
+  /* line 109, ../sass/sections/_speaking.scss */
   #favorite .half-wrap {
     width: 50%;
     float: left;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 106, ../sass/sections/_speaking.scss */
+  /* line 109, ../sass/sections/_speaking.scss */
   #favorite .half-wrap {
     width: 100%;
     margin: 0 0 22px;
   }
 }
-/* line 116, ../sass/sections/_speaking.scss */
+/* line 119, ../sass/sections/_speaking.scss */
 #favorite ul {
   float: right;
   margin: 0;
   padding: 0 0 0 8%;
 }
 @media screen and (min-width: 1024px) {
-  /* line 116, ../sass/sections/_speaking.scss */
+  /* line 119, ../sass/sections/_speaking.scss */
   #favorite ul {
     width: 50%;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 116, ../sass/sections/_speaking.scss */
+  /* line 119, ../sass/sections/_speaking.scss */
   #favorite ul {
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 116, ../sass/sections/_speaking.scss */
+  /* line 119, ../sass/sections/_speaking.scss */
   #favorite ul {
     padding: 0 0 0 20px;
   }
 }
-/* line 129, ../sass/sections/_speaking.scss */
+/* line 132, ../sass/sections/_speaking.scss */
 #favorite ul li {
   float: left;
 }
 @media screen and (min-width: 1024px) {
-  /* line 129, ../sass/sections/_speaking.scss */
+  /* line 132, ../sass/sections/_speaking.scss */
   #favorite ul li {
     width: 50%;
-    padding: 0 15px 0 0;
+    padding: 0 15px 10px 0;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 129, ../sass/sections/_speaking.scss */
+  /* line 132, ../sass/sections/_speaking.scss */
   #favorite ul li {
     width: 100%;
+    padding: 0 0 10px;
   }
 }
 
-/* line 141, ../sass/sections/_speaking.scss */
+/* line 145, ../sass/sections/_speaking.scss */
 #upcoming {
   background: url("../images/speaking/bg_events.jpg") no-repeat 0 0;
   -moz-background-size: cover;
@@ -7615,23 +7681,23 @@ END FLOATING PEOPLE
   background-size: cover;
 }
 @media screen and (min-width: 1200px) {
-  /* line 141, ../sass/sections/_speaking.scss */
+  /* line 145, ../sass/sections/_speaking.scss */
   #upcoming {
     padding: 91px 0 93px;
   }
 }
-/* line 147, ../sass/sections/_speaking.scss */
+/* line 151, ../sass/sections/_speaking.scss */
 #upcoming h1 + p:first-of-type,
 #upcoming h2 + p:first-of-type {
   margin: 0 0 30px;
 }
-/* line 151, ../sass/sections/_speaking.scss */
+/* line 155, ../sass/sections/_speaking.scss */
 #upcoming h2 {
   margin: 0 0 5px;
   font-weight: 500;
 }
 @media screen and (min-width: 1024px) {
-  /* line 151, ../sass/sections/_speaking.scss */
+  /* line 155, ../sass/sections/_speaking.scss */
   #upcoming h2 {
     font-size: 42px;
     font-size: 2.625rem;
@@ -7640,7 +7706,7 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 151, ../sass/sections/_speaking.scss */
+  /* line 155, ../sass/sections/_speaking.scss */
   #upcoming h2 {
     font-size: 32px;
     font-size: 2rem;
@@ -7649,7 +7715,7 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 151, ../sass/sections/_speaking.scss */
+  /* line 155, ../sass/sections/_speaking.scss */
   #upcoming h2 {
     font-size: 28px;
     font-size: 1.75rem;
@@ -7657,11 +7723,11 @@ END FLOATING PEOPLE
     line-height: 2rem;
   }
 }
-/* line 167, ../sass/sections/_speaking.scss */
+/* line 171, ../sass/sections/_speaking.scss */
 #upcoming .columns {
   margin-bottom: 13px;
 }
-/* line 170, ../sass/sections/_speaking.scss */
+/* line 174, ../sass/sections/_speaking.scss */
 #upcoming .columns p {
   margin-bottom: 1rem;
   font-size: 16px;
@@ -7669,40 +7735,40 @@ END FLOATING PEOPLE
   line-height: 24px;
   line-height: 1.5rem;
 }
-/* line 175, ../sass/sections/_speaking.scss */
+/* line 179, ../sass/sections/_speaking.scss */
 #upcoming .large-4.columns:nth-child(3n+3) {
   clear: both;
 }
 
-/* line 179, ../sass/sections/_speaking.scss */
+/* line 183, ../sass/sections/_speaking.scss */
 #spoken-at {
   background: #FFF;
 }
-/* line 181, ../sass/sections/_speaking.scss */
+/* line 185, ../sass/sections/_speaking.scss */
 #spoken-at ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 185, ../sass/sections/_speaking.scss */
+/* line 189, ../sass/sections/_speaking.scss */
 #spoken-at ul li {
   float: left;
   position: relative;
 }
 @media screen and (min-width: 1024px) {
-  /* line 185, ../sass/sections/_speaking.scss */
+  /* line 189, ../sass/sections/_speaking.scss */
   #spoken-at ul li {
     margin: 0 12px 0 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 185, ../sass/sections/_speaking.scss */
+  /* line 189, ../sass/sections/_speaking.scss */
   #spoken-at ul li {
     margin: 0 6px 0 0;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 767px) {
-  /* line 185, ../sass/sections/_speaking.scss */
+  /* line 189, ../sass/sections/_speaking.scss */
   #spoken-at ul li {
     margin: 0 2.5% 0 0;
     float: left;
@@ -7712,7 +7778,7 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (min-width: 480px) and (max-width: 639px) {
-  /* line 185, ../sass/sections/_speaking.scss */
+  /* line 189, ../sass/sections/_speaking.scss */
   #spoken-at ul li {
     margin: 0 2% 0 0;
     float: left;
@@ -7722,7 +7788,7 @@ END FLOATING PEOPLE
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 185, ../sass/sections/_speaking.scss */
+  /* line 189, ../sass/sections/_speaking.scss */
   #spoken-at ul li {
     margin: 0 2% 0 0;
     float: left;
@@ -7731,20 +7797,20 @@ END FLOATING PEOPLE
     height: 100px;
   }
 }
-/* line 216, ../sass/sections/_speaking.scss */
+/* line 220, ../sass/sections/_speaking.scss */
 #spoken-at ul img {
   float: left;
   position: relative;
 }
 @media screen and (min-width: 768px) {
-  /* line 216, ../sass/sections/_speaking.scss */
+  /* line 220, ../sass/sections/_speaking.scss */
   #spoken-at ul img {
     width: 100%;
     height: auto;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 216, ../sass/sections/_speaking.scss */
+  /* line 220, ../sass/sections/_speaking.scss */
   #spoken-at ul img {
     width: auto;
     height: auto;

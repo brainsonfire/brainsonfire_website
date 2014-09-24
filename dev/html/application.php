@@ -12,7 +12,7 @@
 			
 			<main id="main" class="application inner-pages">
 
-				<section id="application-banner" class="white-text main-photo ">
+				<section id="application-banner" class="white-text main-photo">
 					<img src="images/library/appPicture-extralarge.jpg" alt="">
 					<div class="row">
 						<div class="half-block left">

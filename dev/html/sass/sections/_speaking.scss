@@ -85,6 +85,9 @@
       @include font-size(24);
       @include line-height(35);
     }
+    li {
+      padding: 0 0 10px;
+    }
   }
 }
 #favorite {
@@ -130,10 +133,11 @@
       float: left;
       @include min-screen(1024px) {
         width: 50%;
-        padding: 0 15px 0 0;     
+        padding: 0 15px 10px 0;     
       }
       @include max-screen(1023px) {
         width: 100%;
+        padding: 0 0 10px;
       }
     }
   }
