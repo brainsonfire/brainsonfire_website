@@ -104,12 +104,7 @@
 			
 		    var WH = $(window).height();
 		    
-		    if($(window).height() < 640) {
-		    	$(".WindowHeight").height(WH + 83);
-		    } else {
-		    	$(".WindowHeight").height(WH);
-		    }
-		    
+		    $(".WindowHeight").height(WH);
 		});
 
 		$(window).resize(function() {
