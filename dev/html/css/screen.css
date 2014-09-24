@@ -2359,7 +2359,7 @@ p.intro {
 /* line 231, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container,
 #how-we-work .orbit-container {
-  padding: 48px 0 0;
+  padding: 48px 0 40px;
 }
 @media screen and (min-width: 768px) {
   /* line 231, ../sass/modules/_orbit.scss */
