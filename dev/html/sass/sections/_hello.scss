@@ -28,7 +28,7 @@
   .cta {
     @include min-screen(1200px) {
       width: 50%;
-      margin: 50px auto 0;
+      margin: 0 auto;//50px auto 0;
     }
     @include screen(1024px,1199px) {
       width: 80%;

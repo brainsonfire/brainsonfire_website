@@ -190,53 +190,54 @@
 						<form id="form6" name="form6" class="wufoo rightLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://firesession.wufoo.com/forms/w1vlikfx0shln0y/#public">
 							<ul>
 								<li id="foli9" class="notranslate form-field row">
+									<label class="desc" id="title9" for="Field9">Name (required)</label>
 									<span>
 										<input id="Field9" name="Field9" type="text" class="field text medium" value="" maxlength="255" tabindex="1" onkeyup="" required />
 									</span>
-									<label class="desc" id="title9" for="Field9">Name (required)</label>
 								</li>
 								<li id="foli10" class="notranslate form-field row">
+									<label class="desc" id="title10" for="Field10">Email (required) - we'll keep this private</label>
 									<span>
 										<input id="Field10" name="Field10" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="2" required />
 									</span>
-									<label class="desc" id="title10" for="Field10">Email (required) - we'll keep this private</label>
 								</li>
 								<li id="foli12" class="notranslate form-field row">
+									<label class="desc" id="title12" for="Field12">Phone Number</label>
 									<span>
 										<input id="Field12" name="Field12" type="text" class="field text medium" value="" maxlength="255" tabindex="3" onkeyup="" />
 									</span>
-									<label class="desc" id="title12" for="Field12">Phone Number</label>
 								</li>
 								<li id="foli13" class="notranslate form-field row">
+									<label class="desc" id="title13" for="Field13">Name of Event</label>
 									<span>
 										<input id="Field13" name="Field13" type="text" class="field text medium" value="" maxlength="255" tabindex="4" onkeyup="" />
 									</span>
-									<label class="desc" id="title13" for="Field13">Name of Event</label>
 								</li>
 								<li id="foli14" class="notranslate form-field row">
+									<label class="desc" id="title14" for="Field14">Location</label>
 									<span>
 										<input id="Field14" name="Field14" type="text" class="field text medium" value="" maxlength="255" tabindex="5" onkeyup="" />
 									</span>
-									<label class="desc" id="title14" for="Field14">Location</label>
 								</li>
-								<li id="foli15" class="date notranslate form-field row">
-									<span class="input-two">
+								<li id="foli15" class="date notranslate form-field row three-input">
+									<label class="desc" id="title15" for="Field15">Date</label>
+									<span class="input-1">
 										<input id="Field15-1" name="Field15-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="6" />
 										<label for="Field15-1">MM</label>
 									</span>
 									<span class="symbol">/</span>
-									<span class="input-two">
+									<span class="input-2">
 										<input id="Field15-2" name="Field15-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="7" />
 										<label for="Field15-2">DD</label>
 									</span>
 									<span class="symbol">/</span>
-									<span class="input-three">
+									<span class="input-3">
 										<input id="Field15" name="Field15" type="text" class="field text" value="" size="4" maxlength="4" tabindex="8" />
 										<label for="Field15">YYYY</label>
 									</span>
-									<label class="desc" id="title15" for="Field15">Date</label>
 								</li>
 								<li id="foli16" class="notranslate form-field row">
+									<label class="desc" id="title16" for="Field16">Time of Day</label>
 									<span>
 										<select id="Field16" name="Field16" class="field select medium" tabindex="9" >
 											<option value="-- Select a Time --" selected="selected">-- Select a Time --</option>
@@ -245,9 +246,9 @@
 											<option value="Evening">Evening</option>
 										</select>
 									</span>
-									<label class="desc" id="title16" for="Field16">Time of Day</label>
 								</li>
 								<li id="foli17" class="notranslate form-field row">
+									<label class="desc" id="title17" for="Field17">Preferred Speaker</label>
 									<span>
 										<select id="Field17" name="Field17" class="field select medium" tabindex="10" >
 											<option value="-- Select a Speaker --" selected="selected">-- Select a Speaker --</option>
@@ -257,9 +258,9 @@
 											<option value="Greg Cordell">Greg Cordell</option>
 										</select>
 									</span>
-									<label class="desc" id="title17" for="Field17">Preferred Speaker</label>
 								</li>
 								<li id="foli20" class="notranslate form-field row">
+									<label class="desc" id="title20" for="Field20">Speaking Package</label>
 									<span>
 										<select id="Field20" name="Field20" class="field select medium" tabindex="11" >
 											<option value="-- Select a Package --" selected="selected">-- Select a Package --</option>
@@ -267,13 +268,12 @@
 											<option value="Package 2: Presentation + Workshop">Package 2: Presentation + Workshop</option>
 										</select>
 									</span>
-									<label class="desc" id="title20" for="Field20">Speaking Package</label>
 								</li>
 								<li id="foli22" class="notranslate form-field row">
+									<label class="desc" id="title22" for="Field22">Event Website (URL)</label>
 									<span>
 										<input id="Field22" name="Field22" type="url" class="field text large" value="" maxlength="255" tabindex="12" />
 									</span>
-									<label class="desc" id="title22" for="Field22">Event Website (URL)</label>
 								</li>
 								<li id="foli18" class="notranslate form-field textarea row">
 									<label class="desc" id="title18" for="Field18"> Brief description of the event & link for registration (required)</label>

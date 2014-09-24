@@ -22,7 +22,7 @@
       max-width: 700px;
     }
     @include max-screen(767px) {
-      max-width: 450px;
+      max-width: 540px;
     }
     ul {
       margin: 0;
@@ -31,9 +31,23 @@
     }
   }
 }
-.row .button {
-  @include min-screen(641px) {
-    max-width: 266px;
+form .row {
+  background-color: transparent;
+  position: relative;
+  padding: 6px !important;
+  clear: both;
+  @include transition(background-color, 0.3s, ease-out);
+  @include min-screen(768px) {
+    margin: 0 0 12px !important;
+  }
+  &.focused {
+    background-color: rgba(0, 170, 203, 0.2);
+    -webkit-text-fill-color: #333;
+  }
+  .button {
+    @include min-screen(641px) {
+      max-width: 266px;
+    }
   }
 }
 input[type="text"],
@@ -58,8 +72,7 @@ textarea {
   height: 3.75rem;
   padding: 0.5rem 1.5rem;
   margin-bottom: 0;
-  font-weight: 400;
-  //@include InfoNormalFont;
+  font-weight: 400;//@include InfoNormalFont;
   @include font-size(20);
 }
 input[type="text"],
@@ -102,12 +115,11 @@ input[type=number]::-webkit-outer-spin-button {
 input[type=number] {
   -moz-appearance: textfield;
 }
-form .row {
-  clear: both;
-  @include min-screen(768px) {
-    margin: 0 0 12px !important;
-  }
+input:focus,
+textarea:focus {
+  outline: -webkit-focus-ring-color none;
 }
+// Label
 label {
   color: #666;
   height: auto;
@@ -127,50 +139,33 @@ label {
   @include max-screen(767px) {
     width: 100%;
     padding: 0.5rem 0;
-    height: 2rem;
+    height: 3rem;
     @include font-size(20);
   }
-}
-label.fullwidth {
-  height: auto;
-  width: 100% !important;
-  padding: 1rem 0 !important;
-}
-#form3 label {
-  padding: 1rem 0 !important;
-}
-#form3 #foli1 span {
-  width: 100%;
-  float: left;
-  margin: 0 0 12px;
-  label {
-    float: left;
-    padding: 1rem 0 1rem 1rem !important;
+  &.fullwidth {
+    height: auto;
+    width: 100% !important;
+    padding: 1rem 0 !important;
+  }
+  &.hint {
+    height: auto;
+    width: 100% !important;
+    padding: 1rem 0 0 !important;
+    clear: both;
+    @include font-size(16);
+    @include line-height(24);
   }
 }
-label.hint {
-  height: auto;
-  width: 100% !important;
-  padding: 1rem 0 0 !important;
-  clear: both;
-  @include font-size(16);
-  @include line-height(24);
-}
-select {
+.rightLabel .desc {
   display: inline-block;
-  vertical-align: middle;
-  @include min-screen(768px) {
-    width: 50%;
-  }
-  @include max-screen(767px) {
-    width: 100%;
-  }
+  flex: 1;
 }
 .jcf-hidden {
   display: block !important;
   left: -9999px !important;
   position: absolute !important;
 }
+// select generated
 .select-area {
   background: #fff;
   border: 1px solid #cccccc;
@@ -187,103 +182,77 @@ select {
   @include max-screen(767px) {
     width: 100% !important;
   }
-}
-.select-area .center {
-  font-size: 1.25rem;
-  font-weight: 400;
-  height: 3.75rem;
-  line-height: 2.2;
-  float: left;
-  text-transform: none;
-  padding: 0.5rem 1.5rem;
-}
-.select-area .select-opener {
-  float: right;
-  height: 60px;
-  position: relative;
-  width: 60px;
-}
-.select-area .select-opener:before {
-  background: url(../images/library/select_arrow.jpg) no-repeat 0 0;
-  content: "";
-  height: 60px;
-  left: 0;
-  margin: 0;
-  position: absolute;
-  top: 0;
-  width: 60px;
+  .center {
+    font-size: 1.25rem;
+    font-weight: 400;
+    height: 3.75rem;
+    line-height: 2.2;
+    float: left;
+    text-transform: none;
+    padding: 0.5rem 1.5rem;
+    color: #999;
+  }
+  .select-opener {
+    float: right;
+    height: 60px;
+    position: relative;
+    width: 60px;
+    &:before {
+      background: url(../images/library/select_arrow.jpg) no-repeat 0 0;
+      content: "";
+      height: 60px;
+      left: 0;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      width: 60px;
+    }
+  }
 }
 .select-options {
   background: #fff;
   overflow: hidden;
   position: absolute;
   z-index: 2000;
-}
-.drop-list {
-  height: auto !important;
-}
-.select-options .drop-holder {
-  border: 1px solid #e8e8e8;
-  height: 1%;
-  overflow: hidden;
-}
-.select-options ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.select-options ul li {
-  float: left;
-  width: 100%;
-}
-.select-options ul a {
-  cursor: default;
-  color: #000;
-  display: block;
-  height: 1%;
-  padding: 5px 10px;
-  text-decoration: none;
-}
-.select-options .item-selected a {
-  background: #007;
-  color: #fff;
-  text-decoration: none;
-}
-.select-options .default {
-  display: none;
-}
-.select-area {
-  height: 60px;
-  float: left;
-}
-.select-area .center {
-  color: #999;
-}
-form .row {
-  background-color: transparent;
-  position: relative;
-  padding: 6px !important;
-  @include transition(background-color, 0.3s, ease-out);
-  &.focused {
-    background-color: rgba(0, 170, 203, 0.2);
-    -webkit-text-fill-color: #333;
+  .drop-holder {
+    border: 1px solid #e8e8e8;
+    height: 1%;
+    overflow: hidden;
+  }
+  .drop-list {
+    height: auto !important;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      width: 100%;
+    }
+    a {
+      cursor: default;
+      color: #000;
+      display: block;
+      height: 1%;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+    .item-selected a {
+      background: lightblue;
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  .default {
+    display: none;
   }
 }
-input:focus {
-  outline: -webkit-focus-ring-color none;
-}
-textarea:focus {
-  outline: -webkit-focus-ring-color none;
-}
-form li {
-  text-align: left;
+form li.buttons {
+  margin: 30px 0 !important;
 }
 form li.focused {
   background-color: rgba(0, 170, 203, 0.2);
-}
-.notranslate {
-  padding: 19px;
-  text-align: left;
 }
 .hide,
 .cloak div,
@@ -292,122 +261,11 @@ form li.focused {
 .likert.cloak thead {
   display: none !important;
 }
-
-.leftLabel .desc,
-.rightLabel .desc {
-  width: 50%;
-}
-.select-options .item-selected a {
-  background: #d9531e;
-  color: #fff;
-  text-decoration: none;
-}
-.select-area .select-opener {
-  height: 60px;
-}
-.elaborate {
-  width: 97%;
-}
-.rightLabel .desc {
-  display: inline-block;
-  flex: 1;
-}
-.form-contact #Field7{
-  @include min-screen(768px) {
-    width: 24%;
-    margin: 0 1% 0 0;
-  }
-  @include screen(481px,767px) {
-    width: 48%;
-    margin: 0 2% 0 0;
-  }
-  @include max-screen(480px) {
-    width: 100%;
-    margin: 0 0 12px;
-  }
-}
-.form-contact #Field8 {
-  @include min-screen(768px) {
-    width: 24%;
-    margin: 0 0 0 1%;
-  }
-  @include screen(481px,767px) {
-    width: 48%;
-    margin: 0 0 0 2%;
-  }
-  @include max-screen(480px) {
-    width: 100%;
-  }
-}
-.client-questionnaire .phone {
-  .phone-field {
+.three-input {
+  .input-1,
+  .input-2,
+  .input-3 {
     float: left;
-    @include min-screen(768px) {
-      width: 15%;
-    }
-    @include max-screen(767px) {
-      width: 30%;
-    }
-    input {
-      width: 100% !important;
-    }
-  }
-  .symbol {
-    float: left;
-    text-align: center;
-    color: #666;
-    font-size: 1.25rem;
-    font-weight: 400;
-    height: 3.75rem;
-    line-height: 3.75rem;
-    @include min-screen(768px) {
-      width: 2.5%;
-    }
-    @include max-screen(767px) {
-      width: 5%;
-    }
-  }
-  span label {
-    float: left;
-    clear: both;
-    width: 100%;
-    text-align: center;
-    line-height: 0.1;
-    height: 30px;
-    padding: 0;
-    color: #999;
-  }
-}
-.form-contact .phone {
-  input {
-    @include min-screen(768px) {
-      width: 15%;
-    }
-    @include max-screen(767px) {
-      width: 30%;
-    }
-  }
-  .dash {
-    float: left;
-    text-align: center;
-    color: #666;
-    font-size: 1.25rem;
-    font-weight: 400;
-    height: 3.75rem;
-    line-height: 3.75rem;
-    @include min-screen(768px) {
-      width: 2.5%;
-    }
-    @include max-screen(767px) {
-      width: 5%;
-    }
-  }
-}
-#form6 .date {
-  .input-two,
-  .input-three {
-    float: left;
-    position: relative;
     @include min-screen(768px) {
       width: 15%;
     }
@@ -416,17 +274,16 @@ form li.focused {
     }
     input {
       float: left;
-      width: 100%;
+      width: 100% !important;
     }
     label {
       float: left;
-      clear: both;
-      width: 100%;
-      text-align: center;
-      line-height: 1.5;
-      height: 30px;
-      padding: 0;
+      width: 100% !important;
+      height: 1rem;
+      line-height: 0.5;
       color: #999;
+      text-align: center;
+      padding: 0.5rem 0 0 !important;
     }
   }
   .symbol {
@@ -445,32 +302,64 @@ form li.focused {
     }
   }
 }
+// Application form
+.client-questionnaire {
+  .row {
+    margin: 0 !important;
+  }
+  label {
+    padding: 1rem 0 !important;
+  }
+  #foli1 span {
+    width: 100%;
+    float: left;
+    margin: 0 0 12px;
+    + span {
+      margin: 0;
+    }
+    @include min-screen(768px) {
+      label {
+        float: right;
+        padding: 1rem 0 1rem 1rem !important;
+      }
+    }
+  }
+  #Field222 {
+    width: 100px;
+  }
+}
+// Hello form
+.form-contact {
+  #Field7 {
+    @include min-screen(768px) {
+      width: 24%;
+      margin: 0 1% 0 0;
+    }
+    @include screen(481px,767px) {
+      width: 48%;
+      margin: 0 2% 0 0;
+    }
+    @include max-screen(480px) {
+      width: 100%;
+      margin: 0 0 12px;
+    }
+  }
+  #Field8 {
+    @include min-screen(768px) {
+      width: 24%;
+      margin: 0 0 0 1%;
+    }
+    @include screen(481px,767px) {
+      width: 48%;
+      margin: 0 0 0 2%;
+    }
+    @include max-screen(480px) {
+      width: 100%;
+    }
+  }
+}
+// Speaking form
 #form6 #title18 {
   width: 100%;
   padding: 1rem 0;
-}
-
-@media only screen and (max-width:721px) {
-  .leftLabel .desc,
-  .rightLabel .desc {
-    width: 100%;
-  }
-}
-.application {
-  #application-banner .half-block {
-    right: auto;
-    left: 0;
-  }
-  #application-banner h1 {
-    @include font-size(40);
-  }
-  #form {
-    background: #FFF;
-    h1 + p {
-      text-align: left;
-      text-transform: none;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-  }
 }

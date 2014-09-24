@@ -167,7 +167,7 @@
   @include min-screen(1200px) {
     padding: 63px 0 80px;
   }
-  .btn-ico {
+  .row .btn-ico {
     background-color: #eb7e1f;
     text-align: left;
     @include min-screen(480px) {
