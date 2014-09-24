@@ -41,7 +41,7 @@
 							<div class="large-3 medium-4 small-12 columns right-sidebar">
 								
 								<p class="hint">Send an email to get started</p>
-								<a class="button btn-orange" href="mailto:Robbin@BrainsOnFire.com?Subject=So, I'm interested in a 2x2 Workshop...">Email Us</a>
+								<a class="button btn-orange" href="mailto:Robbin@BrainsOnFire.com?Subject=So,%20I'm%20interested%20in%20a%202x2%20Workshop...">Email Us</a>
 							
 							</div>
 
@@ -49,7 +49,7 @@
 					</div>
 
 					<div class="submit-application">
-						<a class="button btn-blue" href="mailto:Robbin@BrainsOnFire.com?Subject=So, I'm interested in a 2x2 Workshop...">Send us an email</a>
+						<a class="button btn-blue" href="mailto:Robbin@BrainsOnFire.com?Subject=So,%20I'm%20interested%20in%20a%202x2%20Workshop...">Send us an email</a>
 					</div>
 
 				</section>

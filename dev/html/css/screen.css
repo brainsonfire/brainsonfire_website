@@ -2016,6 +2016,11 @@ p.intro {
   text-align: center;
 }
 
+/* line 589, ../sass/modules/_library.scss */
+.section-newsletter-band {
+  background: url("../images/library/bg-body.png") repeat scroll 0 0 white;
+}
+
 /* line 1, ../sass/modules/_orbit.scss */
 [class$="-orbit-nav"],
 [class*="-orbit-nav "] {
@@ -3089,6 +3094,90 @@ p.intro {
   position: relative;
   overflow: hidden;
   padding: 0;
+}
+
+/* line 205, ../sass/sections/_home.scss */
+.home .section-newsletter-band {
+  padding: 60px 0;
+}
+/* line 207, ../sass/sections/_home.scss */
+.home .section-newsletter-band form {
+  padding: 42px 0 0;
+}
+/* line 210, ../sass/sections/_home.scss */
+.home .section-newsletter-band .mc-field-group,
+.home .section-newsletter-band .mc-submit-btn {
+  float: left;
+}
+/* line 214, ../sass/sections/_home.scss */
+.home .section-newsletter-band .mc-field-group {
+  padding: 10px 0 0;
+}
+@media screen and (min-width: 768px) {
+  /* line 214, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-field-group {
+    width: 66%;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 214, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-field-group {
+    width: 100%;
+  }
+}
+/* line 222, ../sass/sections/_home.scss */
+.home .section-newsletter-band .mc-field-group label {
+  float: left;
+}
+@media screen and (min-width: 768px) {
+  /* line 222, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-field-group label {
+    text-align: right;
+    padding: 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 222, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-field-group label {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 233, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-field-group input {
+    max-width: 450px;
+    margin: 0 auto 12px;
+    float: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 241, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-submit-btn {
+    width: 34%;
+    padding: 0 1rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 241, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-submit-btn {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px) {
+  /* line 249, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-submit-btn .button {
+    float: left;
+    max-width: 270px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 249, ../sass/sections/_home.scss */
+  .home .section-newsletter-band .mc-submit-btn .button {
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+  }
 }
 
 /* line 1, ../sass/sections/_movements.scss */

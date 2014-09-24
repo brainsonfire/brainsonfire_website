@@ -202,3 +202,60 @@
   overflow: hidden;
   padding: 0;
 }
+.home .section-newsletter-band {
+  padding: 60px 0;
+  form {
+    padding: 42px 0 0;
+  }
+  .mc-field-group,
+  .mc-submit-btn {
+    float: left;
+  }
+  .mc-field-group {
+    padding: 10px 0 0;
+    @include min-screen(768px) {
+      width: 66%;
+    }
+    @include max-screen(767px) {
+      width: 100%;
+    }
+    label {
+      float: left;
+      @include min-screen(768px) {
+        text-align: right;
+        padding: 1rem;
+      }
+      @include max-screen(767px) {
+        width: 100%;
+        text-align: center;
+      }
+    }
+    input {
+      @include max-screen(767px) {
+        max-width: 450px;
+        margin: 0 auto 12px;
+        float: none;
+      }
+    }
+  }
+  .mc-submit-btn {
+    @include min-screen(768px) {
+      width: 34%;
+      padding: 0 1rem;
+    }
+    @include max-screen(767px) {
+      width: 100%;
+    }
+    .button {
+      @include min-screen(768px) {
+        float: left;
+        max-width: 270px;
+      }
+      @include max-screen(767px) {
+        width: 100%;
+        max-width: 450px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
