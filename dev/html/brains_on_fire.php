@@ -60,7 +60,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="bn" target="_blank" href="http://search.barnesandnoble.com/Brains-on-Fire/Robbin-Phillips/e/9780470614181/?itm=1&USRI=brains+on+fire">
+								<a class="bn" target="_blank" href="http://search.barnesandnoble.com/Brains-on-Fire/Robbin-Phillips/e/9780470614181/?itm=1&amp;USRI=brains+on+fire">
 									<img src="images/modal/bn.jpg" alt="">
 								</a>
 							</li>

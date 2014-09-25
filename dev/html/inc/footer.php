@@ -32,7 +32,7 @@
 			<ul>
 				<li>Copyright Brains On Fire 2013</li>
 				<li><address>148 River Street, Suite 100 Greenville, SC 29601</address></li>
-				<li>Legal Mumjum</li>
+				<li><a href="legal.php">Legal Mumjum</a></li>
 				<li>Use Hedley Typeface</li>
 			</ul>
 		</div>

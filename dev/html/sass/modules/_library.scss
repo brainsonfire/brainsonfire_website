@@ -409,6 +409,7 @@ p.intro {
    padding: 44px 0.9375rem;
   }
 }
+#ty-banner,
 #application-banner,
 #book-banner,
 #speaker-banner {
@@ -513,6 +514,44 @@ p.intro {
   h1 + p {
     text-transform: none;
   } 
+}
+#ty-banner {
+  .half-block {
+    right: auto;
+    left: 0;
+    @include min-screen(1200px) {
+      height: 40%;
+      width: 830px;
+    }
+    @include screen(1024px,1199px) {
+      height: 40%;
+      width: 90%;
+    }
+  }
+  h1 {
+    @include min-screen(900px) {
+      @include font-size(40);
+    }
+  }
+  h1 + p {
+    text-transform: none;
+  } 
+}
+#legal {
+  padding: 80px 0;
+  h1 + p {
+    text-transform: none;
+    text-align: left;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  } 
+}
+#error404 {
+  min-height: 60vh;
+  padding: 80px 0;
+  h1, h2 {
+    text-align: left;
+  }
 }
 #speaker-banner {
   p {
