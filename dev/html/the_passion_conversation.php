@@ -72,7 +72,7 @@
 
 				<section id="book-intro">
 					<div class="row">
-						<h1>What is about</h1>
+						<h1>What it's about</h1>
 						<div class="two-col">
 							<div class="left">
 								<p class="intro">No passion, no conversation.<br> No conversation, no word of mouth.<br> No word of mouth, no successful business.</p>

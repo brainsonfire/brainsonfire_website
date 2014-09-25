@@ -266,7 +266,7 @@
 
 				<section id="odds-end">
 					<div class="row">
-						<h1>Odds & End</h1>
+						<h1>Odds & Ends</h1>
 						<div class="half-block">
 							<p>Jobs! We don’t have any open positions at the moment, but we are always accepting portfolios and resumes! Click the button below.</p>
 							<a href="hello.php" class="button btn-blue">say hello</a>

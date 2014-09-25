@@ -70,7 +70,7 @@
 
 				<section id="book-intro">
 					<div class="row">
-						<h1>What is about</h1>
+						<h1>What it's about</h1>
 						<div class="two-col">
 							<div class="left">
 								<p class="intro">Igniting sustainable movements is hard work. It’s building with people, not tools.</p><p>Featuring ten lessons you can start building on today, it takes you step by step through lessons the authors have learned on how to inspire excitement and engage the customers and other stakeholders who will advocate for you.</p>
