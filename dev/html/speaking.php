@@ -19,22 +19,22 @@
 				</section>
 				<div id="speakers">
 					<div class="row">
-						<div class="large-3 medium-6 small-12 columns">
+						<div class="large-4 medium-6 small-12 columns">
 							<a href="robbin_speaker.php"><img src="images/speaking/robbin.jpg" alt="Robbin Phillips"></a>
 							<h3><a href="robbin_speaker.php">Robbin Phillips</a></h3>
 							<a href="robbin_speaker.php" class="button btn-orange">learn more</a>
 						</div>
-						<div class="large-3 medium-6 small-12 columns">
+						<div class="large-4 medium-6 small-12 columns">
 							<a href="geno_speaker.php"><img src="images/speaking/geno.jpg" alt="Geno Church"></a>
 							<h3><a href="geno_speaker.php">Geno Church</a></h3>
 							<a href="geno_speaker.php" class="button btn-orange">learn more</a>
 						</div>
-						<div class="large-3 medium-6 small-12 columns">
+<!-- 						<div class="large-3 medium-6 small-12 columns">
 							<a href="john_speaker.php"><img src="images/speaking/john.jpg" alt="John Moore"></a>
 							<h3><a href="john_speaker.php">John Moore</a></h3>
 							<a href="john_speaker.php" class="button btn-orange">learn more</a>
-						</div>
-						<div class="large-3 medium-6 small-12 columns">
+						</div> -->
+						<div class="large-4 medium-6 small-12 columns">
 							<a href="greg_speaker.php"><img src="images/speaking/greg.jpg" alt="Greg Cordell"></a>
 							<h3><a href="greg_speaker.php">Greg Cordell</a></h3>
 							<a href="greg_speaker.php" class="button btn-orange">learn more</a>

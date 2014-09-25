@@ -14,7 +14,7 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="john_speaker.php"><span>previous speaker</span></a></li>
+							<li><a class="previous" href="geno_speaker.php"><span>previous speaker</span></a></li>
 							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
 							<li><a class="next" href="robbin_speaker.php"><span>next speaker</span></a></li>
 						</ul>
@@ -60,7 +60,7 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="john_speaker.php"><span>previous speaker</span></a></li>
+							<li><a class="previous" href="geno_speaker.php"><span>previous speaker</span></a></li>
 							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
 							<li><a class="next" href="robbin_speaker.php"><span>next speaker</span></a></li>
 						</ul>

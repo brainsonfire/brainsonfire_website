@@ -16,7 +16,7 @@
 						<ul>
 							<li><a class="previous" href="robbin_speaker.php"><span>previous speaking</span></a></li>
 							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
-							<li><a class="next" href="john_speaker.php"><span>next speaker</span></a></li>
+							<li><a class="next" href="greg_speaker.php"><span>next speaker</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -61,7 +61,7 @@
 						<ul>
 							<li><a class="previous" href="robbin_speaker.php"><span>previous speaker</span></a></li>
 							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
-							<li><a class="next" href="john_speaker.php"><span>next speaker</span></a></li>
+							<li><a class="next" href="greg_speaker.php"><span>next speaker</span></a></li>
 						</ul>
 					</div>
 				</div>

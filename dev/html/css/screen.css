@@ -1979,7 +1979,6 @@ p.intro {
 
 /* line 557, ../sass/modules/_library.scss */
 #speaker-banner p {
-  text-transform: lowercase;
   font-style: italic;
   font-family: Georgia,"Times New Roman",Times,serif;
 }
@@ -2021,7 +2020,7 @@ p.intro {
   }
 }
 
-/* line 581, ../sass/modules/_library.scss */
+/* line 580, ../sass/modules/_library.scss */
 #workshop .banner {
   background: #00a9ca url(../images/movement/header-2x2-workshop.jpg) no-repeat 50% 100%;
   -moz-background-size: auto;
@@ -2030,7 +2029,7 @@ p.intro {
   background-size: auto;
 }
 
-/* line 585, ../sass/modules/_library.scss */
+/* line 584, ../sass/modules/_library.scss */
 #gut-check .banner {
   background: #00a9ca url(../images/movement/header-gut-check.jpg) no-repeat 100% 100%;
   -moz-background-size: auto;
@@ -2039,48 +2038,48 @@ p.intro {
   background-size: auto;
 }
 
-/* line 589, ../sass/modules/_library.scss */
+/* line 588, ../sass/modules/_library.scss */
 .service-pages {
   padding: 80px 0 0;
 }
-/* line 591, ../sass/modules/_library.scss */
+/* line 590, ../sass/modules/_library.scss */
 .service-pages h1 {
   display: table;
   width: 100%;
   padding: 90px 0;
 }
-/* line 596, ../sass/modules/_library.scss */
+/* line 595, ../sass/modules/_library.scss */
 .service-pages #blockquote {
   background: rgba(255, 255, 255, 0);
   padding: 80px 0;
 }
-/* line 599, ../sass/modules/_library.scss */
+/* line 598, ../sass/modules/_library.scss */
 .service-pages #blockquote .row {
   max-width: 890px;
 }
-/* line 602, ../sass/modules/_library.scss */
+/* line 601, ../sass/modules/_library.scss */
 .service-pages #blockquote blockquote,
 .service-pages #blockquote cite {
   color: #929F57;
 }
-/* line 606, ../sass/modules/_library.scss */
+/* line 605, ../sass/modules/_library.scss */
 .service-pages #blockquote cite {
   float: right;
 }
-/* line 610, ../sass/modules/_library.scss */
+/* line 609, ../sass/modules/_library.scss */
 .service-pages .content {
   background: #FFF;
   padding: 60px 0;
 }
-/* line 613, ../sass/modules/_library.scss */
+/* line 612, ../sass/modules/_library.scss */
 .service-pages .content p a {
   color: #EB7E1F;
 }
-/* line 615, ../sass/modules/_library.scss */
+/* line 614, ../sass/modules/_library.scss */
 .service-pages .content p a:hover {
   color: #dd7114;
 }
-/* line 619, ../sass/modules/_library.scss */
+/* line 618, ../sass/modules/_library.scss */
 .service-pages .content p.hint {
   display: block;
   font-family: Georgia,serif;
@@ -2090,63 +2089,63 @@ p.intro {
   text-align: center;
 }
 
-/* line 629, ../sass/modules/_library.scss */
+/* line 628, ../sass/modules/_library.scss */
 .section-newsletter-band {
   background: url("../images/library/bg-body.png") repeat scroll 0 0 white;
 }
 
-/* line 633, ../sass/modules/_library.scss */
+/* line 632, ../sass/modules/_library.scss */
 .reveal-modal, dialog {
   right: 0;
   margin: auto;
 }
 @media screen and (max-width: 767px) {
-  /* line 633, ../sass/modules/_library.scss */
+  /* line 632, ../sass/modules/_library.scss */
   .reveal-modal, dialog {
     min-height: 120%;
   }
 }
 
-/* line 641, ../sass/modules/_library.scss */
+/* line 640, ../sass/modules/_library.scss */
 .reveal-modal .retailers {
   display: block;
   overflow: hidden;
 }
-/* line 644, ../sass/modules/_library.scss */
+/* line 643, ../sass/modules/_library.scss */
 .reveal-modal .retailers p {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
 }
-/* line 649, ../sass/modules/_library.scss */
+/* line 648, ../sass/modules/_library.scss */
 .reveal-modal .retailers ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 654, ../sass/modules/_library.scss */
+/* line 653, ../sass/modules/_library.scss */
 .reveal-modal .retailers li {
   float: left;
   width: 50%;
 }
 @media screen and (max-width: 767px) {
-  /* line 654, ../sass/modules/_library.scss */
+  /* line 653, ../sass/modules/_library.scss */
   .reveal-modal .retailers li {
     padding: 10px 5px 0;
   }
 }
-/* line 660, ../sass/modules/_library.scss */
+/* line 659, ../sass/modules/_library.scss */
 .reveal-modal .retailers li a {
   display: table;
   margin: 0 auto;
 }
-/* line 664, ../sass/modules/_library.scss */
+/* line 663, ../sass/modules/_library.scss */
 .reveal-modal .retailers li img {
   width: auto;
   max-width: 100%;
 }
 @media screen and (max-width: 767px) {
-  /* line 664, ../sass/modules/_library.scss */
+  /* line 663, ../sass/modules/_library.scss */
   .reveal-modal .retailers li img {
     max-width: none;
     width: 100%;
