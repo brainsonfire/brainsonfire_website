@@ -15,9 +15,9 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="brains_on_fire.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="brains_on_fire.php"><span>previous book</span></a></li>
 							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="brains_on_fire.php"><span>next story</span></a></li>
+							<li><a class="next" href="brains_on_fire.php"><span>next book</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,10 +28,47 @@
 						<div class="half-block right">
 							<h1>The Passion Conversation</h1>
 							<p>a book about Understanding, sparking, & sustaining word of mouth marketing.</p>
-							<a href="#dummy" class="button btn-orange">buy it now</a>
+							<a href="#" data-reveal-id="firstModal" class="button btn-orange">buy it now</a>
 						</div>
 					</div>
 				</section>
+
+
+				<!-- Reveal Modals begin -->
+				<div id="firstModal" class="reveal-modal" data-reveal>
+					<div class="retailers">
+						<a class="close-reveal-modal">&#215;</a>
+						<h2>Where to buy</h2>
+						<p>Pick a store, any store.</p>
+						<ul>
+							<li>
+								<a class="ceoread" target="_blank" href="http://800ceoread.com/products/passion_conversation-geno_church_greg_cordell_john_moore_robbin_phillips-english">
+									<img src="images/modal/ceoread.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bam" target="_blank" href="http://www.booksamillion.com/p/Passion-Conversation/Robbin-Phillips/9781118533338?id=5733101311047">
+									<img src="images/modal/bam.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="amazon" target="_blank" href="http://www.amazon.com/The-Passion-Conversation-Understanding-Sustaining/dp/111853333X">
+									<img src="images/modal/amazon.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="indiebound" target="_blank" href="http://www.indiebound.org/book/9781118533338">
+									<img src="images/modal/indiebound.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bn" target="_blank" href="http://www.barnesandnoble.com/w/the-passion-conversation-robbin-phillips/1115568255?ean=9781118533338">
+									<img src="images/modal/bn.jpg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
 				<section id="book-intro">
 					<div class="row">
@@ -60,7 +97,7 @@
 							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/john.jpg" alt="John Moore"><span class="title">John Moore</span></span></span></a>
 							<a data-orbit-link="circle-headline-4"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: true;">
+						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: true; variable_height: true;">
 							<li data-orbit-slide="circle-headline-1">
 								<div class="medium-down">
 									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
@@ -100,7 +137,7 @@
 					<div class="row">
 						<h1>Reviews</h1>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;">
+						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false; variable_height: true;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
 									<blockquote>“I’ve had my eye on Brains on Fire for a while. Their humanity makes them quite distinctive, and The Passion Conversation captures that unique voice.”</blockquote>
@@ -128,19 +165,9 @@
 						</ul>
 					</div>
 					<div class="submit-application">
-						<a class="button btn-blue" href="#dummy">buy <span>the passion conversation</span> now</a>
+						<a class="button btn-blue" href="#" data-reveal-id="firstModal">buy <span>the passion conversation</span> now</a>
 					</div>
 				</section>
-
-<!-- 				<div class="direction-nav bottom">
-					<div class="row">
-						<ul>
-							<li><a class="previous" href="brains_on_fire.php"><span>previous story</span></a></li>
-							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="brains_on_fire.php"><span>next story</span></a></li>
-						</ul>
-					</div>
-				</div> -->
 
 			</main>
 

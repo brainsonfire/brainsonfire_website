@@ -189,7 +189,6 @@
     background: rgba(#FFF, 0.95);
   }
   @include max-screen(767px) {
-    padding: 28px 0 !important;
     ul {
       width: 98%;
       margin: 0 auto;
@@ -200,12 +199,27 @@
     }
   }
 }
+#authoral-team .orbit-container {
+  @include min-screen(768px) {
+    padding: 48px 0 12px;
+  }
+  @include max-screen(767px) {
+    padding: 28px 0 12px;
+  }
+}
+#how-we-work .orbit-container {
+  @include min-screen(768px) {
+    padding: 48px 0 40px;
+  }
+  @include max-screen(767px) {
+    padding: 20px 0;
+  }
+}
 #authoral-team .orbit-container,
 #how-we-work .orbit-container {
   background: rgba(#fff, 0.95);
   @include min-screen(768px) {
     margin: 0 0 39px;
-    padding: 48px 0 40px;
     .orbit-prev,
     .orbit-next {
       display: none;
@@ -213,7 +227,6 @@
   }
   @include max-screen(767px) {
     margin: 0 auto 20px; 
-    padding: 28px 0 0;
     .orbit-next {
       right: -10px;
     }

@@ -14,9 +14,9 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="the_passion_conversation.php"><span>previous book</span></a></li>
 							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="the_passion_conversation.php"><span>next story</span></a></li>
+							<li><a class="next" href="the_passion_conversation.php"><span>next book</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -27,10 +27,46 @@
 						<div class="half-block right">
 							<h1>Brains on Fire</h1>
 							<p>A book about igniting powerful, sustainable, word of mouth movements.</p>
-							<a href="#dummy" class="button btn-orange">buy it now</a>
+							<a href="#" data-reveal-id="firstModal" class="button btn-orange">buy it now</a>
 						</div>
 					</div>
 				</section>
+
+				<!-- Reveal Modals begin -->
+				<div id="firstModal" class="reveal-modal" data-reveal>
+					<div class="retailers">
+						<a class="close-reveal-modal">&#215;</a>
+						<h2>Where to buy</h2>
+						<p>Pick a store, any store.</p>
+						<ul>
+							<li>
+								<a class="ceoread" target="_blank" href="http://800ceoread.com/book/show/9780470614181-Brains_on_Fire">
+									<img src="images/modal/ceoread.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bam" target="_blank" href="http://www.booksamillion.com/ncom/books?pid=0470614188">
+									<img src="images/modal/bam.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="amazon" target="_blank" href="http://amzn.com/0470614188">
+									<img src="images/modal/amazon.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="indiebound" target="_blank" href="http://www.indiebound.org/book/9780470614181">
+									<img src="images/modal/indiebound.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bn" target="_blank" href="http://search.barnesandnoble.com/Brains-on-Fire/Robbin-Phillips/e/9780470614181/?itm=1&USRI=brains+on+fire">
+									<img src="images/modal/bn.jpg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
 				<section id="book-intro">
 					<div class="row">
@@ -56,7 +92,7 @@
 							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
 							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt="Geno Church"><span class="title">Geno Church</span></span></span></a>
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: true;">
+						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: true; variable_height: true;">
 							<li data-orbit-slide="circle-headline-1">
 								<div class="medium-down">
 									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
@@ -88,7 +124,7 @@
 					<div class="row">
 						<h1>Reviews</h1>
 						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;">
+						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false; variable_height: true;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
 									<blockquote>“Brains on Fire succeeds at doing what so many other business books attempt: it provides a recipe for how every company can succeed—but the secret isn’t in the latest tools, online communities, or campaign tactics. It’s about passion, humanization and common sense. And to prove that it’s possible, Brains on Fire is filled with examples of organizations that have already done it.”</blockquote>
@@ -116,19 +152,9 @@
 						</ul>
 					</div>
 					<div class="submit-application">
-						<a class="button btn-blue" href="#dummy">buy <span>brains on fire</span> now</a>
+						<a class="button btn-blue" href="#" data-reveal-id="firstModal">buy <span>brains on fire</span> now</a>
 					</div>
 				</section>
-
-<!-- 				<div class="direction-nav bottom">
-					<div class="row">
-						<ul>
-							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
-							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="the_passion_conversation.php"><span>next story</span></a></li>
-						</ul>
-					</div>
-				</div> -->
 
 			</main>
 
