@@ -36,13 +36,15 @@
 									</span>
 								</li>
 								<li id="foli1" class="notranslate row">
-									<label class="desc" id="title1" for="Field1">Main Point of Contact</label>
+									<!-- <label class="desc" id="title1" for="Field1">Main Point of Contact</label> -->
+									<label for="Field1">First Name</label>
 									<span>
-										<label for="Field1">First</label>
 										<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="40" tabindex="2" />
 									</span>
+								</li>
+								<li id="foli1-2" class="notranslate row">
+									<label for="Field2">Last Name</label>
 									<span>
-										<label for="Field2">Last</label>
 										<input id="Field2" name="Field2" type="text" class="field text ln" value="" size="40" tabindex="3" />
 									</span>
 								</li>
