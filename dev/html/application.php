@@ -36,27 +36,16 @@
 									</span>
 								</li>
 								<li id="foli1" class="notranslate row">
-									<!-- <label class="desc" id="title1" for="Field1">Main Point of Contact</label> -->
-									<label for="Field1">First Name</label>
-									<span>
-										<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="40" tabindex="2" />
-									</span>
-									<label for="Field2" class="cb">Last Name</label>
-									<span>
-										<input id="Field2" name="Field2" type="text" class="field text ln" value="" size="40" tabindex="3" />
-									</span>
-								</li>
-								<!-- <li id="foli1" class="notranslate row">
 									<label class="desc" id="title1" for="Field1">Main Point of Contact</label>
 									<span>
-										<label for="Field1">First</label>
-										<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="40" tabindex="2" />
+										<!-- <label for="Field1">First</label> -->
+										<input id="Field1" name="Field1" type="text" class="field text fn" placeholder="First" size="40" tabindex="2" />
 									</span>
 									<span>
-										<label for="Field2">Last</label>
-										<input id="Field2" name="Field2" type="text" class="field text ln" value="" size="40" tabindex="3" />
+										<!-- <label for="Field2">Last</label> -->
+										<input id="Field2" name="Field2" type="text" class="field text ln" placeholder="Last" size="40" tabindex="3" />
 									</span>
-								</li> -->
+								</li>
 								<li id="foli3" class="notranslate row">
 									<label class="desc" id="title3" for="Field3">Email</label>
 									<div>
