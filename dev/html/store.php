@@ -52,8 +52,8 @@
 							<h2>Brains on Fire</h2>
 							<p>Igniting Powerful, Sustainable, <br>Word of Mouth Movements</p>
 							<div class="btn-holder">
-								<a href="book.php" class="button btn-blue">learn more</a>
-								<a href="#" class="button btn-green">buy now</a>
+								<a href="brains_on_fire.php" class="button btn-blue">learn more</a>
+								<a href="#" data-reveal-id="firstModal" class="button btn-green">buy now</a>
 							</div>
 						</div>
 						<div class="half-block books">
@@ -63,12 +63,84 @@
 							<h2>The Passion Conversation</h2>
 							<p>Understanding, Sparking, Sustaining, <br>Word of Mouth Marketing</p>
 							<div class="btn-holder">
-								<a href="book.php" class="button btn-blue">learn more</a>
-								<a href="#" class="button btn-green">buy now</a>
+								<a href="the_passion_conversation.php" class="button btn-blue">learn more</a>
+								<a href="#" data-reveal-id="secondModal" class="button btn-green">buy now</a>
 							</div>
 						</div>
 					</div>
 				</section>
+
+				<!-- Reveal Modals begin -->
+				<div id="firstModal" class="reveal-modal" data-reveal>
+					<div class="retailers">
+						<a class="close-reveal-modal">&#215;</a>
+						<h2>Where to buy</h2>
+						<p>Pick a store, any store.</p>
+						<ul>
+							<li>
+								<a class="ceoread" target="_blank" href="http://800ceoread.com/book/show/9780470614181-Brains_on_Fire">
+									<img src="images/modal/ceoread.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bam" target="_blank" href="http://www.booksamillion.com/ncom/books?pid=0470614188">
+									<img src="images/modal/bam.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="amazon" target="_blank" href="http://amzn.com/0470614188">
+									<img src="images/modal/amazon.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="indiebound" target="_blank" href="http://www.indiebound.org/book/9780470614181">
+									<img src="images/modal/indiebound.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bn" target="_blank" href="http://search.barnesandnoble.com/Brains-on-Fire/Robbin-Phillips/e/9780470614181/?itm=1&amp;USRI=brains+on+fire">
+									<img src="images/modal/bn.jpg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- Reveal Modals begin -->
+				<div id="secondModal" class="reveal-modal" data-reveal>
+					<div class="retailers">
+						<a class="close-reveal-modal">&#215;</a>
+						<h2>Where to buy</h2>
+						<p>Pick a store, any store.</p>
+						<ul>
+							<li>
+								<a class="ceoread" target="_blank" href="http://800ceoread.com/products/passion_conversation-geno_church_greg_cordell_john_moore_robbin_phillips-english">
+									<img src="images/modal/ceoread.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bam" target="_blank" href="http://www.booksamillion.com/p/Passion-Conversation/Robbin-Phillips/9781118533338?id=5733101311047">
+									<img src="images/modal/bam.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="amazon" target="_blank" href="http://www.amazon.com/The-Passion-Conversation-Understanding-Sustaining/dp/111853333X">
+									<img src="images/modal/amazon.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="indiebound" target="_blank" href="http://www.indiebound.org/book/9781118533338">
+									<img src="images/modal/indiebound.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bn" target="_blank" href="http://www.barnesandnoble.com/w/the-passion-conversation-robbin-phillips/1115568255?ean=9781118533338">
+									<img src="images/modal/bn.jpg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
 			</main>
 			

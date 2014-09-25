@@ -16,7 +16,7 @@
 						<ul>
 							<li><a class="previous" href="sean_madden.php"><span>previous individual</span></a></li>
 							<li><a class="center" href="individual.php"><span>back to all people</span></a></li>
-							<li><a class="next" href="wicket.php"><span>next individual</span></a></li>
+							<li><a class="next" href="robbin_phillips.php"><span>next individual</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -81,7 +81,7 @@
 						<ul>
 							<li><a class="previous" href="sean_madden.php"><span>previous individual</span></a></li>
 							<li><a class="center" href="individual.php"><span>back to all people</span></a></li>
-							<li><a class="next" href="wicket.php"><span>next individual</span></a></li>
+							<li><a class="next" href="robbin_phillips.php"><span>next individual</span></a></li>
 						</ul>
 					</div>
 				</div>

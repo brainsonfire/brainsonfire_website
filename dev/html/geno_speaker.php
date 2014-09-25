@@ -9,7 +9,7 @@
 
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main" class="speaker-detail">
+			<main id="main" class="speaker-detail inner-pages">
 
 				<div class="direction-nav top">
 					<div class="row">

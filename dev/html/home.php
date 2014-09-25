@@ -27,8 +27,8 @@
 					<div class="row">
 						<div class="txt">
 							<h1 class="title">We can help your organizations<br> ignite a powerful, sustainable<br> word of mouth movements.</h1>
-							<a href="#dummy" class="button btn-blue left">we’ll teach you how</a>
-							<a href="#dummy" class="button btn-green left">or build it with you</a>
+							<a href="learn_movement.php" class="button btn-blue left">we’ll teach you how</a>
+							<a href="movements.php" class="button btn-green left">or build it with you</a>
 						</div>
 					</div>
 					<a href="#checkpoint1" class="btn-down btn-scroll">Scroll down</a>

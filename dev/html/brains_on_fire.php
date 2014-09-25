@@ -86,7 +86,7 @@
 				<section id="authoral-team">
 					<div class="row">
 						<h1>Meet the authoral team</h1>
-						<p>all of them are illustrious in their own right.</p>
+						<p>All of them are illustrious in their own right.</p>
 						<div class="circle-orbit-nav books-orbit">
 							<a data-orbit-link="circle-headline-1"><span class="circle"><span class="table"><img src="images/books/robbin.jpg" alt="Robbin Phillips"><span class="title">Robbin Phillips</span></span></span></a>
 							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
@@ -123,7 +123,7 @@
 				<section id="blockquote" class="books">
 					<div class="row">
 						<h1>Reviews</h1>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+						<p>Some nice words from smart people.</p>
 						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false; variable_height: true;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>

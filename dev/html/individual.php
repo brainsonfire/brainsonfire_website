@@ -36,7 +36,8 @@
 								<img src="images/individuals/lobby-shots/sarah-comingsoon.png" alt="Sarah Leitner" class="sarah">
 								<img src="images/individuals/lobby-shots/sean.png" alt="Sean Madden" class="sean">
 								<img src="images/individuals/lobby-shots/shannon.png" alt="Shannon Kohn" class="shannon">
-								<img src="images/individuals/lobby-shots/wicket.png" alt="Wicket" class="wicket">
+								<!-- removed page
+								<img src="images/individuals/lobby-shots/wicket.png" alt="Wicket" class="wicket"> -->
 							</div>
 							
 							<div class="holder02">
@@ -194,13 +195,13 @@
 									<!-- <h2>Shannon Kohn</h2> -->
 								</a>
 							</li>
-							<li>
+							<!---<li>
 								<a href="wicket.php">
 									<img src="images/individuals/wicket-167x167.jpg" alt="Wicket">
-									<img src="images/individuals/wicket-167x167-h.jpg" alt="Wicket" class="hover">
+									<img src="images/individuals/wicket-167x167-h.jpg" alt="Wicket" class="hover">-->
 									<!-- <h2>Wicket</h2> -->
-								</a>
-							</li>
+								<!--</a>
+							</li> -->
 						</ul>
 					</div>
 					<div class="about">

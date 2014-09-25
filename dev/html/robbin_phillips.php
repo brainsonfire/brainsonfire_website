@@ -14,7 +14,7 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="wicket.php"><span>previous individual</span></a></li>
+							<li><a class="previous" href="shannon_kohn.php"><span>previous individual</span></a></li>
 							<li><a class="center" href="individual.php"><span>back to all people</span></a></li>
 							<li><a class="next" href="greg_cordell.php"><span>next individual</span></a></li>
 						</ul>
@@ -80,7 +80,7 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="wicket.php"><span>previous individual</span></a></li>
+							<li><a class="previous" href="shannon_kohn.php"><span>previous individual</span></a></li>
 							<li><a class="center" href="individual.php"><span>back to all people</span></a></li>
 							<li><a class="next" href="greg_cordell.php"><span>next individual</span></a></li>
 						</ul>

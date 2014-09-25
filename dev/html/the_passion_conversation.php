@@ -136,7 +136,7 @@
 				<section id="blockquote" class="books">
 					<div class="row">
 						<h1>Reviews</h1>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+						<p>Some nice words from smart people.</p>
 						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false; variable_height: true;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>

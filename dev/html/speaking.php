@@ -46,11 +46,10 @@
 					<div class="row">
 						<h1>How it all works.</h1>
 						<div class="large-4 medium-6 small-12 columns">
-							<p>We’ve spoken at conferences big and small spreading passion, inspiration, and oodles of marketing know-how. We can deliver a wicked good presentation for your business or conference on how to spark love and passion from your biggest fans as well as how to ignite powerful, meaningful, sustainable word of mouth movements.</p>
-							<p>With the release of our newest book, we’re waiving our speaking fee in exchange for ordering bulk copies of THE PASSION CONVERSATION.</p>
+							<p>We’ve presented at conferences (big and small) spreading passion, inspiration, and oodles of marketing know-how around the globe. Our speakers can deliver presentations or workshops on how to spark love and passion amongst your biggest advocates, as well as how to ignite powerful, sustainable word of mouth movements. Brains on Fire’s domestic speaking fee starts at $2,500* + travel expenses, in addition to the purchase of one copy of our book, The Passion Conversation, for each event attendee. </p>
 						</div>
 						<div class="large-4 medium-6 small-12 columns">
-							<p>Here’s the deal. If you purchase at least 200 copies of The Passion Conversation and cover travel costs, one of the authors will head your way to deliver one heck of a keynote talk. Interested? Book us by clicking below. Act swift because this offer won’t last long. Our speaking schedule fills up fast and we have a limited number of dates available. (Client work always comes first.) So really…you gotta move fast.</p>
+							<p>Workshops are available for an additional rate. If you’re interested in bringing a little of the BOF magic to your event, click the "book us now"  button below to get the ball rolling. Act fast, because this offer won’t last long. Our speaking schedule fills up quickly, and we have a limited number of dates available. (Client work always comes first in our world!)</p>
 						</div>
 						<div class="large-4 medium-12 small-12 columns audience">
 							<h3>Audiences Include</h3>
