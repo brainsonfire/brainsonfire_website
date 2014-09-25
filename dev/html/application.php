@@ -39,11 +39,11 @@
 									<label class="desc" id="title1" for="Field1">Main Point of Contact</label>
 									<span>
 										<!-- <label for="Field1">First</label> -->
-										<input id="Field1" name="Field1" type="text" class="field text fn" placeholder="First" size="40" tabindex="2" />
+										<input id="Field1" name="Field1" type="text" class="field text fn" placeholder="First Name" size="40" tabindex="2" />
 									</span>
 									<span>
 										<!-- <label for="Field2">Last</label> -->
-										<input id="Field2" name="Field2" type="text" class="field text ln" placeholder="Last" size="40" tabindex="3" />
+										<input id="Field2" name="Field2" type="text" class="field text ln" placeholder="Last Name" size="40" tabindex="3" />
 									</span>
 								</li>
 								<li id="foli3" class="notranslate row">
