@@ -28,8 +28,8 @@
 							<h2>Brains on Fire</h2>
 							<p>Igniting Powerful, Sustainable, <br>Word of Mouth Movements</p>
 							<div class="btn-holder">
-								<a href="book.php" class="button btn-blue">learn more</a>
-								<a href="#" class="button btn-green">buy now</a>
+								<a href="brains_on_fire.php" class="button btn-blue">learn more</a>
+								<a href="brains_on_fire.php" class="button btn-green">buy now</a>
 							</div>
 						</div>
 						<div class="half-block books">
@@ -39,7 +39,7 @@
 							<h2>The Passion Conversation</h2>
 							<p>Understanding, Sparking, Sustaining, <br>Word of Mouth Marketing</p>
 							<div class="btn-holder">
-								<a href="book.php" class="button btn-blue">learn more</a>
+								<a href="the_passion_conversation.php" class="button btn-blue">learn more</a>
 								<a href="#" class="button btn-green">buy now</a>
 							</div>
 						</div>

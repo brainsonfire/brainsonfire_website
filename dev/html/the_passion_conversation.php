@@ -60,7 +60,7 @@
 							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/john.jpg" alt="John Moore"><span class="title">John Moore</span></span></span></a>
 							<a data-orbit-link="circle-headline-4"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;">
+						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: true;">
 							<li data-orbit-slide="circle-headline-1">
 								<div class="medium-down">
 									<img src="images/books/robbin.jpg" alt="Robbin Phillips">

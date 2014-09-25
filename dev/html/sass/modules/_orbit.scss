@@ -187,14 +187,10 @@
 #how-we-work .orbit-container {
   @include min-screen(768px) {
     background: rgba(#FFF, 0.95);
-    .orbit-prev,
-    .orbit-next {
-      display: none;
-    }
   }
   @include max-screen(767px) {
+    padding: 28px 0 !important;
     ul {
-      background: rgba(#FFF, 0.95);
       width: 98%;
       margin: 0 auto;
       overflow: hidden;
@@ -202,6 +198,22 @@
         padding: 0 20px 20px;
       }
     }
+  }
+}
+#authoral-team .orbit-container,
+#how-we-work .orbit-container {
+  background: rgba(#fff, 0.95);
+  @include min-screen(768px) {
+    margin: 0 0 39px;
+    padding: 48px 0 40px;
+    .orbit-prev,
+    .orbit-next {
+      display: none;
+    }
+  }
+  @include max-screen(767px) {
+    margin: 0 auto 20px; 
+    padding: 28px 0 0;
     .orbit-next {
       right: -10px;
     }
@@ -226,16 +238,6 @@
     .orbit-prev {
       background: url(../images/library/arrows.png) no-repeat 0 -132px;
     }
-  }
-}
-#authoral-team .orbit-container,
-#how-we-work .orbit-container {
-  padding: 48px 0 40px;
-  @include min-screen(768px) {
-    margin: 0 0 39px;
-  }
-  @include max-screen(767px) {
-    margin: 0 auto 20px; 
   }
   li {
     padding: 0 50px;

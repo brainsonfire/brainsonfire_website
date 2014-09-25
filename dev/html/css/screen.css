@@ -2307,86 +2307,103 @@ p.intro {
   #how-we-work .orbit-container {
     background: rgba(255, 255, 255, 0.95);
   }
-  /* line 190, ../sass/modules/_orbit.scss */
+}
+@media screen and (max-width: 767px) {
+  /* line 187, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container {
+    padding: 28px 0 !important;
+  }
+  /* line 193, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container ul {
+    width: 98%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  /* line 197, ../sass/modules/_orbit.scss */
+  #how-we-work .orbit-container ul li {
+    padding: 0 20px 20px;
+  }
+}
+
+/* line 203, ../sass/modules/_orbit.scss */
+#authoral-team .orbit-container,
+#how-we-work .orbit-container {
+  background: rgba(255, 255, 255, 0.95);
+}
+@media screen and (min-width: 768px) {
+  /* line 203, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container,
+  #how-we-work .orbit-container {
+    margin: 0 0 39px;
+    padding: 48px 0 40px;
+  }
+  /* line 209, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-prev,
+  #authoral-team .orbit-container .orbit-next,
   #how-we-work .orbit-container .orbit-prev,
   #how-we-work .orbit-container .orbit-next {
     display: none;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 196, ../sass/modules/_orbit.scss */
-  #how-we-work .orbit-container ul {
-    background: rgba(255, 255, 255, 0.95);
-    width: 98%;
-    margin: 0 auto;
-    overflow: hidden;
+  /* line 203, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container,
+  #how-we-work .orbit-container {
+    margin: 0 auto 20px;
+    padding: 28px 0 0;
   }
-  /* line 201, ../sass/modules/_orbit.scss */
-  #how-we-work .orbit-container ul li {
-    padding: 0 20px 20px;
-  }
-  /* line 205, ../sass/modules/_orbit.scss */
+  /* line 217, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-next,
   #how-we-work .orbit-container .orbit-next {
     right: -10px;
   }
-  /* line 208, ../sass/modules/_orbit.scss */
+  /* line 220, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-prev,
   #how-we-work .orbit-container .orbit-prev {
     left: -10px;
   }
-  /* line 211, ../sass/modules/_orbit.scss */
+  /* line 223, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-next,
+  #authoral-team .orbit-container .orbit-prev,
   #how-we-work .orbit-container .orbit-next,
   #how-we-work .orbit-container .orbit-prev {
     width: 31px;
     height: 44px;
     opacity: 0.8;
   }
-  /* line 216, ../sass/modules/_orbit.scss */
+  /* line 228, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-next span,
+  #authoral-team .orbit-container .orbit-prev span,
   #how-we-work .orbit-container .orbit-next span,
   #how-we-work .orbit-container .orbit-prev span {
     display: none;
   }
-  /* line 219, ../sass/modules/_orbit.scss */
+  /* line 231, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-next:hover,
+  #authoral-team .orbit-container .orbit-prev:hover,
   #how-we-work .orbit-container .orbit-next:hover,
   #how-we-work .orbit-container .orbit-prev:hover {
     opacity: 1;
   }
-  /* line 223, ../sass/modules/_orbit.scss */
+  /* line 235, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-next,
   #how-we-work .orbit-container .orbit-next {
     background: url(../images/library/arrows.png) no-repeat 0 -88px;
   }
-  /* line 226, ../sass/modules/_orbit.scss */
+  /* line 238, ../sass/modules/_orbit.scss */
+  #authoral-team .orbit-container .orbit-prev,
   #how-we-work .orbit-container .orbit-prev {
     background: url(../images/library/arrows.png) no-repeat 0 -132px;
   }
 }
-
-/* line 231, ../sass/modules/_orbit.scss */
-#authoral-team .orbit-container,
-#how-we-work .orbit-container {
-  padding: 48px 0 40px;
-}
-@media screen and (min-width: 768px) {
-  /* line 231, ../sass/modules/_orbit.scss */
-  #authoral-team .orbit-container,
-  #how-we-work .orbit-container {
-    margin: 0 0 39px;
-  }
-}
-@media screen and (max-width: 767px) {
-  /* line 231, ../sass/modules/_orbit.scss */
-  #authoral-team .orbit-container,
-  #how-we-work .orbit-container {
-    margin: 0 auto 20px;
-  }
-}
-/* line 240, ../sass/modules/_orbit.scss */
+/* line 242, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container li,
 #how-we-work .orbit-container li {
   padding: 0 50px;
   font-weight: 500;
 }
 @media screen and (min-width: 768px) {
-  /* line 240, ../sass/modules/_orbit.scss */
+  /* line 242, ../sass/modules/_orbit.scss */
   #authoral-team .orbit-container li,
   #how-we-work .orbit-container li {
     font-size: 20px;
@@ -2396,7 +2413,7 @@ p.intro {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 240, ../sass/modules/_orbit.scss */
+  /* line 242, ../sass/modules/_orbit.scss */
   #authoral-team .orbit-container li,
   #how-we-work .orbit-container li {
     font-size: 16px;
@@ -2405,18 +2422,18 @@ p.intro {
     line-height: 1.625rem;
   }
 }
-/* line 251, ../sass/modules/_orbit.scss */
+/* line 253, ../sass/modules/_orbit.scss */
 #authoral-team .orbit-container li strong,
 #how-we-work .orbit-container li strong {
   display: block;
   font-weight: 700;
 }
 
-/* line 258, ../sass/modules/_orbit.scss */
+/* line 260, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container {
   margin: 45px 0 20px;
 }
-/* line 260, ../sass/modules/_orbit.scss */
+/* line 262, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next,
 #gallery-slider .orbit-container .orbit-prev {
   display: block !important;
@@ -2424,37 +2441,37 @@ p.intro {
   height: 44px;
   opacity: 0.8;
 }
-/* line 266, ../sass/modules/_orbit.scss */
+/* line 268, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next span,
 #gallery-slider .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 269, ../sass/modules/_orbit.scss */
+/* line 271, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next:hover,
 #gallery-slider .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 273, ../sass/modules/_orbit.scss */
+/* line 275, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 -88px;
 }
 @media screen and (max-width: 767px) {
-  /* line 273, ../sass/modules/_orbit.scss */
+  /* line 275, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .orbit-next {
     right: -10px;
   }
 }
-/* line 279, ../sass/modules/_orbit.scss */
+/* line 281, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -132px;
 }
 @media screen and (max-width: 767px) {
-  /* line 279, ../sass/modules/_orbit.scss */
+  /* line 281, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .orbit-prev {
     left: -10px;
   }
 }
-/* line 285, ../sass/modules/_orbit.scss */
+/* line 287, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .gallery-orbit {
   max-width: 975px;
   margin: 0 auto;
@@ -2466,39 +2483,39 @@ p.intro {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  /* line 285, ../sass/modules/_orbit.scss */
+  /* line 287, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .gallery-orbit {
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 285, ../sass/modules/_orbit.scss */
+  /* line 287, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .gallery-orbit {
     width: 88%;
   }
 }
 
-/* line 306, ../sass/modules/_orbit.scss */
+/* line 308, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container ul {
   overflow: hidden;
   width: 100%;
 }
 @media screen and (min-width: 1024px) {
-  /* line 306, ../sass/modules/_orbit.scss */
+  /* line 308, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container ul {
     max-width: 770px;
     margin: 0 auto 44px;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 306, ../sass/modules/_orbit.scss */
+  /* line 308, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container ul {
     max-width: 90%;
     text-align: center;
     margin: 0 auto 22px;
   }
 }
-/* line 319, ../sass/modules/_orbit.scss */
+/* line 321, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next,
 #movement-info .orbit-container .orbit-prev {
   display: block !important;
@@ -2506,42 +2523,42 @@ p.intro {
   height: 44px;
   opacity: 0.8;
 }
-/* line 325, ../sass/modules/_orbit.scss */
+/* line 327, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next span,
 #movement-info .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 328, ../sass/modules/_orbit.scss */
+/* line 330, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next:hover,
 #movement-info .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 332, ../sass/modules/_orbit.scss */
+/* line 334, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 0;
 }
 @media screen and (max-width: 1023px) {
-  /* line 332, ../sass/modules/_orbit.scss */
+  /* line 334, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container .orbit-next {
     right: -10px;
   }
 }
-/* line 338, ../sass/modules/_orbit.scss */
+/* line 340, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -44px;
 }
 @media screen and (max-width: 1023px) {
-  /* line 338, ../sass/modules/_orbit.scss */
+  /* line 340, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container .orbit-prev {
     left: -10px;
   }
 }
-/* line 344, ../sass/modules/_orbit.scss */
+/* line 346, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li {
   font-weight: 500;
 }
 @media screen and (min-width: 768px) {
-  /* line 344, ../sass/modules/_orbit.scss */
+  /* line 346, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container li {
     font-size: 20px;
     font-size: 1.25rem;
@@ -2550,7 +2567,7 @@ p.intro {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 344, ../sass/modules/_orbit.scss */
+  /* line 346, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container li {
     font-size: 16px;
     font-size: 1rem;
@@ -2558,11 +2575,11 @@ p.intro {
     line-height: 1.375rem;
   }
 }
-/* line 354, ../sass/modules/_orbit.scss */
+/* line 356, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li strong {
   font-weight: 500;
 }
-/* line 359, ../sass/modules/_orbit.scss */
+/* line 361, ../sass/modules/_orbit.scss */
 #movement-info p.hint {
   margin: 19px 0 0;
   text-align: center;
@@ -2573,7 +2590,7 @@ p.intro {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 367, ../sass/modules/_orbit.scss */
+/* line 369, ../sass/modules/_orbit.scss */
 #movement-info p.hint a {
   font-weight: bold;
   color: #00AACB;
@@ -2582,48 +2599,48 @@ p.intro {
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 375, ../sass/modules/_orbit.scss */
+  /* line 377, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 81px 0 0;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 375, ../sass/modules/_orbit.scss */
+  /* line 377, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 50px 0 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 375, ../sass/modules/_orbit.scss */
+  /* line 377, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 40px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 375, ../sass/modules/_orbit.scss */
+  /* line 377, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 30px 0 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 388, ../sass/modules/_orbit.scss */
+  /* line 390, ../sass/modules/_orbit.scss */
   #blockquote .orbit-container {
     margin: 0 0 75px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 388, ../sass/modules/_orbit.scss */
+  /* line 390, ../sass/modules/_orbit.scss */
   #blockquote .orbit-container {
     margin: 0 0 55px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 388, ../sass/modules/_orbit.scss */
+  /* line 390, ../sass/modules/_orbit.scss */
   #blockquote .orbit-container {
     margin: 0 0 30px;
   }
 }
-/* line 399, ../sass/modules/_orbit.scss */
+/* line 401, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next,
 #blockquote .orbit-prev {
   display: block !important;
@@ -2631,25 +2648,25 @@ p.intro {
   height: 44px;
   opacity: 0.8;
 }
-/* line 405, ../sass/modules/_orbit.scss */
+/* line 407, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next span,
 #blockquote .orbit-prev span {
   display: none;
 }
-/* line 408, ../sass/modules/_orbit.scss */
+/* line 410, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next:hover,
 #blockquote .orbit-prev:hover {
   opacity: 1;
 }
-/* line 412, ../sass/modules/_orbit.scss */
+/* line 414, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 -88px;
 }
-/* line 415, ../sass/modules/_orbit.scss */
+/* line 417, ../sass/modules/_orbit.scss */
 #blockquote .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -132px;
 }
-/* line 418, ../sass/modules/_orbit.scss */
+/* line 420, ../sass/modules/_orbit.scss */
 #blockquote .blockquote-orbit {
   width: 100%;
   margin: 0 auto;
@@ -2661,14 +2678,14 @@ p.intro {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  /* line 418, ../sass/modules/_orbit.scss */
+  /* line 420, ../sass/modules/_orbit.scss */
   #blockquote .blockquote-orbit {
     width: 80%;
     margin: 0 auto;
     overflow: hidden;
   }
 }
-/* line 433, ../sass/modules/_orbit.scss */
+/* line 435, ../sass/modules/_orbit.scss */
 #blockquote blockquote {
   border-left: 0;
   margin: 0 0 18px;
@@ -2679,7 +2696,7 @@ p.intro {
   font-style: italic;
 }
 @media screen and (min-width: 1024px) {
-  /* line 433, ../sass/modules/_orbit.scss */
+  /* line 435, ../sass/modules/_orbit.scss */
   #blockquote blockquote {
     font-size: 34px;
     font-size: 2.125rem;
@@ -2688,7 +2705,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 433, ../sass/modules/_orbit.scss */
+  /* line 435, ../sass/modules/_orbit.scss */
   #blockquote blockquote {
     font-size: 28px;
     font-size: 1.75rem;
@@ -2697,7 +2714,7 @@ p.intro {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 433, ../sass/modules/_orbit.scss */
+  /* line 435, ../sass/modules/_orbit.scss */
   #blockquote blockquote {
     font-size: 20px;
     font-size: 1.25rem;
@@ -2705,13 +2722,13 @@ p.intro {
     line-height: 1.875rem;
   }
 }
-/* line 454, ../sass/modules/_orbit.scss */
+/* line 456, ../sass/modules/_orbit.scss */
 #blockquote cite {
   font-family: Georgia, serif;
   font-style: italic;
 }
 @media screen and (min-width: 1024px) {
-  /* line 454, ../sass/modules/_orbit.scss */
+  /* line 456, ../sass/modules/_orbit.scss */
   #blockquote cite {
     font-size: 20px;
     font-size: 1.25rem;
@@ -2720,7 +2737,7 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 454, ../sass/modules/_orbit.scss */
+  /* line 456, ../sass/modules/_orbit.scss */
   #blockquote cite {
     font-size: 18px;
     font-size: 1.125rem;
@@ -2729,7 +2746,7 @@ p.intro {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 454, ../sass/modules/_orbit.scss */
+  /* line 456, ../sass/modules/_orbit.scss */
   #blockquote cite {
     font-size: 16px;
     font-size: 1rem;
