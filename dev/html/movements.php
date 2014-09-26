@@ -68,9 +68,21 @@
 						<h1>Some Examples</h1>
 						<p>Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis.</p>
 						<ul class="row works-list">
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/library/example-1.jpg" alt="Wonderopolis"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/library/example-2.jpg" alt="Heroes in Recovery"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/library/example-3.jpg" alt="EDF Ambassadors"></a></li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="example_page.php">
+									<img src="images/library/example-1.jpg" alt="Wonderopolis">
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="heroes_in_recovery.php">
+									<img src="images/library/example-2.jpg" alt="Heroes in Recovery">
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="example_page.php">
+									<img src="images/library/example-3.jpg" alt="EDF Ambassadors">
+								</a>
+							</li>
 						</ul>
 						<div class="btn-holder">
 							<a class="button btn-green" href="#dummy">see all of our case studies</a>

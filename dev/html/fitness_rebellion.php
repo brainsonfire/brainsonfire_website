@@ -26,7 +26,7 @@
 					<img src="images/case-study/fitness-rebellion/fitness-hero.jpg" alt="Fitness Rebellion">
 				</div>
 
-				<section id="love-146-intro" class="intro">
+				<section id="fitness-rebellion-intro" class="intro">
 					<div class="row">
 						<h1>The Fitness Rebellion</h1>
 						<div class="two-col">

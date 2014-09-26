@@ -1,4 +1,4 @@
-<?php $title = 'Brains on Fire | Ambassador-Led Movements | Tinkernation' ?>
+<?php $title = 'Brains on Fire | Ambassador-Led Movements | Title Here' ?>
 <?php include("inc/head.php"); ?>
 <body>
 	<!--[if lte IE 8]>
@@ -15,20 +15,20 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="fitness_rebellion.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="#dummy"><span>previous story</span></a></li>
 							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="greenville.php"><span>next story</span></a></li>
+							<li><a class="next" href="#dummy"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>
 				
-				<div id="fiskateers" class="main-photo">
-					<img src="images/case-study/tinkernation/tinker-hero.jpg" alt="Tinkernation">
+				<div id="id-of-page-here" class="main-photo">
+					<img src="images/path/to/image" alt="">
 				</div>
 				
-				<section id="fiskateers-intro" class="intro">
+				<section id="id-of-page-here-intro" class="intro">
 					<div class="row">
-						<h1>Tinkernation</h1>
+						<h1>Title Here</h1>
 						<div class="two-col">
 							<div class="left">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laudantium doloremque dolorum repellat blanditiis earum aspernatur consequuntur sequi iste beatae neque, repudiandae sint amet at tempore, autem cum, quam ab.</p>
@@ -43,9 +43,9 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="fitness_rebellion.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="#dummy"><span>previous story</span></a></li>
 							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="greenville.php"><span>next story</span></a></li>
+							<li><a class="next" href="#dummy"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>

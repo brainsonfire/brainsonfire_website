@@ -26,7 +26,7 @@
 					<img src="images/case-study/greenville/gvl-hero.jpg" alt="Greenville">
 				</div>
 				
-				<section id="love-146-intro" class="intro">
+				<section id="greenville-intro" class="intro">
 					<div class="row">
 						<h1>Life in Greenville</h1>
 						<div class="two-col">

@@ -26,7 +26,7 @@
 					<img src="images/case-study/fiskateers/fisk-hero.png" alt="Fiskateers">
 				</div>
 				
-				<section id="love-146-intro" class="intro">
+				<section id="fiskateers-intro" class="intro">
 					<div class="row">
 						<h1>Fiskateers</h1>
 						<div class="two-col">
