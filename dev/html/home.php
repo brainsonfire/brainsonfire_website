@@ -39,9 +39,21 @@
 						<h1>Some of our work.</h1>
 						<p>Be Famous For The People Who Love You... For The Way You Love Them.</p>
 						<ul class="row works-list">
-							<li class="large-4 medium-4 small-12 columns"><a href="love_146.php"><img src="images/home/love_146.jpg" alt="Love 146"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/fr.jpg" alt="Fitness Rebellion"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="heroes_in_recovery.php"><img src="images/home/heroes.jpg" alt="Heroes in Recovery"></a></li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="love_146.php">
+									<img src="images/home/love_146.jpg" alt="Love 146">
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="fitness_rebellion.php">
+									<img src="images/home/fr.jpg" alt="Fitness Rebellion">
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="heroes_in_recovery.php">
+									<img src="images/home/heroes.jpg" alt="Heroes in Recovery">
+								</a>
+							</li>
 						</ul>
 						<div class="btn-holder">
 							<a class="button btn-ico btn-orange" href="case_studies.php">View all of our case studies</a>

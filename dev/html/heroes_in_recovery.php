@@ -17,7 +17,7 @@
 						<ul>
 							<li><a class="previous" href="love_146.php"><span>previous story</span></a></li>
 							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="love_146.php"><span>next story</span></a></li>
+							<li><a class="next" href="fiskateers.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -154,9 +154,9 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="#dummy"><span>previous story</span></a></li>
-							<li><a class="center" href="#dummy"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="#dummy"><span>next story</span></a></li>
+							<li><a class="previous" href="love_146.php"><span>previous story</span></a></li>
+							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
+							<li><a class="next" href="fiskateers.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>

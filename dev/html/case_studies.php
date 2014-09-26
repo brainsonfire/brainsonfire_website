@@ -26,66 +26,66 @@
 						<ul class="row project-list">
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="love_146.php">
-									<img src="images/case-study/project_01.jpg" alt="Lorem Ipsum">
+									<img src="images/case-study/project_01.jpg" alt="Love 146">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Lorem Ipsum</span>
-											<span class="desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+											<span class="title">Love 146</span>
+											<span class="desc">End child trafficking and exploitation.</span>
 										</span>
 									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="heroes_in_recovery.php">
-									<img src="images/case-study/project_02.jpg" alt="Lorem Ipsum">
+									<img src="images/case-study/project_02.jpg" alt="Heroes in Recovery">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Lorem Ipsum</span>
-											<span class="desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+											<span class="title">Heroes in Recovery</span>
+											<span class="desc">Eliminate the social stigma of mental illness and addiction.</span>
 										</span>
 									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#dummy">
-									<img src="images/case-study/project_03.jpg" alt="Lorem Ipsum">
+								<a href="fiskateers.php">
+									<img src="images/case-study/project_03.jpg" alt="Fiskateers">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Lorem Ipsum</span>
-											<span class="desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+											<span class="title">Fiskateers</span>
+											<span class="desc">Reframing the conversation around a 350 year old brand.</span>
 										</span>
 									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#dummy">
-									<img src="images/case-study/project_04.jpg" alt="Lorem Ipsum">
+								<a href="fitness_rebellion.php">
+									<img src="images/case-study/project_04.jpg" alt="Fitness Rebellion">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Lorem Ipsum</span>
-											<span class="desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+											<span class="title">Fitness Rebellion</span>
+											<span class="desc">Celebrate everyday accomplishments in fitness.</span>
 										</span>
 									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#dummy">
-									<img src="images/case-study/project_05.jpg" alt="Lorem Ipsum">
+								<a href="tinkernation.php">
+									<img src="images/case-study/project_05.jpg" alt="Tinkernation">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Lorem Ipsum</span>
-											<span class="desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+											<span class="title">Tinkernation</span>
+											<span class="desc">Making Liquid Wrench relevant to makers, restorers, and fixers.</span>
 										</span>
 									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#dummy">
-									<img src="images/case-study/project_06.jpg" alt="Lorem Ipsum">
+								<a href="greenville.php">
+									<img src="images/case-study/project_06.jpg" alt="Greenville">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Lorem Ipsum</span>
-											<span class="desc">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</span>
+											<span class="title">Yeah, That Greenville</span>
+											<span class="desc">Celebrating the best thing about Greenville, SC - it's people.</span>
 										</span>
 									</span>
 								</a>
