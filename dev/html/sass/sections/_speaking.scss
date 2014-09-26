@@ -90,6 +90,33 @@
     }
   }
 }
+#speaking-package {
+  background: #FFF;
+  @include min-screen(1200px) {
+    padding: 91px 0 93px;
+    h1 + p {
+      margin: 0 0 50px;
+    }
+  }
+  p.title {
+    color: #939f57;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    margin: 0 0 11px;
+    word-spacing: 1px;
+    @include line-height(36);
+    @include font-size(24);
+  }
+  p.hint {
+    color: #999;
+    font-size: 12px;
+    font-style: italic;
+    margin: 50px 0;
+    text-align: center;
+    @include line-height(12);
+  }
+}
 #favorite {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
   @include min-screen(1200px) {

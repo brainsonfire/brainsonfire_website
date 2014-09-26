@@ -19,22 +19,17 @@
 				</section>
 				<div id="speakers">
 					<div class="row">
-						<div class="large-4 medium-6 small-12 columns">
+						<div class="large-4 medium-4 small-12 columns">
 							<a href="robbin_speaker.php"><img src="images/speaking/robbin.jpg" alt="Robbin Phillips"></a>
 							<h3><a href="robbin_speaker.php">Robbin Phillips</a></h3>
 							<a href="robbin_speaker.php" class="button btn-orange">learn more</a>
 						</div>
-						<div class="large-4 medium-6 small-12 columns">
+						<div class="large-4 medium-4 small-12 columns">
 							<a href="geno_speaker.php"><img src="images/speaking/geno.jpg" alt="Geno Church"></a>
 							<h3><a href="geno_speaker.php">Geno Church</a></h3>
 							<a href="geno_speaker.php" class="button btn-orange">learn more</a>
 						</div>
-<!-- 						<div class="large-3 medium-6 small-12 columns">
-							<a href="john_speaker.php"><img src="images/speaking/john.jpg" alt="John Moore"></a>
-							<h3><a href="john_speaker.php">John Moore</a></h3>
-							<a href="john_speaker.php" class="button btn-orange">learn more</a>
-						</div> -->
-						<div class="large-4 medium-6 small-12 columns">
+						<div class="large-4 medium-4 small-12 columns">
 							<a href="greg_speaker.php"><img src="images/speaking/greg.jpg" alt="Greg Cordell"></a>
 							<h3><a href="greg_speaker.php">Greg Cordell</a></h3>
 							<a href="greg_speaker.php" class="button btn-orange">learn more</a>
@@ -67,10 +62,36 @@
 						</div>
 					</div>
 				</section>
+
+				<section id="speaking-package">
+					<div class="row">
+						<h1>Speaking Packages</h1>
+						<p>Choices, choices.</p>
+						<div class="row">
+							<div class="large-6 medium-6 small-12 columns">
+								<p class="title">PACKAGE 1: Presentation</p>
+								<p>A Brains on Fire speaker will travel to your event to deliver a presentation tailored to your audience. (2 hours)</p>
+								<p class="title">Cost:</p>
+								<p>$2,500*, travel and purchase of one copy of our book for each attendee.</p>
+							</div>
+							<div class="large-6 medium-6 small-12 columns">
+								<p class="title">PACKAGE 2: Presentation + Workshop</p>
+								<p>A Brains on Fire speaker will travel to your event to deliver a presentation tailored to your audience. Afterward, our speaker will facilitate a hands-on workshop** that teaches attendees how to put the principles of word of mouth marketing to use when they head back home. (4 hours)</p>
+								<p class="title">Cost:</p>
+								<p>$5,000*, travel and purchase of one copy of our book for each attendee.</p>
+							</div>
+							<p class="hint">*subject to change, **workshop size is limited</p>
+						</div>
+						<div class="btn-holder">
+							<a href="#form" class="button btn-orange btn-scroll">book us now</a>
+						</div>
+					</div>
+				</section>
+
 				<section id="favorite">
 					<div class="row">
-						<h1>Favorite Topics</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<h1>What We Talk About</h1>
+						<p>A few of our favorites.</p>
 						<div class="content">
 							<div class="half-wrap">
 								<div class="videoHolder">
@@ -79,17 +100,14 @@
 							</div>
 							<ul>
 								<li>Word of Mouth Marketing</li>
+								<li>Community</li>
 								<li>WOM Movements</li>
+								<li>Leadership</li>
 								<li>Social Signaling</li>
+								<li>Creativity</li>
 								<li>Social Media</li>
-								<li>How to Get People to Talking Offline</li>
 								<li>Cause Marketing</li>
 								<li>Identity & Branding</li>
-								<li>Identity & Branding</li>
-								<li>WOM Crash Course</li>
-								<li>Dumbing Down WOMM</li>
-								<li>Womology</li>
-								<li>Community</li>
 								<li>Lessons Learned Igniting WOM Movements</li>
 							</ul>
 						</div>
@@ -98,7 +116,7 @@
 				<section id="upcoming" class="white-text">
 					<div class="row">
 						<h1>Upcoming dates</h1>
-						<p>Hope to see you Soon.</p>
+						<p>See you there.</p>
 						<div class="large-4 columns">
 							<h3><a target="_blank" href="http://www.tbbaconvention.com/">Texas B&B Assoc. Annual Conference</a></h3>
 							<p>Sep. 7th-9th, 2014 | Galveston, TX</p>
@@ -116,7 +134,7 @@
 						</div>
 					</div>
 					<div class="row">
-						<h2>Recent events</h2>
+						<h2>Past gigs</h2>
 						<p>Sorry we missed tou.</p>
 						<div class="large-4 columns">
 							<h3>WOMMNEXT</h3>
@@ -185,7 +203,7 @@
 				<section id="form">
 					<div class="row">
 						<h1>Book us</h1>
-						<p>By typing away in the form below.</p>
+						<p>Or just submit a speaking inquiry.</p>
 						<form id="form6" name="form6" class="wufoo rightLabel page" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://firesession.wufoo.com/forms/w1vlikfx0shln0y/#public">
 							<ul>
 								<li id="foli9" class="notranslate form-field row">
