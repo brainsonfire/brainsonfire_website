@@ -23,7 +23,7 @@
 				</div>
 				
 				<div id="id-of-page-here" class="main-photo">
-					<img src="images/path/to/image" alt="">
+					<img src="images/temp/temp.jpg" alt="">
 				</div>
 				
 				<section id="id-of-page-here-intro" class="intro">
