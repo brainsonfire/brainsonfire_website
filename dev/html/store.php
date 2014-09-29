@@ -83,7 +83,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="bam" target="_blank" href="http://www.booksamillion.com/ncom/books?pid=0470614188">
+								<a class="bam" target="_blank" href="http://www.booksamillion.com/p/Brains-Fire/Robbin-Phillips/Q362900852?id=6117550105521">
 									<img src="images/modal/bam.jpg" alt="">
 								</a>
 							</li>
