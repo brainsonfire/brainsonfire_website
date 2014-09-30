@@ -392,6 +392,9 @@ p.intro {
 .white-text {
   .row {
     position: relative;
+    @include min-screen(1200px) {
+      height: 100%;
+    }
   }
   * {
     color: #FFF;
@@ -428,10 +431,19 @@ p.intro {
 #book-banner,
 #speaker-banner {
   padding: 0;
-  max-height: 800px;
+  @include min-screen(1200px) {
+    height: 800px;
+  }
   > img {
     display: block;
     max-width: none;
+    @include min-screen(1200px) {
+      position: absolute;
+      bottom: 0;
+      min-height: 100%;
+      min-width: 100%;
+      width: auto;
+    }
     @include min-screen(1025px) {
       width: auto;
       min-width: 100%;
