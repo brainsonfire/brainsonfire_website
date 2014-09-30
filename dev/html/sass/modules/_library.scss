@@ -445,7 +445,8 @@ p.intro {
   .half-block {
     z-index: 30;
     @include min-screen(1200px) {
-      height: 20%;
+      top: 30% !important;
+      height: 40%;
       width: 44%;
       padding: 15px 0 0;
     }
