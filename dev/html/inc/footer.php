@@ -10,7 +10,7 @@
 			<a class="tel fnc-tel" href="tel:864-676-9663">864-676-9663</a>
 		</div>
 		<div class="block email-block">
-			<a class="button btn-orange email-us" href="mailto:firestarter@brainsonfire.com">Email Us</a>
+			<a class="button btn-light-orange email-us" href="mailto:firestarter@brainsonfire.com">Email Us</a>
 		</div>
 		<div class="block connect-block">
 			<span class="text-online">Connect Online</span>

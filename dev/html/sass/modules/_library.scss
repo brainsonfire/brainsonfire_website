@@ -91,10 +91,19 @@ ul.row {
 .btn-orange {
   background-color: #d9531e;
   &:hover {
-    background-color: darken(#D9531E, 5%);
+    background-color: darken(#d9531e, 5%);
   }
   &:active {
     background-color: #d9531e;
+  }
+}
+.btn-light-orange {
+  background-color: #eb7e1f;
+  &:hover {
+    background-color: darken(#eb7e1f, 5%);
+  }
+  &:active {
+    background-color: #eb7e1f;
   }
 }
 .btn-green {
