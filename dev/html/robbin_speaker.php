@@ -53,7 +53,7 @@
 					<img src="images/speaking/robbin_banner.jpg" alt="Robbin Phillips">
 					<div class="half-block right">
 						<p>“People love brands who love people.”</p>
-						<a href="speaking.php#form" class="button btn-orange">book robbin now</a>
+						<a href="speaking.php#form" class="button btn-light-orange">book robbin now</a>
 					</div>
 				</div>
 

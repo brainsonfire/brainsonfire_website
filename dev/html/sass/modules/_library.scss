@@ -422,6 +422,9 @@ p.intro {
 #application-banner,
 #book-banner,
 #speaker-banner {
+  @include min-screen(1200px) {
+    height: 91vh;
+  }
   padding: 0;
   > img {
     display: block;
@@ -445,11 +448,11 @@ p.intro {
     padding: 15px;
     z-index: 30;
     @include min-screen(1200px) {
-      height: 10%;
+      height: 20%;
       width: 44%;
     }
     @include screen(1024px,1199px) {
-      height: 10%;
+      height: 40%;
       width: 54%;
     }
     @include min-screen(1024px) {
@@ -486,6 +489,11 @@ p.intro {
         float: left;
       }
     }
+  }
+}
+.speaker-detail {
+  .half-block .button {
+    @include font-size(23);
   }
 }
 .application {

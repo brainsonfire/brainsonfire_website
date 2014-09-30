@@ -54,7 +54,7 @@
 					<img src="images/speaking/geno_banner.jpg" alt="Geno Church">
 					<div class="half-block right">
 						<p>“A brand is not a label, it's a lens. People want to see what's happening on the other side.”</p>
-						<a href="speaking.php#form" class="button btn-orange">book geno now</a>
+						<a href="speaking.php#form" class="button btn-light-orange">book geno now</a>
 					</div>
 				</div>
 

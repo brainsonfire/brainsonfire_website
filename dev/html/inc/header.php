@@ -6,6 +6,7 @@
 		</div>
 	</div>
 	<nav class="right-off-canvas-menu">
+		<a class="exit-off-canvas"></a>
 		<ul class="primary-nav">
 			<li><a href="home.php">Home</a></li>
 			<li><a href="movements.php">Build a Movement</a></li>

@@ -54,7 +54,7 @@
 					<img src="images/speaking/greg_banner.jpg" alt="Greg Cordell">
 					<div class="half-block right">
 						<p>“Be famous for the people who love you for the way you love them.”</p>
-						<a href="speaking.php#form" class="button btn-orange">book greg now</a>
+						<a href="speaking.php#form" class="button btn-light-orange">book greg now</a>
 					</div>
 				</div>
 
