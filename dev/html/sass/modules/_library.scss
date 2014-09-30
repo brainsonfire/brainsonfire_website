@@ -428,6 +428,7 @@ p.intro {
 #book-banner,
 #speaker-banner {
   padding: 0;
+  max-height: 800px;
   > img {
     display: block;
     max-width: none;
