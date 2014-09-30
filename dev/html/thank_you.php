@@ -39,7 +39,7 @@
 			
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main" class="inner-pages">
+			<main id="main" class="inner-pages thanks-page">
 
 				<section id="ty-banner" class="white-text main-photo">
 					<img src="images/library/woodblock2-extralarge.jpg" alt="">

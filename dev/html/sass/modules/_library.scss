@@ -526,7 +526,7 @@ p.intro {
   }
   + .row {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     p {
       text-align: center;
     }
@@ -544,13 +544,12 @@ p.intro {
     }
   }
   h1 {
+    float: left;
+    max-width: 295px;
     @include min-screen(900px) {
       @include font-size(40);
     }
   }
-  h1 + p {
-    text-transform: none;
-  } 
 }
 #ty-banner {
   .half-block {
@@ -706,4 +705,7 @@ p.intro {
       }
     }
   }
+}
+.thanks-page + #footer .go-top {
+  display: none;
 }
