@@ -1,4 +1,7 @@
 #case-studies-banner {
+  @include min-screen(1200px) {
+    padding: 80px 0 45px;
+  }
   background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
   @include background-size(auto);
   h1 {
@@ -16,9 +19,6 @@
       margin: 0 auto;
     }
   }
-}
-#main.case-study {
-  background: #F8F8F8;
 }
 #projects-list {
   @include min-screen(1200px) {
