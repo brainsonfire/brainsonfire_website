@@ -46,11 +46,14 @@
 					<div class="row">
 						<div class="half-block left">
 							<h1>So, You want to work with brains on fire?</h1>
-							<p>Just as we believe in being marketing matchmakers who connect companies and causes to the right customers, we employ the same philosophy to our own business. When we are able to take on new work, we want to be certain we’re partnering with organizations we can help meaningfully succeed—and can have fun with along the way. In order to do just that, we’ve developed a process that helps us determine that you + us will equal a match made in marketing heaven.</p>
 						</div>
 					</div>
 				</section>
-				
+
+				<div class="row">
+					<p>Just as we believe in being marketing matchmakers who connect companies and causes to the right customers, we employ the same philosophy to our own business. When we are able to take on new work, we want to be certain we’re partnering with organizations we can help meaningfully succeed—and can have fun with along the way. In order to do just that, we’ve developed a process that helps us determine that you + us will equal a match made in marketing heaven.</p>
+				</div>
+
 				<section id="form">
 					<div class="row">
 						<h1>Application Form</h1>
