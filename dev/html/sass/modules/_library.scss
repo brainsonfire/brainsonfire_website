@@ -422,8 +422,8 @@ p.intro {
 #application-banner,
 #book-banner,
 #speaker-banner {
-  @include min-screen(1200px) {
-    height: 91vh;
+  @include min-screen(1500px) {
+    max-height: 90vh;
   }
   padding: 0;
   > img {
@@ -433,7 +433,6 @@ p.intro {
     @include min-screen(1200px) {
       width: auto;
       min-width: 100%;
-      min-height: 100%;
     }
     @include max-screen(1199px) {
       width: 100%;
@@ -508,9 +507,6 @@ p.intro {
   }
 }
 #application-banner {
-  @include min-screen(1200px) {
-    height: 75vh;
-  }
   .half-block {
     right: auto;
     left: 0;
