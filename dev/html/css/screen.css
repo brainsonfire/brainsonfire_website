@@ -2049,7 +2049,7 @@ p.intro {
   }
 }
 /* line 590, ../sass/modules/_library.scss */
-#application-banner + .row + form h1 {
+#application-banner + .row + #form h1 {
   margin: 0 0 40px;
 }
 

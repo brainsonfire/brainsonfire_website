@@ -587,7 +587,7 @@ p.intro {
       @include font-size(40);
     }
   }
-  + .row + form h1 {
+  + .row + #form h1 {
     margin: 0 0 40px;
   }
 }
