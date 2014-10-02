@@ -565,6 +565,7 @@ p.intro {
     padding-bottom: 30px;
     p {
       text-align: center;
+      color: #61615d;
     }
   }
   .half-block {
@@ -581,7 +582,7 @@ p.intro {
   }
   h1 {
     float: left;
-    max-width: 295px;
+    max-width: 525px;
     @include min-screen(900px) {
       @include font-size(40);
     }
