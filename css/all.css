@@ -1426,16 +1426,6 @@ body#hello-section #footer{
 	padding:66px 0 75px;
 	max-width:1200px;
 }
-
-.section-newsletter-band{
-	background: #ffffff url(../images/bg-body.png);
-}
-
-#hello-section .section-newsletter-band{
-	background: #ffffff url(../images/bg-path.png);
-}
-
-
 .section-work h1,
 .section-read h1,
 .section-author h1,
@@ -1443,8 +1433,7 @@ body#hello-section #footer{
 .form-contact h1,
 .people-holder h1,
 .people-post h1,
-.more-posts h1,
-.section-newsletter-band h1{
+.more-posts h1{
 	color:#333;
 	font-size:40px;
 	letter-spacing:-1px;	
@@ -1458,8 +1447,8 @@ body#hello-section #footer{
 .section-read h2,
 .section-author h2,
 .section-wares h2,
-.people-holder h2,
-.section-newsletter-band h2{
+.people-holder h2
+{
 	color:#333;
 	font-size:18px;
 	font-weight:400;
@@ -1469,34 +1458,9 @@ body#hello-section #footer{
 	text-align:center;
 	text-transform:uppercase;
 }
-.section-author h2 {
+.section-author h2{
 	color:#fff;
 }
-
-/*
-.section-newsletter-band h2, .section-newsletter-band h1{
-	color:#fff;
-}
-*/
-
-.section-newsletter-band .mc-field-group, .section-newsletter-band .mc-submit-btn{
-	text-align: center;
-	float:left;
-}
-
-.section-newsletter-band .mc-submit-btn{
-	float:right;
-	margin: -26px auto;
-}
-
-#hello-section .section-newsletter-band .mc-submit-btn{
-	margin: -77px auto;
-}
-
-#mc-embedded-subscribe{background-color:#939f57!important;}
-#mc-embedded-subscribe:hover{background-color:#757e45!important;}
-
-
 .people-holder h1{
 	margin:0 0 30px;
 }
@@ -2953,30 +2917,8 @@ body#hello-section #footer{
 	}
 
 }
-
-@media only screen and (max-width:745px){
-
-	.section-newsletter-band .mc-field-group, .section-newsletter-band .mc-submit-btn{
-		float:none !important;
-	}
-
-	.section-newsletter-band .mc-submit-btn{
-		float:none !important;
-		margin: 0 auto;
-	}
-	
-	#hello-section .section-newsletter-band .mc-submit-btn{
-	margin: 0px auto;
-	}
-
-}
-
 @media only screen and (max-width:720px){
 
-	.form-contact label {	
-		line-height: 34px;
-	}
-	
 	.contact-us-form,
 	.form-field input, .form-field textarea, .form-field select {
 		width: 100%;
@@ -3728,31 +3670,3 @@ body#hello-section #footer{
 		padding: 20px 50px;
 	}
 }
-
-/**
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    contenteditable attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that are clearfixed.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/**
- * For IE 6/7 only
- * Include this rule to trigger hasLayout and contain floats.
- */
-.cf {
-    *zoom: 1;
-}
-
