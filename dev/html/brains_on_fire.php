@@ -56,7 +56,7 @@
 						<div class="half-block right">
 							<h1>Brains on Fire</h1>
 							<p>A book about igniting powerful, sustainable, word of mouth movements.</p>
-							<a href="#" data-reveal-id="firstModal" class="button btn-light-orange">buy it now</a>
+							<a href="#" data-reveal-id="firstModal" class="button btn-blue">buy it now</a>
 						</div>
 					</div>
 				</section>
