@@ -40,23 +40,40 @@
   }
 }
 #how-we-work {
-  background: #fff url(../images/movement/how_we_work.jpg) no-repeat 50% 100%;
-  @include min-screen(1200px) {
-    padding: 98px 0 118px;
-  }
-  @include min-screen(1500px) {
-    @include background-size(100% auto);
-  }
-  @include max-screen(1499px) {
-    @include background-size(cover);
-  }
-  @include max-screen(767px) {
-    .orbit-next, 
-    .orbit-prev {
-      display: block !important;
+  background: #fff;
+  overflow: hidden;
+  > img {
+    position: absolute;
+    width: auto;
+    max-width: none;
+    left: 0;
+    z-index: 1;
+    @include min-screen(768px) {
+      top: 100px;
+      height: 1000px;  
+    }
+    @include max-screen(767px) {
+      top: 0;
+      height: 2650px;
     }
   }
-  h1 + p {
+  .row {
+    position: relative;
+    z-index: 10;
+  }
+  @include min-screen(1500px) {
+    padding: 98px 0 118px;
+  }
+  @include screen(1024px,1499px) {
+    padding: 98px 0 118px;
+  }
+  @include screen(768px,1023px) {
+    padding: 98px 0 118px;
+  }
+  @include max-screen(767px) {
+    padding: 98px 0 118px;
+  }
+   h1 + p {
     @include min-screen(768px) {
       margin: 0 0 54px;
     }
@@ -68,25 +85,37 @@
     max-width: 250px;
   }
 }
-.movement-orbit a:first-of-type {
-  background-color: rgba(#fff, 0);
-  &.active { background-color: rgba(#fff, 0.5); }
-  > span { background: #d9531e; }
+.movement-tab dt:first-of-type {
+  .table-wrap > span { 
+    background: #d9531e; 
+  }
+  &.active a { 
+    background-color: rgba(#fff, 0.5); 
+  }
 }
-.movement-orbit a:nth-child(2) {
-  background-color: rgba(#0bb7cf, 0);
-  &.active { background-color: rgba(#0bb7cf, 0.5); }
-  > span { background: #23bed4; }
+.movement-tab dt:nth-child(3n) {
+  .table-wrap > span { 
+      background: #23bed4; 
+  }
+  &.active a { 
+    background-color: rgba(#0bb7cf, 0.5); 
+  }
 }
-.movement-orbit a:nth-child(3) {
-  background-color: rgba(#939f57, 0);
-  &.active { background-color: rgba(#939f57, 0.5); }
-  > span { background: #9ea867; }
+.movement-tab dt:nth-child(5n) {
+  .table-wrap > span { 
+    background: #9ea867; 
+  }
+  &.active a { 
+    background-color: rgba(#939f57, 0.5); 
+  }
 }
-.movement-orbit a:nth-child(4) {
-  background-color: rgba(#eb7e1f, 0);
-  &.active { background-color: rgba(#eb7e1f, 0.5); }
-  > span { background: #ec8a35; }
+.movement-tab dt:nth-child(7n) {
+  .table-wrap > span { 
+    background: #ec8a35; 
+  }
+  &.active a { 
+    background-color: rgba(#eb7e1f, 0.5); 
+  }
 }
 #some-examples {
   background: rgba(#000, 0);

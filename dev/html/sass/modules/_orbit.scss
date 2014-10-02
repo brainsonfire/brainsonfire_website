@@ -10,20 +10,6 @@
     position: relative;
   }
 }
-[class$="circle-orbit-nav"],
-[class*="circle-orbit-nav "] {
-  a {
-    @include min-screen(1220px) {
-      margin: 0 18px 0 -4px;
-    }
-    @include screen(1024px,1219px) {
-      margin: 0 8px 0 -4px;
-    }
-    &:nth-child(4) {
-      margin: 0 -4px 0 0;
-    }
-  }
-}
 .orbit-container {
   overflow: visible;
   ul {
@@ -79,196 +65,6 @@
     }
   }
 }
-// HOW WE WORK 
-.circle-orbit-nav {
-  @include max-screen(767px) {
-    display: none;
-  }
-  a {
-    display: block;
-    vertical-align: middle;
-    @include border-radius(100%);
-    @include min-screen(1220px) {
-      width: 283px;
-      height: 283px;
-      padding: 13px;
-    }
-    @include screen(1024px,1229px) {
-      width: 242px;
-      height: 242px;
-      padding: 10px;
-    }
-    @include screen(768px,1023px) {
-      width: 176px;
-      height: 176px;
-      padding: 8px;
-    }
-    .circle,
-    > span {      
-      display: table;
-      position: relative;
-      width: 100%;
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      @include border-radius(100%);
-    }
-    .table,
-    > span > span {      
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-      color: #FFF;
-      font-weight: 500;//@include InfoMediumFont;
-      @include border-radius(100%);
-      @include min-screen(1200px) {
-        @include font-size(24);
-        @include line-height(30);
-      }
-      @include screen(1024px,1199px) {
-        @include font-size(20);
-        @include line-height(26);
-      }
-      @include screen(768px,1023px) {
-        @include font-size(16);
-        @include line-height(22);
-      }
-    }
-    .bottom-block {
-      display: block;
-      font-style: italic;
-      font-family: Georgia, serif;
-      @include min-screen(1200px) {
-        @include font-size(20);
-        @include line-height(30);
-      }
-      @include screen(768px,1199px) {
-        @include font-size(18);
-        @include line-height(24);
-      }
-    }
-    .title {
-      position: absolute;
-      text-align: center;
-      text-transform: uppercase;
-      width: 100%;
-      font-style: normal;
-      left: 0;
-      bottom: -51px;
-      font-weight: 500;//@include InfoMediumFont;
-      @include font-size(20);
-      @include line-height(25);
-    }
-    img {
-      display: block;
-      max-width: none;
-      width: 100%;
-      height: auto;
-      @include border-radius(100%);
-    }
-    &:after {
-      display: block;
-      position: absolute;
-      content: "";
-      z-index: 10;
-      width: 70px;
-      height: 24px;
-      bottom: -33px;
-      left: 50%;
-      margin-left: -35px;
-      background: url(../images/library/tab.png) no-repeat 50% 50%;
-      opacity: 0;
-    }
-    &.active:after {
-      opacity: 1;
-    }
-  }
-}
-#how-we-work .orbit-container {
-  @include min-screen(768px) {
-    background: rgba(#FFF, 0.95);
-  }
-  @include max-screen(767px) {
-    ul {
-      width: 98%;
-      margin: 0 auto;
-      overflow: hidden;
-      li {
-        padding: 0 20px 20px;
-      }
-    }
-  }
-}
-#authoral-team .orbit-container {
-  @include min-screen(768px) {
-    padding: 48px 0 12px;
-  }
-  @include max-screen(767px) {
-    padding: 28px 0 12px;
-  }
-}
-#how-we-work .orbit-container {
-  @include min-screen(768px) {
-    padding: 48px 0 40px;
-  }
-  @include max-screen(767px) {
-    padding: 20px 0;
-  }
-}
-#authoral-team .orbit-container,
-#how-we-work .orbit-container {
-  background: rgba(#fff, 0.95);
-  @include min-screen(768px) {
-    margin: 0 0 39px;
-    .orbit-prev,
-    .orbit-next {
-      display: none;
-    }
-  }
-  @include max-screen(767px) {
-    margin: 0 auto 20px; 
-    .orbit-next {
-      right: -10px;
-    }
-    .orbit-prev {
-      left: -10px;
-    }
-    .orbit-next,
-    .orbit-prev {
-      width: 31px;
-      height: 44px;
-      opacity: 0.8;
-      span {
-        display: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-    .orbit-next {
-      background: url(../images/library/arrows.png) no-repeat 0 -88px;
-    }
-    .orbit-prev {
-      background: url(../images/library/arrows.png) no-repeat 0 -132px;
-    }
-  }
-  li {
-    padding: 0 50px;
-    font-weight: 500;//@include InfoMediumFont;
-    @include min-screen(768px) {
-      @include font-size(20);
-      @include line-height(29);
-    }
-    @include max-screen(767px) {
-      @include font-size(16);
-      @include line-height(26);
-    }
-    strong {
-      display: block;
-      font-weight: 700;//@include InfoBoldFont;
-    }
-  }
-}
 #gallery-slider {
   .orbit-container {
     margin: 45px 0 20px;
@@ -287,9 +83,9 @@
     }
     .orbit-next {
       background: url(../images/library/arrows.png) no-repeat 0 -88px;
-        @include max-screen(767px) {
-          right: -10px;
-        }
+      @include max-screen(767px) {
+        right: -10px;
+      }
     }
     .orbit-prev {
       background: url(../images/library/arrows.png) no-repeat 0 -132px;

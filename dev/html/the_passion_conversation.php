@@ -125,7 +125,7 @@
 					<div class="row">
 						<h1>Meet the authoral team</h1>
 						<p>all of them are illustrious in their own right.</p>
-						<div class="tabs four">
+						<div class="tabs author-tab">
 							<dl> 
 								<dt>
 									<a href="#">

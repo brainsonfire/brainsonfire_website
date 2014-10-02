@@ -89,5 +89,19 @@ $(document).ready(function () {
       }
       return false;
     });
+
+    var tabHeight = $('.movement-tab a').width();
+    $('.movement-tab .table').css({
+      'height': tabHeight,
+      'width': tabHeight
+    });
+    
+    $(window).resize(function() {
+      var tabHeight = $('.movement-tab a').width();
+      $('.movement-tab .table').css({
+        'height': tabHeight,
+        'width': tabHeight
+         });
+    });
     
 });
