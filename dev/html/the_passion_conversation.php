@@ -57,7 +57,7 @@
 						<div class="half-block right">
 							<h1>The Passion Conversation</h1>
 							<p>a book about Understanding, sparking, & sustaining word of mouth marketing.</p>
-							<a href="#" data-reveal-id="firstModal" class="button btn-light-orange">buy it now</a>
+							<a href="#" data-reveal-id="firstModal" class="button btn-orange">buy it now</a>
 						</div>
 					</div>
 				</section>
