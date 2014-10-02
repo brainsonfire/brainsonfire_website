@@ -146,7 +146,7 @@
 }
 #authoral-team {
   background: #0DB9D1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
-  @include background-size(cover);
+  @include background-size(auto);
   @include min-screen(1024px) {
     padding: 89px 0 68px;
   }

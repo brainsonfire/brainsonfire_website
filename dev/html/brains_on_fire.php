@@ -116,51 +116,39 @@
 					<div class="row">
 						<h1>Meet the authoral team</h1>
 						<p>all of them are illustrious in their own right.</p>
+						<div class="tabs three">
+							<dl> 							
+								<dt>
+									<a href="#">
+										<img src="images/books/robbin.jpg" alt="Robbin Phillips">
+										<span class="title">Robbin Phillips</span>
+									</a>
+								</dt>
+								<dd>
+									<p>I’m known as the Courageous President around the halls of Brains on Fire. (Wait, we don’t have halls.) I love my two kids in a way words can’t explain. I’ve worked with brands such as BMW, Colonial Williamsburg Foundation, Love146, Find Great People International and Ryobi Tools. I love hot yoga, cold beer, sunny days and starry nights. I believe writing inspires thinking. I write and think out loud at brainsonfire.com/blog. I think everyone works better when they are having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I am pretty psyched PQ Media names us one of the top three word of mouth companies in the industry in 2007. And that Wommie Award was cool. (Yahoo! And Coca-Cola got one along with us.) I believe love is a circular transaction. I try really hard to keep things simple. Some days I am better at that than others. I am part of the Brains on Fire Movement.</p>
+								</dd> 
+								
+								<dt>
+									<a href="#">
+										<img src="images/books/greg.jpg" alt="Greg Cordell">
+										<span class="title">Greg Cordell</span>
+									</a>
+								</dt>
+								<dd>
+									<p>I’m Chief Inspiration Officer at Brains on Fire. I work for my children. I’ve been a concepter, a writer, an art director, a screenwriter. I might be something else next Thursday. I believe all people are brilliant. I drive American. I’ve spoken at AIGA gatherings and PRSA conferences and corporate events and the happy hour around the corner. Because I like to talk. I cry, too. At weddings and animated movies. I’ve worked on creative solutions for Coca-Cola, Yakima, BMW, Don Pablo’s Mexican Restaurants, Applebee’s and Best Buy. In another life, I might be a philosopher. I’ve had work used as the backdrop for an American President’s war on drugs. I’ve added crazy-big numbers to national brands’ bottom lines. I like being a conduit for inspirational energy. I believe everybody deserves the right to be excited about something. I believe there is always a better way and the greatest thing people can experience is to realize they need each other.</p>
+								</dd> 
 
-						<dl class="tabs" data-tab> 
-							<dd>
-								<a href="#panel1">
-									<span class="circle">
-										<span class="table">
-											<img src="images/books/robbin.jpg" alt="Robbin Phillips">
-											<span class="title">Robbin Phillips</span>
-										</span>
-									</span>
-								</a>
-							</dd> 
-							<dd>
-								<a href="#panel2">
-									<span class="circle">
-										<span class="table">
-											<img src="images/books/greg.jpg" alt="Greg Cordell">
-											<span class="title">Greg Cordell</span>
-										</span>
-									</span>
-								</a>
-							</dd> 
-							<dd>
-								<a href="#panel3">
-									<span class="circle">
-										<span class="table">
-											<img src="images/books/geno.jpg" alt="Geno Church">
-											<span class="title">Geno Church</span>
-										</span>
-									</span>
-								</a>
-							</dd> 
-						</dl> 
-						<div class="tabs-content"> 
-							<div class="content" id="panel1" aria-hidden="true"> 
-								<p>I’m known as the Courageous President around the halls of Brains on Fire. (Wait, we don’t have halls.) I love my two kids in a way words can’t explain. I’ve worked with brands such as BMW, Colonial Williamsburg Foundation, Love146, Find Great People International and Ryobi Tools. I love hot yoga, cold beer, sunny days and starry nights. I believe writing inspires thinking. I write and think out loud at brainsonfire.com/blog. I think everyone works better when they are having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I am pretty psyched PQ Media names us one of the top three word of mouth companies in the industry in 2007. And that Wommie Award was cool. (Yahoo! And Coca-Cola got one along with us.) I believe love is a circular transaction. I try really hard to keep things simple. Some days I am better at that than others. I am part of the Brains on Fire Movement.</p>
-							</div> 
-							<div class="content" id="panel2" aria-hidden="true"> 
-								<p>I’m Chief Inspiration Officer at Brains on Fire. I work for my children. I’ve been a concepter, a writer, an art director, a screenwriter. I might be something else next Thursday. I believe all people are brilliant. I drive American. I’ve spoken at AIGA gatherings and PRSA conferences and corporate events and the happy hour around the corner. Because I like to talk. I cry, too. At weddings and animated movies. I’ve worked on creative solutions for Coca-Cola, Yakima, BMW, Don Pablo’s Mexican Restaurants, Applebee’s and Best Buy. In another life, I might be a philosopher. I’ve had work used as the backdrop for an American President’s war on drugs. I’ve added crazy-big numbers to national brands’ bottom lines. I like being a conduit for inspirational energy. I believe everybody deserves the right to be excited about something. I believe there is always a better way and the greatest thing people can experience is to realize they need each other.</p>
-							</div> 
-							<div class="content" id="panel3" aria-hidden="true"> 
-								<p>My title on the Brains on Fire website is Word of Mouth Inspiration Officer, but I consider myself more of a Pathfinder for our clients and Brains on Fire. And I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the US Office of National Drug Control Policy, Love 146 and Rage Against the Haze (South Carolina’s youth led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker – at places like the Word of Mouth Marketing Association, the Public Relations Society of America, American Marketing Association, the New Comm Research Communications Forum, and the World Africa Customer Management Conference. I used to play in a glam-rock band. I survived.</p>
-							</div> 
+								<dt>
+									<a href="#">
+										<img src="images/books/geno.jpg" alt="Geno Church">
+										<span class="title">Geno Church</span>
+									</a>								
+								</dt>
+								<dd>
+									<p>My title on the Brains on Fire website is Word of Mouth Inspiration Officer, but I consider myself more of a Pathfinder for our clients and Brains on Fire. And I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the US Office of National Drug Control Policy, Love 146 and Rage Against the Haze (South Carolina’s youth led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker – at places like the Word of Mouth Marketing Association, the Public Relations Society of America, American Marketing Association, the New Comm Research Communications Forum, and the World Africa Customer Management Conference. I used to play in a glam-rock band. I survived.</p>
+								</dd> 
+							</dl> 
 						</div>
-
 					</div>
 				</section>
 				

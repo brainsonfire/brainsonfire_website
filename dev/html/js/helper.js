@@ -75,16 +75,19 @@ $(document).ready(function () {
         }, 800);
     });
 
-    $('.tabs dd a').click(function (w) {
-        w.preventDefault;
-        if($(this).parent().hasClass('active')) {
-            $(this).parent('dd').toggleClass('fake');
-            $('.tabs-content .content.active').toggleClass('fake');
-        } else {
-            $('.tabs dd').removeClass('fake');
-            $('.tabs-content .content.active').removeClass('fake');
-        }
+    var allPanels = $('.tabs dd').hide();
+      
+    $('.tabs dt a').click(function() {
+      if($(this).parent().hasClass('active')) {
+        $(this).parent().next().slideUp();
+        $(this).parent().removeClass('active');
+      } else {
+        $('.tabs dt').removeClass('active');
+        $(this).parent().addClass('active');
+        allPanels.slideUp();
+        $(this).parent().next().slideDown();
+      }
+      return false;
     });
-
+    
 });
-

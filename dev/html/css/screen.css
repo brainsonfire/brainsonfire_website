@@ -4604,10 +4604,10 @@ section .block p {
 /* line 147, ../sass/sections/_books.scss */
 #authoral-team {
   background: #0db9d1 url(../images/books/bg_author.jpg) no-repeat 50% 0;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  -webkit-background-size: auto;
+  background-size: auto;
 }
 @media screen and (min-width: 1024px) {
   /* line 147, ../sass/sections/_books.scss */
@@ -8848,203 +8848,134 @@ form li.focused {
 
 /* line 1, ../sass/modules/_tabs.scss */
 .tabs {
-  display: table;
-  margin: 0 auto 70px !important;
-}
-
-/* line 5, ../sass/modules/_tabs.scss */
-.tabs dd {
-  display: table;
-  width: auto;
-  position: relative;
-  text-align: center;
-}
-@media screen and (min-width: 1220px) {
-  /* line 5, ../sass/modules/_tabs.scss */
-  .tabs dd {
-    margin: 0 18px 0 -4px;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1219px) {
-  /* line 5, ../sass/modules/_tabs.scss */
-  .tabs dd {
-    margin: 0 8px 0 -4px;
-  }
-}
-/* line 16, ../sass/modules/_tabs.scss */
-.tabs dd:nth-child(4) {
-  margin: 0 -4px 0 0;
-}
-/* line 19, ../sass/modules/_tabs.scss */
-.tabs dd a {
-  float: left;
-  position: relative;
-}
-
-/* line 25, ../sass/modules/_tabs.scss */
-.tabs dd > a {
-  background-color: rgba(255, 255, 255, 0);
-  color: #333;
   display: block;
-  font-family: "hedley-new-web",serif;
-  font-size: 1.5rem;
-}
-
-/* line 32, ../sass/modules/_tabs.scss */
-.tabs dd a:hover {
-  background-color: rgba(255, 255, 255, 0);
-  color: #333;
-}
-
-/* line 36, ../sass/modules/_tabs.scss */
-.tabs dd.active a {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #333;
-}
-
-/* line 40, ../sass/modules/_tabs.scss */
-.tabs dd.active.fake a {
-  background-color: rgba(255, 255, 255, 0);
-  color: #333;
-}
-
-/* line 45, ../sass/modules/_tabs.scss */
-.tabs a {
-  display: block;
-  vertical-align: middle;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
-@media screen and (min-width: 1220px) {
-  /* line 45, ../sass/modules/_tabs.scss */
-  .tabs a {
-    width: 283px;
-    height: 283px;
-    padding: 13px !important;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1229px) {
-  /* line 45, ../sass/modules/_tabs.scss */
-  .tabs a {
-    width: 242px;
-    height: 242px;
-    padding: 10px !important;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 45, ../sass/modules/_tabs.scss */
-  .tabs a {
-    width: 176px;
-    height: 176px;
-    padding: 8px !important;
-  }
-}
-/* line 64, ../sass/modules/_tabs.scss */
-.tabs a .circle,
-.tabs a > span {
-  display: table;
   position: relative;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
-}
-/* line 74, ../sass/modules/_tabs.scss */
-.tabs a .table,
-.tabs a > span > span {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  color: #FFF;
-  font-weight: 500;
-  -moz-border-radius: 100%;
-  -webkit-border-radius: 100%;
-  border-radius: 100%;
 }
 @media screen and (min-width: 1200px) {
-  /* line 74, ../sass/modules/_tabs.scss */
-  .tabs a .table,
-  .tabs a > span > span {
-    font-size: 24px;
-    font-size: 1.5rem;
-    line-height: 30px;
-    line-height: 1.875rem;
+  /* line 1, ../sass/modules/_tabs.scss */
+  .tabs {
+    margin: 0 auto 70px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 74, ../sass/modules/_tabs.scss */
-  .tabs a .table,
-  .tabs a > span > span {
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 26px;
-    line-height: 1.625rem;
+  /* line 1, ../sass/modules/_tabs.scss */
+  .tabs {
+    margin: 0 auto 50px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 74, ../sass/modules/_tabs.scss */
-  .tabs a .table,
-  .tabs a > span > span {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 22px;
-    line-height: 1.375rem;
+  /* line 1, ../sass/modules/_tabs.scss */
+  .tabs {
+    margin: 0 auto 35px;
   }
 }
-/* line 95, ../sass/modules/_tabs.scss */
-.tabs a .bottom-block {
-  display: block;
-  font-style: italic;
-  font-family: Georgia, serif;
-}
-@media screen and (min-width: 1200px) {
-  /* line 95, ../sass/modules/_tabs.scss */
-  .tabs a .bottom-block {
-    font-size: 20px;
-    font-size: 1.25rem;
-    line-height: 30px;
-    line-height: 1.875rem;
+@media screen and (max-width: 767px) {
+  /* line 1, ../sass/modules/_tabs.scss */
+  .tabs {
+    margin: 0 auto 20px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  /* line 95, ../sass/modules/_tabs.scss */
-  .tabs a .bottom-block {
-    font-size: 18px;
-    font-size: 1.125rem;
-    line-height: 24px;
-    line-height: 1.5rem;
-  }
-}
-/* line 108, ../sass/modules/_tabs.scss */
-.tabs a .title {
-  position: absolute;
-  text-align: center;
-  text-transform: uppercase;
+/* line 16, ../sass/modules/_tabs.scss */
+.tabs dl {
   width: 100%;
-  font-style: normal;
-  left: 0;
-  bottom: -51px;
-  font-weight: 500;
-  font-size: 20px;
-  font-size: 1.25rem;
-  line-height: 25px;
-  line-height: 1.5625rem;
+  margin: 0 auto;
 }
-/* line 120, ../sass/modules/_tabs.scss */
-.tabs a img {
+@media screen and (min-width: 768px) {
+  /* line 16, ../sass/modules/_tabs.scss */
+  .tabs dl {
+    display: flex;
+    flex-flow: row wrap;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 16, ../sass/modules/_tabs.scss */
+  .tabs dl {
+    display: block;
+  }
+}
+/* line 27, ../sass/modules/_tabs.scss */
+.tabs dt {
+  padding: 0 2px 70px;
+}
+@media screen and (min-width: 768px) {
+  /* line 27, ../sass/modules/_tabs.scss */
+  .tabs dt {
+    width: 25%;
+    -webkit-order: 1;
+    -ms-order: 1;
+    order: 1;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 27, ../sass/modules/_tabs.scss */
+  .tabs dt {
+    width: 100%;
+  }
+}
+/* line 38, ../sass/modules/_tabs.scss */
+.tabs dt a {
   display: block;
-  max-width: none;
   width: 100%;
-  height: auto;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgba(208, 242, 247, 0);
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
 }
-/* line 127, ../sass/modules/_tabs.scss */
+@media screen and (max-width: 767px) {
+  /* line 38, ../sass/modules/_tabs.scss */
+  .tabs dt a {
+    max-width: 260px;
+  }
+}
+@media screen and (min-width: 1220px) {
+  /* line 38, ../sass/modules/_tabs.scss */
+  .tabs dt a {
+    padding: 13px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1229px) {
+  /* line 38, ../sass/modules/_tabs.scss */
+  .tabs dt a {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  /* line 38, ../sass/modules/_tabs.scss */
+  .tabs dt a {
+    padding: 8px;
+  }
+}
+/* line 57, ../sass/modules/_tabs.scss */
+.tabs dt a img {
+  display: block;
+  width: 100%;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+}
+/* line 62, ../sass/modules/_tabs.scss */
+.tabs dt a span {
+  position: absolute;
+  left: 0;
+  bottom: -39px;
+  width: 100%;
+  color: #fff;
+  outline: medium none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 29px;
+  line-height: 1.8125rem;
+}
+/* line 76, ../sass/modules/_tabs.scss */
+.tabs dt.active a {
+  background-color: #D0F2F7;
+}
+/* line 80, ../sass/modules/_tabs.scss */
 .tabs a:after {
   display: block;
   position: absolute;
@@ -9058,62 +8989,212 @@ form li.focused {
   background: url(../images/library/tab.png) no-repeat 50% 50%;
   opacity: 0;
 }
-/* line 141, ../sass/modules/_tabs.scss */
-.tabs .active a:after {
+@media screen and (min-width: 768px) {
+  /* line 93, ../sass/modules/_tabs.scss */
+  .tabs.three dt:first-of-type {
+    margin-left: 12.5%;
+  }
+}
+/* line 98, ../sass/modules/_tabs.scss */
+.tabs dt.active a:after {
   opacity: 1;
 }
-/* line 144, ../sass/modules/_tabs.scss */
-.tabs .active.fake a:after {
-  opacity: 0;
+/* line 101, ../sass/modules/_tabs.scss */
+.tabs dd {
+  display: none;
+  width: 100%;
+  -webkit-order: 2;
+  -ms-order: 2;
+  order: 2;
+  background: #cff1f6;
+  padding: 48px 50px 32px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
 }
 
-/* line 149, ../sass/modules/_tabs.scss */
-.content {
+/* line 114, ../sass/modules/_tabs.scss */
+dl dd,
+dl dt {
+  margin-bottom: 0;
+}
+
+/*
+.tabs dd {
+  display: table;
+  width: auto;
+  position: relative;
+  text-align: center;
+  @include min-screen(1220px) {
+    margin: 0 18px 0 -4px;
+  }
+  @include screen(1024px,1219px) {
+    margin: 0 8px 0 -4px;
+  }
+  &:nth-child(4) {
+    margin: 0 -4px 0 0;
+  }
+  a {
+    float: left;
+    position: relative;
+
+  }
+}
+.tabs dd > a {
+    background-color: rgba(#fff, 0);
+    color: #333;
+    display: block;
+    font-family: "hedley-new-web",serif;
+    font-size: 1.5rem;
+}
+.tabs dd a:hover {
+    background-color: rgba(#fff, 0);
+    color: #333;
+}
+.tabs dd.active a {
+    background-color: rgba(#fff, 0.5);
+    color: #333;
+}
+.tabs dd.active.fake a {
+    background-color: rgba(#fff, 0);
+    color: #333;
+}
+.tabs {
+  a {
+    display: block;
+    vertical-align: middle;
+    @include border-radius(100%);
+    @include min-screen(1220px) {
+      width: 283px;
+      height: 283px;
+      padding: 13px !important;
+    }
+    @include screen(1024px,1229px) {
+      width: 242px;
+      height: 242px;
+      padding: 10px !important;
+    }
+    @include screen(768px,1023px) {
+      width: 176px;
+      height: 176px;
+      padding: 8px !important;
+    }
+    .circle,
+    > span {      
+      display: table;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      @include border-radius(100%);
+    }
+    .table,
+    > span > span {      
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color: #FFF;
+      font-weight: 500;//@include InfoMediumFont;
+      @include border-radius(100%);
+      @include min-screen(1200px) {
+        @include font-size(24);
+        @include line-height(30);
+      }
+      @include screen(1024px,1199px) {
+        @include font-size(20);
+        @include line-height(26);
+      }
+      @include screen(768px,1023px) {
+        @include font-size(16);
+        @include line-height(22);
+      }
+    }
+    .bottom-block {
+      display: block;
+      font-style: italic;
+      font-family: Georgia, serif;
+      @include min-screen(1200px) {
+        @include font-size(20);
+        @include line-height(30);
+      }
+      @include screen(768px,1199px) {
+        @include font-size(18);
+        @include line-height(24);
+      }
+    }
+    .title {
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      font-style: normal;
+      left: 0;
+      bottom: -51px;
+      font-weight: 500;//@include InfoMediumFont;
+      @include font-size(20);
+      @include line-height(25);
+    }
+    img {
+      display: block;
+      max-width: none;
+      width: 100%;
+      height: auto;
+      @include border-radius(100%);
+    }
+    &:after {
+      display: block;
+      position: absolute;
+      content: "";
+      z-index: 10;
+      width: 70px;
+      height: 24px;
+      bottom: -70px;
+      left: 50%;
+      margin-left: -35px;
+      background: url(../images/library/tab.png) no-repeat 50% 50%;
+      opacity: 0;
+    }
+  }
+  .active a:after {
+    opacity: 1;
+  }
+  .active.fake a:after {
+    opacity: 0;
+  }
+}
+ .content {
   display: block;
   max-height: 0;
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-/* line 155, ../sass/modules/_tabs.scss */
-.content.active {
-  max-height: 5000px;
-}
-/* line 157, ../sass/modules/_tabs.scss */
-.content.active.fake {
-  max-height: 0;
-  margin: 0;
-  padding: 0;
-}
-/* line 163, ../sass/modules/_tabs.scss */
-.content p {
-  padding: 0 50px;
-  font-weight: 400;
-  margin-bottom: 1.25rem;
-}
-/* line 167, ../sass/modules/_tabs.scss */
-.content p:first-of-type {
-  margin-top: 3rem;
-}
-/* line 170, ../sass/modules/_tabs.scss */
-.content p:last-child {
-  margin-bottom: 3rem;
-}
-@media screen and (min-width: 768px) {
-  /* line 163, ../sass/modules/_tabs.scss */
-  .content p {
-    font-size: 17px;
-    font-size: 1.0625rem;
-    line-height: 32px;
-    line-height: 2rem;
+  &.active {
+    max-height: 5000px;
+    &.fake {
+      max-height: 0;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  p {
+    padding: 0 50px;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    &:first-of-type {
+      margin-top: 3rem;
+    }
+    &:last-child {
+      margin-bottom: 3rem;
+    }
+    @include min-screen(768px) {
+      @include font-size(17);
+      @include line-height(32);
+    }
+    @include max-screen(767px) {
+      @include font-size(16);
+      @include line-height(26);
+    }
   }
 }
-@media screen and (max-width: 767px) {
-  /* line 163, ../sass/modules/_tabs.scss */
-  .content p {
-    font-size: 16px;
-    font-size: 1rem;
-    line-height: 26px;
-    line-height: 1.625rem;
-  }
-}
+*/
