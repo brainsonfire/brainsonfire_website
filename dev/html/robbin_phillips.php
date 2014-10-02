@@ -94,10 +94,9 @@
 									</ul>
 									<p>Robbin Phillips gets out of bed each morning inspired by a single focus: to make a positive, meaningful change in the world.</p> 
 									<p>As one of the founders and Courageous President of Brains on Fire, Robbin has recruited a highly talented team of kindred spirits committed to the belief that marketing has the power to truly touch lives. Having begun her career as a graphic designer, Robbin remains involved in the creative development of client identities, while tapping into her keen business sense to facilitate strategy.</p>
-									<p>Inspired by the power of purpose, passion and people, Robbin and her team rally daily to deliver innovative, impactful solutions that elevate and celebrate a diverse range of clients including</p>
+									<p>Inspired by the power of purpose, passion and people, Robbin and her team rally daily to deliver innovative, impactful solutions that elevate and celebrate a diverse range of clients including Love146, Foundations Recovery Network, Anytime Fitness, Bon Secours St. Francis Health System, BMW, DeVry University, GreenDot Public Schools, Fiskars Brands, Perception Kayaks, Ryobi Tools, Colonial Williamsburg, the National Center for Families Learning and Best Buy.</p>
 								</div>
 								<div class="large-6 medium-12 small-12 columns">
-									<p>Love146, Foundations Recovery Network, Anytime Fitness, Bon Secours St. Francis Health System, BMW, DeVry University, GreenDot Public Schools, Fiskars Brands, Perception Kayaks, Ryobi Tools, Colonial Williamsburg, the National Center for Families Learning and Best Buy.</p>
 									<p>During Robbin’s tenure, Brains on Fire has received numerous national awards including a GOLD EFFIE and the Word of Mouth Marketing Association’s WOMMIE Award. She is co-author of the books “Brains on Fire: Igniting Powerful, Sustainable, World of Mouth Movements,” and “The Passion Conversation: Understanding, Sparking and Sustaining Word of Mouth Marketing.” As a highly sought-after presenter, Robbin frequently hits the road to speak at conferences and private events around the country. She has shared insights on word of mouth marketing with groups big and small, including the Word of Mouth Marketing Association and the Association of National Advertisers.</p>
 								</div>
 							</div>

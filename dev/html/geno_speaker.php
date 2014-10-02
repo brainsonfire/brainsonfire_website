@@ -85,15 +85,41 @@
 					</article>
 				</section>
 
-				<div class="direction-nav bottom">
+				<section id="in-action" class="white-text">
 					<div class="row">
-						<ul>
-							<li><a class="previous" href="robbin_speaker.php"><span>previous speaker</span></a></li>
-							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
-							<li><a class="next" href="greg_speaker.php"><span>next speaker</span></a></li>
-						</ul>
+				        <h1>Geno in Action</h1>
+				        <div class="large-7 medium-7 small-12 columns">
+				          	<div class="videoHolder">
+				           		<iframe src="//player.vimeo.com/video/85481213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				           	</div>
+				        </div>
+				        <div class="large-5 medium-5 small-8 columns">
+				          	<h2>Favorite Topics</h2>
+				            <ul>
+					            <li>Word of Mouth Marketing</li>
+					            <li>WOM Movements</li>
+					            <li>Content Strategy</li>
+					            <li>Social Media</li>
+					            <li>Creative Direction</li>
+					            <li>Brand and Identity Development</li>
+					            <li>Customer Engagement</li>
+					            <li>Community Building</li>
+					            <li>WOMology</li>
+					            <li>The Passion Conversation</li>
+				          	</ul>
+				        </div>
 					</div>
-				</div>
+				</section>
+
+				<section id="blockquote" class="speakers">
+					<div class="row">
+						<blockquote>“Geno is a brilliant creative, a wonderfully engaging speaker and natural presenter. Most importantly, he has dedicated his life to advancing the cause of people, WOMM and advocacy as the focus of marketing. Geno took the room on an emotional roller coaster of great case studies from the hilarious power of Chick-fil-A's marketing genius (and disasters) to the tear-jerking profundity of Love146 and how they tripled donations through better storytelling.”</blockquote>
+						<cite>Howard Parry<br>Husbands, Director of The Influence Group</cite>
+					</div>
+					<div class="submit-application">
+						<a class="button btn-blue" href="speaking.php#form">book <span>Geno Church</span> now</a>
+					</div>
+				</section>
 
 			</main>
 

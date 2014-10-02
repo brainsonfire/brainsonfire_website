@@ -1,0 +1,182 @@
+.tabs {
+  display: table;
+  margin: 0 auto 70px !important;
+}
+.tabs dd {
+  display: table;
+  width: auto;
+  position: relative;
+  text-align: center;
+  @include min-screen(1220px) {
+    margin: 0 18px 0 -4px;
+  }
+  @include screen(1024px,1219px) {
+    margin: 0 8px 0 -4px;
+  }
+  &:nth-child(4) {
+    margin: 0 -4px 0 0;
+  }
+  a {
+    float: left;
+    position: relative;
+
+  }
+}
+.tabs dd > a {
+    background-color: rgba(#fff, 0);
+    color: #333;
+    display: block;
+    font-family: "hedley-new-web",serif;
+    font-size: 1.5rem;
+}
+.tabs dd a:hover {
+    background-color: rgba(#fff, 0);
+    color: #333;
+}
+.tabs dd.active a {
+    background-color: rgba(#fff, 0.5);
+    color: #333;
+}
+.tabs dd.active.fake a {
+    background-color: rgba(#fff, 0);
+    color: #333;
+}
+.tabs {
+  a {
+    display: block;
+    vertical-align: middle;
+    @include border-radius(100%);
+    @include min-screen(1220px) {
+      width: 283px;
+      height: 283px;
+      padding: 13px !important;
+    }
+    @include screen(1024px,1229px) {
+      width: 242px;
+      height: 242px;
+      padding: 10px !important;
+    }
+    @include screen(768px,1023px) {
+      width: 176px;
+      height: 176px;
+      padding: 8px !important;
+    }
+    .circle,
+    > span {      
+      display: table;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      @include border-radius(100%);
+    }
+    .table,
+    > span > span {      
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      color: #FFF;
+      font-weight: 500;//@include InfoMediumFont;
+      @include border-radius(100%);
+      @include min-screen(1200px) {
+        @include font-size(24);
+        @include line-height(30);
+      }
+      @include screen(1024px,1199px) {
+        @include font-size(20);
+        @include line-height(26);
+      }
+      @include screen(768px,1023px) {
+        @include font-size(16);
+        @include line-height(22);
+      }
+    }
+    .bottom-block {
+      display: block;
+      font-style: italic;
+      font-family: Georgia, serif;
+      @include min-screen(1200px) {
+        @include font-size(20);
+        @include line-height(30);
+      }
+      @include screen(768px,1199px) {
+        @include font-size(18);
+        @include line-height(24);
+      }
+    }
+    .title {
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      font-style: normal;
+      left: 0;
+      bottom: -51px;
+      font-weight: 500;//@include InfoMediumFont;
+      @include font-size(20);
+      @include line-height(25);
+    }
+    img {
+      display: block;
+      max-width: none;
+      width: 100%;
+      height: auto;
+      @include border-radius(100%);
+    }
+    &:after {
+      display: block;
+      position: absolute;
+      content: "";
+      z-index: 10;
+      width: 70px;
+      height: 24px;
+      bottom: -70px;
+      left: 50%;
+      margin-left: -35px;
+      background: url(../images/library/tab.png) no-repeat 50% 50%;
+      opacity: 0;
+    }
+  }
+  .active a:after {
+    opacity: 1;
+  }
+  .active.fake a:after {
+    opacity: 0;
+  }
+}
+
+ .content {
+  display: block;
+  max-height: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  &.active {
+    max-height: 5000px;
+    &.fake {
+      max-height: 0;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  p {
+    padding: 0 50px;
+    font-weight: 400;
+    margin-bottom: 1.25rem;
+    &:first-of-type {
+      margin-top: 3rem;
+    }
+    &:last-child {
+      margin-bottom: 3rem;
+    }
+    @include min-screen(768px) {
+      @include font-size(17);
+      @include line-height(32);
+    }
+    @include max-screen(767px) {
+      @include font-size(16);
+      @include line-height(26);
+    }
+  }
+}

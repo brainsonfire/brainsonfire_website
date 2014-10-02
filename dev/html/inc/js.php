@@ -3,6 +3,7 @@
 <script src="js/min/foundation.min.js"></script>
 <script src="js/foundation/min/foundation.offcanvas.min.js"></script>
 <script src="js/foundation/min/foundation.reveal.min.js"></script>
+<script src="js/foundation/min/foundation.tab.min.js"></script>
 <script>
 	$(document).foundation();
 </script>

@@ -75,5 +75,16 @@ $(document).ready(function () {
         }, 800);
     });
 
+    $('.tabs dd a').click(function (w) {
+        w.preventDefault;
+        if($(this).parent().hasClass('active')) {
+            $(this).parent('dd').toggleClass('fake');
+            $('.tabs-content .content.active').toggleClass('fake');
+        } else {
+            $('.tabs dd').removeClass('fake');
+            $('.tabs-content .content.active').removeClass('fake');
+        }
+    });
+
 });
 

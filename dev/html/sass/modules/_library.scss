@@ -89,18 +89,18 @@ ul.row {
   }
 }
 .btn-orange {
-  background-color: #d9531e;
+  background-color: #eb7e1f;
   &:hover {
-    background-color: darken(#d9531e, 5%);
+    background-color: #d17327;
   }
   &:active {
-    background-color: #d9531e;
+    background-color: #eb7e1f;
   }
 }
 .btn-light-orange {
   background-color: #eb7e1f;
   &:hover {
-    background-color: darken(#eb7e1f, 5%);
+    background-color: #d17327;
   }
   &:active {
     background-color: #eb7e1f;
@@ -109,19 +109,19 @@ ul.row {
 .btn-green {
   background-color: #939f57;
   &:hover {
-    background-color: darken(#939f57, 5%);
+    background-color: #818b4b;
   }
   &:active {
     background-color: #939f57;
   }
 }
 .btn-blue {
-  background-color: #0bb7cf;
+  background-color: #00aacb;
   &:hover {
-    background-color: darken(#0bb7cf, 5%);
+    background-color: #058eb3;
   }
   &:active {
-    background-color: #0bb7cf;
+    background-color: #00aacb;
   }
 }
 .btn-down,
@@ -412,6 +412,32 @@ p.intro {
   .button {
     max-width: 450px;
   }
+  &.speakers {
+    background: rgba(#FFF, 0);
+    .row {
+      max-width: 890px;
+      @include min-screen(1200px) {
+        margin: 0 auto 120px;
+      }
+      @include screen(1024px,1199px) {
+        margin: 0 auto 80px;
+      }
+      @include screen(768px,1023px) {
+        margin: 0 auto 60px;
+      }
+      @include max-screen(767px) {
+        margin: 0 auto;
+      }
+    }
+    cite {
+      float: right;
+      font: italic 20px/28px Georgia,"Times New Roman",Times,serif;
+      color: #00AACB;
+      @include min-screen(768px) {
+        margin: 0 63px 0 0;
+      }
+    }
+  }
 }
 .submit-application {
   background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
@@ -424,6 +450,16 @@ p.intro {
   }
   @include max-screen(767px) {
    padding: 44px 0.9375rem;
+  }
+  .button span {
+    text-transform: uppercase;
+    font-family: hedley-new-web,serif;
+    font-style: normal;
+    font-weight: 400;
+    @include max-screen(320px) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
 #ty-banner,
@@ -708,4 +744,10 @@ p.intro {
 }
 .thanks-page + #footer .go-top {
   display: none;
+}
+.center.large-8.columns,
+.center.medium-8.columns,
+.center.small-12.columns {
+    float: none;
+    margin: 0 auto 50px;
 }

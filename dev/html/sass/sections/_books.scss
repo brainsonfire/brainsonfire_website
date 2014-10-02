@@ -18,7 +18,7 @@
       @include background-size(cover);
       @include min-screen(1200px) {
         top: 83px;  
-        margin-left: 90px;
+        margin-left: 110px;
       }
       @include screen(1024px,1199px) {
         top: 53px;
@@ -121,10 +121,12 @@
       margin: 0 0 20px;
     }
     cite {
-      padding: 0 70px 0 0;
       float: right;
       display: table;
       text-align: left;
+      @include min-screen(481px) {
+        padding: 0 70px 0 0;
+      }
     }
   }
 }
@@ -161,77 +163,7 @@
   h1 + p:first-of-type {
     margin: 0 0 56px;
   }
-  .circle-orbit-nav a:after {
-    bottom: -78px;
-  }
-  .orbit-container {
-    background: rgba(#FFF, 0.8);
-    li span {
-      display: block;
-      margin: 0 0 29px;
-    }
-  }
-  .books-orbit {
-    margin: 0 auto 78px;
-  }
-  .books-orbit a {
-    background-color: rgba(#fff, 0);
-    &.active {
-      background-color: rgba(#fff, 0.5);
-    }
-  }
-  @include min-screen(768px) {
-    .medium-down {
-      display: none;
-    }
-  }
-  @include max-screen(767px) {
-    .medium-down {
-      display: block;
-      width: 100%;
-      img {
-        width: 100%;
-        max-width: 250px;
-        margin: 0 auto 22px;
-        @include border-radius(100%);
-      }
-      h3 {
-        text-align: center;
-      }
-    }
-    .orbit-next {
-      right: -10px;
-    }
-    .orbit-prev {
-      left: -10px;
-    }
-    .orbit-next,
-    .orbit-prev {
-      width: 31px;
-      height: 44px;
-      opacity: 0.8;
-      display: block !important;
-      span {
-        display: none;
-      }
-      &:hover {
-        opacity: 1;
-      }
-    }
-    .orbit-next {
-      background: url(../images/library/arrows.png) no-repeat 0 -88px;
-    }
-    .orbit-prev {
-      background: url(../images/library/arrows.png) no-repeat 0 -132px;
-    }
-  }
 }
 .books #blockquote .submit-application .button {
   max-width: 600px;
-  span {
-    text-transform: uppercase;
-    font-family: hedley-new-web,serif;
-    font-style: normal;
-    font-weight: 500;//@include InfoSemiBoldFont;
-  }
 }

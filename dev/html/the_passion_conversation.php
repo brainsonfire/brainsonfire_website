@@ -102,6 +102,11 @@
 				<section id="book-intro">
 					<div class="row">
 						<h1>What it's about</h1>
+						<div class="center large-8 medium-8 small-12 columns">
+							<div class="videoHolder">
+								<iframe width="560" height="315" src="//www.youtube.com/embed/5WVVRHpGWHU" frameborder="0" allowfullscreen></iframe>	
+							</div>
+						</div>
 						<div class="two-col">
 							<div class="left">
 								<p class="intro">No passion, no conversation.<br> No conversation, no word of mouth.<br> No word of mouth, no successful business.</p>
@@ -120,45 +125,66 @@
 					<div class="row">
 						<h1>Meet the authoral team</h1>
 						<p>all of them are illustrious in their own right.</p>
-						<div class="circle-orbit-nav books-orbit">
-							<a data-orbit-link="circle-headline-1"><span class="circle"><span class="table"><img src="images/books/robbin.jpg" alt="Robbin Phillips"><span class="title">Robbin Phillips</span></span></span></a>
-							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt="Geno Church"><span class="title">Geno Church</span></span></span></a>
-							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/john.jpg" alt="John Moore"><span class="title">John Moore</span></span></span></a>
-							<a data-orbit-link="circle-headline-4"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
+
+						<dl class="tabs" data-tab> 
+							<dd>
+								<a href="#panel1">
+									<span class="circle">
+										<span class="table">
+											<img src="images/books/robbin.jpg" alt="Robbin Phillips">
+											<span class="title">Robbin Phillips</span>
+										</span>
+									</span>
+								</a>
+								<div class="content" id="panel1" aria-hidden="true"> 
+									<p>I’m known as the Courageous President of Brains on Fire. I believe happiness leads to success. I have an amazing life, full of goodness and sunshine and adventure. I work with some really smart people I call friends. I’m one of the co-authors of the book Brains on Fire. I love my two kids in a way words absolutely can’t explain. I love the sound of children laughing—of anyone laughing, actually. I love hot yoga, cold beer, sunny days, and starry nights. I believe writing inspires thinking. I love to speak and share our customers’ stories in hopes of inspiring others. I think out loud at www.brainsonfire.com/blog. I believe we all work better when we’re having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I believe love is a circular transaction.</p>
+									<p>I try really hard to keep things simple. Some days I’m better at that than others. I am part of the Brains on Fire movement.</p>
+								</div> 
+							</dd> 
+							<dd>
+								<a href="#panel2">
+									<span class="circle">
+										<span class="table">
+											<img src="images/books/geno.jpg" alt="Geno Church">
+											<span class="title">Geno Church</span>
+										</span>
+									</span>
+								</a>
+							</dd> 
+							<dd>
+								<a href="#panel3">
+									<span class="circle">
+										<span class="table">
+											<img src="images/books/john.jpg" alt="John Moore">
+											<span class="title">John Moore</span>
+										</span>
+									</span>
+								</a>
+							</dd> 
+							<dd>
+								<a href="#panel4">
+									<span class="circle">
+										<span class="table">
+											<img src="images/books/greg.jpg" alt="Greg Cordell">
+											<span class="title">Greg Cordell</span>
+										</span>
+									</span>
+								</a>
+							</dd> 
+						</dl> 
+						<div class="tabs-content"> 
+
+							<div class="content" id="panel2" aria-hidden="true"> 
+								<p>My official title at Brains on Fire is Word of Mouth Inspiration Officer, but I consider myself more of a pathfinder for our clients and colleagues at Brains on Fire; and I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the U.S. Office of National Drug Control Policy, the National Center for Family Literacy, Love146, and Rage Against the Haze (South Carolina’s youth-led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker—you can find me at places like the Word of Mouth Marketing Association, the Public Relations Society of America, the American Marketing Association, the NewComm Forum on research communications, and the Customer Management World Africa conference. On Saturdays you’ll find me in the spin room at my gym and cruising in my Mini.</p>
+							</div> 
+							<div class="content" id="panel3" aria-hidden="true"> 
+								<p>I take my job seriously, myself lightly. My serious business side is shaped from being a longtime marketing manager with Starbucks and later as director of national marketing with Whole Foods. For many years I operated my own itty-bitty consultancy, the Brand Autopsy Marketing Practice. Today, I’m happily cooped up at Brains on Fire, where I help ensure that our clients achieve their desired growth, and help Brains on Fire develop learners and leaders within the tribe. Along the way, I’ve solo-authored a few business books: Tribal Knowledge, a business management book, and Tough Love, a business book masquerading as a screenplay. My business travels have taken me around the world speaking to marketers at conferences big and small. My lighthearted side involves beer and music. I treat beer like others treat wine (my beer cellar is proof of that). I’m also deep into funky jazz and jazzy funk. (Think Sly Stone, Gil Scott-Heron, Meters, and anything that is “on the one.” Dig?)</p>
+							</div> 
+							<div class="content" id="panel4" aria-hidden="true"> 
+								<p>I’m Chief Inspiration Officer at Brains on Fire, which means my job is to find inspiration where no one else is looking. I’ve never met anyone who didn’t have ideas. The world is stuffed with them. New ones, tired ones, radical ones, clever ones, good and great ones. What we need are fresh, big, bold questions. Give someone an idea, and they will judge. Ask them a great question, and they will grow. This year I celebrate 20 years of being married to someone who, every day, teaches me more about love than I knew the day before. I try just to live up to that and be a good example for my two children, encouraging them to ask good questions. And with any luck, on a really good day, our cat will notice that I exist.</p>
+							</div> 
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: true; variable_height: true;">
-							<li data-orbit-slide="circle-headline-1">
-								<div class="medium-down">
-									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
-									<h3 class="title">Robbin Phillips</h3>
-								</div>
-								<span>I’m known as the Courageous President of Brains on Fire. I believe happiness leads to success. I have an amazing life, full of goodness and sunshine and adventure. I work with some really smart people I call friends. I’m one of the co-authors of the book Brains on Fire. I love my two kids in a way words absolutely can’t explain. I love the sound of children laughing—of anyone laughing, actually. I love hot yoga, cold beer, sunny days, and starry nights. I believe writing inspires thinking. I love to speak and share our customers’ stories in hopes of inspiring others. I think out loud at www.brainsonfire.com/blog. I believe we all work better when we’re having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I believe love is a circular transaction.</span>
-								<span>I try really hard to keep things simple. Some days I’m better at that than others. I am part of the Brains on Fire movement.</span>
-							</li>
-							
-							<li data-orbit-slide="circle-headline-2">
-								<div class="medium-down">
-									<img src="images/books/geno.jpg" alt="Geno Church">
-									<h3 class="title">Geno Church</h3>
-								</div>
-								<span>My official title at Brains on Fire is Word of Mouth Inspiration Officer, but I consider myself more of a pathfinder for our clients and colleagues at Brains on Fire; and I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the U.S. Office of National Drug Control Policy, the National Center for Family Literacy, Love146, and Rage Against the Haze (South Carolina’s youth-led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker—you can find me at places like the Word of Mouth Marketing Association, the Public Relations Society of America, the American Marketing Association, the NewComm Forum on research communications, and the Customer Management World Africa conference. On Saturdays you’ll find me in the spin room at my gym and cruising in my Mini.</span>
-							</li>
-							
-							<li data-orbit-slide="circle-headline-3">
-								<div class="medium-down">
-									<img src="images/books/john.jpg" alt="John Moore">
-									<h3 class="title">John Moore</h3>
-								</div>
-								<span>I take my job seriously, myself lightly. My serious business side is shaped from being a longtime marketing manager with Starbucks and later as director of national marketing with Whole Foods. For many years I operated my own itty-bitty consultancy, the Brand Autopsy Marketing Practice. Today, I’m happily cooped up at Brains on Fire, where I help ensure that our clients achieve their desired growth, and help Brains on Fire develop learners and leaders within the tribe. Along the way, I’ve solo-authored a few business books: Tribal Knowledge, a business management book, and Tough Love, a business book masquerading as a screenplay. My business travels have taken me around the world speaking to marketers at conferences big and small. My lighthearted side involves beer and music. I treat beer like others treat wine (my beer cellar is proof of that). I’m also deep into funky jazz and jazzy funk. (Think Sly Stone, Gil Scott-Heron, Meters, and anything that is “on the one.” Dig?)</span>
-							</li>
-							<li data-orbit-slide="circle-headline-4">
-								<div class="medium-down">
-									<img src="images/books/greg.jpg" alt="Greg Cordell">
-									<h3 class="title">Greg Cordell</h3>
-								</div>
-								<span>I’m Chief Inspiration Officer at Brains on Fire, which means my job is to find inspiration where no one else is looking. I’ve never met anyone who didn’t have ideas. The world is stuffed with them. New ones, tired ones, radical ones, clever ones, good and great ones. What we need are fresh, big, bold questions. Give someone an idea, and they will judge. Ask them a great question, and they will grow. This year I celebrate 20 years of being married to someone who, every day, teaches me more about love than I knew the day before. I try just to live up to that and be a good example for my two children, encouraging them to ask good questions. And with any luck, on a really good day, our cat will notice that I exist.</span>
-							</li>
-						</ul>
+
 					</div>
 				</section>
 				
@@ -210,7 +236,9 @@
 	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
 		$(document).ready(function () {
+
 			$('.secondary-nav li:eq(1)').addClass('current');
+
 		});
 	</script>
 
