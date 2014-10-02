@@ -51,17 +51,17 @@
 						<div class="large-4 medium-4 small-12 columns">
 							<a href="robbin_speaker.php"><img src="images/speaking/robbin.jpg" alt="Robbin Phillips"></a>
 							<h3><a href="robbin_speaker.php">Robbin Phillips</a></h3>
-							<a href="robbin_speaker.php" class="button btn-orange">learn more</a>
+							<a href="robbin_speaker.php" class="button btn-light-orange">learn more</a>
 						</div>
 						<div class="large-4 medium-4 small-12 columns">
 							<a href="geno_speaker.php"><img src="images/speaking/geno.jpg" alt="Geno Church"></a>
 							<h3><a href="geno_speaker.php">Geno Church</a></h3>
-							<a href="geno_speaker.php" class="button btn-orange">learn more</a>
+							<a href="geno_speaker.php" class="button btn-light-orange">learn more</a>
 						</div>
 						<div class="large-4 medium-4 small-12 columns">
 							<a href="greg_speaker.php"><img src="images/speaking/greg.jpg" alt="Greg Cordell"></a>
 							<h3><a href="greg_speaker.php">Greg Cordell</a></h3>
-							<a href="greg_speaker.php" class="button btn-orange">learn more</a>
+							<a href="greg_speaker.php" class="button btn-light-orange">learn more</a>
 						</div>
 					</div>
 				</div>
@@ -112,7 +112,7 @@
 							<p class="hint">*subject to change, **workshop size is limited</p>
 						</div>
 						<div class="btn-holder">
-							<a href="#form" class="button btn-orange btn-scroll">book us now</a>
+							<a href="#form" class="button btn-light-orange btn-scroll">book us now</a>
 						</div>
 					</div>
 				</section>
