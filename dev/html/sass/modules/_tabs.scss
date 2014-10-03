@@ -41,6 +41,7 @@
       margin: 0 auto;
       position: relative;
       background-color: rgba(#D0F2F7, 0);
+      @include transition(background-color 0.2s ease-in-out);
       @include border-radius(100%);
       @include max-screen(767px) {
         max-width: 260px; 
@@ -121,6 +122,9 @@
     }
     &.active a {
       background-color: #D0F2F7;
+    }
+    &:hover a {
+      background-color: rgba(#D0F2F7, 0.8);
     }
   }
   a:after {
