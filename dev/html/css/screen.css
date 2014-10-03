@@ -1997,8 +1997,8 @@ p.intro {
 .application #form h1 + p {
   text-align: left;
   text-transform: none;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 788px;
+  margin: 0 auto -30px;
   font-weight: 400;
   font-size: 17px;
   font-size: 1.0625rem;

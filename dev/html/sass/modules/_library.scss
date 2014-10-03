@@ -551,8 +551,8 @@ p.intro {
     h1 + p {
       text-align: left;
       text-transform: none;
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 788px;
+      margin: 0 auto -30px;
       font-weight: 400;
       @include font-size(17);
       @include min-screen(1024px) {
