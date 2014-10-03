@@ -553,6 +553,17 @@ p.intro {
       text-transform: none;
       max-width: 800px;
       margin: 0 auto;
+      font-weight: 400;
+      @include font-size(17);
+      @include min-screen(1024px) {
+        @include line-height(32);
+      }
+      @include screen(768px,1023px) {
+        @include line-height(30);
+      }
+      @include max-screen(767px) {
+        @include line-height(28);
+      }
     }
   }
 }

@@ -17,12 +17,12 @@ h1 {
   margin: 0 auto 5px;
   font-weight: 500;
   @include min-screen(1024px) {
-    @include font-size(42);
-    @include line-height(44);
+    @include font-size(40);
+    @include line-height(42);
   }
   @include screen(768px,1023px) {
     @include font-size(32);
-    @include line-height(34);
+    @include line-height(32);
   }
   @include max-screen(767px) {
     @include font-size(28);

@@ -1,6 +1,6 @@
 #case-studies-banner {
   @include min-screen(1200px) {
-    padding: 80px 0 45px;
+    padding: 80px 0 44px;
   }
   background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
   @include background-size(auto);

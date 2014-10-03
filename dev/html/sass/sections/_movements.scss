@@ -2,14 +2,14 @@
   background: #0095b2 url(../images/movement/movement_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
   @include min-screen(1200px) {
-    padding: 170px 0 85px;
+    padding: 170px 0 78px;
   }
 }
 #learn-banner {
   background: #dc5520 url(../images/movement/learn_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
   @include min-screen(1200px) {
-    padding: 162px 0 84px;
+    padding: 170px 0 78px;
   }
 }
 #movement-info {

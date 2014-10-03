@@ -5,7 +5,7 @@
   background: #0095b2 url(../images/hello/bg_hello_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
   @include min-screen(1200px) {
-    padding: 170px 0 73px;
+    padding: 170px 0 78px;
   }
 }
 #cta {

@@ -2,7 +2,7 @@
   background: #0095b2 url(../images/speaking/bg_speaking_banner.jpg) no-repeat 50% 100%;
   @include background-size(cover);
   @include min-screen(1200px) {
-    padding: 170px 0 85px;
+    padding: 170px 0 78px;
   }
 }
 #speakers {
@@ -181,7 +181,7 @@
   }
   h2 {
     margin: 0 0 5px;
-    font-weight: 500;//@include InfoSemiBoldFont;
+    font-weight: 500;
     @include min-screen(1024px) {
       @include font-size(42);
       @include line-height(44);
