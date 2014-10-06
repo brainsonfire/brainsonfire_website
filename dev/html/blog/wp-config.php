@@ -22,21 +22,22 @@
 // define('WP_CACHE', true); //Added by WP-Cache Manager
 // define( 'WPCACHEHOME', '/mnt/stor3-wc2-dfw1/486029/www.brainsonfire.com/web/content/blog/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 
-if($_SERVER['HTTP_HOST'] == 'localhost') {
-    define('DB_NAME', 'bof_blog');
-    define('DB_USER', 'root');
-    define('DB_PASSWORD', '');
-    define('DB_HOST', 'localhost');
-    define('DB_CHARSET', 'utf8');
-    define('DB_COLLATE', '');   
-    
-} else {
+if($_SERVER['SERVER_NAME'] == 'dev.brainsonfire.com') {
+
 	define( 'DB_NAME', '486029_brains_5_5_14' );
 	define( 'DB_USER', '486029_bofdbad' );
 	define( 'DB_PASSWORD', '25sdDRN69lAm' );
 	define( 'DB_HOST', 'mysql51-110.wc2.dfw1.stabletransit.com' );
 	define('DB_CHARSET', 'utf8');
-	define('DB_COLLATE', '');
+	define('DB_COLLATE', '');   
+    
+} else {
+	 define('DB_NAME', 'bof_blog');
+    define('DB_USER', 'root');
+    define('DB_PASSWORD', '');
+    define('DB_HOST', 'localhost');
+    define('DB_CHARSET', 'utf8');
+    define('DB_COLLATE', '');   
 }
 
 /**#@+
