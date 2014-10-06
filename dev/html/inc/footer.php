@@ -10,7 +10,7 @@
 			<a class="tel fnc-tel" href="tel:864-676-9663">864-676-9663</a>
 		</div>
 		<div class="block email-block">
-			<a class="button btn-orange email-us" href="mailto:firestarter@brainsonfire.com">Email Us</a>
+			<a class="button btn-light-orange email-us" href="mailto:firestarter@brainsonfire.com">Email Us</a>
 		</div>
 		<div class="block connect-block">
 			<span class="text-online">Connect Online</span>
@@ -32,8 +32,7 @@
 			<ul>
 				<li>Copyright Brains On Fire 2013</li>
 				<li><address>148 River Street, Suite 100 Greenville, SC 29601</address></li>
-				<li>Legal Mumjum</li>
-				<li>Use Hedley Typeface</li>
+				<li><a href="legal.php">Legal</a></li>
 			</ul>
 		</div>
 	</div>

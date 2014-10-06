@@ -1,5 +1,34 @@
-<?php $title = 'Brains on Fire | Speaking | Geno Church' ?>
-<?php include("inc/head.php"); ?>
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+    <title>Brains on Fire | Speaking | Geno Church</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/layout/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/layout/apple-favicon.png"/>
+
+	<script src="//use.typekit.net/xqj8rqh.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/dev.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
+
+    <!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+    <script src="js/min/modernizr.custom.01216.min.js"></script>
+    <!--[if lte IE 8]><script type="text/javascript" src="js/min/respond.min.js"></script><![endif]-->
+
+</head>
+
 <body>
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -9,14 +38,14 @@
 
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main" class="speaker-detail">
+			<main id="main" class="speaker-detail inner-pages">
 
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
 							<li><a class="previous" href="robbin_speaker.php"><span>previous speaking</span></a></li>
 							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
-							<li><a class="next" href="john_speaker.php"><span>next speaker</span></a></li>
+							<li><a class="next" href="greg_speaker.php"><span>next speaker</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -25,7 +54,7 @@
 					<img src="images/speaking/geno_banner.jpg" alt="Geno Church">
 					<div class="half-block right">
 						<p>“A brand is not a label, it's a lens. People want to see what's happening on the other side.”</p>
-						<a href="speaking.php#form" class="button btn-orange">book geno now</a>
+						<a href="speaking.php#form" class="button btn-light-orange">book geno now</a>
 					</div>
 				</div>
 
@@ -56,15 +85,41 @@
 					</article>
 				</section>
 
-				<div class="direction-nav bottom">
+				<section id="in-action" class="white-text">
 					<div class="row">
-						<ul>
-							<li><a class="previous" href="robbin_speaker.php"><span>previous speaker</span></a></li>
-							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
-							<li><a class="next" href="john_speaker.php"><span>next speaker</span></a></li>
-						</ul>
+				        <h1>Geno in Action</h1>
+				        <div class="large-7 medium-7 small-12 columns">
+				          	<div class="videoHolder">
+				           		<iframe src="//player.vimeo.com/video/85481213" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				           	</div>
+				        </div>
+				        <div class="large-5 medium-5 small-8 columns">
+				          	<h2>Favorite Topics</h2>
+				            <ul>
+					            <li>Word of Mouth Marketing</li>
+					            <li>WOM Movements</li>
+					            <li>Content Strategy</li>
+					            <li>Social Media</li>
+					            <li>Creative Direction</li>
+					            <li>Brand and Identity Development</li>
+					            <li>Customer Engagement</li>
+					            <li>Community Building</li>
+					            <li>WOMology</li>
+					            <li>The Passion Conversation</li>
+				          	</ul>
+				        </div>
 					</div>
-				</div>
+				</section>
+
+				<section id="blockquote" class="speakers">
+					<div class="row">
+						<blockquote>“Geno is a brilliant creative, a wonderfully engaging speaker and natural presenter. Most importantly, he has dedicated his life to advancing the cause of people, WOMM and advocacy as the focus of marketing. Geno took the room on an emotional roller coaster of great case studies from the hilarious power of Chick-fil-A's marketing genius (and disasters) to the tear-jerking profundity of Love146 and how they tripled donations through better storytelling.”</blockquote>
+						<cite>Howard Parry<br>Husbands, Director of The Influence Group</cite>
+					</div>
+					<div class="submit-application">
+						<a class="button btn-blue" href="speaking.php#form">book <span>Geno Church</span> now</a>
+					</div>
+				</section>
 
 			</main>
 

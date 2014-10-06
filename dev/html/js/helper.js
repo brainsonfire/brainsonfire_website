@@ -75,5 +75,33 @@ $(document).ready(function () {
         }, 800);
     });
 
-});
+    var allPanels = $('.tabs dd').hide();
+      
+    $('.tabs dt a').click(function() {
+      if($(this).parent().hasClass('active')) {
+        $(this).parent().next().slideUp();
+        $(this).parent().removeClass('active');
+      } else {
+        $('.tabs dt').removeClass('active');
+        $(this).parent().addClass('active');
+        allPanels.slideUp();
+        $(this).parent().next().slideDown();
+      }
+      return false;
+    });
 
+    var tabHeight = $('.movement-tab a').width();
+    $('.movement-tab .table').css({
+      'height': tabHeight,
+      'width': tabHeight
+    });
+    
+    $(window).resize(function() {
+      var tabHeight = $('.movement-tab a').width();
+      $('.movement-tab .table').css({
+        'height': tabHeight,
+        'width': tabHeight
+         });
+    });
+    
+});

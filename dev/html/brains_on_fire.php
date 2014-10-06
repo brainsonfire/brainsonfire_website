@@ -1,5 +1,34 @@
-<?php $title = 'Brains on Fire | Brains on fire' ?>
-<?php include("inc/head.php"); ?>
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+    <title>Brains on Fire | Brains on fire</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/layout/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/layout/apple-favicon.png"/>
+
+	<script src="//use.typekit.net/xqj8rqh.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/dev.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
+
+    <!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+    <script src="js/min/modernizr.custom.01216.min.js"></script>
+    <!--[if lte IE 8]><script type="text/javascript" src="js/min/respond.min.js"></script><![endif]-->
+
+</head>
+
 <body>
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -14,9 +43,9 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="the_passion_conversation.php"><span>previous book</span></a></li>
 							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="the_passion_conversation.php"><span>next story</span></a></li>
+							<li><a class="next" href="the_passion_conversation.php"><span>next book</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -27,14 +56,50 @@
 						<div class="half-block right">
 							<h1>Brains on Fire</h1>
 							<p>A book about igniting powerful, sustainable, word of mouth movements.</p>
-							<a href="#dummy" class="button btn-orange">buy it now</a>
+							<a href="#" data-reveal-id="firstModal" class="button btn-blue">buy it now</a>
 						</div>
 					</div>
 				</section>
 
+				<!-- Reveal Modals begin -->
+				<div id="firstModal" class="reveal-modal" data-reveal>
+					<div class="retailers">
+						<a class="close-reveal-modal">&#215;</a>
+						<h2>Where to buy</h2>
+						<p>Pick a store, any store.</p>
+						<ul>
+							<li>
+								<a class="ceoread" target="_blank" href="http://800ceoread.com/book/show/9780470614181-Brains_on_Fire">
+									<img src="images/modal/ceoread.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bam" target="_blank" href="http://www.booksamillion.com/p/Brains-Fire/Robbin-Phillips/Q362900852?id=6117550105521">
+									<img src="images/modal/bam.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="amazon" target="_blank" href="http://amzn.com/0470614188">
+									<img src="images/modal/amazon.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="indiebound" target="_blank" href="http://www.indiebound.org/book/9780470614181">
+									<img src="images/modal/indiebound.jpg" alt="">
+								</a>
+							</li>
+							<li>
+								<a class="bn" target="_blank" href="http://search.barnesandnoble.com/Brains-on-Fire/Robbin-Phillips/e/9780470614181/?itm=1&amp;USRI=brains+on+fire">
+									<img src="images/modal/bn.jpg" alt="">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
 				<section id="book-intro">
 					<div class="row">
-						<h1>What is about</h1>
+						<h1>What it's about</h1>
 						<div class="two-col">
 							<div class="left">
 								<p class="intro">Igniting sustainable movements is hard work. It’s building with people, not tools.</p><p>Featuring ten lessons you can start building on today, it takes you step by step through lessons the authors have learned on how to inspire excitement and engage the customers and other stakeholders who will advocate for you.</p>
@@ -51,44 +116,47 @@
 					<div class="row">
 						<h1>Meet the authoral team</h1>
 						<p>all of them are illustrious in their own right.</p>
-						<div class="circle-orbit-nav books-orbit">
-							<a data-orbit-link="circle-headline-1"><span class="circle"><span class="table"><img src="images/books/robbin.jpg" alt="Robbin Phillips"><span class="title">Robbin Phillips</span></span></span></a>
-							<a data-orbit-link="circle-headline-2"><span class="circle"><span class="table"><img src="images/books/greg.jpg" alt="Greg Cordell"><span class="title">Greg Cordell</span></span></span></a>
-							<a data-orbit-link="circle-headline-3"><span class="circle"><span class="table"><img src="images/books/geno.jpg" alt="Geno Church"><span class="title">Geno Church</span></span></span></a>
+						<div class="tabs author-tab three">
+							<dl> 							
+								<dt>
+									<a href="#">
+										<img src="images/books/robbin.jpg" alt="Robbin Phillips">
+										<span class="title">Robbin Phillips</span>
+									</a>
+								</dt>
+								<dd>
+									<p>I’m known as the Courageous President around the halls of Brains on Fire. (Wait, we don’t have halls.) I love my two kids in a way words can’t explain. I’ve worked with brands such as BMW, Colonial Williamsburg Foundation, Love146, Find Great People International and Ryobi Tools. I love hot yoga, cold beer, sunny days and starry nights. I believe writing inspires thinking. I write and think out loud at brainsonfire.com/blog. I think everyone works better when they are having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I am pretty psyched PQ Media names us one of the top three word of mouth companies in the industry in 2007. And that Wommie Award was cool. (Yahoo! And Coca-Cola got one along with us.) I believe love is a circular transaction. I try really hard to keep things simple. Some days I am better at that than others. I am part of the Brains on Fire Movement.</p>
+								</dd> 
+								
+								<dt>
+									<a href="#">
+										<img src="images/books/greg.jpg" alt="Greg Cordell">
+										<span class="title">Greg Cordell</span>
+									</a>
+								</dt>
+								<dd>
+									<p>I’m Chief Inspiration Officer at Brains on Fire. I work for my children. I’ve been a concepter, a writer, an art director, a screenwriter. I might be something else next Thursday. I believe all people are brilliant. I drive American. I’ve spoken at AIGA gatherings and PRSA conferences and corporate events and the happy hour around the corner. Because I like to talk. I cry, too. At weddings and animated movies. I’ve worked on creative solutions for Coca-Cola, Yakima, BMW, Don Pablo’s Mexican Restaurants, Applebee’s and Best Buy. In another life, I might be a philosopher. I’ve had work used as the backdrop for an American President’s war on drugs. I’ve added crazy-big numbers to national brands’ bottom lines. I like being a conduit for inspirational energy. I believe everybody deserves the right to be excited about something. I believe there is always a better way and the greatest thing people can experience is to realize they need each other.</p>
+								</dd> 
+
+								<dt>
+									<a href="#">
+										<img src="images/books/geno.jpg" alt="Geno Church">
+										<span class="title">Geno Church</span>
+									</a>								
+								</dt>
+								<dd>
+									<p>My title on the Brains on Fire website is Word of Mouth Inspiration Officer, but I consider myself more of a Pathfinder for our clients and Brains on Fire. And I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the US Office of National Drug Control Policy, Love 146 and Rage Against the Haze (South Carolina’s youth led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker – at places like the Word of Mouth Marketing Association, the Public Relations Society of America, American Marketing Association, the New Comm Research Communications Forum, and the World Africa Customer Management Conference. I used to play in a glam-rock band. I survived.</p>
+								</dd> 
+							</dl> 
 						</div>
-						<ul class="circle-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; navigation_arrows: false;">
-							<li data-orbit-slide="circle-headline-1">
-								<div class="medium-down">
-									<img src="images/books/robbin.jpg" alt="Robbin Phillips">
-									<h3 class="title">Robbin Phillips</h3>
-								</div>
-								<span>I’m known as the Courageous President around the halls of Brains on Fire. (Wait, we don’t have halls.) I love my two kids in a way words can’t explain. I’ve worked with brands such as BMW, Colonial Williamsburg Foundation, Love146, Find Great People International and Ryobi Tools. I love hot yoga, cold beer, sunny days and starry nights. I believe writing inspires thinking. I write and think out loud at brainsonfire.com/blog. I think everyone works better when they are having fun. I expect my business dealings to be profitable. I want to create positive change in the world. I am pretty psyched PQ Media names us one of the top three word of mouth companies in the industry in 2007. And that Wommie Award was cool. (Yahoo! And Coca-Cola got one along with us.) I believe love is a circular transaction. I try really hard to keep things simple. Some days I am better at that than others. I am part of the Brains on Fire Movement.</span>
-							</li>
-							
-							<li data-orbit-slide="circle-headline-2">
-								<div class="medium-down">
-									<img src="images/books/greg.jpg" alt="Greg Cordell">
-									<h3 class="title">Greg Cordell</h3>
-								</div>
-								<span>I’m Chief Inspiration Officer at Brains on Fire. I work for my children. I’ve been a concepter, a writer, an art director, a screenwriter. I might be something else next Thursday. I believe all people are brilliant. I drive American. I’ve spoken at AIGA gatherings and PRSA conferences and corporate events and the happy hour around the corner. Because I like to talk. I cry, too. At weddings and animated movies. I’ve worked on creative solutions for Coca-Cola, Yakima, BMW, Don Pablo’s Mexican Restaurants, Applebee’s and Best Buy. In another life, I might be a philosopher. I’ve had work used as the backdrop for an American President’s war on drugs. I’ve added crazy-big numbers to national brands’ bottom lines. I like being a conduit for inspirational energy. I believe everybody deserves the right to be excited about something. I believe there is always a better way and the greatest thing people can experience is to realize they need each other.</span>
-							</li>
-							
-							<li data-orbit-slide="circle-headline-3">
-								<div class="medium-down">
-									<img src="images/books/geno.jpg" alt="Geno Church">
-									<h3 class="title">Geno Church</h3>
-								</div>
-								<span>My title on the Brains on Fire website is Word of Mouth Inspiration Officer, but I consider myself more of a Pathfinder for our clients and Brains on Fire. And I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the US Office of National Drug Control Policy, Love 146 and Rage Against the Haze (South Carolina’s youth led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker – at places like the Word of Mouth Marketing Association, the Public Relations Society of America, American Marketing Association, the New Comm Research Communications Forum, and the World Africa Customer Management Conference. I used to play in a glam-rock band. I survived.</span>
-							</li>
-						</ul>
 					</div>
 				</section>
 				
 				<section id="blockquote" class="books">
 					<div class="row">
 						<h1>Reviews</h1>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;">
+						<p>Some nice words from smart people.</p>
+						<ul class="blockquote-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false; variable_height: true;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
 									<blockquote>“Brains on Fire succeeds at doing what so many other business books attempt: it provides a recipe for how every company can succeed—but the secret isn’t in the latest tools, online communities, or campaign tactics. It’s about passion, humanization and common sense. And to prove that it’s possible, Brains on Fire is filled with examples of organizations that have already done it.”</blockquote>
@@ -116,19 +184,9 @@
 						</ul>
 					</div>
 					<div class="submit-application">
-						<a class="button btn-blue" href="#dummy">buy <span>brains on fire</span> now</a>
+						<a class="button btn-blue" href="#" data-reveal-id="firstModal">buy <span>brains on fire</span> now</a>
 					</div>
 				</section>
-
-<!-- 				<div class="direction-nav bottom">
-					<div class="row">
-						<ul>
-							<li><a class="previous" href="the_passion_conversation.php"><span>previous story</span></a></li>
-							<li><a class="center" href="books.php"><span>back to books</span></a></li>
-							<li><a class="next" href="the_passion_conversation.php"><span>next story</span></a></li>
-						</ul>
-					</div>
-				</div> -->
 
 			</main>
 

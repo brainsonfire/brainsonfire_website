@@ -1,5 +1,34 @@
-<?php $title = 'Brains on Fire | Word of Mouth Marketing and Movement Igniting Company' ?>
-<?php include("inc/head.php"); ?>
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+    <title>Brains on Fire | Word of Mouth Marketing and Movement Igniting Company</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/layout/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/layout/apple-favicon.png"/>
+
+	<script src="//use.typekit.net/xqj8rqh.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/dev.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
+
+    <!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+    <script src="js/min/modernizr.custom.01216.min.js"></script>
+    <!--[if lte IE 8]><script type="text/javascript" src="js/min/respond.min.js"></script><![endif]-->
+
+</head>
+
 <body>
 	<!--[if lte IE 7]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -14,7 +43,7 @@
 			
 				<div id="home-video" class="WindowHeight" style="opacity: 0;">
 					<div class="videoHolder">
-						<video id="homepagevid" poster="images/home/ram_at_his_desk.jpg" controls preload autoplay loop>
+						<video id="homepagevid" poster="images/home/ram_at_his_desk.jpg" preload autoplay loop>
 							<source type="video/mp4" src="videos/ram.mp4" />
 							<source type="video/webm" src="videos/ram.webm" />
 							<source type="video/ogg" src="videos/ram.ogv" />
@@ -27,8 +56,8 @@
 					<div class="row">
 						<div class="txt">
 							<h1 class="title">We can help your organizations<br> ignite a powerful, sustainable<br> word of mouth movements.</h1>
-							<a href="#dummy" class="button btn-blue left">we’ll teach you how</a>
-							<a href="#dummy" class="button btn-green left">or build it with you</a>
+							<a href="learn_movement.php" class="button btn-blue left">we’ll teach you how</a>
+							<a href="movements.php" class="button btn-green left">or build it with you</a>
 						</div>
 					</div>
 					<a href="#checkpoint1" class="btn-down btn-scroll">Scroll down</a>
@@ -39,9 +68,21 @@
 						<h1>Some of our work.</h1>
 						<p>Be Famous For The People Who Love You... For The Way You Love Them.</p>
 						<ul class="row works-list">
-							<li class="large-4 medium-4 small-12 columns"><a href="love_146.php"><img src="images/home/love_146.jpg" alt="Love 146"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="#dummy"><img src="images/home/fr.jpg" alt="Fitness Rebellion"></a></li>
-							<li class="large-4 medium-4 small-12 columns"><a href="heroes_in_recovery.php"><img src="images/home/heroes.jpg" alt="Heroes in Recovery"></a></li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="love_146.php">
+									<img src="images/home/love_146.jpg" alt="Love 146">
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="fitness_rebellion.php">
+									<img src="images/home/fr.jpg" alt="Fitness Rebellion">
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="heroes_in_recovery.php">
+									<img src="images/home/heroes.jpg" alt="Heroes in Recovery">
+								</a>
+							</li>
 						</ul>
 						<div class="btn-holder">
 							<a class="button btn-ico btn-orange" href="case_studies.php">View all of our case studies</a>
@@ -104,12 +145,7 @@
 			
 		    var WH = $(window).height();
 		    
-		    if($(window).height() < 640) {
-		    	$(".WindowHeight").height(WH + 83);
-		    } else {
-		    	$(".WindowHeight").height(WH);
-		    }
-		    
+		    $(".WindowHeight").height(WH);
 		});
 
 		$(window).resize(function() {

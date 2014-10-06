@@ -14,8 +14,9 @@
     @include background-size(cover);
   }
 }
-// .touch #home-video,
-// .lt-ie10 #home-video {
+.no-touch.lt-ie10 #home-video {
+  position: absolute;
+}
 .touch #home-video {
   display: none;
 }
@@ -91,6 +92,7 @@
     min-height: 100%;
   }
 }
+
 #home {
   padding: 0;
   margin: -83px 0 0;
@@ -162,6 +164,38 @@
     }
   }
 }
+
+@include max-screen(480px) {
+  html .home {
+    #home-video,
+    #home,
+    .videoHolder {
+      height: 480px !important;
+      width: 100%;
+    }
+    #home-video {
+      position: absolute !important;
+      .videoHolder video {
+        display: none;
+      }
+    }
+    #home .txt {
+      height: 55%;
+      h1 {
+        @include font-size(28);
+        @include line-height(28);
+      }
+      .button.left {
+        margin: 0 auto 16px;
+      }
+    }
+    #home .btn-down, 
+    #home .btn-down:active {
+      display: none;
+    }
+  }
+}
+
 .section-work {
   background: url(../images/layout/bg-path.png);
   color: #333;

@@ -1,5 +1,34 @@
-<?php $title = 'Brains on Fire | Speaking | Greg Cordell' ?>
-<?php include("inc/head.php"); ?>
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+    <title>Brains on Fire | Speaking | Greg Cordell</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/layout/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/layout/apple-favicon.png"/>
+
+	<script src="//use.typekit.net/xqj8rqh.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/dev.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
+
+    <!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+    <script src="js/min/modernizr.custom.01216.min.js"></script>
+    <!--[if lte IE 8]><script type="text/javascript" src="js/min/respond.min.js"></script><![endif]-->
+
+</head>
+
 <body>
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -9,12 +38,12 @@
 
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main" class="speaker-detail">
+			<main id="main" class="speaker-detail inner-pages">
 
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="john_speaker.php"><span>previous speaker</span></a></li>
+							<li><a class="previous" href="geno_speaker.php"><span>previous speaker</span></a></li>
 							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
 							<li><a class="next" href="robbin_speaker.php"><span>next speaker</span></a></li>
 						</ul>
@@ -25,7 +54,7 @@
 					<img src="images/speaking/greg_banner.jpg" alt="Greg Cordell">
 					<div class="half-block right">
 						<p>“Be famous for the people who love you for the way you love them.”</p>
-						<a href="speaking.php#form" class="button btn-orange">book greg now</a>
+						<a href="speaking.php#form" class="button btn-light-orange">book greg now</a>
 					</div>
 				</div>
 
@@ -57,15 +86,11 @@
 					</article>
 				</section>
 
-				<div class="direction-nav bottom">
-					<div class="row">
-						<ul>
-							<li><a class="previous" href="john_speaker.php"><span>previous speaker</span></a></li>
-							<li><a class="center" href="speaking.php"><span>back to speakers</span></a></li>
-							<li><a class="next" href="robbin_speaker.php"><span>next speaker</span></a></li>
-						</ul>
+				<section id="blockquote" class="speakers">
+					<div class="submit-application">
+						<a class="button btn-blue" href="speaking.php#form">book <span>Greg Cordell</span> now</a>
 					</div>
-				</div>
+				</section>
 
 			</main>
 

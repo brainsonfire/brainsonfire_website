@@ -74,14 +74,14 @@ $button-disabled-cursor: $cursor-default-value !default;
     cursor: $cursor-pointer-value;
     font-family: $button-font-family;
     font-weight: $button-font-weight;
-    margin: 0;
+    //margin: 0;
     position: relative;
     text-decoration: none;
-    text-align: $button-font-align;
+    //text-align: $button-font-align;
     -webkit-appearance: none;
     //-webkit-border-radius: 0;
   }
-  @if $display { display: $display; }
+  //@if $display { display: $display; }
 }
 
 // @MIXIN

@@ -1,5 +1,34 @@
-<?php $title = 'Brains on Fire | Client Questionnaire' ?>
-<?php include("inc/head.php"); ?>
+
+<!DOCTYPE html>
+<!--[if IE 9]><html class="no-js ie9 lt-ie10" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+
+    <title>Brains on Fire | Client Questionnaire</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/layout/favicon.ico" />
+    <link rel="apple-touch-icon" href="images/layout/apple-favicon.png"/>
+
+	<script src="//use.typekit.net/xqj8rqh.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
+    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/dev.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
+
+    <!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+    <script src="js/min/modernizr.custom.01216.min.js"></script>
+    <!--[if lte IE 8]><script type="text/javascript" src="js/min/respond.min.js"></script><![endif]-->
+
+</head>
+
 <body>
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -17,11 +46,14 @@
 					<div class="row">
 						<div class="half-block left">
 							<h1>So, You want to work with brains on fire?</h1>
-							<p>Just as we believe in being marketing matchmakers who connect companies and causes to the right customers, we employ the same philosophy to our own business. When we are able to take on new work, we want to be certain we’re partnering with organizations we can help meaningfully succeed—and can have fun with along the way. In order to do just that, we’ve developed a process that helps us determine that you + us will equal a match made in marketing heaven.</p>
 						</div>
 					</div>
 				</section>
-				
+
+				<div class="row">
+					<p>Just as we believe in being marketing matchmakers who connect companies and causes to the right customers, we employ the same philosophy to our own business. When we are able to take on new work, we want to be certain we’re partnering with organizations we can help meaningfully succeed—and can have fun with along the way. In order to do just that, we’ve developed a process that helps us determine that you + us will equal a match made in marketing heaven.</p>
+				</div>
+
 				<section id="form">
 					<div class="row">
 						<h1>Application Form</h1>
@@ -38,12 +70,12 @@
 								<li id="foli1" class="notranslate row">
 									<label class="desc" id="title1" for="Field1">Main Point of Contact</label>
 									<span>
-										<label for="Field1">First</label>
-										<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="40" tabindex="2" />
+										<!-- <label for="Field1">First</label> -->
+										<input id="Field1" name="Field1" type="text" class="field text fn" placeholder="First Name" size="40" tabindex="2" />
 									</span>
 									<span>
-										<label for="Field2">Last</label>
-										<input id="Field2" name="Field2" type="text" class="field text ln" value="" size="40" tabindex="3" />
+										<!-- <label for="Field2">Last</label> -->
+										<input id="Field2" name="Field2" type="text" class="field text ln" placeholder="Last Name" size="40" tabindex="3" />
 									</span>
 								</li>
 								<li id="foli3" class="notranslate row">

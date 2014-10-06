@@ -36,6 +36,7 @@ ul.row {
   text-align: center;
   text-transform: lowercase;
   border: 0;
+  @include transition(background-color, ease-in-out, 0.2s, 0s);
   @include min-screen(1200px) {
     padding: 1.4rem 0;
     max-width: 360px;
@@ -90,28 +91,37 @@ ul.row {
 .btn-orange {
   background-color: #d9531e;
   &:hover {
-    background-color: darken(#D9531E, 5%);
+    background-color: #b6491e;
   }
   &:active {
     background-color: #d9531e;
   }
 }
+.btn-light-orange {
+  background-color: #eb7e1f;
+  &:hover {
+    background-color: #d17327;
+  }
+  &:active {
+    background-color: #eb7e1f;
+  }
+}
 .btn-green {
   background-color: #939f57;
   &:hover {
-    background-color: darken(#939f57, 5%);
+    background-color: #818b4b;
   }
   &:active {
     background-color: #939f57;
   }
 }
 .btn-blue {
-  background-color: #0bb7cf;
+  background-color: #00aacb;
   &:hover {
-    background-color: darken(#0bb7cf, 5%);
+    background-color: #058eb3;
   }
   &:active {
-    background-color: #0bb7cf;
+    background-color: #00aacb;
   }
 }
 .btn-down,
@@ -379,8 +389,16 @@ p.intro {
 .border-left {
   border-left: 2px solid rgba(153, 153, 153, 0.3);
 }
-.white-text * {
-  color: #FFF;
+.white-text {
+  .row {
+    position: relative;
+    @include min-screen(1200px) {
+      height: 100%;
+    }
+  }
+  * {
+    color: #FFF;
+  }
 }
 .btn-holder {
     display: block;
@@ -394,35 +412,94 @@ p.intro {
   .button {
     max-width: 450px;
   }
+  &.speakers {
+    background: rgba(#FFF, 0);
+    .row {
+      max-width: 890px;
+      @include min-screen(1200px) {
+        margin: 0 auto 120px;
+      }
+      @include screen(1024px,1199px) {
+        margin: 0 auto 80px;
+      }
+      @include screen(768px,1023px) {
+        margin: 0 auto 60px;
+      }
+      @include max-screen(767px) {
+        margin: 0 auto;
+      }
+    }
+    cite {
+      float: right;
+      font: italic 20px/28px Georgia,"Times New Roman",Times,serif;
+      color: #00AACB;
+      @include min-screen(768px) {
+        margin: 0 63px 0 0;
+      }
+    }
+  }
 }
 .submit-application {
   background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
   @include background-size(cover);
-  @include min-screen(1024px) {
+  @include min-screen(1200px) {
     padding: 111px 0.9375rem 119px;
   }
+  @include screen(1024px,1199px) {
+    padding: 50px 0.9375rem;
+  }
   @include screen(768px,1023px) {
-    padding: 60px 0.9375rem;
+    padding: 40px 0.9375rem;
   }
   @include max-screen(767px) {
-   padding: 44px 0.9375rem;
+   padding: 30px 0.9375rem;
+  }
+  .button span {
+    text-transform: uppercase;
+    font-family: hedley-new-web,serif;
+    font-style: normal;
+    font-weight: 400;
+    @include max-screen(320px) {
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
+.speaker-detail .submit-application {
+  @include min-screen(1200px) {
+    padding: 2rem 0.9375rem;
+  }
+  @include screen(1024px,1199px) {
+    padding: 2rem 0.9375rem;
+  }
+  @include screen(768px,1023px) {
+    padding: 2rem 0.9375rem;
+  }
+  @include max-screen(767px) {
+   padding: 2rem 0.9375rem;
+  }
+}
+#ty-banner,
 #application-banner,
 #book-banner,
 #speaker-banner {
   padding: 0;
+  @include min-screen(1200px) {
+    height: 800px;
+  }
   > img {
     display: block;
     max-width: none;
-    height: auto;
     @include min-screen(1200px) {
+      position: absolute;
+      bottom: 0;
+      min-height: 100%;
+      min-width: 100%;
+      width: auto;
+    }
+    @include min-screen(1025px) {
       width: auto;
       min-width: 100%;
-      min-height: 100%;
-    }
-    @include max-screen(1199px) {
-      width: 100%;
     }
   }
   .row {
@@ -431,15 +508,17 @@ p.intro {
     }
   }
   .half-block {
-    padding: 15px;
     z-index: 30;
     @include min-screen(1200px) {
-      height: 10%;
+      top: 30% !important;
+      height: 40%;
       width: 44%;
+      padding: 15px 0 0;
     }
     @include screen(1024px,1199px) {
-      height: 10%;
+      height: 40%;
       width: 54%;
+      padding: 15px 15px 0;
     }
     @include min-screen(1024px) {
       bottom: 0;
@@ -454,16 +533,17 @@ p.intro {
       width: 100%;
       left: 0;
       text-align: center;
+      padding: 15px;
     }
     @include max-screen(1023px) {
       margin: 0;
     }
     h1,
     p {
-      @include min-screen(1024px) {
+      @include min-screen(1200px) {
         text-align: left;
       }
-      @include max-screen(1023px) {
+      @include max-screen(1199px) {
         text-align: center;
       }
     }
@@ -477,21 +557,69 @@ p.intro {
     }
   }
 }
+.speaker-detail {
+  .half-block .button {
+    @include font-size(23);
+  }
+}
 .application {
   #form {
     background: #FFF;
     h1 + p {
       text-align: left;
       text-transform: none;
-      max-width: 800px;
-      margin: 0 auto;
+      max-width: 788px;
+      margin: 0 auto -30px;
+      font-weight: 400;
+      @include font-size(17);
+      @include min-screen(1024px) {
+        @include line-height(32);
+      }
+      @include screen(768px,1023px) {
+        @include line-height(30);
+      }
+      @include max-screen(767px) {
+        @include line-height(28);
+      }
     }
   }
 }
 #application-banner {
   @include min-screen(1200px) {
-    height: 75vh;
+    max-height: 75vh;
   }
+  + .row {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    p {
+      text-align: center;
+      color: #61615d;
+    }
+  }
+  .half-block {
+    right: auto;
+    left: 0;
+    @include min-screen(1200px) {
+      height: 40%;
+      width: 830px;
+    }
+    @include screen(1024px,1199px) {
+      height: 40%;
+      width: 90%;
+    }
+  }
+  h1 {
+    float: left;
+    max-width: 525px;
+    @include min-screen(900px) {
+      @include font-size(40);
+    }
+  }
+  + .row + #form h1 {
+    margin: 0 0 40px;
+  }
+}
+#ty-banner {
   .half-block {
     right: auto;
     left: 0;
@@ -513,9 +641,24 @@ p.intro {
     text-transform: none;
   } 
 }
+#legal {
+  padding: 80px 0;
+  h1 + p {
+    text-transform: none;
+    text-align: left;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  } 
+}
+#error404 {
+  min-height: 60vh;
+  padding: 80px 0;
+  h1, h2 {
+    text-align: left;
+  }
+}
 #speaker-banner {
   p {
-    text-transform: lowercase;
     font-style: italic;
     font-family: Georgia,"Times New Roman",Times,serif;
 
@@ -588,4 +731,55 @@ p.intro {
 }
 .section-newsletter-band {
     background: url("../images/library/bg-body.png") repeat scroll 0 0 #ffffff;
+}
+
+.reveal-modal, dialog {
+  right: 0;
+  margin: auto;
+  @include max-screen(767px) {
+    min-height: 120%;
+  }
+}
+
+.reveal-modal .retailers {
+  display: block;
+  overflow: hidden;
+  p {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    float: left;
+    width: 50%;
+    @include max-screen(767px) {
+       padding: 10px 5px 0;
+    }
+    a {
+      display: table;
+      margin: 0 auto;
+    }
+    img {
+      width: auto;
+      max-width: 100%;
+      @include max-screen(767px) {
+        max-width: none;
+        width: 100%;
+      }
+    }
+  }
+}
+.thanks-page + #footer .go-top {
+  display: none;
+}
+.center.large-8.columns,
+.center.medium-8.columns,
+.center.small-12.columns {
+    float: none;
+    margin: 0 auto 50px;
 }
