@@ -93,7 +93,7 @@
 				           		<iframe src="//player.vimeo.com/video/91426892" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 							</div>
 				        </div>
-				        <div class="large-5 medium-5 small-8 columns">
+				        <div class="large-5 medium-5 small-12 columns">
 				          	<h2>Favorite Topics</h2>
 				            <ul>
 					            <li>Word of Mouth Marketing</li>

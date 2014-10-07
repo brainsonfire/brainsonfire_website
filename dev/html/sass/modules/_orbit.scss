@@ -84,13 +84,13 @@
     .orbit-next {
       background: url(../images/library/arrows.png) no-repeat 0 -88px;
       @include max-screen(767px) {
-        right: -10px;
+        right: -12px;
       }
     }
     .orbit-prev {
       background: url(../images/library/arrows.png) no-repeat 0 -132px;
       @include max-screen(767px) {
-        left: -10px;
+        left: -12px;
       }
     }
     .gallery-orbit {      
@@ -122,9 +122,14 @@
         margin: 0 auto 44px;
       }
       @include max-screen(1023px) {
-        max-width: 90%;
         text-align: center;
         margin: 0 auto 22px;
+      }
+      @include screen(768px,1023px) {
+        max-width: 80%;
+      }
+      @include max-screen(767px) {
+        max-width: 90%;
       }
     }
     .orbit-next,
@@ -143,13 +148,13 @@
     .orbit-next {
       background: url(../images/library/arrows.png) no-repeat 0 0;
       @include max-screen(1023px) {
-        right: -10px;
+        right: -12px;
       }
     }
     .orbit-prev {
       background: url(../images/library/arrows.png) no-repeat 0 -44px;
       @include max-screen(1023px) {
-        left: -10px;
+        left: -12px;
       }
     }
     li {
@@ -222,9 +227,11 @@
   }
   .orbit-next {
     background: url(../images/library/arrows.png) no-repeat 0 -88px;
+    right: -12px;
   }
   .orbit-prev {
     background: url(../images/library/arrows.png) no-repeat 0 -132px;
+    left: -12px;
   }
   .blockquote-orbit {
     width: 100%;
@@ -236,7 +243,7 @@
     font-style: italic;
     text-align: center;
     @include max-screen(767px) {
-      width: 80%;
+      width: 90%;
       margin: 0 auto;
       overflow: hidden;
     }
@@ -254,12 +261,12 @@
       @include line-height(58);
     }
     @include screen(768px,1023px) {
-      @include font-size(28);
-      @include line-height(40);
+      @include font-size(24);
+      @include line-height(48);
     }
     @include max-screen(767px) {
-      @include font-size(20);
-      @include line-height(30);
+      @include font-size(16);
+      @include line-height(40);
     }
   }
   cite {

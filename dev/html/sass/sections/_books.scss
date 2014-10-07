@@ -111,10 +111,14 @@
   #blockquote {
     background: rgba(#FFF, 0);
     h1 + p {
-      margin: 0 0 55px;
+      @include min-screen(768px) {
+        margin: 0 0 55px;
+      }
     }
     .orbit-container .blockquote-orbit {
-      max-width: 920px;
+      @include min-screen(1024px) {
+        max-width: 920px;
+      }
     }
     blockquote {
       margin: 0 0 20px;
@@ -159,10 +163,22 @@
   .row > p {
     color: white;
   }
+  .row > h1 {
+    @include max-screen(320px) {
+      @include font-size(23);
+    }
+  }
   h1 + p:first-of-type {
-    margin: 0 0 56px;
+    @include min-screen(1024px) {
+      margin: 0 0 56px;
+    }
+    @include max-screen(1023px) {
+      margin: 0 0 22px;
+    }
   }
 }
-.books #blockquote .submit-application .button {
-  max-width: 600px;
+#book-banner.brainsonfire-book .half-block {
+  @include max-screen(1023px) {
+    background: #d9531e;
+  }
 }
