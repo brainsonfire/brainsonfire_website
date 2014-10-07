@@ -1775,7 +1775,7 @@ p.intro {
 
 /* line 439, ../sass/modules/_library.scss */
 .submit-application {
-  padding: 3rem 0.9375rem;
+  padding: 2rem 0.9375rem;
   background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1796,8 +1796,8 @@ p.intro {
 @media screen and (min-width: 768px) {
   /* line 443, ../sass/modules/_library.scss */
   .submit-application .button {
-    font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 23px;
+    font-size: 1.4375rem;
     line-height: 32px;
     line-height: 2rem;
   }

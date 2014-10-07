@@ -447,7 +447,7 @@ p.intro {
       padding: 1.4rem 2.9375rem;
     }
     @include min-screen(768px) {
-      @include font-size(26);
+      @include font-size(23);
       @include line-height(32);    
     }
   }
