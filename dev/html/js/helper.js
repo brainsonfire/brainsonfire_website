@@ -104,6 +104,9 @@ $(document).ready(function () {
          });
     });
 
+    $('.movement-tab dl dt:first').addClass('active'); 
+    $('.movement-tab dl dt:first + dd').show();
+
     jQuery('.blog .right-off-canvas-toggle').click(function() {
       jQuery('.blog .off-canvas-wrap').addClass('move-left');
       return false;

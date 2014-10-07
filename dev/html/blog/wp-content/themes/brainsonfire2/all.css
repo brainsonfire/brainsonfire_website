@@ -234,7 +234,7 @@ body {
   color: #333;
   font: 17px/32px hedley-new-web, Arial, Helvetica, sans-serif;
   background: #f8f8f8;
-  min-width: 320px;
+  min-width: 300px;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: none;
 }
@@ -442,12 +442,10 @@ figure {
   width: 100%;
   float: left;
 }
-#sidebar {
-  width: 271px;
-  float: right;
-}
-#content {
-  margin: 0 400px 0 0;
+#sidebar * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .c1 {
   width: 100%;
@@ -533,10 +531,9 @@ figure {
   font: italic 16px/19px Georgia, Arial, Helvetica, sans-serif;
   background: #fff;
   border: 1px solid #e8e8e8;
-  width: 239px;
+  width: 100%;
   padding: 19px 15px 18px;
   color: #eb7e1f;
-  height: 19px;
 }
 
 /* ************************************
@@ -571,7 +568,6 @@ figure {
   color: #666;
   display: inline-block;
   font-size: 17px;
-  height: 21px;
   /* height: 6px;
   */ /* matches the size of input in application form */
   line-height: 21px;
@@ -579,7 +575,7 @@ figure {
   padding: 18px 10px;
   text-transform: none;
   vertical-align: middle;
-  width: 260px;
+  width: 100%;
 }
 .form-contact label {
   color: #999;
@@ -603,12 +599,11 @@ figure {
   color: #fff;
   display: block;
   font: italic 18px/50px Georgia, serif;
-  height: 50px;
   letter-spacing: 1px;
   margin: 10px 0;
   padding: 0 0 5px;
-  width: 229px;
   cursor: pointer;
+  width: 100%;
 }
 #mc-embedded-subscribe {
   background-color: #939f57 !important;
@@ -1187,12 +1182,9 @@ figure {
 /*  .header-holder {
     margin: 0 40px;
   }*/
-  .c1 {
+/*  .c1 {
     margin-left: 20px;
-  }
-  #sidebar {
-    margin-right: 15px;
-  }
+  }*/
 /*  .footer-holder {
     text-align: center;
   }
@@ -1328,27 +1320,20 @@ figure {
     padding: 150px 15px 69px;
     margin: -84px 0 58px;
   }
-  #sidebar {
-    width: 220px;
-  }
   .search-form input[type="text"] {
     font-size: 14px;
     line-height: 17px;
-    height: 17px;
-    width: 200px;
     padding: 16px 9px 13px;
   }
   .search-form {
     margin: 0 0 26px;
   }
-  #content {
-    margin: 0 320px 0 0;
-  }
   .post .img-box {
     margin: 0 0 25px;
   }
   .post h2 {
-    line-height: 47px;
+    font-size: 32px;
+    line-height: 36px;
     margin: 0 0 5px;
   }
   #main {
@@ -1398,15 +1383,8 @@ figure {
     line-height: 18px;
   }
   #content {
-    margin: 0 247px 0 0;
     font-size: 15px;
     line-height: 28px;
-  }
-  #sidebar {
-    width: 166px;
-  }
-  .search-form input[type="text"] {
-    width: 146px;
   }
   .accordion h3 {
     font-size: 18px;
@@ -1419,8 +1397,6 @@ figure {
     margin: 0 0 28px;
   }
   .post h2 {
-    font-size: 33px;
-    line-height: 39px;
     margin: 0 0 8px;
   }
   .post .post-info {
@@ -1518,9 +1494,6 @@ figure {
   .c1 {
     margin-left: 0;
   }
-  #sidebar {
-    margin-right: 0;
-  }
   #nav .top-nav {
     display: none;
   }
@@ -1584,14 +1557,6 @@ figure {
   #nav .slide a:hover {
     text-decoration: underline;
   }*/
-  #content {
-    margin: 0 15px 60px;
-    float: none;
-  }
-  #sidebar {
-    float: none;
-    width: 100%;
-  }
   .m1,
   .c1 {
     float: none;
@@ -1615,17 +1580,13 @@ figure {
     margin: 0 0 28px;
   }
   .post-paging {
-    padding: 14px 0 0;
+    padding: 14px 0 20px;
   }
   .search-form {
-    margin: 0 62px 33px;
+    margin: 0 15px 33px;
   }
   .search-form input[type="text"] {
     width: 100%;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    height: auto;
   }
   .accordion {
     text-align: center;
@@ -1768,13 +1729,15 @@ figure {
     margin: 0 0 3px;
   }
   #content {
-    margin: 0 15px 43px;
+    margin: 0 0 43px;
   }
   .post .img-box {
     margin: 0 0 19px;
   }
   .post h2 {
-    margin: 0 0 3px;
+    margin: 0 0 8px;
+    font-size: 22px;
+    line-height: 28px;
   }
   .post {
     margin: 0 0 32px;
@@ -1795,7 +1758,7 @@ figure {
     padding: 3px 21px 4px 0;
   }
   .search-form {
-    margin: 0 46px 45px;
+    margin: 0 15px 45px;
   }
   /*.footer-holder h4 span {
     padding: 0;
@@ -2813,4 +2776,38 @@ a {
 }
 .btn-light-orange:active {
   background-color: #eb7e1f;
+}
+
+@media screen and (min-width:1024px) {
+  #content {
+    float: left;
+    width: 66%;
+  }
+  #sidebar {
+    float: right;
+    width: 24%;
+    margin: 0 15px 0 0;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+  #content {
+    float: left;
+    width: 60%;
+  }
+  #sidebar {
+    float: right;
+    width: 32%;
+    margin: 0 15px 0 0;
+  }
+}
+@media screen and (max-width:767px) {
+  #content,
+  #sidebar {
+    width: 100%;
+    padding: 0 15px;
+    clear: both;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
 }
