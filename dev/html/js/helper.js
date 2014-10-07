@@ -103,5 +103,19 @@ $(document).ready(function () {
         'width': tabHeight
          });
     });
+
+    jQuery('.blog .right-off-canvas-toggle').click(function() {
+      jQuery('.blog .off-canvas-wrap').addClass('move-left');
+      return false;
+    });
+
+    jQuery('.blog .exit-off-canvas').click(function() {
+      jQuery('.blog .off-canvas-wrap').removeClass('move-left');
+      return false;
+    });
     
+});
+
+$(window).load(function(){
+  $('.blog .tab-bar').css('display','block');
 });

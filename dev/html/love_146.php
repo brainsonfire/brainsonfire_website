@@ -14,7 +14,7 @@
     <link rel="shortcut icon" href="images/layout/favicon.ico" />
     <link rel="apple-touch-icon" href="images/layout/apple-favicon.png"/>
 
-	<script src="//use.typekit.net/xqj8rqh.js"></script>
+	<script src="//use.typekit.net/gyt8tgn.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 
     <link rel="stylesheet" href="css/normalize.css" />

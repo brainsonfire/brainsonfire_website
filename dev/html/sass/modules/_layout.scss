@@ -87,16 +87,7 @@ a {
 }
 // MENU BUTTON ACTIVE
 .move-left .tab-bar {
-  position: absolute;
-  right: 20px;
-  .menu-icon span {
-    font-size: 0;
-    line-height: 0;
-    text-indent: -9999px;
-    &:after {
-      opacity: 0;
-    }
-  }
+  display: none;
 }
 .move-left .exit-off-canvas {
   color: #fff;

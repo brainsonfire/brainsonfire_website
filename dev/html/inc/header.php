@@ -15,7 +15,7 @@
 			<li><a href="individual.php">Meet Our Tribe</a></li>
 		</ul>
 		<ul class="secondary-nav">
-			<li><a href="http://www.brainsonfire.com/blog/">Blog</a></li>
+			<li><a href="blog/">Blog</a></li>
 			<li><a href="books.php">Books</a></li>
 			<li><a href="speaking.php">Speaking</a></li>
 			<li><a href="store.php">Store</a></li>			
