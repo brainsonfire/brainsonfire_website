@@ -24,7 +24,7 @@
 
 
 if($_SERVER['SERVER_NAME'] == 'brainsonfire.com' || $_SERVER['SERVER_NAME'] == 's197365.gridserver.com') {
-
+// LIVE (Media Template)
 	define( 'DB_NAME', 'db197365_blog' );
 	define( 'DB_USER', 'db197365' );
 	define( 'DB_PASSWORD', 'lYch3lpoVD9y' );
