@@ -163,9 +163,16 @@
     -webkit-box-ordinal-group: 2;  
        -moz-box-ordinal-group: 2;     
     background: #cff1f6;
-    padding: 48px 50px 32px;
     @include border-radius(2px);
-    p {
+    @include min-screen(768px) {
+      padding: 48px 50px 32px;  
+    }
+    @include max-screen(767px) {
+      padding: 30px 20px 26px;
+      margin: 0 0 22px;
+      p {
+        margin: 0;
+      }
     }
   }
 }

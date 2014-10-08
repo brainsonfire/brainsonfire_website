@@ -40,21 +40,22 @@
   }
 }
 #how-we-work {
-  background: #fff;
   overflow: hidden;
+  @include min-screen(768px) {
+    background: #fff;
+  }
   > img {
-    position: absolute;
-    width: auto;
-    max-width: none;
-    left: 0;
-    z-index: 1;
     @include min-screen(768px) {
+      position: absolute;
+      width: auto;
+      max-width: none;
+      left: 0;
+      z-index: 1;
       top: 100px;
       height: 1000px;  
     }
     @include max-screen(767px) {
-      top: 0;
-      height: 2650px;
+      display: none;
     }
   }
   .row {
