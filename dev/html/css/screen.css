@@ -3253,7 +3253,7 @@ p.editor-note a:hover {
 @media screen and (min-width: 1200px) {
   /* line 15, ../sass/sections/_movements.scss */
   #movement-info {
-    padding: 80px 0 81px;
+    padding: 80px 0 60px;
   }
 }
 /* line 20, ../sass/sections/_movements.scss */
@@ -3298,12 +3298,32 @@ p.editor-note a:hover {
   /* line 47, ../sass/sections/_movements.scss */
   #how-we-work > img {
     position: absolute;
-    width: auto;
     max-width: none;
     left: 0;
     z-index: 1;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 47, ../sass/sections/_movements.scss */
+  #how-we-work > img {
     top: 316px;
-    height: 1000px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1499px) {
+  /* line 47, ../sass/sections/_movements.scss */
+  #how-we-work > img {
+    bottom: 0;
+    width: auto;
+    height: 740px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 47, ../sass/sections/_movements.scss */
+  #how-we-work > img {
+    bottom: 0;
+    width: auto;
+    height: 700px;
   }
 }
 @media screen and (max-width: 767px) {
@@ -3312,7 +3332,7 @@ p.editor-note a:hover {
     display: none;
   }
 }
-/* line 61, ../sass/sections/_movements.scss */
+/* line 73, ../sass/sections/_movements.scss */
 #how-we-work .row {
   position: relative;
   z-index: 10;
@@ -3320,7 +3340,7 @@ p.editor-note a:hover {
 @media screen and (min-width: 1500px) {
   /* line 42, ../sass/sections/_movements.scss */
   #how-we-work {
-    padding: 98px 0 118px;
+    padding: 98px 0 127px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1499px) {
@@ -3342,108 +3362,108 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 77, ../sass/sections/_movements.scss */
+  /* line 89, ../sass/sections/_movements.scss */
   #how-we-work h1 + p {
     margin: 0 0 54px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 77, ../sass/sections/_movements.scss */
+  /* line 89, ../sass/sections/_movements.scss */
   #how-we-work h1 + p {
     margin: 0 0 20px;
   }
 }
-/* line 85, ../sass/sections/_movements.scss */
+/* line 97, ../sass/sections/_movements.scss */
 #how-we-work .button {
   max-width: 250px;
 }
 
-/* line 90, ../sass/sections/_movements.scss */
+/* line 102, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type .table-wrap > span {
   background: #d9531e;
 }
-/* line 93, ../sass/sections/_movements.scss */
+/* line 105, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type.active a {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 98, ../sass/sections/_movements.scss */
+/* line 110, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(3n) .table-wrap > span {
   background: #23bed4;
 }
-/* line 101, ../sass/sections/_movements.scss */
+/* line 113, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(3n).active a {
   background-color: rgba(11, 183, 207, 0.5);
 }
 
-/* line 106, ../sass/sections/_movements.scss */
+/* line 118, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(5n) .table-wrap > span {
   background: #9ea867;
 }
-/* line 109, ../sass/sections/_movements.scss */
+/* line 121, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(5n).active a {
   background-color: rgba(147, 159, 87, 0.5);
 }
 
-/* line 114, ../sass/sections/_movements.scss */
+/* line 126, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(7n) .table-wrap > span {
   background: #ec8a35;
 }
-/* line 117, ../sass/sections/_movements.scss */
+/* line 129, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(7n).active a {
   background-color: rgba(235, 126, 31, 0.5);
 }
 
-/* line 121, ../sass/sections/_movements.scss */
+/* line 133, ../sass/sections/_movements.scss */
 #some-examples {
-  background: transparent;
+  background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 121, ../sass/sections/_movements.scss */
+  /* line 133, ../sass/sections/_movements.scss */
   #some-examples {
     padding: 110px 0 104px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 126, ../sass/sections/_movements.scss */
+  /* line 138, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 48px auto 53px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 126, ../sass/sections/_movements.scss */
+  /* line 138, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 30px auto;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 126, ../sass/sections/_movements.scss */
+  /* line 138, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 22px auto 22px;
   }
 }
 
-/* line 138, ../sass/sections/_movements.scss */
+/* line 150, ../sass/sections/_movements.scss */
 #blockquote {
   background: #FFF;
 }
-/* line 140, ../sass/sections/_movements.scss */
+/* line 152, ../sass/sections/_movements.scss */
 #blockquote h1 + p {
   margin: 0 0 21px;
 }
-/* line 143, ../sass/sections/_movements.scss */
+/* line 155, ../sass/sections/_movements.scss */
 #blockquote .blockquote-orbit {
   max-width: 650px;
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 147, ../sass/sections/_movements.scss */
+  /* line 159, ../sass/sections/_movements.scss */
   #help {
     padding: 87px 0 102px;
   }
 }
 
-/* line 152, ../sass/sections/_movements.scss */
+/* line 164, ../sass/sections/_movements.scss */
 #other-way {
   background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
   -moz-background-size: cover;
@@ -3452,33 +3472,33 @@ p.editor-note a:hover {
   background-size: cover;
 }
 @media screen and (min-width: 1200px) {
-  /* line 152, ../sass/sections/_movements.scss */
+  /* line 164, ../sass/sections/_movements.scss */
   #other-way {
     padding: 83px 0 99px;
   }
 }
 
-/* line 159, ../sass/sections/_movements.scss */
+/* line 171, ../sass/sections/_movements.scss */
 #some-examples .row .works-list {
   margin: 46px auto 29px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 164, ../sass/sections/_movements.scss */
+  /* line 176, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl {
     position: relative;
   }
-  /* line 166, ../sass/sections/_movements.scss */
+  /* line 178, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div {
     float: left;
     width: 25%;
     position: relative;
   }
-  /* line 170, ../sass/sections/_movements.scss */
+  /* line 182, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div dt {
     width: 100%;
   }
-  /* line 173, ../sass/sections/_movements.scss */
+  /* line 185, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div dd {
     position: relative;
     width: 400%;
@@ -3487,70 +3507,70 @@ p.editor-note a:hover {
     -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
   }
-  /* line 182, ../sass/sections/_movements.scss */
+  /* line 194, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dd {
     left: 0;
   }
-  /* line 185, ../sass/sections/_movements.scss */
+  /* line 197, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dt .table-wrap > span {
     background: #d9531e;
   }
-  /* line 188, ../sass/sections/_movements.scss */
+  /* line 200, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dt.active a {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  /* line 193, ../sass/sections/_movements.scss */
+  /* line 205, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dd {
     left: -100%;
   }
-  /* line 196, ../sass/sections/_movements.scss */
+  /* line 208, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt .table-wrap > span {
     background: #23bed4;
   }
-  /* line 199, ../sass/sections/_movements.scss */
+  /* line 211, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt.active a {
     background-color: rgba(11, 183, 207, 0.5);
   }
-  /* line 204, ../sass/sections/_movements.scss */
+  /* line 216, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dd {
     left: -200%;
   }
-  /* line 207, ../sass/sections/_movements.scss */
+  /* line 219, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt .table-wrap > span {
     background: #9ea867;
   }
-  /* line 210, ../sass/sections/_movements.scss */
+  /* line 222, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt.active a {
     background-color: rgba(147, 159, 87, 0.5);
   }
-  /* line 215, ../sass/sections/_movements.scss */
+  /* line 227, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dd {
     left: -300%;
   }
-  /* line 218, ../sass/sections/_movements.scss */
+  /* line 230, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt .table-wrap > span {
     background: #ec8a35;
   }
-  /* line 221, ../sass/sections/_movements.scss */
+  /* line 233, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt.active a {
     background-color: rgba(235, 126, 31, 0.5);
   }
 }
-/* line 228, ../sass/sections/_movements.scss */
+/* line 240, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
   background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
 }
 
-/* line 231, ../sass/sections/_movements.scss */
+/* line 243, ../sass/sections/_movements.scss */
 .tabs.movement-tab dd {
   background: rgba(255, 255, 255, 0.9);
 }
 @media screen and (min-width: 1024px) {
-  /* line 231, ../sass/sections/_movements.scss */
+  /* line 243, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd {
     padding: 65px 50px 70px;
   }
-  /* line 235, ../sass/sections/_movements.scss */
+  /* line 247, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd p {
     margin: 0;
     line-height: 29px;
@@ -3558,32 +3578,32 @@ p.editor-note a:hover {
   }
 }
 
-/* line 241, ../sass/sections/_movements.scss */
+/* line 253, ../sass/sections/_movements.scss */
 .tabs.movement-tab {
   margin: 0 auto 38px;
 }
 
-/* line 244, ../sass/sections/_movements.scss */
+/* line 256, ../sass/sections/_movements.scss */
 .tabs.movement-tab dt {
   padding: 0 2px 26px;
 }
 
-/* line 247, ../sass/sections/_movements.scss */
+/* line 259, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
   bottom: -26px;
 }
 
-/* line 250, ../sass/sections/_movements.scss */
+/* line 262, ../sass/sections/_movements.scss */
 .movements-page #blockquote .orbit-container {
   margin: 0 0 98px;
 }
 @media screen and (min-width: 1024px) {
-  /* line 253, ../sass/sections/_movements.scss */
+  /* line 265, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-prev {
     left: 0;
     margin-top: -44px;
   }
-  /* line 257, ../sass/sections/_movements.scss */
+  /* line 269, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-next {
     right: 0;
     margin-top: -44px;
