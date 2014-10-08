@@ -3100,50 +3100,54 @@ p.intro {
   padding: 60px 0;
 }
 /* line 242, ../sass/sections/_home.scss */
+.home .section-newsletter-band h2 {
+  font-weight: 400;
+}
+/* line 245, ../sass/sections/_home.scss */
 .home .section-newsletter-band form {
   padding: 42px 0 0;
 }
-/* line 245, ../sass/sections/_home.scss */
+/* line 248, ../sass/sections/_home.scss */
 .home .section-newsletter-band .mc-field-group,
 .home .section-newsletter-band .mc-submit-btn {
   float: left;
 }
-/* line 249, ../sass/sections/_home.scss */
+/* line 252, ../sass/sections/_home.scss */
 .home .section-newsletter-band .mc-field-group {
   padding: 10px 0 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 249, ../sass/sections/_home.scss */
+  /* line 252, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group {
     width: 66%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 249, ../sass/sections/_home.scss */
+  /* line 252, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group {
     width: 100%;
   }
 }
-/* line 257, ../sass/sections/_home.scss */
+/* line 260, ../sass/sections/_home.scss */
 .home .section-newsletter-band .mc-field-group label {
   float: left;
 }
 @media screen and (min-width: 768px) {
-  /* line 257, ../sass/sections/_home.scss */
+  /* line 260, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group label {
     text-align: right;
     padding: 1rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 257, ../sass/sections/_home.scss */
+  /* line 260, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group label {
     width: 100%;
     text-align: center;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 268, ../sass/sections/_home.scss */
+  /* line 271, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group input {
     max-width: 450px;
     margin: 0 auto 12px;
@@ -3151,27 +3155,27 @@ p.intro {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 276, ../sass/sections/_home.scss */
+  /* line 279, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn {
     width: 34%;
     padding: 0 1rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 276, ../sass/sections/_home.scss */
+  /* line 279, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn {
     width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 284, ../sass/sections/_home.scss */
+  /* line 287, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn .button {
     float: left;
     max-width: 300px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 284, ../sass/sections/_home.scss */
+  /* line 287, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn .button {
     width: 100%;
     max-width: 450px;
