@@ -3585,12 +3585,12 @@ p.editor-note a:hover {
 
 /* line 256, ../sass/sections/_movements.scss */
 .tabs.movement-tab dt {
-  padding: 0 2px 26px;
+  padding: 0 2px 36px;
 }
 
 /* line 259, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
-  bottom: -26px;
+  bottom: -36px;
 }
 
 /* line 262, ../sass/sections/_movements.scss */
