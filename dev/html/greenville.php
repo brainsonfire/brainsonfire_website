@@ -51,7 +51,7 @@
 					</div>
 				</div>
 				
-				<div id="fiskateers" class="main-photo">
+				<div id="greenville" class="main-photo">
 					<img src="images/case-study/greenville/gvl-hero.jpg" alt="Greenville">
 				</div>
 				
