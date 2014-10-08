@@ -3302,7 +3302,7 @@ p.editor-note a:hover {
     max-width: none;
     left: 0;
     z-index: 1;
-    top: 100px;
+    top: 316px;
     height: 1000px;
   }
 }
@@ -3364,7 +3364,7 @@ p.editor-note a:hover {
 }
 /* line 93, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type.active a {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* line 98, ../sass/sections/_movements.scss */

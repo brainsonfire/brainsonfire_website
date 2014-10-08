@@ -51,7 +51,7 @@
       max-width: none;
       left: 0;
       z-index: 1;
-      top: 100px;
+      top: 316px;
       height: 1000px;  
     }
     @include max-screen(767px) {
@@ -91,7 +91,7 @@
     background: #d9531e; 
   }
   &.active a { 
-    background-color: rgba(#fff, 0.5); 
+    background-color: rgba(#fff, 0.8); 
   }
 }
 .movement-tab dt:nth-child(3n) {
