@@ -249,47 +249,41 @@ img + .gallery,
 #love-146 {
   background: #000 url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
   @include background-size(contain);
-  
-  @include min-screen(1300px) {
-    background-position: 100% 100%;
-  }
-  @include screen(1024px,1299px) {
-    background-position: 135% 100%;
-  }
   @include screen(640px,767px) {
-    background-position: 100% 100%;
     @include background-size(auto 130%);
   }
   @include screen(480px,639px) {
-    background-position: 100% 100%;
     @include background-size(auto 100%);
   }
+  @include min-screen(480px) {
+    background-position: 100% 100%;
+  }
   @include max-screen(479px) {
+    height: 250px;
     background-position: 50% 100%;
     @include background-size(auto 80%);
   }
   .row img {
-     width: auto;
-     clear: both;
+    width: auto;
+    clear: both;
+    position: relative;
+    @include min-screen(480px) {
+      top: 50%;
+      @include transform(translateY(-50%));
+    }
     @include min-screen(1300px) {
-      margin: 300px 0 250px;
       max-width: 66%;
     }
     @include screen(1024px,1299px) {
-      margin: 300px 0 250px 4%;
       max-width: 59%;
     }
-    @include screen(768px,1023px) {
-      margin: 23% 0 0 4%; 
+    @include screen(640px,1023px) {
       max-width: 47%;
-    }
-    @include screen(640px,767px) {
-      margin: 23% 0 0 4%; 
-      max-width: 47%;
+      left: 6%;
     }
     @include screen(480px,639px) {
-      margin: 20% 0 20% 2%; 
       max-width: 49%;
+      left: 10%;
     }
     @include max-screen(479px) {
       margin: 20px auto 60%; 
@@ -462,23 +456,12 @@ section .block {
 }
 #main.case-study .main-photo {
   margin: 0;
-  @include min-screen(1500px) {
-    height: 742px;  
-  }
-  @include screen(1024px,1499px) {
-    height: 670px;  
-  }
-  @include screen(801px,1023px) {
-    height: 500px;  
-  }
-  @include screen(768px,800px) {
-    height: 330px;  
-  }
-  @include screen(641px,767px) {
-    height: 330px;  
-  }
-  @include screen(481px,640px) {
-    height: 305px;  
+  max-height: 642px;
+  > .row {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100%;
   }
 }
 #main.case-study .direction-nav.top {

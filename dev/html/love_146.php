@@ -52,6 +52,7 @@
 				</div>
 				
 				<div id="love-146" class="main-photo">
+					<img src="images/case-study/wrap.png" alt="">
 					<div class="row">
 						<img src="images/case-study/love-146/love146.png" alt="Love 146">
 					</div>
