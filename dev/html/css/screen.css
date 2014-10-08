@@ -4181,7 +4181,7 @@ section .block p {
 /* line 457, ../sass/sections/_casestudies.scss */
 #main.case-study .main-photo {
   margin: 0;
-  max-height: 642px;
+  max-height: 742px;
 }
 /* line 460, ../sass/sections/_casestudies.scss */
 #main.case-study .main-photo > .row {
@@ -4192,16 +4192,22 @@ section .block p {
 }
 
 /* line 467, ../sass/sections/_casestudies.scss */
+#main.case-study #fiskateers.main-photo {
+  margin: 0 0 -20px;
+  max-height: 772px;
+}
+
+/* line 471, ../sass/sections/_casestudies.scss */
 #main.case-study .direction-nav.top {
   background: rgba(255, 255, 255, 0);
 }
 @media screen and (max-width: 640px) {
-  /* line 470, ../sass/sections/_casestudies.scss */
+  /* line 474, ../sass/sections/_casestudies.scss */
   #main.case-study .direction-nav.top ul li + li {
     position: absolute;
     left: -9999px;
   }
-  /* line 474, ../sass/sections/_casestudies.scss */
+  /* line 478, ../sass/sections/_casestudies.scss */
   #main.case-study .direction-nav.top ul li + li + li {
     position: relative;
     left: auto;
@@ -4209,13 +4215,13 @@ section .block p {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
-  /* line 467, ../sass/sections/_casestudies.scss */
+  /* line 471, ../sass/sections/_casestudies.scss */
   #main.case-study .direction-nav.top {
     margin: 80px 0 -185px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 467, ../sass/sections/_casestudies.scss */
+  /* line 471, ../sass/sections/_casestudies.scss */
   #main.case-study .direction-nav.top {
     margin: 0 0 -105px;
   }
