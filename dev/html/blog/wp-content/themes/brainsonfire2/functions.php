@@ -220,7 +220,7 @@ function base_url($return = false)
     {
 		// loalhost
         $uriParts = explode('/', $_SERVER['REQUEST_URI']);
-        $base_url = "http://localhost/" . $uriParts[1] . "/";
+        $base_url = "http://localhost/bof/dev/html/";
 
     } else
     {
