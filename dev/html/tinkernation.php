@@ -51,11 +51,11 @@
 					</div>
 				</div>
 				
-				<div id="fiskateers" class="main-photo">
+				<div id="tinkernation" class="main-photo">
 					<img src="images/case-study/tinkernation/tinker-hero.jpg" alt="Tinkernation">
 				</div>
 				
-				<section id="fiskateers-intro" class="intro">
+				<section id="tinkernation-intro" class="intro">
 					<div class="row">
 						<h1>Tinkernation</h1>
 						<div class="two-col">
