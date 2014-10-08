@@ -770,3 +770,17 @@ p.intro {
     float: none;
     margin: 0 auto 50px;
 }
+p.editor-note {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 0 20px;
+  text-align: center;
+  a {
+    color: #046984;
+    &:hover {
+      text-decoration: underline;
+    } 
+  }
+}

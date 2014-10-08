@@ -148,6 +148,8 @@
 									<p>My title on the Brains on Fire website is Word of Mouth Inspiration Officer, but I consider myself more of a Pathfinder for our clients and Brains on Fire. And I’ve been down that path with Fiskars Brands, Best Buy, Colonial Williamsburg, the American Booksellers Association, Charleston Parks Conservancy, the US Office of National Drug Control Policy, Love 146 and Rage Against the Haze (South Carolina’s youth led anti-tobacco movement). I wouldn’t be here without a ton of support and love from my family at home and the Brains on Fire family. I’m lucky to be an explorer in conversations. I like uncovering the DNA of sustainable word of mouth movements and building them from the ground up. I’m a blogger. I’m a talker – at places like the Word of Mouth Marketing Association, the Public Relations Society of America, American Marketing Association, the New Comm Research Communications Forum, and the World Africa Customer Management Conference. I used to play in a glam-rock band. I survived.</p>
 								</dd> 
 							</dl> 
+
+							<p class="editor-note">Spike Jones is a writer and editor who gave our message one voice. You can currently find him at  <a href="http://www.askspike.com" target="_blank">askspike.com</a>.</p>
 						</div>
 					</div>
 				</section>
