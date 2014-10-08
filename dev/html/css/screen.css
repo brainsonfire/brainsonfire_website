@@ -2415,7 +2415,7 @@ p.editor-note a:hover {
 @media screen and (min-width: 1024px) {
   /* line 46, ../sass/modules/_orbit.scss */
   .text-orbit-nav a:after {
-    right: -26px;
+    right: -32px;
     top: 4px;
   }
 }
