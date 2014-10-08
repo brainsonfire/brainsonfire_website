@@ -456,13 +456,17 @@ section .block {
 }
 #main.case-study .main-photo {
   margin: 0;
-  max-height: 642px;
+  max-height: 742px;
   > .row {
     position: absolute;
     left: 0;
     right: 0;
     height: 100%;
   }
+}
+#main.case-study #fiskateers.main-photo {
+    margin: 0 0 -20px;
+    max-height: 772px;
 }
 #main.case-study .direction-nav.top {
   background: rgba(#FFF, 0);
