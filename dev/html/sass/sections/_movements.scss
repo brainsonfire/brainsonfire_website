@@ -260,8 +260,11 @@
   bottom: -36px;
 }
 .movements-page #blockquote .orbit-container {
-  margin: 0 0 98px;
+  @include min-screen(1200px) {
+    margin: 0 0 111px;
+  }
   @include min-screen(1024px) {
+
     .orbit-prev {
       left: 0;
       margin-top: -44px;

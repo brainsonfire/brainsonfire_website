@@ -570,7 +570,7 @@ a {
 @media screen and (min-width: 1200px) {
   /* line 243, ../sass/modules/_layout.scss */
   #footer > .row {
-    margin: -3px auto 82px;
+    margin: -3px auto 50px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -3306,7 +3306,7 @@ p.editor-note a:hover {
 @media screen and (min-width: 1500px) {
   /* line 47, ../sass/sections/_movements.scss */
   #how-we-work > img {
-    top: 316px;
+    top: 336px;
     width: 100%;
   }
 }
@@ -3593,17 +3593,19 @@ p.editor-note a:hover {
   bottom: -36px;
 }
 
-/* line 262, ../sass/sections/_movements.scss */
-.movements-page #blockquote .orbit-container {
-  margin: 0 0 98px;
+@media screen and (min-width: 1200px) {
+  /* line 262, ../sass/sections/_movements.scss */
+  .movements-page #blockquote .orbit-container {
+    margin: 0 0 111px;
+  }
 }
 @media screen and (min-width: 1024px) {
-  /* line 265, ../sass/sections/_movements.scss */
+  /* line 268, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-prev {
     left: 0;
     margin-top: -44px;
   }
-  /* line 269, ../sass/sections/_movements.scss */
+  /* line 272, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-next {
     right: 0;
     margin-top: -44px;
