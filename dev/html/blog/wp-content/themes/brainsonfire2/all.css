@@ -108,6 +108,9 @@ body {
 img {
   border-style: none;
   vertical-align: top;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 input, textarea, select {
   font: 100% hedley-new-web, Arial, Helvetica, sans-serif;
@@ -248,7 +251,7 @@ figure {
 }
 .post-paging {
   overflow: hidden;
-  padding: 4px 0 0;
+  padding: 4px 0 22px;
 }
 .post-paging .btn-prev,
 .post-paging .btn-next {
@@ -264,15 +267,18 @@ figure {
   background-position: 100% 0;
 }
 .search-form {
-  margin: 0 0 27px;
+  margin: 0 auto 27px;
 }
 .search-form input[type="text"] {
   font: italic 16px/19px Georgia, Arial, Helvetica, sans-serif;
   background: #fff;
   border: 1px solid #e8e8e8;
   width: 100%;
+  max-width: 290px;
   padding: 19px 15px 18px;
   color: #eb7e1f;
+  margin: 0 auto;
+  display: block;
 }
 
 /* ************************************
@@ -349,48 +355,6 @@ figure {
 /* ************************************
 *************** END NEWSLETTER SIGNUP IN SIDEBAR
 ************************************* */
-.accordion {
-  margin: 0;
-}
-.accordion li {
-  margin: 0 0 23px;
-  list-style: none;
-}
-.accordion h3 {
-  font-size: 22px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #666;
-  font-weight: normal;
-  margin: 0 0 11px;
-}
-.accordion .slide {
-  display: block !important;
-  position: static !important;
-  width: 100% !important;
-}
-.accordion .opener {
-  display: none;
-}
-.accordion .slide ul {
-  margin: 0;
-  font-size: 15px;
-  line-height: 24px;
-}
-.accordion .slide li {
-  margin: 0;
-}
-.accordion .slide a {
-  color: #eb7e1f;
-}
-.accordion .email,
-.accordion .rss {
-  padding: 0 0 0 24px;
-  background: url(images/sprite.png) no-repeat -254px 2px;
-}
-.accordion .rss {
-  background-position: -230px -27px;
-}
 .commets-block img {
   display: block;
   width: 100%;
@@ -492,12 +456,6 @@ figure {
   font-size: 15px;
   line-height: 24px;
 }
-#nav .mobile {
-  display: none;
-}
-#nav .opener {
-  display: none;
-}
 .post-title {
   position: relative;
   padding: 0 0 49px 0;
@@ -515,30 +473,7 @@ figure {
   font: italic 42px/40px Georgia, Arial, Helvetica, sans-serif;
   margin: 0;
 }
-.accordion .slide .month-list {
-  padding: 3px 0 0;
-}
-.accordion .slide .month-list li {
-  margin: 0 0 8px;
-}
-.accordion .slide .month-list .title {
-  display: block;
-  font-size: 15px;
-  line-height: 17px;
-  color: #eb7e1f;
-  margin: 0 0 5px;
-  text-align: left;
-}
-.accordion .slide .month-list ul {
-  overflow: hidden;
-}
-.accordion .slide .month-list ul li {
-  margin: 0 3px 0 0;
-  float: left;
-}
-.accordion .slide .month-list ul span {
-  color: #666;
-}
+
 @media only screen and (max-width:1030px) {
   .about-panel,
   .block-reviews {
@@ -562,7 +497,7 @@ figure {
     padding: 16px 9px 13px;
   }
   .search-form {
-    margin: 0 0 26px;
+    margin: 0 auto 26px;
   }
   .post .img-box {
     margin: 0 0 25px;
@@ -607,7 +542,7 @@ figure {
     line-height: 20px;
   }
   .search-form {
-    margin: 0 0 33px;
+    margin: 0 auto 33px;
   }
   .accordion li {
     margin: 0 0 28px;
@@ -658,56 +593,6 @@ figure {
   .c1 {
     margin-left: 0;
   }
-  #nav .top-nav {
-    display: none;
-  }
-  #nav .mobile {
-    display: block;
-  }
-  #nav .opener {
-    display: block;
-    float: right;
-    background: url(images/sprite.png) no-repeat -96px -109px;
-    width: 27px;
-    height: 22px;
-    text-indent: -9999px;
-    overflow: hidden;
-    text-align: left;
-  }
-  .logo {
-    background: url(images/logo-mobile.png) no-repeat;
-    width: 170px;
-    height: 43px;
-  }
-  #nav {
-    padding: 12px 3px 0 0;
-    width: auto;
-  }
-  #nav .slide {
-    position: absolute !important;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    background: #f18013;
-    text-align: center;
-    font-size: 26px;
-    line-height: 45px;
-    padding: 22px 0 20px;
-    font-weight: bold;
-  }
-  #nav .slide li {
-    float: none;
-    padding: 0;
-    background: none;
-    display: block;
-  }
-  #nav .slide a {
-    color: #fff;
-    font-weight: normal;
-  }
-  #nav .slide a:hover {
-    text-decoration: underline;
-  }*/
   .m1,
   .c1 {
     float: none;
@@ -733,74 +618,7 @@ figure {
     padding: 14px 0 20px;
   }
   .search-form {
-    margin: 0 15px 33px;
-  }
-  .search-form input[type="text"] {
-    width: 100%;
-  }
-  .accordion {
-    text-align: center;
-  }
-  .accordion h3 {
-    display: none;
-  }
-  .accordion .opener {
-    background: #eb7e1f;
-    cursor: pointer;
-    margin: 0;
-    color: #fff;
-    display: block;
-    text-transform: uppercase;
-    padding: 16px 10px 14px;
-  }
-  .accordion li {
-    border-bottom: 2px solid #fff;
-    margin: 0;
-  }
-  .accordion .slide {
-    position: absolute !important;
-    display: none !important;
-    padding: 26px 0 13px;
-    background: #d06e18;
-  }
-  .accordion li.active .slide {
-    position: static !important;
-    display: block !important;
-  }
-  .accordion .slide li {
-    border: none;
-    margin: 0 0 16px;
-    font-size: 17px;
-  }
-  .accordion .slide a {
-    color: #fff;
-  }
-  .accordion .email {
-    background-position: -254px 3px;
-  }
-  .accordion .rss {
-    background-position: -230px -25px;
-  }
-  .accordion .slide {
-    padding: 26px 64px 13px;
-    width: auto !important;
-  }
-  .accordion .slide p {
-    color: #fff;
-    text-align: left;
-  }
-  .accordion .slide p a {
-    color: #333;
-  }
-  .accordion .slide .img-box {
-    display: none;
-  }
-  .accordion .slide .month-list {
-    margin: 0 auto;
-    width: 200px;
-  }
-  .accordion .slide .month-list .title {
-    color: #fff;
+    margin: 0 auto 33px;
   }
   .post .post-info .date {
     float: none;
@@ -861,10 +679,7 @@ figure {
     padding: 3px 21px 4px 0;
   }
   .search-form {
-    margin: 0 15px 45px;
-  }
-  .accordion .slide {
-    padding: 26px 45px 13px;
+    margin: 0 auto 45px;
   }
 }
 
@@ -1853,6 +1668,74 @@ a {
     margin: 0 15px 0 0;
   }
 }
+@media screen and (min-width:768px) {
+  .accordion {
+    margin: 0;
+  }
+  .accordion li {
+    margin: 0 0 23px;
+    list-style: none;
+  }
+  .accordion h3 {
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: normal;
+    margin: 0 0 11px;
+  }
+  .accordion .slide {
+    display: block !important;
+    position: static !important;
+    width: 100% !important;
+  }
+  .accordion .opener {
+    display: none;
+  }
+  .accordion .slide ul {
+    margin: 0;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .accordion .slide li {
+    margin: 0;
+  }
+  .accordion .slide a {
+    color: #eb7e1f;
+  }
+  .accordion .email,
+  .accordion .rss {
+    padding: 0 0 0 24px;
+    background: url(images/sprite.png) no-repeat -254px 2px;
+  }
+  .accordion .rss {
+    background-position: -230px -27px;
+  }
+  .accordion .slide .month-list {
+    padding: 3px 0 0;
+  }
+  .accordion .slide .month-list li {
+    margin: 0 0 8px;
+  }
+  .accordion .slide .month-list .title {
+    display: block;
+    font-size: 15px;
+    line-height: 17px;
+    color: #eb7e1f;
+    margin: 0 0 5px;
+    text-align: left;
+  }
+  .accordion .slide .month-list ul {
+    overflow: hidden;
+  }
+  .accordion .slide .month-list ul li {
+    margin: 0 3px 0 0;
+    float: left;
+  }
+  .accordion .slide .month-list ul span {
+    color: #666;
+  }
+}
 @media screen and (max-width:767px) {
   #content,
   #sidebar {
@@ -1862,5 +1745,94 @@ a {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  .search-form input[type="text"] {
+    width: 100%;
+  }
+  .accordion {
+    text-align: center;
+  }
+  .accordion li {
+    list-style: none;
+  }
+  .accordion h3 {
+    display: none;
+  }
+  .accordion .opener {
+    background: #eb7e1f;
+    cursor: pointer;
+    margin: 0;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    padding: 16px 10px 14px;
+  }
+  .accordion li {
+    border-bottom: 2px solid #fff;
+    margin: 0;
+  }
+  .accordion .slide {
+    position: absolute !important;
+    display: none !important;
+    padding: 26px 15px 13px;
+    background: #d06e18;
+  }
+  .accordion li.active .slide {
+    position: static !important;
+    display: block !important;
+  }
+  .accordion .slide li {
+    border: none;
+    margin: 0 0 16px;
+    font-size: 17px;
+    width: 100%;
+  }
+  .accordion .slide a {
+    color: #fff;
+  }
+  .accordion .email,
+  .accordion .rss {
+    padding: 0 0 0 24px;
+    background: url(images/sprite.png) no-repeat -254px 2px;
+  }
+  .accordion .email {
+    background-position: -254px 3px;
+  }
+  .accordion .rss {
+    background-position: -230px -25px;
+  }
+  .accordion .slide {
+    padding: 26px 15px 13px;
+    width: auto !important;
+  }
+  .accordion .slide p {
+    color: #fff;
+    text-align: left;
+  }
+  .accordion .slide p a {
+    color: #333;
+  }
+  .accordion .slide .img-box {
+    display: none;
+  }
+  .accordion .slide .month-list {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 290px;
+  }
+  .accordion .slide .month-list .title {
+    color: #fff;
+  }
+  .accordion .slide .month-list ul li {
+    margin: 0;
+    float: left;
+    width: 8.3%;
+    text-align: center;
+  }
+  .month-list .title {
+    display: block;
+    width: 100%;
+    clear: both;
   }
 }

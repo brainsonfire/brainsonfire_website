@@ -32,7 +32,7 @@
 								<ul>
 									<li>Copyright Brains On Fire 2013</li>
 									<li><address>148 River Street, Suite 100 Greenville, SC 29601</address></li>
-									<li><a href="../legal.php">Legal</a></li>
+									<li><a href="http://localhost/bof/dev/html/legal.php">Legal</a></li>
 								</ul>
 							</div>
 						</div>

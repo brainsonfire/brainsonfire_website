@@ -85,10 +85,6 @@ $(document).ready(function () {
       return false;
     });
 
-    jQuery('.accordion .opener').click(function() {
-      alert('click');
-    });
-    
 });
 
 $(window).load(function(){
