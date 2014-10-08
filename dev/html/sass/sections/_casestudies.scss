@@ -197,8 +197,16 @@ img + .gallery,
     padding: 30px 0 0;
   }
   h1 {
-    margin: 0 0 53px;
     display: block;
+    @include min-screen(1024px) {
+      margin: 0 0 53px;
+    }
+    @include screen(768px,1023px) {
+      margin: 0 0 33px;
+    }
+    @include max-screen(767px) {
+      margin: 0 0 23px;
+    }
     + p {
       text-transform: none;
       text-align: left;
@@ -240,18 +248,54 @@ img + .gallery,
 }
 #love-146 {
   background: #000 url(../images/case-study/love-146/love146-girl.jpg) no-repeat 100% 100%;
-  @include background-size(auto);
+  @include background-size(contain);
+  
   @include min-screen(1300px) {
-    background-position: 80% 100%;
+    background-position: 100% 100%;
   }
-  @include max-screen(767px) {
+  @include screen(1024px,1299px) {
+    background-position: 135% 100%;
+  }
+  @include screen(640px,767px) {
+    background-position: 100% 100%;
+    @include background-size(auto 130%);
+  }
+  @include screen(480px,639px) {
+    background-position: 100% 100%;
+    @include background-size(auto 100%);
+  }
+  @include max-screen(479px) {
     background-position: 50% 100%;
+    @include background-size(auto 80%);
   }
   .row img {
      width: auto;
      clear: both;
-     max-width: 66%;
-     margin: 300px 0 250px;
+    @include min-screen(1300px) {
+      margin: 300px 0 250px;
+      max-width: 66%;
+    }
+    @include screen(1024px,1299px) {
+      margin: 300px 0 250px 4%;
+      max-width: 59%;
+    }
+    @include screen(768px,1023px) {
+      margin: 23% 0 0 4%; 
+      max-width: 47%;
+    }
+    @include screen(640px,767px) {
+      margin: 23% 0 0 4%; 
+      max-width: 47%;
+    }
+    @include screen(480px,639px) {
+      margin: 20% 0 20% 2%; 
+      max-width: 49%;
+    }
+    @include max-screen(479px) {
+      margin: 20px auto 60%; 
+      max-width: 60%;
+      float: none;
+    }
   }
 }
 #love-146-success h3 {
@@ -417,5 +461,43 @@ section .block {
   }
 }
 #main.case-study .main-photo {
-  max-height: 742px;
+  margin: 0;
+  @include min-screen(1500px) {
+    height: 742px;  
+  }
+  @include screen(1024px,1499px) {
+    height: 670px;  
+  }
+  @include screen(801px,1023px) {
+    height: 500px;  
+  }
+  @include screen(768px,800px) {
+    height: 330px;  
+  }
+  @include screen(641px,767px) {
+    height: 330px;  
+  }
+  @include screen(481px,640px) {
+    height: 305px;  
+  }
+}
+#main.case-study .direction-nav.top {
+  background: rgba(#FFF, 0);
+  @include max-screen(640px) {
+    ul li + li {
+      position: absolute;
+      left: -9999px;
+    }
+    ul li + li + li {
+      position: relative;
+      left: auto;
+      margin: 0 -10px 0 0;
+    }
+  }
+  @include screen(481px,640px) {
+    margin: 80px 0 -185px;
+  }
+  @include max-screen(480px) {
+    margin: 0 0 -105px;
+  }
 }
