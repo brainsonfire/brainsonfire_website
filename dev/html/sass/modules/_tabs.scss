@@ -70,6 +70,7 @@
         text-align: center;
         text-decoration: none;
         text-transform: uppercase;
+        font-weight: 400;
         @include font-size(20);
         @include line-height(29);
       }
