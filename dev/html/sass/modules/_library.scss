@@ -239,7 +239,9 @@ ul.row {
     }
   }
   .button {
-    max-width: 270px;
+    padding: 1.4rem 2.5rem;
+    max-width: none;
+    width: auto;
   }
 }
 .direction-nav {
@@ -423,12 +425,11 @@ p.intro {
         margin: 0 auto 60px;
       }
       @include max-screen(767px) {
-        margin: 0 auto;
+        margin: 0 auto 30px;
       }
     }
     cite {
       float: right;
-      font: italic 20px/28px Georgia,"Times New Roman",Times,serif;
       color: #00AACB;
       @include min-screen(768px) {
         margin: 0 63px 0 0;
@@ -437,18 +438,25 @@ p.intro {
   }
 }
 .submit-application {
-  padding: 2rem 0.9375rem;
   background: url(../images/library/books_bottom.jpg) no-repeat 50% 50%;
   @include background-size(cover);
+  @include min-screen(1200px) {
+    padding: 7.14rem 0.9375rem;
+  }
+  @include screen(1024px,1199px) {
+    padding: 6rem 0.9375rem;
+  }
+  @include screen(768px,1023px) {
+    padding: 4rem 0.9375rem;
+  }
+  @include max-screen(767px) {
+    padding: 3rem 0.9375rem;
+  }
   .button {
     max-width: none;
     width: auto;
     @include min-screen(641px) {
       padding: 1.4rem 2.9375rem;
-    }
-    @include min-screen(768px) {
-      @include font-size(23);
-      @include line-height(32);    
     }
   }
   .button span {
@@ -540,11 +548,6 @@ p.intro {
         float: left;
       }
     }
-  }
-}
-.speaker-detail {
-  .half-block .button {
-    @include font-size(23);
   }
 }
 .application {
