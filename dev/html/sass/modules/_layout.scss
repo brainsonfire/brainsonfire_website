@@ -26,7 +26,8 @@ a {
 #header {
   position: relative;
   z-index: 30;
-  background: rgba(#fff, 0.9);
+  height: 83px;
+  background: rgba(#fff, 1);
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
   .row {
     max-height: 83px;
@@ -573,7 +574,6 @@ a {
 #main {
   display: block;
   position: relative;
-  margin: -83px 0 0;
   background: url("../images/layout/bg-body.png") repeat 0 0;
   &.individuals {
     @include min-screen(1201px) {
