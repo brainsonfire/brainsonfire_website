@@ -6,8 +6,8 @@
 
         <title><?php wp_title(''); ?></title>
 
-		<script src="http://localhost/bof/dev/html/js/min/modernizr.custom.01216.min.js"></script>
-    	<!--[if lte IE 8]><script type="text/javascript" src="http://localhost/bof/dev/html/js/min/respond.min.js"></script><![endif]-->
+		<script src="<?php base_url(); ?>js/min/modernizr.custom.01216.min.js"></script>
+    	<!--[if lte IE 8]><script type="text/javascript" src="<?php base_url() ?>js/min/respond.min.js"></script><![endif]-->
 		
 		<script src="//use.typekit.net/gyt8tgn.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
@@ -19,9 +19,9 @@
 		<!--<?php wp_enqueue_script('jquery'); wp_head(); ?>
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/jquery.main.js"></script>-->
 		
-		<script src="http://localhost/bof/dev/html/js/min/jquery-1.11.1.min.js"></script>
-		<script src="http://localhost/bof/dev/html/js/min/blog-helper.min.js"></script>
-		<script src="http://localhost/bof/dev/html/blog/wp-content/themes/brainsonfire2/js/jquery.main.js"></script>
+		<script src="<?php base_url(); ?>js/min/jquery-1.11.1.min.js"></script>
+		<script src="<?php base_url(); ?>js/min/blog-helper.min.js"></script>
+		<script src="<?php base_url(); ?>blog/wp-content/themes/brainsonfire2/js/jquery.main.js"></script>
 		
         <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/ie.css" media="screen"/><![endif]-->
         <!--[if IE]><script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/ie.js"></script><![endif]-->
@@ -54,7 +54,7 @@
 
 					<div class="row">
 
-						<a id="logo" href="http://localhost/bof/dev/html/home.php"><img src="http://localhost/bof/dev/html/images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
+						<a id="logo" href="<?php base_url(); ?>home.php"><img src="<?php base_url(); ?>images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
 						
 						<div class="tab-bar">
 							<a class="right-off-canvas-toggle menu-icon" href="#"><span>Menu</span></a>
@@ -67,19 +67,19 @@
 						<a class="exit-off-canvas"></a>
 
 						<ul class="primary-nav">
-							<li><a href="http://localhost/bof/dev/html/home.php">Home</a></li>
-							<li><a href="http://localhost/bof/dev/html/movements.php">Build a Movement</a></li>
-							<li><a href="http://localhost/bof/dev/html/learn_movement.php">Learn to Build a Movement</a></li>
-							<li><a href="http://localhost/bof/dev/html/case_studies.php">Case Studies</a></li>
-							<li><a href="http://localhost/bof/dev/html/individual.php">Meet Our Tribe</a></li>
+							<li><a href="<?php base_url(); ?>home.php">Home</a></li>
+							<li><a href="<?php base_url(); ?>movements.php">Build a Movement</a></li>
+							<li><a href="<?php base_url(); ?>learn_movement.php">Learn to Build a Movement</a></li>
+							<li><a href="<?php base_url(); ?>case_studies.php">Case Studies</a></li>
+							<li><a href="<?php base_url(); ?>individual.php">Meet Our Tribe</a></li>
 						</ul>
 
 						<ul class="secondary-nav">
-							<li><a href="http://localhost/bof/dev/html/blog/">Blog</a></li>
-							<li><a href="http://localhost/bof/dev/html/books.php">Books</a></li>
-							<li><a href="http://localhost/bof/dev/html/speaking.php">Speaking</a></li>
-							<li><a href="http://localhost/bof/dev/html/store.php">Store</a></li>			
-							<li><a href="http://localhost/bof/dev/html/hello.php">Hello</a></li>
+							<li><a href="<?php base_url(); ?>blog/">Blog</a></li>
+							<li><a href="<?php base_url(); ?>books.php">Books</a></li>
+							<li><a href="<?php base_url(); ?>speaking.php">Speaking</a></li>
+							<li><a href="<?php base_url(); ?>store.php">Store</a></li>
+							<li><a href="<?php base_url(); ?>hello.php">Hello</a></li>
 							<li><a href="http://brainsonfirenews.tumblr.com/">Published</a></li>
 						</ul>
 

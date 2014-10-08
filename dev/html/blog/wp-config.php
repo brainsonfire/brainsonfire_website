@@ -33,6 +33,7 @@ if($_SERVER['SERVER_NAME'] == 'brainsonfire.com' || $_SERVER['SERVER_NAME'] == '
 	define('DB_COLLATE', '');   
     
 } else {
+	// Localhost
 	 define('DB_NAME', 'bof_blog');
     define('DB_USER', 'root');
     define('DB_PASSWORD', '');
