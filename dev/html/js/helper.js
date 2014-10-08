@@ -107,4 +107,10 @@ $(document).ready(function () {
     $('.movement-tab dl dt:first').addClass('active'); 
     $('.movement-tab dl dt:first + dd').show();
 
+    $('html.no-flexbox .movement-tab dl dt').each(function() {
+      var $dt = $(this);
+      $dt.add($dt.next()).wrapAll('<div>');
+    });
+
+
 });

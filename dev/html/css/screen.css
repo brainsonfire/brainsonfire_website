@@ -3447,6 +3447,99 @@ p.editor-note a:hover {
   margin: 46px auto 29px;
 }
 
+@media screen and (min-width: 768px) {
+  /* line 163, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl {
+    position: relative;
+  }
+  /* line 165, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div {
+    float: left;
+    width: 25%;
+    position: relative;
+  }
+  /* line 169, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div dt {
+    width: 100%;
+  }
+  /* line 172, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div dd {
+    position: relative;
+    width: 400%;
+    margin: 0 0 56px;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+  }
+  /* line 181, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:first-of-type dd {
+    left: 0;
+  }
+  /* line 184, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:first-of-type dt .table-wrap > span {
+    background: #d9531e;
+  }
+  /* line 187, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:first-of-type dt.active a {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  /* line 192, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dd {
+    left: -100%;
+  }
+  /* line 195, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt .table-wrap > span {
+    background: #23bed4;
+  }
+  /* line 198, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt.active a {
+    background-color: rgba(11, 183, 207, 0.5);
+  }
+  /* line 203, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dd {
+    left: -200%;
+  }
+  /* line 206, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt .table-wrap > span {
+    background: #9ea867;
+  }
+  /* line 209, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt.active a {
+    background-color: rgba(147, 159, 87, 0.5);
+  }
+  /* line 214, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dd {
+    left: -300%;
+  }
+  /* line 217, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt .table-wrap > span {
+    background: #ec8a35;
+  }
+  /* line 220, ../sass/sections/_movements.scss */
+  .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt.active a {
+    background-color: rgba(235, 126, 31, 0.5);
+  }
+}
+/* line 227, ../sass/sections/_movements.scss */
+.tabs.movement-tab a:after {
+  background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
+}
+
+/* line 230, ../sass/sections/_movements.scss */
+.tabs.movement-tab dd {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+/* line 233, ../sass/sections/_movements.scss */
+.tabs.movement-tab dt {
+  padding: 0 2px 40px;
+}
+
+/* line 236, ../sass/sections/_movements.scss */
+.tabs.movement-tab a:after {
+  bottom: -40px;
+}
+
 /* line 1, ../sass/sections/_casestudies.scss */
 #case-studies-banner {
   background: #00aacb url(../images/case-study/bg_case_studies.jpg) no-repeat 50% 100%;
@@ -8910,8 +9003,8 @@ form li.focused {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* line 103, ../sass/modules/_tabs.scss */
   .tabs dt a .table {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 15px;
+    font-size: 0.9375rem;
     line-height: 22px;
     line-height: 1.375rem;
   }
@@ -8928,11 +9021,7 @@ form li.focused {
 .tabs dt.active a {
   background-color: #D0F2F7;
 }
-/* line 135, ../sass/modules/_tabs.scss */
-.tabs dt:hover a {
-  background-color: rgba(208, 242, 247, 0.8);
-}
-/* line 139, ../sass/modules/_tabs.scss */
+/* line 136, ../sass/modules/_tabs.scss */
 .tabs a:after {
   display: block;
   position: absolute;
@@ -8947,16 +9036,16 @@ form li.focused {
   opacity: 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 152, ../sass/modules/_tabs.scss */
+  /* line 149, ../sass/modules/_tabs.scss */
   .tabs.three dt:first-of-type {
     margin-left: 12.5%;
   }
 }
-/* line 157, ../sass/modules/_tabs.scss */
+/* line 154, ../sass/modules/_tabs.scss */
 .tabs dt.active a:after {
   opacity: 1;
 }
-/* line 160, ../sass/modules/_tabs.scss */
+/* line 157, ../sass/modules/_tabs.scss */
 .tabs dd {
   display: none;
   width: 100%;
@@ -8972,28 +9061,13 @@ form li.focused {
   border-radius: 2px;
 }
 
-/* line 175, ../sass/modules/_tabs.scss */
+/* line 172, ../sass/modules/_tabs.scss */
 dl dd,
 dl dt {
   margin-bottom: 0;
 }
 
-/* line 179, ../sass/modules/_tabs.scss */
-.tabs.movement-tab a:after {
-  background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
-}
-
-/* line 182, ../sass/modules/_tabs.scss */
-.tabs.movement-tab dd {
-  background: rgba(255, 255, 255, 0.9);
-}
-
-/* line 185, ../sass/modules/_tabs.scss */
-.tabs.movement-tab dt {
-  padding: 0 2px 40px;
-}
-
-/* line 188, ../sass/modules/_tabs.scss */
-.tabs.movement-tab a:after {
-  bottom: -40px;
+/* line 176, ../sass/modules/_tabs.scss */
+.no-touch .tabs dt:not(.active) a:hover {
+  background-color: rgba(208, 242, 247, 0.8);
 }

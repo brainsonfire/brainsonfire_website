@@ -117,7 +117,7 @@
           @include line-height(26);
         }
         @include screen(768px,1023px) {
-          @include font-size(16);
+          @include font-size(15);
           @include line-height(22);
         }
         @include border-radius(100%);
@@ -131,9 +131,6 @@
     }
     &.active a {
       background-color: #D0F2F7;
-    }
-    &:hover a {
-      background-color: rgba(#D0F2F7, 0.8);
     }
   }
   a:after {
@@ -174,17 +171,10 @@
 }
 dl dd,
 dl dt {
-    margin-bottom: 0;
+  margin-bottom: 0;
 } 
-.tabs.movement-tab a:after {
-  background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
+.no-touch .tabs dt:not(.active) a:hover {
+  background-color: rgba(#D0F2F7, 0.8);
 }
-.tabs.movement-tab dd {
-  background: rgba(#FFF, 0.9);
-}
-.tabs.movement-tab dt {
-  padding: 0 2px 40px;
-}
-.tabs.movement-tab a:after {
-  bottom: -40px;
-}
+
+

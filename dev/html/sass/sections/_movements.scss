@@ -158,3 +158,81 @@
 #some-examples .row .works-list {
   margin: 46px auto 29px;
 }
+
+@include min-screen(768px) {
+.no-flexbox .tabs.movement-tab dl {
+    position: relative;
+    > div {
+      float: left;
+      width: 25%;
+      position: relative;
+      dt {
+        width: 100%;
+      }
+      dd {
+        position: relative;
+        width: 400%;
+        margin: 0 0 56px;
+        -webkit-transform: translate3d(0,0,0);
+        -webkit-perspective: 1000;
+        -webkit-backface-visibility: hidden;
+      }
+      &:first-of-type {
+        dd {
+          left: 0;
+        }
+        dt .table-wrap > span { 
+          background: #d9531e; 
+        }
+        dt.active a { 
+          background-color: rgba(#fff, 0.5); 
+        }
+      } 
+      &:nth-child(2n) {
+        dd {
+          left: -100%;
+        }
+        dt .table-wrap > span { 
+            background: #23bed4; 
+        }
+        dt.active a { 
+          background-color: rgba(#0bb7cf, 0.5); 
+        }
+      } 
+      &:nth-child(3n) {
+        dd {
+          left: -200%;
+        }
+        dt .table-wrap > span { 
+          background: #9ea867; 
+        }
+        dt.active a { 
+          background-color: rgba(#939f57, 0.5); 
+        } 
+      }
+      &:nth-child(4n) {
+        dd {
+          left: -300%;
+        }
+        dt .table-wrap > span { 
+          background: #ec8a35; 
+        }
+        dt.active a { 
+          background-color: rgba(#eb7e1f, 0.5); 
+        }
+      } 
+    }
+  }
+}
+.tabs.movement-tab a:after {
+  background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
+}
+.tabs.movement-tab dd {
+  background: rgba(#FFF, 0.9);
+}
+.tabs.movement-tab dt {
+  padding: 0 2px 40px;
+}
+.tabs.movement-tab a:after {
+  bottom: -40px;
+}
