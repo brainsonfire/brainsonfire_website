@@ -4,7 +4,7 @@
   width: auto;
   position: relative;
   text-align: center;
-  margin: 0 auto 33px;
+  margin: 0 auto 30px;
   a {
     float: left;
     position: relative;
@@ -30,7 +30,7 @@
     text-transform: uppercase;
     font-weight: 500;//@include InfoMediumFont;
     @include min-screen(1024px) {
-      margin: 0 12px;
+      margin: 0 26px;
       @include font-size(18);
       @include line-height(25);
     }
@@ -52,7 +52,7 @@
       height: 15px;
       background: url(../images/library/small_arrow.png) no-repeat 0 0;
       @include min-screen(1024px) {
-        right: -18px;
+        right: -26px;
         top: 4px;
       }
       @include screen(768px,1023px) {
@@ -118,7 +118,7 @@
       overflow: hidden;
       width: 100%;      
       @include min-screen(1024px) {
-        max-width: 770px;
+        max-width: 784px;
         margin: 0 auto 44px;
       }
       @include max-screen(1023px) {
@@ -147,12 +147,20 @@
     }
     .orbit-next {
       background: url(../images/library/arrows.png) no-repeat 0 0;
+      @include min-screen(1024px) {
+        right: 8px;
+        margin-top: -9px;
+      }
       @include max-screen(1023px) {
         right: -12px;
       }
     }
     .orbit-prev {
       background: url(../images/library/arrows.png) no-repeat 0 -44px;
+      @include min-screen(1024px) {
+        left: 8px;
+        margin-top: -9px;
+      }
       @include max-screen(1023px) {
         left: -12px;
       }
@@ -160,7 +168,7 @@
     li {
       font-weight: 400;
         @include min-screen(768px) {
-        @include font-size(20);
+        @include font-size(17);
         @include line-height(30);
       }
       @include max-screen(767px) {

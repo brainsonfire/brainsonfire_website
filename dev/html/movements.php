@@ -34,12 +34,14 @@
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
 
+	<img class="temp" src="images/Movements.jpg" alt="">
+
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main">
+			<main id="main" class="movements-page">
 
 				<section id="movement-banner" class="white-text">
 					<div class="row">
@@ -57,7 +59,7 @@
 							<a href="#" data-orbit-link="headline-3">What Does It Take?</a>
 							<a href="#" data-orbit-link="headline-4">What Will It Do?</a>
 						</div>
-						<ul class="text-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false;">
+						<ul class="text-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; variable_height: true;">
 							<li data-orbit-slide="headline-1"><div><strong>What is a Brains on Fire MOVEMENT?</strong>Today, the word “movement” is thrown around by marketers to mean anything that can be measured in “likes” and “followers” and “shares.” Movements are not ignited by apps, they are ignited by people. Real people with real names. People interested in more than just winning a contest or promotion. We’re talking about passionate people who are connected and committed to putting in a little elbow grease for something they believe in. People who want to be better people in a better world.</div></li>
 							<li data-orbit-slide="headline-2"><div><strong>So why should you CARE?</strong>Because for your company, a Brains on Fire movement can serve as a cultural compass and gravitational force that pulls people together. We believe you are in the business of more than just business and right now, as you read this, thousands of people are waiting to link arms with your brand and do something meaningful.<br >Brains on Fire movements are not about short-term fixes. They’re not about campaigns to wrangle more “followers” or add names to a mailing list. They’re about earning strong connections that transform customers and employees into allies and believers.</div></li>
 							<li data-orbit-slide="headline-3"><div><strong>What does it TAKE?</strong>Our movements come with prerequisites. You must believe that your brand serves a greater cause that deeply matters to everyone it touches. You must be willing to structure your organization and embrace a philosophy to consistently demonstrate the highest regard for your employees and customers. And most importantly, you must have a willingness to partner with people, and be brave enough to “be famous for the people who love you.”</div></li>

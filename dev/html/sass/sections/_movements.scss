@@ -15,13 +15,13 @@
 #movement-info {
   background: rgba(#000, 0);
   @include min-screen(1200px) {
-    padding: 80px 0 83px;
+    padding: 80px 0 81px;
   }
   h1 {
     margin: 0 0 33px;
   }
   .button {
-    max-width: 270px;
+    max-width: 266px;
     margin: 0 auto 17px;
   }
   p.hint {
@@ -230,10 +230,34 @@
 }
 .tabs.movement-tab dd {
   background: rgba(#FFF, 0.9);
+  @include min-screen(1024px) {
+    padding: 65px 50px 70px;
+    p {
+      margin: 0;
+      @include line-height(29);
+    }
+  }
+}
+.tabs.movement-tab {
+  margin: 0 auto 38px;
 }
 .tabs.movement-tab dt {
-  padding: 0 2px 40px;
+  padding: 0 2px 26px;
 }
 .tabs.movement-tab a:after {
-  bottom: -40px;
+  bottom: -26px;
 }
+.movements-page #blockquote .orbit-container {
+  margin: 0 0 98px;
+  @include min-screen(1024px) {
+    .orbit-prev {
+      left: 0;
+      margin-top: -44px;
+    }
+    .orbit-next {
+      right: 0;
+      margin-top: -44px;
+    }
+  }
+}
+
