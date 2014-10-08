@@ -158,8 +158,8 @@
       }
     }
     li {
-      font-weight: 500;//@include InfoMediumFont;
-      @include min-screen(768px) {
+      font-weight: 400;
+        @include min-screen(768px) {
         @include font-size(20);
         @include line-height(30);
       }
@@ -168,7 +168,7 @@
         @include line-height(22);    
       }
       strong {
-        font-weight: 500;//@include InfoSemiBoldFont;
+        font-weight: 500;
       }
     }
   }

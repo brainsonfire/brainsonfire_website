@@ -2567,7 +2567,7 @@ p.editor-note a:hover {
 }
 /* line 160, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li {
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (min-width: 768px) {
   /* line 160, ../sass/modules/_orbit.scss */
