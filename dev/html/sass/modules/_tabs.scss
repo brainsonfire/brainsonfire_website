@@ -17,8 +17,14 @@
     width: 100%;
     margin: 0 auto;
     @include min-screen(768px) {
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flex;
       display: flex;
-      flex-flow: row wrap;      
+      -webkit-flex-flow: row wrap;
+         -moz-flex-flow: row wrap;
+          -ms-flex-flow: row wrap;
+              flex-flow: row wrap;      
     }
     @include max-screen(767px) {
       display: block; 
@@ -28,6 +34,8 @@
     padding: 0 2px 70px;
     @include min-screen(768px) {
       width: 25%;
+      -webkit-box-ordinal-group: 1;  
+         -moz-box-ordinal-group: 1;     
       -webkit-order: 1;
           -ms-order: 1;
               order: 1;
@@ -155,6 +163,8 @@
     -webkit-order: 2;
         -ms-order: 2;
             order: 2;
+    -webkit-box-ordinal-group: 2;  
+       -moz-box-ordinal-group: 2;     
     background: #cff1f6;
     padding: 48px 50px 32px;
     @include border-radius(2px);

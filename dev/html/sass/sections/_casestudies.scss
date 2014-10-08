@@ -416,4 +416,6 @@ section .block {
     @include line-height(30);
   }
 }
-
+#main.case-study .main-photo {
+  max-height: 742px;
+}
