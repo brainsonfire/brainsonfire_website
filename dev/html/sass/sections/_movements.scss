@@ -53,7 +53,7 @@
       z-index: 1;
     }
     @include min-screen(1500px) {
-      top: 316px;
+      top: 336px;
       width: 100%;
     }
     @include screen(1024px,1499px) {
