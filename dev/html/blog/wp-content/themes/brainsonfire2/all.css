@@ -1735,6 +1735,9 @@ a {
   .accordion .slide .month-list ul span {
     color: #666;
   }
+  .form-contact input[type="submit"] {
+      max-width: 229px;
+  }
 }
 @media screen and (max-width:767px) {
   #content,
@@ -1834,5 +1837,26 @@ a {
     display: block;
     width: 100%;
     clear: both;
+  }
+  .form-contact label {
+    color: #fff;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  .form-contact input[type="submit"] {
+      max-width: 290px;
+      margin: 10px auto;
+  }
+  .form-contact input[type="text"], 
+  .form-contact input[type="email"], 
+  .form-contact textarea {
+    max-width: 320px;
+    margin: 0 auto 10px;
+  }
+  #mc-embedded-subscribe:hover {
+      background-color: #058eb3 !important;
+  }
+  #mc-embedded-subscribe {
+      background-color: #00aacb !important;
   }
 }
