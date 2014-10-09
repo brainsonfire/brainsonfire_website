@@ -1860,3 +1860,6 @@ a {
       background-color: #00aacb !important;
   }
 }
+.post.single iframe {
+  width: 100%;
+}

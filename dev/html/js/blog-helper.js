@@ -85,6 +85,10 @@ $(document).ready(function () {
       return false;
     });
 
+    $("iframe").each(function(){
+      $(this).parent('p').addClass('videoHolder');
+    });
+
 });
 
 $(window).load(function(){
