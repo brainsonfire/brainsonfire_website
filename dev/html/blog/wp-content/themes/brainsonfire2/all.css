@@ -1650,22 +1650,24 @@ a {
   #content {
     float: left;
     width: 66%;
+    padding: 0 15px;
   }
   #sidebar {
     float: right;
     width: 24%;
-    margin: 0 15px 0 0;
+    padding: 0 15px;
   }
 }
 @media screen and (min-width:768px) and (max-width:1023px) {
   #content {
     float: left;
     width: 60%;
+    padding: 0 15px;
   }
   #sidebar {
     float: right;
     width: 32%;
-    margin: 0 15px 0 0;
+    padding: 0 15px;
   }
 }
 @media screen and (min-width:768px) {
