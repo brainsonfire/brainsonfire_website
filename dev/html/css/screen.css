@@ -528,7 +528,7 @@ a {
 @media screen and (min-width: 1200px) {
   /* line 222, ../sass/modules/_layout.scss */
   #footer {
-    padding: 90px 0 0;
+    padding: 53px 0 0;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -570,7 +570,7 @@ a {
 @media screen and (min-width: 1200px) {
   /* line 243, ../sass/modules/_layout.scss */
   #footer > .row {
-    margin: -3px auto 50px;
+    margin: -3px auto 82px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -606,7 +606,7 @@ a {
 @media screen and (min-width: 1200px) {
   /* line 264, ../sass/modules/_layout.scss */
   #footer .go-top {
-    top: -106px;
+    top: -69px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
@@ -978,7 +978,7 @@ a {
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
-  padding: 16px 0 26px;
+  padding: 18px 0 26px;
 }
 /* line 535, ../sass/modules/_layout.scss */
 .footer-bottom ul {
@@ -2246,70 +2246,70 @@ p.intro {
   background: url("../images/library/bg-body.png") repeat scroll 0 0 white;
 }
 
-/* line 723, ../sass/modules/_library.scss */
+/* line 722, ../sass/modules/_library.scss */
 .reveal-modal, dialog {
   right: 0;
   margin: auto;
 }
 @media screen and (max-width: 767px) {
-  /* line 723, ../sass/modules/_library.scss */
+  /* line 722, ../sass/modules/_library.scss */
   .reveal-modal, dialog {
     min-height: 120%;
   }
 }
 
-/* line 731, ../sass/modules/_library.scss */
+/* line 729, ../sass/modules/_library.scss */
 .reveal-modal .retailers {
   display: block;
   overflow: hidden;
 }
-/* line 734, ../sass/modules/_library.scss */
+/* line 732, ../sass/modules/_library.scss */
 .reveal-modal .retailers p {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
 }
-/* line 739, ../sass/modules/_library.scss */
+/* line 737, ../sass/modules/_library.scss */
 .reveal-modal .retailers ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-/* line 744, ../sass/modules/_library.scss */
+/* line 742, ../sass/modules/_library.scss */
 .reveal-modal .retailers li {
   float: left;
   width: 50%;
 }
 @media screen and (max-width: 767px) {
-  /* line 744, ../sass/modules/_library.scss */
+  /* line 742, ../sass/modules/_library.scss */
   .reveal-modal .retailers li {
     padding: 10px 5px 0;
   }
 }
-/* line 750, ../sass/modules/_library.scss */
+/* line 748, ../sass/modules/_library.scss */
 .reveal-modal .retailers li a {
   display: table;
   margin: 0 auto;
 }
-/* line 754, ../sass/modules/_library.scss */
+/* line 752, ../sass/modules/_library.scss */
 .reveal-modal .retailers li img {
   width: auto;
   max-width: 100%;
 }
 @media screen and (max-width: 767px) {
-  /* line 754, ../sass/modules/_library.scss */
+  /* line 752, ../sass/modules/_library.scss */
   .reveal-modal .retailers li img {
     max-width: none;
     width: 100%;
   }
 }
 
-/* line 764, ../sass/modules/_library.scss */
+/* line 762, ../sass/modules/_library.scss */
 .thanks-page + #footer .go-top {
   display: none;
 }
 
-/* line 767, ../sass/modules/_library.scss */
+/* line 765, ../sass/modules/_library.scss */
 .center.large-8.columns,
 .center.medium-8.columns,
 .center.small-12.columns {
@@ -2317,7 +2317,7 @@ p.intro {
   margin: 0 auto 50px;
 }
 
-/* line 773, ../sass/modules/_library.scss */
+/* line 771, ../sass/modules/_library.scss */
 p.editor-note {
   color: #fff;
   font-size: 16px;
@@ -2326,11 +2326,11 @@ p.editor-note {
   padding: 0 20px;
   text-align: center;
 }
-/* line 780, ../sass/modules/_library.scss */
+/* line 778, ../sass/modules/_library.scss */
 p.editor-note a {
   color: #046984;
 }
-/* line 782, ../sass/modules/_library.scss */
+/* line 780, ../sass/modules/_library.scss */
 p.editor-note a:hover {
   text-decoration: underline;
 }
@@ -3253,7 +3253,7 @@ p.editor-note a:hover {
 @media screen and (min-width: 1200px) {
   /* line 15, ../sass/sections/_movements.scss */
   #movement-info {
-    padding: 80px 0 60px;
+    padding: 80px 0;
   }
 }
 /* line 20, ../sass/sections/_movements.scss */
@@ -3294,8 +3294,32 @@ p.editor-note a:hover {
     background: #fff;
   }
 }
+@media screen and (min-width: 1500px) {
+  /* line 42, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 100px 0 107px;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1499px) {
+  /* line 42, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 78px 0 98px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 42, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 58px 0 78px;
+  }
+}
+@media screen and (max-width: 767px) {
+  /* line 42, ../sass/sections/_movements.scss */
+  #how-we-work {
+    padding: 38px 0 58px;
+  }
+}
 @media screen and (min-width: 768px) {
-  /* line 47, ../sass/sections/_movements.scss */
+  /* line 59, ../sass/sections/_movements.scss */
   #how-we-work > img {
     position: absolute;
     max-width: none;
@@ -3304,14 +3328,14 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 47, ../sass/sections/_movements.scss */
+  /* line 59, ../sass/sections/_movements.scss */
   #how-we-work > img {
-    top: 336px;
+    top: 314px;
     width: 100%;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1499px) {
-  /* line 47, ../sass/sections/_movements.scss */
+  /* line 59, ../sass/sections/_movements.scss */
   #how-we-work > img {
     bottom: 0;
     width: auto;
@@ -3319,7 +3343,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 47, ../sass/sections/_movements.scss */
+  /* line 59, ../sass/sections/_movements.scss */
   #how-we-work > img {
     bottom: 0;
     width: auto;
@@ -3327,143 +3351,123 @@ p.editor-note a:hover {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 47, ../sass/sections/_movements.scss */
+  /* line 59, ../sass/sections/_movements.scss */
   #how-we-work > img {
     display: none;
   }
 }
-/* line 73, ../sass/sections/_movements.scss */
+/* line 84, ../sass/sections/_movements.scss */
 #how-we-work .row {
   position: relative;
   z-index: 10;
 }
-@media screen and (min-width: 1500px) {
-  /* line 42, ../sass/sections/_movements.scss */
-  #how-we-work {
-    padding: 98px 0 127px;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1499px) {
-  /* line 42, ../sass/sections/_movements.scss */
-  #how-we-work {
-    padding: 98px 0 118px;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 42, ../sass/sections/_movements.scss */
-  #how-we-work {
-    padding: 98px 0 118px;
-  }
-}
-@media screen and (max-width: 767px) {
-  /* line 42, ../sass/sections/_movements.scss */
-  #how-we-work {
-    padding: 98px 0 118px;
-  }
+/* line 88, ../sass/sections/_movements.scss */
+#how-we-work h1 {
+  margin: 0 0 2px;
 }
 @media screen and (min-width: 768px) {
-  /* line 89, ../sass/sections/_movements.scss */
+  /* line 91, ../sass/sections/_movements.scss */
   #how-we-work h1 + p {
-    margin: 0 0 54px;
+    margin: 0 0 57px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 89, ../sass/sections/_movements.scss */
+  /* line 91, ../sass/sections/_movements.scss */
   #how-we-work h1 + p {
     margin: 0 0 20px;
   }
 }
-/* line 97, ../sass/sections/_movements.scss */
+/* line 99, ../sass/sections/_movements.scss */
 #how-we-work .button {
   max-width: 250px;
 }
 
-/* line 102, ../sass/sections/_movements.scss */
+/* line 104, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type .table-wrap > span {
   background: #d9531e;
 }
-/* line 105, ../sass/sections/_movements.scss */
+/* line 107, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type.active a {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 110, ../sass/sections/_movements.scss */
+/* line 112, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(3n) .table-wrap > span {
   background: #23bed4;
 }
-/* line 113, ../sass/sections/_movements.scss */
+/* line 115, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(3n).active a {
   background-color: rgba(11, 183, 207, 0.5);
 }
 
-/* line 118, ../sass/sections/_movements.scss */
+/* line 120, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(5n) .table-wrap > span {
   background: #9ea867;
 }
-/* line 121, ../sass/sections/_movements.scss */
+/* line 123, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(5n).active a {
   background-color: rgba(147, 159, 87, 0.5);
 }
 
-/* line 126, ../sass/sections/_movements.scss */
+/* line 128, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(7n) .table-wrap > span {
   background: #ec8a35;
 }
-/* line 129, ../sass/sections/_movements.scss */
+/* line 131, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(7n).active a {
   background-color: rgba(235, 126, 31, 0.5);
 }
 
-/* line 133, ../sass/sections/_movements.scss */
+/* line 135, ../sass/sections/_movements.scss */
 #some-examples {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 133, ../sass/sections/_movements.scss */
+  /* line 135, ../sass/sections/_movements.scss */
   #some-examples {
     padding: 110px 0 104px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 138, ../sass/sections/_movements.scss */
+  /* line 140, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 48px auto 53px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 138, ../sass/sections/_movements.scss */
+  /* line 140, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 30px auto;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 138, ../sass/sections/_movements.scss */
+  /* line 140, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 22px auto 22px;
   }
 }
 
-/* line 150, ../sass/sections/_movements.scss */
+/* line 152, ../sass/sections/_movements.scss */
 #blockquote {
   background: #FFF;
 }
-/* line 152, ../sass/sections/_movements.scss */
+/* line 154, ../sass/sections/_movements.scss */
 #blockquote h1 + p {
   margin: 0 0 21px;
 }
-/* line 155, ../sass/sections/_movements.scss */
+/* line 157, ../sass/sections/_movements.scss */
 #blockquote .blockquote-orbit {
   max-width: 650px;
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 159, ../sass/sections/_movements.scss */
+  /* line 161, ../sass/sections/_movements.scss */
   #help {
     padding: 87px 0 102px;
   }
 }
 
-/* line 164, ../sass/sections/_movements.scss */
+/* line 166, ../sass/sections/_movements.scss */
 #other-way {
   background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
   -moz-background-size: cover;
@@ -3472,33 +3476,33 @@ p.editor-note a:hover {
   background-size: cover;
 }
 @media screen and (min-width: 1200px) {
-  /* line 164, ../sass/sections/_movements.scss */
+  /* line 166, ../sass/sections/_movements.scss */
   #other-way {
     padding: 83px 0 99px;
   }
 }
 
-/* line 171, ../sass/sections/_movements.scss */
+/* line 173, ../sass/sections/_movements.scss */
 #some-examples .row .works-list {
   margin: 46px auto 29px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 176, ../sass/sections/_movements.scss */
+  /* line 177, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl {
     position: relative;
   }
-  /* line 178, ../sass/sections/_movements.scss */
+  /* line 179, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div {
     float: left;
     width: 25%;
     position: relative;
   }
-  /* line 182, ../sass/sections/_movements.scss */
+  /* line 183, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div dt {
     width: 100%;
   }
-  /* line 185, ../sass/sections/_movements.scss */
+  /* line 186, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div dd {
     position: relative;
     width: 400%;
@@ -3507,109 +3511,125 @@ p.editor-note a:hover {
     -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
   }
-  /* line 194, ../sass/sections/_movements.scss */
+  /* line 195, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dd {
     left: 0;
   }
-  /* line 197, ../sass/sections/_movements.scss */
+  /* line 198, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dt .table-wrap > span {
     background: #d9531e;
   }
-  /* line 200, ../sass/sections/_movements.scss */
+  /* line 201, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dt.active a {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  /* line 205, ../sass/sections/_movements.scss */
+  /* line 206, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dd {
     left: -100%;
   }
-  /* line 208, ../sass/sections/_movements.scss */
+  /* line 209, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt .table-wrap > span {
     background: #23bed4;
   }
-  /* line 211, ../sass/sections/_movements.scss */
+  /* line 212, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt.active a {
     background-color: rgba(11, 183, 207, 0.5);
   }
-  /* line 216, ../sass/sections/_movements.scss */
+  /* line 217, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dd {
     left: -200%;
   }
-  /* line 219, ../sass/sections/_movements.scss */
+  /* line 220, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt .table-wrap > span {
     background: #9ea867;
   }
-  /* line 222, ../sass/sections/_movements.scss */
+  /* line 223, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt.active a {
     background-color: rgba(147, 159, 87, 0.5);
   }
-  /* line 227, ../sass/sections/_movements.scss */
+  /* line 228, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dd {
     left: -300%;
   }
-  /* line 230, ../sass/sections/_movements.scss */
+  /* line 231, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt .table-wrap > span {
     background: #ec8a35;
   }
-  /* line 233, ../sass/sections/_movements.scss */
+  /* line 234, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt.active a {
     background-color: rgba(235, 126, 31, 0.5);
   }
 }
-/* line 240, ../sass/sections/_movements.scss */
+/* line 241, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
   background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
 }
 
-/* line 243, ../sass/sections/_movements.scss */
+/* line 244, ../sass/sections/_movements.scss */
 .tabs.movement-tab dd {
   background: rgba(255, 255, 255, 0.9);
 }
 @media screen and (min-width: 1024px) {
-  /* line 243, ../sass/sections/_movements.scss */
+  /* line 244, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd {
     padding: 65px 50px 70px;
   }
-  /* line 247, ../sass/sections/_movements.scss */
+  /* line 248, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd p {
     margin: 0;
     line-height: 29px;
     line-height: 1.8125rem;
   }
+  /* line 251, ../sass/sections/_movements.scss */
+  .tabs.movement-tab dd p strong {
+    font-weight: 500;
+    display: block;
+  }
 }
 
-/* line 253, ../sass/sections/_movements.scss */
+/* line 258, ../sass/sections/_movements.scss */
 .tabs.movement-tab {
   margin: 0 auto 38px;
 }
 
-/* line 256, ../sass/sections/_movements.scss */
+/* line 261, ../sass/sections/_movements.scss */
 .tabs.movement-tab dt {
   padding: 0 2px 36px;
 }
 
-/* line 259, ../sass/sections/_movements.scss */
+/* line 264, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
   bottom: -36px;
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 262, ../sass/sections/_movements.scss */
+  /* line 267, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container {
-    margin: 0 0 111px;
+    margin: 0 0 100px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 268, ../sass/sections/_movements.scss */
+  /* line 272, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-prev {
     left: 0;
     margin-top: -44px;
   }
-  /* line 272, ../sass/sections/_movements.scss */
+  /* line 276, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-next {
     right: 0;
     margin-top: -44px;
   }
+}
+
+@media screen and (min-width: 1200px) {
+  /* line 282, ../sass/sections/_movements.scss */
+  .movements-page #blockquote {
+    padding: 91px 0 0;
+  }
+}
+/* line 286, ../sass/sections/_movements.scss */
+.movements-page #blockquote h1 + p {
+  margin: 0 0 25px;
 }
 
 /* line 1, ../sass/sections/_casestudies.scss */
