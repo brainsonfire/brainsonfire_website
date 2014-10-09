@@ -2531,7 +2531,7 @@ p.editor-note a:hover {
 /* line 135, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next,
 #movement-info .orbit-container .orbit-prev {
-  display: block !important;
+  display: block;
   width: 31px;
   height: 44px;
   opacity: 0.8;
@@ -3248,7 +3248,7 @@ p.editor-note a:hover {
 
 /* line 15, ../sass/sections/_movements.scss */
 #movement-info {
-  background: transparent;
+  background: #eaeaea url("../images/layout/bg-path-lighter.png") repeat 0 0;
 }
 @media screen and (min-width: 1200px) {
   /* line 15, ../sass/sections/_movements.scss */
