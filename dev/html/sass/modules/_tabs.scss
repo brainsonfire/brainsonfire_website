@@ -126,6 +126,20 @@
         }
         .bottom-block {
           display: block;
+          font-family: Georgia,serif;
+          font-style: italic;
+          @include min-screen(1200px) {
+            @include font-size(20);
+            @include line-height(30);
+          }
+          @include screen(1024px,1199px) {
+            @include font-size(18);
+            @include line-height(26);
+          }
+          @include screen(768px,1023px) {
+            @include font-size(14);
+            @include line-height(22);
+          }
         }
       }
     }

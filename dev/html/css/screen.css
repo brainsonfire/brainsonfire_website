@@ -9108,12 +9108,41 @@ form li.focused {
 /* line 127, ../sass/modules/_tabs.scss */
 .tabs dt a .table .bottom-block {
   display: block;
+  font-family: Georgia,serif;
+  font-style: italic;
 }
-/* line 132, ../sass/modules/_tabs.scss */
+@media screen and (min-width: 1200px) {
+  /* line 127, ../sass/modules/_tabs.scss */
+  .tabs dt a .table .bottom-block {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+  }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px) {
+  /* line 127, ../sass/modules/_tabs.scss */
+  .tabs dt a .table .bottom-block {
+    font-size: 18px;
+    font-size: 1.125rem;
+    line-height: 26px;
+    line-height: 1.625rem;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 127, ../sass/modules/_tabs.scss */
+  .tabs dt a .table .bottom-block {
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+  }
+}
+/* line 146, ../sass/modules/_tabs.scss */
 .tabs dt.active a {
   background-color: #D0F2F7;
 }
-/* line 136, ../sass/modules/_tabs.scss */
+/* line 150, ../sass/modules/_tabs.scss */
 .tabs a:after {
   display: block;
   position: absolute;
@@ -9128,16 +9157,16 @@ form li.focused {
   opacity: 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 149, ../sass/modules/_tabs.scss */
+  /* line 163, ../sass/modules/_tabs.scss */
   .tabs.three dt:first-of-type {
     margin-left: 12.5%;
   }
 }
-/* line 154, ../sass/modules/_tabs.scss */
+/* line 168, ../sass/modules/_tabs.scss */
 .tabs dt.active a:after {
   opacity: 1;
 }
-/* line 157, ../sass/modules/_tabs.scss */
+/* line 171, ../sass/modules/_tabs.scss */
 .tabs dd {
   display: none;
   width: 100%;
@@ -9152,30 +9181,30 @@ form li.focused {
   border-radius: 2px;
 }
 @media screen and (min-width: 768px) {
-  /* line 157, ../sass/modules/_tabs.scss */
+  /* line 171, ../sass/modules/_tabs.scss */
   .tabs dd {
     padding: 48px 50px 32px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 157, ../sass/modules/_tabs.scss */
+  /* line 171, ../sass/modules/_tabs.scss */
   .tabs dd {
     padding: 30px 20px 26px;
     margin: 0 0 22px;
   }
-  /* line 173, ../sass/modules/_tabs.scss */
+  /* line 187, ../sass/modules/_tabs.scss */
   .tabs dd p {
     margin: 0;
   }
 }
 
-/* line 179, ../sass/modules/_tabs.scss */
+/* line 193, ../sass/modules/_tabs.scss */
 dl dd,
 dl dt {
   margin-bottom: 0;
 }
 
-/* line 183, ../sass/modules/_tabs.scss */
+/* line 197, ../sass/modules/_tabs.scss */
 .no-touch .tabs dt:not(.active) a:hover {
   background-color: rgba(208, 242, 247, 0.8);
 }
