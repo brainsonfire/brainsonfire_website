@@ -34,8 +34,6 @@
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
 
-	<img class="temp" src="images/Movements.jpg" alt="">
-
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 			
