@@ -1863,3 +1863,21 @@ a {
 .post.single iframe {
   width: 100%;
 }
+.videoHolder {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  width: 100%;
+}
+.videoHolder iframe,
+.videoHolder video,
+.videoHolder object,
+.videoHolder embed {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
