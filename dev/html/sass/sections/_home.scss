@@ -44,27 +44,6 @@
     @include background-size(auto 340px);
   }  
 }
-// .lt-ie10 #main.home {
-//   background: url("../images/home/ram_at_his_desk.jpg") no-repeat 100% 0;
-//   @include max-screen-height(1024px) {
-//     @include background-size(auto 1200px);
-//   }
-//   @include max-screen-height(800px) {
-//     @include background-size(auto 900px);
-//   }
-//   @include max-screen-height(768px) {
-//     @include background-size(auto 868px);
-//   }  
-//   @include max-screen-height(640px) {
-//     @include background-size(auto 740px);
-//   }  
-//   @include max-screen-height(480px) {
-//     @include background-size(auto 580px);
-//   }  
-//   @include max-screen-height(320px) {
-//     @include background-size(auto 440px);
-//   }  
-// }
 .videoHolder {
   position: relative;
   padding-bottom: 56.25%;

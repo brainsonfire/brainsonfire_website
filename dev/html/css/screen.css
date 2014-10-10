@@ -2880,14 +2880,14 @@ p.editor-note a:hover {
   }
 }
 
-/* line 68, ../sass/sections/_home.scss */
+/* line 47, ../sass/sections/_home.scss */
 .videoHolder {
   position: relative;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
 }
-/* line 73, ../sass/sections/_home.scss */
+/* line 52, ../sass/sections/_home.scss */
 .videoHolder iframe,
 .videoHolder video,
 .videoHolder object,
@@ -2899,7 +2899,7 @@ p.editor-note a:hover {
   width: 100%;
   height: 100%;
 }
-/* line 84, ../sass/sections/_home.scss */
+/* line 63, ../sass/sections/_home.scss */
 .videoHolder #homepagevid {
   left: auto;
   right: 0;
@@ -2911,20 +2911,20 @@ p.editor-note a:hover {
   min-height: 100%;
 }
 
-/* line 96, ../sass/sections/_home.scss */
+/* line 75, ../sass/sections/_home.scss */
 #home {
   padding: 0;
   margin: -83px 0 0;
   background: rgba(0, 0, 0, 0.5);
 }
-/* line 100, ../sass/sections/_home.scss */
+/* line 79, ../sass/sections/_home.scss */
 #home .row {
   display: block;
   position: relative;
   height: 100%;
 }
 
-/* line 106, ../sass/sections/_home.scss */
+/* line 85, ../sass/sections/_home.scss */
 #home .txt {
   position: absolute;
   margin: auto;
@@ -2936,18 +2936,18 @@ p.editor-note a:hover {
   padding: 0 0.9375rem;
 }
 @media screen and (min-width: 480px) {
-  /* line 106, ../sass/sections/_home.scss */
+  /* line 85, ../sass/sections/_home.scss */
   #home .txt {
     height: 40%;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 106, ../sass/sections/_home.scss */
+  /* line 85, ../sass/sections/_home.scss */
   #home .txt {
     height: 50%;
   }
 }
-/* line 121, ../sass/sections/_home.scss */
+/* line 100, ../sass/sections/_home.scss */
 #home .txt h1 {
   color: #fff;
   display: block;
@@ -2955,7 +2955,7 @@ p.editor-note a:hover {
   margin: 0 0 12px;
 }
 @media screen and (min-width: 1200px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     font-size: 66px;
     font-size: 4.125rem;
@@ -2964,7 +2964,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     font-size: 54px;
     font-size: 3.375rem;
@@ -2973,7 +2973,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     font-size: 46px;
     font-size: 2.875rem;
@@ -2982,13 +2982,13 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     text-align: left;
   }
 }
 @media screen and (min-width: 641px) and (max-width: 767px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     font-size: 36px;
     font-size: 2.25rem;
@@ -2997,7 +2997,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 481px) and (max-width: 640px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     font-size: 26px;
     font-size: 1.625rem;
@@ -3006,7 +3006,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 121, ../sass/sections/_home.scss */
+  /* line 100, ../sass/sections/_home.scss */
   #home .txt h1 {
     font-size: 16px;
     font-size: 1rem;
@@ -3014,83 +3014,83 @@ p.editor-note a:hover {
     line-height: 1.5rem;
   }
 }
-/* line 154, ../sass/sections/_home.scss */
+/* line 133, ../sass/sections/_home.scss */
 #home .txt .button {
   max-width: 406px;
 }
 
 @media all and (max-height: 320px) and (orientation: landscape) {
-  /* line 159, ../sass/sections/_home.scss */
+  /* line 138, ../sass/sections/_home.scss */
   .cycle-gallery .txt {
     height: 46%;
   }
-  /* line 161, ../sass/sections/_home.scss */
+  /* line 140, ../sass/sections/_home.scss */
   .cycle-gallery .txt .button {
     max-width: 50%;
     float: left !important;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 170, ../sass/sections/_home.scss */
+  /* line 149, ../sass/sections/_home.scss */
   html .home #home-video,
   html .home #home,
   html .home .videoHolder {
     height: 480px !important;
     width: 100%;
   }
-  /* line 176, ../sass/sections/_home.scss */
+  /* line 155, ../sass/sections/_home.scss */
   html .home #home-video {
     position: absolute !important;
   }
-  /* line 178, ../sass/sections/_home.scss */
+  /* line 157, ../sass/sections/_home.scss */
   html .home #home-video .videoHolder video {
     display: none;
   }
-  /* line 182, ../sass/sections/_home.scss */
+  /* line 161, ../sass/sections/_home.scss */
   html .home #home .txt {
     height: 55%;
   }
-  /* line 184, ../sass/sections/_home.scss */
+  /* line 163, ../sass/sections/_home.scss */
   html .home #home .txt h1 {
     font-size: 28px;
     font-size: 1.75rem;
     line-height: 28px;
     line-height: 1.75rem;
   }
-  /* line 188, ../sass/sections/_home.scss */
+  /* line 167, ../sass/sections/_home.scss */
   html .home #home .txt .button.left {
     margin: 0 auto 16px;
   }
-  /* line 192, ../sass/sections/_home.scss */
+  /* line 171, ../sass/sections/_home.scss */
   html .home #home .btn-down,
   html .home #home .btn-down:active {
     display: none;
   }
 }
-/* line 199, ../sass/sections/_home.scss */
+/* line 178, ../sass/sections/_home.scss */
 .section-work {
   background: url(../images/layout/bg-path.png);
   color: #333;
 }
 @media screen and (min-width: 1200px) {
-  /* line 199, ../sass/sections/_home.scss */
+  /* line 178, ../sass/sections/_home.scss */
   .section-work {
     padding: 63px 0 80px;
   }
 }
-/* line 205, ../sass/sections/_home.scss */
+/* line 184, ../sass/sections/_home.scss */
 .section-work .row .btn-ico {
   background-color: #eb7e1f;
   text-align: left;
 }
 @media screen and (min-width: 480px) {
-  /* line 205, ../sass/sections/_home.scss */
+  /* line 184, ../sass/sections/_home.scss */
   .section-work .row .btn-ico {
     padding: 20px 26px 21px 90px;
   }
 }
 @media screen and (max-width: 479px) {
-  /* line 205, ../sass/sections/_home.scss */
+  /* line 184, ../sass/sections/_home.scss */
   .section-work .row .btn-ico {
     padding: 13px 26px 14px 90px;
     font-size: 20px;
@@ -3100,26 +3100,26 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 1200px) {
-  /* line 205, ../sass/sections/_home.scss */
+  /* line 184, ../sass/sections/_home.scss */
   .section-work .row .btn-ico {
     max-width: 500px;
   }
 }
-/* line 221, ../sass/sections/_home.scss */
+/* line 200, ../sass/sections/_home.scss */
 .section-work .row .btn-ico:hover {
   background-color: #dd7114;
   text-decoration: none;
 }
-/* line 225, ../sass/sections/_home.scss */
+/* line 204, ../sass/sections/_home.scss */
 .section-work .row .btn-ico:active {
   background-color: #eb7e1f;
 }
-/* line 228, ../sass/sections/_home.scss */
+/* line 207, ../sass/sections/_home.scss */
 .section-work .row .btn-ico:before {
   background: url("../images/library/sprite.png") no-repeat scroll 0 -180px transparent;
 }
 
-/* line 233, ../sass/sections/_home.scss */
+/* line 212, ../sass/sections/_home.scss */
 #tagboard-wrap {
   background: #F3F3F3;
   display: block;
@@ -3128,59 +3128,59 @@ p.editor-note a:hover {
   padding: 0;
 }
 
-/* line 240, ../sass/sections/_home.scss */
+/* line 219, ../sass/sections/_home.scss */
 .home .section-newsletter-band {
   padding: 60px 0;
 }
-/* line 242, ../sass/sections/_home.scss */
+/* line 221, ../sass/sections/_home.scss */
 .home .section-newsletter-band h2 {
   font-weight: 400;
 }
-/* line 245, ../sass/sections/_home.scss */
+/* line 224, ../sass/sections/_home.scss */
 .home .section-newsletter-band form {
   padding: 42px 0 0;
 }
-/* line 248, ../sass/sections/_home.scss */
+/* line 227, ../sass/sections/_home.scss */
 .home .section-newsletter-band .mc-field-group,
 .home .section-newsletter-band .mc-submit-btn {
   float: left;
 }
-/* line 252, ../sass/sections/_home.scss */
+/* line 231, ../sass/sections/_home.scss */
 .home .section-newsletter-band .mc-field-group {
   padding: 10px 0 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 252, ../sass/sections/_home.scss */
+  /* line 231, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group {
     width: 66%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 252, ../sass/sections/_home.scss */
+  /* line 231, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group {
     width: 100%;
   }
 }
-/* line 260, ../sass/sections/_home.scss */
+/* line 239, ../sass/sections/_home.scss */
 .home .section-newsletter-band .mc-field-group label {
   float: left;
 }
 @media screen and (min-width: 768px) {
-  /* line 260, ../sass/sections/_home.scss */
+  /* line 239, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group label {
     text-align: right;
     padding: 1rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 260, ../sass/sections/_home.scss */
+  /* line 239, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group label {
     width: 100%;
     text-align: center;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 271, ../sass/sections/_home.scss */
+  /* line 250, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-field-group input {
     max-width: 450px;
     margin: 0 auto 12px;
@@ -3188,27 +3188,27 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 279, ../sass/sections/_home.scss */
+  /* line 258, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn {
     width: 34%;
     padding: 0 1rem;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 279, ../sass/sections/_home.scss */
+  /* line 258, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn {
     width: 100%;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 287, ../sass/sections/_home.scss */
+  /* line 266, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn .button {
     float: left;
     max-width: 300px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 287, ../sass/sections/_home.scss */
+  /* line 266, ../sass/sections/_home.scss */
   .home .section-newsletter-band .mc-submit-btn .button {
     width: 100%;
     max-width: 450px;

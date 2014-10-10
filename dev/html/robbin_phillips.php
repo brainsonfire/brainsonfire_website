@@ -20,19 +20,17 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.css" />
     <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
-    <link media="screen, projection" rel="stylesheet" type="text/css" href="css/dev.css" />
-    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
-
-    <!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
     <script src="js/min/modernizr.custom.01216.min.js"></script>
-    <!--[if lte IE 8]><script type="text/javascript" src="js/min/respond.min.js"></script><![endif]-->
-
+	<!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
+	<!--[if lte IE 8)]><script type="text/javascript" src="js/min/selectivizr.js"></script><![endif]--> 
 </head>
 
 <body>
+
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
+
 	<div class="off-canvas-wrap" data-offcanvas>
 		<div class="inner-wrap">
 

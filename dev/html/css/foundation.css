@@ -64,7 +64,7 @@ body {
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: hedley-new-web, serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -2936,7 +2936,7 @@ label.error {
 /* line 91, ../sass/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: hedley-new-web, serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3816,7 +3816,7 @@ p aside {
 /* Default header styles */
 /* line 252, ../sass/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: hedley-new-web, serif;
   font-weight: normal;
   font-style: normal;
   color: #222222;
