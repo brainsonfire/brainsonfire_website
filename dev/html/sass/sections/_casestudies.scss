@@ -376,7 +376,7 @@ section .block {
     text-align: left;
     text-transform: none;
     margin: 0 0 3px;
-    @include font-size(16);
+    @include font-size(20);
     @include line-height(29);
   }
 }
@@ -384,8 +384,14 @@ section .block {
   padding: 0;
   margin: 0 0 21px;
   h3 {
-    color: #FFF;
     margin: 0 0 22px;
+    color: #FFF;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    @include font-size(20);
+    @include line-height(29);
   }
   .text {    
     @include min-screen(1200px) {
@@ -406,7 +412,6 @@ section .block {
     &.bg-gray20 {
       background: #333;
       h3 {
-        text-transform: none;
         margin: 0 0 3px;
       }
     }
@@ -416,21 +421,18 @@ section .block {
     &.bg-neptune {
       background: #77B6B1;
       h3 {
-        text-transform: none;
         margin: 0 0 3px;
       }
     }
     &.bg-orange {
       background: #d15932;
       h3 {
-        text-transform: none;
         margin: 0 0 3px;
       }
     }
     &.bg-wedgewood {
       background: #4e94a1;
       h3 {
-        text-transform: none;
         margin: 0 0 3px;
       }
     }
@@ -465,9 +467,9 @@ section .block {
   p {
     margin: 0 0 22px;
     color: #FFF;
-    font-weight: 400;//@include InfoNormalFont;
-    @include font-size(20);
-    @include line-height(30);
+    &:last-child {
+      margin: 0;
+    }
   }
 }
 #main.case-study .main-photo {
