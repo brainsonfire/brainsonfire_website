@@ -2431,11 +2431,40 @@ p.editor-note a:hover {
   display: none;
 }
 
-/* line 69, ../sass/modules/_orbit.scss */
+@media screen and (max-width: 480px) {
+  /* line 69, ../sass/modules/_orbit.scss */
+  .text-orbit {
+    height: auto !important;
+    max-width: 100% !important;
+  }
+  /* line 72, ../sass/modules/_orbit.scss */
+  .text-orbit li {
+    position: relative !important;
+    margin: 0 0 22px !important;
+    text-align: left;
+    font-size: 17px !important;
+    line-height: 28px !important;
+  }
+  /* line 78, ../sass/modules/_orbit.scss */
+  .text-orbit li br {
+    margin: 0 0 22px;
+  }
+  /* line 81, ../sass/modules/_orbit.scss */
+  .text-orbit li strong {
+    margin: 0 0 22px;
+  }
+  /* line 85, ../sass/modules/_orbit.scss */
+  .text-orbit + .orbit-prev,
+  .text-orbit + .orbit-next,
+  .text-orbit + .orbit-prev + .orbit-next {
+    display: none !important;
+  }
+}
+/* line 93, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container {
   margin: 45px 0 20px;
 }
-/* line 71, ../sass/modules/_orbit.scss */
+/* line 95, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next,
 #gallery-slider .orbit-container .orbit-prev {
   display: block !important;
@@ -2443,37 +2472,37 @@ p.editor-note a:hover {
   height: 44px;
   opacity: 0.8;
 }
-/* line 77, ../sass/modules/_orbit.scss */
+/* line 101, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next span,
 #gallery-slider .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 80, ../sass/modules/_orbit.scss */
+/* line 104, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next:hover,
 #gallery-slider .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 84, ../sass/modules/_orbit.scss */
+/* line 108, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 -88px;
 }
 @media screen and (max-width: 767px) {
-  /* line 84, ../sass/modules/_orbit.scss */
+  /* line 108, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .orbit-next {
     right: -12px;
   }
 }
-/* line 90, ../sass/modules/_orbit.scss */
+/* line 114, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -132px;
 }
 @media screen and (max-width: 767px) {
-  /* line 90, ../sass/modules/_orbit.scss */
+  /* line 114, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .orbit-prev {
     left: -12px;
   }
 }
-/* line 96, ../sass/modules/_orbit.scss */
+/* line 120, ../sass/modules/_orbit.scss */
 #gallery-slider .orbit-container .gallery-orbit {
   max-width: 975px;
   margin: 0 auto;
@@ -2485,50 +2514,50 @@ p.editor-note a:hover {
   text-align: center;
 }
 @media screen and (min-width: 768px) {
-  /* line 96, ../sass/modules/_orbit.scss */
+  /* line 120, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .gallery-orbit {
     width: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 96, ../sass/modules/_orbit.scss */
+  /* line 120, ../sass/modules/_orbit.scss */
   #gallery-slider .orbit-container .gallery-orbit {
     width: 88%;
   }
 }
 
-/* line 117, ../sass/modules/_orbit.scss */
+/* line 141, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container ul {
   overflow: hidden;
   width: 100%;
 }
 @media screen and (min-width: 1024px) {
-  /* line 117, ../sass/modules/_orbit.scss */
+  /* line 141, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container ul {
     max-width: 784px;
     margin: 0 auto 44px;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 117, ../sass/modules/_orbit.scss */
+  /* line 141, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container ul {
     text-align: center;
     margin: 0 auto 22px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 117, ../sass/modules/_orbit.scss */
+  /* line 141, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container ul {
     max-width: 80%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 117, ../sass/modules/_orbit.scss */
+  /* line 141, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container ul {
     max-width: 90%;
   }
 }
-/* line 135, ../sass/modules/_orbit.scss */
+/* line 159, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next,
 #movement-info .orbit-container .orbit-prev {
   display: block;
@@ -2536,56 +2565,56 @@ p.editor-note a:hover {
   height: 44px;
   opacity: 0.8;
 }
-/* line 141, ../sass/modules/_orbit.scss */
+/* line 165, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next span,
 #movement-info .orbit-container .orbit-prev span {
   display: none;
 }
-/* line 144, ../sass/modules/_orbit.scss */
+/* line 168, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next:hover,
 #movement-info .orbit-container .orbit-prev:hover {
   opacity: 1;
 }
-/* line 148, ../sass/modules/_orbit.scss */
+/* line 172, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 0;
 }
 @media screen and (min-width: 1024px) {
-  /* line 148, ../sass/modules/_orbit.scss */
+  /* line 172, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container .orbit-next {
     right: 8px;
     margin-top: -9px;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 148, ../sass/modules/_orbit.scss */
+  /* line 172, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container .orbit-next {
     right: -12px;
   }
 }
-/* line 158, ../sass/modules/_orbit.scss */
+/* line 182, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -44px;
 }
 @media screen and (min-width: 1024px) {
-  /* line 158, ../sass/modules/_orbit.scss */
+  /* line 182, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container .orbit-prev {
     left: 8px;
     margin-top: -9px;
   }
 }
 @media screen and (max-width: 1023px) {
-  /* line 158, ../sass/modules/_orbit.scss */
+  /* line 182, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container .orbit-prev {
     left: -12px;
   }
 }
-/* line 168, ../sass/modules/_orbit.scss */
+/* line 192, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li {
   font-weight: 400;
 }
 @media screen and (min-width: 768px) {
-  /* line 168, ../sass/modules/_orbit.scss */
+  /* line 192, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container li {
     font-size: 17px;
     font-size: 1.0625rem;
@@ -2594,7 +2623,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 168, ../sass/modules/_orbit.scss */
+  /* line 192, ../sass/modules/_orbit.scss */
   #movement-info .orbit-container li {
     font-size: 16px;
     font-size: 1rem;
@@ -2602,11 +2631,11 @@ p.editor-note a:hover {
     line-height: 1.375rem;
   }
 }
-/* line 178, ../sass/modules/_orbit.scss */
+/* line 202, ../sass/modules/_orbit.scss */
 #movement-info .orbit-container li strong {
   font-weight: 500;
 }
-/* line 183, ../sass/modules/_orbit.scss */
+/* line 207, ../sass/modules/_orbit.scss */
 #movement-info p.hint {
   margin: 19px 0 0;
   text-align: center;
@@ -2617,7 +2646,7 @@ p.editor-note a:hover {
   line-height: 28px;
   line-height: 1.75rem;
 }
-/* line 191, ../sass/modules/_orbit.scss */
+/* line 215, ../sass/modules/_orbit.scss */
 #movement-info p.hint a {
   font-weight: bold;
   color: #00AACB;
@@ -2626,48 +2655,48 @@ p.editor-note a:hover {
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 199, ../sass/modules/_orbit.scss */
+  /* line 223, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 81px 0 0;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1199px) {
-  /* line 199, ../sass/modules/_orbit.scss */
+  /* line 223, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 50px 0 0;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 199, ../sass/modules/_orbit.scss */
+  /* line 223, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 40px 0 0;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 199, ../sass/modules/_orbit.scss */
+  /* line 223, ../sass/modules/_orbit.scss */
   #blockquote {
     padding: 30px 0 0;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 212, ../sass/modules/_orbit.scss */
+  /* line 236, ../sass/modules/_orbit.scss */
   #blockquote .orbit-container {
     margin: 0 0 75px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 212, ../sass/modules/_orbit.scss */
+  /* line 236, ../sass/modules/_orbit.scss */
   #blockquote .orbit-container {
     margin: 0 0 55px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 212, ../sass/modules/_orbit.scss */
+  /* line 236, ../sass/modules/_orbit.scss */
   #blockquote .orbit-container {
     margin: 0 0 30px;
   }
 }
-/* line 223, ../sass/modules/_orbit.scss */
+/* line 247, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next,
 #blockquote .orbit-prev {
   display: block !important;
@@ -2675,27 +2704,27 @@ p.editor-note a:hover {
   height: 44px;
   opacity: 0.8;
 }
-/* line 229, ../sass/modules/_orbit.scss */
+/* line 253, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next span,
 #blockquote .orbit-prev span {
   display: none;
 }
-/* line 232, ../sass/modules/_orbit.scss */
+/* line 256, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next:hover,
 #blockquote .orbit-prev:hover {
   opacity: 1;
 }
-/* line 236, ../sass/modules/_orbit.scss */
+/* line 260, ../sass/modules/_orbit.scss */
 #blockquote .orbit-next {
   background: url(../images/library/arrows.png) no-repeat 0 -88px;
   right: -12px;
 }
-/* line 240, ../sass/modules/_orbit.scss */
+/* line 264, ../sass/modules/_orbit.scss */
 #blockquote .orbit-prev {
   background: url(../images/library/arrows.png) no-repeat 0 -132px;
   left: -12px;
 }
-/* line 244, ../sass/modules/_orbit.scss */
+/* line 268, ../sass/modules/_orbit.scss */
 #blockquote .blockquote-orbit {
   width: 100%;
   margin: 0 auto;
@@ -2707,14 +2736,14 @@ p.editor-note a:hover {
   text-align: center;
 }
 @media screen and (max-width: 767px) {
-  /* line 244, ../sass/modules/_orbit.scss */
+  /* line 268, ../sass/modules/_orbit.scss */
   #blockquote .blockquote-orbit {
     width: 90%;
     margin: 0 auto;
     overflow: hidden;
   }
 }
-/* line 259, ../sass/modules/_orbit.scss */
+/* line 283, ../sass/modules/_orbit.scss */
 #blockquote blockquote {
   border-left: 0;
   margin: 0 0 18px;
@@ -2725,7 +2754,7 @@ p.editor-note a:hover {
   font-style: italic;
 }
 @media screen and (min-width: 1024px) {
-  /* line 259, ../sass/modules/_orbit.scss */
+  /* line 283, ../sass/modules/_orbit.scss */
   #blockquote blockquote {
     font-size: 34px;
     font-size: 2.125rem;
@@ -2734,7 +2763,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 259, ../sass/modules/_orbit.scss */
+  /* line 283, ../sass/modules/_orbit.scss */
   #blockquote blockquote {
     font-size: 24px;
     font-size: 1.5rem;
@@ -2743,7 +2772,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 259, ../sass/modules/_orbit.scss */
+  /* line 283, ../sass/modules/_orbit.scss */
   #blockquote blockquote {
     font-size: 16px;
     font-size: 1rem;
@@ -2751,13 +2780,13 @@ p.editor-note a:hover {
     line-height: 2.5rem;
   }
 }
-/* line 280, ../sass/modules/_orbit.scss */
+/* line 304, ../sass/modules/_orbit.scss */
 #blockquote cite {
   font-family: Georgia, serif;
   font-style: italic;
 }
 @media screen and (min-width: 1024px) {
-  /* line 280, ../sass/modules/_orbit.scss */
+  /* line 304, ../sass/modules/_orbit.scss */
   #blockquote cite {
     font-size: 20px;
     font-size: 1.25rem;
@@ -2766,7 +2795,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 280, ../sass/modules/_orbit.scss */
+  /* line 304, ../sass/modules/_orbit.scss */
   #blockquote cite {
     font-size: 18px;
     font-size: 1.125rem;
@@ -2775,7 +2804,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 280, ../sass/modules/_orbit.scss */
+  /* line 304, ../sass/modules/_orbit.scss */
   #blockquote cite {
     font-size: 16px;
     font-size: 1rem;
@@ -3285,41 +3314,47 @@ p.editor-note a:hover {
 }
 
 /* line 42, ../sass/sections/_movements.scss */
+#movement-info.first-active .orbit-prev,
+#movement-info.last-active .orbit-next {
+  display: none !important;
+}
+
+/* line 46, ../sass/sections/_movements.scss */
 #how-we-work {
   overflow: hidden;
 }
 @media screen and (min-width: 768px) {
-  /* line 42, ../sass/sections/_movements.scss */
+  /* line 46, ../sass/sections/_movements.scss */
   #how-we-work {
     background: #fff;
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 42, ../sass/sections/_movements.scss */
+  /* line 46, ../sass/sections/_movements.scss */
   #how-we-work {
     padding: 100px 0 107px;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1499px) {
-  /* line 42, ../sass/sections/_movements.scss */
+  /* line 46, ../sass/sections/_movements.scss */
   #how-we-work {
     padding: 78px 0 98px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 42, ../sass/sections/_movements.scss */
+  /* line 46, ../sass/sections/_movements.scss */
   #how-we-work {
     padding: 58px 0 78px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 42, ../sass/sections/_movements.scss */
+  /* line 46, ../sass/sections/_movements.scss */
   #how-we-work {
     padding: 38px 0 58px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 59, ../sass/sections/_movements.scss */
+  /* line 63, ../sass/sections/_movements.scss */
   #how-we-work > img {
     position: absolute;
     max-width: none;
@@ -3328,14 +3363,14 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 1500px) {
-  /* line 59, ../sass/sections/_movements.scss */
+  /* line 63, ../sass/sections/_movements.scss */
   #how-we-work > img {
     top: 314px;
     width: 100%;
   }
 }
 @media screen and (min-width: 1024px) and (max-width: 1499px) {
-  /* line 59, ../sass/sections/_movements.scss */
+  /* line 63, ../sass/sections/_movements.scss */
   #how-we-work > img {
     bottom: 0;
     width: auto;
@@ -3343,7 +3378,7 @@ p.editor-note a:hover {
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 59, ../sass/sections/_movements.scss */
+  /* line 63, ../sass/sections/_movements.scss */
   #how-we-work > img {
     bottom: 0;
     width: auto;
@@ -3351,123 +3386,123 @@ p.editor-note a:hover {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 59, ../sass/sections/_movements.scss */
+  /* line 63, ../sass/sections/_movements.scss */
   #how-we-work > img {
     display: none;
   }
 }
-/* line 84, ../sass/sections/_movements.scss */
+/* line 88, ../sass/sections/_movements.scss */
 #how-we-work .row {
   position: relative;
   z-index: 10;
 }
-/* line 88, ../sass/sections/_movements.scss */
+/* line 92, ../sass/sections/_movements.scss */
 #how-we-work h1 {
   margin: 0 0 2px;
 }
 @media screen and (min-width: 768px) {
-  /* line 91, ../sass/sections/_movements.scss */
+  /* line 95, ../sass/sections/_movements.scss */
   #how-we-work h1 + p {
     margin: 0 0 57px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 91, ../sass/sections/_movements.scss */
+  /* line 95, ../sass/sections/_movements.scss */
   #how-we-work h1 + p {
     margin: 0 0 20px;
   }
 }
-/* line 99, ../sass/sections/_movements.scss */
+/* line 103, ../sass/sections/_movements.scss */
 #how-we-work .button {
   max-width: 250px;
 }
 
-/* line 104, ../sass/sections/_movements.scss */
+/* line 108, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type .table-wrap > span {
   background: #d9531e;
 }
-/* line 107, ../sass/sections/_movements.scss */
+/* line 111, ../sass/sections/_movements.scss */
 .movement-tab dt:first-of-type.active a {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 112, ../sass/sections/_movements.scss */
+/* line 116, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(3n) .table-wrap > span {
   background: #23bed4;
 }
-/* line 115, ../sass/sections/_movements.scss */
+/* line 119, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(3n).active a {
   background-color: rgba(11, 183, 207, 0.5);
 }
 
-/* line 120, ../sass/sections/_movements.scss */
+/* line 124, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(5n) .table-wrap > span {
   background: #9ea867;
 }
-/* line 123, ../sass/sections/_movements.scss */
+/* line 127, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(5n).active a {
   background-color: rgba(147, 159, 87, 0.5);
 }
 
-/* line 128, ../sass/sections/_movements.scss */
+/* line 132, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(7n) .table-wrap > span {
   background: #ec8a35;
 }
-/* line 131, ../sass/sections/_movements.scss */
+/* line 135, ../sass/sections/_movements.scss */
 .movement-tab dt:nth-child(7n).active a {
   background-color: rgba(235, 126, 31, 0.5);
 }
 
-/* line 135, ../sass/sections/_movements.scss */
+/* line 139, ../sass/sections/_movements.scss */
 #some-examples {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 135, ../sass/sections/_movements.scss */
+  /* line 139, ../sass/sections/_movements.scss */
   #some-examples {
     padding: 110px 0 104px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 140, ../sass/sections/_movements.scss */
+  /* line 144, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 48px auto 53px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  /* line 140, ../sass/sections/_movements.scss */
+  /* line 144, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 30px auto;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 140, ../sass/sections/_movements.scss */
+  /* line 144, ../sass/sections/_movements.scss */
   #some-examples .work-list {
     margin: 22px auto 22px;
   }
 }
 
-/* line 152, ../sass/sections/_movements.scss */
+/* line 156, ../sass/sections/_movements.scss */
 #blockquote {
   background: #FFF;
 }
-/* line 154, ../sass/sections/_movements.scss */
+/* line 158, ../sass/sections/_movements.scss */
 #blockquote h1 + p {
   margin: 0 0 21px;
 }
-/* line 157, ../sass/sections/_movements.scss */
+/* line 161, ../sass/sections/_movements.scss */
 #blockquote .blockquote-orbit {
   max-width: 650px;
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 161, ../sass/sections/_movements.scss */
+  /* line 165, ../sass/sections/_movements.scss */
   #help {
     padding: 87px 0 102px;
   }
 }
 
-/* line 166, ../sass/sections/_movements.scss */
+/* line 170, ../sass/sections/_movements.scss */
 #other-way {
   background: url(../images/movement/bg_learn.jpg) no-repeat 100% 0;
   -moz-background-size: cover;
@@ -3476,33 +3511,33 @@ p.editor-note a:hover {
   background-size: cover;
 }
 @media screen and (min-width: 1200px) {
-  /* line 166, ../sass/sections/_movements.scss */
+  /* line 170, ../sass/sections/_movements.scss */
   #other-way {
     padding: 83px 0 99px;
   }
 }
 
-/* line 173, ../sass/sections/_movements.scss */
+/* line 177, ../sass/sections/_movements.scss */
 #some-examples .row .works-list {
   margin: 46px auto 29px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 177, ../sass/sections/_movements.scss */
+  /* line 181, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl {
     position: relative;
   }
-  /* line 179, ../sass/sections/_movements.scss */
+  /* line 183, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div {
     float: left;
     width: 25%;
     position: relative;
   }
-  /* line 183, ../sass/sections/_movements.scss */
+  /* line 187, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div dt {
     width: 100%;
   }
-  /* line 186, ../sass/sections/_movements.scss */
+  /* line 190, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div dd {
     position: relative;
     width: 400%;
@@ -3511,110 +3546,110 @@ p.editor-note a:hover {
     -webkit-perspective: 1000;
     -webkit-backface-visibility: hidden;
   }
-  /* line 195, ../sass/sections/_movements.scss */
+  /* line 199, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dd {
     left: 0;
   }
-  /* line 198, ../sass/sections/_movements.scss */
+  /* line 202, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dt .table-wrap > span {
     background: #d9531e;
   }
-  /* line 201, ../sass/sections/_movements.scss */
+  /* line 205, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:first-of-type dt.active a {
     background-color: rgba(255, 255, 255, 0.5);
   }
-  /* line 206, ../sass/sections/_movements.scss */
+  /* line 210, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dd {
     left: -100%;
   }
-  /* line 209, ../sass/sections/_movements.scss */
+  /* line 213, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt .table-wrap > span {
     background: #23bed4;
   }
-  /* line 212, ../sass/sections/_movements.scss */
+  /* line 216, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(2n) dt.active a {
     background-color: rgba(11, 183, 207, 0.5);
   }
-  /* line 217, ../sass/sections/_movements.scss */
+  /* line 221, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dd {
     left: -200%;
   }
-  /* line 220, ../sass/sections/_movements.scss */
+  /* line 224, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt .table-wrap > span {
     background: #9ea867;
   }
-  /* line 223, ../sass/sections/_movements.scss */
+  /* line 227, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(3n) dt.active a {
     background-color: rgba(147, 159, 87, 0.5);
   }
-  /* line 228, ../sass/sections/_movements.scss */
+  /* line 232, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dd {
     left: -300%;
   }
-  /* line 231, ../sass/sections/_movements.scss */
+  /* line 235, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt .table-wrap > span {
     background: #ec8a35;
   }
-  /* line 234, ../sass/sections/_movements.scss */
+  /* line 238, ../sass/sections/_movements.scss */
   .no-flexbox .tabs.movement-tab dl > div:nth-child(4n) dt.active a {
     background-color: rgba(235, 126, 31, 0.5);
   }
 }
-/* line 241, ../sass/sections/_movements.scss */
+/* line 245, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
   background: url("../images/library/tab_movement.png") no-repeat 50% 50%;
 }
 
-/* line 244, ../sass/sections/_movements.scss */
+/* line 248, ../sass/sections/_movements.scss */
 .tabs.movement-tab dd {
   background: rgba(255, 255, 255, 0.9);
 }
 @media screen and (min-width: 1024px) {
-  /* line 244, ../sass/sections/_movements.scss */
+  /* line 248, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd {
     padding: 65px 50px 70px;
   }
-  /* line 248, ../sass/sections/_movements.scss */
+  /* line 252, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd p {
     margin: 0;
     line-height: 29px;
     line-height: 1.8125rem;
   }
-  /* line 251, ../sass/sections/_movements.scss */
+  /* line 255, ../sass/sections/_movements.scss */
   .tabs.movement-tab dd p strong {
     font-weight: 500;
     display: block;
   }
 }
 
-/* line 258, ../sass/sections/_movements.scss */
+/* line 262, ../sass/sections/_movements.scss */
 .tabs.movement-tab {
   margin: 0 auto 38px;
 }
 
-/* line 261, ../sass/sections/_movements.scss */
+/* line 265, ../sass/sections/_movements.scss */
 .tabs.movement-tab dt {
   padding: 0 2px 36px;
 }
 
-/* line 264, ../sass/sections/_movements.scss */
+/* line 268, ../sass/sections/_movements.scss */
 .tabs.movement-tab a:after {
   bottom: -36px;
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 267, ../sass/sections/_movements.scss */
+  /* line 271, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container {
     margin: 0 0 100px;
   }
 }
 @media screen and (min-width: 1024px) {
-  /* line 272, ../sass/sections/_movements.scss */
+  /* line 276, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-prev {
     left: 0;
     margin-top: -44px;
   }
-  /* line 276, ../sass/sections/_movements.scss */
+  /* line 280, ../sass/sections/_movements.scss */
   .movements-page #blockquote .orbit-container .orbit-next {
     right: 0;
     margin-top: -44px;
@@ -3622,12 +3657,12 @@ p.editor-note a:hover {
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 282, ../sass/sections/_movements.scss */
+  /* line 286, ../sass/sections/_movements.scss */
   .movements-page #blockquote {
     padding: 91px 0 0;
   }
 }
-/* line 286, ../sass/sections/_movements.scss */
+/* line 290, ../sass/sections/_movements.scss */
 .movements-page #blockquote h1 + p {
   margin: 0 0 25px;
 }

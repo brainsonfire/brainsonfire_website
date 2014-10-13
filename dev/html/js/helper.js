@@ -90,26 +90,6 @@ $(document).ready(function () {
       return false;
     });
 
-    var tabHeight = $('.movement-tab a').width();
-    $('.movement-tab .table').css({
-      'height': tabHeight,
-      'width': tabHeight
-    });
-    
-    $(window).resize(function() {
-      var tabHeight = $('.movement-tab a').width();
-      $('.movement-tab .table').css({
-        'height': tabHeight,
-        'width': tabHeight
-         });
-    });
-
-    $('.movement-tab dl dt:first').addClass('active'); 
-    $('.movement-tab dl dt:first + dd').show();
-
-    $('html.no-flexbox .movement-tab dl dt').each(function() {
-      var $dt = $(this);
-      $dt.add($dt.next()).wrapAll('<div>');
-    });
-
 });
+
+

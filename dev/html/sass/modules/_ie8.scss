@@ -1,0 +1,216 @@
+.chromeframe {
+  display: block;
+  position: relative;
+  z-index: 1000;
+  width: 100%;
+  padding: 30px 15px;
+  margin: -43px 0 0;
+  background: #eb7e1f;
+  color: #fff;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  a {
+    text-decoration: underline;
+    color: #FFF;
+  }
+}
+body {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  font-family: "hedley-new-web", Arial, Helvetica, sans-serif;
+  position: relative;
+  -ms-overflow-x: hidden;
+      overflow-x: hidden;
+}
+.off-canvas-wrap {
+  width: 100%;
+  padding-right: 340px;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+  .inner-wrap {
+    width: 100%; 
+    display: block;
+    position: relative;
+  }
+  .right-off-canvas-menu {
+    position: absolute;
+    right: -340px;
+    width: 340px;
+  }
+  &.move-left {
+    left: -340px;
+  }
+}
+.row {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px !important;
+}
+#header {
+  background: #fff;
+}
+.tab-bar {
+  a {
+    color: #666;
+    overflow: hidden;
+    span {
+      color: #666;
+      text-transform: uppercase;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+}
+#home {
+  .row {
+    &:after {
+      display: block;
+      position: absolute;
+      content: "";
+      z-index: 9;
+      left: -200%;
+      width: 1000%;
+      height: 100%;
+      background: url('../images/library/overlay.png') repeat 0 0;
+    } 
+    .txt {
+      height: 400px;
+      h1 {
+        color: #fff;
+        display: block;
+        text-transform: uppercase;
+        margin: 0 0 12px;
+        @include min-screen(1200px) {
+          font-size:66px;
+          line-height:74px;
+        }
+        @include screen(1024px,1199px) {
+          font-size:54px;
+          line-height:64px;
+        }
+        @include screen(768px,1023px) {
+          font-size:46px;
+          line-height:54px;
+        }
+        @include min-screen(768px) {
+          text-align: left;
+        }
+        @include screen(641px,767px) {
+          font-size:36px;
+          line-height:44px;
+        }
+        @include screen(481px,640px) {
+          font-size:26px;
+          line-height:34px;
+        }
+        @include max-screen(480px) {
+          font-size:16px;
+          line-height:24px;
+        }
+      }
+    }
+  }
+}
+.button,
+input.button {
+  font-size: 28px;
+  line-height: 32px;
+  padding: 22px 48px;
+  + .button {
+    margin-left: 10px;
+  }
+}
+section h1 + p, 
+#upcoming h2 + p {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 20px;
+  line-height: 25px;
+}
+.columns {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.off-canvas-wrap {
+  margin: 0 0 -85px;
+}
+
+input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="week"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], input[type="color"], textarea {
+  font-size: 20px;  
+  padding: 8px 24px;
+  height: 60px;
+}
+label {
+  height: 60px;
+  line-height: 60px;
+}
+.home .section-newsletter-band .mc-field-group label {
+  padding: 0 16px;
+}
+.home .section-newsletter-band .mc-submit-btn .button {
+  font-size: 28px;
+  line-height: 32px;
+  margin-left: 16px;
+  height: 77px;
+  color: #FFF;
+  max-width: 300px;
+  display: table-cell;
+  @include max-screen(767px) {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+  }
+}
+.footer-bottom li:first-child {
+  background: transparent;
+}
+#footer .talk-block {
+  .title {
+    font-size: 32px;
+    line-height: 20px;
+  }
+  .text-pick {
+    font-size: 17px;
+    line-height: 14px;
+  }
+}
+#footer .call-block {
+  padding: 27px 28px 18px;
+  .call,
+  .tel {
+    font-size: 21px;
+    line-height: 16px;
+  }
+}
+#footer .email-block {
+  
+}
+
+@include min-screen(1170px) {
+  #footer .talk-block,
+  #footer .call-block,
+  #footer .email-block {
+    border-right: 2px solid #ccc;
+  }
+}
+
+@include screen(768px,1169px) {
+  #footer .call-block,
+  #footer .email-block {
+    border-right: 2px solid #ccc;
+  }
+  #footer .call-block {
+    padding: 28px 28px 26px 0;
+  }
+  #footer .button {
+    font-size: 26px;
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}

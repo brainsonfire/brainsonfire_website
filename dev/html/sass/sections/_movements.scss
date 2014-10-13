@@ -39,6 +39,10 @@
     }
   }
 }
+#movement-info.first-active .orbit-prev,
+#movement-info.last-active .orbit-next {
+  display: none !important
+}
 #how-we-work {
   overflow: hidden;
   @include min-screen(768px) {

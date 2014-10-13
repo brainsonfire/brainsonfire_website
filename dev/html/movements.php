@@ -49,10 +49,10 @@
 					<div class="row">
 						<h1>What is a movement?</h1>
 						<div class="text-orbit-nav">
-							<a href="#" data-orbit-link="headline-1">What is a Movement?</a>
-							<a href="#" data-orbit-link="headline-2">Why Should You Care?</a>
-							<a href="#" data-orbit-link="headline-3">What Does It Take?</a>
-							<a href="#" data-orbit-link="headline-4">What Will It Do?</a>
+							<a class="first" href="#" data-orbit-link="headline-1">What is a Movement?</a>
+							<a class="second" href="#" data-orbit-link="headline-2">Why Should You Care?</a>
+							<a class="third" href="#" data-orbit-link="headline-3">What Does It Take?</a>
+							<a class="last" href="#" data-orbit-link="headline-4">What Will It Do?</a>
 						</div>
 						<ul class="text-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false; variable_height: true; circular: false; next_on_click: false;">
 							<li data-orbit-slide="headline-1"><div><strong>What is a Brains on Fire MOVEMENT?</strong>Today, the word “movement” is thrown around by marketers to mean anything that can be measured in “likes” and “followers” and “shares.” Movements are not ignited by apps, they are ignited by people. Real people with real names. People interested in more than just winning a contest or promotion. We’re talking about passionate people who are connected and committed to putting in a little elbow grease for something they believe in. People who want to be better people in a better world.</div></li>
@@ -199,7 +199,64 @@
 	<!-- TEMP ADD CURRENT CLASS TO NAVIGATION -->
 	<script>
 		$(document).ready(function () {
+
+		    var tabHeight = $('.movement-tab a').width();
+		    $('.movement-tab .table').css({
+		      'height': tabHeight,
+		      'width': tabHeight
+		    });
+		    
+		    $(window).resize(function() {
+		      var tabHeight = $('.movement-tab a').width();
+		      $('.movement-tab .table').css({
+		        'height': tabHeight,
+		        'width': tabHeight
+		         });
+		    });
+
+		    $('.movement-tab dl dt:first').addClass('active'); 
+		    
+		    $('.movement-tab dl dt:first + dd').show();
+
+		    $('html.no-flexbox .movement-tab dl dt').each(function() {
+		      var $dt = $(this);
+		      $dt.add($dt.next()).wrapAll('<div>');
+		    });
+
+		    $('#movement-info').addClass('first-active');
+
+		    $('#movement-info .text-orbit-nav a').click(function () {
+		      if($(this).hasClass('first')) {
+		        $(this).parents('#movement-info').removeClass('last-active').addClass('first-active');
+		      } else if($(this).hasClass('last')) {
+		        $(this).parents('#movement-info').removeClass('first-active').addClass('last-active');
+		      } else {
+		        $(this).parents('#movement-info').removeClass('last-active first-active');
+		      }
+		    });
+
+		    $('#movement-info .orbit-container a.orbit-next').click(function () {
+		      if($('#movement-info .text-orbit-nav a.first').hasClass('active')) {
+		        $('#movement-info').removeClass('first-active');
+		      } else if($('#movement-info .text-orbit-nav a.third').hasClass('active')) {
+		        $('#movement-info').addClass('last-active');
+		      } else {
+		        $('#movement-info').removeClass('first-active last-active');
+		      } 
+		    });
+
+		    $('#movement-info .orbit-container a.orbit-prev').click(function () {
+		      if($('#movement-info .text-orbit-nav a.second').hasClass('active')) {
+		        $('#movement-info').addClass('first-active');
+		      } else if($('#movement-info .text-orbit-nav a.last').hasClass('active')) {
+		        $('#movement-info').removeClass('first-active last-active');
+		      }
+		    });
+
+
+		    // TEMP
 			$('.primary-nav li:eq(1)').addClass('current');
+
 		});
 	</script>
 

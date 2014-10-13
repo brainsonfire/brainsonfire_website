@@ -65,6 +65,30 @@
     }
   }
 }
+@include max-screen(480px) {
+  .text-orbit {
+    height: auto !important;
+    max-width: 100% !important;
+    li {
+      position: relative !important;
+      margin: 0 0 22px !important;
+      text-align: left;
+      font-size: 17px !important;
+      line-height: 28px !important;
+      br {
+        margin: 0 0 22px;
+      }
+      strong {
+        margin: 0 0 22px;
+      }
+    }
+    + .orbit-prev,
+    + .orbit-next,
+    + .orbit-prev + .orbit-next {
+      display: none !important;
+    }
+  }
+}
 #gallery-slider {
   .orbit-container {
     margin: 45px 0 20px;
