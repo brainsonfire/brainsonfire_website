@@ -22,7 +22,7 @@
     <link media="screen, projection" rel="stylesheet" type="text/css" href="css/screen.css" />
     <script src="js/min/modernizr.custom.01216.min.js"></script>
 	<!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
-	<!--[if lte IE 8)]><script type="text/javascript" src="js/min/selectivizr.js"></script><![endif]--> 
+	<!--[if lte IE 8]><script type="text/javascript" src="js/min/selectivizr.js"></script><![endif]--> 
 </head>
 
 <body>
