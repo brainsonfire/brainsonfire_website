@@ -257,7 +257,7 @@ img + .gallery,
     }
   }
   p {
-    margin: 0 0 32px;
+    margin: 0 0 22px;
     display: inline-block;
     overflow: hidden; 
   }
@@ -460,8 +460,8 @@ section .block {
       margin: 0 0 22px;
       color: #FFF;
       font-weight: 400;//@include InfoNormalFont;
-      @include font-size(20);
-      @include line-height(22);
+      @include font-size(17);
+      @include line-height(32);
     }
   }
   p {
