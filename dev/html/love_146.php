@@ -74,7 +74,7 @@
 						<h3>In Rob’s Own Words</h3>
 						<div class="videoHolder">
 							<!-- Need link for youtube video here -->
-							<iframe width="560" height="315" src="//www.youtube.com/watch?v=8IJiWCHpFRs" frameborder="0" allowfullscreen></iframe>
+							<iframe width="420" height="315" src="//www.youtube.com/embed/8IJiWCHpFRs" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</section>
@@ -133,10 +133,10 @@
 
 				<section class="video-section">
 					<div class="row">
-						<h3>In Rob’s Own Words</h3>
+						<h3>Love 146 Flash Mob - It’s Worth a Watch</h3>
 						<div class="videoHolder">
 							<!-- Need link for youtube video here -->
-							<iframe width="560" height="315" src="//www.youtube.com/watch?v=NME1-ZiJPXY" frameborder="0" allowfullscreen></iframe>
+							<iframe width="560" height="315" src="//www.youtube.com/embed/NME1-ZiJPXY" frameborder="0" allowfullscreen></iframe>
 						</div>
 					</div>
 				</section>

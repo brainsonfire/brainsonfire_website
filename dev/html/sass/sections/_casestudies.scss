@@ -52,7 +52,6 @@
         height: 100%;
         top: 0;
         left: 0;
-        background: rgba(#00AACB, 0.9);
         @include min-screen(1024px) {
           padding: 35% 10%;
         }
@@ -130,19 +129,36 @@
           z-index: 1;
         }
         .rollover {
-          z-index: 10;
+          z-index: 20;
         }
       }
     }
   }
 }
-.touch #projects-list {
-  a img,
-  a .rollover {
-    @include transition-property(all);
-    @include transition-timing-function(ease-in-out);
-    @include transition-duration(0.2s);
-  }
+.no-touch #projects-list a:after {
+  display: block;
+  position: absolute;
+  z-index: 15;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(#00AACB, 0);
+  @include transition(background-color ease-in-out 0.2s);
+}
+.no-touch #projects-list a:hover:after {
+  background-color: rgba(#00AACB, 0.9);
+}
+.no-touch #projects-list a .rollover {
+  opacity: 0;
+  @include transition(opacity ease-in-out 0.2s);
+}
+.no-touch #projects-list a .rollover:hover {
+  opacity: 1;
+}
+.no-touch #projects-list a:hover img {
+  @include transition(z-index ease-in-out 0.2s);
 }
 .gallery,
 .featured .gallery {
@@ -455,7 +471,6 @@ section .block {
   }
 }
 #main.case-study .main-photo {
-  margin: 0;
   max-height: 742px;
   > .row {
     position: absolute;
@@ -465,11 +480,10 @@ section .block {
   }
 }
 #main.case-study #fiskateers.main-photo {
-    margin: 0 0 -20px;
+    margin-bottom: -20px;
     max-height: 772px;
 }
 #main.case-study .direction-nav.top {
-  background: rgba(#FFF, 0);
   @include max-screen(640px) {
     ul li + li {
       position: absolute;

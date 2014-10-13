@@ -533,10 +533,10 @@ p.intro {
     }
     h1,
     p {
-      @include min-screen(1200px) {
+      @include min-screen(1024px) {
         text-align: left;
       }
-      @include max-screen(1199px) {
+      @include max-screen(1023px) {
         text-align: center;
       }
     }
