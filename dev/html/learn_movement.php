@@ -58,7 +58,7 @@
 						<div class="half-block">
 							<a href="gut_check.php"><img src="images/movement/learn-2.jpg" alt="Get check my thinking"></a>
 							<h2>Gut check my thinking</h2>
-							<p>Feeling uncertain about the marketing programs your company is implementing to build its brand and increase sales? Want to bounce an idea off the brains of proven marketing pros? Sounds like you could use a Gut Check My Thinking video chat with Brains on Fire.</p>
+							<p>Feeling uncertain about the marketing programs your company is implementing to build its brand and increase sales? Want to bounce an idea off the brains of proven marketing pros? Sounds like you could use a Gut Check My Thinking chat with Brains on Fire.</p>
 							<a href="gut_check.php" class="button btn-green">learn more</a>
 						</div>
 					</div>
