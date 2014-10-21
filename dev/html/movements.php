@@ -41,7 +41,7 @@
 				<section id="movement-banner" class="white-text">
 					<div class="row">
 						<h1>We Build Movements</h1>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+						<p>Set in motion by people + passion</p>
 					</div>
 				</section>
 				
@@ -73,14 +73,14 @@
 
 					<div class="row">
 						<h1>Here's How We Work</h1>
-						<p>Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis.</p>
+						<p>This is where the magic happens</p>
 						
 						<div class="tabs movement-tab">
 							<dl> 
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Soul Mining /<br> Participation /<br> Getting Our Hands Dirty <span class="bottom-block">60 days</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Insight + Soul Mining<span class="bottom-block">60 days</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
@@ -90,7 +90,7 @@
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Reframing<br> the Passion<br> Conversation <span class="bottom-block">60 days</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Strategy<span class="bottom-block">60 days</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
@@ -100,7 +100,7 @@
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Word of Mouth Plan <span class="bottom-block">60 days</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Word of Mouth + Community Plan<span class="bottom-block">60 days</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
@@ -110,7 +110,7 @@
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Implementation <span class="bottom-block">time/cost</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Implementation<!-- <span class="bottom-block">time/cost</span> --></span></span></span>
 									</a>
 								</dt>
 								<dd>
@@ -127,7 +127,7 @@
 				<section id="some-examples">
 					<div class="row">
 						<h1>Some Examples</h1>
-						<p>Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis.</p>
+						<p>The proof is in the stories</p>
 						<ul class="row works-list">
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="example_page.php">
@@ -153,8 +153,8 @@
 
 				<section id="blockquote">
 					<div class="row">
-						<h1>In The Pudding</h1>
-						<p>Words from some happy clients.</p>
+						<h1>What People are Saying</h1>
+						<p>A few words from our happy clients</p>
 						<ul class="blockquote-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>

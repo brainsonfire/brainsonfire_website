@@ -41,14 +41,14 @@
 				<section id="learn-banner" class="white-text">
 					<div class="row">
 						<h1>Learn to Build a Movement</h1>
-						<p>Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+						<p>It all starts here</p>
 					</div>
 				</section>
 				
 				<section id="help">
 					<div class="row">
 						<h1>We can help you find your way</h1>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+						<p>Go ahead... tap our brains</p>
 						<div class="half-block">
 							<a href="2x2_workshops.php"><img src="images/movement/learn-1.jpg" alt="2x2 Workshop"></a>
 							<h2>2x2 Workshop</h2>
@@ -67,17 +67,17 @@
 				<section id="other-way" class="white-text">
 					<div class="row">
 						<h1>Other ways we can help</h1>
-						<p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+						<p>Get your learn on</p>
 						<div class="half-block">
 							<a href="books.php"><img src="images/movement/learn-3.jpg" alt="Our Book"></a>
-							<h2>Our Book</h2>
-							<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.</p>
+							<h2>Our Books</h2>
+							<p>We’re the proud authors of two books, Brains on Fire: Igniting Powerful, Sustainable, Word of Mouth Movements and The Passion Conversation: Understanding, Sparking, and Sustaining Word of Mouth Marketing. To learn more about word of mouth marketing and igniting movements, we invite you to pick up a copy. Go ahead…crack our cover!</p>
 							<a href="books.php" class="button btn-orange">learn more</a>
 						</div>
 						<div class="half-block">
 							<a href="speaking.php"><img src="images/movement/learn-4.jpg" alt="Speaking"></a>
 							<h2>Speaking</h2>
-							<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Maecenas faucibus mollis interdum.</p>
+							<p>We’ve presented at conferences (big and small) spreading passion, inspiration, and oodles of marketing know-how around the globe. Interested in bringing one of our speakers to your event? Inquire within.</p>
 							<a href="speaking.php" class="button btn-orange">learn more</a>
 						</div>
 					</div>
