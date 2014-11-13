@@ -1,6 +1,6 @@
 <header id="header">
 	<div class="row">
-		<a id="logo" href="home.php"><img src="images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
+		<a id="logo" href="index.php"><img src="images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
 		<div class="tab-bar">
 			<a class="right-off-canvas-toggle menu-icon" href="#"><span>Menu</span></a>
 		</div>
