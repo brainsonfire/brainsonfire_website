@@ -1,7 +1,23 @@
 brainsonfire_website
 ====================
 
-Brains on Fire DEV Website - 2014
+Brains on Fire Website - 2014 Updates
+Here are all of the sections that exist now:
+
+- Home
+- We Build Movements
+- Learn to Build a Movement
+- People (Our Tribe)
+- Work/Case Studies
+- Speaking
+- Books
+- Published
+- Hello
+- Blog
+
+
+
+
 
 This is all of the markup for the Brains on Fire website that launched in September of 2013. 
 We plan on adding more sections in the near future. But right now it consists of:
