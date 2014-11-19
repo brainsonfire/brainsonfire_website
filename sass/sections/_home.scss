@@ -44,6 +44,8 @@
     @include background-size(auto 340px);
   }  
 }
+// USE WITH VIDEO BG
+/*
 .videoHolder {
   position: relative;
   padding-bottom: 56.25%;
@@ -71,17 +73,51 @@
     min-height: 100%;
   }
 }
+*/
+
+.videoHolder {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  iframe,
+  video,
+  object,
+  embed,
+  img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #homepagevid {
+    left: auto;
+    right: 0;
+    top: auto;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
+
 
 #home {
   padding: 0;
   margin: -83px 0 0;
-  background: rgba(#000, 0.5);
+  // USE WITH VIDEO BG
+  // background: rgba(#000, 0.5);
   .row {
     display: block;
     position: relative;
     height: 100%;
   }
 }
+
+
 #home .txt {
   position: absolute;
   margin: auto;

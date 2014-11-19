@@ -24,8 +24,8 @@
 	<!--[if lte IE 8]><link media="screen, projection" rel="stylesheet" type="text/css" href="css/ie8.css" /><![endif]-->
 	<!--[if lte IE 8]><script type="text/javascript" src="js/min/selectivizr.js"></script><![endif]--> 
 </head>
-
-<body>
+<?php $class = 'home-page'; ?>
+<body class="<?php echo $class; ?>">
 	<!--[if lte IE 8]>
 		<p class="chromeframe"> <strong>You are using an outdated browser.</strong><br /> <br />Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
@@ -37,6 +37,7 @@
 			
 			<main id="main" class="home">
 			
+				<!--
 				<div id="home-video" class="WindowHeight" style="opacity: 0;">
 					<div class="videoHolder">
 						<video id="homepagevid" poster="images/home/ram_at_his_desk.jpg" preload autoplay loop>
@@ -44,6 +45,12 @@
 							<source type="video/webm" src="videos/ram.webm" />
 							<source type="video/ogg" src="videos/ram.ogv" />
 						</video>
+					</div>
+				</div>
+-->
+				<div id="home-video" class="WindowHeight" style="opacity: 0;">
+					<div class="videoHolder">
+						<img id="homepagevid" src="images/home/firewall-large.jpg" alt="firewall-large" width="100%" height="100%">
 					</div>
 				</div>
 				

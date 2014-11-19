@@ -1,6 +1,10 @@
 <header id="header">
 	<div class="row">
-		<a id="logo" href="index.php"><img src="images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
+		<?php if (isset($class) && $class == 'home-page'): ?>
+			<a id="logo" href="index.php"><img src="images/layout/brains_of_fire_logo-white.png" alt="Brains on Fire"></a>
+		<?php else: ?>
+			<a id="logo" href="index.php"><img src="images/layout/brains_of_fire_logo.png" alt="Brains on Fire"></a>
+		<?php endif; ?>
 		<div class="tab-bar">
 			<a class="right-off-canvas-toggle menu-icon" href="#"><span>Menu</span></a>
 		</div>
