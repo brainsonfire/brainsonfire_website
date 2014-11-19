@@ -8,7 +8,7 @@
 	<nav class="right-off-canvas-menu">
 		<a class="exit-off-canvas"></a>
 		<ul class="primary-nav">
-			<li><a href="index.php">Home</a></li>
+			<li><a href="home.php">Home</a></li>
 			<li><a href="movements.php">Build a Movement</a></li>
 			<li><a href="learn_movement.php">Learn to Build a Movement</a></li>
 			<li><a href="case_studies.php">Case Studies</a></li>
