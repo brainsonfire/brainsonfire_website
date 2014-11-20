@@ -192,7 +192,8 @@ a {
     a {
       color: #999;
       text-transform: uppercase;
-      font-weight: 500;//@include InfoSemiBoldFont;
+      font-weight: 400;//@include InfoSemiBoldFont;
+      letter-spacing: -0.4px;
       &:hover {
         color: #FFF;
       }
