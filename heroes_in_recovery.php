@@ -77,14 +77,14 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 
 				<section class="image-section">
 					<div class="row">
-						<h3>Movement Name & Mark</h3>
+						<!-- <h3>Movement Name & Mark</h3> -->
 						<img src="images/case-study/heroes/movement_name.jpg" alt="">
 					</div>
 				</section>
 
 				<section class="image-section">
 					<div class="row">
-						<h3>Each letter is inspired by a real persons heroic journey of addiction and recovery.</h3>
+						<!-- <h3>Each letter is inspired by a real persons heroic journey of addiction and recovery.</h3> -->
 						<img src="images/case-study/heroes/letter.jpg" alt="">
 						<ul class="gallery">
 							<li><img alt="" src="images/case-study/heroes/letter_01.jpg"></li>
@@ -95,7 +95,7 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 
 				<section class="image-section">
 					<div class="row">
-						<h3>Each letter of the HEROES logo is also reflective of the HEROES JOURNEY of RECOVERY.</h3>
+						<!-- <h3>Each letter of the HEROES logo is also reflective of the HEROES JOURNEY of RECOVERY.</h3> -->
 						<ul class="gallery">
 							<li><img alt="" src="images/case-study/heroes/heroes_logo_01.jpg"></li>
 							<li><img alt="" src="images/case-study/heroes/heroes_logo_02.jpg"></li>
@@ -105,7 +105,7 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 
 				<section class="image-section">
 					<div class="row">
-						<h3>The Journey Box</h3>
+						<!-- <h3>The Journey Box</h3> -->
 						<img src="images/case-study/heroes/journey_box.jpg" alt="">
 						<ul class="gallery">
 							<li><img alt="" src="images/case-study/heroes/you_can_be_a_hero.jpg"></li>
@@ -117,7 +117,7 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 
 				<section class="image-section">
 					<div class="row">
-						<h3>Heroes 6K</h3>
+						<!-- <h3>Heroes 6K</h3> -->
 						<img src="images/case-study/heroes/heroes_6k.jpg" alt="">
 						<ul class="gallery">
 							<li><img alt="" src="images/case-study/heroes/heroes_6k_01.jpg"></li>
@@ -138,7 +138,7 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 
 				<section class="image-section">
 					<div class="row">
-						<h3>Share it with Sean</h3>
+						<!-- <h3>Share it with Sean</h3> -->
 						<img src="images/case-study/heroes/share_it.jpg" alt="">
 						<img class="left top" src="images/case-study/heroes/badge_01.jpg" alt="">
 						<img class="right" src="images/case-study/heroes/road_trip.jpg" alt="">
