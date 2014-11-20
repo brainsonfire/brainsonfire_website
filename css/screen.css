@@ -247,7 +247,7 @@ body.home-page .menu-icon {
         font-size: 0;
         line-height: 0; } }
   body.home-page .menu-icon span:after {
-    background: url("../images/layout/btn_menu_white.png") no-repeat 0 0;
+    background: url("../images/layout/btn_menu_arrow-white.png") no-repeat 0 0;
     box-shadow: 0 0 0 0 transparent !important;
     content: "";
     display: block;
@@ -259,16 +259,16 @@ body.home-page .menu-icon {
     bottom: 0;
     left: auto;
     margin: auto;
-    -webkit-transition: all 0.3s ease-out;
+    -webkit-transition: all 0.1s ease-out;
     /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
-    transition: all 0.3s ease-out; }
+    transition: all 0.1s ease-out; }
   body.home-page .menu-icon span:hover {
-    color: rgba(255, 255, 255, 0.6); }
+    box-shadow: 0 0 0 0 transparent !important;
+    color: rgba(255, 255, 255, 0.8); }
   body.home-page .menu-icon span:hover:after {
     box-shadow: 0 0 0 0 transparent !important;
-    background-position: 0 0;
-    opacity: 0.6;
-    filter: alpha(opacity=60);
+    background-position: 100% 0;
+    /* filter: alpha(opacity=60); */
     /* For IE8 and earlier */ }
 
 .move-left .tab-bar {
@@ -1982,7 +1982,12 @@ p.editor-note {
 
 #home {
   padding: 0;
-  margin: -83px 0 0; }
+  margin: -83px 0 0;
+  background-image: url("../images/home/firewall-large-cropped.jpg");
+  background-position: 50% 50%;
+  /* Sets reference point to scale from */
+  background-size: cover;
+  /* Sets background image to cover entire element */ }
   #home .row {
     display: block;
     position: relative;

@@ -110,6 +110,9 @@
   margin: -83px 0 0;
   // USE WITH VIDEO BG
   // background: rgba(#000, 0.5);
+  background-image: url("../images/home/firewall-large-cropped.jpg");
+  background-position:50% 50%;  /* Sets reference point to scale from */
+  background-size:cover;        /* Sets background image to cover entire element */
   .row {
     display: block;
     position: relative;

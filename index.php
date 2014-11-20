@@ -48,11 +48,13 @@
 					</div>
 				</div>
 -->
+<!--
 				<div id="home-video" class="WindowHeight" style="opacity: 0;">
 					<div class="videoHolder">
 						<img id="homepagevid" src="images/home/firewall-large.jpg" alt="firewall-large" width="100%" height="100%">
 					</div>
 				</div>
+-->
 				
 				<!-- da se proveri za ovu sekciju da li ide slider ili ne -->
 				<section id="home" class="WindowHeight">

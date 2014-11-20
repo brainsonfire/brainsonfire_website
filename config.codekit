@@ -23746,6 +23746,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/layout\/btn_menu_arrow-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1296,
+		"inputAbbreviatedPath": "\/images\/layout\/btn_menu_arrow-white.png",
+		"outputAbbreviatedPath": "\/images\/layout\/btn_menu_arrow-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/btn_menu_white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 995,
+		"inputAbbreviatedPath": "\/images\/layout\/btn_menu_white.png",
+		"outputAbbreviatedPath": "\/images\/layout\/btn_menu_white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/layout\/ico-social.png": {
 		"fileType": 32768,
 		"ignore": 0,
