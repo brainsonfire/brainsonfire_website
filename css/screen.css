@@ -180,10 +180,13 @@ a {
     .tab-bar .menu-icon span {
       float: left;
       padding: 0 40px 0 0;
-      margin: 8px 0 0; }
+      margin: 8px 0 0;
+      -webkit-transition: all 0.3s ease-out;
+      /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+      transition: all 0.3s ease-out; }
       @media screen and (min-width: 480px) {
         .tab-bar .menu-icon span {
-          color: #666;
+          color: #464545;
           text-transform: uppercase;
           font-weight: 500;
           font-size: 20px;
@@ -196,7 +199,7 @@ a {
           font-size: 0;
           line-height: 0; } }
     .tab-bar .menu-icon span:after {
-      background: url("../images/layout/btn_menu.png") no-repeat 0 0;
+      background: url("../images/layout/btn_menu_arrow-gray.png") no-repeat 0 0;
       box-shadow: 0 0 0 0 transparent !important;
       content: "";
       display: block;
@@ -207,12 +210,16 @@ a {
       right: 0;
       bottom: 0;
       left: auto;
-      margin: auto; }
+      margin: auto;
+      -webkit-transition: all 0.1s ease-out;
+      /* Android 2.1+, Chrome 1-25, iOS 3.2-6.1, Safari 3.2-6  */
+      transition: all 0.1s ease-out; }
     .tab-bar .menu-icon span:hover {
-      color: #464545; }
+      box-shadow: 0 0 0 0 transparent !important;
+      color: rgba(70, 69, 69, 0.8); }
     .tab-bar .menu-icon span:hover:after {
       box-shadow: 0 0 0 0 transparent !important;
-      background-position: 0 100%; }
+      background-position: 100% 0; }
 
 body.home-page #header {
   position: relative;
@@ -279,21 +286,21 @@ body.home-page .menu-icon {
   cursor: pointer;
   font-size: 30px;
   position: absolute;
-  right: 10px;
-  top: 10px;
+  right: 20px;
+  top: 29px;
   left: auto;
   z-index: 50;
   width: 32px;
   height: 32px;
   background: rgba(255, 255, 255, 0);
-  background: url("../images/layout/btn_close.png") no-repeat 50% 50%;
+  background: url("../images/layout/btn_close-sm.png") no-repeat 50% 50%;
   opacity: 0.7;
   -moz-box-shadow: 0 0 0 rgba(255, 255, 255, 0);
   -webkit-box-shadow: 0 0 0 rgba(255, 255, 255, 0);
   box-shadow: 0 0 0 rgba(255, 255, 255, 0); }
   .move-left .exit-off-canvas:hover {
     opacity: 1;
-    background: url("../images/layout/btn_close.png") no-repeat 50% 50%; }
+    background: url("../images/layout/btn_close-sm.png") no-repeat 50% 50%; }
 
 .right-off-canvas-menu {
   background: #323232;
