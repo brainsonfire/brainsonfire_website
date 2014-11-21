@@ -76,7 +76,7 @@
 
 				<section class="image-section">
 					<div class="row">
-						<img src="images/case-study/greenville/map.png" alt="">
+						<img src="images/case-study/greenville/Map.png" alt="">
 					</div>
 				</section>
 				
