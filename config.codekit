@@ -18732,6 +18732,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/heroes_in_recovery-Backup.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/heroes_in_recovery-Backup.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/heroes_in_recovery.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -18906,6 +18915,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/case-study\/greenville\/EuphoriaInvite1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 147126,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite1.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/EuphoriaInvite2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20436,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite2.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/EuphoriaInvite3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16933,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite3.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/EuphoriaInvite4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21438,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite4.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/EuphoriaInvite4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/case-study\/greenville\/gvl-hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -18913,6 +18966,116 @@
 		"initialSize": 178102,
 		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/gvl-hero.jpg",
 		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/gvl-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/happyG_logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71547,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/happyG_logo.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/happyG_logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/InstameetGroup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121179,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/InstameetGroup.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/InstameetGroup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/InstameetPics.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 103830,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/InstameetPics.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/InstameetPics.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/Map.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156345,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/Map.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/Map.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/OutsideMagazine.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109572,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/OutsideMagazine.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/OutsideMagazine.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/VGSC-Magazine.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.19725e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/VGSC-Magazine.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/VGSC-Magazine.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/VGSC-Website.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.0236e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/VGSC-Website.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/VGSC-Website.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/YTG-Party1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121874,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/YTG-Party1.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/YTG-Party1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/YTG-Party2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.61511e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/YTG-Party2.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/YTG-Party2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/greenville\/YTG_logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27631,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/YTG_logo.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/YTG_logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -19507,6 +19670,17 @@
 		"initialSize": 2024,
 		"inputAbbreviatedPath": "\/images\/hello\/select_arrow.jpg",
 		"outputAbbreviatedPath": "\/images\/hello\/select_arrow.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/home\/firewall-large-cropped.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 285246,
+		"inputAbbreviatedPath": "\/images\/home\/firewall-large-cropped.jpg",
+		"outputAbbreviatedPath": "\/images\/home\/firewall-large-cropped.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -23724,6 +23898,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/layout\/btn_close-sm.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1198,
+		"inputAbbreviatedPath": "\/images\/layout\/btn_close-sm.png",
+		"outputAbbreviatedPath": "\/images\/layout\/btn_close-sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/layout\/btn_close.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -23742,6 +23927,17 @@
 		"initialSize": 1007,
 		"inputAbbreviatedPath": "\/images\/layout\/btn_menu.png",
 		"outputAbbreviatedPath": "\/images\/layout\/btn_menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/layout\/btn_menu_arrow-gray.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1337,
+		"inputAbbreviatedPath": "\/images\/layout\/btn_menu_arrow-gray.png",
+		"outputAbbreviatedPath": "\/images\/layout\/btn_menu_arrow-gray.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

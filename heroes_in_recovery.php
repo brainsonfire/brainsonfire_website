@@ -154,7 +154,7 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 
 				<div class="books-bottom">
 					<div class="row">
-						<a href="learn_movement.php" class="button btn-blue">learn how we can help you ignite a movement</a>
+						<a href="movements.php" class="button btn-blue">learn how we can help you ignite a movement</a>
 					</div>
 				</div>
 				
