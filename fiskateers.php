@@ -36,7 +36,7 @@
 			
 			<?php include("inc/header.php"); ?>
 			
-			<main id="main" class="case-study inner-pages">
+			<main id="work-main" class="case-study inner-pages">
 
 				<div class="direction-nav top">
 					<div class="row">
