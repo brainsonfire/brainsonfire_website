@@ -49,22 +49,78 @@
 				</div>
 				
 				<div id="fiskateers" class="main-photo">
-					<img src="images/case-study/fiskateers/fisk-hero.png" alt="Fiskateers">
+					<img src="images/case-study/fiskateers/fisk-hero.jpg" alt="Fiskateers">
 				</div>
 				
 				<section id="fiskateers-intro" class="intro">
 					<div class="row">
-						<h1>Fiskateers</h1>
-						<div class="two-col">
-							<div class="left">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates laudantium doloremque dolorum repellat blanditiis earum aspernatur consequuntur sequi iste beatae neque, repudiandae sint amet at tempore, autem cum, quam ab.</p>
-							</div>
-							<div class="right">
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, tempore error fuga placeat sed velit odit corporis eius aliquam, veritatis iusto adipisci recusandae molestiae iste repellendus pariatur! Aut, consequatur, ducimus?</p>
-							</div>
-						</div>
+							<h1>The Fiskateers</h1>
+						<div class="text bg-white"> 
+							<h3>INJUSTICE</h3>
+							<p>Started during hotbed of blogging, lost of influencers, online communities were loose and not tied to a brand, there was not a nurturing a nurturing community for crafters and scrapbookers. Create a comm for all levels of crafters and scrapbookers.</p>
+							
+							<h3>Meet the Fiskars Crafting Division.</h3>
+							<p>The Craft Division of Fiskars Brands, a Finland-based 350+ year-old company, had very low brand loyalty since their products – crafting tools and consumables – were “knocked-off” in China soon after they hit the market, which put the squeeze on all the dollars Fiskars invested in R&D. Plus, their brand research revealed that there was little emotional connection between the brand the people using their products.</p> 
+
+							<h3>REVEAL THE GOOD. (The good part)</h3>
+							<p>During the course of interviews with more than 140 crafters across the country, we discovered that even though people might not be talking about it by name, Fiskars was a beloved and trusted brand. Once we got women talking about their passion for scrapbooking, it turned out nearly all of them had a story about Fiskars’ famous orange-handled scissors. From their child’s first pair to their grandmother’s most beloved pair, one story after another began to emerge. We could have built a technical community based on skill, but we knew we wanted to build a nurturing community. There was already an existing passion conversation going on, but we needed people to help lead it. In the end, we didn’t go with the best crafters, we went with the best storytellers; women who talked 90% life, 10% scrapbooking. In doing so, we sparked one of the first brand advocate communities ever.</p>  
+
+							<h3>Opportunity</h3>
+							<ul>
+								<li>Build a PR force to educate on user error issues.</li>
+								<li>Increase brand engagement and foster a deeper relationship between Fiskars and their customers.</li>
+							</ul>
+						</div>		
+					</div>					
+				</section>
+
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/BusAndPolaroids.png" alt="Bus and Polaroids">
 					</div>
 				</section>
+				
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/LapelPinAndBook.png" alt="Lapel Pin and Book">
+					</div>
+				</section>
+				
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/Cards.jpg" alt="Palm Cards">
+					</div>
+				</section>
+				
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/Coasters.png" alt="Coasters">
+					</div>
+				</section>
+				
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/Website.png" alt="Website">
+					</div>
+				</section> 
+				
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/FiskateersAustin.jpg" alt="Fiskateers in Austin">
+					</div>
+				</section> 
+				
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/fiskateers/LicensePlate.png" alt="Custom Scissors and License Plate">
+					</div>
+				</section>
+							
+				<div class="books-bottom">
+					<div class="row">
+						<a href="movements.php" class="button btn-blue">learn how we can help you ignite a movement</a>
+					</div>
+				</div>			
 								
 				<div class="direction-nav bottom">
 					<div class="row">
