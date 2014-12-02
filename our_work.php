@@ -51,19 +51,30 @@
 
 						<ul class="row project-list">
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="love_146.php">
-									<img src="images/case-study/project_01.jpg" alt="Love 146">
+								<a href="greenville.php">
+									<img src="images/case-study/project_thumb_ytg.jpg" alt="Greenville">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Love 146</span>
-											<span class="desc">End child trafficking and exploitation.</span>
+											<span class="title">Yeah, That Greenville</span>
+											<span class="desc">Celebrating the best thing about Greenville, SC - it's people.</span>
 										</span>
 									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="heroes_in_recovery.php">
-									<img src="images/case-study/project_02.jpg" alt="Heroes in Recovery">
+								<a href="rage-against-the-haze.php">
+									<img src="images/case-study/project_thumb_rage.jpg" alt="Rage Against the Haze">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Rage Against the Haze</span>
+											<span class="desc">Teens ignite a grassroots movement against tobacco.</span>
+										</span>
+									</span>
+								</a>
+							</li>
+							<li class="large-4 medium-4 small-12 columns">
+								<a href="heroes-in-recovery.php">
+									<img src="images/case-study/project_thumb_hir.jpg" alt="Heroes in Recovery">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Heroes in Recovery</span>
@@ -74,7 +85,7 @@
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="fiskateers.php">
-									<img src="images/case-study/project_03.jpg" alt="Fiskateers">
+									<img src="images/case-study/project_thumb_fiskateers.jpg" alt="Fiskateers">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Fiskateers</span>
@@ -84,19 +95,8 @@
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="fitness_rebellion.php">
-									<img src="images/case-study/project_04.jpg" alt="Fitness Rebellion">
-									<span class="rollover">
-										<span class="middle">
-											<span class="title">Fitness Rebellion</span>
-											<span class="desc">Celebrate everyday accomplishments in fitness.</span>
-										</span>
-									</span>
-								</a>
-							</li>
-							<li class="large-4 medium-4 small-12 columns">
 								<a href="tinkernation.php">
-									<img src="images/case-study/project_05.jpg" alt="Tinkernation">
+									<img src="images/case-study/project_thumb_tinkernation.jpg" alt="Tinkernation">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Tinkernation</span>
@@ -105,13 +105,14 @@
 									</span>
 								</a>
 							</li>
+							
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="greenville.php">
-									<img src="images/case-study/project_06.jpg" alt="Greenville">
+								<a href="#">
+									<img src="images/case-study/project_thumb_fpo.jpg" alt="Branding & Identity">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Yeah, That Greenville</span>
-											<span class="desc">Celebrating the best thing about Greenville, SC - it's people.</span>
+											<span class="title">Logos</span>
+											<span class="desc">Our roots are in branding and identity. Here are some of our favs.</span>
 										</span>
 									</span>
 								</a>

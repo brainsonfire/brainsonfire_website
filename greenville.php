@@ -42,8 +42,8 @@
 					<div class="row">
 						<ul>
 							<li><a class="previous" href="tinkernation.php"><span>previous story</span></a></li>
-							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="love_146.php"><span>next story</span></a></li>
+							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
+							<li><a class="next" href="rage-against-the-haze.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -125,8 +125,8 @@
 				<section class="image-section">
 					<div class="row">
 						<img src="images/case-study/greenville/EuphoriaInvite1.jpg" alt="">
-						<!--
-<ul class="gallery">
+<!--
+						<ul class="gallery">
 							<li><img alt="" src="images/case-study/greenville/EuphoriaInvite2.jpg"></li>
 							<li><img alt="" src="images/case-study/greenville/EuphoriaInvite3.jpg"></li>
 							<li><img alt="" src="images/case-study/greenville/EuphoriaInvite4.jpg"></li>
@@ -159,8 +159,8 @@
 					<div class="row">
 						<ul>
 							<li><a class="previous" href="tinkernation.php"><span>previous story</span></a></li>
-							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="love_146.php"><span>next story</span></a></li>
+							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
+							<li><a class="next" href="rage-against-the-haze.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>

@@ -15,7 +15,7 @@
 			<li><a href="index.php">Home</a></li>
 			<li><a href="movements.php">Build a Movement</a></li>
 			<li><a href="learn_movement.php">Learn to Build a Movement</a></li>
-			<li><a href="case_studies.php">Case Studies</a></li>
+			<li><a href="our_work.php">Our Work</a></li>
 			<li><a href="individual.php">Meet Our Tribe</a></li>
 		</ul>
 		<ul class="secondary-nav">

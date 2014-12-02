@@ -41,8 +41,8 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="love_146.php"><span>previous story</span></a></li>
-							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
+							<li><a class="previous" href="rage-against-the-haze.php"><span>previous story</span></a></li>
+							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
 							<li><a class="next" href="fiskateers.php"><span>next story</span></a></li>
 						</ul>
 					</div>
@@ -161,8 +161,8 @@ Traditional programs shrouded the recovery journey in shame and anonymity. FRN r
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="love_146.php"><span>previous story</span></a></li>
-							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
+							<li><a class="previous" href="rage-against-the-haze.php"><span>previous story</span></a></li>
+							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
 							<li><a class="next" href="fiskateers.php"><span>next story</span></a></li>
 						</ul>
 					</div>

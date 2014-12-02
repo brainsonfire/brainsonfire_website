@@ -18525,15 +18525,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/case_studies.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/case_studies.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/cathy_harrison.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -18893,13 +18884,90 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/case-study\/fiskateers\/fisk-hero.png": {
+	"\/images\/case-study\/fiskateers\/BusAndPolaroids.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 421215,
-		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/fisk-hero.png",
-		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/fisk-hero.png",
+		"initialSize": 998924,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/BusAndPolaroids.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/BusAndPolaroids.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/Cards.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137123,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/Cards.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/Cards.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/Coasters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 710895,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/Coasters.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/Coasters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/fisk-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 284095,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/fisk-hero.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/fisk-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/FiskateersAustin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143689,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/FiskateersAustin.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/FiskateersAustin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/LapelPinAndBook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 876661,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/LapelPinAndBook.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/LapelPinAndBook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/LicensePlate.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 816890,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/LicensePlate.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/LicensePlate.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/fiskateers\/Website.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 756932,
+		"inputAbbreviatedPath": "\/images\/case-study\/fiskateers\/Website.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/fiskateers\/Website.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -19564,28 +19632,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/case-study\/project_02.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 35282,
-		"inputAbbreviatedPath": "\/images\/case-study\/project_02.jpg",
-		"outputAbbreviatedPath": "\/images\/case-study\/project_02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/case-study\/project_03.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38010,
-		"inputAbbreviatedPath": "\/images\/case-study\/project_03.jpg",
-		"outputAbbreviatedPath": "\/images\/case-study\/project_03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/images\/case-study\/project_04.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -19597,35 +19643,277 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/case-study\/project_05.jpg": {
+	"\/images\/case-study\/project_thumb_fiskateers.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38010,
+		"inputAbbreviatedPath": "\/images\/case-study\/project_thumb_fiskateers.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/project_thumb_fiskateers.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/project_thumb_hir.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35282,
+		"inputAbbreviatedPath": "\/images\/case-study\/project_thumb_hir.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/project_thumb_hir.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/project_thumb_rage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 169655,
+		"inputAbbreviatedPath": "\/images\/case-study\/project_thumb_rage.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/project_thumb_rage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/project_thumb_tinkernation.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 36044,
-		"inputAbbreviatedPath": "\/images\/case-study\/project_05.jpg",
-		"outputAbbreviatedPath": "\/images\/case-study\/project_05.jpg",
+		"inputAbbreviatedPath": "\/images\/case-study\/project_thumb_tinkernation.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/project_thumb_tinkernation.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/case-study\/project_06.jpg": {
+	"\/images\/case-study\/project_thumb_ytg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 24865,
-		"inputAbbreviatedPath": "\/images\/case-study\/project_06.jpg",
-		"outputAbbreviatedPath": "\/images\/case-study\/project_06.jpg",
+		"inputAbbreviatedPath": "\/images\/case-study\/project_thumb_ytg.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/project_thumb_ytg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/case-study\/tinkernation\/tinker-hero.jpg": {
+	"\/images\/case-study\/rage\/Curriculum-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.51223e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Curriculum-1.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Curriculum-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Curriculum-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.40188e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Curriculum-2.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Curriculum-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/EagleLogo-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 186196,
-		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/tinker-hero.jpg",
-		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/tinker-hero.jpg",
+		"initialSize": 111308,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/EagleLogo-2.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/EagleLogo-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/EagleLogo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83848,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/EagleLogo.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/EagleLogo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Effie-Award.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329468,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Effie-Award.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Effie-Award.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Friday-Night-Rage-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81831,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-1.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Friday-Night-Rage-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 619402,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-2.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68839,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-1.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35142,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-2.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40457,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-3.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52101,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-4.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Friday-Night-Rage-Gallery-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/I-love-my-lungs-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 955252,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/I-love-my-lungs-1.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/I-love-my-lungs-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/I-love-my-lungs-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 800250,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/I-love-my-lungs-2.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/I-love-my-lungs-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/On-The-Road-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83962,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/On-The-Road-1.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/On-The-Road-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/On-The-Road-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 534984,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/On-The-Road-2.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/On-The-Road-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/PurpleCouch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 588635,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/PurpleCouch.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/PurpleCouch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Rage-Fest-Logos.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93559,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Rage-Fest-Logos.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Rage-Fest-Logos.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/rage-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 300632,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/rage-hero.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/rage-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/TrainingGuide.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89315,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/TrainingGuide.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/TrainingGuide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/rage\/Viralmentalist.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.23915e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Viralmentalist.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Viralmentalist.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -25615,11 +25903,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/our_work.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/our_work.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/page-listing.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/page-listing.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/rage-against-the-haze.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/rage-against-the-haze.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

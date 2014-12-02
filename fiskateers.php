@@ -41,9 +41,9 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="heroes_in_recovery.php"><span>previous story</span></a></li>
-							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="fitness_rebellion.php"><span>next story</span></a></li>
+							<li><a class="previous" href="heroes-in-recovery.php"><span>previous story</span></a></li>
+							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
+							<li><a class="next" href="tinkernation.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -125,9 +125,9 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="heroes_in_recovery.php"><span>previous story</span></a></li>
-							<li><a class="center" href="case_studies.php"><span>back to all case studies</span></a></li>
-							<li><a class="next" href="fitness_rebellion.php"><span>next story</span></a></li>
+							<li><a class="previous" href="heroes-in-recovery.php"><span>previous story</span></a></li>
+							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
+							<li><a class="next" href="tinkernation.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>

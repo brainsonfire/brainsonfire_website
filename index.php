@@ -60,7 +60,7 @@
 				<section id="home" class="WindowHeight">
 					<div class="row">
 						<div class="txt">
-							<h1 class="title">We can help brands <br/>BECOME A STORY people <br/>want to be part of.</h1>
+							<h1 class="title">WE HELP ORGANIZATIONS<br /> IGNITE POWERFUL, SUSTAINABLE<br /> WORD OF MOUTH MOVEMENTS.</h1>
 							<a href="learn_movement.php" class="button btn-blue left">we’ll teach you how</a>
 							<a href="movements.php" class="button btn-green left">or build it with you</a>
 						</div>
