@@ -145,6 +145,11 @@
 						<img src="images/case-study/greenville/YTG-Party2.png" alt="">
 					</div>
 				</section>
+				<section class="image-section">
+					<div class="row">
+						<img src="images/case-study/greenville/wommy.jpg" alt="WOMMY award">
+					</div>
+				</section>
 				
 
 
