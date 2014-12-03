@@ -125,30 +125,51 @@
 				</section>
 
 				<section id="some-examples">
+					
+					<div id="projects-list" class="home-projects">
 					<div class="row">
 						<h1>Some Examples</h1>
-						<p>The proof is in the stories</p>
+						<p>The proof is in the stories.</p>
 						<ul class="row works-list">
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="example_page.php">
-									<img src="images/library/example-1.jpg" alt="Wonderopolis">
+								<a href="greenville.php">
+									<img src="images/case-study/project_thumb_ytg.jpg" alt="Greenville">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Yeah, That Greenville</span>
+											<span class="desc">Celebrating the best thing about Greenville, SC - it's people.</span>
+										</span>
+									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="heroes_in_recovery.php">
-									<img src="images/library/example-2.jpg" alt="Heroes in Recovery">
+								<a href="rage-against-the-haze.php">
+									<img src="images/case-study/project_thumb_rage.jpg" alt="Rage Against the Haze">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Rage Against the Haze</span>
+											<span class="desc">Teens ignite a grassroots movement against tobacco.</span>
+										</span>
+									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="example_page.php">
-									<img src="images/library/example-3.jpg" alt="EDF Ambassadors">
+								<a href="heroes-in-recovery.php">
+									<img src="images/case-study/project_thumb_hir.jpg" alt="Heroes in Recovery">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Heroes in Recovery</span>
+											<span class="desc">Eliminate the social stigma of mental illness and addiction.</span>
+										</span>
+									</span>
 								</a>
 							</li>
 						</ul>
 						<div class="btn-holder">
-							<a class="button btn-green" href="#dummy">see all of our case studies</a>
+							<a class="button btn-green" href="our_work.php">see all of our case studies</a>
 						</div>
 					</div>
+					
 				</section>
 
 				<section id="blockquote">

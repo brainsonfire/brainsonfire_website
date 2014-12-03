@@ -2348,7 +2348,7 @@ p.editor-note {
   background: #eaeaea url("../images/layout/bg-path.png") repeat 0 0; }
   @media screen and (min-width: 1200px) {
     #some-examples {
-      padding: 110px 0 104px; } }
+      padding: 0; } }
   @media screen and (min-width: 1024px) {
     #some-examples .work-list {
       margin: 48px auto 53px; } }
@@ -2358,6 +2358,9 @@ p.editor-note {
   @media screen and (max-width: 767px) {
     #some-examples .work-list {
       margin: 22px auto 22px; } }
+
+.movements-page #some-examples #projects-list .btn-holder a:hover:after {
+  background-color: rgba(217, 83, 30, 0); }
 
 #blockquote {
   background: #FFF; }

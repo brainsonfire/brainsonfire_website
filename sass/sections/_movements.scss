@@ -172,7 +172,7 @@
 #some-examples {
   background:  #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
   @include min-screen(1200px) {
-    padding: 110px 0 104px;
+    padding: 0;
   }
   .work-list {
     @include min-screen(1024px) {
@@ -186,6 +186,11 @@
     }
   }
 }
+
+.movements-page #some-examples #projects-list .btn-holder a:hover:after {
+  background-color: rgba(#d9531e, 0.0);
+}
+
 #blockquote {
   background: #FFF;
   h1 + p {
