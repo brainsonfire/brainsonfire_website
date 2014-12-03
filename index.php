@@ -69,29 +69,51 @@
 				</section>
 				
 				<section id="checkpoint1" class="section-work">
+					<div id="projects-list" class="home-projects">
 					<div class="row">
 						<h1>Some of our work.</h1>
 						<p>Be Famous For The People Who Love You... For The Way You Love Them.</p>
 						<ul class="row works-list">
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="love_146.php">
-									<img src="images/home/love_146.jpg" alt="Love 146">
+								<a href="greenville.php">
+									<img src="images/case-study/project_thumb_ytg.jpg" alt="Greenville">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Yeah, That Greenville</span>
+											<span class="desc">Celebrating the best thing about Greenville, SC - it's people.</span>
+										</span>
+									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="fitness_rebellion.php">
-									<img src="images/home/fr.jpg" alt="Fitness Rebellion">
+								<a href="rage-against-the-haze.php">
+									<img src="images/case-study/project_thumb_rage.jpg" alt="Rage Against the Haze">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Rage Against the Haze</span>
+											<span class="desc">Teens ignite a grassroots movement against tobacco.</span>
+										</span>
+									</span>
 								</a>
 							</li>
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="heroes_in_recovery.php">
-									<img src="images/home/heroes.jpg" alt="Heroes in Recovery">
+								<a href="heroes-in-recovery.php">
+									<img src="images/case-study/project_thumb_hir.jpg" alt="Heroes in Recovery">
+									<span class="rollover">
+										<span class="middle">
+											<span class="title">Heroes in Recovery</span>
+											<span class="desc">Eliminate the social stigma of mental illness and addiction.</span>
+										</span>
+									</span>
 								</a>
 							</li>
 						</ul>
+					</div>
+					
 						<div class="btn-holder">
-							<a class="button btn-ico btn-orange" href="case_studies.php">View all of our case studies</a>
+							<a class="button btn-ico btn-orange" href="our_work.php">View all of our case studies</a>
 						</div>
+						
 					</div>
 				</section>
 

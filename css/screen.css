@@ -2108,7 +2108,7 @@ p.editor-note {
   color: #333; }
   @media screen and (min-width: 1200px) {
     .section-work {
-      padding: 63px 0 80px; } }
+      padding: 0; } }
   .section-work .row .btn-ico {
     background-color: #eb7e1f;
     text-align: left; }
@@ -2132,6 +2132,9 @@ p.editor-note {
       background-color: #eb7e1f; }
     .section-work .row .btn-ico:before {
       background: url("../images/library/sprite.png") no-repeat scroll 0 -180px transparent; }
+
+.home .section-work #projects-list .btn-holder a:hover:after {
+  background-color: rgba(217, 83, 30, 0); }
 
 #tagboard-wrap {
   background: #F3F3F3;

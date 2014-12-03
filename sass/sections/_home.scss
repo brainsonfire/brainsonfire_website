@@ -224,7 +224,7 @@
   background: url(../images/layout/bg-path.png);
   color: #333;
   @include min-screen(1200px) {
-    padding: 63px 0 80px;
+    padding: 0;
   }
   .row .btn-ico {
     background-color: #eb7e1f;
@@ -254,6 +254,11 @@
     }
   }
 }
+
+.home .section-work #projects-list .btn-holder a:hover:after {
+  background-color: rgba(#d9531e, 0.0);
+}
+
 #tagboard-wrap {
   background: #F3F3F3;
   display: block;
