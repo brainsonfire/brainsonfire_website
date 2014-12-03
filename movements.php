@@ -69,7 +69,7 @@
 
 				<section id="how-we-work">
 
-					<img src="images/movement/how_we_work.jpg" alt="">
+					<img src="images/movement/how_we_work4.jpg" alt="">
 
 					<div class="row">
 						<h1>Here's How We Work</h1>
@@ -164,20 +164,14 @@
 							</li>
 							<li data-orbit-slide="blockquote-headline-2">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Brains on Fire's sweet spot is the big idea.”</blockquote>
+									<cite>Jennifer Stilwell<br>Chief Marketing Officer, VisitGreenvilleSC</cite>
 								</div>
 							</li>
 							<li data-orbit-slide="blockquote-headline-3">
 								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
-								</div>
-							</li>
-							<li data-orbit-slide="blockquote-headline-4">
-								<div>
-									<blockquote>“This is fabulous. This is a national best practice. This is really big.”</blockquote>
-									<cite>Mayor Joe Riley, Charleston, SC<br>in reference to the Charleston Park Angels</cite>
+									<blockquote>“Today we are constantly engaging the actual people that use our products. They are absolutely fueling better products.”</blockquote>
+									<cite>Jay Gillespie<br>VP of Brand Marketing, Fiskars</cite>
 								</div>
 							</li>
 						</ul>

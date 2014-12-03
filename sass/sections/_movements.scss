@@ -45,21 +45,28 @@
 }
 #how-we-work {
   overflow: hidden;
+  padding:0;
   @include min-screen(768px) {
     background: #fff;
   }
+/*
   @include min-screen(1500px) {
-    padding: 100px 0 107px;
+    // padding: 100px 0 107px;
+    padding: 0;
   }
   @include screen(1024px,1499px) {
-    padding: 78px 0 98px;
+    // padding: 78px 0 98px;
+    padding: 0;
   }
   @include screen(768px,1023px) {
-    padding: 58px 0 78px;
+    // padding: 58px 0 78px;
+    padding: 0;
   }
   @include max-screen(767px) {
-    padding: 38px 0 58px;
+    // padding: 38px 0 58px;
+    padding: 0;
   }
+*/
   > img {
     @include min-screen(768px) {
       position: absolute;
@@ -68,18 +75,16 @@
       z-index: 1;
     }
     @include min-screen(1500px) {
-      top: 314px;
+      // top: 314px;
       width: 100%;
     }
     @include screen(1024px,1499px) {
-      bottom: 0;
-      width: auto;
-      height: 740px;
+      width:auto;
+      position: absolute;
     }
     @include screen(768px,1023px) {
-      bottom: 0;
-      width: auto;
-      height: 700px;
+      width:auto;
+      position: absolute;
     }
     @include max-screen(767px) {
       display: none;
@@ -91,13 +96,25 @@
   }
   h1 {
     margin: 0 0 2px;
+    color: rgba(#fff, 1.0);
+    @include min-screen(1500px) {
+    padding: 100px 0 0 0;
+  	}
+  	@include screen(1024px,1499px) {
+    padding: 78px 0 0 0;
+  	}
+  	@include screen(768px,1023px) {
+    padding: 58px 0 0 0;
+  	}
+  	@include max-screen(767px) {
+	color: rgba(#333, 1.0);  	
+    padding: 38px 0 0 0;
+  	}
   }
   h1 + p {
     @include min-screen(768px) {
       margin: 0 0 57px;
-    }
-    @include max-screen(767px) {
-      margin: 0 0 20px;
+      color: rgba(#fff, 1.0);
     }
   }
   .button {
@@ -136,6 +153,22 @@
     background-color: rgba(#eb7e1f, 0.5); 
   }
 }
+
+.movements-page #how-we-work .btn-holder{
+    @include min-screen(1500px) {
+    padding: 0 0 107px 0;
+  	}
+  	@include screen(1024px,1499px) {
+    padding: 0 0 98px 0;
+  	}
+  	@include screen(768px,1023px) {
+    padding: 0 0 78px 0;
+  	}
+  	@include max-screen(767px) {
+    padding: 0 0 58px 0;
+  	}
+}
+
 #some-examples {
   background:  #eaeaea url("../images/layout/bg-path.png") repeat 0 0;
   @include min-screen(1200px) {
