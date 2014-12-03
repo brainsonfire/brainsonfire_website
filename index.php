@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
 
-    <title>Brains on Fire | Word of Mouth Marketing and Movement Igniting Company</title>
+    <title>Brains on Fire | Word of Mouth Marketing and Branding and Identity Company</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />

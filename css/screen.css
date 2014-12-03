@@ -2016,6 +2016,12 @@ p.editor-note {
   left: 0;
   width: 100%;
   padding: 0 0.9375rem; }
+  @media screen and (max-width: 1200px) {
+    #home .txt {
+      left: 10%; } }
+  @media screen and (max-width: 767px) {
+    #home .txt {
+      left: 0; } }
   @media screen and (min-width: 480px) {
     #home .txt {
       height: 40%; } }

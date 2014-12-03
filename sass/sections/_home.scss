@@ -130,7 +130,13 @@
   left: 0;
   width: 100%;
   padding: 0 0.9375rem;
-  @include min-screen(480px) {
+  @include max-screen(1200px) {
+	left: 10%;
+  }
+  @include max-screen(767px) {
+	left: 0;
+  }
+  @include min-screen(480px) {  
     height: 40%;  
   }
   @include max-screen(479px) {

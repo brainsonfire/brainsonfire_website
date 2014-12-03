@@ -19115,6 +19115,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/case-study\/greenville\/wommy.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177287,
+		"inputAbbreviatedPath": "\/images\/case-study\/greenville\/wommy.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/greenville\/wommy.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/case-study\/greenville\/YTG-Party1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -24699,6 +24710,17 @@
 		"initialSize": 331167,
 		"inputAbbreviatedPath": "\/images\/movement\/how_we_work.jpg",
 		"outputAbbreviatedPath": "\/images\/movement\/how_we_work.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/movement\/how_we_work2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293582,
+		"inputAbbreviatedPath": "\/images\/movement\/how_we_work2.jpg",
+		"outputAbbreviatedPath": "\/images\/movement\/how_we_work2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
