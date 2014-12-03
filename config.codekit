@@ -18723,20 +18723,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/heroes-in-recovery.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/heroes-in-recovery.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/heroes_in_recovery-Backup.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/heroes_in_recovery-Backup.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/heroes_in_recovery.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/heroes_in_recovery.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -19654,6 +19654,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/case-study\/project_thumb_fpo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8577,
+		"inputAbbreviatedPath": "\/images\/case-study\/project_thumb_fpo.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/project_thumb_fpo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/case-study\/project_thumb_hir.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -19914,6 +19925,138 @@
 		"initialSize": 1.23915e+06,
 		"inputAbbreviatedPath": "\/images\/case-study\/rage\/Viralmentalist.png",
 		"outputAbbreviatedPath": "\/images\/case-study\/rage\/Viralmentalist.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/CounterMat.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 171861,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/CounterMat.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/CounterMat.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/LifeSizeMousetrap.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.61008e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/LifeSizeMousetrap.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/LifeSizeMousetrap.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80306,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/logo.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/MakerFaire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200492,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/MakerFaire.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/MakerFaire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/PalmCards.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 721120,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/PalmCards.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/PalmCards.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/PopsWisdom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 745842,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/PopsWisdom.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/PopsWisdom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/PowerRacing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.32652e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/PowerRacing.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/PowerRacing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/ShareableGraphics.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 968847,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/ShareableGraphics.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/ShareableGraphics.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/ShareYourSpace.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13759e+06,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/ShareYourSpace.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/ShareYourSpace.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/Shirts.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 751281,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/Shirts.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/Shirts.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/tinker-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375620,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/tinker-hero.jpg",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/tinker-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/case-study\/tinkernation\/Website.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 591148,
+		"inputAbbreviatedPath": "\/images\/case-study\/tinkernation\/Website.png",
+		"outputAbbreviatedPath": "\/images\/case-study\/tinkernation\/Website.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
