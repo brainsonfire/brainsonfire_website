@@ -201,13 +201,6 @@
 								</a>
 							</li>
 							<li>
-								<a href="sarah_leitner.php">
-									<img src="images/individuals/sarah-167x167.jpg" alt="Sarah Leitner">
-									<img src="images/individuals/sarah-167x167-h.jpg" alt="Sarah Leitner" class="hover">
-									<!-- <h2>Sarah Leitner</h2> -->
-								</a>
-							</li>
-							<li>
 								<a href="sean_madden.php">
 									<img src="images/individuals/sean-167x167.jpg" alt="Sean Madden">
 									<img src="images/individuals/sean-167x167-h.jpg" alt="Sean Madden" class="hover">
@@ -221,13 +214,6 @@
 									<!-- <h2>Shannon Kohn</h2> -->
 								</a>
 							</li>
-							<!---<li>
-								<a href="wicket.php">
-									<img src="images/individuals/wicket-167x167.jpg" alt="Wicket">
-									<img src="images/individuals/wicket-167x167-h.jpg" alt="Wicket" class="hover">-->
-									<!-- <h2>Wicket</h2> -->
-								<!--</a>
-							</li> -->
 						</ul>
 					</div>
 					<div class="about">
@@ -256,39 +242,7 @@
 					</div>
 				</section>
 				
-				<section id="extended-tribe" class="white-text">
-					<div class="row">
-						<h1>Extended Tribe</h1>
-						<p>Happy clients from the past and present</p>
-						<ul class="row">
-							<li class="large-3 medium-4 small-6 columns">
-								<!-- images width 307px, height 130px -->
-								<img src="images/individuals/clients/client_1.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_2.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_3.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_4.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_5.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_6.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_7.png" alt="">
-							</li>
-							<li class="large-3 medium-4 small-6 columns">
-								<img src="images/individuals/clients/client_8.png" alt="">
-							</li>
-						</ul>
-					</div>
-				</section>
+				
 
 				<section id="odds-end">
 					<div class="row">
