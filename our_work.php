@@ -123,6 +123,40 @@
 
 				</div>
 			
+			<section id="extended-tribe" class="white-text">
+					<div class="row">
+						<h1>Extended Tribe</h1>
+						<p>Happy clients from the past and present</p>
+						<ul class="row">
+							<li class="large-3 medium-4 small-6 columns">
+								<!-- images width 307px, height 130px -->
+								<img src="images/individuals/clients/client_1.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_2.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_3.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_4.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_5.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_6.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_7.png" alt="">
+							</li>
+							<li class="large-3 medium-4 small-6 columns">
+								<img src="images/individuals/clients/client_8.png" alt="">
+							</li>
+						</ul>
+					</div>
+				</section>
+			
 			</main>
 			
 			<?php include("inc/footer.php"); ?>
