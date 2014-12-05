@@ -16,7 +16,7 @@
 			<li><a href="movements.php">Build a Movement</a></li>
 			<li><a href="learn_movement.php">Learn to Build a Movement</a></li>
 			<li><a href="our_work.php">Our Work</a></li>
-			<li><a href="individual.php">Meet Our Tribe</a></li>
+			<li><a href="our-people.php">Our People</a></li>
 		</ul>
 		<ul class="secondary-nav">
 			<li><a href="blog/">Blog</a></li>
@@ -24,7 +24,7 @@
 			<li><a href="speaking.php">Speaking</a></li>
 			<li><a href="store.php">Store</a></li>			
 			<li><a href="hello.php">Hello</a></li>
-			<li><a href="http://brainsonfirenews.tumblr.com/">Published</a></li>
+			<!-- <li><a href="http://brainsonfirenews.tumblr.com/">Published</a></li> -->
 		</ul>
 	</nav>
 </header>
