@@ -107,11 +107,11 @@
 							</li>
 							
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="#">
+								<a href="branding-and-identity.php">
 									<img src="images/case-study/project_thumb_fpo.jpg" alt="Branding & Identity">
 									<span class="rollover">
 										<span class="middle">
-											<span class="title">Logos</span>
+											<span class="title">Branding & Identity</span>
 											<span class="desc">Our roots are in branding and identity. Here are some of our favs.</span>
 										</span>
 									</span>
