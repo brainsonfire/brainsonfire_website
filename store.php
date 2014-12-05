@@ -72,7 +72,7 @@
 					</div>
 					<div class="row">
 						<div class="half-block">
-							<a href="book.php">
+							<a href="brains_on_fire.php">
 								<img src="images/library/img9.jpg" alt="Brains on Fire">
 							</a>
 							<h2>Brains on Fire</h2>
@@ -83,7 +83,7 @@
 							</div>
 						</div>
 						<div class="half-block books">
-							<a href="book.php">
+							<a href="the_passion_conversation.php">
 								<img src="images/library/img10.jpg" alt="The Passion Conversation">
 							</a>
 							<h2>The Passion Conversation</h2>
