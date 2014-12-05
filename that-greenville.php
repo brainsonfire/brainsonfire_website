@@ -41,7 +41,7 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="tinkernation.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="branding-and-identity.php"><span>previous story</span></a></li>
 							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
 							<li><a class="next" href="rage-against-the-haze.php"><span>next story</span></a></li>
 						</ul>
@@ -54,14 +54,14 @@
 				
 				<section id="greenville-intro" class="intro">
 					<div class="row">
-							<h1>Yeah, That Greenville</h1>
+							<h1>THAT Greenville</h1>
 						<div class="text bg-white"> 
-							<h3>INJUSTICE</h3>
+							<h3>THE CHALLENGE</h3>
 							<p>With 36 other Greenvilles in the United States and a limited advertising budget, Greenville, SC had an awareness problem. It is a gem of a destination, but not in people’s consideration set when it came time to take a trip.</p>
 							<h3>Meet Greenville, SC</h3>
-							<p>VisitGreenvilleSC is the Visitor’s and Convention Bureau for Greenville, South Carolina.</p> 
+							<p>VisitGreenvilleSC (VGSC) is the Visitor’s and Convention Bureau for Greenville, South Carolia. VGSC represents and serves the City and County of Greenville, the hospitality industry and hundreds of small businesses within the community. As Greenville's official sales and marketing organization, their primary goal is to enhance the long-term economic development of the Greenville through increased tourism and visitor spending. </p> 
 
-							<h3>REVEAL THE GOOD. (The good part)</h3>
+							<h3>INSIGHT + STRATEGY</h3>
 							<p>While Greenville has plenty of landmarks and treasures that make it a desirable place to visit, the conversations we had with visitors and residents revealed that the destination’s greatest draw was the people of Greenville themselves. Our goal was not to create a version of Greenville as we saw it. We wanted to give people a way to share the story of the community they loved. They were already sharing stories, photos and recommendations; we just gave them a way and a place to share those things with others.</p>  
 
 							<h3>Opportunity</h3>
@@ -163,7 +163,7 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="tinkernation.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="branding-and-identity.php"><span>previous story</span></a></li>
 							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
 							<li><a class="next" href="rage-against-the-haze.php"><span>next story</span></a></li>
 						</ul>

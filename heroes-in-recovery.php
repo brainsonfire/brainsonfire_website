@@ -56,20 +56,20 @@
 					<div class="row">
 							<h1>Heroes in Recovery</h1>
 						<div class="text bg-white"> 
-							<h3>INJUSTICE</h3>
-							<p>23 million people struggle with addiction in America. It is estimated 20 million of them do not seek treatment or help. </p>
-							<h3>Meet the Foundations Recovery Network. </h3>
+							<h3>THE INJUSTICE</h3>
+							<p>23 million people struggle with addiction in America. It is estimated 20 million do not seek treatment or help.</p>
+							<h3>Meet the Foundations Recovery Network</h3>
 							<p>FRN is a leader in the treatment of co-occurring mental illness and substance abuse disorders. FRN needed a way to break through the noise and connect with the millions of people who were not seeking the help they needed, including the families and friends of those suffering from the disease.</p> 
 
-							<h3>REVEAL THE GOOD. (The good part)</h3>
+							<h3>INSIGHT + STRATEGY</h3>
 							<p>As we dug in, we began to see that people weren’t tuning in for more conversations about the addiction – they wanted to talk about the awesome power in recovery. No one walks path of recovery alone. From doctors to staff, families to friends to those suffering with addiction themselves, the journey takes a village – and each story is worthy of a celebration.<br />
  
 Traditional programs shrouded the recovery journey in shame and anonymity. FRN recognized that in order to reach those who needed them most, that had to change.</p>  
 
 							<h3>Opportunity</h3>
 							<ul>
-								<li>Support people who want to help break the stigma of addiction. </li>
-								<li>To give people who want to talk about breaking the stigma to share. </li>
+								<li>Support people who want to help break the stigma of addiction.</li>
+								<li>To give people who want to talk about breaking the stigma to share.</li>
 							</ul>
 						</div>		
 					</div>					

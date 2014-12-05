@@ -41,7 +41,7 @@
 				<div class="direction-nav top">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="greenville.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="that-greenville.php"><span>previous story</span></a></li>
 							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
 							<li><a class="next" href="heroes-in-recovery.php"><span>next story</span></a></li>
 						</ul>
@@ -56,17 +56,18 @@
 					<div class="row">
 							<h1>Rage Against the Haze</h1>
 						<div class="text bg-white"> 
-							<h3>INJUSTICE</h3>
-							<p>South Carolina had the highest smoking rate in the US amongst teens ages 13-18.</p>
-							<h3>Meet the South Carolina Department of Health Environmental Control. </h3>
+							<h3>THE INJUSTICE</h3>
+							<p>In order to prime the next generation of tobacco users, tobacco companies were specifically targeting teens. From the cartoon characters featured in advertisements to “fun flavor” tobacco products offered in stores, millions of advertising dollars were being pumped into appealing to a young demographic – and it was working. South Carolina had the highest smoking rate in the United States amongst teens ages 13 to 18.</p>
+							
+							<h3>Meet the South Carolina Department of Health Environmental Control </h3>
 							<p>In the early 2000s, South Carolina became the recipient of a hefty chunk of change courtesy of the Tobacco Master Settlement Agreement. While people were aware of the long-term dangers of smoking, there was no short-term awareness that compelled them to make positive changes. TV campaigns would lower smoking rates by a percent or two over the course of a 30-day media cycle, then shoot right back up. There was no continuous message that was relevant to kids, and everything that was geared at teens lectured “don’t do that” rather than speaking to their power of choice.</p> 
 
-							<h3>REVEAL THE GOOD. (The good part)</h3>
+							<h3>INSIGHT + STRATEGY</h3>
 							<p>Throughout our insight process, we realized that teens only really listen to each other, which made them a natural solution for and amongst themselves. When provided with enough information, they were willing and capable of taking on responsibilities to educate, empower and elevate their peers. Having been labeled “lazy, irresponsible kids” by society, they had a rebellious streak – and a desire to prove themselves. If they upset a few adults along the way, so be it. So we ignited a teen-to-teen movement that gave them a voice, a home and a place in the decision-making process. Something that gave a core hive of teens the ability to carry the message of the movement across the state. And that’s exactly what they did.</p>  
 
 							<h3>Opportunity</h3>
 							<ul>
-								<li>To empower teens in South Carolina to help each other by educating, empowering and elevating themselves and their peers.</li>
+								<li>To empower teens in South Carolina to help each other by educating, empowering and elevating themselves and their peers</li>
 							</ul>
 						</div>		
 					</div>					
@@ -182,7 +183,7 @@
 				<div class="direction-nav bottom">
 					<div class="row">
 						<ul>
-							<li><a class="previous" href="greenville.php"><span>previous story</span></a></li>
+							<li><a class="previous" href="that-greenville.php"><span>previous story</span></a></li>
 							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
 							<li><a class="next" href="heroes-in-recovery.php"><span>next story</span></a></li>
 						</ul>

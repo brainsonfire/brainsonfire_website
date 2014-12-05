@@ -132,7 +132,7 @@
 						<p>The proof is in the stories.</p>
 						<ul class="row works-list">
 							<li class="large-4 medium-4 small-12 columns">
-								<a href="greenville.php">
+								<a href="that-greenville.php">
 									<img src="images/case-study/project_thumb_ytg.jpg" alt="Greenville">
 									<span class="rollover">
 										<span class="middle">

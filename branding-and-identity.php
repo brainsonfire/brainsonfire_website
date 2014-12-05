@@ -43,7 +43,7 @@
 						<ul>
 							<li><a class="previous" href="tinkernation.php"><span>previous story</span></a></li>
 							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
-							<li><a class="next" href="greenville.php"><span>next story</span></a></li>
+							<li><a class="next" href="that-greenville.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -205,7 +205,7 @@
 						<ul>
 							<li><a class="previous" href="tinkernation.php"><span>previous story</span></a></li>
 							<li><a class="center" href="our_work.php"><span>back to our work</span></a></li>
-							<li><a class="next" href="greenville.php"><span>next story</span></a></li>
+							<li><a class="next" href="that-greenville.php"><span>next story</span></a></li>
 						</ul>
 					</div>
 				</div>

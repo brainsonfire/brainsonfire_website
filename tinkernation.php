@@ -56,13 +56,13 @@
 					<div class="row">
 							<h1>Tinkernation</h1>
 						<div class="text bg-white"> 
-							<h3>INJUSTICE</h3>
+							<h3>THE INJUSTICE</h3>
 							<p>There is a growing disconnect between people and things we own and use. We fill our time tapping away on iPads and smartphones, rather than using our hands to make something of meaning.</p>
 							
 							<h3>Meet RSC</h3>
 							<p>Since 1941 Liquid Wrench has been making premium lubricating, penetrating and protecting products for people who appreciate the work that goes into making things and making things last. Unlike the other big guy on the market -- who makes a one-size-fits-all product – Liquid Wrench takes pride in offering a product line composed of individual solutions specifically designed for the task at hand.</p> 
 
-							<h3>REVEAL THE GOOD. (The good part)</h3>
+							<h3>INSIGHT + STRATEGY</h3>
 							<p>During the insight phase of our engagement with Liquid Wrench, it became apparent that the DIY space was flooded with “how-to” sites. Rather than reinventing the wheel, we opted to take a different approach by celebrating the “why” that drives people from all walks of life to make, restore, fix and tinker. Brains on Fire laid the foundation for a content-driven community called Tinkernation, powered by Liquid Wrench. The site features a range of nostalgic and inspirational maker-relevant content including stories, snippets and slices of life featuring the people behind the projects.</p>  
 
 							<h3>Opportunity</h3>

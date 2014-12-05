@@ -54,21 +54,21 @@
 				
 				<section id="fiskateers-intro" class="intro">
 					<div class="row">
-							<h1>The Fiskateers</h1>
+							<h1>Fiskateers</h1>
 						<div class="text bg-white"> 
-							<h3>INJUSTICE</h3>
-							<p>Started during hotbed of blogging, lost of influencers, online communities were loose and not tied to a brand, there was not a nurturing a nurturing community for crafters and scrapbookers. Create a comm for all levels of crafters and scrapbookers.</p>
+							<h3>THE MISSED OPPORTUNITY</h3>
+							<p>While almost every household in the country had at least one pair of Fiskar’s orange-handled scissors, there was little emotional connection between Fiskar’s brand and the people using their products for their passion: crafting.</p>
 							
-							<h3>Meet the Fiskars Crafting Division.</h3>
-							<p>The Craft Division of Fiskars Brands, a Finland-based 350+ year-old company, had very low brand loyalty since their products – crafting tools and consumables – were “knocked-off” in China soon after they hit the market, which put the squeeze on all the dollars Fiskars invested in R&D. Plus, their brand research revealed that there was little emotional connection between the brand the people using their products.</p> 
+							<h3>Meet the Fiskars Crafting Division</h3>
+							<p>The Craft Division of Fiskars Brands, a Finland-based 350+ year-old company, had very low brand loyalty since their products – crafting tools and consumables – were “knocked-off” in China soon after they hit the market, which put the squeeze on all the dollars Fiskars invested in R&D.</p> 
 
-							<h3>REVEAL THE GOOD. (The good part)</h3>
+							<h3>INSIGHT AND STRATEGY</h3>
 							<p>During the course of interviews with more than 140 crafters across the country, we discovered that even though people might not be talking about it by name, Fiskars was a beloved and trusted brand. Once we got women talking about their passion for scrapbooking, it turned out nearly all of them had a story about Fiskars’ famous orange-handled scissors. From their child’s first pair to their grandmother’s most beloved pair, one story after another began to emerge. We could have built a technical community based on skill, but we knew we wanted to build a nurturing community. There was already an existing passion conversation going on, but we needed people to help lead it. In the end, we didn’t go with the best crafters, we went with the best storytellers; women who talked 90% life, 10% scrapbooking. In doing so, we sparked one of the first brand advocate communities ever.</p>  
 
 							<h3>Opportunity</h3>
 							<ul>
-								<li>Build a PR force to educate on user error issues.</li>
-								<li>Increase brand engagement and foster a deeper relationship between Fiskars and their customers.</li>
+								<li>Build a PR force to educate on user error issues</li>
+								<li>Increase brand engagement and foster a deeper relationship between Fiskars and their customers</li>
 							</ul>
 						</div>		
 					</div>					
