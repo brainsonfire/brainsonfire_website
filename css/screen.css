@@ -2312,24 +2312,24 @@ p.editor-note {
     max-width: 250px; }
 
 .movement-tab dt:first-of-type .table-wrap > span {
-  background: #d9531e; }
+  background: rgba(0, 0, 0, 0.3); }
 .movement-tab dt:first-of-type.active a {
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: #00a8ca; }
 
 .movement-tab dt:nth-child(3n) .table-wrap > span {
-  background: #23bed4; }
+  background: rgba(0, 0, 0, 0.3); }
 .movement-tab dt:nth-child(3n).active a {
-  background-color: rgba(11, 183, 207, 0.5); }
+  background-color: #00a8ca; }
 
 .movement-tab dt:nth-child(5n) .table-wrap > span {
-  background: #9ea867; }
+  background: rgba(0, 0, 0, 0.3); }
 .movement-tab dt:nth-child(5n).active a {
-  background-color: rgba(147, 159, 87, 0.5); }
+  background-color: #00a8ca; }
 
 .movement-tab dt:nth-child(7n) .table-wrap > span {
-  background: #ec8a35; }
+  background: rgba(0, 0, 0, 0.3); }
 .movement-tab dt:nth-child(7n).active a {
-  background-color: rgba(235, 126, 31, 0.5); }
+  background-color: #00a8ca; }
 
 @media screen and (min-width: 1500px) {
   .movements-page #how-we-work .btn-holder {

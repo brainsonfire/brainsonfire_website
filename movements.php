@@ -94,7 +94,7 @@
 									</a>
 								</dt>
 								<dd>
-									<p><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</p>								
+									<p>We will focus on developing a single strategic pathway, and then develop a detailed plan to bring your movement to life through an Ambassador-Led Community. The plan will also include components such as brand identity, engagement tools, community content recommendations, community management plan, digital direction and recommendations for success measurements.</p>								
 								</dd> 
 
 								<dt>
@@ -104,7 +104,7 @@
 									</a>
 								</dt>
 								<dd>
-									<p><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</p>								
+									<p>Upon approval of strategy, we will enter phase three: implementation. This is where we launch your Community. Lead advocates will be recruited, selected and trained using a custom curriculum based on Brains on Fire’s community management expertise. Ongoing management of the community will be coordinated by Brains on Fire, and client internal team, or a combination of the two. The implementation phase also includes development of an online platform, as well as offline conversation tools. This is where and when conversation and passion are ignited, and the community begins to take root.</p>								
 								</dd> 
 
 								<dt>
