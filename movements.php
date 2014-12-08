@@ -114,7 +114,7 @@
 									</a>
 								</dt>
 								<dd>
-									<p><strong>You made it! It’s finally time to launch your Community! This is where and when conversation and passion are ignited, and the community begins to take root. Lead advocates will be recruited, selected and trained using a custom curriculum based on Brains on Fire’s community management expertise. Ongoing management of the community will be coordinated by Brains on Fire, and client internal team, or a combination of the two.</p>								
+									<p>You made it! It’s finally time to launch your Community! This is where and when conversation and passion are ignited, and the community begins to take root. Lead advocates will be recruited, selected and trained using a custom curriculum based on Brains on Fire’s community management expertise. Ongoing management of the community will be coordinated by Brains on Fire, and client internal team, or a combination of the two.</p>								
 								</dd> 
 							</dl> 
 						</div>
