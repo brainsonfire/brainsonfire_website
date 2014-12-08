@@ -80,31 +80,31 @@
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Insight + Soul Mining<span class="bottom-block">60 days</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Insight + Soul Mining<span class="bottom-block">Days 1-60</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</p>								
+									<p>During the insight phase we gather knowledge by listening to, learning about and exploring your company offerings, marketing, competitors and customers. We’ll use this information to develop a strategy that will drive your brand forward by fostering, growing and energizing community.</p>								
 								</dd> 
 
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Strategy<span class="bottom-block">60 days</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Strategy<span class="bottom-block">Days 60-90</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p>We will focus on developing a single strategic pathway, and then develop a detailed plan to bring your movement to life through an Ambassador-Led Community. The plan will also include components such as brand identity, engagement tools, community content recommendations, community management plan, digital direction and recommendations for success measurements.</p>								
+									<p>Once a community strategy is selected, our team will begin bringing the identity to life visually and linguistically. By the 90-day mark, you’ll not only be able to proudly declare, “I AM A _____________,” you’ll also understand exactly what that self-identification really means at the core.</p>								
 								</dd> 
 
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Word of Mouth + Community Plan<span class="bottom-block">60 days</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Word of Mouth + Community Plan<span class="bottom-block">Days 90-120</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p>Upon approval of strategy, we will enter phase three: implementation. This is where we launch your Community. Lead advocates will be recruited, selected and trained using a custom curriculum based on Brains on Fire’s community management expertise. Ongoing management of the community will be coordinated by Brains on Fire, and client internal team, or a combination of the two. The implementation phase also includes development of an online platform, as well as offline conversation tools. This is where and when conversation and passion are ignited, and the community begins to take root.</p>								
+									<p>The Brains on Fire team will develop a detailed plan to bring your movement to life through an Ambassador-led Community. The plan will include components such as brand identity, engagement tools, general budget, content recommendations, a community management plan, digital direction, timelines and recommendations for successful measurement.</p>								
 								</dd> 
 
 								<dt>
@@ -114,7 +114,7 @@
 									</a>
 								</dt>
 								<dd>
-									<p><strong>If you’re looking for answers that no one else has, ask questions that no one else asks.</strong> During the insight phase we gather knowledge by listening to, learning about and exploring your company, offerings, market, competitors and customers. Brains on Fire staff will visit your offices to guide you through a series of interviews and exercises designed to help us become students of your business. We’ll have deep conversations with your biggest fans to learn why they love you so much and how your brand or organization fits into their lives. We’ll also explore brands, communities and experts beyond your immediate neighborhood.</p>								
+									<p><strong>You made it! It’s finally time to launch your Community! This is where and when conversation and passion are ignited, and the community begins to take root. Lead advocates will be recruited, selected and trained using a custom curriculum based on Brains on Fire’s community management expertise. Ongoing management of the community will be coordinated by Brains on Fire, and client internal team, or a combination of the two.</p>								
 								</dd> 
 							</dl> 
 						</div>
