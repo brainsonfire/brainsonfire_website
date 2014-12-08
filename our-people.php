@@ -234,10 +234,17 @@
 						<h1>Around the Firesphere</h1>
 						<p>We like to take pictures of ourselves</p>
 						<ul class="gallery-orbit" data-orbit data-options="bullets:false; slide_number: false; timer:false;">
-							<li data-orbit-slide="gallery_img_1"><img src="images/individuals/gallery_img_1.jpg" alt="Slide image 1"></li>
-							<li data-orbit-slide="gallery_img_2"><img src="images/individuals/gallery_img_1.jpg" alt="Slide image 2"></li>
-							<li data-orbit-slide="gallery_img_3"><img src="images/individuals/gallery_img_1.jpg" alt="Slide image 3"></li>
-							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery_img_1.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_1"><img src="images/individuals/gallery/gallery_img_1.jpg" alt="Our Books"></li>
+							<li data-orbit-slide="gallery_img_2"><img src="images/individuals/gallery/gallery_img_4.jpg" alt="Slide image 2"></li>
+							<li data-orbit-slide="gallery_img_3"><img src="images/individuals/gallery/gallery_img_3.jpg" alt="Slide image 3"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_2.jpg" alt="Tequila and Monkey"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_10.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_6.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_7.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_8.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_9.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_5.jpg" alt="Slide image 4"></li>
+							<li data-orbit-slide="gallery_img_4"><img src="images/individuals/gallery/gallery_img_11.jpg" alt="Slide image 4"></li>
 						</ul>
 					</div>
 				</section>
