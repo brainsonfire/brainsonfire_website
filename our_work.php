@@ -108,7 +108,7 @@
 							
 							<li class="large-4 medium-4 small-12 columns">
 								<a href="branding-and-identity.php">
-									<img src="images/case-study/project_thumb_fpo.jpg" alt="Branding & Identity">
+									<img src="images/case-study/project_thumb_branding.jpg" alt="Branding & Identity">
 									<span class="rollover">
 										<span class="middle">
 											<span class="title">Branding & Identity</span>

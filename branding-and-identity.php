@@ -49,7 +49,7 @@
 				</div>
 				
 				<div id="greenville" class="main-photo">
-					<img src="images/case-study/branding-identity/FPO-hero.jpg" alt="FPO-hero">
+					<img src="images/case-study/branding-identity/branding-hero.jpg" alt="FPO-hero">
 				</div>
 				
 				<section id="greenville-intro" class="intro">
