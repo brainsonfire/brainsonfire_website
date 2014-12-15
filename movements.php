@@ -174,8 +174,7 @@
 
 				<section id="blockquote">
 					<div class="row">
-						<h1>What People are Saying</h1>
-						<p>A few words from our happy clients</p>
+						<h1>Clients</h1>
 						<ul class="blockquote-orbit" data-orbit data-options="bullets: false; slide_number: false; timer: false;">
 							<li data-orbit-slide="blockquote-headline-1">
 								<div>
