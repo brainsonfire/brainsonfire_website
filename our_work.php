@@ -125,8 +125,7 @@
 			
 			<section id="extended-tribe" class="white-text">
 					<div class="row">
-						<h1>Extended Tribe</h1>
-						<p>Happy clients from the past and present</p>
+						<h1>Clients</h1>
 						<ul class="row">
 							<li class="large-3 medium-4 small-6 columns">
 								<!-- images width 307px, height 130px -->
