@@ -80,41 +80,41 @@
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Insight + Soul Mining<span class="bottom-block">Days 1-60</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Insight + Soul Mining<span class="bottom-block">Days 1-30</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p>During the insight phase we gather knowledge by listening to, learning about and exploring your company offerings, marketing, competitors and customers. We’ll use this information to develop a strategy that will drive your brand forward by fostering, growing and energizing community.</p>								
+									<p>During the insight phase, we gather knowledge by listening to, learning about and exploring your company offerings, marketing, competitors and customers. Through a unique series of exercises, brainstorms, gamestorms and guided conversations, our team will uncover the conversation people want to have with your brand or organization. Be prepared to be pushed beyond your comfort zone. We want to go beyond your brand’s typical logic and language to really explore who you are now, who you aspire to become, why you exist and what is driving your unique passion conversation. At Day 30, we’ll come back to share all we have learned.</p>								
 								</dd> 
 
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Strategy<span class="bottom-block">Days 60-90</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Pathways<span class="bottom-block">Days 31-60</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p>Once a community strategy is selected, our team will begin bringing the identity to life visually and linguistically. By the 90-day mark, you’ll not only be able to proudly declare, “I AM A _____________,” you’ll also understand exactly what that self-identification really means at the core.</p>								
+									<p>During the Pathways phase, we will present two to three pathways based on the insights gathered during the Soul Mining Phase. It’s important to keep in mind that there is no right or wrong pathway. This is your chance to get in the sandbox and play with us. You’ll be asked to “try on” each Pathway in order to determine which feels like the best and most authentic choice for your brand. Typically, we like to coordinate these meetings in person because it gives us the opportunity to see which pathway gets an innate response and sparks that special magic amongst those in the room. Once the decision is made, we’ll have a name and a logo leading the way as we embark into the third phase of the process.</p>								
 								</dd> 
 
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Word of Mouth + Community Plan<span class="bottom-block">Days 90-120</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Comprehensive Storytelling + Community Plan<span class="bottom-block">Days 61-90</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p>The Brains on Fire team will develop a detailed plan to bring your movement to life through an Ambassador-led Community. The plan will include components such as brand identity, engagement tools, general budget, content recommendations, a community management plan, digital direction, timelines and recommendations for successful measurement.</p>								
+									<p>During this phase, the Brains on Fire team will take your identity and create components such as brand identity, engagement tools, general budget, content recommendations, a community management plan, digital direction, timelines and recommendations for successful measurement. Don’t get us wrong, we don’t take off with your pathway and come back 30 days later to plop a finished product in your lap. This is a collaborative, communicative process during which we will be working closely with your team to determine the best ways to tell your brand story and develop the tools, languages and images to help you do just that.  </p>								
 								</dd> 
 
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Implementation<!-- <span class="bottom-block">time/cost</span> --></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Implementation<span class="bottom-block">91+</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
-									<p>You made it! It’s finally time to launch your Community! This is where and when conversation and passion are ignited, and the community begins to take root. Lead advocates will be recruited, selected and trained using a custom curriculum based on Brains on Fire’s community management expertise. Ongoing management of the community will be coordinated by Brains on Fire, and client internal team, or a combination of the two.</p>								
+									<p>The Implementation phase is as big (or little) as you want it to be, depending on your internal resources and bandwith. Typically, we have two types of community implementation: content-driven communities and lead advocate-driven communities. The Implementation phase is when passion is ignited and everything from the past 90 days gets put into action. If we have recommended a lead advocate-driven community for your brand, this is where we will recruit, select and train leads. For a content-driven community, this is where content development begins to happen. In addition, Brains on Fire will provide ongoing management of the online and offline community.</p>								
 								</dd> 
 							</dl> 
 						</div>
