@@ -110,7 +110,7 @@
 								<dt>
 									<a href="#">
 										<img src="images/library/transparent.png" alt="">
-										<span class="table-wrap"><span class="table"><span>Implementation<span class="bottom-block">91+</span></span></span></span>
+										<span class="table-wrap"><span class="table"><span>Implementation<span class="bottom-block">Days 91 and beyond</span></span></span></span>
 									</a>
 								</dt>
 								<dd>
