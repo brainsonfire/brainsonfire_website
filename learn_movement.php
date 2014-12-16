@@ -47,8 +47,8 @@
 
 				<section id="help">
 					<div class="row">
-						<h1>Other ways we can help</h1>
-						<p>Get your learn on</p>
+						<h1>We can help you find your way</h1>
+						<p>Go ahead... tap our brains</p>
 						<div class="half-block">
 							<a href="books.php"><img src="images/movement/learn-3.jpg" alt="Our Book"></a>
 							<h2>Our Books</h2>
@@ -66,8 +66,8 @@
 				
 				<section id="other-way" class="white-text">
 					<div class="row">
-						<h1>We can help you find your way</h1>
-						<p>Go ahead... tap our brains</p>
+						<h1>Other ways we can help</h1>
+						<p>Get your learn on</p>
 						<div class="half-block">
 							<a href="2x2_workshops.php"><img src="images/movement/learn-1.jpg" alt="2x2 Workshop"></a>
 							<h2>2x2 Workshop</h2>
