@@ -163,14 +163,19 @@
 						<h2>Past gigs</h2>
 						<p>Sorry we missed you.</p>
 						<div class="large-4 columns">
-							<h3><a target="_blank" href="http://www.tbbaconvention.com/">Texas B&B Assoc. Annual Conference</a></h3>
-							<p>Sep. 7th-9th, 2014 | Galveston, TX</p>
-							<p>See Robbin at The Annual Convention of the Texas Bed & Breakfast Association. The conference that empowers and enlightens innkeepers, aspiring innkeepers and vendors.</p>
+							<h3><a href="http://www.iaicdv.org/?page=2014ConventionHome" target="_blank">International Association of Ice Cream Distributors and Vendors</a></h3>
+							<p>Nov. 10-13, 2014 | Orlando, FL</p>
+							<p>Catch Geno at the 45th annual convention of the International Association of Ice Cream Distributors and Vendors.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3><a target="_blank" href="https://www.ama.org/events-training/Conferences/Pages/American-Marketing-Association's-2014-Annual-Marketing-Conference.aspx">AMA 2014 Annual Conference</a></h3>
-							<p>Oct. 2, 2014 | New Orleans, LA</p>
-							<p>Join John, Geno and more than 400 marketing peers and thought leaders providing inspiration, focus and motivation to help marketers deliver top results. The American Marketing Association's Annual Conference will inspire you with rich content and expert insights from some of the nation's best marketing minds.</p>
+							<h3><a href="http://members.womma.org/p/cm/ld/fid=135" target="_blank">WOMMA Summit</a></h3>
+							<p>Nov. 17-19, 2014 | Hollywood, CA</p>
+							<p>WOMMA Summit is the Word of Mouth Marketing Association’s annual three-day conference that brings together an elite group of marketing professionals from across numerous industries and organizational-types--including brands, agencies and service providers. Catch Geno and Moe presenting the case study for #yeahTHATgreenville on Tuesday, November 18.</p>
+						</div>
+						<div class="large-4 columns">
+							<h3><a href="http://www.cues.org/professional-development/training-education/conferences/ceo-executive-team-network/overview" target="_blank">Credit Union Executives Society (CUES) CEO/Executive Team Network</a></h3>
+							<p>Nov. 5, 2014 | Amelia Island, FL</p>
+							<p>As credit unions face uncharted territory and boundless challenges, CUES stands as the galvanizing force for our members to sharpen their skills. Join Geno as he shares insights from The Passion Conversation: Building Shared Passions, followed by a workshop designed to put passion into practice.</p>
 						</div>
 						<div class="large-4 columns">
 							<h3><a target="_blank" href="http://www.fishwildlife.org/index.php?section=events&evtid=777">2014 Annual Conference of the SE Assoc. of Fish and Wildlife Agencies</a></h3>
@@ -178,20 +183,16 @@
 							<p>Catch Robbin at the 2014 Annual Conference of the Southern Association of Fish and Wildlife Agencies. This conference provides a well-balanced exchange of ideas and information of significant benefit to the conservation community in its efforts to manage fish and wildlife resources.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3>WOMMNEXT</h3>
-							<p>Apr. 28th-30th, 2014 | Chicago, IL</p>
-							<p>Come learn from trendsetters who are using experimentation and creativity to get people talking, both online and offline. Forward-thinking leaders, scholars and practitioners will distill what’s next and how to put breakthrough ideas into action.</p>
+							<h3><a target="_blank" href="https://www.ama.org/events-training/Conferences/Pages/American-Marketing-Association's-2014-Annual-Marketing-Conference.aspx">AMA 2014 Annual Conference</a></h3>
+							<p>Oct. 2, 2014 | New Orleans, LA</p>
+							<p>Join John, Geno and more than 400 marketing peers and thought leaders providing inspiration, focus and motivation to help marketers deliver top results. The American Marketing Association's Annual Conference will inspire you with rich content and expert insights from some of the nation's best marketing minds.</p>
 						</div>
 						<div class="large-4 columns">
-							<h3>ConvergeSE</h3>
-							<p>May 1-23, 2014 | Columbia, SC</p>
-							<p>The conference for everyone working with technology in creative ways. With in-depth workshops, a multiple track day and single-track keynotes, ConvergeSE is three days that will leave you changed and inspired.</p>
+							<h3><a target="_blank" href="http://www.tbbaconvention.com/">Texas B&B Assoc. Annual Conference</a></h3>
+							<p>Sep. 7th-9th, 2014 | Galveston, TX</p>
+							<p>See Robbin at The Annual Convention of the Texas Bed & Breakfast Association. The conference that empowers and enlightens innkeepers, aspiring innkeepers and vendors.</p>
 						</div>
-						<div class="large-4 columns">
-							<h3>Brands-Only Summit</h3>
-							<p>Dec. 10th, 2013 | Orlando, FL</p>
-							<p>This is the only social media conference on earth that’s truly for brands — and only for brands.</p>
-						</div>
+
 						
 					</div>
 				</section>
