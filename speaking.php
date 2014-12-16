@@ -144,6 +144,25 @@
 						<h1>Upcoming dates</h1>
 						<p>See you there.</p>
 						<div class="large-4 columns">
+							<h3>Caito Foods Annual Educational Seminar</h3>
+							<p>Sep. 3rd, 2015 | Indianapolis, IN</p>
+							<p>Caito Foods is the nation's premier distributor of fresh fruits and vegetables.</p>
+						</div>
+						<div class="large-4 columns">
+							<h3><a target="_blank" href="http://www.cultgathering.com">CULT Gathering</a></h3>
+							<p>Feb. 18, 2015 | Banff, Alberta Canada</p>
+							<p>Catch Geno presenting and leading a workshop at The Gathering, an annual coming together of the world's most coveted brands to share secrets and learn from renowned marketing thought leaders.</p>
+						</div>
+						<div class="large-4 columns">
+							<h3><a target="_blank" href="http://hrama.org">Hampton Roads AMA March Luncheon</a></h3>
+							<p>March 26, 2015 | Norfolk, VA</p>
+							<p>HRAMA is the leading professional organization within the Hampton Roads marketing community. They encourage the marketing community to #ConnectEducateGrow through their first class programming and networking opportunities.</p>
+						</div>
+					</div>
+					<div class="row">
+						<h2>Past gigs</h2>
+						<p>Sorry we missed you.</p>
+						<div class="large-4 columns">
 							<h3><a target="_blank" href="http://www.tbbaconvention.com/">Texas B&B Assoc. Annual Conference</a></h3>
 							<p>Sep. 7th-9th, 2014 | Galveston, TX</p>
 							<p>See Robbin at The Annual Convention of the Texas Bed & Breakfast Association. The conference that empowers and enlightens innkeepers, aspiring innkeepers and vendors.</p>
@@ -158,10 +177,6 @@
 							<p>Oct. 21, 2014 | Destin, FL</p>
 							<p>Catch Robbin at the 2014 Annual Conference of the Southern Association of Fish and Wildlife Agencies. This conference provides a well-balanced exchange of ideas and information of significant benefit to the conservation community in its efforts to manage fish and wildlife resources.</p>
 						</div>
-					</div>
-					<div class="row">
-						<h2>Past gigs</h2>
-						<p>Sorry we missed tou.</p>
 						<div class="large-4 columns">
 							<h3>WOMMNEXT</h3>
 							<p>Apr. 28th-30th, 2014 | Chicago, IL</p>
@@ -177,21 +192,7 @@
 							<p>Dec. 10th, 2013 | Orlando, FL</p>
 							<p>This is the only social media conference on earth that’s truly for brands — and only for brands.</p>
 						</div>
-						<div class="large-4 columns">
-							<h3>Word of Mouth Marketing (WOMMA) Summit</h3>
-							<p>Nov. 18th-20th, 2013 | Nashville, TN</p>
-							<p>An annual event where marketing innovators collaborate, educate and celebrate the best of the word of mouth and social media industry.</p>
-						</div>
-						<div class="large-4 columns">
-							<h3>PRSA International</h3>
-							<p>Oct. 27th, 2013 | Philadelphia, PA</p>
-							<p>A conference dedicated to helping public relations practitioners respond to "real-time" opportunities and challenges, while also addressing trends and new technologies.</p>
-						</div>
-						<div class="large-4 columns">
-							<h3>PRSSA National Conference</h3>
-							<p>Oct. 25th-29th, 2013 | Philadelphia, PA</p>
-							<p>A comprehensive program of sessions, workshops and discussions laying the groundwork for the future by providing insight for leadership development, media relations, analytics and managing life as a new professional.</p>
-						</div>
+						
 					</div>
 				</section>
 				<section id="spoken-at">
