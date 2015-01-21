@@ -8,6 +8,10 @@
 	<link type="text/css" media="all" rel="stylesheet" href="../css/all.css">
 	<link rel="stylesheet" href="../css/merger.css">
 	<link rel="stylesheet" media="all" href="../gizmo/ss-gizmo.css">
+	<link rel="stylesheet" type="text/css" href="../social-circle/ss-social-circle.css">
+
+	<!-- for Quote Slider -->
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
 
 	<!-- Wufoo CSS -->
 	<link type="text/css" rel="stylesheet" href="../services/wufoocss/form.css">
@@ -82,7 +86,7 @@
 			<div class="row">
 				<div class="large-6 columns">
 					<div class="row">
-						<div class="large-6 large-centered columns">
+						<div class="large-6 small-10 small-centered large-centered columns">
 							<img src="../images/merger/avd.png" alt="Animal Volcano Design">					
 						</div>
 					</div>
@@ -147,13 +151,23 @@
 			<div class="row">
 				<ul class="large-block-grid-4">
 					<li>
-						<div class="team-member ben"></div>
+						
+						<div class="team-member ben">
+							<span class="hover-overlay">
+							<div class="row text-center">
+								<a href="#" class="ss-icon ss-socail-circle ss-mail"></a>
+								<a href="#" class="ss-icon ss-socail-circle ss-twitter"></a>
+								<a href="#" class="ss-icon ss-socail-circle ss-dribbble"></a>
+							</div>
+						</span>
+						</div>
 						<div class="name-titles">
 							<h3>Benjamin Hart</h3>
 							<p class="job-title">Lead Design Thinker<br>/ LA Principal</p>
 						</div>
 					</li>
 					<li>
+						<span class="hover-overlay"></span>
 						<div class="team-member heidi"></div>
 						<div class="name-titles">
 							<h3>Heidi Burkey</h3>
@@ -161,6 +175,7 @@
 						</div>
 					</li>
 					<li>
+						<span class="hover-overlay"></span>
 						<div class="team-member jonah"></div>
 						<div class="name-titles">
 							<h3>Jonah Hart</h3>
@@ -168,6 +183,7 @@
 						</div>
 					</li>
 					<li>
+						<span class="hover-overlay"></span>
 						<div class="team-member josh"></div>
 						<div class="name-titles">
 							<h3>Josh Maynard</h3>
@@ -182,11 +198,23 @@
 			<div class="row section-title">
 				<h2>Read What A Few Of Our Mutual Clients Have To Say:</h2>
 			</div>
-			<div class="row">
-				<div class="large-10 large-centered columns">
-					<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores accusantium dolore amet ad ab voluptas repudiandae!"<cite>&ndash; Rob Morris <span class="title">CEO, Love146</span></cite></blockquote>
+			<div class="quote-slider">
+				<div class="quote">
+					<div class="row">
+						<div class="large-10 large-centered columns">
+							<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores accusantium dolore amet ad ab voluptas repudiandae!"<cite>&ndash; Rob Morris <span class="title">CEO, Love146</span></cite></blockquote>
+						</div>
+					</div>
+				</div>
+				<div class="quote">
+					<div class="row">
+						<div class="large-10 large-centered columns">
+							<blockquote>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores accusantium dolore amet ad ab voluptas repudiandae!"<cite>&ndash; Jim Dean <span class="title">CEO, Love146</span></cite></blockquote>
+						</div>
+					</div>
 				</div>
 			</div>
+			
 		</section>
 		
 
@@ -244,6 +272,17 @@
 		</footer>
 </div>
 
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.quote-slider').slick({
+	  dots: true,
+	  adaptiveHeight: true,
+	  fade: true,
+  	  slide: 'div',
+	});
+});
+</script>
 
 </body>
 </html>
