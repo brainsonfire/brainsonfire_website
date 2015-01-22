@@ -3676,3 +3676,116 @@ body#hello-section #footer{
 		padding: 20px 50px;
 	}
 }
+
+/************ styels for new footer ******************/
+footer#new{
+	background-image: url(../images/merger/sc-la-map-skull.jpg);
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	padding: 3rem 0;
+	background-position: 50% 50%;
+}
+footer#new h2{
+	font-size: 37px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 1rem;
+}
+/* Setup Rows */
+.full.row:before, .full.row:after {
+content: " ";
+display: table;
+}
+.full.row:after {
+clear: both;
+}
+.full.row {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 1200px;
+}
+.locations .ss-location{
+	font-size: 3rem;
+	color: #fff;
+}
+.location-block.column{
+	width: 50%;
+	position: relative;
+	padding-left: 0.9375rem;
+	padding-right: 0.9375rem;
+	float: left;
+	text-align: center;
+}
+
+.location-block p{
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1.2;
+}
+
+.location-block p.phone{
+	color: #15afc2;
+	padding-top: 2rem;
+}
+
+.email.button{
+	padding: 18px 32px;
+	float: center;
+	color: #fff;
+	font: italic 28px/29px Georgia, "Times New Roman", Times, serif;
+	background: #d9531e;
+	text-decoration: none;
+	min-width: 171px;
+	text-align: center;
+	display: inline-block;
+	margin-top: 24px;
+}
+.ss-mail{
+	vertical-align: middle;
+}
+
+/* changes to footer */
+footer *, footer *:before,footer *:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+footer#footer{
+	padding: 36px 0 0;
+}
+footer .footer-top{
+	margin: 0 auto 52px;
+}
+footer .info-text {
+float: none;
+padding: 13px 25px 0 0;
+}
+footer .text-online, footer .text-connect{
+	text-align: center;
+}
+footer .social-networks {
+padding: 20px 10px 0 0;
+list-style: none;
+overflow: hidden;
+display: block;
+margin: 0 auto;
+width: 238px;
+}
+
+@media only screen and (max-width: 40em) { 
+	footer#new {
+		-webkit-background-size: cover;
+		background-size: cover;
+		padding: 3rem 0;
+		background-position: 50px;
+	}
+	.location-block.column {
+	width: 100%;
+	float: center;
+	}
+}
+
