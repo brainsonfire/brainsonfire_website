@@ -8,6 +8,8 @@
     <meta name="description" content="Brains on fire is a Word of Mouth Marketing company located in Greenville, SC. We help national and international organizations ignite powerful, sustainable, word of mouth movements.">
 	<meta name="p:domain_verify" content="4adac28d7be886a74eaaa1aa6268c334"/>
 	<link type="text/css" media="all" rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" href="css/merger.css">
+	<link rel="stylesheet" media="all" href="gizmo/ss-gizmo.css">
 	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="css/ie.css" /><![endif]-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.8.3.min.js"><\/script>')</script>
@@ -61,14 +63,16 @@
 		<section class="cycle-gallery" id="gallery">
 			<div class="mask">
 				<div class="slideset">
-					
+
 					<div class="slide">
 						<div data-picture data-alt = "image description" >
-							<div data-src = "images/slide101-large.jpg" ></div>
+							<div data-src = "images/merger/slide1.jpg" ></div>
+							<!--
 							<div data-src = "images/slide101-medium.jpg" data-media = "(max-width:967px)" ></div>
 							<div data-src = "images/slide101-small.jpg" data-media = "(max-width:724px)" ></div>
 							<div data-src = "images/slide101-mobile.jpg" data-media = "(max-width:480px)" ></div>
 							<div data-src = "images/slide101-mobile2.jpg" data-media = "(max-width:425px)" ></div>
+							-->
 							<!--[if (lt IE 9) & (!IEMobile)]>
 								<div data-src="images/slide101-large.jpg"></div>
 							<![endif]-->
@@ -81,13 +85,32 @@
 						</div>
 					</div>
 					
+					<div class="slide">
+						<div data-picture data-alt = "image description" >
+							<div data-src = "images/merger/slide2.jpg" ></div>
+							<div data-src = "images/slide101-medium.jpg" data-media = "(max-width:967px)" ></div>
+							<div data-src = "images/slide101-small.jpg" data-media = "(max-width:724px)" ></div>
+							<div data-src = "images/slide101-mobile.jpg" data-media = "(max-width:480px)" ></div>
+							<div data-src = "images/slide101-mobile2.jpg" data-media = "(max-width:425px)" ></div>
+							<!--[if (lt IE 9) & (!IEMobile)]>
+								<div data-src="images/slide101-large.jpg"></div>
+							<![endif]-->
+							<!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+							<noscript><img src="images/slide101-large.jpg" width="1500" height="838" alt="image description" ></noscript>
+						</div>
+						<div class="txt">
+							<strong class="title">We are thrilled<br>to announce that we<br>are opening an la office!</strong>
+							<a href="./work" class="button">learn more about our la la land team</a>
+						</div>
+					</div>
+					
 
 					
 				</div>
 			</div>
-			<!-- <a class="btn-prev" href="#">Previous</a>
+			<a class="btn-prev" href="#">Previous</a>
 			<a class="btn-next" href="#">Next</a>
-			<div class="pagination"></div> -->
+			<div class="pagination"></div> 
 			<a href="#checkpoint1" class="btn-down">Scroll down</a>
 		</section>
 		<section id="checkpoint1" class="section-work">
@@ -121,23 +144,34 @@
 			</div>
 		</section>
 
+		<footer id="new" class="locations">
+			<div class="full row">
+				<div class="column location-block">
+					<i class="ss-icon ss-gizmo ss-location"></i>
+					<h2>South Carolina</h2>
+					<p>148 RIVER STREET</p>
+					<p>SUITE 100</p>
+					<p>GREENVILLE, SC 29601</p>
+
+					<p class="phone">864.676.9663</p>
+					<a href="mailto:firestarter@brainsonfire.com" class="email button"><i class="ss-icon ss-gizmo ss-mail"></i> email us</a>
+				</div>
+				<div class="column location-block">
+					<i class="ss-icon ss-gizmo ss-location"></i>
+					<h2>Los Angeles</h2>
+					<p>1800 S. Brand Blvd.</p>
+					<p>SUITE 122</p>
+					<p>LOS ANGELES, CA 91604</p>
+
+					<p class="phone">818.937.9506</p>
+					<a href="#" class="email button"><i class="ss-icon ss-gizmo ss-mail"></i> email us</a>
+				</div>
+			</div>
+		</footer>
+
 		<footer id="footer">
 			<div class="footer-top">
-				<a class="go-top go-top-js" href="#wrapper">goto top</a>
-				<div class="talk-panel">
-					<strong class="title">talk to US</strong>
-					<span class="text-pick">Pick your poison</span>
-				</div>
-				<ul class="footer-nav">
-					<li>
-						<span class="call">Give us a call!</span>
-						<a href="tel:864-676-9663" class="tel">864-676-9663</a>
-					</li>
-					<li>
-						<a class="email-us" href="mailto:firestarter@brainsonfire.com">email us</a>
-					</li>
-					<li class="social-media">
-						<div class="cennect-panel">
+				<div class="cennect-panel">
 							<div class="info-text">
 								<span class="text-online">connect online</span>
 								<span class="text-connect">or Lurk, we don’t mind</span>
@@ -151,8 +185,6 @@
 								<li class="slideshare"><a href="http://www.slideshare.net/genochurch">slideshare</a></li>
 							</ul>
 						</div>
-					</li>
-				</ul>
 			</div>
 			<section class="footer-bottom">
 				<div class="footer-holder">
